@@ -1,1 +1,2 @@
-canonifyURLs = false
+canonifyURLs = true
+baseurl = https://scicloj.github.io/scicloj-website/
