@@ -1,23 +1,25 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "Scicloj"
+logo = "/sci-cloj-logo-transparent.png"
+# logo = "./sci-cloj-logo-name-transparent.png"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+titleAddition = "A Clojure community for data science"
+description = "Scicloj is building a stack of Clojure libraries for data science, and scientific computing."
 
 ## Documentation
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = [""]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+domainTLD = "scicloj.org"
+titleHome = "Scicloj"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
+twitterSite = "@scicloj"
+twitterCreator = "@daslu_"
 
 ## JSON-LD
 # schemaType = "Person"
