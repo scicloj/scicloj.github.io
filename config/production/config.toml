@@ -1,2 +1,2 @@
 canonifyURLs = true
-baseurl = https://scicloj.github.io/scicloj-website/
+baseURL = https://scicloj.github.io/scicloj-website/
