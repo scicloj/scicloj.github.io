@@ -1,4 +1,4 @@
-A draft for a Scicloj website redesign, based on the [Doks]("https://getdoks.org/") Hugo theme.
+A draft for a Scicloj website redesign, based on the [Doks](https://getdoks.org/) Hugo theme.
 
 ### Local development
 
