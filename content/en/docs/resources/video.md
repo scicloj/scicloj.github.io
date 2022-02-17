@@ -1,7 +1,7 @@
 ---
-title : "Video"
-description: "Video resources"
-lead: "Video resources"
+title : "video"
+description: "video resources"
+lead: "video resources"
 date: 2022-02-14
 lastmod: 2022-02-14
 draft: false
