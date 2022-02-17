@@ -20,6 +20,7 @@ For every library, we mark whether it is actively developed (`act`), and whether
 We tag libraries with the field they are relevant to.
 
 * `array` - array programming
+* `tensor`- tensor programming
 * `linalg` - linear algegra
 * `native` - interop with native-optimized libraries
 * `gpu` - gpu support
@@ -38,20 +39,20 @@ We tag libraries with the field they are relevant to.
 * `rand` - simulation and random sampling
 * `prob` - Bayesian computing and probabilistic programming
 * `ml` - machine learning
-* `dl` - deep learning
+* `dnn` - deep learning
 * `opt` - optimization
 * `graph` - graph algorithms and network analysis
 * `interop` - general libraries for interop
 * `cljs` - supports not only Clojure but also Clojurescript
 
 ## Diverse toolsets
-- [spork](https://github.com/joinr/spork) (`act`): `opt`,`df`,`vis`,`rand`,`graph`,`ui` - a toolbox for data-science and operation research
 - [fastmath](https://github.com/generateme/fastmath) (`act`): `math`,`stat`,`rand`,`ml` - a collection of functions for mathematical and statistical computing, macine learning, etc., wrapping several JVM libraries
+- [spork](https://github.com/joinr/spork): `opt`,`df`,`vis`,`rand`,`graph`,`ui` - a toolbox for data-science and operation research
 - [Incanter](https://github.com/incanter/incanter): `df`,`stat`,`vis`,`rand`,`csv` - an R-like data-science platform built on top of the core.matrix abstractions
 - [huri](https://github.com/sbelak/huri): `df`,`stat`,`vis` - a toolbox for data-science using plain sequences of maps
 
 ## Array programming, linear algebra
-- [dtype-next](https://github.com/cnuernber/dtype-next) (`act`): `array`,`native`,`stat` - abstractions and foundations for working with array-like structures and sequential structures
+- [dtype-next](https://github.com/cnuernber/dtype-next) (`act`): `array`,`tensor`, `native`,`stat` - abstractions and foundations for working with array-like structures and sequential structures
 - [tvm-clj](https://github.com/techascent/tvm-clj) (`act`,`exp`): `array`,`linalg`,`native`,`gpu` - bindings to [tvm](https://github.com/apache/incubator-tvm)
 - [Neanderthal](https://neanderthal.uncomplicate.org/) (`act`): `array`,`linalg`,`native`,`gpu` - matrix and linear algebra in Clojure
 - [jutsu.matrix](https://github.com/hswick/jutsu.matrix): `array`,`linalg`,`native`,`gpu` - bindigs to [ND4J](https://deeplearning4j.org/docs/latest/nd4j-overview)
@@ -63,8 +64,9 @@ We tag libraries with the field they are relevant to.
 
 ## Literate programming and data visualization
 - [Hanami](https://github.com/jsa-aerial/hanami)(`act`): `vis`,`vega`,`ui`,`hiccup`,`cljs` - a template system for creating interactive data visualizations using Vega/Vega-lite, Reagent and Re-Com
-- [Saite](https://github.com/jsa-aerial/saite) (`act`): `vis`,`vega`,`lit`,`ui`,`hiccup`,`cljs` - a literate programming application written using Hanami
+- [Saite](https://github.com/jsa-aerial/saite) (`act`): `vis`,`vega`,`lit`,`ui`,`hiccup`,`cljs` - data exploration, dashboards, and interactive documents
 - [Oz](https://github.com/metasoarous/oz) (`act`): `vis`,`vega`,`lit` - data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming
+- [Clerk](https://github.com/nextjournal/clerk) (`act`): `vis`, `vega`, `lit`, `cljs` - local-first notebooks for Clojure
 - [tech.viz](https://github.com/techascent/tech.viz) (`act`): `vis`,`vega`,`cljs` - simple data visualization for Clojure/Clojurescript that using vega and [darkstar](https://github.com/appliedsciencestudio/darkstar) for rendering
 - [Gorilla-REPL](http://gorilla-repl.org/): `lit` - a notebook application written in Clojure and Javascript
 - [Gorilla-plot](https://github.com/JonyEpsilon/gorilla-plot): `vis`,`vega` - plotting functions using Vega for Gorilla-REPL
@@ -127,16 +129,19 @@ In addition to Oz, Hanami and Gorilla-plot mentioned above, here is a list of de
 
 ## Bayesian computing, random sampling & probprog
 - [inferme](https://github.com/generateme/inferme): `prob`,`rand`,`vis` - extensible probabilistic programming in Clojure itself (rather than a language variation), with support for visualizations
-- [bayadera](https://github.com/uncomplicate/bayadera): `prob`,`gpu` - Bayesian computing using the GPU
+- [bayadera](https://github.com/uncomplicate/bayadera): `stat`, `rand`, `prob`,`gpu` - Bayesian computing using the GPU
 - [sampling](https://github.com/bigmlcom/sampling): `rand` - support srandom sampling of different kinds
 - [distributions](https://github.com/michaellindon/distributions): `rand`,`prob` - random sampling and some basic Bayesian computing for certain families of distributions
 - [metaprob](https://github.com/probcomp/metaprob) (`exp`): `prob`,`rand`,`cljs` - an embedded languages for probabilistic programming and metaprogramming
+- [daphne](https://github.com/plai-group/daphne) (`exp`): `prob` - a probabilisic programming compiler from Clojure syntax to Pytorch
 - [anglican](http://probprog.ml/anglican/index.html): `prob`,`rand`,`cljs` - a probabilistic programming language written in clojure, that supports a subset of clojure
 - [masonclj](https://github.com/mars0i/masonclj): `rand` - a Clojure wrapper of [MASON](https://cs.gmu.edu/~eclab/projects/mason/), which is a Java library for discrete-event multiagent simulation.
 - [dsim.cljc](https://github.com/dvlopt/dsim.cljc) (`act`): `rand`,`cljs` - an event-driven engine for Clojure(script) heavily borrowing ideas from discrete-event simulation and hybrid dynamical systems
 - [date-gen](https://github.com/conjunctive/date-gen) (`act`): `rand` - randomized date generation supporting CSV output
 - [drand](https://github.com/jimpil/drand-clj): `rand` - a client to the [Drand](https://drand.love) randomness servifdce
 
+## Computer algebra
+- [sicmutils](https://github.com/sicmutils/sicmutils) (`act`) - a computer algebra system in Clojure
 
 ## Machine learning
 - [tech.ml-base](https://github.com/techascent/tech.ml-base) (`act`): `ml` - a machine learning platform based on tech.ml.dataset, supporting not just ml algorithms, but also relevant ETL processing; wraps multiple machine learning libraries
@@ -144,16 +149,17 @@ In addition to Oz, Hanami and Gorilla-plot mentioned above, here is a list of de
 - [clj-ml](https://github.com/joshuaeckroth/clj-ml/): `ml` - machine learning based on wrapping libraries such as the Weka Java library
 - [clj-boost](https://gitlab.com/alanmarazzi/clj-boost): `ml` - a wrapper for XGBoost
 - [propaganda](https://github.com/tgk/propaganda): `ml` - an implementation of the propagator computational model
+
 ### Genetic programming
 - [Clojush](https://github.com/lspector/Clojush) (`act`): `ml` - an implementation of the Push programming language for genetic programming
 - [Propeller](https://github.com/lspector/propeller) (`act`): `ml` - "Yet another Push-based genetic programming system in Clojure"
 
 ### Deep learning
-- [MXNet](https://github.com/apache/incubator-mxnet/tree/master/contrib/clojure-package): `dl` - bindings to Apache MXNet - part of the MXNet project
-- [Deep Diamond](https://github.com/uncomplicate/deep-diamond) (`act`): `dl`,`native`,`gpu` - infrastructure for tensor computation and deep learning
-- [jutsu.ai](https://github.com/hswick/jutsu.ai): `dl` - a wrapper for deeplearning4j
-- [Cortex](https://github.com/originrose/cortex): `dl` - a deep learning library written in Clojure
-- [Flare](https://github.com/aria42/flare): `dl` - dynamic neural networks in Clojure
+- [MXNet](https://github.com/apache/incubator-mxnet/tree/master/contrib/clojure-package): `dnn` - bindings to Apache MXNet - part of the MXNet project
+- [Deep Diamond](https://github.com/uncomplicate/deep-diamond) (`act`): `tensor`, `dnn`,`native`,`gpu` - infrastructure for tensor computation and deep learning
+- [jutsu.ai](https://github.com/hswick/jutsu.ai): `dnn` - a wrapper for deeplearning4j
+- [Cortex](https://github.com/originrose/cortex): `dnn` - a deep learning library written in Clojure
+- [Flare](https://github.com/aria42/flare): `dnn` - dynamic neural networks in Clojure
 
 ## Interop
 - [Libpython-clj](https://github.com/clj-python/libpython-clj) (`act`): `interop` - interop with Python
@@ -173,6 +179,8 @@ In addition to Oz, Hanami and Gorilla-plot mentioned above, here is a list of de
 ## Distributed computing 
 - [overseer](https://github.com/framed-data/overseer) - a library for building and running data pipelines
 - [titanoboa](https://www.titanoboa.io) - a fully distributed, highly scalable and fault tolerant workflow orchestration platform
+- [onyx](http://www.onyxplatform.org/) - a library for distributed computation in the cloud
+
 ### Hadoop
 - [Parkour](https://github.com/damballa/parkour) - Hadoop MapReduce in idiomatic Clojure
 ### Spark
