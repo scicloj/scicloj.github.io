@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://scicloj.github.io/scicloj-website/sitemap.xml
+Sitemap: https://scicloj.github.io/sitemap.xml
