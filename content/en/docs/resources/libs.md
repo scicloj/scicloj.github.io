@@ -106,7 +106,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [geo-clj](https://github.com/r0man/geo-clj) :star: (`act`): `geo`,`cljs` - encoding/decoding of geographic datatypes 
 
 ## Dataframe-like structures
-- [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on tech.datatype abstractions, with an implementation using the Tablesaw Java library
+- [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure
 - [tablecloth](https://github.com/scicloj/tablecloth) :star: (`act`): `df`,`csv` - a dataframe grammar wrapping tech.ml.dataset, inspired by serveral R libraries
 - [Panthera](https://github.com/alanmarazzi/panthera): `df`,`py` - a Clojure API wrapping Python's Pandas library
 - see also geni :star: under the Spark sub category below 
