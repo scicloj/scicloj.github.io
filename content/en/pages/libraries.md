@@ -1,2 +1,2 @@
-This page has moved [here](../docs/resources/libs).
+This page has moved [here](../../docs/resources/libs).
 
