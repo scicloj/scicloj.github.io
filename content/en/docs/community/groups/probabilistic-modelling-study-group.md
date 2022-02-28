@@ -1,13 +1,13 @@
 ---
-title : "Study group: Probabilistic Modeling and Bayesian Statistics"
-description: "Study group: Probabilistic Modeling and Bayesian Statistics"
+title : "Probabilistic-modelling-study-group"
+description: "Probabilistic Modelling and Bayesian Statistics study group"
 lead: ""
 date: 2022-02-28
 lastmod: 2022-02-28
 draft: false
 images: []
 ---
-Unlike most Scicloj projects, this one is not focused on Clojure. It is an online study group about probabilistic modeling, open to people of diverse technical backgrounds.
+Unlike most Scicloj projects, this one is not focused on Clojure. It is an online study group about probabilistic modelling, open to people of diverse technical backgrounds.
 
 As of Feb. 2022, we are still checking the possibility of organizing this group, hoping to decide and possibly begin in the coming weeks. 
 
