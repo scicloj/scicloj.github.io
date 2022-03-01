@@ -13,7 +13,7 @@ Unlike most Scicloj projects, this one is not focused on Clojure. It is an onlin
 
 As of Feb. 2022, we are still checking the possibility of organizing this group, hoping to decide and possibly begin in the coming weeks. 
 
-Your response to [the survey](https://bit.ly/scicloj-probmod-group-survey) would help a lot in our planning.
+Your response to :star  [the survey](https://bit.ly/scicloj-probmod-group-survey) :star would help a lot in our planning.
 
 The details below are tentative and will probably change following your feedback and community discussions.
 
