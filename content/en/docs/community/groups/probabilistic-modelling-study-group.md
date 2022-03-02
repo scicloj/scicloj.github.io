@@ -23,6 +23,8 @@ We will begin by learning one introductory book, probably [Think Bayes 2](https:
 
 Then, we will proceed with more advanced books and articles.
 
+This field of statistics is tightly related to programming, and during our learning we will look into different languages and libraries for Bayesian computing and probabilistic programming.
+
 In parallel to the main path of learning, we will encourage individual and small-group projects, and will continuously share our progress with each other.
 
 ## Sessions
