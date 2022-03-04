@@ -77,6 +77,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [Vega-clj](https://github.com/behrica/vg-cli) (`act`): `vis`,`vega` - a clojure wrapper for the (node-based) Vega-cli and Vega-lite standalone scrips
 - [Optikon](https://github.com/stathissideris/optikon): `vis`,`vega` - a command line tool that wraps Vega and Vega-lite - using GraalVM polyglot programming
 - [Vegafx](https://github.com/joinr/Vegafx): `vis`,`vega` - a static-site viewer using javafx that renders Vega specs
+- [VL example gallery as EDN](https://behrica.github.io/vl-galery/convert): The vega lite example in EDN format, ready to be copy/pasted into Clojure code
 
 ## Data visualization libraries
 - [cljplot](https://github.com/generateme/cljplot) :star: (`act`,`exp`): `vis` - a data visualization platform written in Clojure and inspired by R's ggplot2 and lattice libraries
