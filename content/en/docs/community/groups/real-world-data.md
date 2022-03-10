@@ -14,8 +14,7 @@ The goal is to create a space where individuals, companies, academic groups, and
 
 We want it to be a safe space, that would be comfortable for sharing successes, troubles, problems, hopes, and doubts. We want it to be useful not only for those who use mostly Clojure but also for those who are curious-but-doubtful.
 
-**Future**: 
-* Meeting 1 - the beginning (Feb. 25th 2022) - [announcement](https://clojureverse.org/t/real-world-data-meetup-1/)
+* Meeting 1 - the beginning (Feb. 25th 2022) - [announcement](https://clojureverse.org/t/real-world-data-meetup-1/) - video coming soon
 
 **Organizers**: João Santiago and Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
 
