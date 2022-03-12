@@ -10,7 +10,7 @@ images: []
 
 The goal of the group is to create collaborations around learning and building Clojure tools for data visualization and literate programming.
 
-The authors of several activeky developed tools are involved (Chlorine, Clover, Portal, Viscous, omni-trace, Saite, Notespace, etc.).
+The authors of several actively developed tools are involved (Chlorine, Clover, Calva, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Saite, Notespace, etc.).
 
 * Meeting 1 - the beginning (Feb. 4th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-1-summary-video/).
 * Meeting 2 - compatibility across tools (Feb. 19th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-2-summary-video/)
