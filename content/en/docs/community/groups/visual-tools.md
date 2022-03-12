@@ -14,7 +14,7 @@ The authors of several activeky developed tools are involved (Chlorine, Clover, 
 
 * Meeting 1 - the beginning (Feb. 4th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-1-summary-video/).
 * Meeting 2 - compatibility across tools (Feb. 19th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-2-summary-video/)
-* Meeting 3 - general montlhy meeting (Mar. 5th 2022) - summary & video coming soon
+* Meeting 3 - general montlhy meeting (Mar. 5th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-3-summary-video/)
 
 **Background**:
 * The re:Clojure Data Science Special (Dec. 5th 2021) had a session that overviewed some of the relevant tools in the field - [video](https://www.youtube.com/watch?v=lqb4XlFI-08&list=PLtw0bWXdq7pNyb2NojSGBnCARRuvLxsAc&index=5)
@@ -23,7 +23,8 @@ The authors of several activeky developed tools are involved (Chlorine, Clover, 
 
 **Frequency of meetings**: All-hands meeting roughly every month + ad-hoc meetings of sub-groups on specific topics
 
-**Chat stream**: [#visual-tools](https://clojurians.zulipchat.com/#narrow/stream/313390-visual-tools)
+**Chat stream**: [#visual-tools](https://clojurians.zulipchat.com/#narrow/stream/313390-visual-tools** at Clojurians Zulip and at Clojurians Slack
 
+**Repo for collaboration**: You are invited to add your experiments and notes to [scicloj/visual-tools-experiments](https://github.com/scicloj/visual-tools-experiments).
 
 
