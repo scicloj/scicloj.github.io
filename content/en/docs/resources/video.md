@@ -28,6 +28,7 @@ Scicloj joined the London Clojurians in organizing the [re:Clojure](https://www.
 The visual tools group is about creating collaborations across differnent tooling projects for data visualization and literate programming.
 - [Feb. 4th, 2022](https://www.youtube.com/watch?v=rZtOjpokGpw) - a first meeting of the visual-tools group
 - [Feb. 19th, 2022](https://www.youtube.com/watch?v=Ucu2hQ5LXIw) - the secone meeting, focusing on compatibility across tools
+- [Mar. 5th, 2022](https://www.youtube.com/watch?v=uqKta5i7A9c) - the third meeting, a monthly meeting about various topics
 
 ### ml-study
 The ml-study group (on hold as of Feb. 2022) is about practicing the usage of the emerging Clojure data science stack. Most of its recordings have been shared internally at the Zulip chat. One of them was made public.
