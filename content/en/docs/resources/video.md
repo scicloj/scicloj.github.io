@@ -70,8 +70,10 @@ The ml-study group (on hold as of Feb. 2022) is about practicing the usage of th
 
 ## Status reports
 
-### Notespace
+### Visual-tools
+- Mar. 13th, 2022, Visual tools compatibility - [video](https://www.youtube.com/watch?v=e3M4u1XIVTo)
 
+### Notespace
 - Nov. 29th, 2021, Notepace v4 status - [video](https://www.youtube.com/watch?v=uICA2SDa-ws)
 - Aug. 19th 2021, Notespace v3 status - [video](https://www.youtube.com/watch?v=Ufyqwzn1RDs)
 - Aug 24th, 2020, Notespace v3 status - [video](https://www.youtube.com/watch?v=_GcTnkhn9g0)
