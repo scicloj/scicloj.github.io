@@ -15,6 +15,8 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 * Meeting 1 - the beginning (Feb. 4th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-1-summary-video/).
 * Meeting 2 - compatibility across tools (Feb. 19th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-2-summary-video/)
 * Meeting 3 - general montlhy meeting (Mar. 5th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-3-summary-video/)
+* Meeting 4 - studying Clerk (Mar. 25th 2022) - [event](https://clojureverse.org/t/visual-tools-meeting-4-studying-clerk/)
+* Meeting 5 - general monthly meeting (Apr. 2nd 2022) - [event](https://clojureverse.org/t/visual-tools-meeting-5-general-monthly-meeting/)
 
 **Background**:
 * The re:Clojure Data Science Special (Dec. 5th 2021) had a session that overviewed some of the relevant tools in the field - [video](https://www.youtube.com/watch?v=lqb4XlFI-08&list=PLtw0bWXdq7pNyb2NojSGBnCARRuvLxsAc&index=5)
