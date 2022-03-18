@@ -18,15 +18,20 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 * Meeting 4 - studying Clerk (Mar. 25th 2022) - [event](https://clojureverse.org/t/visual-tools-meeting-4-studying-clerk/)
 * Meeting 5 - general monthly meeting (Apr. 2nd 2022) - [event](https://clojureverse.org/t/visual-tools-meeting-5-general-monthly-meeting/)
 
-**Background**:
-* The re:Clojure Data Science Special (Dec. 5th 2021) had a session that overviewed some of the relevant tools in the field - [video](https://www.youtube.com/watch?v=lqb4XlFI-08&list=PLtw0bWXdq7pNyb2NojSGBnCARRuvLxsAc&index=5)
-
-**Organizers**: Lukas Domalga & Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
+**Organizers**: Lukas Domalga, Kira McLean, Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
 
 **Frequency of meetings**: All-hands meeting roughly every month + ad-hoc meetings of sub-groups on specific topics
 
 **Chat stream**: [#visual-tools](https://clojurians.zulipchat.com/#narrow/stream/313390-visual-tools) at Clojurians Zulip and at Clojurians Slack
 
-**Repo for collaboration**: You are invited to add your experiments and notes to [scicloj/visual-tools-experiments](https://github.com/scicloj/visual-tools-experiments).
+**Resources**:
+You are invited to add your experiments and notes.
 
+* [scicloj/visual-tools-experiments](https://github.com/scicloj/visual-tools-experiments) - repo for collaboration.
 
+* [common notes](https://bit.ly/clj-visual-tools-resources) - from meetings, etc.
+
+* background - [the visual tools session](https://www.youtube.com/watch?v=lqb4XlFI-08&list=PLtw0bWXdq7pNyb2NojSGBnCARRuvLxsAc&index=5) at the re:Clojure Data Science Special (Dec. 5th 2021), overviewing some of the relevant tools in the field
+
+* Video status reports:
+  * Mar. 13th, 2022, [Visual tools compatibility](https://www.youtube.com/watch?v=e3M4u1XIVTo) - describing the [Portal-Clerk-Kindly-nREPL experiment](https://github.com/scicloj/visual-tools-experiments/tree/main/portal-clerk-kindly-nrepl-1)
