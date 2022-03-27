@@ -29,6 +29,7 @@ The visual tools group is about creating collaborations across differnent toolin
 - [Feb. 4th, 2022](https://www.youtube.com/watch?v=rZtOjpokGpw) - a first meeting of the visual-tools group
 - [Feb. 19th, 2022](https://www.youtube.com/watch?v=Ucu2hQ5LXIw) - the secone meeting, focusing on compatibility across tools
 - [Mar. 5th, 2022](https://www.youtube.com/watch?v=uqKta5i7A9c) - the third meeting, a monthly meeting about various topics
+- [Mar. 25th, 2022](https://www.youtube.com/watch?v=1bdUfq-8XLM) - the forth meeting, a study session about Clerk
 
 ### ml-study
 The ml-study group (on hold as of Feb. 2022) is about practicing the usage of the emerging Clojure data science stack. Most of its recordings have been shared internally at the Zulip chat. One of them was made public.
