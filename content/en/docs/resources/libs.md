@@ -32,7 +32,8 @@ We tag libraries with the field they are relevant to.
 * `geo` - geographical and geometrical data processing
 * `df` - dataframe-like data structures and abstructions
 * `data` - general data processing
-* `csv` - csv support
+* `csv` - csv import/export
+* `json` - json import/explort
 * `xform` - transducers support
 * `math` - diverse math functions
 * `stat` - statistics
@@ -59,6 +60,7 @@ We tag libraries with the field they are relevant to.
 - [Saite](https://github.com/jsa-aerial/saite) :star: (`act`): `vis`,`vega`,`lit`,`ui`,`hiccup`,`cljs` - data exploration, dashboards, and interactive documents
 - [Oz](https://github.com/metasoarous/oz) :star: (`act`): `vis`,`vega`,`lit` - data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming
 - [Clerk](https://github.com/nextjournal/clerk) :star: (`act`): `vis`, `vega`, `lit`, `cljs` - local-first notebooks for Clojure
+- [Clay](https://github.com/scicloj/clay) :star: (`act`): `vis`, `vega`, `lit`, `cljs` - a small tool for compatible dynamic experience over some of the other visual tools
 - [rmarkdown-clojue](https://github.com/genmeblog/rmarkdown-clojure) :star: : `vis`, `lit` - rendering Clojure code in various format using [Rmarkdown](https://rmarkdown.rstudio.com/)
 - [Pink-Gorilla/Goldly](https://github.com/pink-gorilla/goldly) :star: (`act`,`exp`, temporary name): `vis`,`lit`,`ui`,`cljs` - a port of the Gorilla REPL project using a Clojurescript (Reagent) frontend
 - [Org-babel-clojure](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-clojure.html) :star: : `lt` - executing Clojure inside Emacs Org-mode documents
@@ -97,6 +99,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [Meander](https://github.com/noprompt/meander) :star: (`act`): `data`,`cljs` - transforming neseted data structures by declaratively declaring the shape of source and target datastructures
 - [xforms](https://github.com/cgrand/xforms): :star: `data`,`cljs`,`xform` - a collection of transduces and reducing functions
 - [Odin](https://github.com/halgari/odin): `data` - processing nested data structures by extensible logic programming
+- [Charred](https://github.com/cnuernber/charred): :star: `csv`, `json` - zero dependency efficient read/write of json and csv data. 
 - [Semantic Csv](https://github.com/metasoarous/semantic-csv): `csv`,`cljs` - higher level csv parsing/processing
 
 ## Geospatial processing 
