@@ -85,6 +85,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [Hanami](https://github.com/jsa-aerial/hanami) :star: (`act`): `vis`,`vega`,`ui`,`hiccup`,`cljs` - a template system for creating interactive data visualizations using Vega/Vega-lite, Reagent and Re-Com
 - [tech.viz](https://github.com/techascent/tech.viz) :star: (`act`): `vis`,`vega`,`cljs` - simple data visualization for Clojure/Clojurescript that using vega and [darkstar](https://github.com/appliedsciencestudio/darkstar) for rendering
 - [viz.clj](https://github.com/scicloj/viz.clj) :star: (`act`, `exp`): `vis`, `vega` - a data visualization library for beginners (WIP)
+- [Clojure2D](https://github.com/Clojure2D/clojure2d) :star: (`act`): `vis` - Java2D wrapper + creative coding supporting functions (based on Processing and openFrameworks) 
 - [Quil](https://github.com/quil/quil) :star:: `vis` - a clojure/clojuresctit wrapper for Processing 
 - [thi-ng/geom](https://github.com/thi-ng/geom) :star: : `vis`,`cljs` - 2d/3d geometry toolkit
 - [Gorilla-plot](https://github.com/JonyEpsilon/gorilla-plot) :star: : `vis`,`vega` - plotting functions using Vega for Gorilla-REPL
