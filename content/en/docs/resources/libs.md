@@ -99,7 +99,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [Meander](https://github.com/noprompt/meander) :star: (`act`): `data`,`cljs` - transforming neseted data structures by declaratively declaring the shape of source and target datastructures
 - [xforms](https://github.com/cgrand/xforms): :star: `data`,`cljs`,`xform` - a collection of transduces and reducing functions
 - [Odin](https://github.com/halgari/odin): `data` - processing nested data structures by extensible logic programming
-- [Charred](https://github.com/cnuernber/charred): :star: `csv`, `json` - zero dependency efficient read/write of json and csv data. 
+- [Charred](https://github.com/cnuernber/charred) (`act`): :star: `csv`, `json` - zero dependency efficient read/write of json and csv data. 
 - [Semantic Csv](https://github.com/metasoarous/semantic-csv): `csv`,`cljs` - higher level csv parsing/processing
 
 ## Geospatial processing 
