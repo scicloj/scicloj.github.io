@@ -61,7 +61,7 @@ We tag libraries with the field they are relevant to.
 - [Oz](https://github.com/metasoarous/oz) :star: (`act`): `vis`,`vega`,`lit` - data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming
 - [Clerk](https://github.com/nextjournal/clerk) :star: (`act`): `vis`, `vega`, `lit`, `cljs` - local-first notebooks for Clojure
 - [Clay](https://github.com/scicloj/clay) :star: (`act`): `vis`, `vega`, `lit`, `cljs` - a small tool for compatible dynamic experience over some of the other visual tools
-- [rmarkdown-clojue](https://github.com/genmeblog/rmarkdown-clojure) :star: : `vis`, `lit` - rendering Clojure code in various format using [Rmarkdown](https://rmarkdown.rstudio.com/)
+- [rmarkdown-clojure](https://github.com/genmeblog/rmarkdown-clojure) :star: : `vis`, `lit` - rendering Clojure code in various format using [Rmarkdown](https://rmarkdown.rstudio.com/)
 - [Pink-Gorilla/Goldly](https://github.com/pink-gorilla/goldly) :star: (`act`,`exp`, temporary name): `vis`,`lit`,`ui`,`cljs` - a port of the Gorilla REPL project using a Clojurescript (Reagent) frontend
 - [Org-babel-clojure](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-clojure.html) :star: : `lt` - executing Clojure inside Emacs Org-mode documents
 - [Devcards](https://github.com/bhauman/devcards):star: : `lit`,`cljs`- visual repl exprience for Clojurescript
