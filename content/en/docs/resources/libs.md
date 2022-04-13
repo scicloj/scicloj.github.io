@@ -13,7 +13,7 @@ contributors: ["daslu"]
 ---------------------------------------------------------------------------------------
 To supplement our opinionated blog posts analysing the ecosystem, here is a less-opinionated, plain list of relevant libraries written by Clojurians. Not all libraries mentioned here are affiliated with Scicloj, but we seek to be in dialogue with library authors as much as possible.
 
-Do you know about anything relevant that is missing here? - [Let us talk](../about/#where)!
+Do you know about anything relevant that is missing here? - [Let us talk](../../community/contact)!
 
 For every library, we mark whether it is actively developed (`act`), and whether it is still experimental (`exp`).
 A star (:star:) means that we know the library to be actively used and useful.
