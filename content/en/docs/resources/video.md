@@ -12,7 +12,7 @@ contributors: ["daslu"]
 
 ## re:Clojure 2021
 
-Scicloj joined the London Clojurians in organizing the [re:Clojure](https://www.reclojure.org/) 2021 event and its workshops - :star: The following playlists recommended are recommended as an up-to-date look into a few parts of the emerging data-science stack. :star: 
+Scicloj joined the London Clojurians in organizing the [re:Clojure](https://www.reclojure.org/) 2021 event and its workshops - :star: The following playlists are recommended as an up-to-date look into a few parts of the emerging data-science stack. :star: 
 - Dec. 5th, re:Clojure 2021 Data Science Special - [playlist](https://www.youtube.com/watch?v=t32bIbzQdCU&list=PLtw0bWXdq7pNyb2NojSGBnCARRuvLxsAc)
 - Dec. 3rd-4th, re:Clojure 2021 Conference - [playlist](https://www.youtube.com/watch?v=3ANS2NTNgig&list=PLtw0bWXdq7pNzQE0wqvCSovFSNgrn4PLK)
 - Nov., re:Clojure 2021 Workshops - [playlist](https://www.youtube.com/watch?v=OIhLXQ1fdZs&list=PLtw0bWXdq7pOzX2T7eeHq_nnGDQkjsdR5)
