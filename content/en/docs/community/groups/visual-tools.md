@@ -17,7 +17,8 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 * Meeting 3 - general montlhy meeting (Mar. 5th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-3-summary-video/)
 * Meeting 4 - studying Clerk internals (Mar. 25th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-4-summary-video/)
 * Meeting 5 - general monthly meeting (Apr. 2nd 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-5-summary-video/)
-* Meeting 6 - general monthly meeting (May. 6th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-6-summary-video/8946)
+* Meeting 6 - general monthly meeting (May. 6th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-6-summary-video/)
+* Meeting 7 - Saturn (May. 27th 2022) - [event](https://clojureverse.org/t/visual-tools-meeting-7-saturn/)
 
 **Organizers**: Lukas Domalga, Kira McLean, Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
 
