@@ -22,7 +22,7 @@ We tag libraries with the field they are relevant to.
 
 * `array` - array programming
 * `tensor`- tensor programming
-* `linalg` - linear algegra
+* `linalg` - linear algebra
 * `native` - interop with native-optimized libraries
 * `gpu` - gpu support
 * `vis` - data visualization and visual art
@@ -30,10 +30,10 @@ We tag libraries with the field they are relevant to.
 * `lit` - literate programming
 * `ui` - building UIs for data exploration
 * `geo` - geographical and geometrical data processing
-* `df` - dataframe-like data structures and abstructions
+* `df` - dataframe-like data structures and abstractions
 * `data` - general data processing
 * `csv` - csv import/export
-* `json` - json import/explort
+* `json` - json import/export
 * `xform` - transducers support
 * `math` - diverse math functions
 * `stat` - statistics
@@ -48,7 +48,7 @@ We tag libraries with the field they are relevant to.
 * `cljs` - supports not only Clojure but also Clojurescript
 
 ## Diverse toolsets
-- [fastmath](https://github.com/generateme/fastmath) :star: (`act`): `math`,`stat`,`rand`,`ml` - a collection of functions for mathematical and statistical computing, macine learning, etc., wrapping several JVM libraries
+- [fastmath](https://github.com/generateme/fastmath) :star: (`act`): `math`,`stat`,`rand`,`ml` - a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries
 - [spork](https://github.com/joinr/spork): `opt`,`df`,`vis`,`rand`,`graph`,`ui` - a toolbox for data-science and operation research
 - [Incanter](https://github.com/incanter/incanter): `df`,`stat`,`vis`,`rand`,`csv` - an R-like data-science platform built on top of the core.matrix abstractions
 - [huri](https://github.com/sbelak/huri): `df`,`stat`,`vis` - a toolbox for data-science using plain sequences of maps
