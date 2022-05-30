@@ -1,1 +1,1 @@
-This page has moved [here](../../docs/resources/reading).
+This page has moved [here](https://scicloj.github.io/docs/resources/reading).

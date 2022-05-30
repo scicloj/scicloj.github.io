@@ -1,1 +1,1 @@
-This page has moved [here](../../docs/community/chat).
+This page has moved [here](https://scicloj.github.io/docs/community/chat).
