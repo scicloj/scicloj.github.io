@@ -33,6 +33,8 @@ The visual tools group is about creating collaborations across differnent toolin
 - [Apr. 2nd, 2022](https://www.youtube.com/watch?v=tse4gKFj45c) - monthly - updates of ongoing projects
 - [May 6th, 2022](https://www.youtube.com/watch?v=LqpJpVwtWKY) - monthly - updates of ongoing projects
 - [May 27th, 2022](https://www.youtube.com/watch?v=LOT7l6ILV40) - a deep dive into [Saturn](https://gitlab.com/clj-editors/saturn)
+- [June 3rd, 2022](https://www.youtube.com/watch?v=oDiZxi5FRRc) - monthly - updates of ongoing projects: data cookbook, goldly studio, re-frame state management
+
 
 ### ml-study
 The ml-study group (on hold as of Feb. 2022) is about practicing the usage of the emerging Clojure data science stack. Most of its recordings have been shared internally at the Zulip chat. One of them was made public.
