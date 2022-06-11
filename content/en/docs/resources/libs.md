@@ -167,6 +167,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [clj-ml](https://github.com/joshuaeckroth/clj-ml/): `ml` - machine learning based on wrapping libraries such as the Weka Java library
 - [clj-boost](https://gitlab.com/alanmarazzi/clj-boost): `ml` - a wrapper for XGBoost
 - [propaganda](https://github.com/tgk/propaganda): `ml` - an implementation of the propagator computational model
+- [dvc](https://dvc.org/): `ml` - A programming language independent tool for ML experiment tracking,  Clojure fully supported
 
 ### Genetic programming
 - [Propeller](https://github.com/lspector/propeller) :star: (`act`): `ml` - "Yet another Push-based genetic programming system in Clojure"
