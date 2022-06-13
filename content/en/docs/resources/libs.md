@@ -167,6 +167,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [clj-ml](https://github.com/joshuaeckroth/clj-ml/): `ml` - machine learning based on wrapping libraries such as the Weka Java library
 - [clj-boost](https://gitlab.com/alanmarazzi/clj-boost): `ml` - a wrapper for XGBoost
 - [propaganda](https://github.com/tgk/propaganda): `ml` - an implementation of the propagator computational model
+- [dvc](https://dvc.org/): `ml` - A programming language independent tool for ML experiment tracking,  Clojure fully supported
 
 ### Genetic programming
 - [Propeller](https://github.com/lspector/propeller) :star: (`act`): `ml` - "Yet another Push-based genetic programming system in Clojure"
@@ -181,6 +182,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [rdata](https://github.com/appliedsciencestudio/rdata/) - A Renjin (pure-JVM R) wrapper to allow Clojure programs to easily read R's RData file format
 - [other R interop libraries](https://github.com/scicloj/clojisr/blob/master/doc/existing_libraries.md)
 - [from-scala](https://github.com/t6/from-scala): `interop` - interop with Scala
+- [Interop template project](https://github.com/behrica/clj-py-r-template): `interop` - A project template which configure several interop libraries automaticaly using Docker
 
 ## Parralel computing 
 - [claypoole](https://github.com/TheClimateCorporation/claypoole) :star: (`act`) - threadpool-based parallel versions of Clojure functions such as `pmap`, `future`, and `for`
