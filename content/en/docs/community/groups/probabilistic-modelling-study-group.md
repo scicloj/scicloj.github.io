@@ -19,7 +19,7 @@ The details below are tentative and will probably change following your feedback
 
 ## Agenda
 
-We will begin by learning one introductory book, probably [Think Bayes 2](https://allendowney.github.io/ThinkBayes2/) by Allen B. Downey.
+We will begin by learning one introductory book. It will probably be either [Think Bayes 2](https://allendowney.github.io/ThinkBayes2/) by Allen B. Downey, or [Statistical Rethinking](https://www.routledge.com/Statistical-Rethinking-A-Bayesian-Course-with-Examples-in-R-and-STAN/McElreath/p/book/9780367139919/) by Richard McElreath.
 
 Then, we will proceed with more advanced books and articles.
 
