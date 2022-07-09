@@ -11,7 +11,7 @@ contributors: ["daslu"]
 ---
 
 ---------------------------------------------------------------------------------------
-To supplement our opinionated blog posts analysing the ecosystem, here is a less-opinionated, plain list of relevant libraries written by Clojurians. Not all libraries mentioned here are affiliated with Scicloj, but we seek to be in dialogue with library authors as much as possible.
+To supplement our opinionated discussions of the ecosystem, here is a less-opinionated, plain list of relevant libraries written by Clojurians. Not all libraries mentioned here are affiliated with Scicloj, but we seek to be in dialogue with library authors as much as possible.
 
 Do you know about anything relevant that is missing here? - [Let us talk](../../community/contact)!
 
@@ -33,6 +33,7 @@ We tag libraries with the field they are relevant to.
 * `df` - dataframe-like data structures and abstractions
 * `data` - general data processing
 * `csv` - csv import/export
+* `xl` - Excel spreadsheets interaction
 * `json` - json import/export
 * `xform` - transducers support
 * `math` - diverse math functions
@@ -46,6 +47,13 @@ We tag libraries with the field they are relevant to.
 * `graph` - graph algorithms and network analysis
 * `interop` - general libraries for interop
 * `cljs` - supports not only Clojure but also Clojurescript
+* `nlp` - natural language processing
+
+## Other lists
+These other lists of libraries are very relevant to the emerging Clojure data science stack:
+- [Clojurelog](https://clojurelog.github.io/) by the XTDB team - a comparison of various Clojure-Datalog databases
+- [Clojure DSL resources](https://github.com/simongray/clojure-dsl-resources) by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with domain-specific languages, in particular parsing and data transformation with/of DSLs.
+- [Clojure graph resources](https://github.com/simongray/clojure-graph-resources) by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with graph-like data
 
 ## Diverse toolsets
 - [fastmath](https://github.com/generateme/fastmath) :star: (`act`): `math`,`stat`,`rand`,`ml` - a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries
@@ -113,12 +121,20 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 ## Dataframe-like structures
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure
 - [tablecloth](https://github.com/scicloj/tablecloth) :star: (`act`): `df`,`csv` - a dataframe grammar wrapping tech.ml.dataset, inspired by serveral R libraries
+- [clojask](https://clojure-finance.github.io/clojask-website/) :star: (`act`): `df` - a library for parallel computing of larger-than-memory datasets.
 - [Panthera](https://github.com/alanmarazzi/panthera): `df`,`py` - a Clojure API wrapping Python's Pandas library
 - see also geni :star: under the Spark sub category below 
 - [koala](https://github.com/aria42/koala) (`exp`): `df`,`csv` - Pandas-like data-processing for clojure with some I/O functionality
 - [dataframe](https://github.com/ghl3/dataframe): `df` - Pandas-like data processing for clojure
 - [danzig](https://github.com/ribelo/wombat) (formerly wombat) (`act`,`exp`): `df`,`xform` - Pandas-like data processing using transducers
 - [bamboo](https://github.com/kjothen/bamboo): `df` - a minimal data processing library for Clojure, with some of the capabilities of pandas and numpy
+
+## Spreadsheets
+- [Docjure](https://github.com/mjul/docjure) :star: (`act`): `xl` - making it easy to read and write Excel spreadsheets as Clojure data
+- [kixi.large](https://github.com/MastodonC/kixi.large) :star: (`act`, `exp`): `xl` - a tech.ml.dataset-friendly fork of Docjure, providing clear entry point at the workbook and sheet level and a way to insert images 
+- [Excel-clj](https://github.com/matthewdowney/excel-clj) :star: (`act`): `xl` - building Excel spreadsheets from Clojure data in various forms such as trees, tables, and more
+- [fxl](https://github.com/zero-one-group/fxl) :star: (`act`, `exp`): `xl` - manipulating spreadsheets with a versatile API for handling various spreadsheet constructs
+- [Excel-templates](https://github.com/tomfaulhaber/excel-templates) (`exp`): `xl` - building Excel spreadsheets from Clojure data combined with an Excel sheet serving as a template
 
 ## Array programming, linear algebra
 - [dtype-next](https://github.com/cnuernber/dtype-next) :star: (`act`): `array`,`tensor`, `native`,`stat` - abstractions and foundations for working with array-like structures and sequential structures
@@ -145,6 +161,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 ## Bayesian computing & probabilistic programming
 - [inferme](https://github.com/generateme/inferme) :star: (`act`): `prob`,`rand`,`vis` - extensible probabilistic programming in Clojure itself (rather than a language variation), with support for visualizations
+- [clj-stan](https://github.com/thomasathorne/clj-stan) :star: 
 - [bayadera](https://github.com/uncomplicate/bayadera): `stat`, `rand`, `prob`,`gpu` - Bayesian computing using the GPU
 - [sampling](https://github.com/bigmlcom/sampling): `rand` - support srandom sampling of different kinds
 - [distributions](https://github.com/michaellindon/distributions): `rand`,`prob` - random sampling and some basic Bayesian computing for certain families of distributions
@@ -172,6 +189,9 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 ### Genetic programming
 - [Propeller](https://github.com/lspector/propeller) :star: (`act`): `ml` - "Yet another Push-based genetic programming system in Clojure"
 - [Clojush](https://github.com/lspector/Clojush) (`act`): `ml` - an implementation of the Push programming language for genetic programming
+
+## Natural Language Processing
+- [DataLinguist](https://github.com/simongray/datalinguist) :star (`act`): `nlp` - a Clojure wrapper for Stanford CoreNLP
 
 ## Interop
 - [Libpython-clj](https://github.com/clj-python/libpython-clj) :star: (`act`): `interop` - interop with Python
@@ -209,3 +229,4 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [kafka.clj](https://github.com/dvlopt/kafka.clj) :star: (`act`) - a wrapper for Kafka and Kafka Streams
 - [ksml](https://github.com/cddr/ksml) :star: (`act`) - representing kafka streams topologies as data
 - [rp-jackdaw-clj](https://github.com/rentpath/rp-jackdaw-clj) - various components for interacting with Kafka using Jackdaw
+
