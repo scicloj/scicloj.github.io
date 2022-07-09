@@ -49,11 +49,11 @@ We tag libraries with the field they are relevant to.
 * `cljs` - supports not only Clojure but also Clojurescript
 * `nlp` - natural language processing
 
-## Other lists
+## **Other lists**
 These other lists of libraries are very relevant to the emerging Clojure data science stack:
-- [Clojurelog](https://clojurelog.github.io/) by the XTDB team - a comparison of various Clojure-Datalog databases
-- [Clojure DSL resources](https://github.com/simongray/clojure-dsl-resources) by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with domain-specific languages, in particular parsing and data transformation with/of DSLs.
-- [Clojure graph resources](https://github.com/simongray/clojure-graph-resources) by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with graph-like data
+- [Clojurelog](https://clojurelog.github.io/) :star: by the XTDB team - a comparison of various Clojure-Datalog databases
+- [Clojure DSL resources](https://github.com/simongray/clojure-dsl-resources) :star: by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with domain-specific languages, in particular parsing and data transformation with/of DSLs.
+- [Clojure graph resources](https://github.com/simongray/clojure-graph-resources) :star: by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with graph-like data
 
 ## Diverse toolsets
 - [fastmath](https://github.com/generateme/fastmath) :star: (`act`): `math`,`stat`,`rand`,`ml` - a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries
