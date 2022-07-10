@@ -49,7 +49,7 @@ We tag libraries with the field they are relevant to.
 * `cljs` - supports not only Clojure but also Clojurescript
 * `nlp` - natural language processing
 
-## **Other lists**
+## Other lists :link:
 These other lists of libraries are very relevant to the emerging Clojure data science stack:
 - [Clojurelog](https://clojurelog.github.io/) :star: by the XTDB team - a comparison of various Clojure-Datalog databases
 - [Clojure DSL resources](https://github.com/simongray/clojure-dsl-resources) :star: by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with domain-specific languages, in particular parsing and data transformation with/of DSLs.
