@@ -3,29 +3,28 @@ title : "Probabilistic-modelling-study-group"
 description: "Probabilistic Modelling and Bayesian Statistics study group"
 lead: ""
 date: 2022-02-28
-lastmod: 2022-02-28
+lastmod: 2022-07-12
 draft: false
 images: []
 ---
-
 -------------------------------------------------------------------------------------------------------------------- 
-Unlike most Scicloj projects, this one is not focused on Clojure. It is an online study group about probabilistic modelling, open to people of diverse technical backgrounds.
+This page describes the emerging plans for a new online study group in Fall 2022, around the topics of probabilistic modelling and Bayesian computing.
 
-As of Feb. 2022, we are still checking the possibility of organizing this group, hoping to decide and possibly begin in the coming weeks. 
+The group is initiated by the Scicloj - a community for data science in Clojure.
 
-Your response to :star: [the survey](https://bit.ly/scicloj-probmod-group-survey) :star: would help a lot in our planning.
+But this study group will not be focused on any single technology or programming language. It will be open to people of diverse technical backgrounds, and will continually seek dialogue and mutual inspiration across languages and technologies.
 
-The details below are tentative and will probably change following your feedback and community discussions.
+The details below are tentative.
 
 ## Agenda
 
-We will begin by learning one introductory book. It will probably be either [Think Bayes 2](https://allendowney.github.io/ThinkBayes2/) by Allen B. Downey, or [Statistical Rethinking](https://www.routledge.com/Statistical-Rethinking-A-Bayesian-Course-with-Examples-in-R-and-STAN/McElreath/p/book/9780367139919/) by Richard McElreath.
+We will begin by learning one introductory book. It will probably be [Statistical Rethinking](https://www.routledge.com/Statistical-Rethinking-A-Bayesian-Course-with-Examples-in-R-and-STAN/McElreath/p/book/9780367139919/) by Richard McElreath.
 
 Then, we will proceed with more advanced books and articles.
 
-This field of statistics is tightly related to programming, and during our learning we will look into different languages and libraries for Bayesian computing and probabilistic programming.
+Bayesian statistics is tightly related to programming, and during our learning we will look into different programming languages and libraries.
 
-In parallel to the main path of learning, we will encourage individual and small-group projects, and will continuously share our progress with each other.
+In parallel to the main path of learning, we will encourage individual and small-group projects, and will share our progress with each other.
 
 ## Sessions
 
@@ -37,21 +36,21 @@ In between these main sessions, we will encourage ad-hoc sessions to explore spe
 
 ## Recordings
 
-Some parts of the sessions will be recorded and shared with the group. Possibly, some parts of the recordings will be made public.
+Some parts of the sessions will be recorded and shared with the group. Some parts will also be made public.
 
 ## Projects
 
 Participants will take on projects as individuals or small groups.
 
-Example project:
+Example projects:
 * read an article and share it with the group
-* reimplement an example we've learned using a different programming language or different library 
+* reimplement an example we've learned using a different technology
 * explore a dataset with the methods learned
 
 ## Assumed background
 
 We will probably assume some background in programming, math, and statistics.
-The assumptions here will depend on your feedback on the survey and community discussions.
+This will be made more precise soon.
 
 ## Principles
 
@@ -67,14 +66,3 @@ The following core principles are typical to Scicloj study groups.
 
 **Mutual curiosity**. We make serious efforts to be inclusive to participants of various backgrounds. The different perspectives of our friends are part of what we wish to learn.
 
-## Why is Scicloj organizing this Group
-
-Scicloj is an open-source group working on a stack of tools and libraries for data science using the Clojure programming language.
-
-A few of us care a lot about the probabilistic/Bayesian paradigm and find it a promising approach in general
-
-Moreover, We believe there are some common core ideas in common between Clojure, the programming language, and Bayesian Statistics, the scientific method. They both seek simple, coherent, and conceptually clear solutions to problems, and they both dare to diverge from mainstream approaches in order to achieve that.
-
-The Scicloj approach to building a data science stack is based on building bridges to other languages and ecosystems. This seems compatible with the spirit of the Bayesian community and its subcommunities, where different technological flavors respect and learn from each other.
-
-Creating a polyglot study group -- one where different programming languages and styles of thinking meet to learn together -- is also a way to challenge ourselves to learn more about other ecosystems, and hopefully encourage friends from those ecosystems to be curious about Clojure.
