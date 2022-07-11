@@ -10,9 +10,7 @@ images: []
 -------------------------------------------------------------------------------------------------------------------- 
 This page describes the emerging plans for a new online study group in Fall 2022, around the topics of probabilistic modelling and Bayesian computing.
 
-The group is initiated by the Scicloj - a community for data science in Clojure.
-
-But this study group will not be focused on any single technology or programming language. It will be open to people of diverse technical backgrounds, and will continually seek dialogue and mutual inspiration across languages and technologies.
+Even though the group is initiated by Scicloj -- a community for data science in Clojure -- this study group will not be focused on any single technology or programming language. Rather, it will be open to people of diverse technical backgrounds, and will continually seek dialogue and mutual inspiration across languages and technologies.
 
 The details below are tentative.
 
@@ -29,7 +27,7 @@ In parallel to the main path of learning, we will encourage individual and small
 ## Sessions
 
 We will meet once in two weeks to learn together for two hours.
-The first hour will be dedicated to following our main path of study (e.g., the current book chapter being read). 
+The first hour will be dedicated to following our main path of study (e.g., the current book chapter being read).
 In the second hour, we will share our progress with the projects, and explore further.
 
 In between these main sessions, we will encourage ad-hoc sessions to explore specialized topics or practice further.
@@ -40,7 +38,7 @@ Some parts of the sessions will be recorded and shared with the group. Some part
 
 ## Projects
 
-Participants will take on projects as individuals or small groups.
+Participants will take on projects as individuals or in small groups.
 
 Example projects:
 * read an article and share it with the group
@@ -56,7 +54,7 @@ This will be made more precise soon.
 
 The following core principles are typical to Scicloj study groups.
 
-**No experts**. We do not assume that anybody in the group is an expert in the field. We come to learn together with a student mindset. 
+**No experts**. We do not assume that anybody in the group is an expert in the field. We come to learn together with a student mindset.
 
 **A clear path**. We will be very thoughtful about the agenda and about where we wish to go. We will continuously rethink and adapt our path going there.
 
@@ -65,4 +63,5 @@ The following core principles are typical to Scicloj study groups.
 **Being active**. The group encourages its members to learn independently and take on projects. In a sense, its purpose is (also) to support those individual journeys.
 
 **Mutual curiosity**. We make serious efforts to be inclusive to participants of various backgrounds. The different perspectives of our friends are part of what we wish to learn.
+
 
