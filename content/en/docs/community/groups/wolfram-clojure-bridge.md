@@ -1,5 +1,5 @@
 ---
-title : "wolfram-clojure-bridge"
+title : "wolfram-clojure-bridge: discussing the usage and development of the bridge to Wolfram Language"
 description: "The Wolfram-Clojure bridge group"
 lead: ""
 date: 2022-02-17

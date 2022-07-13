@@ -1,5 +1,5 @@
 ---
-title : "sci-fu"
+title : "{on hold} sci-fu: regulad discussions of various dev projects"
 description: "The sci-fu group"
 lead: ""
 date: 2022-02-17
@@ -7,7 +7,7 @@ lastmod: 2022-02-17
 draft: false
 images: []
 ---
-*(this group is on hold, as of Feb. 2022 -- hoping to come back in the near future)*
+*(this group is on hold)*
 
 The sci-fu (Scicloj foundations) has been a space for regular discussions of various dev projects.
 

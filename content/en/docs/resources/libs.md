@@ -3,7 +3,7 @@ title : "Tools and libraries"
 description: "Clojure tools and libraries for data-centric computing"
 lead: "Clojure tools and libraries for data-centric computing"
 date: 2022-02-14
-lastmod: 2022-02-17
+lastmod: 2022-07-09
 draft: false
 weight: 31
 images: []

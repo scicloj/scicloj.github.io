@@ -1,12 +1,13 @@
 ---
-title : "real-world-data"
+title: "{on hold} real-world-data: discussions of real-world data problems"
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-17
-lastmod: 2022-02-17
+lastmod: 2022-07-12
 draft: false
 images: []
 ---
+*(this group is on hold)*
 
 The real-world-data group is about the use of Clojure for real-world data problems.
 

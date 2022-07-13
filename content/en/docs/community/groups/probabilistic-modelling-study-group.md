@@ -1,5 +1,5 @@
 ---
-title : "Probabilistic-modelling-study-group"
+title : "jointprob: a probabilistic modelling and Bayesian statistic study group"
 description: "Probabilistic Modelling and Bayesian Statistics study group"
 lead: ""
 date: 2022-02-28
@@ -8,7 +8,7 @@ draft: false
 images: []
 ---
 -------------------------------------------------------------------------------------------------------------------- 
-This page describes the emerging plans for a new online study group in Fall 2022, around the topics of probabilistic modelling and Bayesian computing.
+This page describes the plans for a new online study group in Fall 2022, around the topics of probabilistic modelling and Bayesian computing.
 
 Even though the group is initiated by Scicloj -- a community for data science in Clojure -- this study group will not be focused on any single technology or programming language. Rather, it will be open to people of diverse technical backgrounds, and will continually seek dialogue and mutual inspiration across languages and technologies.
 
