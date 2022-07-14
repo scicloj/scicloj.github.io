@@ -1,5 +1,5 @@
 ---
-title : "jointprob: a probabilistic modelling and Bayesian statistic study group"
+title : "jointprob: a probabilistic modelling and Bayesian statistics study group"
 description: "Probabilistic Modelling and Bayesian Statistics study group"
 lead: ""
 date: 2022-02-28
