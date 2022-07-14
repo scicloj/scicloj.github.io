@@ -10,7 +10,7 @@ weight: 101
 ---
 
 ---------------------
-![lubia](lubia.jpg)
+![black-eyed-pea](black-eyed-pea.jpg)
 
 * Following the recent broad support on [Clojureverse](https://clojureverse.org/t/a-data-science-course-for-clojurians-are-you-interested/) and [Reddit](https://www.reddit.com/r/Clojure/comments/vsr7qn/a_data_science_course_for_clojurians_are_you/) conversations and elsewhere, we will begin a data-science course for Clojure devs in :star: Fall 2022 :star:. 
 
