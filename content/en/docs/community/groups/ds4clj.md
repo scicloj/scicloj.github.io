@@ -31,6 +31,7 @@ The details below are **tentative** and will probably change.
 
 ## chat
 - We'll use a dedicated stream at the [Clojurians Zulip](https://clojurians.zulipchat.com/) chat.
+- Stream: [ds4clj](https://clojurians.zulipchat.com/#narrow/stream/330924-ds4clj)
 
 ## time
 - We'll have a class once a month.

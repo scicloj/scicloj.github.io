@@ -55,6 +55,8 @@ Here are the main scicloj-related active streams, dedicated to certain subgroups
 
 For more information, see also the [list](https://scicloj.github.io/docs/community/groups/) of dev & study groups at the website.
 
+- [ds4clj](https://clojurians.zulipchat.com/#narrow/stream/330924-ds4clj) - the Data Science for Clojure Devs course
+
 - [#data-recur](https://clojurians.zulipchat.com/#narrow/stream/330726-data-recur) - recurring updates & discussions around building the emerging data stack
 
 - [#sci-fu](https://clojurians.zulipchat.com/#narrow/stream/265544-sci-fu) - Scicloj foundations study group - learning together to build the Clojure data science ecosystem
