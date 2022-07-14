@@ -14,6 +14,10 @@ weight: 101
 
 The details below are **tentative** and will probably change.
 
+## meetings
+
+* 2022-07-24, initial brainstorming - [event](https://clojureverse.org/t/ds4clj-course-initial-brainstorming/)
+
 ## goals
 
 - provide Clojure devs with basic theory, practices, and tools for common data science tasks;
