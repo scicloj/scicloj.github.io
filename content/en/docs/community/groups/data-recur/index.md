@@ -7,6 +7,12 @@ lastmod: 2022-07-12
 draft: false
 images: []
 ---
+
+-----------------------------------------------
+
+![hammock](hammock.jpg)
+
+
 The goal of this group is to create collaborations in building the emerging Clojure stack of libraries for data processing, analysis, and visualization.
 
 * 2022-07-29 - meeting 1 - [event](https://clojureverse.org/t/data-recur-meeting-1-general-monthly/)
