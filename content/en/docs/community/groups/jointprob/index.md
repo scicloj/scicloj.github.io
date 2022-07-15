@@ -17,6 +17,10 @@ Even though the group is initiated by Scicloj -- a community for data science in
 The details below are tentative.
 
 
+## Meetings
+
+* 2022-07-22, initial brainstorming - [event](https://clojureverse.org/t/jointprob-group-initial-brainstorming/)
+
 ## Agenda
 
 We will begin by learning one introductory book. It will probably be [Statistical Rethinking](https://www.routledge.com/Statistical-Rethinking-A-Bayesian-Course-with-Examples-in-R-and-STAN/McElreath/p/book/9780367139919/) by Richard McElreath.
