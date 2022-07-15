@@ -18,7 +18,7 @@ The details below are tentative.
 
 ## Joining
 
-To join the group and receive updates, please email us: <a href="mailto:scicloj@gmail.com">scicloj@gmail.com</a>. 
+To join the group and receive updates, please email us: <a href="mailto:scicloj@gmail.com">scicloj@gmail.com</a>. It'd be nice to mention your name, and as much as you wish, tell a bit about your background and interests.
 
 There is no need to do that if you have already received emails about this group, if you have responded to our survey, or if you have registered to the initial brainstorming meeting.
 
