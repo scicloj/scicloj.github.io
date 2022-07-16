@@ -59,7 +59,7 @@ Example projects:
 
 ## Assumed background
 
-We will probably assume some background in programming, math, and statistics.
+We will probably assume some basic background in programming, math, and statistics.
 This will be made more precise soon.
 
 ## Principles
