@@ -24,7 +24,7 @@ There is no need to do that if you have already received emails about this group
 
 ## Meetings
 
-* 2022-07-22, initial brainstorming - [event](https://clojureverse.org/t/jointprob-group-initial-brainstorming/)
+* 2022-07-22, initial brainstorming - [event](https://bit.ly/jointprob-brainstorm-1)
 
 ## Agenda
 
