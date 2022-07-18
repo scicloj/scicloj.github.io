@@ -11,9 +11,14 @@
 ;;
 ;;   - Endgame: Autogenerate libs.md from libs.edn
 ;;   - Intermediate step: hardcode some stuff in here.
+;;
+;; Status 2022-07-18 16:49
+;; =======================
+;;
+;; - Tags are generated from data
+;; - Library text is just typed out
 
-
-;; Based on Teodor's publishing stuff:
+;; Copypaste / ideas from Teodor's publishing tooling:
 ;;
 ;;   https://github.com/teodorlu/play.teod.eu/tree/a6b2a039323d60e7fed57c13bbc7e61a1295fbd0/play.clj
 
