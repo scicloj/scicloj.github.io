@@ -309,11 +309,21 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
               (keyword tag)))
        (into #{})))
 
+(defn find-name [line]
+  (first (str/split line #"\s")))
+
+(defn find-url [line]
+  (second (str/split line #"\s")))
+
 (defn parse-line
   [line opts]
-  (-> opts
+  (-> {}
+      (assoc :lib/name (find-name line))
+      (assoc :lib/url (find-url line))
+      (merge opts)
       (assoc :tags (find-tags line))
-      (assoc :description (find-description line))))
+      (assoc :description (find-description line))
+      ))
 
 (defn str-trim-lines [s]
   (str/split-lines (str/trim s)))
@@ -321,10 +331,10 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 (defn parse-stuff [{}]
   (pprint
    (->> (str-trim-lines "
-- [fastmath](https://github.com/generateme/fastmath) :star: (`act`): `math`,`stat`,`rand`,`ml` - a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries
-- [spork](https://github.com/joinr/spork): `opt`,`df`,`vis`,`rand`,`graph`,`ui` - a toolbox for data-science and operation research
-- [Incanter](https://github.com/incanter/incanter): `df`,`stat`,`vis`,`rand`,`csv` - an R-like data-science platform built on top of the core.matrix abstractions
-- [huri](https://github.com/sbelak/huri): `df`,`stat`,`vis` - a toolbox for data-science using plain sequences of maps "
+fastmath https://github.com/generateme/fastmath :star: (`act`): `math`,`stat`,`rand`,`ml` - a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries
+spork https://github.com/joinr/spork `opt`,`df`,`vis`,`rand`,`graph`,`ui` - a toolbox for data-science and operation research
+Incanter https://github.com/incanter/incanter `df`,`stat`,`vis`,`rand`,`csv` - an R-like data-science platform built on top of the core.matrix abstractions
+huri https://github.com/sbelak/huri `df`,`stat`,`vis` - a toolbox for data-science using plain sequences of maps "
                         )
         (map (fn [line]
                (parse-line line {:lib/category :div-tools}))))))

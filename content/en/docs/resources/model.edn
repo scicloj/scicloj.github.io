@@ -39,18 +39,32 @@
                       ;; Perhaps we can be even clearer on what the call to action / "job to be done" for tags :)
                       ]
  :libs
- [{:lib/name "fastmath"
-   :lib/url "https://github.com/generateme/fastmath"
-   :lib/category :div-tools
-   :lib/star true
-   :attention :active-development}
-  {:lib/name "cljplot"
-   :lib/url "https://github.com/generateme/cljplot"
-   :lib/category :data-visualization
-   :lib/star true
-   :attention :active-development
-   :readiness :experimental}
+ [;; # Diverse toolsets
+  {:lib/name "fastmath",
+   :lib/url "https://github.com/generateme/fastmath",
+   :lib/category :div-tools,
+   :tags #{:stat :rand :act :ml :math},
+   :description
+   "a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries"}
+  {:lib/name "spork",
+   :lib/url "https://github.com/joinr/spork",
+   :lib/category :div-tools,
+   :tags #{:rand :vis :df :ui :graph :opt},
+   :description "a toolbox for data-science and operation research"}
+  {:lib/name "Incanter",
+   :lib/url "https://github.com/incanter/incanter",
+   :lib/category :div-tools,
+   :tags #{:csv :stat :rand :vis :df},
+   :description
+   "an R-like data-science platform built on top of the core.matrix abstractions"}
+  {:lib/name "huri",
+   :lib/url "https://github.com/sbelak/huri",
+   :lib/category :div-tools,
+   :tags #{:stat :vis :df},
+   :description
+   "a toolbox for data-science using plain sequences of maps"}
 
-
+  ;;
   ]
+
  }
