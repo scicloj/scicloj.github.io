@@ -26,33 +26,9 @@
          '[clojure.edn :as edn]
          '[clojure.pprint :refer [pprint]])
 
-(defn libs-str
-  "Generate libs.md content as string"
-  [{}]
-  ;; for now, hard-code the whole thing
-  (str/trim "
----
-title : \"Tools and libraries\"
-description: \"Clojure tools and libraries for data-centric computing\"
-lead: \"Clojure tools and libraries for data-centric computing\"
-date: 2022-02-14
-lastmod: 2022-07-09
-draft: false
-weight: 31
-images: []
-contributors: [\"daslu\"]
----
-
----------------------------------------------------------------------------------------
-To supplement our opinionated discussions of the ecosystem, here is a less-opinionated, plain list of relevant libraries written by Clojurians. Not all libraries mentioned here are affiliated with Scicloj, but we seek to be in dialogue with library authors as much as possible.
-
-Do you know about anything relevant that is missing here? - [Let us talk](../../community/contact)!
-
-For every library, we mark whether it is actively developed (`act`), and whether it is still experimental (`exp`).
-A star (:star:) means that we know the library to be actively used and useful.
-
-We tag libraries with the field they are relevant to.
-
+(defn tags-list [model]
+  (str/trim
+   "
 * `array` - array programming
 * `tensor`- tensor programming
 * `linalg` - linear algebra
@@ -81,7 +57,46 @@ We tag libraries with the field they are relevant to.
 * `interop` - general libraries for interop
 * `cljs` - supports not only Clojure but also Clojurescript
 * `nlp` - natural language processing
+")
+  )
 
+(defn str-lines
+  "Like (str a b c), but adds newlines and trims.
+
+  Makes it easier to generate plaintext like Markdown."
+  [& xs]
+  (str/trim (str/join "\n" (map str xs))))
+
+(defn libs-str
+  "Generate libs.md content as string"
+  [{}]
+  (let [model (edn/read-string (slurp "model.edn"))]
+    ;; for now, hard-code the whole thing
+    (str-lines
+     "
+---
+title : \"Tools and libraries\"
+description: \"Clojure tools and libraries for data-centric computing\"
+lead: \"Clojure tools and libraries for data-centric computing\"
+date: 2022-02-14
+lastmod: 2022-07-09
+draft: false
+weight: 31
+images: []
+contributors: [\"daslu\"]
+---
+
+---------------------------------------------------------------------------------------
+To supplement our opinionated discussions of the ecosystem, here is a less-opinionated, plain list of relevant libraries written by Clojurians. Not all libraries mentioned here are affiliated with Scicloj, but we seek to be in dialogue with library authors as much as possible.
+
+Do you know about anything relevant that is missing here? - [Let us talk](../../community/contact)!
+
+For every library, we mark whether it is actively developed (`act`), and whether it is still experimental (`exp`).
+A star (:star:) means that we know the library to be actively used and useful.
+
+We tag libraries with the field they are relevant to.
+"
+     (tags-list model)                            "
 ## Other lists :link:
 These other lists of libraries are very relevant to the emerging Clojure data science stack:
 - [Clojurelog](https://clojurelog.github.io/) :star: by the XTDB team - a comparison of various Clojure-Datalog databases
@@ -262,7 +277,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [kafka.clj](https://github.com/dvlopt/kafka.clj) :star: (`act`) - a wrapper for Kafka and Kafka Streams
 - [ksml](https://github.com/cddr/ksml) :star: (`act`) - representing kafka streams topologies as data
 - [rp-jackdaw-clj](https://github.com/rentpath/rp-jackdaw-clj) - various components for interacting with Kafka using Jackdaw
-")
+"))
   )
 
 (defn libs
