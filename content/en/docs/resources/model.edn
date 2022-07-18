@@ -30,4 +30,27 @@
   {:tag/id "interop", :tag/description "general libraries for interop"}
   {:tag/id "cljs", :tag/description "supports not only Clojure but also Clojurescript"}
   {:tag/id "nlp", :tag/description "natural language processing"}]
+
+ :teodorlu/questions [
+                      ;; I'm having a bit of a hard time understanding the motivation between having both the star
+                      ;; and :readiness :experimental. Does that mean /some/ of the API is considered stable, but
+                      ;; the library is still under active development, and collaboration is invited?
+                      ;;
+                      ;; Perhaps we can be even clearer on what the call to action / "job to be done" for tags :)
+                      ]
+ :libs
+ [{:lib/name "fastmath"
+   :lib/url "https://github.com/generateme/fastmath"
+   :lib/category :div-tools
+   :lib/star true
+   :attention :active-development}
+  {:lib/name "cljplot"
+   :lib/url "https://github.com/generateme/cljplot"
+   :lib/category :data-visualization
+   :lib/star true
+   :attention :active-development
+   :readiness :experimental}
+
+
+  ]
  }
