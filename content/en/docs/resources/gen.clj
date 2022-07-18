@@ -31,8 +31,6 @@
          '[clojure.edn :as edn]
          '[clojure.pprint :refer [pprint]])
 
-{:tag/id "array"
- :tag/description "array programming"}
 
 (defn str-lines
   "Like (str a b c), but adds newlines and trims.
