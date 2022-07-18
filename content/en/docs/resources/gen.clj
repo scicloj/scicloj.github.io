@@ -263,6 +263,11 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
   [opts]
   (spit "libs.md" (libs-str opts)))
 
+(defn libs-show
+  "Show generated libs.md"
+  [opts]
+  (println (libs-str opts)))
+
 (defn sanitize
   "Read some text into EDN"
   [{}]
@@ -280,13 +285,15 @@ Usage: ./gen.clj <subcommand>
 
 Subcommands:
 
-libs-str  - Generate libs.md as string
+libs-str   - Generate libs.md as string
 
-libs      - Generate libs.md
+libs-show  - Generate libs.md
+
+sanitize   - Helper for
 ")))
 
 (defn main [& args]
-  (cli/dispatch [{:cmds ["libs-str"] :fn libs-str}
+  (cli/dispatch [{:cmds ["libs-show"] :fn libs-show}
                  {:cmds ["libs"] :fn libs}
                  {:cmds ["sanitize"] :fn sanitize}
                  {:cmds [] :fn print-help}]
