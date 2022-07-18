@@ -74,14 +74,17 @@ A star (:star:) means that we know the library to be actively used and useful.
 
 We tag libraries with the field they are relevant to.
 "
-     (tags-list model)                            "
+     (tags-list model)
+     ;; we simply print the other links
+     "
 ## Other lists :link:
 These other lists of libraries are very relevant to the emerging Clojure data science stack:
 - [Clojurelog](https://clojurelog.github.io/) :star: by the XTDB team - a comparison of various Clojure-Datalog databases
 - [Clojure DSL resources](https://github.com/simongray/clojure-dsl-resources) :star: by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with domain-specific languages, in particular parsing and data transformation with/of DSLs.
 - [Clojure graph resources](https://github.com/simongray/clojure-graph-resources) :star: by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with graph-like data
-
-## Diverse toolsets
+"
+     ;; But we want to generate this stuff.
+     "## Diverse toolsets
 - [fastmath](https://github.com/generateme/fastmath) :star: (`act`): `math`,`stat`,`rand`,`ml` - a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries
 - [spork](https://github.com/joinr/spork): `opt`,`df`,`vis`,`rand`,`graph`,`ui` - a toolbox for data-science and operation research
 - [Incanter](https://github.com/incanter/incanter): `df`,`stat`,`vis`,`rand`,`csv` - an R-like data-science platform built on top of the core.matrix abstractions
@@ -258,7 +261,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 "))
   )
 
-(defn libs
+(defn libs-md
   "Generate libs.md"
   [opts]
   (spit "libs.md" (libs-str opts)))
@@ -285,16 +288,16 @@ Usage: ./gen.clj <subcommand>
 
 Subcommands:
 
-libs-str   - Generate libs.md as string
+libs-show   - Generate libs.md as string
 
-libs-show  - Generate libs.md
+libs.md     - Generate libs.md
 
-sanitize   - Helper for
+sanitize    - Helper for
 ")))
 
 (defn main [& args]
   (cli/dispatch [{:cmds ["libs-show"] :fn libs-show}
-                 {:cmds ["libs"] :fn libs}
+                 {:cmds ["libs.md"] :fn libs-md}
                  {:cmds ["sanitize"] :fn sanitize}
                  {:cmds [] :fn print-help}]
                 args))
