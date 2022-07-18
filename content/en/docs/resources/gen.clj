@@ -268,7 +268,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 (defn libs
   "Generate libs.md"
   [opts]
-  (libs-str opts))
+  (spit "libs.md" (libs-str opts)))
 
 (defn print-help [{}]
   (println (str/trim "
@@ -278,7 +278,7 @@ Subcommands:
 
 libs-str  - Generate libs.md as string
 
-libs
+libs      - Generate libs.md
 ")))
 
 (defn main [& args]
