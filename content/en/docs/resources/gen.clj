@@ -51,7 +51,29 @@
     :linalg :lit :lt :math :ml :native :nlp :opt :pmap :prob :py :r :rand :stat :tensor :ts :ui :vega
     :vis :xform :xl})
 
+(defn unwords [& words]
+  (str/join " " (filter some? words)))
 
+(defn lib-line
+  "Show a lib line nicely
+
+  Example:
+
+- [fastmath](https://github.com/generateme/fastmath) :star: (`act`): `math`,`stat`,`rand`,`ml` - a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries
+  "
+  [lib]
+  (str "- [" (:lib/name lib) "](" (:lib/url lib) ")"
+       (when false ;; todo star check
+         " :star:")
+       (when (contains? (:tags lib) :act)
+         " (`act`)")
+       ": "
+       (str/join ", " (->> (disj (:tags lib) :act)
+                           sort
+                           (map (fn [tag]
+                                  (str "`" (name tag) "`")))))
+       " - "
+       (:description lib)))
 
 (defn libs-str
   "Generate libs.md content as string"
@@ -95,6 +117,13 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
 - [Clojure DSL resources](https://github.com/simongray/clojure-dsl-resources) :star: by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with domain-specific languages, in particular parsing and data transformation with/of DSLs.
 - [Clojure graph resources](https://github.com/simongray/clojure-graph-resources) :star: by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with graph-like data
 "
+     "## Diverse toolsets"
+     (->> (:libs model)
+          (filter (fn [lib]
+                    (= :div-tools (:lib/category lib))))
+          (map lib-line)
+          (str/join "\n"))
+
      ;; But we want to generate this stuff.
      "## Diverse toolsets
 - [fastmath](https://github.com/generateme/fastmath) :star: (`act`): `math`,`stat`,`rand`,`ml` - a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries
