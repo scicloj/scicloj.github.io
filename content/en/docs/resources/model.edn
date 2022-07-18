@@ -1,4 +1,33 @@
 {;; plan: represent data in libs.md
  ;;
  ;; process: do it incrementally, move one section at a time.
+ :tags
+ [{:tag/id "array", :tag/description "array programming"}
+  {:tag/id "tensor", :tag/description "tensor programming"}
+  {:tag/id "linalg", :tag/description "linear algebra"}
+  {:tag/id "native", :tag/description "interop with native-optimized libraries"}
+  {:tag/id "gpu", :tag/description "gpu support"}
+  {:tag/id "vis", :tag/description "data visualization and visual art"}
+  {:tag/id "vega", :tag/description "visualization using [Vega](https://vega.github.io/vega/)/[Vega-lite](https://vega.github.io/vega-lite/) specifications"}
+  {:tag/id "lit", :tag/description "literate programming"}
+  {:tag/id "ui", :tag/description "building UIs for data exploration"}
+  {:tag/id "geo", :tag/description "geographical and geometrical data processing"}
+  {:tag/id "df", :tag/description "dataframe-like data structures and abstractions"}
+  {:tag/id "data", :tag/description "general data processing"}
+  {:tag/id "csv", :tag/description "csv import/export"}
+  {:tag/id "xl", :tag/description "Excel spreadsheets interaction"}
+  {:tag/id "json", :tag/description "json import/export"}
+  {:tag/id "xform", :tag/description "transducers support"}
+  {:tag/id "math", :tag/description "diverse math functions"}
+  {:tag/id "stat", :tag/description "statistics"}
+  {:tag/id "ts", :tag/description "time series analysis"}
+  {:tag/id "rand", :tag/description "simulation and random sampling"}
+  {:tag/id "prob", :tag/description "Bayesian computing and probabilistic programming"}
+  {:tag/id "ml", :tag/description "machine learning"}
+  {:tag/id "dnn", :tag/description "deep learning"}
+  {:tag/id "opt", :tag/description "optimization"}
+  {:tag/id "graph", :tag/description "graph algorithms and network analysis"}
+  {:tag/id "interop", :tag/description "general libraries for interop"}
+  {:tag/id "cljs", :tag/description "supports not only Clojure but also Clojurescript"}
+  {:tag/id "nlp", :tag/description "natural language processing"}]
  }

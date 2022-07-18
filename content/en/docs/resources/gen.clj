@@ -26,6 +26,9 @@
          '[clojure.edn :as edn]
          '[clojure.pprint :refer [pprint]])
 
+{:tag/id "array"
+ :tag/description "array programming"}
+
 (defn tags-list [model]
   (str/trim
    "
@@ -285,6 +288,17 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
   [opts]
   (spit "libs.md" (libs-str opts)))
 
+(defn sanitize
+  "Read some text into EDN"
+  [{}]
+  (pprint
+   (->> (slurp "plain.txt")
+        (str/split-lines)
+        (map #(str/split % #" - "))
+        (map (fn [[tag-id tag-description]]
+               {:tag/id tag-id :tag/description tag-description}))
+        (into []))))
+
 (defn print-help [{}]
   (println (str/trim "
 Usage: ./gen.clj <subcommand>
@@ -298,7 +312,8 @@ libs      - Generate libs.md
 
 (defn main [& args]
   (cli/dispatch [{:cmds ["libs-str"] :fn libs-str}
-                 {:cmds ["libs"] :fn libs }
+                 {:cmds ["libs"] :fn libs}
+                 {:cmds ["sanitize"] :fn sanitize}
                  {:cmds [] :fn print-help}]
                 args))
 
