@@ -29,46 +29,16 @@
 {:tag/id "array"
  :tag/description "array programming"}
 
-(defn tags-list [model]
-  (str/trim
-   "
-* `array` - array programming
-* `tensor`- tensor programming
-* `linalg` - linear algebra
-* `native` - interop with native-optimized libraries
-* `gpu` - gpu support
-* `vis` - data visualization and visual art
-* `vega` - visualization using [Vega](https://vega.github.io/vega/)/[Vega-lite](https://vega.github.io/vega-lite/) specifications
-* `lit` - literate programming
-* `ui` - building UIs for data exploration
-* `geo` - geographical and geometrical data processing
-* `df` - dataframe-like data structures and abstractions
-* `data` - general data processing
-* `csv` - csv import/export
-* `xl` - Excel spreadsheets interaction
-* `json` - json import/export
-* `xform` - transducers support
-* `math` - diverse math functions
-* `stat` - statistics
-* `ts` - time series analysis
-* `rand` - simulation and random sampling
-* `prob` - Bayesian computing and probabilistic programming
-* `ml` - machine learning
-* `dnn` - deep learning
-* `opt` - optimization
-* `graph` - graph algorithms and network analysis
-* `interop` - general libraries for interop
-* `cljs` - supports not only Clojure but also Clojurescript
-* `nlp` - natural language processing
-")
-  )
-
 (defn str-lines
   "Like (str a b c), but adds newlines and trims.
 
   Makes it easier to generate plaintext like Markdown."
   [& xs]
   (str/trim (str/join "\n" (map str xs))))
+
+(defn tags-list [model]
+  (str/join "\n" (for [{:tag/keys [id description]} (:tags model)]
+                   (str "* `" id "` - " description))))
 
 (defn libs-str
   "Generate libs.md content as string"

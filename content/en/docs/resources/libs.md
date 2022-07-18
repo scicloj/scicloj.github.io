@@ -21,7 +21,7 @@ A star (:star:) means that we know the library to be actively used and useful.
 We tag libraries with the field they are relevant to.
 
 * `array` - array programming
-* `tensor`- tensor programming
+* `tensor` - tensor programming
 * `linalg` - linear algebra
 * `native` - interop with native-optimized libraries
 * `gpu` - gpu support
