@@ -51,14 +51,7 @@
     :linalg :lit :lt :math :ml :native :nlp :opt :pmap :prob :py :r :rand :stat :tensor :ts :ui :vega
     :vis :xform :xl})
 
-(defn find-tags
-  "Find tags in a line"
-  [line]
-  (->> line
-       (re-seq #"`([a-zA-Z_]+)`" )
-       (map (fn [[_ tag]]
-              (keyword tag)))
-       (into #{})))
+
 
 (defn libs-str
   "Generate libs.md content as string"
@@ -89,6 +82,10 @@ A star (:star:) means that we know the library to be actively used and useful.
 
 We tag libraries with the field they are relevant to.
 "
+     ;; probably a good idea to sort these tags
+     ;;
+     ;; But I'm keeping 1-1 compatibility with the published stuff for now,
+     ;; don't want to refactor + change spec at the same time.
      (tags-list model)
      ;; we simply print the other links
      "
@@ -297,6 +294,41 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
                {:tag/id tag-id :tag/description tag-description}))
         (into []))))
 
+(defn find-description [line]
+  (-> line
+      (str/split #" - ")
+      last
+      str/trim))
+
+(defn find-tags
+  "Find tags in a line"
+  [line]
+  (->> line
+       (re-seq #"`([a-zA-Z_]+)`" )
+       (map (fn [[_ tag]]
+              (keyword tag)))
+       (into #{})))
+
+(defn parse-line
+  [line opts]
+  (-> opts
+      (assoc :tags (find-tags line))
+      (assoc :description (find-description line))))
+
+(defn str-trim-lines [s]
+  (str/split-lines (str/trim s)))
+
+(defn parse-stuff [{}]
+  (pprint
+   (->> (str-trim-lines "
+- [fastmath](https://github.com/generateme/fastmath) :star: (`act`): `math`,`stat`,`rand`,`ml` - a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries
+- [spork](https://github.com/joinr/spork): `opt`,`df`,`vis`,`rand`,`graph`,`ui` - a toolbox for data-science and operation research
+- [Incanter](https://github.com/incanter/incanter): `df`,`stat`,`vis`,`rand`,`csv` - an R-like data-science platform built on top of the core.matrix abstractions
+- [huri](https://github.com/sbelak/huri): `df`,`stat`,`vis` - a toolbox for data-science using plain sequences of maps "
+                        )
+        (map (fn [line]
+               (parse-line line {:lib/category :div-tools}))))))
+
 (defn alltags
   "Identify all the tags"
   [{}]
@@ -307,15 +339,20 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
   (println (str/trim "
 Usage: ./gen.clj <subcommand>
 
-Subcommands:
+Useful subcommands:
 
 libs-show   - Generate libs.md as string
 
 libs.md     - Generate libs.md
 
+
+Subcommands for data cleaning:
+
 sanitize    - Helper for building data
 
 alltags     - Extract tags from libs.md
+
+parse-stuff - Helper for building data
 ")))
 
 (defn main [& args]
@@ -323,6 +360,7 @@ alltags     - Extract tags from libs.md
                  {:cmds ["libs.md"] :fn libs-md}
                  {:cmds ["sanitize"] :fn sanitize}
                  {:cmds ["alltags"] :fn alltags}
+                 {:cmds ["parse-stuff"] :fn parse-stuff}
                  {:cmds [] :fn print-help}]
                 args))
 
