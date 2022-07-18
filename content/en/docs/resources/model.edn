@@ -44,6 +44,7 @@
    :lib/url "https://github.com/generateme/fastmath",
    :lib/category :div-tools,
    :tags #{:stat :rand :act :ml :math},
+   :star :star,
    :description
    "a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries"}
   {:lib/name "spork",

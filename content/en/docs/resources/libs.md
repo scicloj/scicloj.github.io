@@ -56,9 +56,9 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
 - [Clojure graph resources](https://github.com/simongray/clojure-graph-resources) :star: by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with graph-like data
 
 ## Diverse toolsets
-- [fastmath](https://github.com/generateme/fastmath) :star: (`act`): `math`,`stat`,`rand`,`ml` - a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries
-- [spork](https://github.com/joinr/spork): `opt`,`df`,`vis`,`rand`,`graph`,`ui` - a toolbox for data-science and operation research
-- [Incanter](https://github.com/incanter/incanter): `df`,`stat`,`vis`,`rand`,`csv` - an R-like data-science platform built on top of the core.matrix abstractions
+- [fastmath](https://github.com/generateme/fastmath) :star: (`act`): `math`,`ml`,`rand`,`stat` - a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries
+- [spork](https://github.com/joinr/spork): `df`,`graph`,`opt`,`rand`,`ui`,`vis` - a toolbox for data-science and operation research
+- [Incanter](https://github.com/incanter/incanter): `csv`,`df`,`rand`,`stat`,`vis` - an R-like data-science platform built on top of the core.matrix abstractions
 - [huri](https://github.com/sbelak/huri): `df`,`stat`,`vis` - a toolbox for data-science using plain sequences of maps
 
 ## Optimization

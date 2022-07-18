@@ -63,12 +63,12 @@
   "
   [lib]
   (str "- [" (:lib/name lib) "](" (:lib/url lib) ")"
-       (when false ;; todo star check
+       (when (:star lib) ;; todo star check
          " :star:")
        (when (contains? (:tags lib) :act)
          " (`act`)")
        ": "
-       (str/join ", " (->> (disj (:tags lib) :act)
+       (str/join "," (->> (disj (:tags lib) :act)
                            sort
                            (map (fn [tag]
                                   (str "`" (name tag) "`")))))
@@ -125,12 +125,13 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
           (str/join "\n"))
 
      ;; But we want to generate this stuff.
-     "## Diverse toolsets
+     #_"## Diverse toolsets
 - [fastmath](https://github.com/generateme/fastmath) :star: (`act`): `math`,`stat`,`rand`,`ml` - a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries
 - [spork](https://github.com/joinr/spork): `opt`,`df`,`vis`,`rand`,`graph`,`ui` - a toolbox for data-science and operation research
 - [Incanter](https://github.com/incanter/incanter): `df`,`stat`,`vis`,`rand`,`csv` - an R-like data-science platform built on top of the core.matrix abstractions
 - [huri](https://github.com/sbelak/huri): `df`,`stat`,`vis` - a toolbox for data-science using plain sequences of maps
-
+"
+     "
 ## Optimization
 - [matlib](https://github.com/atisharma/matlib) :star: (`act`): `opt` - optimisation and control theory tools and convenience functions based on Neanderthal.
 
@@ -344,6 +345,10 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 (defn find-url [line]
   (second (str/split line #"\s")))
 
+(defn find-star [line]
+  (when (re-find #":star:" line)
+    :star))
+
 (defn parse-line
   [line opts]
   (-> {}
@@ -351,6 +356,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
       (assoc :lib/url (find-url line))
       (merge opts)
       (assoc :tags (find-tags line))
+      (assoc :star (find-star line))
       (assoc :description (find-description line))
       ))
 
