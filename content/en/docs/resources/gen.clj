@@ -45,6 +45,21 @@
   (str/join "\n" (for [{:tag/keys [id description]} (:tags model)]
                    (str "* `" id "` - " description))))
 
+(def tags-whitelist
+  "Extracted with ./gen.clj alltags"
+  #{:act :array :cljs :csv :data :df :dnn :exp :for :future :geo :gpu :graph :hiccup :interop :json
+    :linalg :lit :lt :math :ml :native :nlp :opt :pmap :prob :py :r :rand :stat :tensor :ts :ui :vega
+    :vis :xform :xl})
+
+(defn find-tags
+  "Find tags in a line"
+  [line]
+  (->> line
+       (re-seq #"`([a-zA-Z_]+)`" )
+       (map (fn [[_ tag]]
+              (keyword tag)))
+       (into #{})))
+
 (defn libs-str
   "Generate libs.md content as string"
   [{}]
@@ -282,6 +297,12 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
                {:tag/id tag-id :tag/description tag-description}))
         (into []))))
 
+(defn alltags
+  "Identify all the tags"
+  [{}]
+  (pprint
+   (sort (find-tags (slurp "libs.md")))))
+
 (defn print-help [{}]
   (println (str/trim "
 Usage: ./gen.clj <subcommand>
@@ -292,13 +313,16 @@ libs-show   - Generate libs.md as string
 
 libs.md     - Generate libs.md
 
-sanitize    - Helper for
+sanitize    - Helper for building data
+
+alltags     - Extract tags from libs.md
 ")))
 
 (defn main [& args]
   (cli/dispatch [{:cmds ["libs-show"] :fn libs-show}
                  {:cmds ["libs.md"] :fn libs-md}
                  {:cmds ["sanitize"] :fn sanitize}
+                 {:cmds ["alltags"] :fn alltags}
                  {:cmds [] :fn print-help}]
                 args))
 
