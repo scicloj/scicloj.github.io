@@ -9,7 +9,7 @@
 ;;
 ;; Plan:
 ;;
-;;   - Edngame: Autogenerate libs.md from libs.edn
+;;   - Endgame: Autogenerate libs.md from libs.edn
 ;;   - Intermediate step: hardcode some stuff in here.
 
 
