@@ -34,7 +34,7 @@ Our Zulip organization is [jointprob.zulipchat.com](https://jointprob.zulipchat.
 
 You may wish to learn a little bit about the concepts of [Zulip streams and topics](https://zulipchat.com/help/about-streams-and-topics). Note that all streams and topics (and even single messages) have URLs, that you can open at separate tabs in your browser.
 
-If you wish, it would be wonderful to present yourself at the [personal intros](https://jointprob.zulipchat.com/#narrow/stream/331546-personal-intros) stream, preferrably as a new topic thread.
+If you wish, it would be wonderful to present yourself at the [personal intros](https://jointprob.zulipchat.com/#narrow/stream/331546-personal-intros) stream, preferably as a new topic thread.
 
 ## Agenda
 
