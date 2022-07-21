@@ -26,7 +26,7 @@ To join the group and receive updates, please email us: <a href="mailto:scicloj@
 
 There is no need to do that if you have already received emails about this group, if you have responded to our survey, or if you have registered to the initial brainstorming meeting.
 
-## Social platform
+## Chat
 
 The group uses Zulip, an open-source chat platform. In some other groups we've been running, we've found it useful for chat, in-depth discussion threads, and knowledge management.
 
