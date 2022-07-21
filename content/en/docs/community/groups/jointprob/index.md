@@ -16,15 +16,25 @@ Even though the group is initiated by Scicloj -- a community for data science in
 
 The details below are tentative.
 
+## Meetings
+
+* 2022-07-22, initial brainstorming - [event](https://bit.ly/jointprob-brainstorm-1)
+
 ## Joining
 
 To join the group and receive updates, please email us: <a href="mailto:scicloj@gmail.com">scicloj@gmail.com</a>. It'd be nice to mention your name, and as much as you wish, tell a bit about your background and interests.
 
 There is no need to do that if you have already received emails about this group, if you have responded to our survey, or if you have registered to the initial brainstorming meeting.
 
-## Meetings
+## Social platform
 
-* 2022-07-22, initial brainstorming - [event](https://bit.ly/jointprob-brainstorm-1)
+The group uses Zulip, an open-source chat platform. In some other groups we've been running, we've found it useful for chat, in-depth discussion threads, and knowledge management.
+
+Our Zulip organization is [jointprob.zulipchat.com](https://jointprob.zulipchat.com/).
+
+You may wish to learn a little bit about the concepts of [Zulip streams and topics](https://zulipchat.com/help/about-streams-and-topics). Note that all streams and topics (and even single messages) have URLs, that you can open at separate tabs in your browser.
+
+If you wish, it would be wonderful to present yourself at the [personal intros](https://jointprob.zulipchat.com/#narrow/stream/331546-personal-intros) stream, preferrably as a new topic thread.
 
 ## Agenda
 
