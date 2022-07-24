@@ -38,6 +38,7 @@ The details below are **tentative** and will probably change.
 ## chat
 - We'll use a dedicated stream at the [Clojurians Zulip](https://clojurians.zulipchat.com/) chat.
 - Stream: [ds4clj](https://clojurians.zulipchat.com/#narrow/stream/330924-ds4clj)
+- It is recommended to follow a few of the other [chat streams](../../chat).
 
 ## time
 - We'll have a class once a month.
@@ -46,7 +47,7 @@ The details below are **tentative** and will probably change.
   
 ## recording
 - The meetings will be recorded and shared at the [Clojurians Zulip chat](http://clojurians.zulipchat.com).
-- The lecture part of the meetings will be shared publicly.
+- Some parts of the recordings (e.g. the lecture) will be shared publicly.
 
 ## homework
 Homework will be composed of:
@@ -73,9 +74,40 @@ This is a good intro to the R language and its use in basic data-science tasks. 
 
 We will use parts of it a basic intro to R. Knowing some R would make participants more independent in approaching study resources on their own. Python could have been another option, but we prefer R, since its ecosystem is arguably more in harmony with the functional approach and with expressing statistical ideas.
 
-:book: [Clj4DS] [Clojure for Data Science](https://www.packtpub.com/product/clojure-for-data-science/9781784397180) by Henry Garner 
+:book: [Clj4DS] [Clojure for Data Science](https://www.packtpub.com/product/clojure-for-data-science/9781784397180** by Henry Garner 
 
 This is an excellent intro to data science topics, but it uses Clojure libraries which are not actively developed anymore.
 
 It will be used for a few of the case studies, that we will adapt to this course.
 
+## list of topics (tentative)
+
+### language
+(mostly self learning)
+- Clojure
+- R
+
+### theory & methods
+(very basic intros)
+- descriptive statistics
+- frequentist statistical inference
+- supervised learning: principles & workflow, regression, classification
+- probabilistic modelling through Bayesian statistics
+- unsuprevised learning: clustering, dimension reduction
+- linear algebra
+- deep networks
+- nlp
+
+### libraries & tools
+(some introduced briefly, some more thoroughly)
+- tablecloth, tech.ml.dataset, dtype-next
+- portal, oz, clerk, clay
+- hanami, cljplot?
+- fastmath, kixi.stats
+- scicloj.ml
+- libpython-clj, clojisr
+- inferme, clj-stan
+- specter, meander
+- neanderthal, deep-diamond
+- geni, clojask
+- datalinguist?
