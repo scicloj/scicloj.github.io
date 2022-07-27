@@ -297,6 +297,50 @@
     :star nil,
     :description
     "an emacs mode to facilitate interactive data visualization using Vega from within emacs. Supports elisp, json and clojure notations"})
+
+  ;; ## Data processing
+  ({:lib/name "Specter",
+    :lib/url "https://github.com/redplanetlabs/specter",
+    :lib/category :data-processing,
+    :tags #{:act :cljs :data},
+    :star :star,
+    :description
+    "declarative navigation of nested data structures for selection and transformation in Clojure and Clojurescript"}
+   {:lib/name "Meander",
+    :lib/url "https://github.com/noprompt/meander",
+    :lib/category :data-processing,
+    :tags #{:act :cljs :data},
+    :star :star,
+    :description
+    "transforming neseted data structures by declaratively declaring the shape of source and target datastructures"}
+   {:lib/name "xforms",
+    :lib/url "https://github.com/cgrand/xforms",
+    :lib/category :data-processing,
+    :tags #{:xform :cljs :data},
+    :star :star,
+    :description "a collection of transduces and reducing functions"}
+   {:lib/name "Odin",
+    :lib/url "https://github.com/halgari/odin",
+    :lib/category :data-processing,
+    :tags #{:data},
+    :star nil,
+    :description
+    "processing nested data structures by extensible logic programming"}
+   {:lib/name "Charred",
+    :lib/url "https://github.com/cnuernber/charred",
+    :lib/category :data-processing,
+    :tags #{:csv :act :json},
+    :star :star,
+    :description
+    "zero dependency efficient read/write of json and csv data."}
+   {:lib/name "Semantic Csv",
+    :lib/url "https://github.com/metasoarous/semantic-csv",
+    :lib/category :data-processing,
+    :tags #{:csv :cljs},
+    :star nil,
+    :description "higher level csv parsing/processing"})
+
+
   ;; TODO more sections ...
   ]
 

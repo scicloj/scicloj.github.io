@@ -105,12 +105,13 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [emacs-Vega-view](https://github.com/appliedsciencestudio/emacs-Vega-view) (`act`): `vega`,`vis` - an emacs mode to facilitate interactive data visualization using Vega from within emacs. Supports elisp, json and clojure notations
 
 ## Data processing
-- [Specter](https://github.com/redplanetlabs/specter) :star: (`act`): `data`,`cljs` - declarative navigation of nested data structures for selection and transformation in Clojure and Clojurescript
-- [Meander](https://github.com/noprompt/meander) :star: (`act`): `data`,`cljs` - transforming neseted data structures by declaratively declaring the shape of source and target datastructures
-- [xforms](https://github.com/cgrand/xforms): :star: `data`,`cljs`,`xform` - a collection of transduces and reducing functions
+- [Specter](https://github.com/redplanetlabs/specter) :star: (`act`): `cljs`,`data` - declarative navigation of nested data structures for selection and transformation in Clojure and Clojurescript
+- [Meander](https://github.com/noprompt/meander) :star: (`act`): `cljs`,`data` - transforming neseted data structures by declaratively declaring the shape of source and target datastructures
+- [xforms](https://github.com/cgrand/xforms) :star:: `cljs`,`data`,`xform` - a collection of transduces and reducing functions
 - [Odin](https://github.com/halgari/odin): `data` - processing nested data structures by extensible logic programming
-- [Charred](https://github.com/cnuernber/charred) (`act`): :star: `csv`, `json` - zero dependency efficient read/write of json and csv data.
-- [Semantic Csv](https://github.com/metasoarous/semantic-csv): `csv`,`cljs` - higher level csv parsing/processing
+- [Charred](https://github.com/cnuernber/charred) :star: (`act`): `csv`,`json` - zero dependency efficient read/write of json and csv data.
+- [Semantic Csv](https://github.com/metasoarous/semantic-csv): `cljs`,`csv` - higher level csv parsing/processing
+
 
 ## Geospatial processing
 - [geo](https://github.com/Factual/geo) :star: (`act`): `geo` - unifying several JVM libraries for geoprocessing with a Clojure API
