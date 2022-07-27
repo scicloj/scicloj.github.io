@@ -65,20 +65,21 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
 - [matlib](https://github.com/atisharma/matlib) :star: (`act`): `opt` - optimisation and control theory tools and convenience functions based on Neanderthal.
 
 ## Visual tools: literate programming and data visualization
-- [Saite](https://github.com/jsa-aerial/saite) :star: (`act`): `vis`,`vega`,`lit`,`ui`,`hiccup`,`cljs` - data exploration, dashboards, and interactive documents
-- [Oz](https://github.com/metasoarous/oz) :star: (`act`): `vis`,`vega`,`lit` - data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming
-- [Clerk](https://github.com/nextjournal/clerk) :star: (`act`): `vis`, `vega`, `lit`, `cljs` - local-first notebooks for Clojure
-- [Clay](https://github.com/scicloj/clay) :star: (`act`): `vis`, `vega`, `lit`, `cljs` - a small tool for compatible dynamic experience over some of the other visual tools
-- [rmarkdown-clojue](https://github.com/genmeblog/rmarkdown-clojure) :star: : `vis`, `lit` - rendering Clojure code in various format using [Rmarkdown](https://rmarkdown.rstudio.com/)
-- [Pink-Gorilla/Goldly](https://github.com/pink-gorilla/goldly) :star: (`act`,`exp`, temporary name): `vis`,`lit`,`ui`,`cljs` - a port of the Gorilla REPL project using a Clojurescript (Reagent) frontend
-- [Org-babel-clojure](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-clojure.html) :star: : `lt` - executing Clojure inside Emacs Org-mode documents
-- [Devcards](https://github.com/bhauman/devcards):star: : `lit`,`cljs`- visual repl exprience for Clojurescript
-- [Notespace](https://github.com/scicloj/notespace) :star: (`act`,`exp`): `lit` - notebook experience with Clojure namespaces edited at any editor
-- [Reveal](https://vlaaad.github.io/reveal/) :star: (`act`): browser-based data navigation GUI
-- [Portal](https://github.com/djblue/portal) :star: (`act`): desktop data navigation GUI
+- [Saite](https://github.com/jsa-aerial/saite) :star: (`act`): `cljs`,`hiccup`,`lit`,`ui`,`vega`,`vis` - data exploration, dashboards, and interactive documents
+- [Oz](https://github.com/metasoarous/oz) :star: (`act`): `lit`,`vega`,`vis` - data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming
+- [Clerk](https://github.com/nextjournal/clerk) :star: (`act`): `cljs`,`lit`,`vega`,`vis` - local-first notebooks for Clojure
+- [Clay](https://github.com/scicloj/clay) :star: (`act`): `cljs`,`lit`,`vega`,`vis` - a small tool for compatible dynamic experience over some of the other visual tools
+- [rmarkdown-clojue](https://github.com/genmeblog/rmarkdown-clojure) :star:: `lit`,`vis` - rendering Clojure code in various format using [Rmarkdown](https://rmarkdown.rstudio.com/)
+- [Pink-Gorilla/Goldly](https://github.com/pink-gorilla/goldly) :star: (`act`): `cljs`,`exp`,`lit`,`ui`,`vis` - a port of the Gorilla REPL project using a Clojurescript (Reagent) frontend
+- [Org-babel-clojure](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-clojure.html) :star:: `lt` - executing Clojure inside Emacs Org-mode documents
+- [Devcards](https://github.com/bhauman/devcards) :star:: `cljs`,`lit` - visual repl exprience for Clojurescript
+- [Notespace](https://github.com/scicloj/notespace) :star: (`act`): `exp`,`lit` - notebook experience with Clojure namespaces edited at any editor
+- [Reveal](https://vlaaad.github.io/reveal/) :star: (`act`):  - browser-based data navigation GUI
+- [Portal](https://github.com/djblue/portal) :star: (`act`):  - desktop data navigation GUI
 - [Gorilla-REPL](http://gorilla-repl.org/): `lit` - a notebook application written in Clojure and Javascript
 - [proto-repl-charts](https://github.com/jasongilman/proto-repl-charts): `vis` - an Atom plugin for displaying tables and graphs
-- [Maria](https://github.com/mhuebert/maria): `lit`, `vis`, `cljs`: a Clojurescript coding environment for beginners
+- [Maria](https://github.com/mhuebert/maria): `cljs`,`lit`,`vis` - a Clojurescript coding environment for beginners
+
 ### Vega rendering
 In addition to a few of the tools mentioned above, here is a list of dedicated tools dedicated mainly to handling [Vega](https://Vega.github.io/Vega/)/[Vega-lite](https://Vega.github.io/Vega-lite/) specifications. See [this conversation](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science/topic/rendering.20charts.20in.20notespace) for some discussion of the differences and tradeoffs across these tools.
 - [darkstar](https://github.com/appliedsciencestudio/darkstar): :star: `vis`,`vega` - a minimal wrapper over Vega/Vega-lite as a single JVM-only Clojure library, using the GraalJS javascript runtime, which [does not require GraalVM runtime](https://github.com/graalvm/graaljs/blob/master/docs/user/RunOnJDK.md) to run.

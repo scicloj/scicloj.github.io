@@ -40,39 +40,133 @@
                       ]
  :libs
  [;; # Diverse toolsets
-  {:lib/name "fastmath",
-   :lib/url "https://github.com/generateme/fastmath",
-   :lib/category :div-tools,
-   :tags #{:stat :rand :act :ml :math},
-   :star :star,
-   :description
-   "a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries"}
-  {:lib/name "spork",
-   :lib/url "https://github.com/joinr/spork",
-   :lib/category :div-tools,
-   :tags #{:rand :vis :df :ui :graph :opt},
-   :description "a toolbox for data-science and operation research"}
-  {:lib/name "Incanter",
-   :lib/url "https://github.com/incanter/incanter",
-   :lib/category :div-tools,
-   :tags #{:csv :stat :rand :vis :df},
-   :description
-   "an R-like data-science platform built on top of the core.matrix abstractions"}
-  {:lib/name "huri",
-   :lib/url "https://github.com/sbelak/huri",
-   :lib/category :div-tools,
-   :tags #{:stat :vis :df},
-   :description
-   "a toolbox for data-science using plain sequences of maps"}
+  ({:lib/name "fastmath",
+    :lib/url "https://github.com/generateme/fastmath",
+    :lib/category :div-tools,
+    :tags #{:stat :rand :act :ml :math},
+    :star :star,
+    :description
+    "a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries"}
+   {:lib/name "spork",
+    :lib/url "https://github.com/joinr/spork",
+    :lib/category :div-tools,
+    :tags #{:rand :vis :df :ui :graph :opt},
+    :description "a toolbox for data-science and operation research"}
+   {:lib/name "Incanter",
+    :lib/url "https://github.com/incanter/incanter",
+    :lib/category :div-tools,
+    :tags #{:csv :stat :rand :vis :df},
+    :description
+    "an R-like data-science platform built on top of the core.matrix abstractions"}
+   {:lib/name "huri",
+    :lib/url "https://github.com/sbelak/huri",
+    :lib/category :div-tools,
+    :tags #{:stat :vis :df},
+    :description
+    "a toolbox for data-science using plain sequences of maps"})
 
   ;; Optimization
-  {:lib/name "matlib",
-   :lib/url "https://github.com/atisharma/matlib",
-   :lib/category :optimization,
-   :tags #{:act :opt},
-   :star :star,
-   :description
-   "optimisation and control theory tools and convenience functions based on Neanderthal."}
+  ({:lib/name "matlib",
+    :lib/url "https://github.com/atisharma/matlib",
+    :lib/category :optimization,
+    :tags #{:act :opt},
+    :star :star,
+    :description
+    "optimisation and control theory tools and convenience functions based on Neanderthal."})
+
+  ;; Visual tools: literate programming and data visualization
+  ({:lib/name "Saite",
+    :lib/url "https://github.com/jsa-aerial/saite",
+    :lib/category :visual-tools,
+    :tags #{:vis :lit :act :hiccup :ui :vega :cljs},
+    :star :star,
+    :description
+    "data exploration, dashboards, and interactive documents"}
+   {:lib/name "Oz",
+    :lib/url "https://github.com/metasoarous/oz",
+    :lib/category :visual-tools,
+    :tags #{:vis :lit :act :vega},
+    :star :star,
+    :description
+    "data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming"}
+   {:lib/name "Clerk",
+    :lib/url "https://github.com/nextjournal/clerk",
+    :lib/category :visual-tools,
+    :tags #{:vis :lit :act :vega :cljs},
+    :star :star,
+    :description "local-first notebooks for Clojure"}
+   {:lib/name "Clay",
+    :lib/url "https://github.com/scicloj/clay",
+    :lib/category :visual-tools,
+    :tags #{:vis :lit :act :vega :cljs},
+    :star :star,
+    :description
+    "a small tool for compatible dynamic experience over some of the other visual tools"}
+   {:lib/name "rmarkdown-clojue",
+    :lib/url "https://github.com/genmeblog/rmarkdown-clojure",
+    :lib/category :visual-tools,
+    :tags #{:vis :lit},
+    :star :star,
+    :description
+    "rendering Clojure code in various format using [Rmarkdown](https://rmarkdown.rstudio.com/)"}
+   {:lib/name "Pink-Gorilla/Goldly",
+    :lib/url "https://github.com/pink-gorilla/goldly",
+    :lib/category :visual-tools,
+    :tags #{:vis :exp :lit :act :ui :cljs},
+    :star :star,
+    :description
+    "a port of the Gorilla REPL project using a Clojurescript (Reagent) frontend"}
+   {:lib/name "Org-babel-clojure",
+    :lib/url
+    "https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-clojure.html",
+    :lib/category :visual-tools,
+    :tags #{:lt},
+    :star :star,
+    :description "executing Clojure inside Emacs Org-mode documents"}
+   {:lib/name "Devcards",
+    :lib/url "https://github.com/bhauman/devcards",
+    :lib/category :visual-tools,
+    :tags #{:lit :cljs},
+    :star :star,
+    :description "visual repl exprience for Clojurescript"}
+   {:lib/name "Notespace",
+    :lib/url "https://github.com/scicloj/notespace",
+    :lib/category :visual-tools,
+    :tags #{:exp :lit :act},
+    :star :star,
+    :description
+    "notebook experience with Clojure namespaces edited at any editor"}
+   {:lib/name "Reveal",
+    :lib/url "https://vlaaad.github.io/reveal/",
+    :lib/category :visual-tools,
+    :tags #{:act},
+    :star :star,
+    :description "browser-based data navigation GUI"}
+   {:lib/name "Portal",
+    :lib/url "https://github.com/djblue/portal",
+    :lib/category :visual-tools,
+    :tags #{:act},
+    :star :star,
+    :description "desktop data navigation GUI"}
+   {:lib/name "Gorilla-REPL",
+    :lib/url "http://gorilla-repl.org/",
+    :lib/category :visual-tools,
+    :tags #{:lit},
+    :star nil,
+    :description
+    "a notebook application written in Clojure and Javascript"}
+   {:lib/name "proto-repl-charts",
+    :lib/url "https://github.com/jasongilman/proto-repl-charts",
+    :lib/category :visual-tools,
+    :tags #{:vis},
+    :star nil,
+    :description "an Atom plugin for displaying tables and graphs"}
+   {:lib/name "Maria",
+    :lib/url "https://github.com/mhuebert/maria",
+    :lib/category :visual-tools,
+    :tags #{:vis :lit :cljs},
+    :star nil,
+    :description "a Clojurescript coding environment for beginners"})
 
   ;; TODO more sections ...
   ]

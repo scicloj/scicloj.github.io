@@ -76,7 +76,12 @@
 (defn libs-str
   "Generate libs.md content as string"
   [{}]
-  (let [model (edn/read-string (slurp "model.edn"))]
+  (let [model (edn/read-string (slurp "model.edn"))
+        category-libs (fn [category]
+                        (->> (:libs model)
+                             (apply concat)
+                             (filter (fn [lib]
+                                       (= category (:lib/category lib))))))]
     ;; for now, hard-code the whole thing
     (str-lines
      "
@@ -116,21 +121,21 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
 - [Clojure graph resources](https://github.com/simongray/clojure-graph-resources) :star: by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with graph-like data
 "
      "## Diverse toolsets"
-     (->> (:libs model)
-          (filter (fn [lib]
-                    (= :div-tools (:lib/category lib))))
+     (->> (category-libs :div-tools)
           (map lib-line)
           (str/join "\n"))
 
      "\n## Optimization"
-     (->> (:libs model)
-          (filter (fn [lib]
-                    (= :optimization (:lib/category lib))))
+     (->> (category-libs :optimization)
           (map lib-line)
           (str/join "\n"))
 
-     "
-## Visual tools: literate programming and data visualization
+     "\n## Visual tools: literate programming and data visualization"
+     (->> (category-libs :visual-tools)
+          (map lib-line)
+          (str/join "\n"))
+
+     #_"
 - [Saite](https://github.com/jsa-aerial/saite) :star: (`act`): `vis`,`vega`,`lit`,`ui`,`hiccup`,`cljs` - data exploration, dashboards, and interactive documents
 - [Oz](https://github.com/metasoarous/oz) :star: (`act`): `vis`,`vega`,`lit` - data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming
 - [Clerk](https://github.com/nextjournal/clerk) :star: (`act`): `vis`, `vega`, `lit`, `cljs` - local-first notebooks for Clojure
@@ -145,6 +150,10 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
 - [Gorilla-REPL](http://gorilla-repl.org/): `lit` - a notebook application written in Clojure and Javascript
 - [proto-repl-charts](https://github.com/jasongilman/proto-repl-charts): `vis` - an Atom plugin for displaying tables and graphs
 - [Maria](https://github.com/mhuebert/maria): `lit`, `vis`, `cljs`: a Clojurescript coding environment for beginners
+"
+
+
+     "
 ### Vega rendering
 In addition to a few of the tools mentioned above, here is a list of dedicated tools dedicated mainly to handling [Vega](https://Vega.github.io/Vega/)/[Vega-lite](https://Vega.github.io/Vega-lite/) specifications. See [this conversation](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science/topic/rendering.20charts.20in.20notespace) for some discussion of the differences and tradeoffs across these tools.
 - [darkstar](https://github.com/appliedsciencestudio/darkstar): :star: `vis`,`vega` - a minimal wrapper over Vega/Vega-lite as a single JVM-only Clojure library, using the GraalJS javascript runtime, which [does not require GraalVM runtime](https://github.com/graalvm/graaljs/blob/master/docs/user/RunOnJDK.md) to run.
@@ -334,12 +343,14 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
               (keyword tag)))
        (into #{})))
 
-(defn find-name [line]
-  (let [[_ match] (re-find #"\[([\w]+)\]" line)]
+(defn find-name
+  "Names can have a-z, A-Z, _, - and / in them"
+  [line]
+  (let [[_ match] (re-find #"\[([\w/_-]+)\]" line)]
     match))
 
 (defn find-url [line]
-  (let [[_ match] (re-find #"\[[\w]+\]\(([\w:/\.]+)" line)]
+  (let [[_ match] (re-find #"\[[\w/_-]+\]\(([\w:/\.\-_]+)" line)]
     match))
 
 (defn find-star [line]
@@ -347,15 +358,16 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
     :star))
 
 (defn parse-line
-  [line opts]
-  (let [line (str/replace line #"^- " "")]
+  [raw-line opts]
+  (let [line (str/replace raw-line #"^- " "")
+        line (str/replace line #": " " - ")]
     (-> {}
         (assoc :lib/name (find-name line))
         (assoc :lib/url (find-url line))
         (merge opts)
         (assoc :tags (find-tags line))
-        (assoc :star (find-star line))
-        (assoc :description (find-description line))
+        (assoc :star (find-star raw-line))
+        (assoc :description (find-description raw-line))
         )))
 
 (defn str-trim-lines [s]
@@ -364,10 +376,23 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 (defn parse-stuff [{}]
   (pprint
    (->> (str-trim-lines "
-- [matlib](https://github.com/atisharma/matlib) :star: (`act`): `opt` - optimisation and control theory tools and convenience functions based on Neanderthal.
+- [Saite](https://github.com/jsa-aerial/saite) :star: (`act`): `vis`,`vega`,`lit`,`ui`,`hiccup`,`cljs` - data exploration, dashboards, and interactive documents
+- [Oz](https://github.com/metasoarous/oz) :star: (`act`): `vis`,`vega`,`lit` - data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming
+- [Clerk](https://github.com/nextjournal/clerk) :star: (`act`): `vis`, `vega`, `lit`, `cljs` - local-first notebooks for Clojure
+- [Clay](https://github.com/scicloj/clay) :star: (`act`): `vis`, `vega`, `lit`, `cljs` - a small tool for compatible dynamic experience over some of the other visual tools
+- [rmarkdown-clojue](https://github.com/genmeblog/rmarkdown-clojure) :star: : `vis`, `lit` - rendering Clojure code in various format using [Rmarkdown](https://rmarkdown.rstudio.com/)
+- [Pink-Gorilla/Goldly](https://github.com/pink-gorilla/goldly) :star: (`act`,`exp`, temporary name): `vis`,`lit`,`ui`,`cljs` - a port of the Gorilla REPL project using a Clojurescript (Reagent) frontend
+- [Org-babel-clojure](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-clojure.html) :star: : `lt` - executing Clojure inside Emacs Org-mode documents
+- [Devcards](https://github.com/bhauman/devcards):star: - `lit`,`cljs` - visual repl exprience for Clojurescript
+- [Notespace](https://github.com/scicloj/notespace) :star: (`act`,`exp`): `lit` - notebook experience with Clojure namespaces edited at any editor
+- [Reveal](https://vlaaad.github.io/reveal/) :star: (`act`) - browser-based data navigation GUI
+- [Portal](https://github.com/djblue/portal) :star: (`act`) - desktop data navigation GUI
+- [Gorilla-REPL](http://gorilla-repl.org/): `lit` - a notebook application written in Clojure and Javascript
+- [proto-repl-charts](https://github.com/jasongilman/proto-repl-charts): `vis` - an Atom plugin for displaying tables and graphs
+- [Maria](https://github.com/mhuebert/maria): `lit`, `vis`, `cljs` - a Clojurescript coding environment for beginners
 ")
         (map (fn [line]
-               (parse-line line {:lib/category :optimization}))))))
+               (parse-line line {:lib/category :visual-tools}))))))
 
 (defn alltags
   "Identify all the tags"
