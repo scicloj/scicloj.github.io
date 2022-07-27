@@ -806,6 +806,27 @@
     :star :star,
     :description "parallelization and threading primitives"})
 
+  ;; Distributed computing
+  ({:lib/name "titanoboa",
+    :lib/url "https://www.titanoboa.io",
+    :lib/category :distributed-computing,
+    :tags #{:act},
+    :star :star,
+    :description
+    "a fully distributed, highly scalable and fault tolerant workflow orchestration platform"}
+   {:lib/name "onyx",
+    :lib/url "http://www.onyxplatform.org/",
+    :lib/category :distributed-computing,
+    :tags #{},
+    :star :star,
+    :description "a library for distributed computation in the cloud"}
+   {:lib/name "overseer",
+    :lib/url "https://github.com/framed-data/overseer",
+    :lib/category :distributed-computing,
+    :tags #{},
+    :star nil,
+    :description "a library for building and running data pipelines"})
+
 
   ;; TODO more sections ...
   ]

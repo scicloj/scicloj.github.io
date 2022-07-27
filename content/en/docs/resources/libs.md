@@ -211,9 +211,9 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [tech.parallel](https://github.com/techascent/tech.parallel) :star: (`act`):  - parallelization and threading primitives
 
 ## Distributed computing
-- [titanoboa](https://www.titanoboa.io) :star: (`act`) - a fully distributed, highly scalable and fault tolerant workflow orchestration platform
-- [onyx](http://www.onyxplatform.org/) :star: - a library for distributed computation in the cloud
-- [overseer](https://github.com/framed-data/overseer) - a library for building and running data pipelines
+- [titanoboa](https://www.titanoboa.io) :star: (`act`):  - a fully distributed, highly scalable and fault tolerant workflow orchestration platform
+- [onyx](http://www.onyxplatform.org/) :star::  - a library for distributed computation in the cloud
+- [overseer](https://github.com/framed-data/overseer):  - a library for building and running data pipelines
 
 ### Hadoop
 - [Parkour](https://github.com/damballa/parkour) - Hadoop MapReduce in idiomatic Clojure

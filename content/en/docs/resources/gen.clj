@@ -232,22 +232,22 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (map lib-line)
           (str/join "\n"))
 
+
+     "\n## Distributed computing"
+     (->> (category-libs :distributed-computing)
+          (map lib-line)
+          (str/join "\n"))
+
      #_
      "
-- [claypoole](https://github.com/TheClimateCorporation/claypoole) :star: (`act`) - threadpool-based parallel versions of Clojure functions such as `pmap`, `future`, and `for`
-- [parallel](https://github.com/reborg/parallel) :star: - parallel-enabled functions, addditional transducers and supporting utilities
-- [tesser](https://github.com/aphyr/tesser) :star: - a library for concurrent & commutative folds, including some statistical tasks and Hadoop support
-- [tech.parallel](https://github.com/techascent/tech.parallel) :star: (`act`) - parallelization and threading primitives
+- [titanoboa](https://www.titanoboa.io) :star: (`act`) - a fully distributed, highly scalable and fault tolerant workflow orchestration platform
+- [onyx](http://www.onyxplatform.org/) :star: - a library for distributed computation in the cloud
+- [overseer](https://github.com/framed-data/overseer) - a library for building and running data pipelines
 "
 
      #_ "CONTINUE HERE"
 
      "
-## Distributed computing
-- [titanoboa](https://www.titanoboa.io) :star: (`act`) - a fully distributed, highly scalable and fault tolerant workflow orchestration platform
-- [onyx](http://www.onyxplatform.org/) :star: - a library for distributed computation in the cloud
-- [overseer](https://github.com/framed-data/overseer) - a library for building and running data pipelines
-
 ### Hadoop
 - [Parkour](https://github.com/damballa/parkour) - Hadoop MapReduce in idiomatic Clojure
 
@@ -333,10 +333,9 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 (defn parse-stuff [{:keys [opts]}]
   (let [big (str-trim-lines "
-- [claypoole](https://github.com/TheClimateCorporation/claypoole) :star: (`act`) - threadpool-based parallel versions of Clojure functions such as `pmap`, `future`, and `for`
-- [parallel](https://github.com/reborg/parallel) :star: - parallel-enabled functions, addditional transducers and supporting utilities
-- [tesser](https://github.com/aphyr/tesser) :star: - a library for concurrent & commutative folds, including some statistical tasks and Hadoop support
-- [tech.parallel](https://github.com/techascent/tech.parallel) :star: (`act`) - parallelization and threading primitives
+- [titanoboa](https://www.titanoboa.io) :star: (`act`) - a fully distributed, highly scalable and fault tolerant workflow orchestration platform
+- [onyx](http://www.onyxplatform.org/) :star: - a library for distributed computation in the cloud
+- [overseer](https://github.com/framed-data/overseer) - a library for building and running data pipelines
 ")
         small (str-trim-lines "
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure
