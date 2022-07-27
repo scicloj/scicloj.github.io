@@ -190,10 +190,9 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [Propeller](https://github.com/lspector/propeller) :star: (`act`): `ml` - "Yet another Push-based genetic programming system in Clojure"
 - [Clojush](https://github.com/lspector/Clojush) (`act`): `ml` - an implementation of the Push programming language for genetic programming
 
-
-
 ## Natural Language Processing
 - [DataLinguist](https://github.com/simongray/datalinguist) :star: (`act`): `nlp` - a Clojure wrapper for Stanford CoreNLP
+
 
 ## Interop
 - [Libpython-clj](https://github.com/clj-python/libpython-clj) :star: (`act`): `interop` - interop with Python

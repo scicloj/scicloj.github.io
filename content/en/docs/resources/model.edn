@@ -716,6 +716,16 @@
     :description
     "an implementation of the Push programming language for genetic programming"})
 
+  ;; Natural language processing
+  ({:lib/name "DataLinguist",
+    :lib/url "https://github.com/simongray/datalinguist",
+    :lib/category :natural-language-processing,
+    :tags #{:act :nlp},
+    :star :star,
+    :description "a Clojure wrapper for Stanford CoreNLP"})
+
+
+
   ;; TODO more sections ...
   ]
 
