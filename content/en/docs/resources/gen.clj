@@ -238,19 +238,19 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (map lib-line)
           (str/join "\n"))
 
+     "\n## Hadoop"
+     (->> (category-libs :hadoop)
+          (map lib-line)
+          (str/join "\n"))
+
      #_
      "
-- [titanoboa](https://www.titanoboa.io) :star: (`act`) - a fully distributed, highly scalable and fault tolerant workflow orchestration platform
-- [onyx](http://www.onyxplatform.org/) :star: - a library for distributed computation in the cloud
-- [overseer](https://github.com/framed-data/overseer) - a library for building and running data pipelines
+- [Parkour](https://github.com/damballa/parkour) - Hadoop MapReduce in idiomatic Clojure
 "
 
      #_ "CONTINUE HERE"
 
      "
-### Hadoop
-- [Parkour](https://github.com/damballa/parkour) - Hadoop MapReduce in idiomatic Clojure
-
 ### Spark
 - [geni](https://github.com/zero-one-group/geni) :star: (`act`) - `df`: a Spark wrapper
 - [sparkling](https://github.com/gorillalabs/sparkling) - a Spark wrapper
@@ -333,9 +333,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 (defn parse-stuff [{:keys [opts]}]
   (let [big (str-trim-lines "
-- [titanoboa](https://www.titanoboa.io) :star: (`act`) - a fully distributed, highly scalable and fault tolerant workflow orchestration platform
-- [onyx](http://www.onyxplatform.org/) :star: - a library for distributed computation in the cloud
-- [overseer](https://github.com/framed-data/overseer) - a library for building and running data pipelines
+- [Parkour](https://github.com/damballa/parkour) - Hadoop MapReduce in idiomatic Clojure
 ")
         small (str-trim-lines "
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure

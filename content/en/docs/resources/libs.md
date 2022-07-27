@@ -215,8 +215,8 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [onyx](http://www.onyxplatform.org/) :star::  - a library for distributed computation in the cloud
 - [overseer](https://github.com/framed-data/overseer):  - a library for building and running data pipelines
 
-### Hadoop
-- [Parkour](https://github.com/damballa/parkour) - Hadoop MapReduce in idiomatic Clojure
+## Hadoop
+- [Parkour](https://github.com/damballa/parkour):  - Hadoop MapReduce in idiomatic Clojure
 
 ### Spark
 - [geni](https://github.com/zero-one-group/geni) :star: (`act`) - `df`: a Spark wrapper

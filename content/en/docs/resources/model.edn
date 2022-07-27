@@ -827,6 +827,13 @@
     :star nil,
     :description "a library for building and running data pipelines"})
 
+  ;; Hadoop
+  ({:lib/name "Parkour",
+    :lib/url "https://github.com/damballa/parkour",
+    :lib/category :hadoop,
+    :tags #{},
+    :star nil,
+    :description "Hadoop MapReduce in idiomatic Clojure"})
 
   ;; TODO more sections ...
   ]
