@@ -1,31 +1,19 @@
 #!/usr/bin/env bb
 
-;; Idea -- move towards data driven representation of libraries.
+;; Idea: move towards data driven representation of libraries.
 ;;
 ;; Goals:
 ;;
-;;   - Simplify editing
-;;   - Enable others to play with alternate representations of the data.
-;;
-;; Plan:
-;;
-;;   - Endgame: Autogenerate libs.md from libs.edn
-;;   - Intermediate step: hardcode some stuff in here.
-;;
-;; Status 2022-07-18 16:49
-;; =======================
-;;
-;; - Tags are generated from data
-;; - Library text is just typed out
+;;   - Allow editing library data as plain data
+;;   - Allow others to build alternative views of the library data
 
-;; Copypaste / ideas from Teodor's publishing tooling:
+;; Inspired by metadata management on play.teod.eu:
 ;;
 ;;   https://github.com/teodorlu/play.teod.eu/tree/a6b2a039323d60e7fed57c13bbc7e61a1295fbd0/play.clj
 
 (require '[babashka.deps :as deps])
 (deps/add-deps '{:deps {org.babashka/cli {:mvn/version "0.3.31"}}})
 (require '[babashka.cli :as cli]
-         '[babashka.fs :as fs]
          '[clojure.java.shell]
          '[clojure.string :as str]
          '[clojure.edn :as edn]
@@ -254,18 +242,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (map lib-line)
           (str/join "\n"))
 
-     #_
-     "
-- [jackdaw](https://github.com/FundingCircle/jackdaw) :star:  (`act`) - a wrapper for Kafka and Kafka Streams
-- [kafka.clj](https://github.com/dvlopt/kafka.clj) :star: (`act`) - a wrapper for Kafka and Kafka Streams
-- [ksml](https://github.com/cddr/ksml) :star: (`act`) - representing kafka streams topologies as data
-- [rp-jackdaw-clj](https://github.com/rentpath/rp-jackdaw-clj) - various components for interacting with Kafka using Jackdaw
-"
-
-     #_ "CONTINUE HERE"
-
-     ))
-  )
+     )))
 
 (defn libs-md
   "Generate libs.md"
