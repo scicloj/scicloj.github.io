@@ -248,23 +248,23 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (map lib-line)
           (str/join "\n"))
 
+     "\n## Stream processing"
+     "### Kafka"
+     (->> (category-libs :kafka)
+          (map lib-line)
+          (str/join "\n"))
+
      #_
      "
-- [geni](https://github.com/zero-one-group/geni) :star: (`act`) - `df`: a Spark wrapper
-- [sparkling](https://github.com/gorillalabs/sparkling) - a Spark wrapper
-- [flambo](https://github.com/sorenmacbeth/flambo) - a Spark wrapper
-"
-
-     #_ "CONTINUE HERE"
-
-     "
-## Stream processing
-### Kafka
 - [jackdaw](https://github.com/FundingCircle/jackdaw) :star:  (`act`) - a wrapper for Kafka and Kafka Streams
 - [kafka.clj](https://github.com/dvlopt/kafka.clj) :star: (`act`) - a wrapper for Kafka and Kafka Streams
 - [ksml](https://github.com/cddr/ksml) :star: (`act`) - representing kafka streams topologies as data
 - [rp-jackdaw-clj](https://github.com/rentpath/rp-jackdaw-clj) - various components for interacting with Kafka using Jackdaw
-"))
+"
+
+     #_ "CONTINUE HERE"
+
+     ))
   )
 
 (defn libs-md
@@ -335,9 +335,10 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 (defn parse-stuff [{:keys [opts]}]
   (let [big (str-trim-lines "
-- [geni](https://github.com/zero-one-group/geni) :star: (`act`) - `df`: a Spark wrapper
-- [sparkling](https://github.com/gorillalabs/sparkling) - a Spark wrapper
-- [flambo](https://github.com/sorenmacbeth/flambo) - a Spark wrapper
+- [jackdaw](https://github.com/FundingCircle/jackdaw) :star:  (`act`) - a wrapper for Kafka and Kafka Streams
+- [kafka.clj](https://github.com/dvlopt/kafka.clj) :star: (`act`) - a wrapper for Kafka and Kafka Streams
+- [ksml](https://github.com/cddr/ksml) :star: (`act`) - representing kafka streams topologies as data
+- [rp-jackdaw-clj](https://github.com/rentpath/rp-jackdaw-clj) - various components for interacting with Kafka using Jackdaw
 ")
         small (str-trim-lines "
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure

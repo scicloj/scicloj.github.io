@@ -856,7 +856,32 @@
     :description "a Spark wrapper"})
 
 
-  ;; TODO more sections ...
+  ;; Kafka
+  ({:lib/name "jackdaw",
+    :lib/url "https://github.com/FundingCircle/jackdaw",
+    :lib/category :kafka,
+    :tags #{:act},
+    :star :star,
+    :description "a wrapper for Kafka and Kafka Streams"}
+   {:lib/name "kafka.clj",
+    :lib/url "https://github.com/dvlopt/kafka.clj",
+    :lib/category :kafka,
+    :tags #{:act},
+    :star :star,
+    :description "a wrapper for Kafka and Kafka Streams"}
+   {:lib/name "ksml",
+    :lib/url "https://github.com/cddr/ksml",
+    :lib/category :kafka,
+    :tags #{:act},
+    :star :star,
+    :description "representing kafka streams topologies as data"}
+   {:lib/name "rp-jackdaw-clj",
+    :lib/url "https://github.com/rentpath/rp-jackdaw-clj",
+    :lib/category :kafka,
+    :tags #{},
+    :star nil,
+    :description
+    "various components for interacting with Kafka using Jackdaw"})
   ]
 
  }
