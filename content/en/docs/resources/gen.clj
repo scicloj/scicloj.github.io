@@ -141,22 +141,13 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (map lib-line)
           (str/join "\n"))
 
+     "\n## Data visualization libraries"
+     (->> (category-libs :data-visualization-libraries)
+          (map lib-line)
+          (str/join "\n"))
+
+
      "
-## Data visualization libraries
-- [cljplot](https://github.com/generateme/cljplot) :star: (`act`,`exp`): `vis` - a data visualization platform written in Clojure and inspired by R's ggplot2 and lattice libraries
-- [Hanami](https://github.com/jsa-aerial/hanami) :star: (`act`): `vis`,`vega`,`ui`,`hiccup`,`cljs` - a template system for creating interactive data visualizations using Vega/Vega-lite, Reagent and Re-Com
-- [tech.viz](https://github.com/techascent/tech.viz) :star: (`act`): `vis`,`vega`,`cljs` - simple data visualization for Clojure/Clojurescript that using vega and [darkstar](https://github.com/appliedsciencestudio/darkstar) for rendering
-- [viz.clj](https://github.com/scicloj/viz.clj) :star: (`act`, `exp`): `vis`, `vega` - a data visualization library for beginners (WIP)
-- [Clojure2D](https://github.com/Clojure2D/clojure2d) :star: (`act`): `vis` - Java2D wrapper + creative coding supporting functions (based on Processing and openFrameworks)
-- [Quil](https://github.com/quil/quil) :star:: `vis` - a clojure/clojuresctit wrapper for Processing
-- [thi-ng/geom](https://github.com/thi-ng/geom) :star: : `vis`,`cljs` - 2d/3d geometry toolkit
-- [Gorilla-plot](https://github.com/JonyEpsilon/gorilla-plot) :star: : `vis`,`vega` - plotting functions using Vega for Gorilla-REPL
-- [gg4clj](https://github.com/JonyEpsilon/gg4clj): `vis`,`r` - a clojure DSL for creating ggplot2 plots using R
-- [gg4clj port](https://github.com/pink-gorilla/gg4clj) by the [Pink Gorilla](https://pink-gorilla.github.io) project
-- [Analemma](https://liebke.github.io/analemma/) (`exp`): `vis`,`cljs` - generating charts and SVG with a syntax similar to Incanter's and a visual theme similar to ggplot2.
-
-- [emacs-Vega-view](https://github.com/appliedsciencestudio/emacs-Vega-view) (`act`): `vis`, `vega` - an emacs mode to facilitate interactive data visualization using Vega from within emacs - supports elisp, json and clojure notations
-
 ## Data processing
 - [Specter](https://github.com/redplanetlabs/specter) :star: (`act`): `data`,`cljs` - declarative navigation of nested data structures for selection and transformation in Clojure and Clojurescript
 - [Meander](https://github.com/noprompt/meander) :star: (`act`): `data`,`cljs` - transforming neseted data structures by declaratively declaring the shape of source and target datastructures
@@ -353,13 +344,18 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 (defn parse-stuff [{:keys [opts]}]
   (let [big (str-trim-lines "
-- [darkstar](https://github.com/appliedsciencestudio/darkstar): :star: `vis`,`vega` - a minimal wrapper over Vega/Vega-lite as a single JVM-only Clojure library, using the GraalJS javascript runtime, which [does not require GraalVM runtime](https://github.com/graalvm/graaljs/blob/master/docs/user/RunOnJDK.md) to run.
-- [xvsy](https://github.com/dvdt/xvsy): `vis`,`vega`,`cljs` - grammer of graphics over Vega
-- [Vegan](https://github.com/cnuernber/Vegan/) (`act`): `vis`,`vega` - a nodejs clojurescript library designed to validate and render Vega and Vega-lite files - supports docker-based setup.
-- [Vega-clj](https://github.com/behrica/vg-cli) (`act`): `vis`,`vega` - a clojure wrapper for the (node-based) Vega-cli and Vega-lite standalone scrips
-- [Optikon](https://github.com/stathissideris/optikon): `vis`,`vega` - a command line tool that wraps Vega and Vega-lite - using GraalVM polyglot programming
-- [Vegafx](https://github.com/joinr/Vegafx): `vis`,`vega` - a static-site viewer using javafx that renders Vega specs
-- [VL example gallery as EDN](https://behrica.github.io/vl-galery/convert) - The vega lite example in EDN format, ready to be copy/pasted into Clojure code
+- [cljplot](https://github.com/generateme/cljplot) :star: (`act`,`exp`): `vis` - a data visualization platform written in Clojure and inspired by R's ggplot2 and lattice libraries
+- [Hanami](https://github.com/jsa-aerial/hanami) :star: (`act`): `vis`,`vega`,`ui`,`hiccup`,`cljs` - a template system for creating interactive data visualizations using Vega/Vega-lite, Reagent and Re-Com
+- [tech.viz](https://github.com/techascent/tech.viz) :star: (`act`): `vis`,`vega`,`cljs` - simple data visualization for Clojure/Clojurescript that using vega and [darkstar](https://github.com/appliedsciencestudio/darkstar) for rendering
+- [viz.clj](https://github.com/scicloj/viz.clj) :star: (`act`, `exp`): `vis`, `vega` - a data visualization library for beginners (WIP)
+- [Clojure2D](https://github.com/Clojure2D/clojure2d) :star: (`act`): `vis` - Java2D wrapper + creative coding supporting functions (based on Processing and openFrameworks)
+- [Quil](https://github.com/quil/quil) :star:: `vis` - a clojure/clojuresctit wrapper for Processing
+- [thi-ng/geom](https://github.com/thi-ng/geom) :star: : `vis`,`cljs` - 2d/3d geometry toolkit
+- [Gorilla-plot](https://github.com/JonyEpsilon/gorilla-plot) :star: : `vis`,`vega` - plotting functions using Vega for Gorilla-REPL
+- [gg4clj](https://github.com/JonyEpsilon/gg4clj): `vis`,`r` - a clojure DSL for creating ggplot2 plots using R
+- [gg4clj port](https://github.com/pink-gorilla/gg4clj) - by the [Pink Gorilla](https://pink-gorilla.github.io) project
+- [Analemma](https://liebke.github.io/analemma/) (`exp`): `vis`,`cljs` - generating charts and SVG with a syntax similar to Incanter's and a visual theme similar to ggplot2.
+- [emacs-Vega-view](https://github.com/appliedsciencestudio/emacs-Vega-view) (`act`): `vis`, `vega` - an emacs mode to facilitate interactive data visualization using Vega from within emacs. Supports elisp, json and clojure notations
 ")
         small (str-trim-lines "
 - [VL example gallery as EDN](https://behrica.github.io/vl-galery/convert) - The vega lite example in EDN format, ready to be copy/pasted into Clojure code

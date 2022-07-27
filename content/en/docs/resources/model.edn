@@ -217,6 +217,86 @@
     :description
     "The vega lite example in EDN format, ready to be copy/pasted into Clojure code"})
 
+  ;; ## Data visualization libraries
+  ({:lib/name "cljplot",
+    :lib/url "https://github.com/generateme/cljplot",
+    :lib/category :data-visualization-libraries,
+    :tags #{:vis :exp :act},
+    :star :star,
+    :description
+    "a data visualization platform written in Clojure and inspired by R's ggplot2 and lattice libraries"}
+   {:lib/name "Hanami",
+    :lib/url "https://github.com/jsa-aerial/hanami",
+    :lib/category :data-visualization-libraries,
+    :tags #{:vis :act :hiccup :ui :vega :cljs},
+    :star :star,
+    :description
+    "a template system for creating interactive data visualizations using Vega/Vega-lite, Reagent and Re-Com"}
+   {:lib/name "darkstar",
+    :lib/url "https://github.com/appliedsciencestudio/darkstar",
+    :lib/category :data-visualization-libraries,
+    :tags #{:vis :act :vega :cljs},
+    :star :star,
+    :description
+    "simple data visualization for Clojure/Clojurescript that using vega and [darkstar](https://github.com/appliedsciencestudio/darkstar) for rendering"}
+   {:lib/name nil,
+    :lib/url nil,
+    :lib/category :data-visualization-libraries,
+    :tags #{:vis :exp :act :vega},
+    :star :star,
+    :description "a data visualization library for beginners (WIP)"}
+   {:lib/name "Clojure2D",
+    :lib/url "https://github.com/Clojure2D/clojure2d",
+    :lib/category :data-visualization-libraries,
+    :tags #{:vis :act},
+    :star :star,
+    :description
+    "Java2D wrapper + creative coding supporting functions (based on Processing and openFrameworks)"}
+   {:lib/name "Quil",
+    :lib/url "https://github.com/quil/quil",
+    :lib/category :data-visualization-libraries,
+    :tags #{:vis},
+    :star :star,
+    :description "a clojure/clojuresctit wrapper for Processing"}
+   {:lib/name "thi-ng/geom",
+    :lib/url "https://github.com/thi-ng/geom",
+    :lib/category :data-visualization-libraries,
+    :tags #{:vis :cljs},
+    :star :star,
+    :description "2d/3d geometry toolkit"}
+   {:lib/name "Gorilla-plot",
+    :lib/url "https://github.com/JonyEpsilon/gorilla-plot",
+    :lib/category :data-visualization-libraries,
+    :tags #{:vis :vega},
+    :star :star,
+    :description "plotting functions using Vega for Gorilla-REPL"}
+   {:lib/name "gg4clj",
+    :lib/url "https://github.com/JonyEpsilon/gg4clj",
+    :lib/category :data-visualization-libraries,
+    :tags #{:r :vis},
+    :star nil,
+    :description "a clojure DSL for creating ggplot2 plots using R"}
+   {:lib/name "gg4clj port",
+    :lib/url "https://github.com/pink-gorilla/gg4clj",
+    :lib/category :data-visualization-libraries,
+    :tags #{},
+    :star nil,
+    :description
+    "by the [Pink Gorilla](https://pink-gorilla.github.io) project"}
+   {:lib/name "Analemma",
+    :lib/url "https://liebke.github.io/analemma/",
+    :lib/category :data-visualization-libraries,
+    :tags #{:vis :exp :cljs},
+    :star nil,
+    :description
+    "generating charts and SVG with a syntax similar to Incanter's and a visual theme similar to ggplot2."}
+   {:lib/name "emacs-Vega-view",
+    :lib/url "https://github.com/appliedsciencestudio/emacs-Vega-view",
+    :lib/category :data-visualization-libraries,
+    :tags #{:vis :act :vega},
+    :star nil,
+    :description
+    "an emacs mode to facilitate interactive data visualization using Vega from within emacs. Supports elisp, json and clojure notations"})
   ;; TODO more sections ...
   ]
 
