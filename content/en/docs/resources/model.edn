@@ -777,6 +777,36 @@
     :description
     "A project template which configure several interop libraries automaticaly using Docker"})
 
+  ;; Parallel computing
+  ({:lib/name "claypoole",
+    :lib/url "https://github.com/TheClimateCorporation/claypoole",
+    :lib/category :parallel-computing,
+    :tags #{:pmap :future :act :for},
+    :star :star,
+    :description
+    "threadpool-based parallel versions of Clojure functions such as `pmap`, `future`, and `for`"}
+   {:lib/name "parallel",
+    :lib/url "https://github.com/reborg/parallel",
+    :lib/category :parallel-computing,
+    :tags #{},
+    :star :star,
+    :description
+    "parallel-enabled functions, addditional transducers and supporting utilities"}
+   {:lib/name "tesser",
+    :lib/url "https://github.com/aphyr/tesser",
+    :lib/category :parallel-computing,
+    :tags #{},
+    :star :star,
+    :description
+    "a library for concurrent & commutative folds, including some statistical tasks and Hadoop support"}
+   {:lib/name "tech.parallel",
+    :lib/url "https://github.com/techascent/tech.parallel",
+    :lib/category :parallel-computing,
+    :tags #{:act},
+    :star :star,
+    :description "parallelization and threading primitives"})
+
+
   ;; TODO more sections ...
   ]
 

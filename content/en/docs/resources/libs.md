@@ -204,11 +204,11 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [Interop template project](https://github.com/behrica/clj-py-r-template): `interop` - A project template which configure several interop libraries automaticaly using Docker
 - [other R interop libraries](https://github.com/scicloj/clojisr/blob/master/doc/existing_libraries.md)
 
-## Parralel computing
-- [claypoole](https://github.com/TheClimateCorporation/claypoole) :star: (`act`) - threadpool-based parallel versions of Clojure functions such as `pmap`, `future`, and `for`
-- [parallel](https://github.com/reborg/parallel) :star: - parallel-enabled functions, addditional transducers and supporting utilities
-- [tesser](https://github.com/aphyr/tesser) :star: - a library for concurrent & commutative folds, including some statistical tasks and Hadoop support
-- [tech.parallel](https://github.com/techascent/tech.parallel) :star: (`act`) - parallelization and threading primitives
+## Parallel computing
+- [claypoole](https://github.com/TheClimateCorporation/claypoole) :star: (`act`): `for`,`future`,`pmap` - threadpool-based parallel versions of Clojure functions such as `pmap`, `future`, and `for`
+- [parallel](https://github.com/reborg/parallel) :star::  - parallel-enabled functions, addditional transducers and supporting utilities
+- [tesser](https://github.com/aphyr/tesser) :star::  - a library for concurrent & commutative folds, including some statistical tasks and Hadoop support
+- [tech.parallel](https://github.com/techascent/tech.parallel) :star: (`act`):  - parallelization and threading primitives
 
 ## Distributed computing
 - [titanoboa](https://www.titanoboa.io) :star: (`act`) - a fully distributed, highly scalable and fault tolerant workflow orchestration platform
