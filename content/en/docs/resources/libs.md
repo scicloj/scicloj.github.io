@@ -112,12 +112,12 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [Charred](https://github.com/cnuernber/charred) :star: (`act`): `csv`,`json` - zero dependency efficient read/write of json and csv data.
 - [Semantic Csv](https://github.com/metasoarous/semantic-csv): `cljs`,`csv` - higher level csv parsing/processing
 
-
 ## Geospatial processing
 - [geo](https://github.com/Factual/geo) :star: (`act`): `geo` - unifying several JVM libraries for geoprocessing with a Clojure API
-- [ovid](https://github.com/willcohen/ovid) :star: (`act`,`exp`): `geo`: protocols for geospatial concepts
-- [aurelius](https://github.com/willcohen/aurelius) :star: (`act`,`exp`): `geo`, `xform` - transducible analysis of geospatial features
-- [geo-clj](https://github.com/r0man/geo-clj) :star: (`act`): `geo`,`cljs` - encoding/decoding of geographic datatypes
+- [ovid](https://github.com/willcohen/ovid) :star: (`act`): `exp`,`geo` - protocols for geospatial concepts
+- [aurelius](https://github.com/willcohen/aurelius) :star: (`act`): `exp`,`geo`,`xform` - transducible analysis of geospatial features
+- [geo-clj](https://github.com/r0man/geo-clj) :star: (`act`): `cljs`,`geo` - encoding/decoding of geographic datatypes
+
 
 ## Dataframe-like structures
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure

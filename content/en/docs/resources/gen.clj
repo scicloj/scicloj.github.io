@@ -151,23 +151,20 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (map lib-line)
           (str/join "\n"))
 
+     "\n## Geospatial processing"
+     (->> (category-libs :geospatial-processing)
+          (map lib-line)
+          (str/join "\n"))
+
      #_
      "
-- [Specter](https://github.com/redplanetlabs/specter) :star: (`act`): `data`,`cljs` - declarative navigation of nested data structures for selection and transformation in Clojure and Clojurescript
-- [Meander](https://github.com/noprompt/meander) :star: (`act`): `data`,`cljs` - transforming neseted data structures by declaratively declaring the shape of source and target datastructures
-- [xforms](https://github.com/cgrand/xforms): :star: `data`,`cljs`,`xform` - a collection of transduces and reducing functions
-- [Odin](https://github.com/halgari/odin): `data` - processing nested data structures by extensible logic programming
-- [Charred](https://github.com/cnuernber/charred) (`act`): :star: `csv`, `json` - zero dependency efficient read/write of json and csv data.
-- [Semantic Csv](https://github.com/metasoarous/semantic-csv): `csv`,`cljs` - higher level csv parsing/processing
-"
-
-     "
-
-## Geospatial processing
 - [geo](https://github.com/Factual/geo) :star: (`act`): `geo` - unifying several JVM libraries for geoprocessing with a Clojure API
 - [ovid](https://github.com/willcohen/ovid) :star: (`act`,`exp`): `geo`: protocols for geospatial concepts
 - [aurelius](https://github.com/willcohen/aurelius) :star: (`act`,`exp`): `geo`, `xform` - transducible analysis of geospatial features
 - [geo-clj](https://github.com/r0man/geo-clj) :star: (`act`): `geo`,`cljs` - encoding/decoding of geographic datatypes
+"
+
+     "
 
 ## Dataframe-like structures
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure
@@ -351,15 +348,12 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 (defn parse-stuff [{:keys [opts]}]
   (let [big (str-trim-lines "
-- [Specter](https://github.com/redplanetlabs/specter) :star: (`act`): `data`,`cljs` - declarative navigation of nested data structures for selection and transformation in Clojure and Clojurescript
-- [Meander](https://github.com/noprompt/meander) :star: (`act`): `data`,`cljs` - transforming neseted data structures by declaratively declaring the shape of source and target datastructures
-- [xforms](https://github.com/cgrand/xforms): :star: `data`,`cljs`,`xform` - a collection of transduces and reducing functions
-- [Odin](https://github.com/halgari/odin): `data` - processing nested data structures by extensible logic programming
-- [Charred](https://github.com/cnuernber/charred) (`act`): :star: `csv`, `json` - zero dependency efficient read/write of json and csv data.
-- [Semantic Csv](https://github.com/metasoarous/semantic-csv): `csv`,`cljs` - higher level csv parsing/processing
+- [geo](https://github.com/Factual/geo) :star: (`act`): `geo` - unifying several JVM libraries for geoprocessing with a Clojure API
+- [ovid](https://github.com/willcohen/ovid) :star: (`act`,`exp`): `geo` - protocols for geospatial concepts
+- [aurelius](https://github.com/willcohen/aurelius) :star: (`act`,`exp`) - `geo`, `xform` - transducible analysis of geospatial features
+- [geo-clj](https://github.com/r0man/geo-clj) :star: (`act`): `geo`,`cljs` - encoding/decoding of geographic datatypes
 ")
         small (str-trim-lines "
-- [VL example gallery as EDN](https://behrica.github.io/vl-galery/convert) - The vega lite example in EDN format, ready to be copy/pasted into Clojure code
 ")]
     (pprint
      (->> big

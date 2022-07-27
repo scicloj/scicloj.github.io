@@ -340,6 +340,32 @@
     :star nil,
     :description "higher level csv parsing/processing"})
 
+  ;; ## Geospatial processing
+  ({:lib/name "geo",
+    :lib/url "https://github.com/Factual/geo",
+    :lib/category :geospatial-processing,
+    :tags #{:geo :act},
+    :star :star,
+    :description
+    "unifying several JVM libraries for geoprocessing with a Clojure API"}
+   {:lib/name "ovid",
+    :lib/url "https://github.com/willcohen/ovid",
+    :lib/category :geospatial-processing,
+    :tags #{:geo :exp :act},
+    :star :star,
+    :description "protocols for geospatial concepts"}
+   {:lib/name "aurelius",
+    :lib/url "https://github.com/willcohen/aurelius",
+    :lib/category :geospatial-processing,
+    :tags #{:xform :geo :exp :act},
+    :star :star,
+    :description "transducible analysis of geospatial features"}
+   {:lib/name "geo-clj",
+    :lib/url "https://github.com/r0man/geo-clj",
+    :lib/category :geospatial-processing,
+    :tags #{:geo :act :cljs},
+    :star :star,
+    :description "encoding/decoding of geographic datatypes"})
 
   ;; TODO more sections ...
   ]
