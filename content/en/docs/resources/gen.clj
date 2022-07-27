@@ -178,25 +178,23 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (str/join "\n"))
 
 
-     "\n ## Statistics"
+     "\n## Statistics"
      (->> (category-libs :statistics)
           (map lib-line)
           (str/join "\n"))
 
-     "\n ## Time series analysis"
+     "\n## Time series analysis"
      (->> (category-libs :time-series-analysis)
+          (map lib-line)
+          (str/join "\n"))
+
+     "\n## Bayesian computing & probabilistic programming"
+     (->> (category-libs :bayesian-computing-probabilistic-programming)
           (map lib-line)
           (str/join "\n"))
 
      #_
      "
-- [tide](https://github.com/sbelak/tide) - `ts` - STL and FastDTW algorithms
-"
-
-
-
-     "
-## Bayesian computing & probabilistic programming
 - [inferme](https://github.com/generateme/inferme) :star: (`act`): `prob`,`rand`,`vis` - extensible probabilistic programming in Clojure itself (rather than a language variation), with support for visualizations
 - [clj-stan](https://github.com/thomasathorne/clj-stan) :star:
 - [bayadera](https://github.com/uncomplicate/bayadera): `stat`, `rand`, `prob`,`gpu` - Bayesian computing using the GPU
@@ -205,7 +203,11 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [metaprob](https://github.com/probcomp/metaprob) (`exp`): `prob`,`rand`,`cljs` - an embedded languages for probabilistic programming and metaprogramming
 - [daphne](https://github.com/plai-group/daphne) (`exp`): `prob` - a probabilisic programming compiler from Clojure syntax to Pytorch
 - [anglican](http://probprog.ml/anglican/index.html): `prob`,`rand`,`cljs` - a probabilistic programming language written in clojure, that supports a subset of clojure
+"
 
+
+
+     "
 ## Random sampling and simulations
 - [masonclj](https://github.com/mars0i/masonclj) :star: (`act`): `rand` - a Clojure wrapper of [MASON](https://cs.gmu.edu/~eclab/projects/mason/), which is a Java library for discrete-event multiagent simulation and agent-based modeling.
 - [dsim.cljc](https://github.com/dvlopt/dsim.cljc) :star: (`act`): `rand`,`cljs` - an event-driven engine for Clojure(script) heavily borrowing ideas from discrete-event simulation and hybrid dynamical systems
@@ -337,7 +339,14 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 (defn parse-stuff [{:keys [opts]}]
   (let [big (str-trim-lines "
-- [tide](https://github.com/sbelak/tide) - `ts` - STL and FastDTW algorithms
+- [inferme](https://github.com/generateme/inferme) :star: (`act`): `prob`,`rand`,`vis` - extensible probabilistic programming in Clojure itself (rather than a language variation), with support for visualizations
+- [clj-stan](https://github.com/thomasathorne/clj-stan) :star:
+- [bayadera](https://github.com/uncomplicate/bayadera): `stat`, `rand`, `prob`,`gpu` - Bayesian computing using the GPU
+- [sampling](https://github.com/bigmlcom/sampling): `rand` - support srandom sampling of different kinds
+- [distributions](https://github.com/michaellindon/distributions): `rand`,`prob` - random sampling and some basic Bayesian computing for certain families of distributions
+- [metaprob](https://github.com/probcomp/metaprob) (`exp`): `prob`,`rand`,`cljs` - an embedded languages for probabilistic programming and metaprogramming
+- [daphne](https://github.com/plai-group/daphne) (`exp`): `prob` - a probabilisic programming compiler from Clojure syntax to Pytorch
+- [anglican](http://probprog.ml/anglican/index.html): `prob`,`rand`,`cljs` - a probabilistic programming language written in clojure, that supports a subset of clojure
 ")
         small (str-trim-lines "
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure

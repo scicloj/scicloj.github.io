@@ -563,7 +563,61 @@
     :star nil,
     :description "STL and FastDTW algorithms"})
 
-
+  ;; Bayesian computing & probabilistic programming
+  ({:lib/name "inferme",
+    :lib/url "https://github.com/generateme/inferme",
+    :lib/category :bayesian-computing-probabilistic-programming,
+    :tags #{:rand :vis :act :prob},
+    :star :star,
+    :description
+    "extensible probabilistic programming in Clojure itself (rather than a language variation), with support for visualizations"}
+   {:lib/name "clj-stan",
+    :lib/url "https://github.com/thomasathorne/clj-stan",
+    :lib/category :bayesian-computing-probabilistic-programming,
+    :tags #{},
+    :star :star,
+    :description
+    ""}
+   {:lib/name "bayadera",
+    :lib/url "https://github.com/uncomplicate/bayadera",
+    :lib/category :bayesian-computing-probabilistic-programming,
+    :tags #{:stat :rand :gpu :prob},
+    :star nil,
+    :description "Bayesian computing using the GPU"}
+   {:lib/name "sampling",
+    :lib/url "https://github.com/bigmlcom/sampling",
+    :lib/category :bayesian-computing-probabilistic-programming,
+    :tags #{:rand},
+    :star nil,
+    :description "support srandom sampling of different kinds"}
+   {:lib/name "distributions",
+    :lib/url "https://github.com/michaellindon/distributions",
+    :lib/category :bayesian-computing-probabilistic-programming,
+    :tags #{:rand :prob},
+    :star nil,
+    :description
+    "random sampling and some basic Bayesian computing for certain families of distributions"}
+   {:lib/name "metaprob",
+    :lib/url "https://github.com/probcomp/metaprob",
+    :lib/category :bayesian-computing-probabilistic-programming,
+    :tags #{:rand :exp :prob :cljs},
+    :star nil,
+    :description
+    "an embedded languages for probabilistic programming and metaprogramming"}
+   {:lib/name "daphne",
+    :lib/url "https://github.com/plai-group/daphne",
+    :lib/category :bayesian-computing-probabilistic-programming,
+    :tags #{:exp :prob},
+    :star nil,
+    :description
+    "a probabilisic programming compiler from Clojure syntax to Pytorch"}
+   {:lib/name "anglican",
+    :lib/url "http://probprog.ml/anglican/index.html",
+    :lib/category :bayesian-computing-probabilistic-programming,
+    :tags #{:rand :prob :cljs},
+    :star nil,
+    :description
+    "a probabilistic programming language written in clojure, that supports a subset of clojure"})
   ;; TODO more sections ...
   ]
 

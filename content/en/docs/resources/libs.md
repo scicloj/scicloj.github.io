@@ -152,22 +152,22 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [Cortex](https://github.com/originrose/cortex): `dnn` - a deep learning library written in Clojure
 - [Flare](https://github.com/aria42/flare): `dnn` - dynamic neural networks in Clojure
 
- ## Statistics
+## Statistics
 - [kixi.stats](https://github.com/MastodonC/kixi.stats) :star: (`act`): `rand`,`stat`,`xform` - statistics and random sampling using transducers
 - [fitdistr](https://github.com/generateme/fitdistr) :star: (`act`): `stat` - fitting distributions
 
- ## Time series analysis
+## Time series analysis
 - [tide](https://github.com/sbelak/tide): `ts` - STL and FastDTW algorithms
 
 ## Bayesian computing & probabilistic programming
 - [inferme](https://github.com/generateme/inferme) :star: (`act`): `prob`,`rand`,`vis` - extensible probabilistic programming in Clojure itself (rather than a language variation), with support for visualizations
-- [clj-stan](https://github.com/thomasathorne/clj-stan) :star:
-- [bayadera](https://github.com/uncomplicate/bayadera): `stat`, `rand`, `prob`,`gpu` - Bayesian computing using the GPU
+- [clj-stan](https://github.com/thomasathorne/clj-stan) :star::  - 
+- [bayadera](https://github.com/uncomplicate/bayadera): `gpu`,`prob`,`rand`,`stat` - Bayesian computing using the GPU
 - [sampling](https://github.com/bigmlcom/sampling): `rand` - support srandom sampling of different kinds
-- [distributions](https://github.com/michaellindon/distributions): `rand`,`prob` - random sampling and some basic Bayesian computing for certain families of distributions
-- [metaprob](https://github.com/probcomp/metaprob) (`exp`): `prob`,`rand`,`cljs` - an embedded languages for probabilistic programming and metaprogramming
-- [daphne](https://github.com/plai-group/daphne) (`exp`): `prob` - a probabilisic programming compiler from Clojure syntax to Pytorch
-- [anglican](http://probprog.ml/anglican/index.html): `prob`,`rand`,`cljs` - a probabilistic programming language written in clojure, that supports a subset of clojure
+- [distributions](https://github.com/michaellindon/distributions): `prob`,`rand` - random sampling and some basic Bayesian computing for certain families of distributions
+- [metaprob](https://github.com/probcomp/metaprob): `cljs`,`exp`,`prob`,`rand` - an embedded languages for probabilistic programming and metaprogramming
+- [daphne](https://github.com/plai-group/daphne): `exp`,`prob` - a probabilisic programming compiler from Clojure syntax to Pytorch
+- [anglican](http://probprog.ml/anglican/index.html): `cljs`,`prob`,`rand` - a probabilistic programming language written in clojure, that supports a subset of clojure
 
 ## Random sampling and simulations
 - [masonclj](https://github.com/mars0i/masonclj) :star: (`act`): `rand` - a Clojure wrapper of [MASON](https://cs.gmu.edu/~eclab/projects/mason/), which is a Java library for discrete-event multiagent simulation and agent-based modeling.
