@@ -647,6 +647,22 @@
     :description
     "a client to the [Drand](https://drand.love) randomness service"})
 
+  ;; Science
+  ({:lib/name "sicmutils",
+    :lib/url "https://github.com/sicmutils/sicmutils",
+    :lib/category :science,
+    :tags #{:act},
+    :star :star,
+    :description
+    "a library for algebra, calculus, differential geometry and physics based on the [SICM](mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics) book by Sussman & Wisdom"}
+   {:lib/name "cljbox2d",
+    :lib/url "https://github.com/lambdaisland/cljbox2d",
+    :lib/category :science,
+    :tags #{:act :cljs},
+    :star :star,
+    :description
+    "a Clojure/Clojurescript wrapper of the Box2D physics engine API"})
+
 
   ;; TODO more sections ...
   ]

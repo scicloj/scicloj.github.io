@@ -193,26 +193,25 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (map lib-line)
           (str/join "\n"))
 
-
      "\n## Random sampling and simulations"
      (->> (category-libs :random-sampling-and-simulations)
           (map lib-line)
           (str/join "\n"))
+
+     "\n## Science"
+     (->> (category-libs :science)
+          (map lib-line)
+          (str/join "\n"))
+
      #_
      "
-- [masonclj](https://github.com/mars0i/masonclj) :star: (`act`): `rand` - a Clojure wrapper of [MASON](https://cs.gmu.edu/~eclab/projects/mason/), which is a Java library for discrete-event multiagent simulation and agent-based modeling.
-- [dsim.cljc](https://github.com/dvlopt/dsim.cljc) :star: (`act`): `rand`,`cljs` - an event-driven engine for Clojure(script) heavily borrowing ideas from discrete-event simulation and hybrid dynamical systems
-- [date-gen](https://github.com/conjunctive/date-gen) (`act`): `rand` - randomized date generation supporting CSV output
-- [drand](https://github.com/jimpil/drand-clj): `rand` - a client to the [Drand](https://drand.love) randomness service
+- [sicmutils](https://github.com/sicmutils/sicmutils) :star: (`act`) - a library for algebra, calculus, differential geometry and physics based on the [SICM](mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics) book by Sussman & Wisdom
+- [cljbox2d](https://github.com/lambdaisland/cljbox2d) :star: (`act`): `cljs` - a Clojure/Clojurescript wrapper of the Box2D physics engine API
 "
 
 
 
      "
-
-## Science
-- [sicmutils](https://github.com/sicmutils/sicmutils) :star: (`act`) - a library for algebra, calculus, differential geometry and physics based on the [SICM](mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics) book by Sussman & Wisdom
-- [cljbox2d](https://github.com/lambdaisland/cljbox2d) :star: (`act`): `cljs` - a Clojure/Clojurescript wrapper of the Box2D physics engine API
 
 ## Machine learning
 - [scicloj.ml](https://github.com/scicloj/scicloj.ml) :star: (`act`): `ml` - A machine learning platform supporting a large collection of algorithms and pipeline ergonomics
@@ -335,10 +334,8 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 (defn parse-stuff [{:keys [opts]}]
   (let [big (str-trim-lines "
-- [masonclj](https://github.com/mars0i/masonclj) :star: (`act`): `rand` - a Clojure wrapper of [MASON](https://cs.gmu.edu/~eclab/projects/mason/), which is a Java library for discrete-event multiagent simulation and agent-based modeling.
-- [dsim.cljc](https://github.com/dvlopt/dsim.cljc) :star: (`act`): `rand`,`cljs` - an event-driven engine for Clojure(script) heavily borrowing ideas from discrete-event simulation and hybrid dynamical systems
-- [date-gen](https://github.com/conjunctive/date-gen) (`act`): `rand` - randomized date generation supporting CSV output
-- [drand](https://github.com/jimpil/drand-clj): `rand` - a client to the [Drand](https://drand.love) randomness service
+- [sicmutils](https://github.com/sicmutils/sicmutils) :star: (`act`) - a library for algebra, calculus, differential geometry and physics based on the [SICM](mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics) book by Sussman & Wisdom
+- [cljbox2d](https://github.com/lambdaisland/cljbox2d) :star: (`act`): `cljs` - a Clojure/Clojurescript wrapper of the Box2D physics engine API
 ")
         small (str-trim-lines "
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure
