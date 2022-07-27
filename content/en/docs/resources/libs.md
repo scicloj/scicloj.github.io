@@ -152,10 +152,8 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [Cortex](https://github.com/originrose/cortex): `dnn` - a deep learning library written in Clojure
 - [Flare](https://github.com/aria42/flare): `dnn` - dynamic neural networks in Clojure
 
-
-
-## Statistics
-- [kixi.stats](https://github.com/MastodonC/kixi.stats) :star: (`act`): `stat`,`rand`,`xform` - statistics and random sampling using transducers
+ ## Statistics
+- [kixi.stats](https://github.com/MastodonC/kixi.stats) :star: (`act`): `rand`,`stat`,`xform` - statistics and random sampling using transducers
 - [fitdistr](https://github.com/generateme/fitdistr) :star: (`act`): `stat` - fitting distributions
 
 ## Time series analysis

@@ -541,6 +541,19 @@
     :star nil,
     :description "dynamic neural networks in Clojure"})
 
+  ;; Statistics
+  ({:lib/name "kixi.stats",
+    :lib/url "https://github.com/MastodonC/kixi.stats",
+    :lib/category :statistics,
+    :tags #{:xform :stat :rand :act},
+    :star :star,
+    :description "statistics and random sampling using transducers"}
+   {:lib/name "fitdistr",
+    :lib/url "https://github.com/generateme/fitdistr",
+    :lib/category :statistics,
+    :tags #{:stat :act},
+    :star :star,
+    :description "fitting distributions"})
 
   ;; TODO more sections ...
   ]
