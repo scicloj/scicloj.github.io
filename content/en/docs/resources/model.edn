@@ -724,7 +724,58 @@
     :star :star,
     :description "a Clojure wrapper for Stanford CoreNLP"})
 
-
+  ;; Interop
+  ({:lib/name "Libpython-clj",
+    :lib/url "https://github.com/clj-python/libpython-clj",
+    :lib/category :interop,
+    :tags #{:act :interop},
+    :star :star,
+    :description "interop with Python"}
+   {:lib/name "clj-python-trampoline",
+    :lib/url "https://github.com/tristanstraub/clj-python-trampoline",
+    :lib/category :interop,
+    :tags #{:act :interop},
+    :star :star,
+    :description
+    "using libpython-clj from an already running python process, without needing any special python builds"}
+   {:lib/name "Libjulia-clj",
+    :lib/url "https://github.com/cnuernber/libjulia-clj",
+    :lib/category :interop,
+    :tags #{:act :interop},
+    :star :star,
+    :description "Julia bindings for Clojure"}
+   {:lib/name "ClojisR",
+    :lib/url "https://github.com/scicloj/clojisr",
+    :lib/category :interop,
+    :tags #{:act :interop},
+    :star :star,
+    :description "interop with R and Renjin (R on the JVM)"}
+   {:lib/name "graalvm-interop",
+    :lib/url "https://github.com/davidpham87/graalvm-rinterop",
+    :lib/category :interop,
+    :tags #{:interop},
+    :star nil,
+    :description "interop with FastR (GraalVM's R)"}
+   {:lib/name "rdata",
+    :lib/url "https://github.com/appliedsciencestudio/rdata/",
+    :lib/category :interop,
+    :tags #{},
+    :star nil,
+    :description
+    "A Renjin (pure-JVM R) wrapper to allow Clojure programs to easily read R's RData file format"}
+   {:lib/name "from-scala",
+    :lib/url "https://github.com/t6/from-scala",
+    :lib/category :interop,
+    :tags #{:interop},
+    :star nil,
+    :description "interop with Scala"}
+   {:lib/name "Interop template project",
+    :lib/url "https://github.com/behrica/clj-py-r-template",
+    :lib/category :interop,
+    :tags #{:interop},
+    :star nil,
+    :description
+    "A project template which configure several interop libraries automaticaly using Docker"})
 
   ;; TODO more sections ...
   ]

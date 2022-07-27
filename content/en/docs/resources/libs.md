@@ -193,17 +193,16 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 ## Natural Language Processing
 - [DataLinguist](https://github.com/simongray/datalinguist) :star: (`act`): `nlp` - a Clojure wrapper for Stanford CoreNLP
 
-
 ## Interop
 - [Libpython-clj](https://github.com/clj-python/libpython-clj) :star: (`act`): `interop` - interop with Python
 - [clj-python-trampoline](https://github.com/tristanstraub/clj-python-trampoline) :star: (`act`): `interop` - using libpython-clj from an already running python process, without needing any special python builds
 - [Libjulia-clj](https://github.com/cnuernber/libjulia-clj) :star: (`act`): `interop` - Julia bindings for Clojure
 - [ClojisR](https://github.com/scicloj/clojisr) :star: (`act`): `interop` - interop with R and Renjin (R on the JVM)
 - [graalvm-interop](https://github.com/davidpham87/graalvm-rinterop): `interop` - interop with FastR (GraalVM's R)
-- [rdata](https://github.com/appliedsciencestudio/rdata/) - A Renjin (pure-JVM R) wrapper to allow Clojure programs to easily read R's RData file format
-- [other R interop libraries](https://github.com/scicloj/clojisr/blob/master/doc/existing_libraries.md)
+- [rdata](https://github.com/appliedsciencestudio/rdata/):  - A Renjin (pure-JVM R) wrapper to allow Clojure programs to easily read R's RData file format
 - [from-scala](https://github.com/t6/from-scala): `interop` - interop with Scala
 - [Interop template project](https://github.com/behrica/clj-py-r-template): `interop` - A project template which configure several interop libraries automaticaly using Docker
+- [other R interop libraries](https://github.com/scicloj/clojisr/blob/master/doc/existing_libraries.md)
 
 ## Parralel computing
 - [claypoole](https://github.com/TheClimateCorporation/claypoole) :star: (`act`) - threadpool-based parallel versions of Clojure functions such as `pmap`, `future`, and `for`
