@@ -188,7 +188,7 @@
     :lib/category :vega-rendering,
     :tags #{:vis :act :vega},
     :star nil,
-    :description "supports docker-based setup."}
+    :description "a nodejs clojurescript library designed to validate and render Vega and Vega-lite files, supports docker-based setup"}
    {:lib/name "Vega-clj",
     :lib/url "https://github.com/behrica/vg-cli",
     :lib/category :vega-rendering,
@@ -201,7 +201,7 @@
     :lib/category :vega-rendering,
     :tags #{:vis :vega},
     :star nil,
-    :description "using GraalVM polyglot programming"}
+    :description "a command line tool that wraps Vega and Vega-lite, using GraalVM polyglot programming"}
    {:lib/name "Vegafx",
     :lib/url "https://github.com/joinr/Vegafx",
     :lib/category :vega-rendering,

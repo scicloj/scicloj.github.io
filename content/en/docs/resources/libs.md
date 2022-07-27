@@ -84,9 +84,9 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
 In addition to a few of the tools mentioned above, here is a list of dedicated tools dedicated mainly to handling [Vega](https://Vega.github.io/Vega/)/[Vega-lite](https://Vega.github.io/Vega-lite/) specifications. See [this conversation](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science/topic/rendering.20charts.20in.20notespace) for some discussion of the differences and tradeoffs across these tools. 
 - [darkstar](https://github.com/appliedsciencestudio/darkstar) :star:: `vega`,`vis` - a minimal wrapper over Vega/Vega-lite as a single JVM-only Clojure library, using the GraalJS javascript runtime, which [does not require GraalVM runtime](https://github.com/graalvm/graaljs/blob/master/docs/user/RunOnJDK.md) to run.
 - [xvsy](https://github.com/dvdt/xvsy): `cljs`,`vega`,`vis` - grammer of graphics over Vega
-- [Vegan](https://github.com/cnuernber/Vegan/) (`act`): `vega`,`vis` - supports docker-based setup.
+- [Vegan](https://github.com/cnuernber/Vegan/) (`act`): `vega`,`vis` - a nodejs clojurescript library designed to validate and render Vega and Vega-lite files, supports docker-based setup
 - [Vega-clj](https://github.com/behrica/vg-cli) (`act`): `vega`,`vis` - a clojure wrapper for the (node-based) Vega-cli and Vega-lite standalone scrips
-- [Optikon](https://github.com/stathissideris/optikon): `vega`,`vis` - using GraalVM polyglot programming
+- [Optikon](https://github.com/stathissideris/optikon): `vega`,`vis` - a command line tool that wraps Vega and Vega-lite, using GraalVM polyglot programming
 - [Vegafx](https://github.com/joinr/Vegafx): `vega`,`vis` - a static-site viewer using javafx that renders Vega specs
 - [VL example gallery as EDN](https://behrica.github.io/vl-galery/convert):  - The vega lite example in EDN format, ready to be copy/pasted into Clojure code
 
@@ -102,7 +102,6 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [gg4clj](https://github.com/JonyEpsilon/gg4clj): `vis`,`r` - a clojure DSL for creating ggplot2 plots using R
 - [gg4clj port](https://github.com/pink-gorilla/gg4clj) by the [Pink Gorilla](https://pink-gorilla.github.io) project
 - [Analemma](https://liebke.github.io/analemma/) (`exp`): `vis`,`cljs` - generating charts and SVG with a syntax similar to Incanter's and a visual theme similar to ggplot2.
-
 - [emacs-Vega-view](https://github.com/appliedsciencestudio/emacs-Vega-view) (`act`): `vis`, `vega` - an emacs mode to facilitate interactive data visualization using Vega from within emacs - supports elisp, json and clojure notations
 
 ## Data processing
