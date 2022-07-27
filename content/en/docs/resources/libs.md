@@ -137,12 +137,13 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [Excel-templates](https://github.com/tomfaulhaber/excel-templates): `exp`,`xl` - building Excel spreadsheets from Clojure data combined with an Excel sheet serving as a template
 
 ## Array programming, linear algebra
-- [dtype-next](https://github.com/cnuernber/dtype-next) :star: (`act`): `array`,`tensor`, `native`,`stat` - abstractions and foundations for working with array-like structures and sequential structures
-- [Neanderthal](https://neanderthal.uncomplicate.org/) :star: (`act`): `array`,`linalg`,`native`,`gpu` - matrix and linear algebra in Clojure
-- [tvm-clj](https://github.com/techascent/tvm-clj) (`act`,`exp`): `array`,`linalg`,`native`,`gpu` - bindings to [tvm](https://github.com/apache/incubator-tvm)
-- [jutsu.matrix](https://github.com/hswick/jutsu.matrix): `array`,`linalg`,`native`,`gpu` - bindigs to [ND4J](https://deeplearning4j.org/docs/latest/nd4j-overview)
-- [core.matrix](https://github.com/mikera/core.matrix): `array`,`linalg`,`native`,`cljs` - matrix abstractions, supporting diffent backends
-- [denisovan](https://github.com/cailuno/denisovan): `array`,`linalg`,`native`,`gpu` - Neanderthal backend for core.matrix
+- [dtype-next](https://github.com/cnuernber/dtype-next) :star: (`act`): `array`,`native`,`stat`,`tensor` - abstractions and foundations for working with array-like structures and sequential structures
+- [Neanderthal](https://neanderthal.uncomplicate.org/) :star: (`act`): `array`,`gpu`,`linalg`,`native` - matrix and linear algebra in Clojure
+- [tvm-clj](https://github.com/techascent/tvm-clj) (`act`): `array`,`exp`,`gpu`,`linalg`,`native` - bindings to [tvm](https://github.com/apache/incubator-tvm)
+- [jutsu.matrix](https://github.com/hswick/jutsu.matrix): `array`,`gpu`,`linalg`,`native` - bindigs to [ND4J](https://deeplearning4j.org/docs/latest/nd4j-overview)
+- [core.matrix](https://github.com/mikera/core.matrix): `array`,`cljs`,`linalg`,`native` - matrix abstractions, supporting diffent backends
+- [denisovan](https://github.com/cailuno/denisovan): `array`,`gpu`,`linalg`,`native` - Neanderthal backend for core.matrix
+
 
 ### Deep learning
 - [Deep Diamond](https://github.com/uncomplicate/deep-diamond) :star: (`act`): `tensor`, `dnn`,`native`,`gpu` - infrastructure for tensor computation and deep learning

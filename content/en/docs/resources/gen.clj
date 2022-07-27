@@ -167,25 +167,23 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (map lib-line)
           (str/join "\n"))
 
+     "\n## Array programming, linear algebra"
+     (->> (category-libs :arrays-and-linalg)
+          (map lib-line)
+          (str/join "\n"))
      #_
      "
-- [Docjure](https://github.com/mjul/docjure) :star: (`act`): `xl` - making it easy to read and write Excel spreadsheets as Clojure data
-- [kixi.large](https://github.com/MastodonC/kixi.large) :star: (`act`, `exp`): `xl` - a tech.ml.dataset-friendly fork of Docjure, providing clear entry point at the workbook and sheet level and a way to insert images
-- [Excel-clj](https://github.com/matthewdowney/excel-clj) :star: (`act`): `xl` - building Excel spreadsheets from Clojure data in various forms such as trees, tables, and more
-- [fxl](https://github.com/zero-one-group/fxl) :star: (`act`, `exp`): `xl` - manipulating spreadsheets with a versatile API for handling various spreadsheet constructs
-- [Excel-templates](https://github.com/tomfaulhaber/excel-templates) (`exp`): `xl` - building Excel spreadsheets from Clojure data combined with an Excel sheet serving as a template
-"
-
-
-
-     "
-## Array programming, linear algebra
 - [dtype-next](https://github.com/cnuernber/dtype-next) :star: (`act`): `array`,`tensor`, `native`,`stat` - abstractions and foundations for working with array-like structures and sequential structures
 - [Neanderthal](https://neanderthal.uncomplicate.org/) :star: (`act`): `array`,`linalg`,`native`,`gpu` - matrix and linear algebra in Clojure
 - [tvm-clj](https://github.com/techascent/tvm-clj) (`act`,`exp`): `array`,`linalg`,`native`,`gpu` - bindings to [tvm](https://github.com/apache/incubator-tvm)
 - [jutsu.matrix](https://github.com/hswick/jutsu.matrix): `array`,`linalg`,`native`,`gpu` - bindigs to [ND4J](https://deeplearning4j.org/docs/latest/nd4j-overview)
 - [core.matrix](https://github.com/mikera/core.matrix): `array`,`linalg`,`native`,`cljs` - matrix abstractions, supporting diffent backends
 - [denisovan](https://github.com/cailuno/denisovan): `array`,`linalg`,`native`,`gpu` - Neanderthal backend for core.matrix
+"
+
+
+
+     "
 
 ### Deep learning
 - [Deep Diamond](https://github.com/uncomplicate/deep-diamond) :star: (`act`): `tensor`, `dnn`,`native`,`gpu` - infrastructure for tensor computation and deep learning
@@ -343,11 +341,12 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 (defn parse-stuff [{:keys [opts]}]
   (let [big (str-trim-lines "
-- [Docjure](https://github.com/mjul/docjure) :star: (`act`): `xl` - making it easy to read and write Excel spreadsheets as Clojure data
-- [kixi.large](https://github.com/MastodonC/kixi.large) :star: (`act`, `exp`): `xl` - a tech.ml.dataset-friendly fork of Docjure, providing clear entry point at the workbook and sheet level and a way to insert images
-- [Excel-clj](https://github.com/matthewdowney/excel-clj) :star: (`act`): `xl` - building Excel spreadsheets from Clojure data in various forms such as trees, tables, and more
-- [fxl](https://github.com/zero-one-group/fxl) :star: (`act`, `exp`): `xl` - manipulating spreadsheets with a versatile API for handling various spreadsheet constructs
-- [Excel-templates](https://github.com/tomfaulhaber/excel-templates) (`exp`): `xl` - building Excel spreadsheets from Clojure data combined with an Excel sheet serving as a template
+- [dtype-next](https://github.com/cnuernber/dtype-next) :star: (`act`): `array`,`tensor`, `native`,`stat` - abstractions and foundations for working with array-like structures and sequential structures
+- [Neanderthal](https://neanderthal.uncomplicate.org/) :star: (`act`): `array`,`linalg`,`native`,`gpu` - matrix and linear algebra in Clojure
+- [tvm-clj](https://github.com/techascent/tvm-clj) (`act`,`exp`): `array`,`linalg`,`native`,`gpu` - bindings to [tvm](https://github.com/apache/incubator-tvm)
+- [jutsu.matrix](https://github.com/hswick/jutsu.matrix): `array`,`linalg`,`native`,`gpu` - bindigs to [ND4J](https://deeplearning4j.org/docs/latest/nd4j-overview)
+- [core.matrix](https://github.com/mikera/core.matrix): `array`,`linalg`,`native`,`cljs` - matrix abstractions, supporting diffent backends
+- [denisovan](https://github.com/cailuno/denisovan): `array`,`linalg`,`native`,`gpu` - Neanderthal backend for core.matrix
 ")
         small (str-trim-lines "
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure

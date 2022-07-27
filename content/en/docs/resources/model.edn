@@ -460,6 +460,48 @@
     :description
     "building Excel spreadsheets from Clojure data combined with an Excel sheet serving as a template"})
 
+  ;; ## Arrays and linear algebra
+  ({:lib/name "dtype-next",
+    :lib/url "https://github.com/cnuernber/dtype-next",
+    :lib/category :arrays-and-linalg,
+    :tags #{:stat :tensor :act :array :native},
+    :star :star,
+    :description
+    "abstractions and foundations for working with array-like structures and sequential structures"}
+   {:lib/name "Neanderthal",
+    :lib/url "https://neanderthal.uncomplicate.org/",
+    :lib/category :arrays-and-linalg,
+    :tags #{:gpu :act :array :native :linalg},
+    :star :star,
+    :description "matrix and linear algebra in Clojure"}
+   {:lib/name "tvm-clj",
+    :lib/url "https://github.com/techascent/tvm-clj",
+    :lib/category :arrays-and-linalg,
+    :tags #{:gpu :exp :act :array :native :linalg},
+    :star nil,
+    :description
+    "bindings to [tvm](https://github.com/apache/incubator-tvm)"}
+   {:lib/name "jutsu.matrix",
+    :lib/url "https://github.com/hswick/jutsu.matrix",
+    :lib/category :arrays-and-linalg,
+    :tags #{:gpu :array :native :linalg},
+    :star nil,
+    :description
+    "bindigs to [ND4J](https://deeplearning4j.org/docs/latest/nd4j-overview)"}
+   {:lib/name "core.matrix",
+    :lib/url "https://github.com/mikera/core.matrix",
+    :lib/category :arrays-and-linalg,
+    :tags #{:array :native :linalg :cljs},
+    :star nil,
+    :description "matrix abstractions, supporting diffent backends"}
+   {:lib/name "denisovan",
+    :lib/url "https://github.com/cailuno/denisovan",
+    :lib/category :arrays-and-linalg,
+    :tags #{:gpu :array :native :linalg},
+    :star nil,
+    :description "Neanderthal backend for core.matrix"})
+
+
 
   ;; TODO more sections ...
   ]
