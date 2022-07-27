@@ -243,19 +243,21 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (map lib-line)
           (str/join "\n"))
 
+     "\n## Spark"
+     (->> (category-libs :spark)
+          (map lib-line)
+          (str/join "\n"))
+
      #_
      "
-- [Parkour](https://github.com/damballa/parkour) - Hadoop MapReduce in idiomatic Clojure
+- [geni](https://github.com/zero-one-group/geni) :star: (`act`) - `df`: a Spark wrapper
+- [sparkling](https://github.com/gorillalabs/sparkling) - a Spark wrapper
+- [flambo](https://github.com/sorenmacbeth/flambo) - a Spark wrapper
 "
 
      #_ "CONTINUE HERE"
 
      "
-### Spark
-- [geni](https://github.com/zero-one-group/geni) :star: (`act`) - `df`: a Spark wrapper
-- [sparkling](https://github.com/gorillalabs/sparkling) - a Spark wrapper
-- [flambo](https://github.com/sorenmacbeth/flambo) - a Spark wrapper
-
 ## Stream processing
 ### Kafka
 - [jackdaw](https://github.com/FundingCircle/jackdaw) :star:  (`act`) - a wrapper for Kafka and Kafka Streams
@@ -333,7 +335,9 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 (defn parse-stuff [{:keys [opts]}]
   (let [big (str-trim-lines "
-- [Parkour](https://github.com/damballa/parkour) - Hadoop MapReduce in idiomatic Clojure
+- [geni](https://github.com/zero-one-group/geni) :star: (`act`) - `df`: a Spark wrapper
+- [sparkling](https://github.com/gorillalabs/sparkling) - a Spark wrapper
+- [flambo](https://github.com/sorenmacbeth/flambo) - a Spark wrapper
 ")
         small (str-trim-lines "
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure

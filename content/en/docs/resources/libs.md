@@ -218,10 +218,10 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 ## Hadoop
 - [Parkour](https://github.com/damballa/parkour):  - Hadoop MapReduce in idiomatic Clojure
 
-### Spark
-- [geni](https://github.com/zero-one-group/geni) :star: (`act`) - `df`: a Spark wrapper
-- [sparkling](https://github.com/gorillalabs/sparkling) - a Spark wrapper
-- [flambo](https://github.com/sorenmacbeth/flambo) - a Spark wrapper
+## Spark
+- [geni](https://github.com/zero-one-group/geni) :star: (`act`): `df` - a Spark wrapper
+- [sparkling](https://github.com/gorillalabs/sparkling):  - a Spark wrapper
+- [flambo](https://github.com/sorenmacbeth/flambo):  - a Spark wrapper
 
 ## Stream processing
 ### Kafka

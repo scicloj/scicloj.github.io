@@ -835,6 +835,27 @@
     :star nil,
     :description "Hadoop MapReduce in idiomatic Clojure"})
 
+  ;; Spark
+  ({:lib/name "geni",
+    :lib/url "https://github.com/zero-one-group/geni",
+    :lib/category :spark,
+    :tags #{:df :act},
+    :star :star,
+    :description "a Spark wrapper"}
+   {:lib/name "sparkling",
+    :lib/url "https://github.com/gorillalabs/sparkling",
+    :lib/category :spark,
+    :tags #{},
+    :star nil,
+    :description "a Spark wrapper"}
+   {:lib/name "flambo",
+    :lib/url "https://github.com/sorenmacbeth/flambo",
+    :lib/category :spark,
+    :tags #{},
+    :star nil,
+    :description "a Spark wrapper"})
+
+
   ;; TODO more sections ...
   ]
 
