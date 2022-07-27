@@ -65,6 +65,15 @@
    :description
    "a toolbox for data-science using plain sequences of maps"}
 
+  ;; Optimization
+  {:lib/name "matlib",
+   :lib/url "https://github.com/atisharma/matlib",
+   :lib/category :optimization,
+   :tags #{:act :opt},
+   :star :star,
+   :description
+   "optimisation and control theory tools and convenience functions based on Neanderthal."}
+
   ;; TODO more sections ...
   ]
 

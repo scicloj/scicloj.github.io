@@ -122,17 +122,14 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
           (map lib-line)
           (str/join "\n"))
 
-     ;; But we want to generate this stuff.
-     #_"## Diverse toolsets
-- [fastmath](https://github.com/generateme/fastmath) :star: (`act`): `math`,`stat`,`rand`,`ml` - a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries
-- [spork](https://github.com/joinr/spork): `opt`,`df`,`vis`,`rand`,`graph`,`ui` - a toolbox for data-science and operation research
-- [Incanter](https://github.com/incanter/incanter): `df`,`stat`,`vis`,`rand`,`csv` - an R-like data-science platform built on top of the core.matrix abstractions
-- [huri](https://github.com/sbelak/huri): `df`,`stat`,`vis` - a toolbox for data-science using plain sequences of maps
-"
-     "
-## Optimization
-- [matlib](https://github.com/atisharma/matlib) :star: (`act`): `opt` - optimisation and control theory tools and convenience functions based on Neanderthal.
+     "\n## Optimization"
+     (->> (:libs model)
+          (filter (fn [lib]
+                    (= :optimization (:lib/category lib))))
+          (map lib-line)
+          (str/join "\n"))
 
+     "
 ## Visual tools: literate programming and data visualization
 - [Saite](https://github.com/jsa-aerial/saite) :star: (`act`): `vis`,`vega`,`lit`,`ui`,`hiccup`,`cljs` - data exploration, dashboards, and interactive documents
 - [Oz](https://github.com/metasoarous/oz) :star: (`act`): `vis`,`vega`,`lit` - data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming
@@ -338,10 +335,12 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
        (into #{})))
 
 (defn find-name [line]
-  (first (str/split line #"\s")))
+  (let [[_ match] (re-find #"\[([\w]+)\]" line)]
+    match))
 
 (defn find-url [line]
-  (second (str/split line #"\s")))
+  (let [[_ match] (re-find #"\[[\w]+\]\(([\w:/\.]+)" line)]
+    match))
 
 (defn find-star [line]
   (when (re-find #":star:" line)
@@ -349,14 +348,15 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 (defn parse-line
   [line opts]
-  (-> {}
-      (assoc :lib/name (find-name line))
-      (assoc :lib/url (find-url line))
-      (merge opts)
-      (assoc :tags (find-tags line))
-      (assoc :star (find-star line))
-      (assoc :description (find-description line))
-      ))
+  (let [line (str/replace line #"^- " "")]
+    (-> {}
+        (assoc :lib/name (find-name line))
+        (assoc :lib/url (find-url line))
+        (merge opts)
+        (assoc :tags (find-tags line))
+        (assoc :star (find-star line))
+        (assoc :description (find-description line))
+        )))
 
 (defn str-trim-lines [s]
   (str/split-lines (str/trim s)))
@@ -364,13 +364,10 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 (defn parse-stuff [{}]
   (pprint
    (->> (str-trim-lines "
-fastmath https://github.com/generateme/fastmath :star: (`act`): `math`,`stat`,`rand`,`ml` - a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries
-spork https://github.com/joinr/spork `opt`,`df`,`vis`,`rand`,`graph`,`ui` - a toolbox for data-science and operation research
-Incanter https://github.com/incanter/incanter `df`,`stat`,`vis`,`rand`,`csv` - an R-like data-science platform built on top of the core.matrix abstractions
-huri https://github.com/sbelak/huri `df`,`stat`,`vis` - a toolbox for data-science using plain sequences of maps "
-                        )
+- [matlib](https://github.com/atisharma/matlib) :star: (`act`): `opt` - optimisation and control theory tools and convenience functions based on Neanderthal.
+")
         (map (fn [line]
-               (parse-line line {:lib/category :div-tools}))))))
+               (parse-line line {:lib/category :optimization}))))))
 
 (defn alltags
   "Identify all the tags"
