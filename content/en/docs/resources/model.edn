@@ -367,6 +367,62 @@
     :star :star,
     :description "encoding/decoding of geographic datatypes"})
 
+  ;; ## Dataframe-like structures
+  ({:lib/name "tech.ml.dataset",
+    :lib/url "https://github.com/techascent/tech.ml.dataset",
+    :lib/category :dataframe-like-structures,
+    :tags #{:csv :stat :vis :df :act},
+    :star :star,
+    :description
+    "abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure"}
+   {:lib/name "tablecloth",
+    :lib/url "https://github.com/scicloj/tablecloth",
+    :lib/category :dataframe-like-structures,
+    :tags #{:csv :df :act},
+    :star :star,
+    :description
+    "a dataframe grammar wrapping tech.ml.dataset, inspired by serveral R libraries"}
+   {:lib/name "clojask",
+    :lib/url "https://clojure-finance.github.io/clojask-website/",
+    :lib/category :dataframe-like-structures,
+    :tags #{:df :act},
+    :star :star,
+    :description
+    "a library for parallel computing of larger-than-memory datasets."}
+   {:lib/name "Panthera",
+    :lib/url "https://github.com/alanmarazzi/panthera",
+    :lib/category :dataframe-like-structures,
+    :tags #{:df :py},
+    :star nil,
+    :description "a Clojure API wrapping Python's Pandas library"}
+   {:lib/name "koala",
+    :lib/url "https://github.com/aria42/koala",
+    :lib/category :dataframe-like-structures,
+    :tags #{:csv :exp :df},
+    :star nil,
+    :description
+    "Pandas-like data-processing for clojure with some I/O functionality (experimental)"}
+   {:lib/name "dataframe",
+    :lib/url "https://github.com/ghl3/dataframe",
+    :lib/category :dataframe-like-structures,
+    :tags #{:df},
+    :star nil,
+    :description "Pandas-like data processing for clojure"}
+   {:lib/name "danzig",
+    :lib/url "https://github.com/ribelo/wombat",
+    :lib/category :dataframe-like-structures,
+    :tags #{:xform :exp :df :act},
+    :star nil,
+    :description
+    "Pandas-like data processing using transducers (danzig was formerly named wombat)"}
+   {:lib/name "bamboo",
+    :lib/url "https://github.com/kjothen/bamboo",
+    :lib/category :dataframe-like-structures,
+    :tags #{:df},
+    :star nil,
+    :description
+    "a minimal data processing library for Clojure, with some of the capabilities of pandas and numpy"})
+
   ;; TODO more sections ...
   ]
 

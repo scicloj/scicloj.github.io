@@ -118,17 +118,16 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [aurelius](https://github.com/willcohen/aurelius) :star: (`act`): `exp`,`geo`,`xform` - transducible analysis of geospatial features
 - [geo-clj](https://github.com/r0man/geo-clj) :star: (`act`): `cljs`,`geo` - encoding/decoding of geographic datatypes
 
-
 ## Dataframe-like structures
-- [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure
-- [tablecloth](https://github.com/scicloj/tablecloth) :star: (`act`): `df`,`csv` - a dataframe grammar wrapping tech.ml.dataset, inspired by serveral R libraries
+- [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `csv`,`df`,`stat`,`vis` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure
+- [tablecloth](https://github.com/scicloj/tablecloth) :star: (`act`): `csv`,`df` - a dataframe grammar wrapping tech.ml.dataset, inspired by serveral R libraries
 - [clojask](https://clojure-finance.github.io/clojask-website/) :star: (`act`): `df` - a library for parallel computing of larger-than-memory datasets.
 - [Panthera](https://github.com/alanmarazzi/panthera): `df`,`py` - a Clojure API wrapping Python's Pandas library
-- see also geni :star: under the Spark sub category below
-- [koala](https://github.com/aria42/koala) (`exp`): `df`,`csv` - Pandas-like data-processing for clojure with some I/O functionality
+- [koala](https://github.com/aria42/koala): `csv`,`df`,`exp` - Pandas-like data-processing for clojure with some I/O functionality (experimental)
 - [dataframe](https://github.com/ghl3/dataframe): `df` - Pandas-like data processing for clojure
-- [danzig](https://github.com/ribelo/wombat) (formerly wombat) (`act`,`exp`): `df`,`xform` - Pandas-like data processing using transducers
+- [danzig](https://github.com/ribelo/wombat) (`act`): `df`,`exp`,`xform` - Pandas-like data processing using transducers (danzig was formerly named wombat)
 - [bamboo](https://github.com/kjothen/bamboo): `df` - a minimal data processing library for Clojure, with some of the capabilities of pandas and numpy
+- see also geni :star: under the Spark sub category below
 
 ## Spreadsheets
 - [Docjure](https://github.com/mjul/docjure) :star: (`act`): `xl` - making it easy to read and write Excel spreadsheets as Clojure data

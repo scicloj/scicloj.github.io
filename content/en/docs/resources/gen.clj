@@ -156,27 +156,27 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (map lib-line)
           (str/join "\n"))
 
+     "\n## Dataframe-like structures"
+     (->> (category-libs :dataframe-like-structures)
+          (map lib-line)
+          (str/join "\n"))
+     "- see also geni :star: under the Spark sub category below"
+
      #_
      "
-- [geo](https://github.com/Factual/geo) :star: (`act`): `geo` - unifying several JVM libraries for geoprocessing with a Clojure API
-- [ovid](https://github.com/willcohen/ovid) :star: (`act`,`exp`): `geo`: protocols for geospatial concepts
-- [aurelius](https://github.com/willcohen/aurelius) :star: (`act`,`exp`): `geo`, `xform` - transducible analysis of geospatial features
-- [geo-clj](https://github.com/r0man/geo-clj) :star: (`act`): `geo`,`cljs` - encoding/decoding of geographic datatypes
-"
-
-     "
-
-## Dataframe-like structures
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure
 - [tablecloth](https://github.com/scicloj/tablecloth) :star: (`act`): `df`,`csv` - a dataframe grammar wrapping tech.ml.dataset, inspired by serveral R libraries
 - [clojask](https://clojure-finance.github.io/clojask-website/) :star: (`act`): `df` - a library for parallel computing of larger-than-memory datasets.
 - [Panthera](https://github.com/alanmarazzi/panthera): `df`,`py` - a Clojure API wrapping Python's Pandas library
-- see also geni :star: under the Spark sub category below
 - [koala](https://github.com/aria42/koala) (`exp`): `df`,`csv` - Pandas-like data-processing for clojure with some I/O functionality
 - [dataframe](https://github.com/ghl3/dataframe): `df` - Pandas-like data processing for clojure
-- [danzig](https://github.com/ribelo/wombat) (formerly wombat) (`act`,`exp`): `df`,`xform` - Pandas-like data processing using transducers
+- [danzig](https://github.com/ribelo/wombat) (formerly named wombat) (`act`,`exp`): `df`,`xform` - Pandas-like data processing using transducers (danzig was formerly named wombat)
 - [bamboo](https://github.com/kjothen/bamboo): `df` - a minimal data processing library for Clojure, with some of the capabilities of pandas and numpy
+"
 
+
+
+     "
 ## Spreadsheets
 - [Docjure](https://github.com/mjul/docjure) :star: (`act`): `xl` - making it easy to read and write Excel spreadsheets as Clojure data
 - [kixi.large](https://github.com/MastodonC/kixi.large) :star: (`act`, `exp`): `xl` - a tech.ml.dataset-friendly fork of Docjure, providing clear entry point at the workbook and sheet level and a way to insert images
@@ -319,11 +319,11 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 (defn find-name
   "Names can have a-z, A-Z, _, - and / in them"
   [line]
-  (let [[_ match] (re-find #"\[([\w/_ -]+)\]" line)]
+  (let [[_ match] (re-find #"\[([\w/_\. -]+)\]" line)]
     match))
 
 (defn find-url [line]
-  (let [[_ match] (re-find #"\[[\w/_ -]+\]\(([\w:/\.\-_]+)" line)]
+  (let [[_ match] (re-find #"\[[\w/_\. -]+\]\(([\w:/\.\-_]+)" line)]
     match))
 
 (defn find-star [line]
@@ -348,12 +348,17 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 (defn parse-stuff [{:keys [opts]}]
   (let [big (str-trim-lines "
-- [geo](https://github.com/Factual/geo) :star: (`act`): `geo` - unifying several JVM libraries for geoprocessing with a Clojure API
-- [ovid](https://github.com/willcohen/ovid) :star: (`act`,`exp`): `geo` - protocols for geospatial concepts
-- [aurelius](https://github.com/willcohen/aurelius) :star: (`act`,`exp`) - `geo`, `xform` - transducible analysis of geospatial features
-- [geo-clj](https://github.com/r0man/geo-clj) :star: (`act`): `geo`,`cljs` - encoding/decoding of geographic datatypes
+- [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure
+- [tablecloth](https://github.com/scicloj/tablecloth) :star: (`act`): `df`,`csv` - a dataframe grammar wrapping tech.ml.dataset, inspired by serveral R libraries
+- [clojask](https://clojure-finance.github.io/clojask-website/) :star: (`act`): `df` - a library for parallel computing of larger-than-memory datasets.
+- [Panthera](https://github.com/alanmarazzi/panthera): `df`,`py` - a Clojure API wrapping Python's Pandas library
+- [koala](https://github.com/aria42/koala) (`exp`): `df`,`csv` - Pandas-like data-processing for clojure with some I/O functionality (experimental)
+- [dataframe](https://github.com/ghl3/dataframe): `df` - Pandas-like data processing for clojure
+- [danzig](https://github.com/ribelo/wombat) (`act`,`exp`): `df`,`xform` - Pandas-like data processing using transducers (danzig was formerly named wombat)
+- [bamboo](https://github.com/kjothen/bamboo): `df` - a minimal data processing library for Clojure, with some of the capabilities of pandas and numpy
 ")
         small (str-trim-lines "
+- [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure
 ")]
     (pprint
      (->> big
