@@ -647,7 +647,7 @@
     :description
     "a client to the [Drand](https://drand.love) randomness service"})
 
-  ;; Science
+  ;; ## Science
   ({:lib/name "sicmutils",
     :lib/url "https://github.com/sicmutils/sicmutils",
     :lib/category :science,
@@ -662,6 +662,44 @@
     :star :star,
     :description
     "a Clojure/Clojurescript wrapper of the Box2D physics engine API"})
+
+
+  ;; ## Machine learning
+  ({:lib/name "scicloj.ml",
+    :lib/url "https://github.com/scicloj/scicloj.ml",
+    :lib/category :machine-learning,
+    :tags #{:act :ml},
+    :star :star,
+    :description
+    "A machine learning platform supporting a large collection of algorithms and pipeline ergonomics"}
+   {:lib/name "clj-ml",
+    :lib/url "https://github.com/joshuaeckroth/clj-ml/",
+    :lib/category :machine-learning,
+    :tags #{:ml},
+    :star nil,
+    :description
+    "machine learning based on wrapping libraries such as the Weka Java library"}
+   {:lib/name "clj-boost",
+    :lib/url "https://gitlab.com/alanmarazzi/clj-boost",
+    :lib/category :machine-learning,
+    :tags #{:ml},
+    :star nil,
+    :description "a wrapper for XGBoost"}
+   {:lib/name "propaganda",
+    :lib/url "https://github.com/tgk/propaganda",
+    :lib/category :machine-learning,
+    :tags #{:ml},
+    :star nil,
+    :description
+    "an implementation of the propagator computational model"}
+   {:lib/name "dvc",
+    :lib/url "https://dvc.org/",
+    :lib/category :machine-learning,
+    :tags #{:ml},
+    :star nil,
+    :description
+    "A programming language independent tool for ML experiment tracking,  Clojure fully supported"})
+
 
 
   ;; TODO more sections ...
