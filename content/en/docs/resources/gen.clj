@@ -208,22 +208,22 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (map lib-line)
           (str/join "\n"))
 
+
+     "\n### Genetic programming"
+     (->> (category-libs :genetic-programming)
+          (map lib-line)
+          (str/join "\n"))
+
      #_
      "
-- [scicloj.ml](https://github.com/scicloj/scicloj.ml) :star: (`act`): `ml` - A machine learning platform supporting a large collection of algorithms and pipeline ergonomics
-- [clj-ml](https://github.com/joshuaeckroth/clj-ml/): `ml` - machine learning based on wrapping libraries such as the Weka Java library
-- [clj-boost](https://gitlab.com/alanmarazzi/clj-boost): `ml` - a wrapper for XGBoost
-- [propaganda](https://github.com/tgk/propaganda): `ml` - an implementation of the propagator computational model
-- [dvc](https://dvc.org/): `ml` - A programming language independent tool for ML experiment tracking,  Clojure fully supported
+- [Propeller](https://github.com/lspector/propeller) :star: (`act`): `ml` - \"Yet another Push-based genetic programming system in Clojure\"
+- [Clojush](https://github.com/lspector/Clojush) (`act`): `ml` - an implementation of the Push programming language for genetic programming
 "
 
 
 
      "
 
-### Genetic programming
-- [Propeller](https://github.com/lspector/propeller) :star: (`act`): `ml` - \"Yet another Push-based genetic programming system in Clojure\"
-- [Clojush](https://github.com/lspector/Clojush) (`act`): `ml` - an implementation of the Push programming language for genetic programming
 
 ## Natural Language Processing
 - [DataLinguist](https://github.com/simongray/datalinguist) :star: (`act`): `nlp` - a Clojure wrapper for Stanford CoreNLP
@@ -335,11 +335,8 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 (defn parse-stuff [{:keys [opts]}]
   (let [big (str-trim-lines "
-- [scicloj.ml](https://github.com/scicloj/scicloj.ml) :star: (`act`): `ml` - A machine learning platform supporting a large collection of algorithms and pipeline ergonomics
-- [clj-ml](https://github.com/joshuaeckroth/clj-ml/): `ml` - machine learning based on wrapping libraries such as the Weka Java library
-- [clj-boost](https://gitlab.com/alanmarazzi/clj-boost): `ml` - a wrapper for XGBoost
-- [propaganda](https://github.com/tgk/propaganda): `ml` - an implementation of the propagator computational model
-- [dvc](https://dvc.org/): `ml` - A programming language independent tool for ML experiment tracking,  Clojure fully supported
+- [Propeller](https://github.com/lspector/propeller) :star: (`act`): `ml` - \"Yet another Push-based genetic programming system in Clojure\"
+- [Clojush](https://github.com/lspector/Clojush) (`act`): `ml` - an implementation of the Push programming language for genetic programming
 ")
         small (str-trim-lines "
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure

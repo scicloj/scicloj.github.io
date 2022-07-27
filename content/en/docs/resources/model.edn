@@ -700,7 +700,21 @@
     :description
     "A programming language independent tool for ML experiment tracking,  Clojure fully supported"})
 
-
+  ;; ### Genetic programming
+  ({:lib/name "Propeller",
+    :lib/url "https://github.com/lspector/propeller",
+    :lib/category :genetic-programming,
+    :tags #{:act :ml},
+    :star :star,
+    :description
+    "\"Yet another Push-based genetic programming system in Clojure\""}
+   {:lib/name "Clojush",
+    :lib/url "https://github.com/lspector/Clojush",
+    :lib/category :genetic-programming,
+    :tags #{:act :ml},
+    :star nil,
+    :description
+    "an implementation of the Push programming language for genetic programming"})
 
   ;; TODO more sections ...
   ]
