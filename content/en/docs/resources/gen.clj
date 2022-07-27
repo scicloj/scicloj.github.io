@@ -162,28 +162,23 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (str/join "\n"))
      "- see also geni :star: under the Spark sub category below"
 
+     "\n## Spreadsheets"
+     (->> (category-libs :spreadsheets)
+          (map lib-line)
+          (str/join "\n"))
+
      #_
      "
-- [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure
-- [tablecloth](https://github.com/scicloj/tablecloth) :star: (`act`): `df`,`csv` - a dataframe grammar wrapping tech.ml.dataset, inspired by serveral R libraries
-- [clojask](https://clojure-finance.github.io/clojask-website/) :star: (`act`): `df` - a library for parallel computing of larger-than-memory datasets.
-- [Panthera](https://github.com/alanmarazzi/panthera): `df`,`py` - a Clojure API wrapping Python's Pandas library
-- [koala](https://github.com/aria42/koala) (`exp`): `df`,`csv` - Pandas-like data-processing for clojure with some I/O functionality
-- [dataframe](https://github.com/ghl3/dataframe): `df` - Pandas-like data processing for clojure
-- [danzig](https://github.com/ribelo/wombat) (formerly named wombat) (`act`,`exp`): `df`,`xform` - Pandas-like data processing using transducers (danzig was formerly named wombat)
-- [bamboo](https://github.com/kjothen/bamboo): `df` - a minimal data processing library for Clojure, with some of the capabilities of pandas and numpy
-"
-
-
-
-     "
-## Spreadsheets
 - [Docjure](https://github.com/mjul/docjure) :star: (`act`): `xl` - making it easy to read and write Excel spreadsheets as Clojure data
 - [kixi.large](https://github.com/MastodonC/kixi.large) :star: (`act`, `exp`): `xl` - a tech.ml.dataset-friendly fork of Docjure, providing clear entry point at the workbook and sheet level and a way to insert images
 - [Excel-clj](https://github.com/matthewdowney/excel-clj) :star: (`act`): `xl` - building Excel spreadsheets from Clojure data in various forms such as trees, tables, and more
 - [fxl](https://github.com/zero-one-group/fxl) :star: (`act`, `exp`): `xl` - manipulating spreadsheets with a versatile API for handling various spreadsheet constructs
 - [Excel-templates](https://github.com/tomfaulhaber/excel-templates) (`exp`): `xl` - building Excel spreadsheets from Clojure data combined with an Excel sheet serving as a template
+"
 
+
+
+     "
 ## Array programming, linear algebra
 - [dtype-next](https://github.com/cnuernber/dtype-next) :star: (`act`): `array`,`tensor`, `native`,`stat` - abstractions and foundations for working with array-like structures and sequential structures
 - [Neanderthal](https://neanderthal.uncomplicate.org/) :star: (`act`): `array`,`linalg`,`native`,`gpu` - matrix and linear algebra in Clojure
@@ -348,14 +343,11 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 (defn parse-stuff [{:keys [opts]}]
   (let [big (str-trim-lines "
-- [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure
-- [tablecloth](https://github.com/scicloj/tablecloth) :star: (`act`): `df`,`csv` - a dataframe grammar wrapping tech.ml.dataset, inspired by serveral R libraries
-- [clojask](https://clojure-finance.github.io/clojask-website/) :star: (`act`): `df` - a library for parallel computing of larger-than-memory datasets.
-- [Panthera](https://github.com/alanmarazzi/panthera): `df`,`py` - a Clojure API wrapping Python's Pandas library
-- [koala](https://github.com/aria42/koala) (`exp`): `df`,`csv` - Pandas-like data-processing for clojure with some I/O functionality (experimental)
-- [dataframe](https://github.com/ghl3/dataframe): `df` - Pandas-like data processing for clojure
-- [danzig](https://github.com/ribelo/wombat) (`act`,`exp`): `df`,`xform` - Pandas-like data processing using transducers (danzig was formerly named wombat)
-- [bamboo](https://github.com/kjothen/bamboo): `df` - a minimal data processing library for Clojure, with some of the capabilities of pandas and numpy
+- [Docjure](https://github.com/mjul/docjure) :star: (`act`): `xl` - making it easy to read and write Excel spreadsheets as Clojure data
+- [kixi.large](https://github.com/MastodonC/kixi.large) :star: (`act`, `exp`): `xl` - a tech.ml.dataset-friendly fork of Docjure, providing clear entry point at the workbook and sheet level and a way to insert images
+- [Excel-clj](https://github.com/matthewdowney/excel-clj) :star: (`act`): `xl` - building Excel spreadsheets from Clojure data in various forms such as trees, tables, and more
+- [fxl](https://github.com/zero-one-group/fxl) :star: (`act`, `exp`): `xl` - manipulating spreadsheets with a versatile API for handling various spreadsheet constructs
+- [Excel-templates](https://github.com/tomfaulhaber/excel-templates) (`exp`): `xl` - building Excel spreadsheets from Clojure data combined with an Excel sheet serving as a template
 ")
         small (str-trim-lines "
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure

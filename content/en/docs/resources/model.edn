@@ -423,6 +423,44 @@
     :description
     "a minimal data processing library for Clojure, with some of the capabilities of pandas and numpy"})
 
+  ;; Spreadsheets
+  ({:lib/name "Docjure",
+    :lib/url "https://github.com/mjul/docjure",
+    :lib/category :spreadsheets,
+    :tags #{:act :xl},
+    :star :star,
+    :description
+    "making it easy to read and write Excel spreadsheets as Clojure data"}
+   {:lib/name "kixi.large",
+    :lib/url "https://github.com/MastodonC/kixi.large",
+    :lib/category :spreadsheets,
+    :tags #{:exp :act :xl},
+    :star :star,
+    :description
+    "a tech.ml.dataset-friendly fork of Docjure, providing clear entry point at the workbook and sheet level and a way to insert images"}
+   {:lib/name "Excel-clj",
+    :lib/url "https://github.com/matthewdowney/excel-clj",
+    :lib/category :spreadsheets,
+    :tags #{:act :xl},
+    :star :star,
+    :description
+    "building Excel spreadsheets from Clojure data in various forms such as trees, tables, and more"}
+   {:lib/name "fxl",
+    :lib/url "https://github.com/zero-one-group/fxl",
+    :lib/category :spreadsheets,
+    :tags #{:exp :act :xl},
+    :star :star,
+    :description
+    "manipulating spreadsheets with a versatile API for handling various spreadsheet constructs"}
+   {:lib/name "Excel-templates",
+    :lib/url "https://github.com/tomfaulhaber/excel-templates",
+    :lib/category :spreadsheets,
+    :tags #{:exp :xl},
+    :star nil,
+    :description
+    "building Excel spreadsheets from Clojure data combined with an Excel sheet serving as a template"})
+
+
   ;; TODO more sections ...
   ]
 
