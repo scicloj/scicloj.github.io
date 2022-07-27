@@ -81,14 +81,14 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
 - [Maria](https://github.com/mhuebert/maria): `cljs`,`lit`,`vis` - a Clojurescript coding environment for beginners
 
 ### Vega rendering
-In addition to a few of the tools mentioned above, here is a list of dedicated tools dedicated mainly to handling [Vega](https://Vega.github.io/Vega/)/[Vega-lite](https://Vega.github.io/Vega-lite/) specifications. See [this conversation](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science/topic/rendering.20charts.20in.20notespace) for some discussion of the differences and tradeoffs across these tools.
-- [darkstar](https://github.com/appliedsciencestudio/darkstar): :star: `vis`,`vega` - a minimal wrapper over Vega/Vega-lite as a single JVM-only Clojure library, using the GraalJS javascript runtime, which [does not require GraalVM runtime](https://github.com/graalvm/graaljs/blob/master/docs/user/RunOnJDK.md) to run.
-- [xvsy](https://github.com/dvdt/xvsy): `vis`,`vega`,`cljs` - grammer of graphics over Vega
-- [Vegan](https://github.com/cnuernber/Vegan/) (`act`): `vis`,`vega` - a nodejs clojurescript library designed to validate and render Vega and Vega-lite files - supports docker-based setup.
-- [Vega-clj](https://github.com/behrica/vg-cli) (`act`): `vis`,`vega` - a clojure wrapper for the (node-based) Vega-cli and Vega-lite standalone scrips
-- [Optikon](https://github.com/stathissideris/optikon): `vis`,`vega` - a command line tool that wraps Vega and Vega-lite - using GraalVM polyglot programming
-- [Vegafx](https://github.com/joinr/Vegafx): `vis`,`vega` - a static-site viewer using javafx that renders Vega specs
-- [VL example gallery as EDN](https://behrica.github.io/vl-galery/convert): The vega lite example in EDN format, ready to be copy/pasted into Clojure code
+In addition to a few of the tools mentioned above, here is a list of dedicated tools dedicated mainly to handling [Vega](https://Vega.github.io/Vega/)/[Vega-lite](https://Vega.github.io/Vega-lite/) specifications. See [this conversation](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science/topic/rendering.20charts.20in.20notespace) for some discussion of the differences and tradeoffs across these tools. 
+- [darkstar](https://github.com/appliedsciencestudio/darkstar) :star:: `vega`,`vis` - a minimal wrapper over Vega/Vega-lite as a single JVM-only Clojure library, using the GraalJS javascript runtime, which [does not require GraalVM runtime](https://github.com/graalvm/graaljs/blob/master/docs/user/RunOnJDK.md) to run.
+- [xvsy](https://github.com/dvdt/xvsy): `cljs`,`vega`,`vis` - grammer of graphics over Vega
+- [Vegan](https://github.com/cnuernber/Vegan/) (`act`): `vega`,`vis` - supports docker-based setup.
+- [Vega-clj](https://github.com/behrica/vg-cli) (`act`): `vega`,`vis` - a clojure wrapper for the (node-based) Vega-cli and Vega-lite standalone scrips
+- [Optikon](https://github.com/stathissideris/optikon): `vega`,`vis` - using GraalVM polyglot programming
+- [Vegafx](https://github.com/joinr/Vegafx): `vega`,`vis` - a static-site viewer using javafx that renders Vega specs
+- [VL example gallery as EDN](https://behrica.github.io/vl-galery/convert):  - The vega lite example in EDN format, ready to be copy/pasted into Clojure code
 
 ## Data visualization libraries
 - [cljplot](https://github.com/generateme/cljplot) :star: (`act`,`exp`): `vis` - a data visualization platform written in Clojure and inspired by R's ggplot2 and lattice libraries

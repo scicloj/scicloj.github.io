@@ -168,6 +168,55 @@
     :star nil,
     :description "a Clojurescript coding environment for beginners"})
 
+  ;; ## Vega rendering
+  ({:lib/name "darkstar",
+    :lib/url "https://github.com/appliedsciencestudio/darkstar",
+    :lib/category :vega-rendering,
+    :tags #{:vis :vega},
+    :star :star,
+    :description
+    "a minimal wrapper over Vega/Vega-lite as a single JVM-only Clojure library, using the GraalJS javascript runtime, which [does not require GraalVM runtime](https://github.com/graalvm/graaljs/blob/master/docs/user/RunOnJDK.md) to run."
+    }
+   {:lib/name "xvsy",
+    :lib/url "https://github.com/dvdt/xvsy",
+    :lib/category :vega-rendering,
+    :tags #{:vis :vega :cljs},
+    :star nil,
+    :description "grammer of graphics over Vega"}
+   {:lib/name "Vegan",
+    :lib/url "https://github.com/cnuernber/Vegan/",
+    :lib/category :vega-rendering,
+    :tags #{:vis :act :vega},
+    :star nil,
+    :description "supports docker-based setup."}
+   {:lib/name "Vega-clj",
+    :lib/url "https://github.com/behrica/vg-cli",
+    :lib/category :vega-rendering,
+    :tags #{:vis :act :vega},
+    :star nil,
+    :description
+    "a clojure wrapper for the (node-based) Vega-cli and Vega-lite standalone scrips"}
+   {:lib/name "Optikon",
+    :lib/url "https://github.com/stathissideris/optikon",
+    :lib/category :vega-rendering,
+    :tags #{:vis :vega},
+    :star nil,
+    :description "using GraalVM polyglot programming"}
+   {:lib/name "Vegafx",
+    :lib/url "https://github.com/joinr/Vegafx",
+    :lib/category :vega-rendering,
+    :tags #{:vis :vega},
+    :star nil,
+    :description
+    "a static-site viewer using javafx that renders Vega specs"}
+   {:lib/name "VL example gallery as EDN",
+    :lib/url "https://behrica.github.io/vl-galery/convert",
+    :lib/category :vega-rendering,
+    :tags #{},
+    :star nil,
+    :description
+    "The vega lite example in EDN format, ready to be copy/pasted into Clojure code"})
+
   ;; TODO more sections ...
   ]
 

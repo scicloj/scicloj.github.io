@@ -135,35 +135,13 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
           (map lib-line)
           (str/join "\n"))
 
-     #_"
-- [Saite](https://github.com/jsa-aerial/saite) :star: (`act`): `vis`,`vega`,`lit`,`ui`,`hiccup`,`cljs` - data exploration, dashboards, and interactive documents
-- [Oz](https://github.com/metasoarous/oz) :star: (`act`): `vis`,`vega`,`lit` - data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming
-- [Clerk](https://github.com/nextjournal/clerk) :star: (`act`): `vis`, `vega`, `lit`, `cljs` - local-first notebooks for Clojure
-- [Clay](https://github.com/scicloj/clay) :star: (`act`): `vis`, `vega`, `lit`, `cljs` - a small tool for compatible dynamic experience over some of the other visual tools
-- [rmarkdown-clojue](https://github.com/genmeblog/rmarkdown-clojure) :star: : `vis`, `lit` - rendering Clojure code in various format using [Rmarkdown](https://rmarkdown.rstudio.com/)
-- [Pink-Gorilla/Goldly](https://github.com/pink-gorilla/goldly) :star: (`act`,`exp`, temporary name): `vis`,`lit`,`ui`,`cljs` - a port of the Gorilla REPL project using a Clojurescript (Reagent) frontend
-- [Org-babel-clojure](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-clojure.html) :star: : `lt` - executing Clojure inside Emacs Org-mode documents
-- [Devcards](https://github.com/bhauman/devcards):star: : `lit`,`cljs`- visual repl exprience for Clojurescript
-- [Notespace](https://github.com/scicloj/notespace) :star: (`act`,`exp`): `lit` - notebook experience with Clojure namespaces edited at any editor
-- [Reveal](https://vlaaad.github.io/reveal/) :star: (`act`): browser-based data navigation GUI
-- [Portal](https://github.com/djblue/portal) :star: (`act`): desktop data navigation GUI
-- [Gorilla-REPL](http://gorilla-repl.org/): `lit` - a notebook application written in Clojure and Javascript
-- [proto-repl-charts](https://github.com/jasongilman/proto-repl-charts): `vis` - an Atom plugin for displaying tables and graphs
-- [Maria](https://github.com/mhuebert/maria): `lit`, `vis`, `cljs`: a Clojurescript coding environment for beginners
-"
-
+     "\n### Vega rendering
+In addition to a few of the tools mentioned above, here is a list of dedicated tools dedicated mainly to handling [Vega](https://Vega.github.io/Vega/)/[Vega-lite](https://Vega.github.io/Vega-lite/) specifications. See [this conversation](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science/topic/rendering.20charts.20in.20notespace) for some discussion of the differences and tradeoffs across these tools. "
+     (->> (category-libs :vega-rendering)
+          (map lib-line)
+          (str/join "\n"))
 
      "
-### Vega rendering
-In addition to a few of the tools mentioned above, here is a list of dedicated tools dedicated mainly to handling [Vega](https://Vega.github.io/Vega/)/[Vega-lite](https://Vega.github.io/Vega-lite/) specifications. See [this conversation](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science/topic/rendering.20charts.20in.20notespace) for some discussion of the differences and tradeoffs across these tools.
-- [darkstar](https://github.com/appliedsciencestudio/darkstar): :star: `vis`,`vega` - a minimal wrapper over Vega/Vega-lite as a single JVM-only Clojure library, using the GraalJS javascript runtime, which [does not require GraalVM runtime](https://github.com/graalvm/graaljs/blob/master/docs/user/RunOnJDK.md) to run.
-- [xvsy](https://github.com/dvdt/xvsy): `vis`,`vega`,`cljs` - grammer of graphics over Vega
-- [Vegan](https://github.com/cnuernber/Vegan/) (`act`): `vis`,`vega` - a nodejs clojurescript library designed to validate and render Vega and Vega-lite files - supports docker-based setup.
-- [Vega-clj](https://github.com/behrica/vg-cli) (`act`): `vis`,`vega` - a clojure wrapper for the (node-based) Vega-cli and Vega-lite standalone scrips
-- [Optikon](https://github.com/stathissideris/optikon): `vis`,`vega` - a command line tool that wraps Vega and Vega-lite - using GraalVM polyglot programming
-- [Vegafx](https://github.com/joinr/Vegafx): `vis`,`vega` - a static-site viewer using javafx that renders Vega specs
-- [VL example gallery as EDN](https://behrica.github.io/vl-galery/convert): The vega lite example in EDN format, ready to be copy/pasted into Clojure code
-
 ## Data visualization libraries
 - [cljplot](https://github.com/generateme/cljplot) :star: (`act`,`exp`): `vis` - a data visualization platform written in Clojure and inspired by R's ggplot2 and lattice libraries
 - [Hanami](https://github.com/jsa-aerial/hanami) :star: (`act`): `vis`,`vega`,`ui`,`hiccup`,`cljs` - a template system for creating interactive data visualizations using Vega/Vega-lite, Reagent and Re-Com
@@ -346,11 +324,11 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 (defn find-name
   "Names can have a-z, A-Z, _, - and / in them"
   [line]
-  (let [[_ match] (re-find #"\[([\w/_-]+)\]" line)]
+  (let [[_ match] (re-find #"\[([\w/_ -]+)\]" line)]
     match))
 
 (defn find-url [line]
-  (let [[_ match] (re-find #"\[[\w/_-]+\]\(([\w:/\.\-_]+)" line)]
+  (let [[_ match] (re-find #"\[[\w/_ -]+\]\(([\w:/\.\-_]+)" line)]
     match))
 
 (defn find-star [line]
@@ -373,26 +351,23 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 (defn str-trim-lines [s]
   (str/split-lines (str/trim s)))
 
-(defn parse-stuff [{}]
-  (pprint
-   (->> (str-trim-lines "
-- [Saite](https://github.com/jsa-aerial/saite) :star: (`act`): `vis`,`vega`,`lit`,`ui`,`hiccup`,`cljs` - data exploration, dashboards, and interactive documents
-- [Oz](https://github.com/metasoarous/oz) :star: (`act`): `vis`,`vega`,`lit` - data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming
-- [Clerk](https://github.com/nextjournal/clerk) :star: (`act`): `vis`, `vega`, `lit`, `cljs` - local-first notebooks for Clojure
-- [Clay](https://github.com/scicloj/clay) :star: (`act`): `vis`, `vega`, `lit`, `cljs` - a small tool for compatible dynamic experience over some of the other visual tools
-- [rmarkdown-clojue](https://github.com/genmeblog/rmarkdown-clojure) :star: : `vis`, `lit` - rendering Clojure code in various format using [Rmarkdown](https://rmarkdown.rstudio.com/)
-- [Pink-Gorilla/Goldly](https://github.com/pink-gorilla/goldly) :star: (`act`,`exp`, temporary name): `vis`,`lit`,`ui`,`cljs` - a port of the Gorilla REPL project using a Clojurescript (Reagent) frontend
-- [Org-babel-clojure](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-clojure.html) :star: : `lt` - executing Clojure inside Emacs Org-mode documents
-- [Devcards](https://github.com/bhauman/devcards):star: - `lit`,`cljs` - visual repl exprience for Clojurescript
-- [Notespace](https://github.com/scicloj/notespace) :star: (`act`,`exp`): `lit` - notebook experience with Clojure namespaces edited at any editor
-- [Reveal](https://vlaaad.github.io/reveal/) :star: (`act`) - browser-based data navigation GUI
-- [Portal](https://github.com/djblue/portal) :star: (`act`) - desktop data navigation GUI
-- [Gorilla-REPL](http://gorilla-repl.org/): `lit` - a notebook application written in Clojure and Javascript
-- [proto-repl-charts](https://github.com/jasongilman/proto-repl-charts): `vis` - an Atom plugin for displaying tables and graphs
-- [Maria](https://github.com/mhuebert/maria): `lit`, `vis`, `cljs` - a Clojurescript coding environment for beginners
+(defn parse-stuff [{:keys [opts]}]
+  (let [big (str-trim-lines "
+- [darkstar](https://github.com/appliedsciencestudio/darkstar): :star: `vis`,`vega` - a minimal wrapper over Vega/Vega-lite as a single JVM-only Clojure library, using the GraalJS javascript runtime, which [does not require GraalVM runtime](https://github.com/graalvm/graaljs/blob/master/docs/user/RunOnJDK.md) to run.
+- [xvsy](https://github.com/dvdt/xvsy): `vis`,`vega`,`cljs` - grammer of graphics over Vega
+- [Vegan](https://github.com/cnuernber/Vegan/) (`act`): `vis`,`vega` - a nodejs clojurescript library designed to validate and render Vega and Vega-lite files - supports docker-based setup.
+- [Vega-clj](https://github.com/behrica/vg-cli) (`act`): `vis`,`vega` - a clojure wrapper for the (node-based) Vega-cli and Vega-lite standalone scrips
+- [Optikon](https://github.com/stathissideris/optikon): `vis`,`vega` - a command line tool that wraps Vega and Vega-lite - using GraalVM polyglot programming
+- [Vegafx](https://github.com/joinr/Vegafx): `vis`,`vega` - a static-site viewer using javafx that renders Vega specs
+- [VL example gallery as EDN](https://behrica.github.io/vl-galery/convert) - The vega lite example in EDN format, ready to be copy/pasted into Clojure code
 ")
-        (map (fn [line]
-               (parse-line line {:lib/category :visual-tools}))))))
+        small (str-trim-lines "
+- [VL example gallery as EDN](https://behrica.github.io/vl-galery/convert) - The vega lite example in EDN format, ready to be copy/pasted into Clojure code
+")]
+    (pprint
+     (->> big
+          (map (fn [line]
+                 (parse-line line {:lib/category (:category opts)})))))))
 
 (defn alltags
   "Identify all the tags"
@@ -427,6 +402,7 @@ parse-stuff - Helper for building data
                  {:cmds ["alltags"] :fn alltags}
                  {:cmds ["parse-stuff"] :fn parse-stuff}
                  {:cmds [] :fn print-help}]
-                args))
+                args
+                {:coerce {:category :keyword}}))
 
 (apply main *command-line-args*)
