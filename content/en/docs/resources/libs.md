@@ -156,8 +156,8 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [kixi.stats](https://github.com/MastodonC/kixi.stats) :star: (`act`): `rand`,`stat`,`xform` - statistics and random sampling using transducers
 - [fitdistr](https://github.com/generateme/fitdistr) :star: (`act`): `stat` - fitting distributions
 
-## Time series analysis
-- [tide](https://github.com/sbelak/tide) - `ts`: STL and FastDTW algorithms
+ ## Time series analysis
+- [tide](https://github.com/sbelak/tide): `ts` - STL and FastDTW algorithms
 
 ## Bayesian computing & probabilistic programming
 - [inferme](https://github.com/generateme/inferme) :star: (`act`): `prob`,`rand`,`vis` - extensible probabilistic programming in Clojure itself (rather than a language variation), with support for visualizations

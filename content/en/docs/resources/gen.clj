@@ -183,18 +183,19 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (map lib-line)
           (str/join "\n"))
 
+     "\n ## Time series analysis"
+     (->> (category-libs :time-series-analysis)
+          (map lib-line)
+          (str/join "\n"))
+
      #_
      "
-- [kixi.stats](https://github.com/MastodonC/kixi.stats) :star: (`act`): `stat`,`rand`,`xform` - statistics and random sampling using transducers
-- [fitdistr](https://github.com/generateme/fitdistr) :star: (`act`): `stat` - fitting distributions
+- [tide](https://github.com/sbelak/tide) - `ts` - STL and FastDTW algorithms
 "
 
 
 
      "
-## Time series analysis
-- [tide](https://github.com/sbelak/tide) - `ts`: STL and FastDTW algorithms
-
 ## Bayesian computing & probabilistic programming
 - [inferme](https://github.com/generateme/inferme) :star: (`act`): `prob`,`rand`,`vis` - extensible probabilistic programming in Clojure itself (rather than a language variation), with support for visualizations
 - [clj-stan](https://github.com/thomasathorne/clj-stan) :star:
@@ -336,8 +337,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 (defn parse-stuff [{:keys [opts]}]
   (let [big (str-trim-lines "
-- [kixi.stats](https://github.com/MastodonC/kixi.stats) :star: (`act`): `stat`,`rand`,`xform` - statistics and random sampling using transducers
-- [fitdistr](https://github.com/generateme/fitdistr) :star: (`act`): `stat` - fitting distributions
+- [tide](https://github.com/sbelak/tide) - `ts` - STL and FastDTW algorithms
 ")
         small (str-trim-lines "
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure

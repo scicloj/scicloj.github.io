@@ -555,6 +555,15 @@
     :star :star,
     :description "fitting distributions"})
 
+  ;; Time series analysis
+  ({:lib/name "tide",
+    :lib/url "https://github.com/sbelak/tide",
+    :lib/category :time-series-analysis,
+    :tags #{:ts},
+    :star nil,
+    :description "STL and FastDTW algorithms"})
+
+
   ;; TODO more sections ...
   ]
 
