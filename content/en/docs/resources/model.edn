@@ -501,6 +501,45 @@
     :star nil,
     :description "Neanderthal backend for core.matrix"})
 
+  ;; ### Deep learning
+  ({:lib/name "Deep Diamond",
+    :lib/url "https://github.com/uncomplicate/deep-diamond",
+    :lib/category :deep-learning,
+    :tags #{:gpu :tensor :act :native :dnn},
+    :star :star,
+    :description
+    "infrastructure for tensor computation and deep learning"}
+   {:lib/name "clj-djl",
+    :lib/url "https://github.com/scicloj/clj-djl",
+    :lib/category :deep-learning,
+    :tags #{:gpu :tensor :act :native :dnn},
+    :star :star,
+    :description "a wrapper for the Deep Java Library"}
+   {:lib/name "MXNet",
+    :lib/url
+    "https://github.com/apache/incubator-mxnet/tree/master/contrib/clojure-package",
+    :lib/category :deep-learning,
+    :tags #{:dnn},
+    :star nil,
+    :description "bindings to Apache MXNet, a part of the MXNet project"}
+   {:lib/name "jutsu.ai",
+    :lib/url "https://github.com/hswick/jutsu.ai",
+    :lib/category :deep-learning,
+    :tags #{:dnn},
+    :star nil,
+    :description "a wrapper for deeplearning4j"}
+   {:lib/name "Cortex",
+    :lib/url "https://github.com/originrose/cortex",
+    :lib/category :deep-learning,
+    :tags #{:dnn},
+    :star nil,
+    :description "a deep learning library written in Clojure"}
+   {:lib/name "Flare",
+    :lib/url "https://github.com/aria42/flare",
+    :lib/category :deep-learning,
+    :tags #{:dnn},
+    :star nil,
+    :description "dynamic neural networks in Clojure"})
 
 
   ;; TODO more sections ...

@@ -171,27 +171,26 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
      (->> (category-libs :arrays-and-linalg)
           (map lib-line)
           (str/join "\n"))
+
+     "\n### Deep learning"
+     (->> (category-libs :deep-learning)
+          (map lib-line)
+          (str/join "\n"))
+
      #_
      "
-- [dtype-next](https://github.com/cnuernber/dtype-next) :star: (`act`): `array`,`tensor`, `native`,`stat` - abstractions and foundations for working with array-like structures and sequential structures
-- [Neanderthal](https://neanderthal.uncomplicate.org/) :star: (`act`): `array`,`linalg`,`native`,`gpu` - matrix and linear algebra in Clojure
-- [tvm-clj](https://github.com/techascent/tvm-clj) (`act`,`exp`): `array`,`linalg`,`native`,`gpu` - bindings to [tvm](https://github.com/apache/incubator-tvm)
-- [jutsu.matrix](https://github.com/hswick/jutsu.matrix): `array`,`linalg`,`native`,`gpu` - bindigs to [ND4J](https://deeplearning4j.org/docs/latest/nd4j-overview)
-- [core.matrix](https://github.com/mikera/core.matrix): `array`,`linalg`,`native`,`cljs` - matrix abstractions, supporting diffent backends
-- [denisovan](https://github.com/cailuno/denisovan): `array`,`linalg`,`native`,`gpu` - Neanderthal backend for core.matrix
-"
-
-
-
-     "
-
-### Deep learning
 - [Deep Diamond](https://github.com/uncomplicate/deep-diamond) :star: (`act`): `tensor`, `dnn`,`native`,`gpu` - infrastructure for tensor computation and deep learning
 - [clj-djl](https://github.com/scicloj/clj-djl) :star: (`act`): `tensor`, `dnn`, `native`, `gpu` - a wrapper for the Deep Java Library
 - [MXNet](https://github.com/apache/incubator-mxnet/tree/master/contrib/clojure-package): `dnn` - bindings to Apache MXNet - part of the MXNet project
 - [jutsu.ai](https://github.com/hswick/jutsu.ai): `dnn` - a wrapper for deeplearning4j
 - [Cortex](https://github.com/originrose/cortex): `dnn` - a deep learning library written in Clojure
 - [Flare](https://github.com/aria42/flare): `dnn` - dynamic neural networks in Clojure
+"
+
+
+
+     "
+
 
 ## Statistics
 - [kixi.stats](https://github.com/MastodonC/kixi.stats) :star: (`act`): `stat`,`rand`,`xform` - statistics and random sampling using transducers
@@ -341,12 +340,12 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 (defn parse-stuff [{:keys [opts]}]
   (let [big (str-trim-lines "
-- [dtype-next](https://github.com/cnuernber/dtype-next) :star: (`act`): `array`,`tensor`, `native`,`stat` - abstractions and foundations for working with array-like structures and sequential structures
-- [Neanderthal](https://neanderthal.uncomplicate.org/) :star: (`act`): `array`,`linalg`,`native`,`gpu` - matrix and linear algebra in Clojure
-- [tvm-clj](https://github.com/techascent/tvm-clj) (`act`,`exp`): `array`,`linalg`,`native`,`gpu` - bindings to [tvm](https://github.com/apache/incubator-tvm)
-- [jutsu.matrix](https://github.com/hswick/jutsu.matrix): `array`,`linalg`,`native`,`gpu` - bindigs to [ND4J](https://deeplearning4j.org/docs/latest/nd4j-overview)
-- [core.matrix](https://github.com/mikera/core.matrix): `array`,`linalg`,`native`,`cljs` - matrix abstractions, supporting diffent backends
-- [denisovan](https://github.com/cailuno/denisovan): `array`,`linalg`,`native`,`gpu` - Neanderthal backend for core.matrix
+- [Deep Diamond](https://github.com/uncomplicate/deep-diamond) :star: (`act`): `tensor`, `dnn`,`native`,`gpu` - infrastructure for tensor computation and deep learning
+- [clj-djl](https://github.com/scicloj/clj-djl) :star: (`act`): `tensor`, `dnn`, `native`, `gpu` - a wrapper for the Deep Java Library
+- [MXNet](https://github.com/apache/incubator-mxnet/tree/master/contrib/clojure-package): `dnn` - bindings to Apache MXNet, a part of the MXNet project
+- [jutsu.ai](https://github.com/hswick/jutsu.ai): `dnn` - a wrapper for deeplearning4j
+- [Cortex](https://github.com/originrose/cortex): `dnn` - a deep learning library written in Clojure
+- [Flare](https://github.com/aria42/flare): `dnn` - dynamic neural networks in Clojure
 ")
         small (str-trim-lines "
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `df`,`stat`,`vis`,`csv` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure

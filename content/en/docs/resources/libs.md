@@ -144,14 +144,15 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [core.matrix](https://github.com/mikera/core.matrix): `array`,`cljs`,`linalg`,`native` - matrix abstractions, supporting diffent backends
 - [denisovan](https://github.com/cailuno/denisovan): `array`,`gpu`,`linalg`,`native` - Neanderthal backend for core.matrix
 
-
 ### Deep learning
-- [Deep Diamond](https://github.com/uncomplicate/deep-diamond) :star: (`act`): `tensor`, `dnn`,`native`,`gpu` - infrastructure for tensor computation and deep learning
-- [clj-djl](https://github.com/scicloj/clj-djl) :star: (`act`): `tensor`, `dnn`, `native`, `gpu` - a wrapper for the Deep Java Library
-- [MXNet](https://github.com/apache/incubator-mxnet/tree/master/contrib/clojure-package): `dnn` - bindings to Apache MXNet - part of the MXNet project
+- [Deep Diamond](https://github.com/uncomplicate/deep-diamond) :star: (`act`): `dnn`,`gpu`,`native`,`tensor` - infrastructure for tensor computation and deep learning
+- [clj-djl](https://github.com/scicloj/clj-djl) :star: (`act`): `dnn`,`gpu`,`native`,`tensor` - a wrapper for the Deep Java Library
+- [MXNet](https://github.com/apache/incubator-mxnet/tree/master/contrib/clojure-package): `dnn` - bindings to Apache MXNet, a part of the MXNet project
 - [jutsu.ai](https://github.com/hswick/jutsu.ai): `dnn` - a wrapper for deeplearning4j
 - [Cortex](https://github.com/originrose/cortex): `dnn` - a deep learning library written in Clojure
 - [Flare](https://github.com/aria42/flare): `dnn` - dynamic neural networks in Clojure
+
+
 
 ## Statistics
 - [kixi.stats](https://github.com/MastodonC/kixi.stats) :star: (`act`): `stat`,`rand`,`xform` - statistics and random sampling using transducers
