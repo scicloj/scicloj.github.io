@@ -19,6 +19,7 @@ The details below are **tentative** and will probably change.
 ## meetings
 
 * 2022-07-24, initial brainstorming - [event](https://clojureverse.org/t/ds4clj-course-initial-brainstorming/)
+* 2022-08-06, prep meeting about R & Tidyverse - [event](https://clojureverse.org/t/ds4clj-prep-meeting-studying-a-bit-of-r-tidyverse/)
 
 ## goals
 
