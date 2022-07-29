@@ -63,6 +63,8 @@ For more information, see also the [list](https://scicloj.github.io/docs/communi
 
 - [#visual-tools](https://clojurians.zulipchat.com/#narrow/stream/313390-visual-tools) - the stream of the [visual-tools group](https://clojureverse.org/t/real-world-data-meetings/), discussing collaborations around tooling for data visualization and literate programming
 
+- [#tensorflow-study](https://clojurians.zulipchat.com/#narrow/stream/333373-tensorflow-study) - studying Tensorflow and its use from Clojure
+
 - [#wolfram-clojure-bridge](https://clojurians.zulipchat.com/#narrow/stream/313853-wolfram-clojure-bridge) - a stream for the monthly meetings around [the Clojure bridge to the Wolfram Language](https://github.com/scicloj/clojuratica).
 
 - [#real-world-data](https://clojurians.zulipchat.com/#narrow/stream/315077-real-world-data) - a stream for the [real-world-data events](https://clojureverse.org/t/real-world-data-meetings/), discussing uses of Clojure in real-world data projects
