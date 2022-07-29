@@ -87,27 +87,89 @@ It will be used for a few of the case studies, that we will adapt to this course
 - Clojure
 - R
 
+from today's brainstorming:
+
 ### theory & methods
 (very basic intros)
-- descriptive statistics
-- frequentist statistical inference
-- supervised learning: principles & workflow, regression, classification
-- probabilistic modelling through Bayesian statistics
-- unsuprevised learning: clustering, dimension reduction
-- linear algebra
-- deep networks
-- nlp
+ - hello world: a typical workflow
+ - reshaping data (the "tidy" notion)
+ - correctness: testing, reproducibility
+ - descriptive statistics
+ - frequentist statistical inference
+ - supervised learning: principles & workflow, regression, classification
+ - working with tree-structured data
+ - probabilistic modelling through Bayesian statistics
+ - unsuprevised learning: clustering, dimension reduction
+ - linear algebra
+ - deep networks
+ - nlp
+ - async data streams
+ - graph data
 
 ### libraries & tools
 (some introduced briefly, some more thoroughly)
-- tablecloth, tech.ml.dataset, dtype-next
-- portal, oz, clerk, clay
-- hanami, cljplot?
-- fastmath, kixi.stats
-- scicloj.ml
-- libpython-clj, clojisr
-- inferme, clj-stan
-- specter, meander
-- neanderthal, deep-diamond
-- geni, clojask
-- datalinguist?
+- tables: tablecloth, tech.ml.dataset
+- arrays: dtype-next
+- transducers: xforms, injest
+- correctness (schemas): malli 
+- data vis & notebook tooling: portal, oz, clerk, clay
+- data vis grammars: hanami, cljplot? 
+- math stats: fastmath, kixi.stats
+- machine learning algorithms & pipelines: scicloj.ml
+- interoperation w/ other languages: libpython-clj, clojisr
+- Bayesian statistics: inferme, clj-stan
+- tree data: clojure.walk, core.match, specter, meander, tupelo
+- data ingestion: jdbc-next?, some web scraping, arrow?
+- linear algebra, deep learning: neanderthal, deep-diamond
+- parallel computing: geni, clojask 
+- nlp: datalinguist?, spacy through interop
+- graph data: loom, neo4j?
+
+## course plan (very tentative)
+
+| month | topic                                  | libraries                       | homework                           |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       | **core topics**                        |                                 |                                    |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+| 1     | common workflow                        | tablecloth, fastmath, hanami,   | learn some R and Clojure           |
+|       |                                        | scicloj.ml                      |                                    |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+| 2     | descriptive stats,                     | fastmath, kixi.stats            | apply to a real-world dataset      |
+|       | frequentist stats                      |                                 |                                    |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+| 3     | data visualization                     | hanami, cljplot?                | apply to a real-world dataset      |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+| 4     | arrays & tables                        | dtype-next, tech.ml.dataset,    | apply to a real-world dataset,     |
+|       |                                        | tablecloth                      | do some speed benchmarks           |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+| 5     | basic supervised learning workflow,    | scicloj.ml, malli               | reproduce some kaggle notebooks    |
+|       | reproducibility, tests                 |                                 |                                    |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+| 6     | probability, Bayesian stats            | inferme, clj-stan               | reading in Statistical Rethinking, |
+|       |                                        |                                 | reproducing some examples          |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+| 7     | advanced supervised learning workflows | scicloj.ml                      | reproduce some kaggle notebooks,   |
+|       |                                        |                                 | explore variations & improvements  |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+| 8     | unsupervised learning                  | fastmath, scicloj.ml            | reproduce some kaggle notebooks,   |
+|       |                                        |                                 | explore variations & improvements  |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+| 9     | python and R interop                   | libpython-clj, clojisr          | going through some tutorials by    |
+|       |                                        |                                 | interop                            |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       | **specialized topics**                 |                                 |                                    |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+| 10    | working with tree-sructured data,      | clojure.walk, specter, meander, | scraping & analysing some          |
+|       | web scraping                           | hickory                         | unstructured data                  |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+| 11    | linear algebra, basic image processing | neanderthal                     | processing some images             |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+| 12    | deep learning                          | deep diamond                    | reproducing some tutorials         |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+| 13    | async data streams                     | xforms, kixi.stats              | analysing some user events         |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+| 14    | natural language processing            | datalinguist,                   | analysing some texts,              |
+|       |                                        | spaCy through interop           | writing rules to capture intents   |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
+| 15    | graph data                             | loom, neo4j                     | analysing some graph data          |
+|-------|----------------------------------------|---------------------------------|------------------------------------|
