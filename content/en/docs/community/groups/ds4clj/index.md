@@ -140,7 +140,7 @@ from today's brainstorming:
 | 3     | data visualization                     | hanami, cljplot?                | apply to a real-world dataset      |
 |       |                                        |                                 |                                    |
 | 4     | arrays & tables                        | dtype-next, tech.ml.dataset,    | apply to a real-world dataset,     |
-|       |                                        | tablecloth                      | do some speed benchmarks           |
+|       |                                        | tablecloth                      | run some speed comparisons         |
 |       |                                        |                                 |                                    |
 | 5     | basic supervised learning workflow,    | scicloj.ml, malli               | reproduce some kaggle notebooks    |
 |       | reproducibility, tests                 |                                 |                                    |
@@ -154,22 +154,25 @@ from today's brainstorming:
 | 8     | unsupervised learning                  | fastmath, scicloj.ml            | reproduce some kaggle notebooks,   |
 |       |                                        |                                 | explore variations & improvements  |
 |       |                                        |                                 |                                    |
-| 9     | python and R interop                   | libpython-clj, clojisr          | going through some tutorials by    |
+| 9     | python and R interop                   | libpython-clj, clojisr          | go through some tutorials by       |
 |       |                                        |                                 | interop                            |
 |       |                                        |                                 |                                    |
 |       | **specialized topics**                 |                                 |                                    |
 |       |                                        |                                 |                                    |
-| 10    | working with tree-sructured data,      | clojure.walk, specter, meander, | scraping & analysing some          |
+| 10    | working with tree-sructured data,      | clojure.walk, specter, meander, | scrape & analyse some              |
 |       | web scraping                           | hickory                         | unstructured data                  |
 |       |                                        |                                 |                                    |
-| 11    | linear algebra, basic image processing | neanderthal                     | processing some images             |
+| 11    | linear algebra, basic image processing | neanderthal                     | process some images                |
 |       |                                        |                                 |                                    |
-| 12    | deep learning                          | deep diamond                    | reproducing some tutorials         |
+| 12    | deep learning                          | deep diamond                    | reproduce some tutorials           |
 |       |                                        |                                 |                                    |
-| 13    | async data streams                     | xforms, kixi.stats              | analysing some user events         |
+| 13    | async data streams                     | xforms, kixi.stats              | analyse some user events           |
 |       |                                        |                                 |                                    |
-| 14    | natural language processing            | datalinguist,                   | analysing some texts,              |
-|       |                                        | spaCy through interop           | writing rules to capture intents   |
+| 14    | natural language processing            | datalinguist,                   | analyse some texts,                |
+|       |                                        | spaCy through interop           | write rules to capture intents     |
 |       |                                        |                                 |                                    |
-| 15    | graph data                             | loom, neo4j                     | analysing some graph data          |
+| 15    | graph data                             | loom, neo4j                     | analyse some graph data            |
+|       |                                        |                                 |                                    |
+| 16    | big datasets                           | geni, clojask, tech.ml.dataset  | query and analyse a big dataset,   |
+|       |                                        |                                 | run some speed comparisons         |
 |       |                                        |                                 |                                    |
