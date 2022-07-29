@@ -130,46 +130,46 @@ from today's brainstorming:
 | month | topic                                  | libraries                       | homework                           |
 |-------|----------------------------------------|---------------------------------|------------------------------------|
 |       | **core topics**                        |                                 |                                    |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
 | 1     | common workflow                        | tablecloth, fastmath, hanami,   | learn some R and Clojure           |
 |       |                                        | scicloj.ml                      |                                    |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
 | 2     | descriptive stats,                     | fastmath, kixi.stats            | apply to a real-world dataset      |
 |       | frequentist stats                      |                                 |                                    |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
 | 3     | data visualization                     | hanami, cljplot?                | apply to a real-world dataset      |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
 | 4     | arrays & tables                        | dtype-next, tech.ml.dataset,    | apply to a real-world dataset,     |
 |       |                                        | tablecloth                      | do some speed benchmarks           |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
 | 5     | basic supervised learning workflow,    | scicloj.ml, malli               | reproduce some kaggle notebooks    |
 |       | reproducibility, tests                 |                                 |                                    |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
 | 6     | probability, Bayesian stats            | inferme, clj-stan               | reading in Statistical Rethinking, |
 |       |                                        |                                 | reproducing some examples          |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
 | 7     | advanced supervised learning workflows | scicloj.ml                      | reproduce some kaggle notebooks,   |
 |       |                                        |                                 | explore variations & improvements  |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
 | 8     | unsupervised learning                  | fastmath, scicloj.ml            | reproduce some kaggle notebooks,   |
 |       |                                        |                                 | explore variations & improvements  |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
 | 9     | python and R interop                   | libpython-clj, clojisr          | going through some tutorials by    |
 |       |                                        |                                 | interop                            |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
 |       | **specialized topics**                 |                                 |                                    |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
 | 10    | working with tree-sructured data,      | clojure.walk, specter, meander, | scraping & analysing some          |
 |       | web scraping                           | hickory                         | unstructured data                  |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
 | 11    | linear algebra, basic image processing | neanderthal                     | processing some images             |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
 | 12    | deep learning                          | deep diamond                    | reproducing some tutorials         |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
 | 13    | async data streams                     | xforms, kixi.stats              | analysing some user events         |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
 | 14    | natural language processing            | datalinguist,                   | analysing some texts,              |
 |       |                                        | spaCy through interop           | writing rules to capture intents   |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
 | 15    | graph data                             | loom, neo4j                     | analysing some graph data          |
-|-------|----------------------------------------|---------------------------------|------------------------------------|
+|       |                                        |                                 |                                    |
