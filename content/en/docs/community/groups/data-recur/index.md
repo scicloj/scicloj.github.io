@@ -19,7 +19,7 @@ This group is a space for recurring updates & discussions around the emerging Cl
 
 **Organizer**: Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
 
-**Frequency of meetings**: All-hands monthlu meetings + ad-hoc meetings on specific topics
+**Frequency of meetings**: All-hands monthly meetings + ad-hoc meetings on specific topics
 
 **Chat stream**: [#data-recur](https://clojurians.zulipchat.com/#narrow/stream/330726-data-recur)
 
