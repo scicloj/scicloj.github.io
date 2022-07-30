@@ -102,7 +102,7 @@
     :star :star,
     :description
     "a small tool for compatible dynamic experience over some of the other visual tools"}
-   {:lib/name "rmarkdown-clojue",
+   {:lib/name "rmarkdown-clojure",
     :lib/url "https://github.com/genmeblog/rmarkdown-clojure",
     :lib/category :visual-tools,
     :tags #{:vis :lit},
