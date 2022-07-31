@@ -576,7 +576,7 @@
     :lib/category :bayesian-computing-probabilistic-programming,
     :tags #{},
     :star :star,
-    :description ""}
+    :description "A library for calling the Stan language from Clojure (by shelling out to cmdstan)."}
    {:lib/name "bayadera",
     :lib/url "https://github.com/uncomplicate/bayadera",
     :lib/category :bayesian-computing-probabilistic-programming,
