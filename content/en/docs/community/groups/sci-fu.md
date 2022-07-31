@@ -1,5 +1,5 @@
 ---
-title : "{on hold} sci-fu: regulad discussions of various dev projects"
+title : "{on hold} sci-fu: regular discussions of various dev projects"
 description: "The sci-fu group"
 lead: ""
 date: 2022-02-17
