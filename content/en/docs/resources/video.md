@@ -24,6 +24,10 @@ Scicloj joined the London Clojurians in organizing the [re:Clojure](https://www.
 
 ## Public sessions of dev & study groups
 
+### data-recur
+In the data-recur group, Clojure devs are sharing updates and collaborating on tools & libraries of the emerging Clojure data stack.
+- [July 29th, 2022](https://www.youtube.com/watch?v=_M9CSPQEXZ8) - the first meeting: clojure.walk, community updates
+
 ### visual-tools
 The visual tools group is about creating collaborations across differnent tooling projects for data visualization and literate programming.
 - [Feb. 4th, 2022](https://www.youtube.com/watch?v=rZtOjpokGpw) - a first meeting of the visual-tools group
