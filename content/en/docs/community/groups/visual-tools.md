@@ -1,5 +1,5 @@
 ---
-title : "visual-tools: regular updates & discussionsd around building visual tooling"
+title : "visual-tools: regular updates & discussions around building visual tooling"
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
