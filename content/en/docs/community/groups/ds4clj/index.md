@@ -124,7 +124,7 @@ from today's brainstorming:
 - linear algebra, deep learning: neanderthal, deep-diamond
 - parallel computing: geni, clojask 
 - nlp: datalinguist?, spacy through interop
-- graph data: loom, neo4j?
+- graph data: loom, asami, neo4j?
 
 ## course plan (very tentative)
 
@@ -172,7 +172,7 @@ from today's brainstorming:
 | 14    | natural language processing            | datalinguist,                   | analyse some texts,                |
 |       |                                        | spaCy through interop           | write rules to capture intents     |
 |       |                                        |                                 |                                    |
-| 15    | graph data                             | loom, neo4j                     | analyse some graph data            |
+| 15    | graph data                             | loom, asami, neo4j?             | analyse some graph data            |
 |       |                                        |                                 |                                    |
 | 16    | big datasets                           | geni, clojask, tech.ml.dataset  | query and analyse a big dataset,   |
 |       |                                        |                                 | run some speed comparisons         |
