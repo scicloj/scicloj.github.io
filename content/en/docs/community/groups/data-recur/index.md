@@ -15,7 +15,7 @@ images: []
 
 This group is a space for recurring updates & discussions around the emerging Clojure stack for data processing, analysis, and visualization.
 
-* 2022-07-29 - meeting 1: clojure.walk, community updates - [summary & vidoe](https://clojureverse.org/t/data-recur-meeting-1-clojure-walk-community-updates-summary-video/)
+* 2022-07-29 - meeting 1: clojure.walk, community updates - [summary & video](https://clojureverse.org/t/data-recur-meeting-1-clojure-walk-community-updates-summary-video/)
 
 **Organizer**: Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
 
