@@ -39,6 +39,7 @@ The visual tools group is about creating collaborations across differnent toolin
 - [May 27th, 2022](https://www.youtube.com/watch?v=LOT7l6ILV40) - a deep dive into [Saturn](https://gitlab.com/clj-editors/saturn)
 - [June 3rd, 2022](https://www.youtube.com/watch?v=oDiZxi5FRRc) - monthly - updates of ongoing projects: data cookbook, goldly studio, re-frame state management
 - [July 2nd, 2022](https://www.youtube.com/watch?v=m1HbWpWiTk4) - monthly - updates of ongoing projects: clj-tiles, Obsidian Wielder, Cardigan Bay, Platypub
+- [Aug. 5th, 2022](https://www.youtube.com/watch?v=vQH6xAK42-U) - monthly - focusing on Oz
 
 
 ### ml-study

@@ -21,7 +21,7 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 * Meeting 7 - a deep dive into [Saturn](https://gitlab.com/clj-editors/saturn) (May. 27th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-7-summary-video/)
 * Meeting 8 - general monthly (June 3rd 2022): data cookbook, goldly studio, re-frame state management - [summary & video](https://clojureverse.org/t/visual-tools-meeting-8-summary-video-data-cookbook-goldly-studio-re-frame-state-management/)
 * Meeting 9 - general monthly (July 2nd 2022): clj-tiles, Obsidian Wielder, Cardigan Bay, Platypub - [summary & video](https://clojureverse.org/t/visual-tools-meeting-9-summary-video-clj-tiles-obsidian-wielder-cardigan-bay-platypub/)
-* Meeting 10 - monthly meeting (Aug. 5th 2022) focused on Oz - [event](https://clojureverse.org/t/visual-tools-meeting-10-monthly-meeting-oz/)
+* Meeting 10 - monthly meeting (Aug. 5th 2022): Oz - [summary & video](https://clojureverse.org/t/visual-tools-meeting-10-monthly-meeting-oz/)
  
 **Organizers**: Lukas Domalga, Kira McLean, Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
 
