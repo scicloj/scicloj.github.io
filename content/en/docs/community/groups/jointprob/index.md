@@ -54,6 +54,23 @@ In the second hour, we will share our progress with the projects, and explore fu
 
 In between these main sessions, we will encourage ad-hoc sessions to explore specialized topics or practice further.
 
+## Groups
+
+Our regular sessions take place in groups:
+
+| group | start date | time in [UTC time zone](https://time.is/UTC) |
+|-------|------------|----------------------------------------------|
+| **A** | Aug. 15th  | Mon 15:00 UTC                                |
+| **B** | Aug. 17th  | Wed 14:00 UTC                                |
+| **C** | Aug. 19th  | Fri 18:00 UTC                                |
+| **D** | Aug. 20th  | Sat 17:00 UTC                                |
+
+* All groups meet every 2 weeks and follow roughly the same reading agenda.
+* Hopefully, each one of us can usually attend one group (but is encouraged to join more sessions if comfortable).
+* A typical session (~90 minutes) will have a brief overview of the relevant chapter(s) presented by a group member, and then a mostly a hands-on dive into examples, and a discussion.
+* Group sessions will be recorded and shared internally in Zulip. Some parts (e.g., chapter overviews) can be made public on youtube.
+* Each group will have its own rotation of moderators and presenters.
+
 ## Recordings
 
 Some parts of the sessions will be recorded and shared with the group. Some parts will also be made public.
