@@ -1,5 +1,5 @@
 ---
-title : "video"
+title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
