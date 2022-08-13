@@ -72,7 +72,7 @@ Our regular sessions take place in groups:
 
 ## Recordings
 
-Some parts of the sessions will be recorded and shared internally in the Zulip chat. Possibly, some recorded parts will be also shared publicly.
+Some parts of the sessions are recorded and shared internally in the Zulip chat. Possibly, some recorded parts will also be shared publicly.
 
 ## Projects
 
@@ -93,7 +93,7 @@ To appreciate the content we are studying, it is recommended to have:
 ## Principles
 
 The following core principles are typical to Scicloj study groups.
-
+ 
 **No experts**. We do not assume that anybody in the group is an expert in the field. We come to learn together with a student mindset.
 
 **A clear path**. We will be very thoughtful about the agenda and about where we wish to go. We will continuously rethink and adapt our path going there.
