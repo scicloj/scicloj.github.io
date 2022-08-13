@@ -14,13 +14,6 @@ Jointprob is a new study community for probabilistic modelling and Bayesian stat
 
 Even though the community is initiated by [Scicloj](https://scicloj.github.io/) -- a community for data science in Clojure -- this study community will not be focused on any single technology or programming language. Rather, it will be open to people of diverse technical backgrounds, and will continually seek dialogue and mutual inspiration across languages and technologies.
 
-## Meetings
-
-* 2022-07-22, initial brainstorming - [event](https://bit.ly/jointprob-brainstorm-1)
-* 2022-08-06, prep meeting about R & Tidyverse (joint event with the [ds4clj course](../ds4clj))- [event](https://clojureverse.org/t/ds4clj-prep-meeting-studying-a-bit-of-r-tidyverse/)
-* 2022-08-15 - beginning of regular meetings (see the [Groups](./#groups) below).
-* 2022-08-15/17/19/20, Session 1: [Statistical Rethinking](https://xcelab.net/rm/statistical-rethinking/) chapter 1, [R4DS](https://r4ds.had.co.nz/) sections 1-4
-
 ## Joining
 
 It is never too late to join. We will help you to catch up.
@@ -28,6 +21,13 @@ It is never too late to join. We will help you to catch up.
 To join the community and receive updates, please email us: <a href="mailto:scicloj@gmail.com">scicloj@gmail.com</a>. It'd be nice to mention your name, and as much as you wish, tell a bit about your background and interests.
 
 There is no need to do that if you have already received emails about this community, if you have responded to our survey, or if you have registered to the initial brainstorming meeting.
+
+## Schedule
+
+* 2022-07-22, initial brainstorming - [event](https://bit.ly/jointprob-brainstorm-1)
+* 2022-08-06, prep meeting about R & Tidyverse - [event](https://clojureverse.org/t/ds4clj-prep-meeting-studying-a-bit-of-r-tidyverse/) (joint event with the [ds4clj course](../ds4clj)) 
+* 2022-08-15 - beginning of regular meetings (see the [Groups](./#groups) below).
+* 2022-08-15/17/19/20, Session 1: [Statistical Rethinking](https://xcelab.net/rm/statistical-rethinking/) chapter 1, [R4DS](https://r4ds.had.co.nz/) sections 1-4
 
 ## Chat
 
@@ -55,6 +55,9 @@ We meet once in two weeks to learn together for 90 minutes.
 The beginning of a session is typically be dedicated to following our main path of study (e.g., the current book chapter being read), with some hands-on exploration. Afterwards, we share our progress with the projects, and explore further.
 
 In between those regular biweekly sessions, we encourage ad-hoc sessions to explore specialized topics or practice further.
+
+### Video platform
+We will mostly use [Jitsi](https://jitsi.org/) for video meetings. The links for the various sessions will be shared at the corresponding topic threads at the [#sessions chat stream](https://jointprob.zulipchat.com/#narrow/stream/331545-sessions).
 
 ## Groups
 
