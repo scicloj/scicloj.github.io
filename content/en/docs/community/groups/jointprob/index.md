@@ -12,7 +12,7 @@ images: []
 
 Jointprob is a new study community for probabilistic modelling and Bayesian statistics, starting in August 2022.
 
-Even though the group is initiated by [Scicloj](https://scicloj.github.io/) -- a community for data science in Clojure -- this study group will not be focused on any single technology or programming language. Rather, it will be open to people of diverse technical backgrounds, and will continually seek dialogue and mutual inspiration across languages and technologies.
+Even though the community is initiated by [Scicloj](https://scicloj.github.io/) -- a community for data science in Clojure -- this study community will not be focused on any single technology or programming language. Rather, it will be open to people of diverse technical backgrounds, and will continually seek dialogue and mutual inspiration across languages and technologies.
 
 ## Meetings
 
@@ -25,11 +25,11 @@ It is never too late to join. We will help you to catch up.
 
 To join the community and receive updates, please email us: <a href="mailto:scicloj@gmail.com">scicloj@gmail.com</a>. It'd be nice to mention your name, and as much as you wish, tell a bit about your background and interests.
 
-There is no need to do that if you have already received emails about this group, if you have responded to our survey, or if you have registered to the initial brainstorming meeting.
+There is no need to do that if you have already received emails about this community, if you have responded to our survey, or if you have registered to the initial brainstorming meeting.
 
 ## Chat
 
-The group uses Zulip, an open-source chat platform. In some other groups we've been running, we've found it useful for chat, in-depth discussion threads, and knowledge management.
+The community uses Zulip, an open-source chat platform. In some other groups we've been running, we've found it useful for chat, in-depth discussion threads, and knowledge management.
 
 Our Zulip organization is [jointprob.zulipchat.com](https://jointprob.zulipchat.com/).
 
@@ -94,13 +94,13 @@ To appreciate the content we are studying, it is recommended to have:
 
 The following core principles are typical to Scicloj study groups.
  
-**No experts**. We do not assume that anybody in the group is an expert in the field. We come to learn together with a student mindset.
+**No experts**. We do not assume that anybody is an expert in the field. We come to learn together with a student mindset.
 
 **A clear path**. We will be very thoughtful about the agenda and about where we wish to go. We will continuously rethink and adapt our path going there.
 
 **Confused together**. It is just fine to be confused. We will be there together and seek clarity together.
 
-**Being active**. The group encourages its members to learn independently and take on projects. In a sense, its purpose is (also) to support those individual journeys.
+**Being active**. We encourage members to learn independently and take on projects. In a sense, its purpose is (also) to support those individual journeys.
 
 **Mutual curiosity**. We make serious efforts to be inclusive to participants of various backgrounds. The different perspectives of our friends are part of what we wish to learn.
 
