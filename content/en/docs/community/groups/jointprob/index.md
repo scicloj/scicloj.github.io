@@ -18,6 +18,7 @@ Even though the community is initiated by [Scicloj](https://scicloj.github.io/) 
 
 * 2022-07-22, initial brainstorming - [event](https://bit.ly/jointprob-brainstorm-1)
 * 2022-08-13 - beginning of regular meetings (see the [Groups](./#groups) below).
+* 2022-08-13/15/17/18, Session 1: [Statistical Rethinking](https://xcelab.net/rm/statistical-rethinking/) chapter 1, [R4DS](https://r4ds.had.co.nz/) sections 1-4
 
 ## Joining
 
