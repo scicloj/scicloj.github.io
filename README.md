@@ -14,6 +14,17 @@ Start development server:
 npm run start
 ```
 
+Browse the locally developed website at localhost:1313.
+Edit the markdown files under [content](./content) and see the website updating.
+
+The [tools and libraries mardkown](./content/en/docs/resources/libs.md) is generated from [an EDN file](./content/en/docs/resources/model.edn). You can regenerate it using:
+
+```bash
+cd content/en/docs/resources/
+./gen.clj libs.md
+```
+(assuming you have [babashka](https://github.com/babashka/babashka) installed)
+
 ### Contributing
 
 If you wish to have push permissions, please reach out to `@daslu`. This would automatically be reflected in the website (after a delay of a minute or so).
