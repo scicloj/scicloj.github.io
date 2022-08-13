@@ -10,14 +10,14 @@ images: []
 -------------------------------------------------------------------------------------------------------------------- 
 ![random tree](random-tree.jpg)
 
-Jointprob is a new study community for probabilistic modelling and Bayesian statistics, which started in August 2022.
+Jointprob is a new study community for probabilistic modelling and Bayesian statistics, starting in August 2022.
 
-Even though the group is initiated by Scicloj -- a community for data science in Clojure -- this study group will not be focused on any single technology or programming language. Rather, it will be open to people of diverse technical backgrounds, and will continually seek dialogue and mutual inspiration across languages and technologies.
+Even though the group is initiated by [Scicloj](https://scicloj.github.io/) -- a community for data science in Clojure -- this study group will not be focused on any single technology or programming language. Rather, it will be open to people of diverse technical backgrounds, and will continually seek dialogue and mutual inspiration across languages and technologies.
 
 ## Meetings
 
 * 2022-07-22, initial brainstorming - [event](https://bit.ly/jointprob-brainstorm-1)
-* 2022-08-13 - beginning of regular meetings (see the [Groups](#Groups) below).
+* 2022-08-13 - beginning of regular meetings (see the [Groups](./#Groups) below).
 
 ## Joining
 
