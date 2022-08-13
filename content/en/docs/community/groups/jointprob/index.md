@@ -17,6 +17,7 @@ Even though the community is initiated by [Scicloj](https://scicloj.github.io/) 
 ## Meetings
 
 * 2022-07-22, initial brainstorming - [event](https://bit.ly/jointprob-brainstorm-1)
+* 2022-08-06, prep meeting about R & Tidyverse (joint event with the [ds4clj course](../ds4clj))- [event](https://clojureverse.org/t/ds4clj-prep-meeting-studying-a-bit-of-r-tidyverse/)
 * 2022-08-15 - beginning of regular meetings (see the [Groups](./#groups) below).
 * 2022-08-15/17/19/20, Session 1: [Statistical Rethinking](https://xcelab.net/rm/statistical-rethinking/) chapter 1, [R4DS](https://r4ds.had.co.nz/) sections 1-4
 
