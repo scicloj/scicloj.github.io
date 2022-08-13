@@ -10,19 +10,20 @@ images: []
 -------------------------------------------------------------------------------------------------------------------- 
 ![random tree](random-tree.jpg)
 
-This page describes the plans for a new online study group planned to start in Fall 2022, around the topics of probabilistic modelling and Bayesian computing.
+Jointprob is a new study community for probabilistic modelling and Bayesian statistics, which started in August 2022.
 
 Even though the group is initiated by Scicloj -- a community for data science in Clojure -- this study group will not be focused on any single technology or programming language. Rather, it will be open to people of diverse technical backgrounds, and will continually seek dialogue and mutual inspiration across languages and technologies.
-
-The details below are tentative.
 
 ## Meetings
 
 * 2022-07-22, initial brainstorming - [event](https://bit.ly/jointprob-brainstorm-1)
+* 2022-08-13 - beginning of regular meetings (see the [Groups](#Groups) below).
 
 ## Joining
 
-To join the group and receive updates, please email us: <a href="mailto:scicloj@gmail.com">scicloj@gmail.com</a>. It'd be nice to mention your name, and as much as you wish, tell a bit about your background and interests.
+It is never too late to join. We will help you to catch up.
+
+To join the community and receive updates, please email us: <a href="mailto:scicloj@gmail.com">scicloj@gmail.com</a>. It'd be nice to mention your name, and as much as you wish, tell a bit about your background and interests.
 
 There is no need to do that if you have already received emails about this group, if you have responded to our survey, or if you have registered to the initial brainstorming meeting.
 
@@ -34,11 +35,11 @@ Our Zulip organization is [jointprob.zulipchat.com](https://jointprob.zulipchat.
 
 You may wish to learn a little bit about the concepts of [Zulip streams and topics](https://zulipchat.com/help/about-streams-and-topics). Note that all streams and topics (and even single messages) have URLs, that you can open at separate tabs in your browser.
 
-If you wish, it would be wonderful to present yourself at the [personal intros](https://jointprob.zulipchat.com/#narrow/stream/331546-personal-intros) stream, preferably as a new topic thread.
+It would be wonderful to present yourself at the [personal intros](https://jointprob.zulipchat.com/#narrow/stream/331546-personal-intros) stream, preferably as a new topic thread.
 
 ## Agenda
 
-We will begin by learning one introductory book. It will probably be [Statistical Rethinking](https://www.routledge.com/Statistical-Rethinking-A-Bayesian-Course-with-Examples-in-R-and-STAN/McElreath/p/book/9780367139919/) by Richard McElreath.
+We will begin by learning one introductory book: [Statistical Rethinking](https://www.routledge.com/Statistical-Rethinking-A-Bayesian-Course-with-Examples-in-R-and-STAN/McElreath/p/book/9780367139919/) by Richard McElreath.
 
 Then, we will proceed with more advanced books and articles.
 
@@ -48,11 +49,10 @@ In parallel to the main path of learning, we will encourage individual and small
 
 ## Sessions
 
-We will meet once in two weeks to learn together for two hours.
-The first hour will be dedicated to following our main path of study (e.g., the current book chapter being read).
-In the second hour, we will share our progress with the projects, and explore further.
+We meet once in two weeks to learn together for 90 minutes.
+The beginning of a session is typically be dedicated to following our main path of study (e.g., the current book chapter being read), with some hands-on exploration. Afterwards, we share our progress with the projects, and explore further.
 
-In between these main sessions, we will encourage ad-hoc sessions to explore specialized topics or practice further.
+In between those regular biweekly sessions, we encourage ad-hoc sessions to explore specialized topics or practice further.
 
 ## Groups
 
@@ -73,7 +73,7 @@ Our regular sessions take place in groups:
 
 ## Recordings
 
-Some parts of the sessions will be recorded and shared with the group. Some parts will also be made public.
+Some parts of the sessions will be recorded and shared internally in the Zulip chat. Possibly, some recorded parts will be also shared publicly.
 
 ## Projects
 
@@ -84,10 +84,12 @@ Example projects:
 * reimplement an example we've learned using a different technology
 * explore a dataset with the methods learned
 
-## Assumed background
-
-We will probably assume some basic background in programming, math, and statistics.
-This will be made more precise soon.
+## Recommended background
+To appreciate the content we are studying, it is recommended to have:
+- some basic knowledge of probability and statistics (say, college level intro courses)
+- some programming experience of any language (a few months)
+- some experience exploring data
+- an open mind
 
 ## Principles
 
@@ -106,4 +108,4 @@ The following core principles are typical to Scicloj study groups.
 
 ## Contact
 
-If you are interested, [please reach out to us](../../contact).
+If you are interested, please reach out to us: <a href="mailto:scicloj@gmail.com">scicloj@gmail.com</a>
