@@ -17,7 +17,7 @@ Even though the group is initiated by [Scicloj](https://scicloj.github.io/) -- a
 ## Meetings
 
 * 2022-07-22, initial brainstorming - [event](https://bit.ly/jointprob-brainstorm-1)
-* 2022-08-13 - beginning of regular meetings (see the [Groups](./#Groups) below).
+* 2022-08-13 - beginning of regular meetings (see the [Groups](./#groups) below).
 
 ## Joining
 
