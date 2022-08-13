@@ -116,4 +116,4 @@ The following core principles are typical to Scicloj study groups.
 
 Please reach out:
 * <a href="mailto:scicloj@gmail.com">scicloj@gmail.com</a>
-* Daniel Slutsky at the [Zulip chat](./#chat)
+* Daniel Slutsky at the [chat](./#chat)
