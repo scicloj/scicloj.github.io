@@ -18,7 +18,7 @@ Even though the community is initiated by [Scicloj](https://scicloj.github.io/) 
 
 It is never too late to join. We will help you to catch up.
 
-To join the community and receive updates, please [write to us](#contact). It'd be nice to mention your name, and as much as you wish, tell a bit about your background and interests.
+To join the community and receive updates, please [write to us](./#contact). It'd be nice to mention your name, and as much as you wish, tell a bit about your background and interests.
 
 There is no need to do that if you have already received emails about this community, if you have responded to our survey, or if you have registered to the initial brainstorming meeting.
 
@@ -29,7 +29,7 @@ There is no need to do that if you have already received emails about this commu
 * 2022-08-15 - beginning of regular meetings (see the [Groups](./#groups) below).
 * 2022-08-15/17/19/20, Session 1: [Statistical Rethinking](https://xcelab.net/rm/statistical-rethinking/) chapter 1, [R4DS](https://r4ds.had.co.nz/) sections 1-4
 
-Please [write to us](#contact) if you wish to receive calendar events.
+Please [write to us](./#contact) if you wish to receive calendar events.
 
 ## Chat
 
@@ -114,4 +114,6 @@ The following core principles are typical to Scicloj study groups.
 
 ## Contact
 
-Pease reach out: <a href="mailto:scicloj@gmail.com">scicloj@gmail.com</a>
+Pease reach out:
+* <a href="mailto:scicloj@gmail.com">scicloj@gmail.com</a>
+* Daniel Slutsky at the [Zulip chat](./#chat)
