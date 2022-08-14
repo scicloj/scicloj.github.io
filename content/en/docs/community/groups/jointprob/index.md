@@ -15,7 +15,7 @@ Jointprob is a new study community for probabilistic modelling and Bayesian stat
 Even though the community is initiated by [Scicloj](https://scicloj.github.io/) -- a community for data science in Clojure -- this study community will not be focused on any single technology or programming language. Rather, it will be open to people of diverse technical backgrounds, and will continually seek dialogue and mutual inspiration across languages and technologies.
 
 ## Goal
-This is a long term project aiming to create a space for Bayesian statistics practitioners, as well as aspiring ones, to learn & explore together and support each other.
+This is a long-term project aiming to create a space for Bayesian statistics practitioners, as well as aspiring ones, to learn & explore together and support each other.
 
 We wish to be inclusive to people of diverse backgrounds, and thus create a common ground where we can all try to broaden our perspectives and be inspired by others.
 
