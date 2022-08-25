@@ -73,7 +73,7 @@ Our regular sessions take place in groups:
 
 | group | start date | time in [UTC time zone](https://time.is/UTC) |
 |-------|------------|----------------------------------------------|
-| **A** | Aug. 15th  | Mon 15:00 UTC                                |
+| **A** | Aug. 15th  | Mon 15:00 UTC     (currently on hold)        |
 | **B** | Aug. 17th  | Wed 14:00 UTC                                |
 | **C** | Aug. 19th  | Fri 18:00 UTC                                |
 | **D** | Aug. 20th  | Sat 17:00 UTC                                |
