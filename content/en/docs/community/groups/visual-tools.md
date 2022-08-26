@@ -10,7 +10,7 @@ images: []
 
 The goal of this group is to create collaborations in learning and building Clojure tools for data visualization and literate programming.
 
-The authors of several actively developed tools are involved (Chlorine, Clover, Calva, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, etc.).
+The authors of several actively developed tools are involved (Chlorine, Clover, Calva, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, etc.).
 
 * Meeting 1 - the beginning (Feb. 4th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-1-summary-video/).
 * Meeting 2 - compatibility across tools (Feb. 19th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-2-summary-video/)
@@ -22,7 +22,9 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 * Meeting 8 - general monthly (June 3rd 2022): data cookbook, goldly studio, re-frame state management - [summary & video](https://clojureverse.org/t/visual-tools-meeting-8-summary-video-data-cookbook-goldly-studio-re-frame-state-management/)
 * Meeting 9 - general monthly (July 2nd 2022): clj-tiles, Obsidian Wielder, Cardigan Bay, Platypub - [summary & video](https://clojureverse.org/t/visual-tools-meeting-9-summary-video-clj-tiles-obsidian-wielder-cardigan-bay-platypub/)
 * Meeting 10 - monthly meeting (Aug. 5th 2022): Oz - [summary & video](https://clojureverse.org/t/visual-tools-meeting-10-monthly-meeting-oz/)
- 
+* Meeting 11 - monthly meeting (Sep. 2th 2022): tooling for learning resources - [event](https://clojureverse.org/t/visual-tools-meeting-11-monthly-meeting-tooling-for-learning-resources/)
+* Meeting 12 - special meeting (Sep. 9h 2022): Data Rabbit - [event](https://clojureverse.org/t/visual-tools-meeting-12-data-rabbit/)
+
 **Organizers**: Lukas Domalga, Kira McLean, Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
 
 **Frequency of meetings**: All-hands meeting roughly every month + ad-hoc meetings of sub-groups on specific topics
