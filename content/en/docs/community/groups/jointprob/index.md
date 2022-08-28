@@ -65,7 +65,7 @@ The beginning of a session is typically be dedicated to following our main path 
 In between those regular biweekly sessions, we encourage ad-hoc sessions to explore specialized topics or practice further.
 
 ### Video platform
-We will mostly use [Jitsi](https://jitsi.org/) for video meetings. The links for the various sessions will be shared at the corresponding topic threads at the [#sessions chat stream](https://jointprob.zulipchat.com/#narrow/stream/331545-sessions).
+For video meetings, we currently use Zoom. The links for the meetings is shared in the sessions' calendar events.
 
 ## Groups
 
