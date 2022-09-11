@@ -40,6 +40,7 @@ The visual tools group is about creating collaborations across differnent toolin
 - [June 3rd, 2022](https://www.youtube.com/watch?v=oDiZxi5FRRc) - monthly - updates of ongoing projects: data cookbook, goldly studio, re-frame state management
 - [July 2nd, 2022](https://www.youtube.com/watch?v=m1HbWpWiTk4) - monthly - updates of ongoing projects: clj-tiles, Obsidian Wielder, Cardigan Bay, Platypub
 - [Aug. 5th, 2022](https://www.youtube.com/watch?v=vQH6xAK42-U) - monthly - focusing on Oz
+- [Sep. 2nd, 2022](https://www.youtube.com/watch?v=QTgdoZ1LSzk) - monthly - tooling for learning resources, a peek into Data Rabbit
 
 
 ### ml-study
