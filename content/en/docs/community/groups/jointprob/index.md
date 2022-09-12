@@ -3,7 +3,7 @@ title : "jointprob: a probabilistic modelling and Bayesian statistics study grou
 description: "Probabilistic Modelling and Bayesian Statistics study group"
 lead: ""
 date: 2022-02-28
-lastmod: 2022-07-12
+lastmod: 2022-09-12
 draft: false
 images: []
 ---
