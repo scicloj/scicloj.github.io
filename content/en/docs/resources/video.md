@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2022-02-14
+lastmod: 2022-09-12
 draft: false
 weight: 33
 images: []
@@ -41,7 +41,7 @@ The visual tools group is about creating collaborations across differnent toolin
 - [July 2nd, 2022](https://www.youtube.com/watch?v=m1HbWpWiTk4) - monthly - updates of ongoing projects: clj-tiles, Obsidian Wielder, Cardigan Bay, Platypub
 - [Aug. 5th, 2022](https://www.youtube.com/watch?v=vQH6xAK42-U) - monthly - focusing on Oz
 - [Sep. 2nd, 2022](https://www.youtube.com/watch?v=QTgdoZ1LSzk) - monthly - tooling for learning resources, a peek into Data Rabbit
-
+- [Sep. 9nd, 2022](https://www.youtube.com/watch?v=VBXA7Fnj3HE) - special meeting - Data Rabbit
 
 ### ml-study
 The ml-study group (on hold as of Feb. 2022) is about practicing the usage of the emerging Clojure data science stack. Most of its recordings have been shared internally at the Zulip chat. One of them was made public.
