@@ -24,6 +24,10 @@ Scicloj joined the London Clojurians in organizing the [re:Clojure](https://www.
 
 ## Public sessions of dev & study groups
 
+### ds4clj
+As of Fall 2022, the planned Data Science for Clojure devs course is delayed. Occaionally, we have ad-hoc exploration or prep meetings. Some recordings are shared publicly.
+- [Sep 10th, 2022](https://www.youtube.com/watch?v=X3Ilr74o6KQ) - NLP in Clojure Session 1
+
 ### data-recur
 In the data-recur group, Clojure devs are sharing updates and collaborating on tools & libraries of the emerging Clojure data stack.
 - [July 29th, 2022](https://www.youtube.com/watch?v=_M9CSPQEXZ8) - the first meeting: clojure.walk, community updates
