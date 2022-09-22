@@ -3,7 +3,7 @@ title : "jointprob: a probabilistic modelling and Bayesian statistics study grou
 description: "Probabilistic Modelling and Bayesian Statistics study group"
 lead: ""
 date: 2022-02-28
-lastmod: 2022-09-12
+lastmod: 2022-09-22
 draft: false
 images: []
 ---
@@ -33,8 +33,9 @@ There is no need to do that if you have already received emails about this commu
 * 2022-08-06, prep meeting about R & Tidyverse - [event](https://clojureverse.org/t/ds4clj-prep-meeting-studying-a-bit-of-r-tidyverse/) (joint event with the [ds4clj course](../ds4clj)) 
 * 2022-08-15 - beginning of regular meetings (see the [Groups](./#groups) below).
 * 2022-08-15/17/19/20, Session 1: [Statistical Rethinking](https://xcelab.net/rm/statistical-rethinking/) chapter 1, [R4DS](https://r4ds.had.co.nz/) sections 1-4
-* 2022-08-31, 2022-09-2/3, Session 2: [Statistical Rethinking](https://xcelab.net/rm/statistical-rethinking/) chapter 2
-* 2022-09-14/16/17, Session 3: [Statistical Rethinking](https://xcelab.net/rm/statistical-rethinking/) chapter 2 - review of main notions and a look into exercises
+* 2022-08-31, 2022-09-2/3, Session 2: Statistical Rethinking chapter 2
+* 2022-09-14/16/17, Session 3: Statistical Rethinking chapter 2 - review of main notions and a look into exercises
+* 2022-09-28/09-30/10-01, Session 4: Statistical Rethinking chapter 3
 
 Please [write to us](./#contact) if you wish to receive calendar events.
 
