@@ -3,7 +3,7 @@ title : "ds4clj: a data science course for Clojure devs"
 description: "A data science course for Clojure devs"
 lead: ""
 date: 2022-07-12
-lastmod: 2022-07-15
+lastmod: 2022-10-10
 draft: false
 images: []
 weight: 101
@@ -16,11 +16,12 @@ weight: 101
 
 The details below are **tentative** and will probably change.
 
-## meetings
+## exploration meetings preparing for the course
 
 * 2022-07-24, initial brainstorming - [event](https://clojureverse.org/t/ds4clj-course-initial-brainstorming/)
 * 2022-08-06, prep meeting about R & Tidyverse - [event](https://clojureverse.org/t/ds4clj-prep-meeting-studying-a-bit-of-r-tidyverse/)
-* 2022-09-10, nlp study session 1 (not part of the course, but related to future topics) - [summary & recording](https://clojureverse.org/t/nlp-in-clojure-session-1-summary-recording/)
+* 2022-09-10, NLP study session 1 - [summary & recording](https://clojureverse.org/t/nlp-in-clojure-session-1-summary-recording/)
+* 2022-10-30, NLP study session 2: Predict real vs. fake disaster tweets with DVC, Clojure and Python - [event](https://clojureverse.org/t/nlp-study-session-2-predict-real-vs-fake-disaster-tweets-with-dvc-clojure-and-python/)
 
 ## goals
 
