@@ -3,7 +3,7 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2022-10-10
+lastmod: 2022-10-12
 draft: false
 images: []
 ---
@@ -25,7 +25,7 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 * Meeting 11 - monthly meeting (Sep. 2th 2022): tooling for learning resources - [event](https://clojureverse.org/t/clojure-visual-tools-meeting-11-summary-video-tooling-for-learning-resources-a-peek-into-data-rabbit/9321)
 * Meeting 12 - special meeting (Sep. 9h 2022): Data Rabbit - [summary & video](https://clojureverse.org/t/clojure-visual-tools-meeting-12-summary-video-data-rabbit/)
 * Meeting 13 - monthly (Oct. 14th 2022): Interactive visualizations: Shiny, Shadow-cljs, Clay - [event](https://clojureverse.org/t/visual-tools-meeting-13-monthly-interactive-visualizations-shiny-shadow-cljs-clay/)
-* Meeting 14 - special meeting (Oct. 20th 2022): Clerk workshop - [event](https://clojureverse.org/t/visual-tools-meeting-15-a-common-ground-for-notes-with-kindly/)
+* Meeting 14 - special meeting (Oct. 20th 2022): Clerk workshop - [event](https://clojureverse.org/t/visual-tools-meeting-14-clerk-workshop/)
 * Meeting 15 - discussion (Oct. 23th 2022): a common ground for notew with Kindly - [event](https://clojureverse.org/t/visual-tools-meeting-15-a-common-ground-for-notes-with-kindly/)
 
 **Organizers**: Lukas Domalga, Kira McLean, Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
