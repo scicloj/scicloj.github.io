@@ -10,7 +10,7 @@ images: []
 
 The goal of this group is to create collaborations in learning and building Clojure tools for data visualization and literate programming.
 
-The authors of several actively developed tools are involved (Chlorine, Clover, Calva, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, etc.).
+The authors of several actively developed tools are involved (Chlorine, Clover, Calva, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, Clerk, etc.).
 
 * Meeting 1 - the beginning (Feb. 4th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-1-summary-video/).
 * Meeting 2 - compatibility across tools (Feb. 19th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-2-summary-video/)
