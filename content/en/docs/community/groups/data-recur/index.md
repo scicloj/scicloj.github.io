@@ -3,7 +3,7 @@ title : "data-recur: recurring updates & discussions around building the emergin
 description: "recurring updates & discussions around building the emerging data stack"
 lead: ""
 date: 2022-07-12
-lastmod: 2022-10-13
+lastmod: 2022-10-18
 draft: false
 images: []
 ---
@@ -18,7 +18,7 @@ This group is a space for recurring updates & discussions around the emerging Cl
 * 2022-07-29 - meeting 1: clojure.walk, community updates - [summary & video](https://clojureverse.org/t/data-recur-meeting-1-clojure-walk-community-updates-summary-video/)
 * 2022-08-27 - meeting 2: clojask, columns for tablecloth, ds4clj, and more - [summary & recording](https://clojureverse.org/t/data-recur-meeting-2-clojask-columns-for-tablecloth-summary-video/)
 * 2022-09-30 - meeting 3: meander - [sumamry & recording](https://clojureverse.org/t/data-recur-meeting-3-meander-summary-video/)
-* 2022-10-28 - meeting 4: tablecloth - [event](https://clojureverse.org/t/data-recur-meeting-3-meander-summary-video/)
+* 2022-11-05 - meeting 4: tablecloth - [event](https://clojureverse.org/t/data-recur-meeting-3-meander-summary-video/)
 
 **Organizer**: Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
 
