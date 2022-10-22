@@ -3,7 +3,7 @@ title : "jointprob: a probabilistic modelling and Bayesian statistics study grou
 description: "Probabilistic Modelling and Bayesian Statistics study group"
 lead: ""
 date: 2022-02-28
-lastmod: 2022-10-11
+lastmod: 2022-10-22
 draft: false
 images: []
 ---
@@ -37,6 +37,7 @@ There is no need to do that if you have already received emails about this commu
 * 2022-09-14/16/17, Session 3: Statistical Rethinking chapter 2 - review of main notions and a look into exercises
 * 2022-09-28/09-30/10-01, Session 4: Statistical Rethinking chapter 3
 * 2022-10-12/14/15, Session 5: Statistical Rethinking chapter 4
+* 2022-10-26/28/29, Session 6: Statistical Rethinking chapter 4 - continued
 
 Please [write to us](./#contact) if you wish to receive calendar events.
 
