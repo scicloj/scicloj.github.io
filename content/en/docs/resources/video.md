@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2022-10-01
+lastmod: 2022-10-03
 draft: false
 weight: 33
 images: []
@@ -32,6 +32,7 @@ As of Fall 2022, the planned Data Science for Clojure devs course is delayed. Oc
 In the data-recur group, Clojure devs are sharing updates and collaborating on tools & libraries of the emerging Clojure data stack.
 - [July 29th, 2022](https://www.youtube.com/watch?v=_M9CSPQEXZ8) - the first meeting: clojure.walk, community updates
 * [Aug 27th, 2022](https://www.youtube.com/watch?v=nTyPMxDlw0w) - the second meeting: Clojask, columns for Tablecloth
+* [Aug 30th, 2022](https://www.youtube.com/watch?v=t8C5Uv1abc4) - the third meeting: Meander
 
 ### visual-tools
 The visual tools group is about creating collaborations across differnent tooling projects for data visualization and literate programming.
@@ -47,6 +48,7 @@ The visual tools group is about creating collaborations across differnent toolin
 - [Aug. 5th, 2022](https://www.youtube.com/watch?v=vQH6xAK42-U) - monthly - focusing on Oz
 - [Sep. 2nd, 2022](https://www.youtube.com/watch?v=QTgdoZ1LSzk) - monthly - tooling for learning resources, a peek into Data Rabbit
 - [Sep. 9nd, 2022](https://www.youtube.com/watch?v=VBXA7Fnj3HE) - special meeting - Data Rabbit
+- [Oct. 14th, 2022](https://www.youtube.com/watch?v=0ucSNPVKVyc) - interactive visualizations: Shiny, Clojurescript Bayesian animations
 
 ### ml-study
 The ml-study group (on hold as of Feb. 2022) is about practicing the usage of the emerging Clojure data science stack. Most of its recordings have been shared internally at the Zulip chat. One of them was made public.

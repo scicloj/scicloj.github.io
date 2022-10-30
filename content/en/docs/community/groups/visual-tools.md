@@ -3,14 +3,14 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2022-09-27
+lastmod: 2022-10-12
 draft: false
 images: []
 ---
 
 The goal of this group is to create collaborations in learning and building Clojure tools for data visualization and literate programming.
 
-The authors of several actively developed tools are involved (Chlorine, Clover, Calva, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, etc.).
+The authors of several actively developed tools are involved (Chlorine, Clover, Calva, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, Clerk, etc.).
 
 * Meeting 1 - the beginning (Feb. 4th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-1-summary-video/).
 * Meeting 2 - compatibility across tools (Feb. 19th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-2-summary-video/)
@@ -24,7 +24,9 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 * Meeting 10 - monthly meeting (Aug. 5th 2022): Oz - [summary & video](https://clojureverse.org/t/visual-tools-meeting-10-monthly-meeting-oz/)
 * Meeting 11 - monthly meeting (Sep. 2th 2022): tooling for learning resources - [event](https://clojureverse.org/t/clojure-visual-tools-meeting-11-summary-video-tooling-for-learning-resources-a-peek-into-data-rabbit/9321)
 * Meeting 12 - special meeting (Sep. 9h 2022): Data Rabbit - [summary & video](https://clojureverse.org/t/clojure-visual-tools-meeting-12-summary-video-data-rabbit/)
-* Meeting 13 - monthly (Oct. 14th 2022): Interactive visualizations: Shiny, Shadow-cljs, Clay - [event](https://clojureverse.org/t/visual-tools-meeting-13-monthly-interactive-visualizations-shiny-shadow-cljs-clay/)
+* Meeting 13 - monthly (Oct. 14th 2022): Interactive visualizations: Shiny, Shadow-cljs, Clay - [summary & video](https://clojureverse.org/t/visual-tools-meeting-13-interactive-data-visualizatioon-shiny-clojurescript-bayesian-animations/)
+* Meeting 14 - special meeting (Oct. 20th 2022): Clerk workshop - [event](https://clojureverse.org/t/visual-tools-meeting-14-clerk-workshop/) (not recorded)
+* Meeting 15 - discussion (Oct. 23th 2022): a common ground for notew with Kindly - [event](https://clojureverse.org/t/visual-tools-meeting-15-a-common-ground-for-notes-with-kindly/)
 
 **Organizers**: Lukas Domalga, Kira McLean, Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
 
