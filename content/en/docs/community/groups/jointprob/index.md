@@ -38,6 +38,7 @@ There is no need to do that if you have already received emails about this commu
 * 2022-09-28/09-30/10-01, Session 4: Statistical Rethinking chapter 3
 * 2022-10-12/14/15, Session 5: Statistical Rethinking chapter 4
 * 2022-10-26/28/29, Session 6: Statistical Rethinking chapter 4 - continued
+* 2022-11-9/11/12, Session 7: Statistical Rethinking chapter 5
 
 Please [write to us](./#contact) if you wish to receive calendar events.
 
