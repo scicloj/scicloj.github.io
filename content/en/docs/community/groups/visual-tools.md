@@ -10,7 +10,7 @@ images: []
 
 The goal of this group is to create collaborations in learning and building Clojure tools for data visualization and literate programming.
 
-The authors of several actively developed tools are involved (Chlorine, Clover, Calva, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, Clerk, etc.).
+The authors of several actively developed tools are involved (Chlorine, Clover, Calva and its Notebooks, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, Clerk, etc.).
 
 * Meeting 1 - the beginning (Feb. 4th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-1-summary-video/).
 * Meeting 2 - compatibility across tools (Feb. 19th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-2-summary-video/)
@@ -26,7 +26,8 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 * Meeting 12 - special meeting (Sep. 9h 2022): Data Rabbit - [summary & video](https://clojureverse.org/t/clojure-visual-tools-meeting-12-summary-video-data-rabbit/)
 * Meeting 13 - monthly (Oct. 14th 2022): Interactive visualizations: Shiny, Shadow-cljs, Clay - [summary & video](https://clojureverse.org/t/visual-tools-meeting-13-interactive-data-visualizatioon-shiny-clojurescript-bayesian-animations/)
 * Meeting 14 - special meeting (Oct. 20th 2022): Clerk workshop - [event](https://clojureverse.org/t/visual-tools-meeting-14-clerk-workshop/) (not recorded)
-* Meeting 15 - discussion (Oct. 23th 2022): a common ground for notew with Kindly - [event](https://clojureverse.org/t/visual-tools-meeting-15-a-common-ground-for-notes-with-kindly/)
+* Meeting 15 (Oct. 23th 2022): a common ground for notes with Kindly - [event](https://clojureverse.org/t/visual-tools-meeting-15-a-common-ground-for-notes-with-kindly/)
+* Meeting 16 (Nov. 19th 2022): Calva Notebooks and Portal - [event](https://clojureverse.org/t/visual-tools-meeting-16-calva-notebooks-and-portal/)
 
 **Organizers**: Lukas Domalga, Kira McLean, Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
 
