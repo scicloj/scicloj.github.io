@@ -27,7 +27,7 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 * Meeting 13 - monthly (Oct. 14th 2022): Interactive visualizations: Shiny, Shadow-cljs, Clay - [summary & video](https://clojureverse.org/t/visual-tools-meeting-13-interactive-data-visualizatioon-shiny-clojurescript-bayesian-animations/)
 * Meeting 14 - special meeting (Oct. 20th 2022): Clerk workshop - [event](https://clojureverse.org/t/visual-tools-meeting-14-clerk-workshop/) (not recorded)
 * Meeting 15 (Oct. 23th 2022): a common ground for notes with Kindly - [summary & video](https://clojureverse.org/t/visual-tools-meeting-15-summary-recording-play-teod-eu-kindly/)
-* Meeting 16 (Nov. 19th 2022): Calva Notebooks and Portal - [event](https://clojureverse.org/t/visual-tools-meeting-16-calva-notebooks-and-portal/)
+* Meeting 16 (Nov. 19th 2022): Calva Notebooks and Portal - [summary & recording](https://clojureverse.org/t/visual-tools-meeting-16-calva-notebooks-portal-summary-recording/)
 
 **Organizers**: Lukas Domalga, Kira McLean, Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
 
