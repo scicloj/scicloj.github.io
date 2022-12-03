@@ -22,7 +22,7 @@ This group is a space for recurring updates & discussions around the emerging Cl
 
 Future topics:
 - Machine learning: Tablecloth, scicloj.ml, Metamorph
-- Interop with a Python array library, e.g. Tensorflow, DAX, Xarray 
+- Interop with a Python array library, e.g. Tensorflow, JAX, Xarray 
 - Going deeper into Meander
 - General data science workflow with relevant tools and libraries
 
