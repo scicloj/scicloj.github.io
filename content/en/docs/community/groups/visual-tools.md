@@ -3,7 +3,7 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2022-10-12
+lastmod: 2022-12-01
 draft: false
 images: []
 ---

@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2022-10-03
+lastmod: 2022-12-02
 draft: false
 weight: 33
 images: []
