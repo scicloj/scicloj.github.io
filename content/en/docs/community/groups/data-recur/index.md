@@ -3,7 +3,7 @@ title : "data-recur: recurring updates & discussions around building the emergin
 description: "recurring updates & discussions around building the emerging data stack"
 lead: ""
 date: 2022-07-12
-lastmod: 2022-12-03
+lastmod: 2022-12-04
 draft: false
 images: []
 ---
@@ -26,7 +26,7 @@ Future topics:
 - Going deeper into Meander
 - General data science workflow with relevant tools and libraries
 
-**Organizer**: Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
+**Organizers**: Ethan Miller & Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
 
 **Frequency of meetings**: All-hands monthly meetings + ad-hoc meetings on specific topics
 
