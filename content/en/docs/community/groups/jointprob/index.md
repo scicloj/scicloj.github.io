@@ -42,6 +42,7 @@ There is no need to do that if you have already received emails about this commu
 * 2022-11-23/25/26, Session 8: chapter 6, personal regression projects
 * 2022-12-7/9/10, Session 9: more about DAGs (section 6.4), chapter 7
 * 2022-12-24, Session 10: information theory & information criteria - reporting on personal reading 
+* ...
 
 Please [write to us](./#contact) if you wish to receive calendar events.
 
