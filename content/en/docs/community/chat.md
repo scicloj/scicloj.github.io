@@ -3,7 +3,7 @@ title : "Chat streams"
 description: ""
 lead: ""
 date: 2022-02-14
-lastmod: 2022-02-14
+lastmod: 2022-12-15
 draft: false
 weight: 24
 images: []
@@ -32,6 +32,8 @@ Here are the main scicloj-related active streams, dedicated to certain subgroups
 ### Dev chat of specific tools and libraries
 
 - [#tech.ml.dataset.dev](https://clojurians.zulipchat.com/#narrow/stream/236259-tech.2Eml.2Edataset.2Edev) - discussing [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset)
+
+- [#uncomplicate](https://clojurians.zulipchat.com/#narrow/stream/361336-uncomplicate) - discussions about developing with [Neanderthal](https://neanderthal.uncomplicate.org/), [Deep Diamond](https://github.com/uncomplicate/deep-diamond), and other [Uncomplicate](https://uncomplicate.org/) libs
 
 - [#scicloj.ml-dev](https://clojurians.zulipchat.com/#narrow/stream/283491-scicloj.2Eml-dev) - discussing [scicloj.ml](https://github.com/scicloj/scicloj.ml)
 
