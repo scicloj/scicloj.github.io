@@ -64,7 +64,7 @@ Before actually starting the regular reading path, we will probably have a coupl
 
 On [January 7th, 5PM UTC](https://time.is/17:00_7_Jan_2023_in_UTC) we will have a special event to start this new adventure.
 
-In the meeting, we will meet [Ravin Kumar](https://ravinkumar.com/), one of the book authors, who kindly agreed to join. We will introduce Jointprob and brainstorm our common hopes with old and new friends.
+In the meeting, we will meet [Ravin Kumar](https://ravinkumar.com/), one of the book authors, who kindly agreed to join. We will brainstorm our joint hopes with old and new friends.
 
 If you wish to be added to our calendar events, please refer to the [Joining Jointprob](../../docs/community/groups/jointprob/#joining-jointprob) form.
 
