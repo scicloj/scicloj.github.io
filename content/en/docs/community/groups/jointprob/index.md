@@ -1,39 +1,48 @@
 ---
-title : "jointprob: a probabilistic modelling and Bayesian statistics study community"
-description: "Probabilistic Modelling and Bayesian Statistics study community"
+title : "Jointprob: a probabilistic modeling and Bayesian statistics study community"
+description: "Probabilistic modeling and Bayesian Statistics study community"
 lead: ""
 date: 2022-02-28
-lastmod: 2022-12-18
+lastmod: 2022-12-31
 draft: false
 images: []
 ---
 -------------------------------------------------------------------------------------------------------------------- 
 ![random tree](random-tree.jpg)
 
-Jointprob is a study community for probabilistic modelling and Bayesian statistics, which has started in August 2022.
+Jointprob is a study community for probabilistic modeling and Bayesian statistics, running since August 2022.
 
-Even though the community was initiated by [Scicloj](https://scicloj.github.io/) -- a community for data science in Clojure -- this study community is not focused on any single technology or programming language. Rather, it is open to people of diverse technical backgrounds, and will continually seek dialogue and mutual inspiration across languages and technologies.
+Even though the community was initiated by [Scicloj](https://scicloj.github.io/) -- a community for data science in Clojure -- this study community is not focused on any single technology or programming language. Rather, it is open to people of diverse technical backgrounds and will continually seek dialogue and mutual inspiration across languages and technologies.
 
 ## Goal
-This is a long-term project aiming to create a space for Bayesian statistics practitioners, as well as aspiring ones, to learn & explore together and support each other.
 
-We wish to be inclusive to people of diverse backgrounds, and thus create a common ground where we can all try to broaden our perspectives and be inspired by others.
+This is a long-term project aiming to create a space for Bayesian practitioners, as well as aspiring ones, to learn & explore together and support each other.
+
+We wish to be inclusive to people of diverse backgrounds and thus create a common ground where we can broaden our perspectives and inspire each other.
 
 ## Joining
 
-It is never too late to join. We will help you to catch up.
+The beginning of 2023 would be great timing to join, as we are starting a new reading journey.
 
-To join the community and receive updates, please [write to us](./#contact). It would be nice to mention your name, and as much as you wish, tell a bit about your background and interests.
+Anyway, it is never too late to join us -- we will help you to catch up.
 
-There is no need to do that if you have already received emails about this community, if you have responded to our survey, or if you have registered to the initial brainstorming meeting.
+Please use the [Joining Jointprob form](https://bit.ly/joining-jointprob) to join the community, to be added to our calendar events, or to update your preferences and personal information.
+
+Also, you are always invited to [write to us](./#contact).
 
 ## Schedule
+
+### Upcoming
+
+* 2023-01-07: Bayesian Modeling and Computation: meeting the [book](https://bayesiancomputationbook.com/welcome.html)'s author [Ravin Kumar](https://ravinkumar.com/) and brainstorming our new reading journey -- see the [blog post](https://bayesiancomputationbook.com/welcome.html).
+
+### Past
 
 * 2022-07-22, initial brainstorming - [event](https://bit.ly/jointprob-brainstorm-1)
 * 2022-08-06, prep meeting about R & Tidyverse - [event](https://clojureverse.org/t/ds4clj-prep-meeting-studying-a-bit-of-r-tidyverse/) (joint event with the [ds4clj course](../ds4clj)) 
 * 2022-08-15 - beginning of regular meetings (see the [Groups](./#groups) below).
 * 2022-08-15/17/19/20, Session 1: [Statistical Rethinking](https://xcelab.net/rm/statistical-rethinking/) chapter 1, [R4DS](https://r4ds.had.co.nz/) sections 1-4
-* 2022-08-31, 2022-09-2/3, Session 2: chapter 2
+* 2022-08-31, 2022-09-2/3, Session 2: Statistical Rethinking chapter 2
 * 2022-09-14/16/17, Session 3: chapter 2 - review of main notions and a look into exercises
 * 2022-09-28/09-30/10-01, Session 4: chapter 3
 * 2022-10-12/14/15, Session 5: chapter 4
@@ -42,9 +51,9 @@ There is no need to do that if you have already received emails about this commu
 * 2022-11-23/25/26, Session 8: chapter 6, personal regression projects
 * 2022-12-7/9/10, Session 9: more about DAGs (section 6.4), chapter 7
 * 2022-12-24, Session 10: information theory & information criteria - reporting on personal reading 
-* ...
 
-Please [write to us](./#contact) if you wish to receive calendar events.
+### Calendar events
+Please refer to the [Joining](./#joining) section to join our calendar events.
 
 ## Chat
 
@@ -58,43 +67,37 @@ It would be wonderful to present yourself at the [personal intros](https://joint
 
 ## Agenda
 
-We began by reading into [Statistical Rethinking](https://www.routledge.com/Statistical-Rethinking-A-Bayesian-Course-with-Examples-in-R-and-STAN/McElreath/p/book/9780367139919/) by Richard McElreath. This book has served an important role for this community, providing a friendly and inviting path for participants of diverse backgrounds.
-
-While we have not finished it, these days we are considering beginning a new reading path in 2023, that would fit the interests and needs of current community members, and would also provide an opportunity for others to join.
-
-Bayesian statistics is tightly related to programming, and during our learning we are looking into different programming languages and libraries.
+As a community, we go through a common path, reading a book together and looking into the relevant theories, methods, and technologies. We use diverse programming languages and libraries in our practice.
 
 In parallel to the main path of learning, we are encouraging individual and small-group projects, that participants share and present in the sessions.
+
+At the beginning of 2023, we will begin reading [Bayesian Modeling and Computation in Python](https://bayesiancomputationbook.com/welcome.html) by Osvaldo A. Martin, Ravin Kumar and Junpeng Lao, possibly after a few preparation sessions for relevant background.
+
+Previously, we read the first half of [Statistical Rethinking](https://www.routledge.com/Statistical-Rethinking-A-Bayesian-Course-with-Examples-in-R-and-STAN/McElreath/p/book/9780367139919/) by Richard McElreath. This book has served an important role for this community, providing a friendly and inviting path for participants of diverse backgrounds.
+
 
 ## Sessions
 
 We meet once in two weeks to learn together for 90 minutes.
-The beginning of a session is typically dedicated to following our main path of study (e.g., the current book chapter being read), with some hands-on exploration. Afterwards, we share our progress with the projects, and explore further.
+The beginning of a session is typically dedicated to following our main path of study (e.g., the current book chapter), with some hands-on exploration. Afterward, we share our progress with personal projects and explore further.
 
 In between those regular biweekly sessions, we encourage ad-hoc sessions to explore specialized topics or practice further.
 
 ### Video platform
-For video meetings, we currently use Zoom. The links for the meetings is shared in the sessions' calendar events.
+
+For video meetings, we currently use Zoom. The link is shared in the [calendar events](./#calendar-events).
 
 ## Groups
 
-Our regular sessions have been running in groups. At the moment, only one of them is active. In the beginning of 2023, we will reconsider new time slots that would fit participant's preferences better.
+Our regular sessions have been running in groups. 
 
-| group | start date | time in [UTC time zone](https://time.is/UTC) |
-|-------|------------|----------------------------------------------|
-| **A** | Aug. 15th  | Mon 15:00 UTC     (currently on hold)        |
-| **B** | Aug. 17th  | Wed 14:00 UTC     (currently on hold)        |
-| **C** | Aug. 19th  | Fri 18:00 UTC     (currently on hold)        |
-| **D** | Aug. 20th  | Sat 17:00 UTC                                |
+All groups meet every 2 weeks and follow roughly the same reading agenda. Anybody is invited to attend one or more of the group sessions by their preference.
 
-* All groups meet every 2 weeks and follow roughly the same reading agenda.
-* Hopefully, each one of us can usually attend at least one group's session (but is encouraged to join more sessions if comfortable).
-* A typical session (~90 minutes) will have a brief overview of the relevant chapter(s) presented by a group member, and then a mostly a hands-on dive into examples, and a discussion.
-* Each group has its own rotation of moderators and presenters.
+At the beginning of 2023, we will set new time slots that would fit participants' availability.
 
 ## Recordings
 
-Some parts of the sessions are recorded and shared internally in the Zulip chat. Possibly, some recorded parts will also be shared publicly.
+Some parts of the sessions are recorded and shared internally in the Zulip chat. Possibly, we will aslso share some recorded parts publicly.
 
 ## Projects
 
@@ -102,24 +105,28 @@ Participants will take on projects as individuals or in small groups.
 
 Example projects:
 * read an article and share it with the group
-* reimplement an example we've learned using a different technology
+* reimplement an example we have learned using a different technology
 * explore a dataset with the methods learned
 
 ## Recommended background
 
-To appreciate the content we are studying, it is recommended to have:
-- some basic knowledge of probability and statistics (say, college level intro courses)
-- some programming experience of any language (a few months)
-- some experience exploring data
+Participants are assumed to have some relevant knowledge. 
+
+For our new reading journey of 2023, we will make it more precise after we get to know a few of the new freidns who are interested in joining.
+
+In any case, to appreciate the content we are studying, it is recommended to have the following:
+- basic knowledge of probability and statistics (say, college-level intro courses)
+- programming experience in any language (a few months)
+- experience exploring data
 - an open mind
 
 ## Principles
 
-The following core principles are typical to Scicloj study groups.
+The following core principles are typical of Scicloj study groups.
  
 **No experts**. We do not assume that anybody is an expert in the field. We come to learn together with a student mindset.
 
-**A clear path**. We will be very thoughtful about the agenda and about where we wish to go. We will continuously rethink and adapt our path going there.
+**A clear path**. We will be very thoughtful about the agenda and where we wish to go. We will continually rethink and adapt our pathway going there.
 
 **Confused together**. It is just fine to be confused. We will be there together and seek clarity together.
 
