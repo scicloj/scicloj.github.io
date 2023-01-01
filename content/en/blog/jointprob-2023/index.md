@@ -9,11 +9,11 @@ images: []
 contributors: ["daslu"]
 ---
 
-The [Jointprob](../../docs/community/groups/jointprob) community was created by Scicloj during the summer of 2023, aspiring to be a space where friends of diverse backgrounds can learn & explore Bayesian statistics and probabilistic modeling. In this post, we reflect upon our joint path and announce 
+The [Jointprob](../../docs/community/groups/jointprob) community was created by Scicloj during the summer of 2023, aspiring to be a space where friends of diverse backgrounds can learn & explore Bayesian statistics and probabilistic modeling. In this post, we reflect upon our joint path and announce:
 
-:star: [a new reading journey](./#a-new-start----bayesian-modeling-and-computation) and
+:star: [a new reading journey](./#a-new-start----bayesian-modeling-and-computation), and
 
-:star: [a special event](./#upcoming-event-meeting-ravin-kumar-brainstorming-our-hopes) with Ravin Kumar, one of the book authors
+:star: [a special event](./#upcoming-event-meeting-ravin-kumar-brainstorming-our-hopes) with Ravin Kumar, one of the book authors.
 
 If you are curious about any of that, you are encouraged to [Join Jointprob](../../docs/community/groups/jointprob/#joining).
 
@@ -66,5 +66,5 @@ On [January 7th, 5PM UTC](https://time.is/17:00_7_Jan_2023_in_UTC) we will have 
 
 In the meeting, we will meet [Ravin Kumar](https://ravinkumar.com/), one of the book authors, who kindly agreed to join. We will brainstorm our joint hopes with old and new friends.
 
-If you wish to be added to our calendar events, please refer to the [Joining Jointprob](../../docs/community/groups/jointprob/#joining-jointprob) form.
+If you wish to be added to our calendar events, please refer to the [Joining Jointprob](../../docs/community/groups/jointprob/#joining) form.
 
