@@ -9,7 +9,7 @@ images: []
 contributors: ["daslu"]
 ---
 
-The [Jointprob](../../docs/community/groups/jointprob) community was created by Scicloj during the summer of 2023, aspiring to be a space where friends of diverse backgrounds can learn & explore Bayesian statistics and probabilistic modeling. In this post, we reflect upon our joint path and announce:
+The [Jointprob](../../docs/community/groups/jointprob) community was created by Scicloj during the summer of 2022, aspiring to be a space where friends of diverse backgrounds can learn & explore Bayesian statistics and probabilistic modeling. In this post, we reflect upon our joint path and announce:
 
 :star: [a new reading journey](./#a-new-start----bayesian-modeling-and-computation), and
 
