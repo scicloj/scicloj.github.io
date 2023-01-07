@@ -3,7 +3,7 @@ title : "Jointprob: a probabilistic modeling and Bayesian statistics study commu
 description: "Probabilistic modeling and Bayesian Statistics study community"
 lead: ""
 date: 2022-02-28
-lastmod: 2022-12-31
+lastmod: 2022-01-07
 draft: false
 images: []
 ---
@@ -34,7 +34,7 @@ Also, you are always invited to [write to us](./#contact).
 
 ### Upcoming
 
-* 2023-01-07: Bayesian Modeling and Computation: meeting the [book](https://bayesiancomputationbook.com/welcome.html)'s author [Ravin Kumar](https://ravinkumar.com/) and brainstorming our new reading journey -- see the [blog post](https://bayesiancomputationbook.com/welcome.html).
+* 2023-01-07: Bayesian Modeling and Computation: meeting the [book](https://bayesiancomputationbook.com/welcome.html)'s author [Ravin Kumar](https://ravinkumar.com/) and brainstorming our new reading journey -- see the [blog post](https://scicloj.github.io/blog/jointprob-in-2023-bayesian-modeling-and-computation-meeting-ravin-kumar/).
 
 ### Past
 
