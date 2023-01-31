@@ -119,13 +119,13 @@ Example projects:
 
 Participants are assumed to have some relevant knowledge. 
 
-For our new reading journey of 2023, we will make it more precise after we get to know a few of the new freidns who are interested in joining.
-
-In any case, to appreciate the content we are studying, it is recommended to have the following:
+To appreciate the content we are studying, it is recommended to have the following:
 - basic knowledge of probability and statistics (say, college-level intro courses)
 - programming experience in any language (a few months)
 - experience exploring data
 - an open mind
+
+If you are not sure whether this journey fits your background, please [write to us](./#contact). We can think together.
 
 ## Principles
 
