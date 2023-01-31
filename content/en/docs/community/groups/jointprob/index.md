@@ -75,7 +75,7 @@ As a community, we go through a common path, reading a book together and looking
 
 In parallel to the main path of learning, we are encouraging individual and small-group projects, that participants share and present in the sessions.
 
-At the beginning of 2023, we will begin reading [Bayesian Modeling and Computation in Python](https://bayesiancomputationbook.com/welcome.html) by Osvaldo A. Martin, Ravin Kumar and Junpeng Lao, possibly after a few preparation sessions for relevant background.
+At the beginning of 2023, began reading [Bayesian Modeling and Computation in Python](https://bayesiancomputationbook.com/welcome.html) by Osvaldo A. Martin, Ravin Kumar and Junpeng Lao, possibly after a few preparation sessions for relevant background.
 
 Previously, we read the first half of [Statistical Rethinking](https://www.routledge.com/Statistical-Rethinking-A-Bayesian-Course-with-Examples-in-R-and-STAN/McElreath/p/book/9780367139919/) by Richard McElreath. This book has served an important role for this community, providing a friendly and inviting path for participants of diverse backgrounds.
 
