@@ -3,7 +3,7 @@ title : "Jointprob: a probabilistic modeling and Bayesian statistics study commu
 description: "Probabilistic modeling and Bayesian Statistics study community"
 lead: ""
 date: 2022-02-28
-lastmod: 2023-01-16
+lastmod: 2023-01-31
 draft: false
 images: []
 ---
@@ -32,11 +32,14 @@ Also, you are always invited to [write to us](./#contact).
 
 ## Schedule
 
-### Upcoming
+### Our current journey: Bayesian Modeling and Computation
 
+* 2023-01-07: Bayesian Modeling and Computation: meeting the [book](https://bayesiancomputationbook.com/welcome.html)'s author [Ravin Kumar](https://ravinkumar.com/) and brainstorming our new reading journey -- see the [blog post](https://scicloj.github.io/blog/jointprob-in-2023-bayesian-modeling-and-computation-meeting-ravin-kumar/).
 * 2023-01-21: Discussing our reading plans
+* 2023-02-8/11: a motivating intro -- [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) chapter 1
+* 2023-02-15/18: probability & statistics review -- [Think Stats 2e](https://greenteapress.com/wp/think-stats-2e/) chapters 1-6
 
-### Past
+### Our past journey: Statistical Rethinking
 
 * 2022-07-22, initial brainstorming - [event](https://bit.ly/jointprob-brainstorm-1)
 * 2022-08-06, prep meeting about R & Tidyverse - [event](https://clojureverse.org/t/ds4clj-prep-meeting-studying-a-bit-of-r-tidyverse/) (joint event with the [ds4clj course](../ds4clj)) 
@@ -52,7 +55,6 @@ Also, you are always invited to [write to us](./#contact).
 * 2022-12-7/9/10, Session 9: more about DAGs (section 6.4), chapter 7
 * 2022-12-24, Session 10: information theory & information criteria - reporting on personal reading 
 
-* 2023-01-07: Bayesian Modeling and Computation: meeting the [book](https://bayesiancomputationbook.com/welcome.html)'s author [Ravin Kumar](https://ravinkumar.com/) and brainstorming our new reading journey -- see the [blog post](https://scicloj.github.io/blog/jointprob-in-2023-bayesian-modeling-and-computation-meeting-ravin-kumar/).
 
 ### Calendar events
 Please refer to the [Joining](./#joining) section to join our calendar events.
@@ -91,11 +93,14 @@ For video meetings, we currently use Zoom. The link is shared in the [calendar e
 
 ## Groups
 
-Our regular sessions have been running in groups. 
+Our regular sessions take place in groups. 
 
 All groups meet every 2 weeks and follow roughly the same reading agenda. Anybody is invited to attend one or more of the group sessions by their preference.
 
-At the beginning of 2023, we will set new time slots that would fit participants' availability.
+Here are the new groups that we set at the beginning of 2023 (in [UTC time zone](https://time.is/UTC)):
+* Group E: Wednesday 15:00-16:30 UTC
+* Group F: Saturday 13:00-14:30 UTC
+* Group G: Saturday 18:30-20:00 UTC
 
 ## Recordings
 
