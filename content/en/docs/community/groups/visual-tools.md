@@ -3,7 +3,7 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2022-12-01
+lastmod: 2023-03-17
 draft: false
 images: []
 ---
@@ -28,6 +28,7 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 * Meeting 14 - special meeting (Oct. 20th 2022): Clerk workshop - [event](https://clojureverse.org/t/visual-tools-meeting-14-clerk-workshop/) (not recorded)
 * Meeting 15 (Oct. 23th 2022): a common ground for notes with Kindly - [summary & video](https://clojureverse.org/t/visual-tools-meeting-15-summary-recording-play-teod-eu-kindly/)
 * Meeting 16 (Nov. 19th 2022): Calva Notebooks and Portal - [summary & recording](https://clojureverse.org/t/visual-tools-meeting-16-calva-notebooks-portal-summary-recording/)
+* Meeting 17. 19th 2022): various updates - [event](https://clojureverse.org/t/visual-tools-meeting-17-coming-back-various-updates/)
 
 **Organizers**: Lukas Domalga, Kira McLean, Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
 
