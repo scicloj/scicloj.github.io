@@ -3,7 +3,7 @@ title : "ds4clj: a data science course for Clojure devs"
 description: "A data science course for Clojure devs"
 lead: ""
 date: 2022-07-12
-lastmod: 2022-10-19
+lastmod: 2023-03-17
 draft: false
 images: []
 weight: 101
@@ -12,7 +12,7 @@ weight: 101
 ---------------------
 ![black-eyed-pea](black-eyed-pea.jpg)
 
-* Following the recent broad support on [Clojureverse](https://clojureverse.org/t/a-data-science-course-for-clojurians-are-you-interested/) and [Reddit](https://www.reddit.com/r/Clojure/comments/vsr7qn/a_data_science_course_for_clojurians_are_you/) conversations and elsewhere, we will begin a data-science course for Clojure devs in :star: Fall 2022 :star:. 
+* Following the recent broad support on [Clojureverse](https://clojureverse.org/t/a-data-science-course-for-clojurians-are-you-interested/) and [Reddit](https://www.reddit.com/r/Clojure/comments/vsr7qn/a_data_science_course_for_clojurians_are_you/) conversations and elsewhere, we are plannig to begin a data-science course for Clojure devs during 2023.
 
 The details below are **tentative** and will probably change.
 
