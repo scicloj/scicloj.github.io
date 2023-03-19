@@ -14,7 +14,7 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 
 
 
-* Meeting 17. (April 1st 2023): various updates - [event](https://clojureverse.org/t/visual-tools-meeting-17-coming-back-various-updates/) (login to Clojureverse for details)
+* Meeting 17 (April 1st 2023): various updates - [event](https://clojureverse.org/t/visual-tools-meeting-17-coming-back-various-updates/) (login to Clojureverse for details)
 * Meeting 16 (Nov. 19th 2022): Calva Notebooks and Portal - [summary & recording](https://clojureverse.org/t/visual-tools-meeting-16-calva-notebooks-portal-summary-recording/)
 * Meeting 15 (Oct. 23th 2022): a common ground for notes with Kindly - [summary & video](https://clojureverse.org/t/visual-tools-meeting-15-summary-recording-play-teod-eu-kindly/)
 * Meeting 14 - special meeting (Oct. 20th 2022): Clerk workshop - [event](https://clojureverse.org/t/visual-tools-meeting-14-clerk-workshop/) (not recorded)
