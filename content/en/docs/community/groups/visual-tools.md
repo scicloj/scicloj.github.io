@@ -12,23 +12,23 @@ The goal of this group is to create collaborations in learning and building Cloj
 
 The authors of several actively developed tools are involved (Chlorine, Clover, Calva and its Notebooks, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, Clerk, etc.).
 
-* Meeting 1 - the beginning (Feb. 4th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-1-summary-video/).
-* Meeting 2 - compatibility across tools (Feb. 19th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-2-summary-video/)
-* Meeting 3 - general montlhy meeting (Mar. 5th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-3-summary-video/)
-* Meeting 4 - studying Clerk internals (Mar. 25th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-4-summary-video/)
-* Meeting 5 - general monthly (Apr. 2nd 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-5-summary-video/)
-* Meeting 6 - general monthly (May. 6th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-6-summary-video/)
-* Meeting 7 - a deep dive into [Saturn](https://gitlab.com/clj-editors/saturn) (May. 27th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-7-summary-video/)
-* Meeting 8 - general monthly (June 3rd 2022): data cookbook, goldly studio, re-frame state management - [summary & video](https://clojureverse.org/t/visual-tools-meeting-8-summary-video-data-cookbook-goldly-studio-re-frame-state-management/)
-* Meeting 9 - general monthly (July 2nd 2022): clj-tiles, Obsidian Wielder, Cardigan Bay, Platypub - [summary & video](https://clojureverse.org/t/visual-tools-meeting-9-summary-video-clj-tiles-obsidian-wielder-cardigan-bay-platypub/)
-* Meeting 10 - monthly meeting (Aug. 5th 2022): Oz - [summary & video](https://clojureverse.org/t/visual-tools-meeting-10-monthly-meeting-oz/)
-* Meeting 11 - monthly meeting (Sep. 2th 2022): tooling for learning resources - [event](https://clojureverse.org/t/clojure-visual-tools-meeting-11-summary-video-tooling-for-learning-resources-a-peek-into-data-rabbit/9321)
-* Meeting 12 - special meeting (Sep. 9h 2022): Data Rabbit - [summary & video](https://clojureverse.org/t/clojure-visual-tools-meeting-12-summary-video-data-rabbit/)
-* Meeting 13 - monthly (Oct. 14th 2022): Interactive visualizations: Shiny, Shadow-cljs, Clay - [summary & video](https://clojureverse.org/t/visual-tools-meeting-13-interactive-data-visualizatioon-shiny-clojurescript-bayesian-animations/)
-* Meeting 14 - special meeting (Oct. 20th 2022): Clerk workshop - [event](https://clojureverse.org/t/visual-tools-meeting-14-clerk-workshop/) (not recorded)
+* Meeting 17 (April 1st 2023): various updates - [event](https://clojureverse.org/t/visual-tools-meeting-17-coming-back-various-upd* Meeting 16 (Nov. 19th 2022): Calva Notebooks and Portal - [summary & recording](https://clojureverse.org/t/visual-tools-meeting-16-calva-notebooks-portal-summary-recording/)
 * Meeting 15 (Oct. 23th 2022): a common ground for notes with Kindly - [summary & video](https://clojureverse.org/t/visual-tools-meeting-15-summary-recording-play-teod-eu-kindly/)
-* Meeting 16 (Nov. 19th 2022): Calva Notebooks and Portal - [summary & recording](https://clojureverse.org/t/visual-tools-meeting-16-calva-notebooks-portal-summary-recording/)
-* Meeting 17. (April 1st 2023): various updates - [event](https://clojureverse.org/t/visual-tools-meeting-17-coming-back-various-updates/) (login to Clojureverse for details)
+* Meeting 14 - special meeting (Oct. 20th 2022): Clerk workshop - [event](https://clojureverse.org/t/visual-tools-meeting-14-clerk-workshop/) (not recorded)
+* Meeting 13 - monthly (Oct. 14th 2022): Interactive visualizations: Shiny, Shadow-cljs, Clay - [summary & video](https://clojureverse.org/t/visual-tools-meeting-13-interactive-data-visualizatioon-shiny-clojurescript-bayesian-animations/)
+* Meeting 12 - special meeting (Sep. 9h 2022): Data Rabbit - [summary & video](https://clojureverse.org/t/clojure-visual-tools-meeting-12-summary-video-data-rabbit/)
+* Meeting 11 - monthly meeting (Sep. 2th 2022): tooling for learning resources - [event](https://clojureverse.org/t/clojure-visual-tools-meeting-11-summary-video-tooling-for-learning-resources-a-peek-into-data-rabbit/9321)
+* Meeting 10 - monthly meeting (Aug. 5th 2022): Oz - [summary & video](https://clojureverse.org/t/visual-tools-meeting-10-monthly-meeting-oz/)
+* Meeting 9 - general monthly (July 2nd 2022): clj-tiles, Obsidian Wielder, Cardigan Bay, Platypub - [summary & video](https://clojureverse.org/t/visual-tools-meeting-9-summary-video-clj-tiles-obsidian-wielder-cardigan-bay-platypub/)
+* Meeting 8 - general monthly (June 3rd 2022): data cookbook, goldly studio, re-frame state management - [summary & video](https://clojureverse.org/t/visual-tools-meeting-8-summary-video-data-cookbook-goldly-studio-re-frame-state-management/)
+* Meeting 7 - a deep dive into [Saturn](https://gitlab.com/clj-editors/saturn) (May. 27th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-7-summary-video/)
+* Meeting 6 - general monthly (May. 6th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-6-summary-video/)
+* Meeting 5 - general monthly (Apr. 2nd 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-5-summary-video/)
+* Meeting 4 - studying Clerk internals (Mar. 25th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-4-summary-video/)
+* Meeting 3 - general montlhy meeting (Mar. 5th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-3-summary-video/)
+* Meeting 2 - compatibility across tools (Feb. 19th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-2-summary-video/)
+* Meeting 1 - the beginning (Feb. 4th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-1-summary-video/).
+ates/) (login to Clojureverse for details)
 
 **Organizers**: Lukas Domalga, Kira McLean, Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
 
