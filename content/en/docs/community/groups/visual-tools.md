@@ -12,7 +12,10 @@ The goal of this group is to create collaborations in learning and building Cloj
 
 The authors of several actively developed tools are involved (Chlorine, Clover, Calva and its Notebooks, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, Clerk, etc.).
 
-* Meeting 17 (April 1st 2023): various updates - [event](https://clojureverse.org/t/visual-tools-meeting-17-coming-back-various-upd* Meeting 16 (Nov. 19th 2022): Calva Notebooks and Portal - [summary & recording](https://clojureverse.org/t/visual-tools-meeting-16-calva-notebooks-portal-summary-recording/)
+
+
+* Meeting 17. (April 1st 2023): various updates - [event](https://clojureverse.org/t/visual-tools-meeting-17-coming-back-various-updates/) (login to Clojureverse for details)
+* Meeting 16 (Nov. 19th 2022): Calva Notebooks and Portal - [summary & recording](https://clojureverse.org/t/visual-tools-meeting-16-calva-notebooks-portal-summary-recording/)
 * Meeting 15 (Oct. 23th 2022): a common ground for notes with Kindly - [summary & video](https://clojureverse.org/t/visual-tools-meeting-15-summary-recording-play-teod-eu-kindly/)
 * Meeting 14 - special meeting (Oct. 20th 2022): Clerk workshop - [event](https://clojureverse.org/t/visual-tools-meeting-14-clerk-workshop/) (not recorded)
 * Meeting 13 - monthly (Oct. 14th 2022): Interactive visualizations: Shiny, Shadow-cljs, Clay - [summary & video](https://clojureverse.org/t/visual-tools-meeting-13-interactive-data-visualizatioon-shiny-clojurescript-bayesian-animations/)
@@ -28,7 +31,7 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 * Meeting 3 - general montlhy meeting (Mar. 5th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-3-summary-video/)
 * Meeting 2 - compatibility across tools (Feb. 19th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-2-summary-video/)
 * Meeting 1 - the beginning (Feb. 4th 2022) - [summary & video](https://clojureverse.org/t/visual-tools-meeting-1-summary-video/).
-ates/) (login to Clojureverse for details)
+
 
 **Organizers**: Lukas Domalga, Kira McLean, Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
 
