@@ -20,7 +20,7 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 * Meeting 14 - special meeting (Oct. 20th 2022): Clerk workshop - [event](https://clojureverse.org/t/visual-tools-meeting-14-clerk-workshop/) (not recorded)
 * Meeting 13 - monthly (Oct. 14th 2022): Interactive visualizations: Shiny, Shadow-cljs, Clay - [summary & video](https://clojureverse.org/t/visual-tools-meeting-13-interactive-data-visualizatioon-shiny-clojurescript-bayesian-animations/)
 * Meeting 12 - special meeting (Sep. 9h 2022): Data Rabbit - [summary & video](https://clojureverse.org/t/clojure-visual-tools-meeting-12-summary-video-data-rabbit/)
-* Meeting 11 - monthly meeting (Sep. 2th 2022): tooling for learning resources - [event](https://clojureverse.org/t/clojure-visual-tools-meeting-11-summary-video-tooling-for-learning-resources-a-peek-into-data-rabbit/9321)
+* Meeting 11 - monthly meeting (Sep. 2th 2022): tooling for learning resources - [summary & video](https://clojureverse.org/t/clojure-visual-tools-meeting-11-summary-video-tooling-for-learning-resources-a-peek-into-data-rabbit/9321)
 * Meeting 10 - monthly meeting (Aug. 5th 2022): Oz - [summary & video](https://clojureverse.org/t/visual-tools-meeting-10-monthly-meeting-oz/)
 * Meeting 9 - general monthly (July 2nd 2022): clj-tiles, Obsidian Wielder, Cardigan Bay, Platypub - [summary & video](https://clojureverse.org/t/visual-tools-meeting-9-summary-video-clj-tiles-obsidian-wielder-cardigan-bay-platypub/)
 * Meeting 8 - general monthly (June 3rd 2022): data cookbook, goldly studio, re-frame state management - [summary & video](https://clojureverse.org/t/visual-tools-meeting-8-summary-video-data-cookbook-goldly-studio-re-frame-state-management/)
