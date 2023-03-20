@@ -3,14 +3,14 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2023-03-18
+lastmod: 2023-03-20
 draft: false
 images: []
 ---
 
 The goal of this group is to create collaborations in learning and building Clojure tools for data visualization and literate programming.
 
-The authors of several actively developed tools are involved (Chlorine, Clover, Calva and its Notebooks, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, Clerk, etc.).
+The authors of several actively developed tools are involved (Chlorine, Clover, Calva and its Notebooks, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, Clerk, Klipse, etc.).
 
 
 
