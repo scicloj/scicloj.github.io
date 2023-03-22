@@ -3,7 +3,7 @@ title : "Jointprob: a probabilistic modeling and Bayesian statistics study commu
 description: "Probabilistic modeling and Bayesian Statistics study community"
 lead: ""
 date: 2022-02-28
-lastmod: 2023-03-12
+lastmod: 2023-03-22
 draft: false
 images: []
 ---
@@ -41,6 +41,7 @@ Also, you are always invited to [write to us](./#contact).
 * 2023-02-22/25: starting the main journey -- [Bayesian Modeling and Computation](https://bayesiancomputationbook.com/welcome.html) [chapter 1](https://bayesiancomputationbook.com/markdown/chp_01.html#) (mostly focused on [section 1.1](https://bayesiancomputationbook.com/markdown/chp_01.html#bayesian-modeling))
 * 2023-03-8/11: Bayesian Modeling and Computation [chapter 1](https://bayesiancomputationbook.com/markdown/chp_01.html#): exercises and [section 1.4](https://bayesiancomputationbook.com/markdown/chp_01.html#a-few-options-to-quantify-your-prior-information) (priors)
 * 2023-03-22/25: Bayesian Modeling and Computation [chapter 2](https://bayesiancomputationbook.com/markdown/chp_02.html)
+* 2023-04-05/08: Bayesian Modeling and Computation [chapter 2](https://bayesiancomputationbook.com/markdown/chp_02.html), mostly [section 2.5](https://bayesiancomputationbook.com/markdown/chp_02.html#model-comparison)
 
 ### Our past journey: Statistical Rethinking
 
@@ -101,7 +102,7 @@ Our regular sessions take place in groups.
 All groups meet every 2 weeks and follow roughly the same reading agenda. Anybody is invited to attend one or more of the group sessions by their preference.
 
 Here are the new groups that we set at the beginning of 2023 (in [UTC time zone](https://time.is/UTC)):
-* Group E: Wednesday 15:00-16:30 UTC
+* Group E: Wednesday 12:00-15:30 UTC
 * Group F: Saturday 13:00-14:30 UTC
 * Group G: Saturday 18:30-20:00 UTC
 
