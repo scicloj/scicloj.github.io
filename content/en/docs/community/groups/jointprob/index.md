@@ -3,7 +3,7 @@ title : "Jointprob: a probabilistic modeling and Bayesian statistics study commu
 description: "Probabilistic modeling and Bayesian Statistics study community"
 lead: ""
 date: 2022-02-28
-lastmod: 2023-03-22
+lastmod: 2023-03-31
 draft: false
 images: []
 ---
@@ -102,9 +102,8 @@ Our regular sessions take place in groups.
 All groups meet every 2 weeks and follow roughly the same reading agenda. Anybody is invited to attend one or more of the group sessions by their preference.
 
 Here are the new groups that we set at the beginning of 2023 (in [UTC time zone](https://time.is/UTC)):
-* Group E: Wednesday 12:00-15:30 UTC
-* Group F: Saturday 13:00-14:30 UTC
-* Group G: Saturday 18:30-20:00 UTC
+* Group E: Wednesday 14:00-15:30 UTC
+* Group G: Saturday 16:30-18:00 UTC
 
 ## Recordings
 
