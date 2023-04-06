@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2022-12-02
+lastmod: 2023-04-07
 draft: false
 weight: 33
 images: []
@@ -53,6 +53,7 @@ The visual tools group is about creating collaborations across differnent toolin
 - [Oct. 14th, 2022](https://www.youtube.com/watch?v=0ucSNPVKVyc) - interactive visualizations: Shiny, Clojurescript Bayesian animations
 - [Oct. 23th, 2022](https://www.youtube.com/watch?v=JSMcK5strRo) - knowledge management with play.teod.eu, a common ground for notes with Kindly
 - [Nov. 27th, 2022](https://www.youtube.com/watch?v=5x6SQGGWap8) - Calva Notebooks & Portal
+- [Apr. 1sy, 2023](https://www.youtube.com/watch?v=OwcoAbsJP8g) - various updates
 
 ### ml-study
 The ml-study group (on hold as of Feb. 2022) is about practicing the usage of the emerging Clojure data science stack. Most of its recordings have been shared internally at the Zulip chat. One of them was made public.
