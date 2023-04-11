@@ -3,7 +3,7 @@ title : "Jointprob: a probabilistic modeling and Bayesian statistics study commu
 description: "Probabilistic modeling and Bayesian Statistics study community"
 lead: ""
 date: 2022-02-28
-lastmod: 2023-04-08
+lastmod: 2023-04-11
 draft: false
 images: []
 ---
@@ -42,6 +42,7 @@ Also, you are always invited to [write to us](./#contact).
 * 2023-03-8/11: Bayesian Modeling and Computation [chapter 1](https://bayesiancomputationbook.com/markdown/chp_01.html#): exercises and [section 1.4](https://bayesiancomputationbook.com/markdown/chp_01.html#a-few-options-to-quantify-your-prior-information) (priors)
 * 2023-03-22/25: Bayesian Modeling and Computation [chapter 2](https://bayesiancomputationbook.com/markdown/chp_02.html)
 * 2023-04-05/08: Bayesian Modeling and Computation [chapter 2](https://bayesiancomputationbook.com/markdown/chp_02.html), mostly [section 2.5](https://bayesiancomputationbook.com/markdown/chp_02.html#model-comparison)
+* 2023-18-21/08: Bayesian Modeling and Computation [chapter 3](https://bayesiancomputationbook.com/markdown/chp_03.html)
 
 ### Our past journey: Statistical Rethinking
 
