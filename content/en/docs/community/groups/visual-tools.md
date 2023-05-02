@@ -3,7 +3,7 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2023-04-07
+lastmod: 2023-05-02
 draft: false
 images: []
 ---
@@ -14,6 +14,7 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 
 
 
+* Meeting 18 (May 27th 2023): various updates - [event](https://clojureverse.org/t/visual-tools-meeting-18-various-updates/)
 * Meeting 17 (April 1st 2023): various updates - [summary & video](https://clojureverse.org/t/visual-tools-meeting-17-various-updates-summary-recording/)
 * Meeting 16 (Nov. 19th 2022): Calva Notebooks and Portal - [summary & video](https://clojureverse.org/t/visual-tools-meeting-16-calva-notebooks-portal-summary-recording/)
 * Meeting 15 (Oct. 23th 2022): a common ground for notes with Kindly - [summary & video](https://clojureverse.org/t/visual-tools-meeting-15-summary-recording-play-teod-eu-kindly/)
