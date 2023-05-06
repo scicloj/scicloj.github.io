@@ -1,5 +1,5 @@
 ---
-title: "real-world-data: discussions of real-world data problems"
+title: "real-world-data: ongoing discussions of data and science projects"
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-17
