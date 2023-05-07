@@ -1,9 +1,9 @@
 ---
-title: "real-world-data: ongoing discussions of data and science projects"
+title: "real-world-data: a space to discuss your data and science projects in Clojure"
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-17
-lastmod: 2023-05-06
+lastmod: 2023-05-07
 draft: false
 images: []
 ---
