@@ -15,7 +15,7 @@ This group will be a space for individuals, companies, academic groups, and orga
 It should be a safe space that would be comfortable for sharing successes, troubles, problems, hopes, and doubts. We want it to be useful for those who use mostly Clojure and for those who are curious but doubtful.
 
 ## Sessions
-As a group, we will have biweekly sessions to discuss our ongoing projects. Participants will bring their own data & science to the sessions and actively work on them between sessions.
+As a group, we will have biweekly sessions to discuss our ongoing projects. Participants will bring their own data & science problems to the sessions and actively work on them between sessions.
 
 Some of the time will be dedicated to learning relevant practices, ideas, and technical topics.
 
@@ -29,7 +29,7 @@ Most of the recordings will not be shared publicly but rather internally as a to
 ## Participating
 If you wish to use Clojure for a data or science project and prefer not to be alone in that journey, this group is possibly for you.
 
-We assume that you plan to attend most of the biweekly sessions and work on your project between them. We will also assume that you either know some Clojure or have a serious intention to learn it.
+We will assume that you plan to attend most of the biweekly sessions and work on your project between them. We will also assume that you either know some Clojure or have a serious intention to learn it.
 
 To join, please reach out to us, and we will think together about whether this group fits your path.
 
