@@ -10,6 +10,5 @@ images: []
 
 Some parts of the Scicloj activity are driven by regular meetings in various groups.
 
-![parentheses](parens.jpg)
 
 
