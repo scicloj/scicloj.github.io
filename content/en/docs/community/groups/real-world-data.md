@@ -12,7 +12,7 @@ The real-world-data group is about the use of Clojure for data and science probl
 ## Goal
 This group will be a space for individuals, companies, academic groups, and organizations to share their experiences and support each other in using Clojure for data & science projects. Data analytics, machine learning, AI, data engineering, scientific computing, and data visualization are all welcome.
 
-It should be a safe space that would be comfortable for sharing successes, troubles, problems, hopes, and doubts. We want it to be useful for those who use mostly Clojure and for those who are curious but doubtful.
+It should be a safe space that would be comfortable for sharing successes, troubles, problems, hopes, and doubts. We want it to be helpful for those who use mostly Clojure and for those who are curious but doubtful.
 
 ## Participating
 If you wish to use Clojure for a data or science project and prefer not to be alone in that journey, this group is possibly for you.
