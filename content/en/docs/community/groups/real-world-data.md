@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-17
-lastmod: 2023-05-07
+lastmod: 2023-05-14
 draft: false
 images: []
 ---
@@ -39,5 +39,5 @@ The group will use [the Clojurians Zulip chat](../../chat). Specifically, the [#
 
 ## Schedule
 * Feb. 25th 2022 - two special sessions we had a while back - [announcement](https://clojureverse.org/t/real-world-data-meetup-1/) (recorded but never published)
-* June 2023 - starting the group's regular path - TBA
+* late June 2023 - starting the group's regular path - TBA
 
