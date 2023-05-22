@@ -3,7 +3,7 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2023-05-02
+lastmod: 2023-05-22
 draft: false
 images: []
 ---
@@ -12,8 +12,7 @@ The goal of this group is to create collaborations in learning and building Cloj
 
 The authors of several actively developed tools are involved (Chlorine, Clover, Calva and its Notebooks, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, Clerk, Klipse, etc.).
 
-
-
+* Meeting 19 (July 7th 2023): Electric - [event](https://clojureverse.org/t/visual-tools-meeting-19-electric-login-for-details/) (log in to Clojureverse to view)
 * Meeting 18 (May 27th 2023): various updates - [event](https://clojureverse.org/t/visual-tools-meeting-18-various-updates/) (log in to Clojureverse to view)
 * Meeting 17 (April 1st 2023): various updates - [summary & video](https://clojureverse.org/t/visual-tools-meeting-17-various-updates-summary-recording/)
 * Meeting 16 (Nov. 19th 2022): Calva Notebooks and Portal - [summary & video](https://clojureverse.org/t/visual-tools-meeting-16-calva-notebooks-portal-summary-recording/)
