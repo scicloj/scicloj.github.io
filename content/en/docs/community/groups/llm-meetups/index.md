@@ -8,8 +8,8 @@ draft: false
 images: []
 ---
 
+![gpt pretending to be joyful](joy.jpg)
 
----------------------------------
 The goal of this series of meetups is to support our learning, as a community, of the new landscape of ideas around large language models.
 
 We are also considering organizing a more systematic study group that will meet regularly around these topics. For now, this is just a series of mostly self-contained public meetups.
