@@ -31,12 +31,13 @@ Most meetings will be recorded and shared publicly.
 
 * Use of LLMs
   * 2022-04-01, [a short demo](https://www.youtube.com/watch?v=OwcoAbsJP8g&t=3095) in [meeting 17](https://clojureverse.org/t/visual-tools-meeting-17-various-updates-summary-recording/9928) of the [visual-tools group](https://scicloj.github.io/docs/community/groups/visual-tools/)
-  * Matthew Downey presented [rendergpt](https://github.com/matthewdowney/rendergpt).
+     * Matthew Downey presented [rendergpt](https://github.com/matthewdowney/rendergpt).
 
 * NLP (not LLMs)
   * 2022-09-10, NLP study session 1 - [summary & video](https://clojureverse.org/t/nlp-in-clojure-session-1-summary-recording/): 
     * Dimid Duchovny gave an intro to Linguistics.
     * Daniel Slutsky demosntrated using [spaCy](https://spacy.io/) from Clojure for text classification.
+    * Carsten Behring added some comments about the broader picture of interop and machine learning in Clojure.
   * 2022-10-30, NLP study session 2: Predict real vs. fake disaster tweets with DVC, Clojure and Python - [summary & video](https://clojureverse.org/t/nlp-in-clojure-session-2-summary-recording-clojure-python-dvc-metamorph/)
     * João Santiago gave a short intro intro to [DVC](https://dvc.org/),
     * Carsten Behring demonstrated of a real-world NLP pipeine and discussed some promising directions in building machine-learning pipelines with DVC, Clojure, Python, and [Metamorph](https://github.com/scicloj/metamorph) / [scicloj.ml](https://github.com/scicloj/scicloj.ml).
