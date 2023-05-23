@@ -15,9 +15,9 @@ We are also considering organizing a more systematic study group that will meet 
 Some of the content here is specific to the Clojure ecosystem (e.g., discussing the use of LLMs from Clojure), but many parts of it could be helpful and interesting to broader audiences.
 
 ## Meetings
-* 2023-05-26, Intro to LLMs by Martynas Maciulevičius - [event](https://clojureverse.org/t/scicloj-llm-meetup-1-introduction-login-for-details/): an overview of the topic, introducing a few of the basic ideas behind LLMs and demonstrating some of the practices of prompt engineering.
-* TBA (soon), LLMOps with [Bosquet](https://github.com/zmedelis/bosquet) by Žygimantas Medelis (assuming some familiarity with LLMs)
-* TBA, architecture, ideas and ideas behind transformer-based models by Dimid Duchovny
+* 2023-05-26, Intro to LLMs - by Martynas Maciulevičius - [event](https://clojureverse.org/t/scicloj-llm-meetup-1-introduction-login-for-details/): an overview of the topic, introducing a few of the basic ideas behind LLMs and demonstrating some of the practices of prompt engineering.
+* TBA (soon), LLMOps with [Bosquet](https://github.com/zmedelis/bosquet) - by Žygimantas Medelis (assuming some familiarity with LLMs)
+* TBA, transformer-based models - architecture, ideas and practices - by Dimid Duchovny
 
 ## Recordings
 Most meetings will be recorded and shared publicly. 
