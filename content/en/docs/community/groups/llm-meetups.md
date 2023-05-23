@@ -36,7 +36,7 @@ Here we list a few exciting projects that various Clojure groups and individuals
 ## Related past meetups
 
 * Use of LLMs
-  * 2022-04-01, [a short demo](https://www.youtube.com/watch?v=OwcoAbsJP8g&t=3095) in [meeting 17](https://clojureverse.org/t/visual-tools-meeting-17-various-updates-summary-recording/9928) of the [visual-tools group](https://scicloj.github.io/docs/community/groups/visual-tools/)
+  * 2023-04-01, [a short demo](https://www.youtube.com/watch?v=OwcoAbsJP8g&t=3095) in [meeting 17](https://clojureverse.org/t/visual-tools-meeting-17-various-updates-summary-recording/9928) of the [visual-tools group](https://scicloj.github.io/docs/community/groups/visual-tools/)
      * Matthew Downey presented [rendergpt](https://github.com/matthewdowney/rendergpt).
 * NLP (not LLMs)
   * 2022-09-10, NLP study session 1 - [summary & video](https://clojureverse.org/t/nlp-in-clojure-session-1-summary-recording/)
