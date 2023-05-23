@@ -27,14 +27,19 @@ Most meetings will be recorded and shared publicly.
 ### Clojure activity around LLMs
 * At the [#clojurellm](https://clojurians.slack.com/archives/C054XC5JVDZ) channel in the Clojurians Slack, a group of Clojurians is working on helping LLMs to understand Clojure.
 * [Ryan Robitaille](https://twitter.com/ryrobes) has been sharing experiments connecting LLMs to dataflow UIs (Rabbit Remix).
-* Matthew Downey created [rendergpt](https://github.com/matthewdowney/rendergpt), a Chrome extension for rendering structured output from ChatGPT interactively.
+* Matthew Downey has created [rendergpt](https://github.com/matthewdowney/rendergpt), a Chrome extension for rendering structured output from ChatGPT interactively.
 
 ### Related past meetups
 
 #### Using LLMs
-* 2022-04-01, [a short demo](https://www.youtube.com/watch?v=OwcoAbsJP8g&t=3095) in [meeting 17](https://clojureverse.org/t/visual-tools-meeting-17-various-updates-summary-recording/9928) of the [visual-tools group](https://scicloj.github.io/docs/community/groups/visual-tools/) - Matthew Downey presented [rendergpt](https://github.com/matthewdowney/rendergpt).
+* 2022-04-01, [a short demo](https://www.youtube.com/watch?v=OwcoAbsJP8g&t=3095) in [meeting 17](https://clojureverse.org/t/visual-tools-meeting-17-various-updates-summary-recording/9928) of the [visual-tools group](https://scicloj.github.io/docs/community/groups/visual-tools/)
+  * Matthew Downey presented [rendergpt](https://github.com/matthewdowney/rendergpt).
 
 #### NLP (not LLMs)
-* 2022-09-10, NLP study session 1 - [summary & video](https://clojureverse.org/t/nlp-in-clojure-session-1-summary-recording/): Dimid Duchovny gave an intro to linguistics by; Daniel Slutsky demosntrated using [spaCy](https://spacy.io/) from Clojure for text classification.
-* 2022-10-30, NLP study session 2: Predict real vs. fake disaster tweets with DVC, Clojure and Python - [summary & video](https://clojureverse.org/t/nlp-in-clojure-session-2-summary-recording-clojure-python-dvc-metamorph/): João Santiago gave a short intro intro to [DVC](https://dvc.org/); Carsten Behring demonstrated of a real-world NLP pipeine and discussed some promising directions in building machine-learning pipelines with DVC, Clojure, Python, and [Metamorph](https://github.com/scicloj/metamorph) / [scicloj.ml](https://github.com/scicloj/scicloj.ml).
+* 2022-09-10, NLP study session 1 - [summary & video](https://clojureverse.org/t/nlp-in-clojure-session-1-summary-recording/): 
+  * Dimid Duchovny gave an intro to Linguistics.
+  * Daniel Slutsky demosntrated using [spaCy](https://spacy.io/) from Clojure for text classification.
+* 2022-10-30, NLP study session 2: Predict real vs. fake disaster tweets with DVC, Clojure and Python - [summary & video](https://clojureverse.org/t/nlp-in-clojure-session-2-summary-recording-clojure-python-dvc-metamorph/)
+  * João Santiago gave a short intro intro to [DVC](https://dvc.org/),
+  * Carsten Behring demonstrated of a real-world NLP pipeine and discussed some promising directions in building machine-learning pipelines with DVC, Clojure, Python, and [Metamorph](https://github.com/scicloj/metamorph) / [scicloj.ml](https://github.com/scicloj/scicloj.ml).
 
