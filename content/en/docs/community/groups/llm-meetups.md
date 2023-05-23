@@ -27,6 +27,8 @@ Most meetings will be recorded and shared publicly.
   * by Dimid Duchovny
 
 ## Clojure activity around LLMs
+Here we list a few exciting projects that various Clojure groups and individuals have been working on.
+
 * At the [#clojurellm](https://clojurians.slack.com/archives/C054XC5JVDZ) channel in the Clojurians Slack, a group of Clojurians is working on helping LLMs understand Clojure. This channel has been very active in sharing various relevant updates about the LLMs landscape.
 * [Ryan Robitaille](https://twitter.com/ryrobes) has been sharing experiments connecting LLMs to dataflow UIs (Rabbit Remix).
 * Matthew Downey has created [rendergpt](https://github.com/matthewdowney/rendergpt), a Chrome extension for rendering structured output from ChatGPT interactively.
