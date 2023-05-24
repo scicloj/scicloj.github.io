@@ -3,7 +3,7 @@ title : "scicloj-llm-meetups: public meetings exploring the princples and use of
 description: "Scicloj LLM meetups"
 lead: ""
 date: 2022-05-23
-lastmod: 2023-05-23
+lastmod: 2023-05-24
 draft: false
 images: []
 ---
@@ -20,8 +20,10 @@ Some of the content here is specific to the Clojure ecosystem (e.g., discussing 
 Most meetings will be recorded and shared publicly. 
 
 * 2023-05-26, Intro to LLMs - [event](https://clojureverse.org/t/scicloj-llm-meetup-1-introduction-login-for-details/)
-  * Martynas Maciulevičius will provide an overview of the topic, introducing a few of the basic ideas behind LLMs and demonstrating some of the practices of prompt engineering.
-* TBA (soon), LLMOps with [Bosquet](https://github.com/zmedelis/bosquet)
+  * Martynas Maciulevičius will provide an overview of the topic, introducing a few of the basic ideas behind LLM
+* TBA (June), Intro to prompt engineering
+  * (speaker TBD) We will practices some of the common methods of prompt engineering, probably from Clojure.
+* TBA (June), LLMOps with [Bosquet](https://github.com/zmedelis/bosquet)
   * Žygimantas Medelis will present Bosquet, dive in a bit into its internals (e.g., the use of Slemer and Pathom), and discuss future directions. Some familiarity with LLMs will be assumed (e.g., the previous Intro meeting).
 * TBA, transformer-based models - architecture, ideas and practices
   * by Dimid Duchovny
