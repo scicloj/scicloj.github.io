@@ -24,7 +24,7 @@ Most meetings will be recorded and shared publicly.
 * 2023-06-16, Intro to prompt engineering
   * Irfan Nurhadi Satria and Danel Slutsky will demonstrate some of the common methods of prompt engineering from Clojure.
 * 2023-06-17, LLMOps with [Bosquet](https://github.com/zmedelis/bosquet)
-  * Žygimantas Medelis will present Bosquet, dive in a bit into its internals (e.g., the use of Slemer and Pathom), and discuss future directions. Some familiarity with LLMs will be assumed (e.g., the previous Intro meeting).
+  * Žygimantas Medelis will present Bosquet, dive in a bit into its internals (e.g., the use of Slemer and Pathom), and discuss future directions. Some familiarity with LLMs will be assumed (e.g., the content of the previous meetings).
 * TBA, transformer-based models - architecture, ideas and practices
   * by Dimid Duchovny
 
