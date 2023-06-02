@@ -19,8 +19,8 @@ Some of the content here is specific to the Clojure ecosystem (e.g., discussing 
 ## Meetings
 Most meetings will be recorded and shared publicly. 
 
-* 2023-05-26, Intro to LLMs - :calendar: [event](https://clojureverse.org/t/scicloj-llm-meetup-1-introduction-login-for-details/)
-  * Martynas Maciulevičius will provide an overview of the topic, introducing a few of the basic ideas behind LLM
+* 2023-05-26, Intro to LLMs - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-llm-meetup-1-introduction-summary-recording/10098)
+  * Martynas Maciulevičius provided an overview of the topic, introducing a few of the basic ideas behind LLM.
 * 2023-06-16, Intro to prompt engineering - :calendar: [event](https://clojureverse.org/t/scicloj-llm-meetup-2-prompt-engineering-login-for-details/)
   * Irfan Nurhadi Satria and Danel Slutsky will demonstrate some of the common methods of prompt engineering from Clojure.
 * 2023-06-17, LLMOps with [Bosquet](https://github.com/zmedelis/bosquet) - :calendar: [event](https://clojureverse.org/t/scicloj-llm-meetup-3-bosquet-login-for-details/)
