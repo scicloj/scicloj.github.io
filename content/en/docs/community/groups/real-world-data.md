@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-17
-lastmod: 2023-06-18
+lastmod: 2023-06-19
 draft: false
 images: []
 ---
@@ -11,6 +11,7 @@ The real-world-data group is about the use of Clojure for data and science probl
 
 :star: The current plan is tentative. Updates will be announced soon. :star:
 
+Your intial feedback at [the survey](https://docs.google.com/forms/d/e/1FAIpQLSeAVDb4NotQKgG7fAdHWDWW94sK4TRL10QACXErX1LNH535Kg/viewform?usp=pp_url) will help a lot in our planning.
 
 ## Goal
 This group will be a space for individuals, companies, academic groups, and organizations to share their experiences and support each other in using Clojure for data & science projects. Data analytics, machine learning, AI, data engineering, scientific computing, and data visualization are all welcome.
