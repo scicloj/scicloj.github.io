@@ -9,7 +9,7 @@ images: []
 ---
 The real-world-data group is about the use of Clojure for data and science problems.
 
-:star: The current plan is tentative. Updates may be announced soon. :star:
+:star: The current plan is tentative. Updates will be announced soon. :star:
 
 
 ## Goal
