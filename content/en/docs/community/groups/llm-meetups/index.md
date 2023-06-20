@@ -19,6 +19,16 @@ Some of the content here is specific to the Clojure ecosystem (e.g., discussing 
 ## Meetings
 Most meetings will be recorded and shared publicly. 
 
+* #1 2023-05-26, Intro to LLMs - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-llm-meetup-1-introduction-summary-recording/10098)
+  * Martynas Maciulevičius provided an overview of the topic, introducing a few of the basic ideas behind LLM.
+
+* #2 2023-06-16, Intro to prompt engineering - :calendar: [event](https://clojureverse.org/t/scicloj-llm-meetup-2-prompt-engineering-login-for-details/) - recording coming soon
+  * Irfan Nurhadi Satria demonstrated some of the common methods of prompt engineering from Clojure.
+  * Daniel Slutsky added a brief introduction to the use of embeddings and vector databases.
+
+* #3 2023-06-17, LLMOps with [Bosquet](https://github.com/zmedelis/bosquet) - :calendar: [event](https://clojureverse.org/t/scicloj-llm-meetup-3-bosquet-login-for-details/) - recording coming soon
+  * Žygimantas Medelis presented Bosquet, dived in a bit into its internals (e.g., the use of Slemer and Pathom), and discussed future directions.
+
 * #4 2023-06-30, Architectures and ideas behind transformer-based generative LLMs - :calendar: [event](https://clojureverse.org/t/scicloj-llm-meetup-4-architectures-and-ideas-behind-transformer-based-generative-llms/)
   * Dimid Duchovny will explain some of the concepts behind LLM services:
     * self-attention as a mechanism to capture dependencies and relationships within data
@@ -29,16 +39,6 @@ Most meetings will be recorded and shared publicly.
     * a detailed look into the OpenAI API and its various parameters
   * Daniel Slutsky will briefly demonstrate performing such tasks from Clojure.
   * Some familiarity with Python will be assumed. Clojure is not required.
-
-* #3 2023-06-17, LLMOps with [Bosquet](https://github.com/zmedelis/bosquet) - :calendar: [event](https://clojureverse.org/t/scicloj-llm-meetup-3-bosquet-login-for-details/) - recording coming soon
-  * Žygimantas Medelis presented Bosquet, dived in a bit into its internals (e.g., the use of Slemer and Pathom), and discussed future directions.
-
-* #2 2023-06-16, Intro to prompt engineering - :calendar: [event](https://clojureverse.org/t/scicloj-llm-meetup-2-prompt-engineering-login-for-details/) - recording coming soon
-  * Irfan Nurhadi Satria demonstrated some of the common methods of prompt engineering from Clojure.
-  * Daniel Slutsky added a brief introduction to the use of embeddings and vector databases.
-
-* #1 2023-05-26, Intro to LLMs - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-llm-meetup-1-introduction-summary-recording/10098)
-  * Martynas Maciulevičius provided an overview of the topic, introducing a few of the basic ideas behind LLM.
 
 # Clojure activity around LLMs
 Here we list a few exciting projects that various Clojure groups and individuals have been working on.
