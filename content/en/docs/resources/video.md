@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2023-06-02
+lastmod: 2023-06-21
 draft: false
 weight: 33
 images: []
@@ -59,7 +59,8 @@ The visual tools group is about creating collaborations across differnent toolin
 ### llm meetups
 The goal of this series of meetups is to support our learning, as a community, of the new landscape of ideas around large language models.
 - [May 26th, 2023](https://www.youtube.com/watch?v=sap3Z-LpNjY) - Introduction
-
+- [June 16th, 2023](https://www.youtube.com/watch?v=uhRnCfWSA9Y) - Prompt engineering and managing embeddings
+- [June 17th, 2023](https://www.youtube.com/watch?v=NNDThiZqe70) - LLMOps with Bosquet
 
 ### ml-study
 The ml-study group (on hold as of Feb. 2022) is about practicing the usage of the emerging Clojure data science stack. Most of its recordings have been shared internally at the Zulip chat. One of them was made public.
