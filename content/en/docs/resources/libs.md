@@ -1,7 +1,7 @@
 ---
 title : "Tools and libraries"
-description: "Clojure tools and libraries for data-centric computing"
-lead: "Clojure tools and libraries for data-centric computing"
+description: "Clojure tools and libraries for data and science"
+lead: "Clojure tools and libraries for data and science"
 date: 2022-02-14
 lastmod: 2022-07-09
 draft: false
