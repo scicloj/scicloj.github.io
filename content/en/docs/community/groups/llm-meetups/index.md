@@ -29,7 +29,7 @@ Most meetings will be recorded and shared publicly.
 * #3 2023-06-17, LLMOps with [Bosquet](https://github.com/zmedelis/bosquet) - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-llm-meetup-3-llmops-with-bosquet-summary-recording/)
   * Žygimantas Medelis discussed the currently emerging tooling ecosystem and then presented Bosquet, dived in a bit into its internals (e.g., the use of Slemer and Pathom), and discussed future directions.
 
-* #4 2023-07-14, Architectures and ideas behind transformer-based generative LLMs - :calendar: [event](https://clojureverse.org/t/scicloj-llm-meetup-4-architectures-and-ideas-behind-transformer-based-generative-llms/)
+* #4 2023-07-14 (:star: note the date change :star:), Architectures and ideas behind transformer-based generative LLMs - :calendar: [event](https://clojureverse.org/t/scicloj-llm-meetup-4-architectures-and-ideas-behind-transformer-based-generative-llms/)
   * Dimid Duchovny will explain some of the concepts behind LLM services:
     * self-attention as a mechanism to capture dependencies and relationships within data
     * training processes - from unsupervised pre-training to RLHF
