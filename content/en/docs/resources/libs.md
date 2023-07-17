@@ -147,7 +147,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 ### Deep learning
 - [Deep Diamond](https://github.com/uncomplicate/deep-diamond) :star: (`act`): `dnn`,`gpu`,`native`,`tensor` - infrastructure for tensor computation and deep learning
 - [clj-djl](https://github.com/scicloj/clj-djl) :star: (`act`): `dnn`,`gpu`,`native`,`tensor` - a wrapper for the Deep Java Library
-- [MXNet](https://github.com/apache/incubator-mxnet/tree/master/contrib/clojure-package): `dnn` - bindings to Apache MXNet, a part of the MXNet project
+- [MXNet](https://mxnet.apache.org/api/clojure): `dnn` - bindings to Apache MXNet, a part of the MXNet project
 - [jutsu.ai](https://github.com/hswick/jutsu.ai): `dnn` - a wrapper for deeplearning4j
 - [Cortex](https://github.com/originrose/cortex): `dnn` - a deep learning library written in Clojure
 - [Flare](https://github.com/aria42/flare): `dnn` - dynamic neural networks in Clojure
