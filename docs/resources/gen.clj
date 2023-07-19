@@ -208,6 +208,10 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (map lib-line)
           (str/join "\n"))
 
+     "\n## Large Language Models and related services"
+     (->> (category-libs :large-language-models)
+          (map lib-line)
+          (str/join "\n"))
 
      "\n## Interop"
      (->> (category-libs :interop)

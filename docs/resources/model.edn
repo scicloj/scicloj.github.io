@@ -29,7 +29,8 @@
   {:tag/id "graph", :tag/description "graph algorithms and network analysis"}
   {:tag/id "interop", :tag/description "general libraries for interop"}
   {:tag/id "cljs", :tag/description "supports not only Clojure but also Clojurescript"}
-  {:tag/id "nlp", :tag/description "natural language processing"}]
+  {:tag/id "nlp", :tag/description "natural language processing"}
+  {:tag/id "llm", :tag/description "large language models and related services"}]
 
  :teodorlu/questions [
                       ;; I'm having a bit of a hard time understanding the motivation between having both the star
@@ -724,6 +725,50 @@
     :star :star,
     :description "a Clojure wrapper for Stanford CoreNLP"})
 
+  ;; Large language models and related services
+  (
+   {:lib/name "Bosquet",
+    :lib/url "https://github.com/zmedelis/bosquet",
+    :lib/category :large-language-models,
+    :tags #{:act :llm},
+    :star :star,
+    :description "LLMOps for Large Language Model based applications"}
+   {:lib/name "openai-clojure",
+    :lib/url "https://github.com/wkok/openai-clojure",
+    :lib/category :large-language-models,
+    :tags #{:act :llm},
+    :star :star,
+    :description "A wrapper of the [OpenAI API](https://platform.openai.com/docs/introduction) and [Azure OpenAI API](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference)"}
+   {:lib/name "openai-api",
+    :lib/url "https://github.com/pmatiello/openai-api",
+    :lib/category :large-language-models,
+    :tags #{:act :llm},
+    :star :star,
+    :description "A wrapper of the [OpenAI API](https://platform.openai.com/docs/introduction)"}
+   {:lib/name "multi-gpt",
+    :lib/url "https://github.com/cjbarre/multi-gpt",
+    :lib/category :large-language-models,
+    :tags #{:act :llm},
+    :star :star,
+    :description "A wrapper of the Open AI GPT Chat API with conversational memory and WIP agents support"}
+   {:lib/name "vald-client-clj",
+    :lib/url "https://github.com/vdaas/vald-client-clj",
+    :lib/category :large-language-models,
+    :tags #{:act :llm},
+    :star :star,
+    :description "A gRPC client library for the [Vald](https://github.com/vdaas/vald) distributed vector database"}
+   {:lib/name "chroma-clj",
+    :lib/url "https://github.com/TristeFigure/chroma-clj",
+    :lib/category :large-language-models,
+    :tags #{:act :llm},
+    :star :star,
+    :description "An interface to the [ChromaDB](https://docs.trychroma.com/) vector database"}
+   {:lib/name "clojurellm-data",
+    :lib/url "https://github.com/ruped/clojurellm-data",
+    :lib/category :large-language-models,
+    :tags #{:act :llm},
+    :star :star,
+    :description "Dataset curation for fine tuning an LLM for Clojure"})
   ;; Interop
   ({:lib/name "Libpython-clj",
     :lib/url "https://github.com/clj-python/libpython-clj",
