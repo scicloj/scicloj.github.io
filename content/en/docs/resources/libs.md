@@ -196,6 +196,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 ## Large Language Models and related services
 - [Bosquet](https://github.com/zmedelis/bosquet) :star: (`act`): `llm` - LLMOps for Large Language Model based applications
+- [llama.clj](https://github.com/phronmophobic/llama.clj) :star: (`act`): `llm` - A wrapper of [llama.cpp](https://github.com/ggerganov/llama.cpp)
 - [openai-clojure](https://github.com/wkok/openai-clojure) :star: (`act`): `llm` - A wrapper of the [OpenAI API](https://platform.openai.com/docs/introduction) and [Azure OpenAI API](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference)
 - [openai-api](https://github.com/pmatiello/openai-api) :star: (`act`): `llm` - A wrapper of the [OpenAI API](https://platform.openai.com/docs/introduction)
 - [multi-gpt](https://github.com/cjbarre/multi-gpt) :star: (`act`): `llm` - A wrapper of the Open AI GPT Chat API with conversational memory and WIP agents support
