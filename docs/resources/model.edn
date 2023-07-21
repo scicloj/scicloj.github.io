@@ -733,6 +733,12 @@
     :tags #{:act :llm},
     :star :star,
     :description "LLMOps for Large Language Model based applications"}
+   {:lib/name "llama.clj",
+    :lib/url "https://github.com/phronmophobic/llama.clj",
+    :lib/category :large-language-models,
+    :tags #{:act :llm},
+    :star :star,
+    :description "A wrapper of [llama.cpp](https://github.com/ggerganov/llama.cpp)"}
    {:lib/name "openai-clojure",
     :lib/url "https://github.com/wkok/openai-clojure",
     :lib/category :large-language-models,
