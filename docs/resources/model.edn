@@ -518,7 +518,7 @@
     :description "a wrapper for the Deep Java Library"}
    {:lib/name "MXNet",
     :lib/url
-    "https://github.com/apache/incubator-mxnet/tree/master/contrib/clojure-package",
+    "https://mxnet.apache.org/api/clojure",
     :lib/category :deep-learning,
     :tags #{:dnn},
     :star nil,
