@@ -61,9 +61,15 @@ Reimplementing and exploring some of the paper's methods using [PyMC](https://ww
 **Time** 
 This session will be repeated twice:
 * [Wednesday, August 16th, 2pm UTC](https://time.is/14:00_16_Aug_2023_in_UTC)
-* [Saturday, August 26th, 4:30pm UTC](https://time.is/16:30_26_Aug_2023_in_UTC)
+* [Saturday, August 26th, 4:30pm UTC](https://time.is/16:30_26_Aug_2023_in_UTC**
 
 As usual, the lessons of the first session will probably result in further exploration and polish before the second one.
+
+**Length**
+The sessions will be 90 minutes long. Some of us may wish to stay afterwards and chat.
+
+**Recording**
+Some parts of the sessions are recorded and shared internally in the Zulip chat. Possibly, we will also share one of the sessions publicly.
 
 **Assumed Background**
 For this session, we will assume participants have familiarity with probabilistic programming in PyMC. We will also assume familiarity with core ideas of Bayesian Statistics, equivalent to Chapters 1,2,3,4 of [the Bayesian Computation book](https://bayesiancomputationbook.com/).  
