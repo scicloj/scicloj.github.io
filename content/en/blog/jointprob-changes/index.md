@@ -54,7 +54,7 @@ See more details and discussion of these plans at the community chat under the [
 
 The first session on this new journey will be a talk by David MacGillivray about Hierarchical Models.
 
-David, who has been presenting many of the topics on our reading journeys last year, as well as his own data modeling projects, will teach the topic  through an example from the paper [Bayesian hierarchical model for the prediction of football results](https://discovery.ucl.ac.uk/id/eprint/16040/1/16040.pdf) by Gianluca Baio and Marta A. Blangiardo. 
+David, who has been presenting many of the topics on our reading journeys last year, as well as his own data modeling projects, will teach the topic  through an example from the paper [Bayesian hierarchical model for the prediction of football results](https://discovery.ucl.ac.uk/id/eprint/16040/1/16040.pdf) by Gianluca Baio and Marta A. Blangiardo. :soccer:
 
 Reimplementing and exploring some of the paper's methods using [PyMC](https://www.pymc.io/) (version 5), David will demonstrate some of the joys, challenges, and practices of Hierarchical models. We will see a little bit of what might go wrong, as well as some common solutions.
 
