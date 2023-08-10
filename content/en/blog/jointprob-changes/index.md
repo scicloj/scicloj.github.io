@@ -2,14 +2,14 @@
 title: "The Jointprob community: changes on the agenda, and an upcoming talk about Bayesian Hierarchical Models"
 description: ""
 date: 2023-08-09
-lastmod: 2023-08-09
+lastmod: 2023-08-10
 draft: false
 weight: 40
 images: []
 contributors: ["daslu"]
 ---
 
-:star: **TL;DR:** In the coming weeks and months, the Jointprob community will organize standalone talks about topics in Bayesian Statistics and Probabilistic Modeling. The first one will be in August, by David MacGillivray, about Bayesian Hierarchical Models. :star:
+:star: **TL;DR:** In the coming weeks and months, the Jointprob community will organize standalone talks about topics in Bayesian Statistics and Probabilistic Modeling. [The first one](./#a-special-talk-bayesian-hierarchical-models-with-david-macgillivray) will be in August, by David MacGillivray, about Bayesian Hierarchical Models. :star:
 
 ---------------
 
