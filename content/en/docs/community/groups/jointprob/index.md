@@ -22,9 +22,7 @@ We wish to be inclusive to people of diverse backgrounds and thus create a commo
 
 ## Joining
 
-The beginning of 2023 would be great timing to join, as we are starting a new reading journey.
-
-Anyway, it is never too late to join us -- we will help you to catch up.
+It is never too late to join us -- we will help you to catch up.
 
 Please use the [Joining Jointprob form](https://bit.ly/joining-jointprob) to join the community, to be added to our calendar events, or to update your preferences and personal information.
 
@@ -32,7 +30,10 @@ Also, you are always invited to [write to us](./#contact).
 
 ## Schedule
 
-### Our current journey: Bayesian Modeling and Computation
+### Our current journey: standalone sessions
+* 2023-08-16/26: Hierarchical Models with David MacGillivray - [blog post](../../../../blog/the-jointprob-community-changes-on-the-agenda-and-an-upcoming-talk-about-bayesian-hierarchical-models/)
+
+### Our second reading journey: Bayesian Modeling and Computation
 
 * 2023-01-07: Bayesian Modeling and Computation: meeting the [book](https://bayesiancomputationbook.com/welcome.html)'s author [Ravin Kumar](https://ravinkumar.com/) and brainstorming our new reading journey -- see the [blog post](https://scicloj.github.io/blog/jointprob-in-2023-bayesian-modeling-and-computation-meeting-ravin-kumar/).
 * 2023-01-21: Discussing our reading plans
@@ -50,7 +51,7 @@ Also, you are always invited to [write to us](./#contact).
 * 2023-06-28/07-01: [chapter 8](https://bayesiancomputationbook.com/markdown/chp_08.html) of [Bayesian Modeling and Computation](https://bayesiancomputationbook.com/welcome.html)
 * 2023-07-12/15: [chapter 9](https://bayesiancomputationbook.com/markdown/chp_09.html) of [Bayesian Modeling and Computation](https://bayesiancomputationbook.com/welcome.html)
 
-### Our past journey: Statistical Rethinking
+### Our first reading journey: Statistical Rethinking
 
 * 2022-07-22, initial brainstorming - [event](https://bit.ly/jointprob-brainstorm-1)
 * 2022-08-06, prep meeting about R & Tidyverse - [event](https://clojureverse.org/t/ds4clj-prep-meeting-studying-a-bit-of-r-tidyverse/) (joint event with the [ds4clj course](../ds4clj)) 
@@ -66,7 +67,6 @@ Also, you are always invited to [write to us](./#contact).
 * 2022-12-7/9/10, Session 9: more about DAGs (section 6.4), chapter 7
 * 2022-12-24, Session 10: information theory & information criteria - reporting on personal reading 
 
-
 ### Calendar events
 Please refer to the [Joining](./#joining) section to join our calendar events.
 
@@ -80,45 +80,31 @@ You may wish to learn a little bit about the concepts of [Zulip streams and topi
 
 It would be wonderful to present yourself at the [personal intros](https://jointprob.zulipchat.com/#narrow/stream/331546-personal-intros) stream, preferably as a new topic thread.
 
-## Agenda
+## Past Agenda
+In the past, we have been meeting biweekly (in groups) to discuss our joint reading and projects.
 
-As a community, we go through a common path, reading a book together and looking into the relevant theories, methods, and technologies. We use diverse programming languages and libraries in our practice.
+Our joint reading journeys have been around the first half of [Statistical Rethinking](https://www.routledge.com/Statistical-Rethinking-A-Bayesian-Course-with-Examples-in-R-and-STAN/McElreath/p/book/9780367139919/) by Richard McElreath, and then around [Bayesian Modeling and Computation in Python](https://bayesiancomputationbook.com/welcome.html) by Osvaldo A. Martin, Ravin Kumar and Junpeng Lao.
 
-In parallel to the main path of learning, we are encouraging individual and small-group projects, that participants share and present in the sessions.
+<div style="height: 400px">
+<img src="statistical-rethinking.png" alt="statistical rethinking" height="100%"/>
+<img src="bayesian-modeling-and-computation.jpg" alt="Bayesian modeling and computation" height="100%"/>
+</div>
+<br>
 
-At the beginning of 2023, began reading [Bayesian Modeling and Computation in Python](https://bayesiancomputationbook.com/welcome.html) by Osvaldo A. Martin, Ravin Kumar and Junpeng Lao, possibly after a few preparation sessions for relevant background.
-
-Previously, we read the first half of [Statistical Rethinking](https://www.routledge.com/Statistical-Rethinking-A-Bayesian-Course-with-Examples-in-R-and-STAN/McElreath/p/book/9780367139919/) by Richard McElreath. This book has served an important role for this community, providing a friendly and inviting path for participants of diverse backgrounds.
-
-
-## Sessions
-
-We meet once in two weeks to learn together for 90 minutes.
-The beginning of a session is typically dedicated to following our main path of study (e.g., the current book chapter), with some hands-on exploration. Afterward, we share our progress with personal projects and explore further.
-
-In between those regular biweekly sessions, we encourage ad-hoc sessions to explore specialized topics or practice further.
+## Present Agenda
+Currently, we meet about once a month around standalone talks of various topics. We also encourage individual and small-group projects, that participants share and present in the sessions.
 
 ### Video platform
 
 For video meetings, we currently use Zoom. The link is shared in the [calendar events](./#calendar-events).
 
-## Groups
-
-Our regular sessions take place in groups. 
-
-All groups meet every 2 weeks and follow roughly the same reading agenda. Anybody is invited to attend one or more of the group sessions by their preference.
-
-Here are the new groups that we set at the beginning of 2023 (in [UTC time zone](https://time.is/UTC)):
-* Group E: Wednesday 14:00-15:30 UTC
-* Group FG: Saturday 16:30-18:00 UTC
-
 ## Recordings
 
-Some parts of the sessions are recorded and shared internally in the Zulip chat. Possibly, we will aslso share some recorded parts publicly.
+Some parts of the sessions are recorded and shared internally in the Zulip chat. Possibly, we will also share some recorded parts publicly.
 
 ## Projects
 
-Participants will take on projects as individuals or in small groups.
+Participants take on projects as individuals or in small groups.
 
 Example projects:
 * read an article and share it with the group
@@ -150,7 +136,6 @@ The following core principles are typical of Scicloj study groups.
 **Being active**. We encourage members to learn independently and take on projects. In a sense, its purpose is (also) to support those individual journeys.
 
 **Mutual curiosity**. We make serious efforts to be inclusive to participants of various backgrounds. The different perspectives of our friends are part of what we wish to learn.
-
 
 ## Contact
 
