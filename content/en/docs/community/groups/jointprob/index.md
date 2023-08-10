@@ -67,19 +67,6 @@ Also, you are always invited to [write to us](./#contact).
 * 2022-12-7/9/10, Session 9: more about DAGs (section 6.4), chapter 7
 * 2022-12-24, Session 10: information theory & information criteria - reporting on personal reading 
 
-### Calendar events
-Please refer to the [Joining](./#joining) section to join our calendar events.
-
-## Chat
-
-The community uses Zulip, an open-source chat platform. In some other groups we've been running, we've found it useful for chat, in-depth discussion threads, and knowledge management.
-
-Our Zulip organization is [jointprob.zulipchat.com](https://jointprob.zulipchat.com/).
-
-You may wish to learn a little bit about the concepts of [Zulip streams and topics](https://zulipchat.com/help/about-streams-and-topics). Note that all streams and topics (and even single messages) have URLs, that you can open at separate tabs in your browser.
-
-It would be wonderful to present yourself at the [personal intros](https://jointprob.zulipchat.com/#narrow/stream/331546-personal-intros) stream, preferably as a new topic thread.
-
 ## Past Agenda
 In the past, we have been meeting biweekly (in groups) to discuss our joint reading and projects.
 
@@ -94,7 +81,20 @@ Our joint reading journeys have been around the first half of [Statistical Rethi
 ## Present Agenda
 Currently, we meet about once a month around standalone talks of various topics. We also encourage individual and small-group projects, that participants share and present in the sessions.
 
-### Video platform
+## Calendar events
+Please refer to the [Joining](./#joining) section to join our calendar events.
+
+## Chat
+
+The community uses Zulip, an open-source chat platform. In some other groups we've been running, we've found it useful for chat, in-depth discussion threads, and knowledge management.
+
+Our Zulip organization is [jointprob.zulipchat.com](https://jointprob.zulipchat.com/).
+
+You may wish to learn a little bit about the concepts of [Zulip streams and topics](https://zulipchat.com/help/about-streams-and-topics). Note that all streams and topics (and even single messages) have URLs, that you can open at separate tabs in your browser.
+
+It would be wonderful to present yourself at the [personal intros](https://jointprob.zulipchat.com/#narrow/stream/331546-personal-intros) stream, preferably as a new topic thread.
+
+## Video platform
 
 For video meetings, we currently use Zoom. The link is shared in the [calendar events](./#calendar-events).
 
