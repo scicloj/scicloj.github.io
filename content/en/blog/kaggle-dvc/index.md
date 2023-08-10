@@ -121,4 +121,4 @@ It nicely structures the work and is able to track all assets.
 References:
 
 * [Kaggle  competition](https://www.kaggle.com/competitions/nlp-getting-started)
-* [full code](https://github.com/behrica/predict_disaster_tweet)
+* [full code](https://github.com/behrica/predict_disaster_tweet/tree/prepareDemo)
