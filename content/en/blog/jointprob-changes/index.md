@@ -59,9 +59,9 @@ David, who has been presenting many of the topics on our reading journeys last y
 Reimplementing and exploring some of the paper's methods using [PyMC](https://www.pymc.io/) (version 5), David will demonstrate some of the joys, challenges, and practices of Hierarchical models. We will see a little bit of what might go wrong, as well as some common solutions.
 
 **Time** 
-This session will be repeated twice:
+  * [ ] This session will be repeated twice, to welcome different time zones:
 * [Wednesday, August 16th, 2pm UTC](https://time.is/14:00_16_Aug_2023_in_UTC)
-* [Saturday, August 26th, 4:30pm UTC](https://time.is/16:30_26_Aug_2023_in_UTC**
+* [Saturday, August 26th, 4:30pm UTC](https://time.is/16:30_26_Aug_2023_in_UTC)
 
 As usual, the lessons of the first session will probably result in further exploration and polish before the second one.
 
