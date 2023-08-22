@@ -30,15 +30,8 @@ Most meetings will be recorded and shared publicly.
   * Žygimantas Medelis discussed the currently emerging tooling ecosystem and then presented Bosquet, dived in a bit into its internals (e.g., the use of Slemer and Pathom), and discussed future directions.
 
 * #4 2023-07-14 (:star: note the date change :star:), Architectures and ideas behind transformer-based generative LLMs - :calendar: [event](https://clojureverse.org/t/scicloj-llm-meetup-4-architectures-and-ideas-behind-transformer-based-generative-llms/)
-  * Dimid Duchovny will explain some of the concepts behind LLM services:
-    * self-attention as a mechanism to capture dependencies and relationships within data
-    * training processes - from unsupervised pre-training to RLHF
-    * the inference process
-  * Dimid will then cover additional practical topics:
-    * using LLMs locally from Python
-    * a detailed look into the OpenAI API and its various parameters
-  * Daniel Slutsky will briefly demonstrate performing such tasks from Clojure.
-  * Some familiarity with Python will be assumed. Clojure is not required.
+  * Dimid Duchovny briefly overviewed the history of LLM models and explained some of the core ideas behind them..
+  * Then, he demisntrated using LLMs locally from Python, as well as through the OpenAI API.
 
 # Clojure activity around LLMs
 Here we list a few exciting projects that various Clojure groups and individuals have been working on.
