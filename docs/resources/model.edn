@@ -739,6 +739,12 @@
     :tags #{:act :llm},
     :star :star,
     :description "A wrapper of [llama.cpp](https://github.com/ggerganov/llama.cpp)"}
+   {:lib/name "cohere-clojure",
+    :lib/url "https://github.com/danielsz/cohere-clojure",
+    :lib/category :large-language-models,
+    :tags #{:act :llm},
+    :star :star,
+    :description "An Unofficial port of the [Cohere](https://docs.cohere.com/docs) SDK"}
    {:lib/name "openai-clojure",
     :lib/url "https://github.com/wkok/openai-clojure",
     :lib/category :large-language-models,
