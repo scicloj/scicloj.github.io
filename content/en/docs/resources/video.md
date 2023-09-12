@@ -67,6 +67,11 @@ The ml-study group (on hold as of Feb. 2022) is about practicing the usage of th
 
 - [Feb 28th 2021, 19:00 UTC](https://time.is/1900_28_Feb_2021_in_UTC/) - a public sessoin of the ml-study group about [Notespace](https://github.com/scicloj/notespace) and [Hanami](https://github.com/jsa-aerial/hanami) - [video](https://youtu.be/2tGk1Jh7dJs)
 
+### jointprob
+[Jointprob](https://scicloj.github.io/docs/community/groups/jointprob/) is a study community for Bayesian statistics and probabilistic modelling, initiated by Scicloj.
+Most of its meetings have been recorded and shared internally. Some meetings are shared publicly.
+- [Aug 26th 2023](https://www.youtube.com/watch?v=4VqGvR2fb-Q) - Hierarchical Models with David MacGillivray
+
 ## Scicloj talks
 
 ### 2021
