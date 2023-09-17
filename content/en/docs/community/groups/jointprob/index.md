@@ -32,7 +32,7 @@ Also, you are always invited to [write to us](./#contact).
 
 ### Our current journey: standalone sessions
 * 2023-08-16/26: Hierarchical Models with David MacGillivray - [blog post](../../../../blog/the-jointprob-community-changes-on-the-agenda-and-an-upcoming-talk-about-bayesian-hierarchical-models/) - [video](https://www.youtube.com/watch?v=4VqGvR2fb-Q) :movie_camera:
-* 2023-09-20/30: Probability basics for Bayesian analysis - :star: details coming soon :star:
+* 2023-09-20/30: Probability basics for Bayesian analysis
 
 ### Our second reading journey: Bayesian Modeling and Computation
 
