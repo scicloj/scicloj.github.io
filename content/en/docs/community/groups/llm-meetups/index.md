@@ -34,6 +34,13 @@ Most meetings will be recorded and shared publicly.
   * Then, he demisntrated using LLMs locally from Python, as well as through the OpenAI API.
 
 * #5 2023-09-24, Library overviews and selected discussions - :calendar: [event](https://clojureverse.org/t/scicloj-llm-meetup-5-library-overviews-and-selected-discussions/)
+  * Projects on the agenda:
+    * Clojure LLM Project Update
+    * [multi-gpt](https://github.com/cjbarre/multi-gpt)
+    * [Cohere Clojure SDK](https://github.com/danielsz/cohere-clojure)
+    * [llama.clj](https://github.com/phronmophobic/llama.clj)
+    * [Bosquet](https://github.com/zmedelis/bosquet) updates
+
 
 
 # Clojure activity around LLMs
