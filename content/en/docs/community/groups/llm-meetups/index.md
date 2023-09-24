@@ -41,7 +41,11 @@ Most meetings will be recorded and shared publicly.
     * [llama.clj](https://github.com/phronmophobic/llama.clj)
     * [Bosquet](https://github.com/zmedelis/bosquet) updates
 
-
+* Upcoming meetups:
+  * Selected discussion topics
+  * Use cases and experiments -- short talks
+  * Bosquet deep-dive
+  * llamma.clj deep-dive
 
 # Clojure activity around LLMs
 Here we list a few exciting projects that various Clojure groups and individuals have been working on.
