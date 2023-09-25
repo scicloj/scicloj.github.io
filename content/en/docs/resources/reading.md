@@ -95,6 +95,7 @@ Of course, they allow us to share and learn existing methods and practices. No l
 
 - Clojure for Data Science by Henry Garner - a bit dated in terms of the stack it presents, but stll relevant in terms of the principles presented
 
+- [Practical Artificial Intelligence](https://leanpub.com/clojureai) by Mark Watson
 
 ## Other collections of resources
 
