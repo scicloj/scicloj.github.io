@@ -79,7 +79,7 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
 - [Portal](https://github.com/djblue/portal) :star: (`act`):  - desktop data navigation GUI
 - [Gorilla-REPL](http://gorilla-repl.org/): `lit` - a notebook application written in Clojure and Javascript
 - [proto-repl-charts](https://github.com/jasongilman/proto-repl-charts): `vis` - an Atom plugin for displaying tables and graphs
-- [Maria](https://github.com/mhuebert/maria): `cljs`,`lit`,`vis` - a Clojurescript coding environment for beginners
+- [Maria](https://github.com/mhuebert/maria): :star: (`act`) `cljs`,`lit`,`vis` - a Clojurescript coding environment for beginners
 
 ### Vega rendering
 In addition to a few of the tools mentioned above, here is a list of dedicated tools dedicated mainly to handling [Vega](https://Vega.github.io/Vega/)/[Vega-lite](https://Vega.github.io/Vega-lite/) specifications. See [this conversation](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science/topic/rendering.20charts.20in.20notespace) for some discussion of the differences and tradeoffs across these tools. 
@@ -177,7 +177,8 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [drand](https://github.com/jimpil/drand-clj): `rand` - a client to the [Drand](https://drand.love) randomness service
 
 ## Science
-- [sicmutils](https://github.com/sicmutils/sicmutils) :star: (`act`):  - a library for algebra, calculus, differential geometry and physics based on the [SICM](mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics) book by Sussman & Wisdom
+- the [mentat-collective](https://github.com/mentat-collective) collection of libraries
+  - [emmy](https://github.com/mentat-collective/emmy) (was 'sicmutils') :star: (`act`):  - a library for algebra, calculus, differential geometry and physics based on the [SICM](mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics) book by Sussman & Wisdom
 - [cljbox2d](https://github.com/lambdaisland/cljbox2d) :star: (`act`): `cljs` - a Clojure/Clojurescript wrapper of the Box2D physics engine API
 
 ## Machine learning

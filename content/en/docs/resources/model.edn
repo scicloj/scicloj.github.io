@@ -165,9 +165,15 @@
    {:lib/name "Maria",
     :lib/url "https://github.com/mhuebert/maria",
     :lib/category :visual-tools,
-    :tags #{:vis :lit :cljs},
+    :tags #{:act :vis :lit :cljs},
     :star nil,
-    :description "a Clojurescript coding environment for beginners"})
+    :description "a Clojurescript coding environment for beginners"}
+   {:lib/name "emmy-viewers",
+    :lib/url "https://github.com/mentat-collective/emmy-viewers",
+    :lib/category :visual-tools,
+    :tags #{:act :vis :cljs},
+    :star :star,
+    :description "High-performance symbolic, 2D and 3D visual extensions to the Emmy computer algebra system"})
 
   ;; ## Vega rendering
   ({:lib/name "darkstar",
@@ -649,13 +655,13 @@
     "a client to the [Drand](https://drand.love) randomness service"})
 
   ;; ## Science
-  ({:lib/name "sicmutils",
-    :lib/url "https://github.com/sicmutils/sicmutils",
+  ({:lib/name "emmy",
+    :lib/url "https://github.com/mentat-collective/emmy",
     :lib/category :science,
     :tags #{:act},
     :star :star,
     :description
-    "a library for algebra, calculus, differential geometry and physics based on the [SICM](mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics) book by Sussman & Wisdom"}
+    "(was SICMUtils) a library for algebra, calculus, differential geometry and physics based on the [SICM](mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics) book by Sussman & Wisdom"}
    {:lib/name "cljbox2d",
     :lib/url "https://github.com/lambdaisland/cljbox2d",
     :lib/category :science,
