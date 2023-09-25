@@ -18,17 +18,23 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 
 ## Blogs
 
+- [TechAscent Blog](https://techascent.com/blog/) by the group behind a few of the Clojure high-performance and data-analytics libraries (mostly those at [techascent](https://github.com/techascent/), as well as [dtype-next](https://github.com/cnuernber/dtype-next) and [libpython-clj](https://github.com/clj-python/libpython-clj))
+
 - [Squid's Blogs](https://gigasquidsoftware.com) by Carin Meier - deep learning, MXNet, Python interop and other technical topics
 
-- [Arthur Caillau's Blog](https://arthurcaillau.com/blog/) - featuring the "MXNet made simple" series
-
 - [Dragan Djuric](https://dragan.rocks) - numerical computing, linear algebra, high performance computing and deep learning
+
+- [Arthur Caillau's Blog](https://arthurcaillau.com/blog/) - featuring the "MXNet made simple" series - deep learning from Clojure
 
 - [Christopher Small](http://metasoarous.com/blog) - discussing the development of Oz, among other things
 
 - [Clojure Goes Fast](http://clojure-goes-fast.com/blog/) - overviews tools and practices for profiling and improving performance in Clojure
 
 - [Applied Science blog](http://www.appliedscience.studio/articles/index.html) by Dave Liepmann, Matt Huebert and Jack Rusher - Deep learning, data visualization, data processing
+
+## Other collections of notes
+
+- [Mentat Collective](https://github.com/mentat-collective) - documenting an emerging stack of libraries and tools for math, physics, and data visualization
 
 ## Tutorials 
 
@@ -90,3 +96,4 @@ Of course, they allow us to share and learn existing methods and practices. No l
 ## Other collections of resources
 
 - [Resources for Clojure beginners](https://gist.github.com/yogthos/be323be0361c589570a6da4ccc85f58f) collected by Dmitri Sotnikov
+
