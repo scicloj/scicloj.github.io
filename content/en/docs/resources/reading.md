@@ -86,6 +86,9 @@ Of course, they allow us to share and learn existing methods and practices. No l
 ### Data Visualization
 - [vdquil](https://github.com/daveliepmann/vdquil) - Examples from Ben Fry's "Visualizing Data" in [quil](https://github.com/quil/quil) - by Dave Liepmann
 
+### Colors
+- [clojure2d.color documentation](https://clojure2d.github.io/clojure2d/docs/notebooks/notebooks/color.html) - path of the [clojure2d library](https://github.com/Clojure2D/clojure2d)
+
 ## Books
 
 - [Books by Dragan Djuric](https://dragan.rocks/articles/19/Judge-a-clojure-programming-book-by-its-cover) about Deep Learning and about Linear Algebra in Clojure - books developed alongside Dragan's work on libraries in this fields
