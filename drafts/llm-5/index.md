@@ -15,7 +15,16 @@ This series was inpired by a few other projects in the Clojure community, such a
 
 This post discusses the journey of the meetups so far, mostly the panel we had in the fifth meetup. It also anticipates some of the coming meetups in the near future.
 
-## 
+## The first 4 meetups
+
+## The 5th meetup
+https://github.com/danielsz/cohere-clojure
+https://github.com/phronmophobic/clong
+https://github.com/phronmophobic/llama.clj
+https://github.com/cjbarre/multi-gpt
+https://github.com/ruped/clojurellm-data
+https://www.youtube.com/watch?v=3fge-zqZezw
+## Future directions
 
 
 
