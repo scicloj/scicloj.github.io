@@ -12,12 +12,10 @@ images: []
 
 The goal of this series of meetups is to support our learning, as a community, of the new landscape of ideas around large language models.
 
-We are also considering organizing a more systematic study group that will meet regularly around these topics. For now, this is just a series of mostly self-contained public meetups.
- 
 Some of the content here is specific to the Clojure ecosystem (e.g., discussing the use of LLMs from Clojure), but many parts of it could be helpful and interesting to broader audiences.
 
 ## Meetings
-Most meetings will be recorded and shared publicly. 
+Most meetings will be recorded and shared publicly (:movie_camera: [Playlist](https://www.youtube.com/watch?v=sap3Z-LpNjY&list=PLb_VRZPxjMADf8-NcCfMzp6mq8N2xwhem)).
 
 * #1 2023-05-26, Intro to LLMs - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-llm-meetup-1-introduction-summary-recording/10098)
   * Martynas Maciulevičius provided an overview of the topic, introducing a few of the basic ideas behind LLM.
@@ -47,7 +45,11 @@ Most meetings will be recorded and shared publicly.
   * Bosquet deep-dive
   * llamma.clj deep-dive
 
-# Clojure activity around LLMs
+## Playlist
+
+
+
+## Clojure activity around LLMs
 Here we list a few exciting projects that various Clojure groups and individuals have been working on.
 
 * At the [#clojurellm](https://clojurians.slack.com/archives/C054XC5JVDZ) channel in the Clojurians Slack, a group of Clojurians is working on helping LLMs understand Clojure. This channel has been very active in sharing various relevant updates about the LLMs landscape.
