@@ -9,7 +9,7 @@ images: []
 contributors: ["daslu"]
 ---
 
-:star: **TL;DR:** The September standalone talk of the [Jointprob](https://scicloj.github.io/docs/community/groups/jointprob) community is an intro to Probability basics. Also, check out the recording of [the August talk](https://www.youtube.com/watch?v=4VqGvR2fb-Q) by David MacGillivray about Bayesian Hierarchical Models. :star:
+:star: **TL;DR:** See you at the September standalone talk of the [Jointprob](https://scicloj.github.io/docs/community/groups/jointprob) -- an intro to Probability basics. Also, please check out :movie_camera: [the recording]((https://www.youtube.com/watch?v=4VqGvR2fb-Q)) of the August talk by David MacGillivray about Bayesian Hierarchical Models. :star:
 
 ----------------
 
@@ -19,11 +19,9 @@ The [Jointprob](https://scicloj.github.io/docs/community/groups/jointprob) commu
 
 After a couple of reading journies along Bayesian Statistics books, we started a series of standalone talks.
 
-Often, each of these talks is repeated on two standalone sessions. The second session is an evolved and polished version, following the discussion of the first, and is shared publicly.
-
 ## August: Hierarchical Linear Models
 
-On [the meetups of August 16th & 26th](https://scicloj.github.io/blog/the-jointprob-community-changes-on-the-agenda-and-an-upcoming-talk-about-bayesian-hierarchical-models/), David MacGillivray demonstrated Bayesian Hierarchical Models through a real-world problem.
+On [the August meetup](https://scicloj.github.io/blog/the-jointprob-community-changes-on-the-agenda-and-an-upcoming-talk-about-bayesian-hierarchical-models/), which was repeated twice on the 16th & 26th, David MacGillivray demonstrated Bayesian Hierarchical Models through a real-world problem.
 
 David reproduced the results of [the paper](https://discovery.ucl.ac.uk/id/eprint/16040/1/16040.pdf) "Bayesian hierarchical model for the prediction of football results" by Gianluca Baio and Marta A. Blangiardo using [PyMC](https://www.pymc.io/) 5, compared a few variations of the models, and discussed a few of the problems & solutions that arise (e.g., [Neal's funnel](https://beanmachine.org/docs/overview/tutorials/Neals_funnel/NealsFunnel/) and non-centered reparametrization).
 
@@ -48,6 +46,7 @@ The talk will assume some knowledge:
 * basic familiarity with the R programming language
 * some background in probability & statistics (say, a first intro course in a college or university)
 * basic familiarity with computing discrete probabilities and expectations and with Bayes formula
+
 None of these are strictly required, but this kind of background would help one in appreciating the notions presented.
 
 **Joining**
