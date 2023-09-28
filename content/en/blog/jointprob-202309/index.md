@@ -1,5 +1,5 @@
 ---
-title: "The Jointprob community - Probability Basics meetup"
+title: "Jointprob community updates - Probability Basics talk, Hierarchical Models followup"
 description: ""
 date: 2023-09-28
 lastmod: 2023-09-28
