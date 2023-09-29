@@ -14,6 +14,9 @@ The goal of this series of meetups is to support our learning, as a community, o
 
 Some of the content here is specific to the Clojure ecosystem (e.g., discussing the use of LLMs from Clojure), but many parts of it could be helpful and interesting to broader audiences.
 
+## Blog posts
+2023-09-29, [Following out first five LLM meetups](http://localhost:1313/blog/following-our-first-five-llm-meetups/)
+
 ## Meetings
 Most meetings will be recorded and shared publicly (:movie_camera: [Playlist](https://www.youtube.com/watch?v=sap3Z-LpNjY&list=PLb_VRZPxjMADf8-NcCfMzp6mq8N2xwhem)).
 
