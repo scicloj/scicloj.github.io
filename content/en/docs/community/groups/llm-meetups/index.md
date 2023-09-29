@@ -27,11 +27,11 @@ Most meetings will be recorded and shared publicly (:movie_camera: [Playlist](ht
 * #3 2023-06-17, LLMOps with [Bosquet](https://github.com/zmedelis/bosquet) - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-llm-meetup-3-llmops-with-bosquet-summary-recording/)
   * Žygimantas Medelis discussed the currently emerging tooling ecosystem and then presented Bosquet, dived in a bit into its internals (e.g., the use of Slemer and Pathom), and discussed future directions.
 
-* #4 2023-07-14, Architectures and ideas behind transformer-based generative LLMs - :calendar: [event](https://clojureverse.org/t/scicloj-llm-meetup-4-architectures-and-ideas-behind-transformer-based-generative-llms/)
+* #4 2023-07-14, Architectures and ideas behind transformer-based generative LLMs - :movie_camera: [recording](https://www.youtube.com/watch?v=_m-Rcz_jTGo)
   * Dimid Duchovny briefly overviewed the history of LLM models and explained some of the core ideas behind them..
   * Then, he demisntrated using LLMs locally from Python, as well as through the OpenAI API.
 
-* #5 2023-09-24, Library overviews and selected discussions - :calendar: [event](https://clojureverse.org/t/scicloj-llm-meetup-5-library-overviews-and-selected-discussions/)
+* #5 2023-09-24, Library overviews and selected discussions - :movie_camera: [recording](https://www.youtube.com/watch?v=CDLao9KDduU) (summary coming soon)
   * Projects on the agenda:
     * Clojure LLM Project Update
     * [multi-gpt](https://github.com/cjbarre/multi-gpt)
