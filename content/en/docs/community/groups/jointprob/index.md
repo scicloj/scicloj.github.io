@@ -3,7 +3,7 @@ title : "Jointprob: a probabilistic modeling and Bayesian statistics study commu
 description: "Probabilistic modeling and Bayesian Statistics study community"
 lead: ""
 date: 2022-02-28
-lastmod: 2023-07-10
+lastmod: 2023-09-29
 draft: false
 images: []
 ---
@@ -31,8 +31,8 @@ Also, you are always invited to [write to us](./#contact).
 ## Schedule
 
 ### Our current journey: standalone sessions
-* 2023-08-16/26: Hierarchical Models with David MacGillivray - [blog post](../../../../blog/the-jointprob-community-changes-on-the-agenda-and-an-upcoming-talk-about-bayesian-hierarchical-models/) - [video](https://www.youtube.com/watch?v=4VqGvR2fb-Q) :movie_camera:
-* 2023-09-20/30: Probability basics for Bayesian analysis
+* 2023-08-16/26: Hierarchical Models with David MacGillivray - [blog post](../../../../blog/the-jointprob-community-changes-on-the-agenda-and-an-upcoming-talk-about-bayesian-hierarchical-models/) - :movie_camera: [video](https://www.youtube.com/watch?v=4VqGvR2fb-Q) :movie_camera:
+* 2023-09-20/30: Probability basics for Bayesian analysis - [blog post](../../../../blog/jointprob-community-updates-probability-basics-talk-hierarchical-models-followup/)
 
 ### Our second reading journey: Bayesian Modeling and Computation
 
