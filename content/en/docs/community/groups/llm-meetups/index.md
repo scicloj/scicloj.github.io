@@ -3,7 +3,7 @@ title : "scicloj-llm-meetups: public meetings exploring the princples and use of
 description: "Scicloj LLM meetups"
 lead: ""
 date: 2022-05-23
-lastmod: 2023-06-21
+lastmod: 2023-09-29
 draft: false
 images: []
 ---
