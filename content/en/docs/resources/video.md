@@ -61,6 +61,9 @@ The goal of this series of meetups is to support our learning, as a community, o
 - [May 26th, 2023](https://www.youtube.com/watch?v=sap3Z-LpNjY) - Introduction
 - [June 16th, 2023](https://www.youtube.com/watch?v=uhRnCfWSA9Y) - Prompt engineering and managing embeddings
 - [June 17th, 2023](https://www.youtube.com/watch?v=NNDThiZqe70) - LLMOps with Bosquet
+- [July 14th, 2023](https://www.youtube.com/watch?v=_m-Rcz_jTGo) - Transformer-based generative LLMs
+- [Sep 24th, 2023](https://www.youtube.com/watch?v=CDLao9KDduU) - Library overviews
+
 
 ### ml-study
 The ml-study group (on hold as of Feb. 2022) is about practicing the usage of the emerging Clojure data science stack. Most of its recordings have been shared internally at the Zulip chat. One of them was made public.
