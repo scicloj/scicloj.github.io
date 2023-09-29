@@ -46,6 +46,7 @@ The talk will assume some knowledge:
 * basic familiarity with the R programming language
 * some background in probability & statistics (say, a first intro course in a college or university)
 * basic familiarity with computing discrete probabilities and expectations and with Bayes formula
+* basic knowledge of calculus, specifically the notion of integral
 
 None of these are strictly required, but this kind of background would help one in appreciating the notions presented.
 
