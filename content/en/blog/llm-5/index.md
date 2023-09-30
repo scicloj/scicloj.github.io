@@ -35,7 +35,7 @@ On this meeting, we had presentations and discussions with five of the people wh
 
 Daniel Szmulewicz briefly presented the [Clojure Cohere SDK](https://github.com/danielsz/cohere-clojure) and mostly talked about related use cases.
 
-Adrian Smith presented [llama.clj](https://github.com/phronmophobic/llama.clj), a Clojure wrapper of [llamma.cpp](https://github.com/ggerganov/llama.cpp) through [clong](https://github.com/phronmophobic/clong), and demonstrated how it can be used to run models locally while enjoying Clojure's idioms and simplicity -- see [the tutorial](https://phronmophobic.github.io/llama.clj/notebooks/intro.html) that Adrian recently wrote.
+Adrian Smith presented [llama.clj](https://github.com/phronmophobic/llama.clj), a Clojure wrapper of [llamma.cpp](https://github.com/ggerganov/llama.cpp) through [clong](https://github.com/phronmophobic/clong), and demonstrated how it can be used to run models locally while enjoying Clojure's idioms and simplicity -- see [the tutorial](https://phronmophobic.github.io/llama.clj/notebooks/intro.html) that Adrian has recently wrote.
 
 Cameron Barre talked about [multi-gpt](https://github.com/cjbarre/multi-gpt), an interface around the GPT language model with additional layers of conversational memory and (WIP) task management. 
 
