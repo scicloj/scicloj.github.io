@@ -57,7 +57,7 @@ A few of the projects that were discussed briefly, will have their own dedicated
 
 We will have another meetup full of short talks, but rather than focusing on libraries, it will focus on the use of models: applications, experiments, and research. There are already a few candidate topics, such as the [clj chatbot ui](https://github.com/groundedsage/clj-chatbot-ui).
 
-One topic which is left out of this series is the concerns regarding LLMs' effect on society. A few of us find it important to address such implications, and this direction was discussed at the Scicloj organizing team. It was decided that such topics would rather be left out of Scicloj's scope, as Scicloj is a technical group. As indivduals, however, a few of us will hopefully act elsewhere in the community to explore and discussthe broader picture. 
+One topic which is left out of this series is the concerns regarding LLMs' effect on society. A few of us find it important to address such implications, and this direction was discussed at the Scicloj organizing team. It was decided that such topics would rather be left out of Scicloj's scope, as Scicloj is a technical group. As indivduals, however, a few of us will hopefully act elsewhere in the community to explore and discuss the broader picture. 
 
 ## Epilogue
 
