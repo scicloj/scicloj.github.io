@@ -33,7 +33,7 @@ On September 24th we had [Meetup 5](https://www.youtube.com/watch?v=CDLao9KDduU)
 
 On this meeting, we had presentations and discussions with five of the people who have been active creating Clojure LLM libraries.
 
-Daniel Szmulewicz briefly presented the [Clojure Cohere SDK](https://github.com/danielsz/cohere-clojure) and mostly talked about related use cases.
+Daniel Szmulewicz briefly presented the [Clojure Cohere SDK](https://github.com/danielsz/cohere-clojure) and mostly talked about a specific use case of [an AI-augmented user interface](https://fuji.tuppu.net/).
 
 Adrian Smith presented [llama.clj](https://github.com/phronmophobic/llama.clj), a Clojure wrapper of [llamma.cpp](https://github.com/ggerganov/llama.cpp) through [clong](https://github.com/phronmophobic/clong), and demonstrated how it can be used to run models locally while enjoying Clojure's idioms and simplicity -- see [the tutorial](https://phronmophobic.github.io/llama.clj/notebooks/intro.html) that Adrian has recently wrote.
 
