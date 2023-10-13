@@ -106,8 +106,6 @@ Most of its meetings have been recorded and shared internally. Some meetings are
 - May 15th, 10pm UTC - Carin Meier - Clojure MXNet - [video](https://www.youtube.com/watch?v=niCq-pvDyZc)
 - April 15th, 3pm UTC - Chris Nuernberger - Tech.ml - [video](https://www.youtube.com/watch?v=NyMABoUEj20&t=6m50s) - [transcript](https://github.com/joinr/sciclojminutes/blob/master/meeting.org)
 
-
-
 ## Status reports
 
 ### Visual-tools
@@ -117,3 +115,20 @@ Most of its meetings have been recorded and shared internally. Some meetings are
 - Nov. 29th, 2021, Notepace v4 status - [video](https://www.youtube.com/watch?v=uICA2SDa-ws)
 - Aug. 19th 2021, Notespace v3 status - [video](https://www.youtube.com/watch?v=Ufyqwzn1RDs)
 - Aug 24th, 2020, Notespace v3 status - [video](https://www.youtube.com/watch?v=_GcTnkhn9g0)
+
+
+## Clojure data science talks in other meetup groups
+
+### London Clojurians
+
+- June 9th, 2021 - Chris Nuernberger - High Performance Data With Clojure - [video](https://www.youtube.com/watch?v=5mUGu4RlwKE)
+- Oct. 10th, 2023 - Chris Nuernberger - High Performance Functional Data Science - [video](https://www.youtube.com/watch?v=WA5O7jNoNGE)
+
+### Boston Clojure
+
+- July 26th, 2021 - Daniel Slutsky - Data Science in Clojure: Almost Ready, Already Useful - [video](https://www.youtube.com/watch?v=Qa89bqEqA8k)
+
+### Func Prog Sweden
+
+- Mar 22nd, 2023 - Mey Beisareon - Catch 'em All: Efficient Massive Tabular Data Handling with Tablecloth - [video](https://www.youtube.com/watch?v=a0T_d_N7wbg)
+
