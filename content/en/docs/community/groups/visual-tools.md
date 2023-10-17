@@ -12,6 +12,8 @@ The goal of this group is to create collaborations in learning and building Cloj
 
 The authors of several actively developed tools are involved (Chlorine, Clover, Calva and its Notebooks, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, Clerk, Mosaic, etc.).
 
+Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/).
+
 * Meeting 19 (July 7th 2023): Electric - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-19-electric-login-for-details/) (log in to Clojureverse to view)
 * Meeting 18 (May 27th 2023): Mosaic and other updates - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-18-mosaic-and-other-updates-summary-recording/)
 * Meeting 17 (April 1st 2023): various updates - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-17-various-updates-summary-recording/)

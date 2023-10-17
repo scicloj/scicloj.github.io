@@ -18,7 +18,12 @@ Some of the content here is specific to the Clojure ecosystem (e.g., discussing 
 2023-09-29, [Following our first five LLM meetups](../../../../blog/following-our-first-five-llm-meetups/)
 
 ## Meetings
+
+Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/).
+
 Most meetings will be recorded and shared publicly (:movie_camera: [Playlist](https://www.youtube.com/watch?v=sap3Z-LpNjY&list=PLb_VRZPxjMADf8-NcCfMzp6mq8N2xwhem)).
+
+
 
 * #1 2023-05-26, Intro to LLMs - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-llm-meetup-1-introduction-summary-recording/10098)
   * Martynas Maciulevičius provided an overview of the topic, introducing a few of the basic ideas behind LLM.
