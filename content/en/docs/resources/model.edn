@@ -775,12 +775,6 @@
     :tags #{:act :llm},
     :star :star,
     :description "A gRPC client library for the [Vald](https://github.com/vdaas/vald) distributed vector database"}
-   {:lib/name "chroma-clj",
-    :lib/url "https://github.com/TristeFigure/chroma-clj",
-    :lib/category :large-language-models,
-    :tags #{:act :llm},
-    :star :star,
-    :description "An interface to the [ChromaDB](https://docs.trychroma.com/) vector database"}
    {:lib/name "clojurellm-data",
     :lib/url "https://github.com/ruped/clojurellm-data",
     :lib/category :large-language-models,

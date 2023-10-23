@@ -79,7 +79,8 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
 - [Portal](https://github.com/djblue/portal) :star: (`act`):  - desktop data navigation GUI
 - [Gorilla-REPL](http://gorilla-repl.org/): `lit` - a notebook application written in Clojure and Javascript
 - [proto-repl-charts](https://github.com/jasongilman/proto-repl-charts): `vis` - an Atom plugin for displaying tables and graphs
-- [Maria](https://github.com/mhuebert/maria): :star: (`act`) `cljs`,`lit`,`vis` - a Clojurescript coding environment for beginners
+- [Maria](https://github.com/mhuebert/maria) (`act`): `cljs`,`lit`,`vis` - a Clojurescript coding environment for beginners
+- [emmy-viewers](https://github.com/mentat-collective/emmy-viewers) :star: (`act`): `cljs`,`vis` - High-performance symbolic, 2D and 3D visual extensions to the Emmy computer algebra system
 
 ### Vega rendering
 In addition to a few of the tools mentioned above, here is a list of dedicated tools dedicated mainly to handling [Vega](https://Vega.github.io/Vega/)/[Vega-lite](https://Vega.github.io/Vega-lite/) specifications. See [this conversation](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science/topic/rendering.20charts.20in.20notespace) for some discussion of the differences and tradeoffs across these tools. 
@@ -177,8 +178,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [drand](https://github.com/jimpil/drand-clj): `rand` - a client to the [Drand](https://drand.love) randomness service
 
 ## Science
-- the [mentat-collective](https://github.com/mentat-collective) collection of libraries
-  - [emmy](https://github.com/mentat-collective/emmy) (was 'sicmutils') :star: (`act`):  - a library for algebra, calculus, differential geometry and physics based on the [SICM](mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics) book by Sussman & Wisdom
+- [emmy](https://github.com/mentat-collective/emmy) :star: (`act`):  - (was SICMUtils) a library for algebra, calculus, differential geometry and physics based on the [SICM](mitpress.mit.edu/books/structure-and-interpretation-classical-mechanics) book by Sussman & Wisdom
 - [cljbox2d](https://github.com/lambdaisland/cljbox2d) :star: (`act`): `cljs` - a Clojure/Clojurescript wrapper of the Box2D physics engine API
 
 ## Machine learning
@@ -203,7 +203,6 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [openai-api](https://github.com/pmatiello/openai-api) :star: (`act`): `llm` - A wrapper of the [OpenAI API](https://platform.openai.com/docs/introduction)
 - [multi-gpt](https://github.com/cjbarre/multi-gpt) :star: (`act`): `llm` - A wrapper of the Open AI GPT Chat API with conversational memory and WIP agents support
 - [vald-client-clj](https://github.com/vdaas/vald-client-clj) :star: (`act`): `llm` - A gRPC client library for the [Vald](https://github.com/vdaas/vald) distributed vector database
-- [chroma-clj](https://github.com/TristeFigure/chroma-clj) :star: (`act`): `llm` - An interface to the [ChromaDB](https://docs.trychroma.com/) vector database
 - [clojurellm-data](https://github.com/ruped/clojurellm-data) :star: (`act`): `llm` - Dataset curation for fine tuning an LLM for Clojure
 
 ## Interop
