@@ -32,8 +32,10 @@ Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.o
 * Meeting 4 - studying Clerk internals (Mar. 25th 2022) - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-4-summary-video/)
 * Meeting 3 - general montlhy meeting (Mar. 5th 2022) - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-3-summary-video/)
 * Meeting 2 - compatibility across tools (Feb. 19th 2022) - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-2-summary-video/)
-* Meeting 1 - the beginning (Feb. 4th 2022) - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-1-summary-video/).
+* Meeting 1 - the beginning (Feb. 4th 2022) - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-1-summary-video/**.
 
+**Meeting videos**
+[Playlist](https://www.youtube.com/playlist?list=PLb_VRZPxjMADovzE7xYIzMr68BHXLVzH3) at the [Scicloj channel](https://www.youtube.com/@SciCloj)
 
 **Organizers**: Lukas Domalga, Kira McLean, Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
 
