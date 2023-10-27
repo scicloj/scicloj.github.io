@@ -47,15 +47,16 @@ Most meetings will be recorded and shared publicly (:movie_camera: [Playlist](ht
     * [llama.clj](https://github.com/phronmophobic/llama.clj)
     * [Bosquet](https://github.com/zmedelis/bosquet) updates
 
-* Upcoming meetups:
+* #6 Nov. 2023 (TBA), Implementing research papers with Bosquet - [availability poll](https://bit.ly/scicloj-llm-6-doodle)
+  * Žygimantas Medelis will demonstrate how a couple of recent research papers can be implemented using [Bosquet](https://github.com/zmedelis/bosquet).
+
+* Other Upcoming meetups:
   * Selected discussion topics
   * Use cases and experiments -- short talks
-  * Bosquet deep-dive
   * llamma.clj deep-dive
 
-## Playlist
-
-
+## Meeting videos
+[Playlist](https://www.youtube.com/playlist?list=PLb_VRZPxjMADf8-NcCfMzp6mq8N2xwhem) at the [Scicloj channel](https://www.youtube.com/@SciCloj)
 
 ## Clojure activity around LLMs
 Here we list a few exciting projects that various Clojure groups and individuals have been working on.
