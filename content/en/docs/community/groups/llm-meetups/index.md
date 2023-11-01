@@ -47,7 +47,7 @@ Most meetings will be recorded and shared publicly (:movie_camera: [Playlist](ht
     * [llama.clj](https://github.com/phronmophobic/llama.clj)
     * [Bosquet](https://github.com/zmedelis/bosquet) updates
 
-* #6 Nov. 2023 (TBA), Implementing research papers with Bosquet - [availability poll](https://bit.ly/scicloj-llm-6-doodle)
+* #6 2023-11-17, Implementing research papers with Bosquet - [availability poll](https://bit.ly/scicloj-llm-6-doodle)
   * Žygimantas Medelis will demonstrate how a couple of recent research papers can be implemented using [Bosquet](https://github.com/zmedelis/bosquet).
 
 * Other Upcoming meetups:
