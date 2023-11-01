@@ -206,6 +206,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [clojurellm-data](https://github.com/ruped/clojurellm-data) :star: (`act`): `llm` - Dataset curation for fine tuning an LLM for Clojure
 
 ## Interop
+- [clj-polyglot-app](https://github.com/behrica/clj-polyglot-app) :star: (`act`): `interop` - A deps-new template to create a polyglot app in Clojure (Clojure, R, & Python)
 - [Libpython-clj](https://github.com/clj-python/libpython-clj) :star: (`act`): `interop` - interop with Python
 - [clj-python-trampoline](https://github.com/tristanstraub/clj-python-trampoline) :star: (`act`): `interop` - using libpython-clj from an already running python process, without needing any special python builds
 - [Libjulia-clj](https://github.com/cnuernber/libjulia-clj) :star: (`act`): `interop` - Julia bindings for Clojure
