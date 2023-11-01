@@ -10,6 +10,20 @@ images: []
 contributors: ["daslu"]
 ---
 
+## Clojure/Conj 2023
+
+A few of the [Clojure/Conj talks](https://www.youtube.com/playlist?list=PLZdCLR02grLpIQQkyGLgIyt0eHE56aJqd) were dedicated to infrastructure and applications of the emerging Clojure data science stack.
+
+- ["Vector Symbolic Architectures In Clojure" by Carin Meier
+](https://www.youtube.com/watch?v=j7ygjfbBJD0&list=PLZdCLR02grLpIQQkyGLgIyt0eHE56aJqd&index=3)
+- ["High Performance Clojure" by Chris Nuernberger
+](https://www.youtube.com/watch?v=ralZ4j_ruVg&list=PLZdCLR02grLpIQQkyGLgIyt0eHE56aJqd&index=7)
+- ["Clojure in the Fintech Ecosystem" by Philip Cooper
+](https://www.youtube.com/watch?v=QCxcLsxQeYs&list=PLZdCLR02grLpIQQkyGLgIyt0eHE56aJqd&index=12)
+- ["Real @toms with Clojure!" by Thomas Clark and Daniel Slutsky](https://www.youtube.com/watch?v=SE5Ge4QP4oY&list=PLZdCLR02grLpIQQkyGLgIyt0eHE56aJqd&index=19) (about Physics research with Clojure)
+- ["Comparing protein structures with Clojure" by Blaine Mooers](https://www.youtube.com/watch?v=vt594qgAc1I&list=PLZdCLR02grLpIQQkyGLgIyt0eHE56aJqd&index=20)
+- ["Clojure for Data Science in the Real World" by Kira McLean](https://www.youtube.com/watch?v=MguatDl5u2Q&list=PLZdCLR02grLpIQQkyGLgIyt0eHE56aJqd&index=22)
+
 ## re:Clojure 2021
 
 Scicloj joined the London Clojurians in organizing the [re:Clojure](https://www.reclojure.org/) 2021 event and its workshops - :star: The following playlists are recommended as an up-to-date look into a few parts of the emerging data-science stack. :star: 
