@@ -783,7 +783,13 @@
     :description "Dataset curation for fine tuning an LLM for Clojure"})
 
   ;; Interop
-  ({:lib/name "Libpython-clj",
+  ({:lib/name "clj-polyglot-app",
+    :lib/url "https://github.com/behrica/clj-polyglot-app",
+    :lib/category :interop,
+    :tags #{:act :interop},
+    :star :star,
+    :description "A deps-new template to create a polyglot app in Clojure (Clojure, R, & Python)"}
+   {:lib/name "Libpython-clj",
     :lib/url "https://github.com/clj-python/libpython-clj",
     :lib/category :interop,
     :tags #{:act :interop},
