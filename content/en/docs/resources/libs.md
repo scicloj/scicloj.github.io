@@ -163,6 +163,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 ## Bayesian computing & probabilistic programming
 - [inferme](https://github.com/generateme/inferme) :star: (`act`): `prob`,`rand`,`vis` - extensible probabilistic programming in Clojure itself (rather than a language variation), with support for visualizations
+- [Gen.clj](https://github.com/InferenceQL/gen.clj) :star: (`act`): `prob`,`rand` - A stack for generative modeling and probabilistic inference.
 - [clj-stan](https://github.com/thomasathorne/clj-stan) :star::  - A library for calling the Stan language from Clojure (by shelling out to cmdstan).
 - [bayadera](https://github.com/uncomplicate/bayadera): `gpu`,`prob`,`rand`,`stat` - Bayesian computing using the GPU
 - [sampling](https://github.com/bigmlcom/sampling): `rand` - support srandom sampling of different kinds

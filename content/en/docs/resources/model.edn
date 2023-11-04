@@ -578,6 +578,12 @@
     :star :star,
     :description
     "extensible probabilistic programming in Clojure itself (rather than a language variation), with support for visualizations"}
+   {:lib/name "Gen.clj",
+    :lib/url "https://github.com/InferenceQL/gen.clj",
+    :lib/category :bayesian-computing-probabilistic-programming,
+    :tags #{:rand :prob :act},
+    :star :star,
+    :description "A stack for generative modeling and probabilistic inference."}
    {:lib/name "clj-stan",
     :lib/url "https://github.com/thomasathorne/clj-stan",
     :lib/category :bayesian-computing-probabilistic-programming,
