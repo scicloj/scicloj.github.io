@@ -243,3 +243,6 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [kafka.clj](https://github.com/dvlopt/kafka.clj) :star: (`act`):  - a wrapper for Kafka and Kafka Streams
 - [ksml](https://github.com/cddr/ksml) :star: (`act`):  - representing kafka streams topologies as data
 - [rp-jackdaw-clj](https://github.com/rentpath/rp-jackdaw-clj):  - various components for interacting with Kafka using Jackdaw
+
+## Datasets
+- [hdfs-clj](https://github.com/zmedelis/hfds-clj) :star: (`act`):  - Access to HuggingFace datasets via Clojure
