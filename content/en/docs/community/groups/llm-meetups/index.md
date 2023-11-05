@@ -3,7 +3,7 @@ title : "scicloj-llm-meetups: public meetings exploring the princples and use of
 description: "Scicloj LLM meetups"
 lead: ""
 date: 2022-05-23
-lastmod: 2023-10-31
+lastmod: 2023-11-06
 draft: false
 images: []
 ---
@@ -47,7 +47,7 @@ Most meetings will be recorded and shared publicly (:movie_camera: [Playlist](ht
     * [llama.clj](https://github.com/phronmophobic/llama.clj)
     * [Bosquet](https://github.com/zmedelis/bosquet) updates
 
-* #6 2023-11-17, Implementing research papers with Bosquet - [availability poll](https://bit.ly/scicloj-llm-6-doodle)
+* #6 2023-11-17, Implementing research papers with Bosquet - [event](https://clojureverse.org/t/scicloj-llm-meetup-6-implementing-research-papers-with-bosquet/10404)
   * Žygimantas Medelis will demonstrate how a couple of recent research papers can be implemented using [Bosquet](https://github.com/zmedelis/bosquet).
 
 * Other Upcoming meetups:
