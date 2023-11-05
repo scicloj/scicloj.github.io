@@ -107,6 +107,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [emacs-Vega-view](https://github.com/appliedsciencestudio/emacs-Vega-view) (`act`): `vega`,`vis` - an emacs mode to facilitate interactive data visualization using Vega from within emacs. Supports elisp, json and clojure notations
 
 ## Data processing
+- [ham-fisted](https://github.com/cnuernber/ham-fisted) :star: (`act`): `data` - data structures, functions, and macros for efficient functional programming in the JVM
 - [Specter](https://github.com/redplanetlabs/specter) :star: (`act`): `cljs`,`data` - declarative navigation of nested data structures for selection and transformation in Clojure and Clojurescript
 - [Meander](https://github.com/noprompt/meander) :star: (`act`): `cljs`,`data` - transforming neseted data structures by declaratively declaring the shape of source and target datastructures
 - [xforms](https://github.com/cgrand/xforms) :star:: `cljs`,`data`,`xform` - a collection of transduces and reducing functions
