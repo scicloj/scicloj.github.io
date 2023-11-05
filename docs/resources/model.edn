@@ -306,7 +306,13 @@
     "an emacs mode to facilitate interactive data visualization using Vega from within emacs. Supports elisp, json and clojure notations"})
 
   ;; ## Data processing
-  ({:lib/name "Specter",
+  ({:lib/name "ham-fisted"
+    :lib/url "https://github.com/cnuernber/ham-fisted"
+    :lib/category :data-processing
+    :tags #{:act :data}
+    :star :star
+    :description "data structures, functions, and macros for efficient functional programming in the JVM"}
+   {:lib/name "Specter",
     :lib/url "https://github.com/redplanetlabs/specter",
     :lib/category :data-processing,
     :tags #{:act :cljs :data},
