@@ -246,7 +246,10 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (map lib-line)
           (str/join "\n"))
 
-     )))
+     "\n## Datasets"
+     (->> (category-libs :datasets)
+          (map lib-line)
+          (str/join "\n")))))
 
 (defn libs-md
   "Generate libs.md"
