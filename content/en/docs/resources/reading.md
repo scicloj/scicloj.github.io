@@ -3,7 +3,7 @@ title : "Reading"
 description: "Recommended reading"
 lead: "Recommended reading"
 date: 2022-02-14
-lastmod: 2022-02-14
+lastmod: 2023-07-11
 draft: false
 weight: 32
 images: []
