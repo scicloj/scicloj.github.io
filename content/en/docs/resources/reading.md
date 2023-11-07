@@ -66,7 +66,7 @@ Of course, they allow us to share and learn existing methods and practices. No l
 
 ### Data processing
 
-- [techtest](https://github.com/genmeblog/techtest) - comparing [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) with the analogous R packages - by Tomsaz Sulej
+- [Tablecloth tutorial](https://scicloj.github.io/tablecloth/)
 
 ### Transducers
 - [A general introduction](https://nbviewer.jupyter.org/github/amitramon/clojure-keynotes/blob/master/notebooks/transducers.ipynb) by Amit Ramon
