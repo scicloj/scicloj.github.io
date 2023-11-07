@@ -60,6 +60,10 @@ Of course, they allow us to share and learn existing methods and practices. No l
 
 - [Math for clojurists](https://alanmarazzi.gitlab.io/blog/posts/2020-3-23-math-for-clojurists/) by Alan Marazzi
 
+## Probabilistic programming
+
+- [gen.clj tutorial](https://inferenceql.github.io/gen.clj/)
+
 ### Data processing
 
 - [techtest](https://github.com/genmeblog/techtest) - comparing [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) with the analogous R packages - by Tomsaz Sulej
