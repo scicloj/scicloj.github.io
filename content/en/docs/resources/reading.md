@@ -24,6 +24,8 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 
 - [Dragan Djuric](https://dragan.rocks) - numerical computing, linear algebra, high performance computing and deep learning
 
+- [Atabey Kaygun](https://kaygun.github.io/) - math, algorithms, machine learning, and data science topics demonstrated through Clojure and other Lisp dialects
+
 - [Arthur Caillau's Blog](https://arthurcaillau.com/blog/) - featuring the "MXNet made simple" series - deep learning from Clojure
 
 - [Christopher Small](http://metasoarous.com/blog) - discussing the development of Oz, among other things
