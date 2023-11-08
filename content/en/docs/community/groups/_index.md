@@ -3,7 +3,7 @@ title : "Dev & study groups"
 description: "The various dev groups and study groups organized by Scicloj"
 lead: ""
 date: 2022-02-17
-lastmod: 2022-05-06
+lastmod: 2023-11-08
 draft: false
 images: []
 ---
