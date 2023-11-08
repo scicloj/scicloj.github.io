@@ -10,5 +10,7 @@ images: []
 
 Some parts of the Scicloj activity are driven by regular meetings in various groups.
 
+Some of these meetings are public and shared at the [Clojure calendar feed](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/). Some study groups such as [Jointprob](./jointprob) have their own spaces for sharing events.
+
 
 

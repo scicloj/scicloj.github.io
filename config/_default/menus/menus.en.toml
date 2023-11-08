@@ -32,8 +32,15 @@
   parent = "Community"
 
 [[main]]
-  name = "Contact"
+  name = "Events"
   weight = 25
+  identifier = "events"
+  url = "/docs/community/events/"
+  parent = "Community"
+
+[[main]]
+  name = "Contact"
+  weight = 26
   identifier = "contact"
   url = "/docs/community/contact/"
   parent = "Community"
