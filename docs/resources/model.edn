@@ -891,7 +891,7 @@
     :description
     "a fully distributed, highly scalable and fault tolerant workflow orchestration platform"}
    {:lib/name "onyx",
-    :lib/url "http://www.onyxplatform.org/",
+    :lib/url "https://github.com/onyx-platform",
     :lib/category :distributed-computing,
     :tags #{},
     :star :star,
