@@ -227,7 +227,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 
 ## Distributed computing
 - [titanoboa](https://www.titanoboa.io) :star: (`act`):  - a fully distributed, highly scalable and fault tolerant workflow orchestration platform
-- [onyx](http://www.onyxplatform.org/) :star::  - a library for distributed computation in the cloud
+- [onyx](https://github.com/onyx-platform) :star::  - a library for distributed computation in the cloud
 - [overseer](https://github.com/framed-data/overseer):  - a library for building and running data pipelines
 
 ## Hadoop
