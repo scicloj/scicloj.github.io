@@ -494,6 +494,12 @@
     :star nil,
     :description
     "bindings to [tvm](https://github.com/apache/incubator-tvm)"}
+   {:lib/name "Geometric Algebra",
+    :lib/url "https://gitlab.com/jordibc/geometric-algebra",
+    :lib/category :arrays-and-linalg,
+    :tags #{:act :linalg :math},
+    :star nil,
+    :description "A library to do geometric algebra"}
    {:lib/name "jutsu.matrix",
     :lib/url "https://github.com/hswick/jutsu.matrix",
     :lib/category :arrays-and-linalg,

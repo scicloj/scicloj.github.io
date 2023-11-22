@@ -143,6 +143,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [dtype-next](https://github.com/cnuernber/dtype-next) :star: (`act`): `array`,`native`,`stat`,`tensor` - abstractions and foundations for working with array-like structures and sequential structures
 - [Neanderthal](https://neanderthal.uncomplicate.org/) :star: (`act`): `array`,`gpu`,`linalg`,`native` - matrix and linear algebra in Clojure
 - [tvm-clj](https://github.com/techascent/tvm-clj) (`act`): `array`,`exp`,`gpu`,`linalg`,`native` - bindings to [tvm](https://github.com/apache/incubator-tvm)
+- [Geometric Algebra](https://gitlab.com/jordibc/geometric-algebra) (`act`): `linalg`,`math` - A library to do geometric algebra
 - [jutsu.matrix](https://github.com/hswick/jutsu.matrix): `array`,`gpu`,`linalg`,`native` - bindigs to [ND4J](https://deeplearning4j.org/docs/latest/nd4j-overview)
 - [core.matrix](https://github.com/mikera/core.matrix): `array`,`cljs`,`linalg`,`native` - matrix abstractions, supporting diffent backends
 - [denisovan](https://github.com/cailuno/denisovan): `array`,`gpu`,`linalg`,`native` - Neanderthal backend for core.matrix
