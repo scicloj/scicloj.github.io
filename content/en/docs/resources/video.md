@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2023-06-21
+lastmod: 2023-11-23
 draft: false
 weight: 33
 images: []
@@ -77,7 +77,7 @@ The goal of this series of meetups is to support our learning, as a community, o
 - [June 17th, 2023](https://www.youtube.com/watch?v=NNDThiZqe70) - LLMOps with Bosquet
 - [July 14th, 2023](https://www.youtube.com/watch?v=_m-Rcz_jTGo) - Transformer-based generative LLMs
 - [Sep 24th, 2023](https://www.youtube.com/watch?v=CDLao9KDduU) - Library overviews
-
+- [Nov 17th, 2023](https://www.youtube.com/watch?v=2JGQt9iW6dk) - Implementing research papers with Bosquet
 
 ### ml-study
 The ml-study group (on hold as of Feb. 2022) is about practicing the usage of the emerging Clojure data science stack. Most of its recordings have been shared internally at the Zulip chat. One of them was made public.
