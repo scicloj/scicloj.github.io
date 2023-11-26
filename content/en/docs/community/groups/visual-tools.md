@@ -8,7 +8,7 @@ draft: false
 images: []
 ---
 
-The goal of this group is to create collaborations in learning and building Clojure tools for data visualization and literate programming.
+The goal of this group is to create collaborations in learning and building Clojure tools data visualization, literate programming, and UI design.
 
 The authors of several actively developed tools are involved (Chlorine, Clover, Calva and its Notebooks, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Claykind, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, Clerk, Mosaic, MetaREPL, Meyvn, etc.).
 
