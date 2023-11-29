@@ -8,6 +8,7 @@
     <div class="col-lg-9 col-xl-12 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
       <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}/community/getting_involved" role="button">Get involved</a>
+      <p><a class="lead" href={{.Params.newslink}}>{{ .Params.newstitle | safeHTML }}</a></p>
     </div>
 </section>
 {{ end }}
