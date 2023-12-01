@@ -9,8 +9,6 @@ images: []
 ---
 
 [📅Follow our meetings on the Clojure Calendar Feed📅](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/9527)
------------------
-
 
 ![gpt pretending to be joyful](joy.jpg)
 

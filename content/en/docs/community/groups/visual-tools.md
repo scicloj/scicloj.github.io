@@ -9,7 +9,6 @@ images: []
 ---
 
 [📅Follow our meetings on the Clojure Calendar Feed📅](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/9527)
------------------
 
 The goal of this group is to create collaborations in learning and building Clojure tools data visualization, literate programming, and UI design.
 
