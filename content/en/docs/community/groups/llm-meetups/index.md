@@ -3,10 +3,14 @@ title : "scicloj-llm-meetups: public meetings exploring the princples and use of
 description: "Scicloj LLM meetups"
 lead: ""
 date: 2022-05-23
-lastmod: 2023-11-23
+lastmod: 2023-12-01
 draft: false
 images: []
 ---
+
+[📅Follow our meetings on the Clojure Calendar Feed📅](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/9527)
+-----------------
+
 
 ![gpt pretending to be joyful](joy.jpg)
 

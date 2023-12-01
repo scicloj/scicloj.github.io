@@ -8,6 +8,9 @@ draft: false
 images: []
 ---
 
+[📅Follow our meetings on the Clojure Calendar Feed📅](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/9527)
+-----------------
+
 The goal of this group is to create collaborations in learning and building Clojure tools data visualization, literate programming, and UI design.
 
 The authors of several actively developed tools are involved (Chlorine, Clover, Calva and its Notebooks, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Claykind, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, Clerk, Mosaic, MetaREPL, Meyvn, etc.).
