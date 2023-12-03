@@ -57,15 +57,12 @@ Of course, they allow us to share and learn existing methods and practices. No l
 - [Chris Nuernberger](https://nextjournal.com/chrisn) - mainly Python interop
 
 ### Math
-
 - [Math for clojurists](https://alanmarazzi.gitlab.io/blog/posts/2020-3-23-math-for-clojurists/) by Alan Marazzi
 
 ## Probabilistic programming
-
 - [gen.clj tutorial](https://inferenceql.github.io/gen.clj/)
 
 ### Data processing
-
 - [Tablecloth tutorial](https://scicloj.github.io/tablecloth/)
 
 ### Transducers
@@ -77,6 +74,7 @@ Of course, they allow us to share and learn existing methods and practices. No l
 
 ### Python interop
 - See mainly the growing list of tutorials at [Squid's Blogs](https://gigasquidsoftware.com) mentioned above.
+
 #### Plotting
 - [Fun With Matplotlib](https://nextjournal.com/chrisn/fun-with-matplotlib) by Chris Nuernberger.
 - [Panthera tutorials](https://github.com/alanmarazzi/panthera#examples)
@@ -87,7 +85,7 @@ Of course, they allow us to share and learn existing methods and practices. No l
 
 ### Literate programming
 - [Clojupyter examples](https://github.com/clojupyter/clojupyter/tree/master/examples)
-- [Notespace tutorial](https://scicloj.github.io/notespace/doc/scicloj/notespace/v4/tutorial-test/index.html)
+- [Clay tutorial](https://scicloj.github.io/clay/)
 
 ### Data Visualization
 - [vdquil](https://github.com/daveliepmann/vdquil) - Examples from Ben Fry's "Visualizing Data" in [quil](https://github.com/quil/quil) - by Dave Liepmann
