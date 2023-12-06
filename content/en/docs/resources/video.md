@@ -69,6 +69,7 @@ The visual tools group is about creating collaborations across differnent toolin
 - [Nov. 27th, 2022](https://www.youtube.com/watch?v=5x6SQGGWap8) - Calva Notebooks & Portal
 - [Apr. 1st, 2023](https://www.youtube.com/watch?v=OwcoAbsJP8g) - various updates
 - [May 27th, 2023](https://www.youtube.com/watch?v=dUtJ2C4UYqo) - Mosaic and other updates
+- [Dec. 1st, 2023](https://www.youtube.com/watch?v=DAQnvAgBma8) - various updates: MetaREPL, Timespace Oracle, Meyvn templates, Kindly, Clay, Claykind
 
 ### llm meetups
 The goal of this series of meetups is to support our learning, as a community, of the new landscape of ideas around large language models.
