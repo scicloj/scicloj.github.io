@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2023-12-07
+lastmod: 2023-12-13
 draft: false
 weight: 33
 images: []
@@ -138,6 +138,7 @@ Most of its meetings have been recorded and shared internally. Some meetings are
 
 - June 9th, 2021 - Chris Nuernberger - High Performance Data With Clojure - [video](https://www.youtube.com/watch?v=5mUGu4RlwKE)
 - Oct. 10th, 2023 - Chris Nuernberger - High Performance Functional Data Science - [video](https://www.youtube.com/watch?v=WA5O7jNoNGE)
+- Dec. 12th, 2023 - Kira McLean, Timothy Prateley, & Daniel Slutsky - Cooking Up a Workflow for Data - [video](https://www.youtube.com/watch?v=skMMvxWjmNM)
 
 ### Boston Clojure
 
