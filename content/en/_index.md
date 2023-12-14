@@ -2,8 +2,8 @@
 title : "Scicloj"
 description: "Building a platform for data science in Clojure"
 lead: "Building a platform for data science in Clojure"
-news1title: "⭐See you on the London Clojurians meetup on Dec. 12th⭐"
-news1link: "https://clojureverse.org/t/london-clojurians-talk-cooking-up-a-workflow-for-data-by-slutsky-prately-mclean/10450"
+news1title: "🎥See our recent talks on the London Clojurians meetup (Dec. 12th)🎥"
+news1link: "https://www.youtube.com/watch?v=skMMvxWjmNM&t=3748s"
 news2title: "📅Follow more events on the Clojure Calendar Feed📅"
 news2link: "https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/9527"
 ddate: 2020-10-06T08:47:36+00:00
