@@ -126,6 +126,9 @@ Most of its meetings have been recorded and shared internally. Some meetings are
 ### Visual-tools
 - Mar. 13th, 2022, Visual tools compatibility - [video](https://www.youtube.com/watch?v=e3M4u1XIVTo)
 
+### Clay
+- Dec. 12th, 2023, Clay v2 pre-release - [video](https://www.youtube.com/watch?v=X_SsjhmG5Ok)
+
 ### Notespace
 - Nov. 29th, 2021, Notepace v4 status - [video](https://www.youtube.com/watch?v=uICA2SDa-ws)
 - Aug. 19th 2021, Notespace v3 status - [video](https://www.youtube.com/watch?v=Ufyqwzn1RDs)
