@@ -102,7 +102,7 @@
     :tags #{:vis :lit :act :vega :cljs},
     :star :star,
     :description
-    "a small tool for compatible dynamic experience over some of the other visual tools"}
+    "a small tool for data visualization and literate programming"}
    {:lib/name "rmarkdown-clojure",
     :lib/url "https://github.com/genmeblog/rmarkdown-clojure",
     :lib/category :visual-tools,
@@ -247,10 +247,9 @@
     :description
     "simple data visualization for Clojure/Clojurescript that using vega and [darkstar](https://github.com/appliedsciencestudio/darkstar) for rendering"}
    {:lib/name nil,
-    :lib/url nil,
+    :lib/url "https://github.com/scicloj/viz.clj",
     :lib/category :data-visualization-libraries,
-    :tags #{:vis :exp :act :vega},
-    :star :star,
+    :tags #{:vis :exp :vega},
     :description "a data visualization library for beginners (WIP)"}
    {:lib/name "Clojure2D",
     :lib/url "https://github.com/Clojure2D/clojure2d",

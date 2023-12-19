@@ -69,7 +69,7 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
 - [Saite](https://github.com/jsa-aerial/saite) :star: (`act`): `cljs`,`hiccup`,`lit`,`ui`,`vega`,`vis` - data exploration, dashboards, and interactive documents
 - [Oz](https://github.com/metasoarous/oz) :star: (`act`): `lit`,`vega`,`vis` - data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming
 - [Clerk](https://github.com/nextjournal/clerk) :star: (`act`): `cljs`,`lit`,`vega`,`vis` - local-first notebooks for Clojure
-- [Clay](https://github.com/scicloj/clay) :star: (`act`): `cljs`,`lit`,`vega`,`vis` - a small tool for compatible dynamic experience over some of the other visual tools
+- [Clay](https://github.com/scicloj/clay) :star: (`act`): `cljs`,`lit`,`vega`,`vis` - a small tool for data visualization and literate programming
 - [rmarkdown-clojure](https://github.com/genmeblog/rmarkdown-clojure) :star:: `lit`,`vis` - rendering Clojure code in various format using [Rmarkdown](https://rmarkdown.rstudio.com/)
 - [Pink-Gorilla/Goldly](https://github.com/pink-gorilla/goldly) :star: (`act`): `cljs`,`exp`,`lit`,`ui`,`vis` - a port of the Gorilla REPL project using a Clojurescript (Reagent) frontend
 - [Org-babel-clojure](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-clojure.html) :star:: `lt` - executing Clojure inside Emacs Org-mode documents
@@ -96,7 +96,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [cljplot](https://github.com/generateme/cljplot) :star: (`act`): `exp`,`vis` - a data visualization platform written in Clojure and inspired by R's ggplot2 and lattice libraries
 - [Hanami](https://github.com/jsa-aerial/hanami) :star: (`act`): `cljs`,`hiccup`,`ui`,`vega`,`vis` - a template system for creating interactive data visualizations using Vega/Vega-lite, Reagent and Re-Com
 - [darkstar](https://github.com/appliedsciencestudio/darkstar) :star: (`act`): `cljs`,`vega`,`vis` - simple data visualization for Clojure/Clojurescript that using vega and [darkstar](https://github.com/appliedsciencestudio/darkstar) for rendering
-- []() :star: (`act`): `exp`,`vega`,`vis` - a data visualization library for beginners (WIP)
+- [](https://github.com/scicloj/viz.clj): `exp`,`vega`,`vis` - a data visualization library for beginners (WIP)
 - [Clojure2D](https://github.com/Clojure2D/clojure2d) :star: (`act`): `vis` - Java2D wrapper + creative coding supporting functions (based on Processing and openFrameworks)
 - [Quil](https://github.com/quil/quil) :star:: `vis` - a clojure/clojuresctit wrapper for Processing
 - [thi-ng/geom](https://github.com/thi-ng/geom) :star:: `cljs`,`vis` - 2d/3d geometry toolkit
