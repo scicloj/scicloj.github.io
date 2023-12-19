@@ -127,8 +127,10 @@ Most of its meetings have been recorded and shared internally. Some meetings are
 - Mar. 13th, 2022, Visual tools compatibility - [video](https://www.youtube.com/watch?v=e3M4u1XIVTo)
 
 ### Clay
+- Dec. 17th, 2023, How to code a blog with Clay v2 (teaching Clay's API, config, and Cursive integration) - [video](https://www.youtube.com/watch?v=GsML75MtNXw)
 - Dec. 17th, 2023, Clay v2 pre-release with CIDER - [video](https://www.youtube.com/watch?v=fd4kjlws6Ts)
 - Dec. 16th, 2023, Clay v2 pre-release with Calva - [video](https://www.youtube.com/watch?v=X_SsjhmG5Ok)
+
 
 ### Notespace
 - Nov. 29th, 2021, Notepace v4 status - [video](https://www.youtube.com/watch?v=uICA2SDa-ws)
