@@ -138,12 +138,13 @@ Most of its meetings have been recorded and shared internally. Some meetings are
 - Aug 24th, 2020, Notespace v3 status - [video](https://www.youtube.com/watch?v=_GcTnkhn9g0)
 
 
-## Clojure data science talks in other meetup groups
+## Recommended talks in other meetup groups
 
 ### London Clojurians
 
 - June 9th, 2021 - Chris Nuernberger - High Performance Data With Clojure - [video](https://www.youtube.com/watch?v=5mUGu4RlwKE)
 - Oct. 10th, 2023 - Chris Nuernberger - High Performance Functional Data Science - [video](https://www.youtube.com/watch?v=WA5O7jNoNGE)
+- Oct. 25th, 2023 - Chris Badahdah - Portal Internals - [video](https://www.youtube.com/watch?v=NO9D3LSS4WU)
 - Dec. 12th, 2023 - Kira McLean, Timothy Prateley, & Daniel Slutsky - Cooking Up a Workflow for Data - [video](https://www.youtube.com/watch?v=skMMvxWjmNM)
 
 ### Boston Clojure
