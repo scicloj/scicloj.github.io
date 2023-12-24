@@ -16,6 +16,10 @@ Here are some suggested reading materials.
 
 Do you wish to add your tutorial to this list? Do you have any suggestions for this list? - [Let us talk](../../community/contact)!
 
+## Scicloj resources
+- [Clojure Data Scrapbook](https://scicloj.github.io/clojure-data-scrapbook/) - a collection of community-contributed examples for the emerging Clojure data stack
+
+
 ## Blogs
 
 - [TechAscent Blog](https://techascent.com/blog/) by the group behind a few of the Clojure high-performance and data-analytics libraries (mostly those at [techascent](https://github.com/techascent/), as well as [dtype-next](https://github.com/cnuernber/dtype-next) and [libpython-clj](https://github.com/clj-python/libpython-clj))
