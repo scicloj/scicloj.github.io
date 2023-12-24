@@ -2,9 +2,9 @@
 Do you know about anything relevant that is missing here? - Let us talk!
 For every library, we mark whether it is actively developed (act), and whether it is still experimental (exp).</description></item><item><title>Reading</title><link>https://scicloj.github.io/docs/resources/reading/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/docs/resources/reading/</guid><description>Here are some suggested reading materials.
 Do you wish to add your tutorial to this list? Do you have any suggestions for this list? - Let us talk!
-Blogs #
-TechAscent Blog by the group behind a few of the Clojure high-performance and data-analytics libraries (mostly those at techascent, as well as dtype-next and libpython-clj)
-Squid&amp;rsquo;s Blogs by Carin Meier - deep learning, MXNet, Python interop and other technical topics</description></item><item><title>Video</title><link>https://scicloj.github.io/docs/resources/video/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/docs/resources/video/</guid><description>Clojure/Conj 2023 #
+Scicloj resources #
+Clojure Data Scrapbook - a collection of community-contributed examples for the emerging Clojure data stack Blogs #
+TechAscent Blog by the group behind a few of the Clojure high-performance and data-analytics libraries (mostly those at techascent, as well as dtype-next and libpython-clj)</description></item><item><title>Video</title><link>https://scicloj.github.io/docs/resources/video/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/docs/resources/video/</guid><description>Clojure/Conj 2023 #
 A few of the Clojure/Conj talks were dedicated to infrastructure and applications of the emerging Clojure data science stack.
 &amp;ldquo;Vector Symbolic Architectures In Clojure&amp;rdquo; by Carin Meier &amp;ldquo;High Performance Clojure&amp;rdquo; by Chris Nuernberger &amp;ldquo;Clojure in the Fintech Ecosystem&amp;rdquo; by Philip Cooper &amp;ldquo;Real @toms with Clojure!&amp;rdquo; by Thomas Clark and Daniel Slutsky (about Physics research with Clojure) &amp;ldquo;Comparing protein structures with Clojure&amp;rdquo; by Blaine Mooers &amp;ldquo;Clojure for Data Science in the Real World&amp;rdquo; by Kira McLean re:Clojure 2021 #
 Scicloj joined the London Clojurians in organizing the re:Clojure 2021 event and its workshops - ⭐ The following playlists are recommended as an up-to-date look into a few parts of the emerging data-science stack.</description></item></channel></rss>
