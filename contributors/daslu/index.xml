@@ -21,14 +21,15 @@ Clojure Data Scrapbook - a collection of community-contributed examples for the 
 TechAscent Blog by the group behind a few of the Clojure high-performance and data-analytics libraries (mostly those at techascent, as well as dtype-next and libpython-clj)</description></item><item><title>Video</title><link>https://scicloj.github.io/docs/resources/video/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/docs/resources/video/</guid><description>Clojure/Conj 2023 #
 A few of the Clojure/Conj talks were dedicated to infrastructure and applications of the emerging Clojure data science stack.
 &amp;ldquo;Vector Symbolic Architectures In Clojure&amp;rdquo; by Carin Meier &amp;ldquo;High Performance Clojure&amp;rdquo; by Chris Nuernberger &amp;ldquo;Clojure in the Fintech Ecosystem&amp;rdquo; by Philip Cooper &amp;ldquo;Real @toms with Clojure!&amp;rdquo; by Thomas Clark and Daniel Slutsky (about Physics research with Clojure) &amp;ldquo;Comparing protein structures with Clojure&amp;rdquo; by Blaine Mooers &amp;ldquo;Clojure for Data Science in the Real World&amp;rdquo; by Kira McLean re:Clojure 2021 #
-Scicloj joined the London Clojurians in organizing the re:Clojure 2021 event and its workshops - ⭐ The following playlists are recommended as an up-to-date look into a few parts of the emerging data-science stack.</description></item><item><title>Audio</title><link>https://scicloj.github.io/docs/resources/audio/</link><pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/docs/resources/audio/</guid><description>ClojureStream #
+Scicloj joined the London Clojurians in organizing the re:Clojure 2021 event and its workshops - ⭐ The following playlists are recommended as an up-to-date look into a few parts of the emerging data-science stack.</description></item><item><title>Audio</title><link>https://scicloj.github.io/docs/resources/audio/</link><pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/docs/resources/audio/</guid><description>Recommended podcast conversations
+ClojureStream #
 E72 Data Processing with Chris Nuernberger (part 1)
 E73 Data Processing with Chris Nuernberger (part 2)
 E74 Linear Algebra with David Pham
 E78 Data Science with Daniel Slutsky
 Cognicast #
-2020-06-30 Episode 154 - Chris Nuernberger
+2017-05-31 Episode 125 - Chris Nuernberger: deep learning (from the times of Cortex)
+2020-06-29 Episode 153 - Chris Nuernberger: [Libpython-clj](, etc.), etc.
+2020-10-25 Episode 154 - Dragan Djuric: deep learning, etc.
 defn #
-#86 Kira McLean
-Software Unscripted #
-Making JITted Code Faster with Chris Nuernberger</description></item></channel></rss>
+#86 Kira McLean</description></item></channel></rss>
