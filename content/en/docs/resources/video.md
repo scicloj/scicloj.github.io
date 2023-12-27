@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2023-12-19
+lastmod: 2023-12-27
 draft: false
 weight: 33
 images: []
@@ -155,3 +155,6 @@ Most of its meetings have been recorded and shared internally. Some meetings are
 
 - Mar 22nd, 2023 - Mey Beisareon - Catch 'em All: Efficient Massive Tabular Data Handling with Tablecloth - [video](https://www.youtube.com/watch?v=a0T_d_N7wbg)
 
+### twiml
+
+- July 20th, 2020 - Panel: The Great Language (Un)Debate - [video](https://twimlai.com/podcast/twimlai/panel-great-language-undebate/) - a panel discussion of various languages and paradigms, with Chris Nuernberger representing Clojure
