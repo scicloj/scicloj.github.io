@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2023-12-27
+lastmod: 2023-12-31
 draft: false
 weight: 33
 images: []
@@ -24,12 +24,25 @@ A few of the [Clojure/Conj talks](https://www.youtube.com/playlist?list=PLZdCLR0
 - ["Comparing protein structures with Clojure" by Blaine Mooers](https://www.youtube.com/watch?v=vt594qgAc1I&list=PLZdCLR02grLpIQQkyGLgIyt0eHE56aJqd&index=20)
 - ["Clojure for Data Science in the Real World" by Kira McLean](https://www.youtube.com/watch?v=MguatDl5u2Q&list=PLZdCLR02grLpIQQkyGLgIyt0eHE56aJqd&index=22)
 
-## re:Clojure 2021
+## reClojure
 
-Scicloj joined the London Clojurians in organizing the [re:Clojure](https://www.reclojure.org/) 2021 event and its workshops - :star: The following playlists are recommended as an up-to-date look into a few parts of the emerging data-science stack. :star: 
-- Dec. 5th, re:Clojure 2021 Data Science Special - [playlist](https://www.youtube.com/watch?v=t32bIbzQdCU&list=PLtw0bWXdq7pNyb2NojSGBnCARRuvLxsAc)
-- Dec. 3rd-4th, re:Clojure 2021 Conference - [playlist](https://www.youtube.com/watch?v=3ANS2NTNgig&list=PLtw0bWXdq7pNzQE0wqvCSovFSNgrn4PLK)
-- Nov., re:Clojure 2021 Workshops - [playlist](https://www.youtube.com/watch?v=OIhLXQ1fdZs&list=PLtw0bWXdq7pOzX2T7eeHq_nnGDQkjsdR5)
+### reClojure 2022
+Scicloj was involved in organizing the reClojure 2022 event. A few of the talks were related to data & science topics.
+- Dec. 2nd-3rd, conference talks - [playlist](https://www.youtube.com/playlist?list=PLtw0bWXdq7pMFpkwBTqJ7Y5d8E2yg-zq-) 
+  - A Scicloj overview by Kira McLean: Data and Clojure: Using Clojure for more than software development - [video](https://www.youtube.com/watch?v=BxVtQM6FPHU)
+
+### reClojure 2021
+
+Scicloj joined the London Clojurians in organizing the reClojure 2021 event and its workshops - :star: The following playlists are recommended as an up-to-date look into a few parts of the emerging data-science stack. :star: 
+- Dec. 5th, reClojure 2021 Data Science Special - [playlist](https://www.youtube.com/playlist?list=PLtw0bWXdq7pNyb2NojSGBnCARRuvLxsAc)
+- Dec. 3rd-4th, reClojure 2021 Conference - [playlist](https://www.youtube.com/playlist?list=PLtw0bWXdq7pNzQE0wqvCSovFSNgrn4PLK)
+  - A Scicloj overview by Sami Kallinen and Ethan Miller: Clojure Emerging Data Ecosystem - [video](https://www.youtube.com/watch?v=RGMGyEY5RK4)
+- Nov., reClojure 2021 Workshops - [playlist](https://www.youtube.com/playlist?list=PLtw0bWXdq7pOzX2T7eeHq_nnGDQkjsdR5)
+
+### reClojure 2020
+The reClojure 2020 conrefnere offered a few data & science talks.
+- Dec. 4th-5th, conference talks - [playlist](https://www.youtube.com/playlist?list=PLUAStzC-CkCmaQleBT1MUs6DDQr8zwDmJ)
+  - A Scicloj overview Sami Kallinen: How to build a Clojure Data Science Community - [video](https://www.youtube.com/watch?v=LxZ80XUmnjM)
 
 ## Interviews
 - June 30th, 5pm UTC - Jon Anthony interviewed about Hanami & Saite by Alan Marazzi, Ethan Zane Miller and Vijay Kiran - [video](https://www.youtube.com/watch?v=ld5du3L-emM)
