@@ -3,7 +3,7 @@ title : "Reading"
 description: "Recommended reading"
 lead: "Recommended reading"
 date: 2022-02-14
-lastmod: 2023-07-11
+lastmod: 2023-12-31
 draft: false
 weight: 32
 images: []
@@ -43,10 +43,6 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 - [Mentat Collective](https://github.com/mentat-collective) - documenting an emerging stack of libraries and tools for math, physics, and data visualization
 
 ## Tutorials 
-
-Tutorials play an important role on our journey to make Clojure an accessible, friendly platform for data science.
-
-Of course, they allow us to share and learn existing methods and practices. No less importantly, working on tutorials helps us see the toolset meet its use cases, and thus realize what is still missing, and what could be improved.
 
 ### General Nextjournal collections
 
