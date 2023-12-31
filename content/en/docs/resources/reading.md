@@ -57,9 +57,12 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 - [Chris Nuernberger](https://nextjournal.com/chrisn) - mainly Python interop
 
 ### Math
+
+- [Fastmath tutorials](https://github.com/generateme/fastmath?tab=readme-ov-file#clerk-notebooks---wip)
+
 - [Math for clojurists](https://alanmarazzi.gitlab.io/blog/posts/2020-3-23-math-for-clojurists/) by Alan Marazzi
 
-## Probabilistic programming
+### Probabilistic programming
 - [gen.clj tutorial](https://inferenceql.github.io/gen.clj/)
 
 ### Data processing
