@@ -108,3 +108,4 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 
 - [Resources for Clojure beginners](https://gist.github.com/yogthos/be323be0361c589570a6da4ccc85f58f) collected by Dmitri Sotnikov
 
+- [An intro to Clojure](https://clj-python.github.io/libpython-clj/new-to-clojure.html) by Chris Nuernberger, inviting newcomers, mostly Pythonistas, to some of its core ideas
