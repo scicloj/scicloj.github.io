@@ -37,6 +37,8 @@ Here are the main scicloj-related active streams, dedicated to certain subgroups
 
 - [#scicloj.ml-dev](https://clojurians.zulipchat.com/#narrow/stream/283491-scicloj.2Eml-dev) - discussing [scicloj.ml](https://github.com/scicloj/scicloj.ml)
 
+- [#noj-dev](https://clojurians.zulipchat.com/#narrow/stream/321125-noj-dev) - discussing the development of [Noj](https://scicloj.github.io/noj/)
+
 - [#cljplot-dev](https://clojurians.zulipchat.com/#narrow/stream/197967-cljplot-dev) - [cljplot](https://github.com/generateme/cljplot) develompemt
 
 - [#saite-dev](https://clojurians.zulipchat.com/#narrow/stream/210075-saite-dev) - development of [Saite](https://github.com/jsa-aerial/saite) and related projects such as [Hanami](https://github.com/jsa-aerial/hanami) 
