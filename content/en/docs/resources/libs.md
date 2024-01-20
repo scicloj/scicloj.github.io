@@ -3,7 +3,7 @@ title : "Tools and libraries"
 description: "Clojure tools and libraries for data and science"
 lead: "Clojure tools and libraries for data and science"
 date: 2022-02-14
-lastmod: 2023-12-19
+lastmod: 2024-01-20
 draft: false
 weight: 31
 images: []
@@ -58,7 +58,7 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
 
 ## Diverse toolsets
 - [fastmath](https://github.com/generateme/fastmath) :star: (`act`): `math`,`ml`,`rand`,`stat` - a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries
-- [spork](https://github.com/joinr/spork): `df`,`graph`,`opt`,`rand`,`ui`,`vis` - a toolbox for data-science and operation research
+- [spork](https://github.com/joinr/spork) (`act`): `df`,`graph`,`opt`,`rand`,`ui`,`vis` - a toolbox for data-science and operation research
 - [Incanter](https://github.com/incanter/incanter): `csv`,`df`,`rand`,`stat`,`vis` - an R-like data-science platform built on top of the core.matrix abstractions
 - [huri](https://github.com/sbelak/huri): `df`,`stat`,`vis` - a toolbox for data-science using plain sequences of maps
 
@@ -74,7 +74,7 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
 - [Pink-Gorilla/Goldly](https://github.com/pink-gorilla/goldly) :star: (`act`): `cljs`,`exp`,`lit`,`ui`,`vis` - a port of the Gorilla REPL project using a Clojurescript (Reagent) frontend
 - [Org-babel-clojure](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-clojure.html) :star:: `lt` - executing Clojure inside Emacs Org-mode documents
 - [Devcards](https://github.com/bhauman/devcards) :star:: `cljs`,`lit` - visual repl exprience for Clojurescript
-- [Notespace](https://github.com/scicloj/notespace) :star: (`act`): `exp`,`lit` - notebook experience with Clojure namespaces edited at any editor
+- [Notespace](https://github.com/scicloj/notespace) :star:: `exp`,`lit` - notebook experience with Clojure namespaces edited at any editor
 - [Reveal](https://vlaaad.github.io/reveal/) :star: (`act`):  - browser-based data navigation GUI
 - [Portal](https://github.com/djblue/portal) :star: (`act`):  - desktop data navigation GUI
 - [Gorilla-REPL](http://gorilla-repl.org/): `lit` - a notebook application written in Clojure and Javascript
@@ -116,10 +116,10 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [Semantic Csv](https://github.com/metasoarous/semantic-csv): `cljs`,`csv` - higher level csv parsing/processing
 
 ## Geospatial processing
-- [geo](https://github.com/Factual/geo) :star: (`act`): `geo` - unifying several JVM libraries for geoprocessing with a Clojure API
-- [ovid](https://github.com/willcohen/ovid) :star: (`act`): `exp`,`geo` - protocols for geospatial concepts
-- [aurelius](https://github.com/willcohen/aurelius) :star: (`act`): `exp`,`geo`,`xform` - transducible analysis of geospatial features
-- [geo-clj](https://github.com/r0man/geo-clj) :star: (`act`): `cljs`,`geo` - encoding/decoding of geographic datatypes
+- [geo](https://github.com/Factual/geo) :star:: `geo` - unifying several JVM libraries for geoprocessing with a Clojure API
+- [ovid](https://github.com/willcohen/ovid) :star:: `exp`,`geo` - protocols for geospatial concepts
+- [aurelius](https://github.com/willcohen/aurelius) :star:: `exp`,`geo`,`xform` - transducible analysis of geospatial features
+- [geo-clj](https://github.com/r0man/geo-clj) :star:: `cljs`,`geo` - encoding/decoding of geographic datatypes
 
 ## Dataframe-like structures
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `csv`,`df`,`stat`,`vis` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure

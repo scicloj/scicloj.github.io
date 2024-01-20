@@ -51,7 +51,7 @@
    {:lib/name "spork",
     :lib/url "https://github.com/joinr/spork",
     :lib/category :div-tools,
-    :tags #{:rand :vis :df :ui :graph :opt},
+    :tags #{:rand :vis :df :ui :graph :opt :act},
     :description "a toolbox for data-science and operation research"}
    {:lib/name "Incanter",
     :lib/url "https://github.com/incanter/incanter",
@@ -133,7 +133,7 @@
    {:lib/name "Notespace",
     :lib/url "https://github.com/scicloj/notespace",
     :lib/category :visual-tools,
-    :tags #{:exp :lit :act},
+    :tags #{:exp :lit},
     :star :star,
     :description
     "notebook experience with Clojure namespaces edited at any editor"}
@@ -356,26 +356,26 @@
   ({:lib/name "geo",
     :lib/url "https://github.com/Factual/geo",
     :lib/category :geospatial-processing,
-    :tags #{:geo :act},
+    :tags #{:geo},
     :star :star,
     :description
     "unifying several JVM libraries for geoprocessing with a Clojure API"}
    {:lib/name "ovid",
     :lib/url "https://github.com/willcohen/ovid",
     :lib/category :geospatial-processing,
-    :tags #{:geo :exp :act},
+    :tags #{:geo :exp},
     :star :star,
     :description "protocols for geospatial concepts"}
    {:lib/name "aurelius",
     :lib/url "https://github.com/willcohen/aurelius",
     :lib/category :geospatial-processing,
-    :tags #{:xform :geo :exp :act},
+    :tags #{:xform :geo :exp},
     :star :star,
     :description "transducible analysis of geospatial features"}
    {:lib/name "geo-clj",
     :lib/url "https://github.com/r0man/geo-clj",
     :lib/category :geospatial-processing,
-    :tags #{:geo :act :cljs},
+    :tags #{:geo :cljs},
     :star :star,
     :description "encoding/decoding of geographic datatypes"})
 
