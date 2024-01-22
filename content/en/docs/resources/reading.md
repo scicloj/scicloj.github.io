@@ -3,7 +3,7 @@ title : "Reading"
 description: "Recommended reading"
 lead: "Recommended reading"
 date: 2022-02-14
-lastmod: 2023-12-31
+lastmod: 2024-01-22
 draft: false
 weight: 32
 images: []
@@ -19,10 +19,11 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 ## Scicloj resources
 - [Clojure Data Scrapbook](https://scicloj.github.io/clojure-data-scrapbook/) - a collection of community-contributed examples for the emerging Clojure data stack
 
-
 ## Blogs
 
 - [TechAscent Blog](https://techascent.com/blog/) by the group behind a few of the Clojure high-performance and data-analytics libraries (mostly those at [techascent](https://github.com/techascent/), as well as [dtype-next](https://github.com/cnuernber/dtype-next) and [libpython-clj](https://github.com/clj-python/libpython-clj))
+
+- [Clojure Tidy Tuesdays](https://kiramclean.github.io/clojure-tidy-tuesdays/) by Kira McLean - Clojure data explorations of datasets shared in the R community
 
 - [Squid's Blogs](https://gigasquidsoftware.com) by Carin Meier - deep learning, MXNet, Python interop and other technical topics
 
