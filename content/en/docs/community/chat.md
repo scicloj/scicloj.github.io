@@ -3,7 +3,7 @@ title : "Chat streams"
 description: ""
 lead: ""
 date: 2022-02-14
-lastmod: 2022-12-15
+lastmod: 2024-01-25
 draft: false
 weight: 24
 images: []
@@ -36,6 +36,8 @@ Here are the main scicloj-related active streams, dedicated to certain subgroups
 - [#uncomplicate](https://clojurians.zulipchat.com/#narrow/stream/361336-uncomplicate) - discussions about developing with [Neanderthal](https://neanderthal.uncomplicate.org/), [Deep Diamond](https://github.com/uncomplicate/deep-diamond), and other [Uncomplicate](https://uncomplicate.org/) libs
 
 - [#scicloj.ml-dev](https://clojurians.zulipchat.com/#narrow/stream/283491-scicloj.2Eml-dev) - discussing [scicloj.ml](https://github.com/scicloj/scicloj.ml)
+
+- [#clay-dev](https://clojurians.zulipchat.com/#narrow/stream/422115-clay-dev) - discussing the development of [Clay](https://scicloj.github.io/clay/)
 
 - [#noj-dev](https://clojurians.zulipchat.com/#narrow/stream/321125-noj-dev) - discussing the development of [Noj](https://scicloj.github.io/noj/)
 
