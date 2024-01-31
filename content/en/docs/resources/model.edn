@@ -48,6 +48,13 @@
     :star :star,
     :description
     "a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries"}
+   {:lib/name "noj",
+    :lib/url "https://github.com/scicloj/noj",
+    :lib/category :div-tools,
+    :tags #{:act},
+    :star :star,
+    :description
+    "a work-in-progress library collecting a few of the relevant data & science with additional convenience layers composing them together"}
    {:lib/name "spork",
     :lib/url "https://github.com/joinr/spork",
     :lib/category :div-tools,
