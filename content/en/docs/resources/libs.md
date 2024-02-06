@@ -3,7 +3,7 @@ title : "Tools and libraries"
 description: "Clojure tools and libraries for data and science"
 lead: "Clojure tools and libraries for data and science"
 date: 2022-02-14
-lastmod: 2022-07-09
+lastmod: 2024-02-06
 draft: false
 weight: 31
 images: []
@@ -202,6 +202,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 ## Large Language Models and related services
 - [Bosquet](https://github.com/zmedelis/bosquet) :star: (`act`): `llm` - LLMOps for Large Language Model based applications
 - [llama.clj](https://github.com/phronmophobic/llama.clj) :star: (`act`): `llm` - A wrapper of [llama.cpp](https://github.com/ggerganov/llama.cpp)
+- [clip.clj](https://github.com/phronmophobic/clip.clj) :star: (`act`): `llm` - A wrapper for [clip.cpp](https://github.com/monatis/clip.cpp) for embeddins of images and text
 - [cohere-clojure](https://github.com/danielsz/cohere-clojure) :star: (`act`): `llm` - An Unofficial port of the [Cohere](https://docs.cohere.com/docs) SDK
 - [openai-clojure](https://github.com/wkok/openai-clojure) :star: (`act`): `llm` - A wrapper of the [OpenAI API](https://platform.openai.com/docs/introduction) and [Azure OpenAI API](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference)
 - [openai-api](https://github.com/pmatiello/openai-api) :star: (`act`): `llm` - A wrapper of the [OpenAI API](https://platform.openai.com/docs/introduction)

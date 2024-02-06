@@ -769,6 +769,12 @@
     :tags #{:act :llm},
     :star :star,
     :description "A wrapper of [llama.cpp](https://github.com/ggerganov/llama.cpp)"}
+   {:lib/name "clip.clj",
+    :lib/url "https://github.com/phronmophobic/clip.clj",
+    :lib/category :large-language-models,
+    :tags #{:act :llm},
+    :star :star,
+    :description "A wrapper for [clip.cpp](https://github.com/monatis/clip.cpp) for embeddins of images and text"}
    {:lib/name "cohere-clojure",
     :lib/url "https://github.com/danielsz/cohere-clojure",
     :lib/category :large-language-models,
