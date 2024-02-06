@@ -3,7 +3,7 @@ title : "Reading"
 description: "Recommended reading"
 lead: "Recommended reading"
 date: 2022-02-14
-lastmod: 2024-01-22
+lastmod: 2024-02-06
 draft: false
 weight: 32
 images: []
@@ -80,6 +80,7 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 - See mainly the growing list of tutorials at [Squid's Blogs](https://gigasquidsoftware.com) mentioned above.
 
 #### Plotting
+- [vega-lite example Gallery in EDN](https://github.clerk.garden/behrica/vl-galery/commit/cbc1d1f044b2ac81a39453bf32f72cfce71d0b29/#bar_grouped_repeated) by Carsten Behring
 - [Fun With Matplotlib](https://nextjournal.com/chrisn/fun-with-matplotlib) by Chris Nuernberger.
 - [Panthera tutorials](https://github.com/alanmarazzi/panthera#examples)
 
