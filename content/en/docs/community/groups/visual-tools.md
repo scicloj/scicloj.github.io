@@ -17,7 +17,7 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/).
 
 * Meeting 21 (Feb. 25th 2024: Studying ggplot - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-21-studying-ggplot/)
-* Meetings 20 (Dec. 1st 2023): Various updates - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-20-various-updates/10454) - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-20-various-updates-summary-recording-metarepl-timespace-oracle-meyvn-templates-kindly-clay-claykind/)
+* Meetings 20 (Dec. 1st 2023): Various updates - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-20-various-updates-summary-recording-metarepl-timespace-oracle-meyvn-templates-kindly-clay-claykind/)
 * Meeting 19 (July 7th 2023): Electric - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-19-electric-login-for-details/) (log in to Clojureverse to view)
 * Meeting 18 (May 27th 2023): Mosaic and other updates - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-18-mosaic-and-other-updates-summary-recording/)
 * Meeting 17 (April 1st 2023): various updates - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-17-various-updates-summary-recording/)
