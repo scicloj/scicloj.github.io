@@ -3,27 +3,25 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-17
-lastmod: 2024-12-02
+lastmod: 2024-02-23
 draft: false
 images: []
 ---
 The real-world-data group is about the use of Clojure for data and science problems.
 
-:star: During February 2024, we are going to rethinking the plan restarting the group. :star:
-
-Your initial feedback at :pencil: [the survey](https://docs.google.com/forms/d/e/1FAIpQLSeAVDb4NotQKgG7fAdHWDWW94sK4TRL10QACXErX1LNH535Kg/viewform?usp=pp_url) :pencil: (Summer 2023) did help a lot in our planning. 
-
 ## Goal
-This group will be a space for individuals, companies, academic groups, and organizations to share their experiences and support each other in using Clojure for data & science projects. Data analytics, machine learning, AI, data engineering, scientific computing, and data visualization are all welcome.
+This group is a space for individuals, companies, academic groups, and organizations to share their experiences and support each other in using Clojure for data & science projects. 
 
-It should be a safe space that would be comfortable for sharing successes, troubles, problems, hopes, and doubts. We want it to be helpful for those who use mostly Clojure and for those who are curious but doubtful.
+Data analytics, machine learning, AI, data engineering, scientific computing, and data visualization are all welcome.
+
+It is a safe space for sharing successes, troubles, problems, hopes, and doubts. 
 
 ## Participating
-If you wish to use Clojure for a data or science project and prefer not to be alone in that journey, this group is possibly for you.
+If you wish to use Clojure for a data or science project and prefer not to be alone in that journey, this group is for you.
 
-We will assume that you plan to attend most of the biweekly sessions and work on your project between them. We will also assume that you either know some Clojure or have a serious intention to learn it.
+We will also assume that you either know some Clojure or have a serious intention to learn it.
 
-To join, please reach out to us by contacting [Daniel Slutsky](https://clojurians.zulipchat.com/#narrow/pm-with/138175-Daniel-Slutsky) at [the Clojurians Zulip chat](../../chat), or ar the various [Scicloj ways of contact](../../contact).
+To join, please reach out to us by contacting [Daniel Slutsky](https://clojurians.zulipchat.com/#narrow/pm-with/138175-Daniel-Slutsky) at [the Clojurians Zulip chat](../../chat), or ar the various [Scicloj ways of contact](../../contact). 
 We will think together about whether this group fits your path.
 
 ## Sessions
@@ -41,8 +39,8 @@ Most of the recordings will not be shared publicly but rather internally as a to
 ## Chat
 The group will use [the Clojurians Zulip chat](../../chat). Specifically, the [#real-world-data](https://clojurians.zulipchat.com/#narrow/stream/315077-real-world-data) stream.
 
-## Schedule
+## Timeline
 * Feb. 25th 2022 - two special sessions we had a while back - [announcement](https://clojureverse.org/t/real-world-data-meetup-1/) (recorded but never published)
 * late June 2023 - initial survey (then the project went on hold)
-* early 2024 - starting the group's regular path
+* March 2024 - starting the group's regular path
 
