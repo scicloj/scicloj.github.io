@@ -36,6 +36,16 @@ The sessions will be partially recorded.
 
 Most of the recordings will not be shared publicly but rather internally as a tool for us to catch up and recall our past discussions. When recordings are planned to be made public, we will first check with all participants.
 
+## Pairing
+In the group, we will seek opportunities of collaborations.
+
+A scientist may wish to pair with a Clojure engineer and explore something together, a Clojurian person may be curious about joining a scientific project, etc. We will be looking for such cases and try to help in matching them.
+
+## Contributing
+In your projects using the emerging Clojure stack, there will often be opportunities to contribute back to the libraries you use. We will encourage that and help you in considering about fruitful directions and connecting with the relevant library authors. 
+
+We will highly encourage contributing documentation and tutorials and will use the [Clojure Data Scrapbook](https://scicloj.github.io/clojure-data-scrapbook/) as a central space for such content.
+
 ## Chat
 The group will use [the Clojurians Zulip chat](../../chat). Specifically, the [#real-world-data](https://clojurians.zulipchat.com/#narrow/stream/315077-real-world-data) stream.
 
