@@ -3,7 +3,7 @@ title : "Reading"
 description: "Recommended reading"
 lead: "Recommended reading"
 date: 2022-02-14
-lastmod: 2024-02-06
+lastmod: 2024-02-28
 draft: false
 weight: 32
 images: []
@@ -30,6 +30,8 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 - [Dragan Djuric](https://dragan.rocks) - numerical computing, linear algebra, high performance computing and deep learning
 
 - [Atabey Kaygun](https://kaygun.github.io/) - math, algorithms, machine learning, and data science topics demonstrated through Clojure and other Lisp dialects
+
+- [Thomas-Sojka](https://thomas-sojka.tech/) - data visualization and other topics
 
 - [Arthur Caillau's Blog](https://arthurcaillau.com/blog/) - featuring the "MXNet made simple" series - deep learning from Clojure
 
