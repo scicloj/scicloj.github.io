@@ -33,6 +33,8 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 
 - [Thomas-Sojka](https://thomas-sojka.tech/) - data visualization and other topics
 
+- [Georgy Toporkov's Lebenswelt](https://lebenswelt.space/) - Data processing, publishing, and other topics.
+
 - [Arthur Caillau's Blog](https://arthurcaillau.com/blog/) - featuring the "MXNet made simple" series - deep learning from Clojure
 
 - [Christopher Small](http://metasoarous.com/blog) - discussing the development of Oz, among other things
