@@ -3,7 +3,7 @@ title : "Tools and libraries"
 description: "Clojure tools and libraries for data and science"
 lead: "Clojure tools and libraries for data and science"
 date: 2022-02-14
-lastmod: 2024-02-06
+lastmod: 2022-07-09
 draft: false
 weight: 31
 images: []
@@ -126,6 +126,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) :star: (`act`): `csv`,`df`,`stat`,`vis` - abstractions for dataframe-like structures in clojure, based on dtype-next infrastructure
 - [tablecloth](https://github.com/scicloj/tablecloth) :star: (`act`): `csv`,`df` - a dataframe grammar wrapping tech.ml.dataset, inspired by serveral R libraries
 - [clojask](https://clojure-finance.github.io/clojask-website/) :star: (`act`): `df` - a library for parallel computing of larger-than-memory datasets.
+- [datajure](https://clojure-finance.github.io/datajure-website/) (`act`): `df` - a domain-specific language for data processing wrapping libraries such as tech.ml.dataset, tablecloth, clojask, and geni
 - [Panthera](https://github.com/alanmarazzi/panthera): `df`,`py` - a Clojure API wrapping Python's Pandas library
 - [koala](https://github.com/aria42/koala): `csv`,`df`,`exp` - Pandas-like data-processing for clojure with some I/O functionality (experimental)
 - [dataframe](https://github.com/ghl3/dataframe): `df` - Pandas-like data processing for clojure
