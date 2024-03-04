@@ -408,6 +408,12 @@
     :star :star,
     :description
     "a library for parallel computing of larger-than-memory datasets."}
+   {:lib/name "datajure"
+    :lib/url "https://clojure-finance.github.io/datajure-website/"
+    :lib/category :dataframe-like-structures
+    :tags #{:df :act}
+    :star nil
+    :description "a domain-specific language for data processing wrapping libraries such as tech.ml.dataset, tablecloth, clojask, and geni"}
    {:lib/name "Panthera",
     :lib/url "https://github.com/alanmarazzi/panthera",
     :lib/category :dataframe-like-structures,
