@@ -9,6 +9,8 @@ images: []
 ---
 The real-world-data group is about the use of Clojure for data and science problems.
 
+Date of first meeting: March 15th, 2024.
+
 ## Goal
 This group is a space for individuals, companies, academic groups, and organizations to share their experiences and support each other in using Clojure for data & science projects. 
 
