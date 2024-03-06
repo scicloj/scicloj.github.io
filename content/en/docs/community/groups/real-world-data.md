@@ -12,7 +12,7 @@ The real-world-data group is about the use of Clojure for data and science probl
 ## Schedule
 The group will start meeting regularly on Fridays, 17:00 [UTC time zone](https://time.is/utc).
 
-* March 22th, 2024 - an event will be announced soon
+* March 22th, 2024 - meeting 1 - :calendar: [event](https://clojureverse.org/t/real-world-data-meeting-1/10613)
 
 ## Goal
 This group is a space for individuals, companies, academic groups, and organizations to share their experiences and support each other in using Clojure for data & science projects. 
