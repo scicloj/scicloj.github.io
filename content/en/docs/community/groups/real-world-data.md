@@ -10,7 +10,9 @@ images: []
 The real-world-data group is about the use of Clojure for data and science problems.
 
 ## Schedule
-The group will start meeting regularly on Fridays (hour TBD), starting from March 15th, 2024.
+The group will start meeting regularly on Fridays, 17:00 [UTC time zone](https://time.is/utc).
+
+* March 22th, 2024 - an event will be announced soon
 
 ## Goal
 This group is a space for individuals, companies, academic groups, and organizations to share their experiences and support each other in using Clojure for data & science projects. 
@@ -52,7 +54,7 @@ We will highly encourage contributing documentation and tutorials and will use t
 ## Chat
 The group will use [the Clojurians Zulip chat](../../chat). Specifically, the [#real-world-data](https://clojurians.zulipchat.com/#narrow/stream/315077-real-world-data) stream.
 
-## Timeline
+## Old timeline (archive)
 * Feb. 25th 2022 - two special sessions we had a while back - [announcement](https://clojureverse.org/t/real-world-data-meetup-1/) (recorded but never published)
 * late June 2023 - initial survey (then the project went on hold)
 * March 2024 - starting the group's regular path
