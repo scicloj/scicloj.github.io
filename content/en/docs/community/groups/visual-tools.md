@@ -3,7 +3,7 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2024-03-21
+lastmod: 2024-03-23
 draft: false
 images: []
 ---
@@ -16,7 +16,7 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 
 Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/).
 
-* Meeting 23 (Apr. 7th 2024): ggplot study session 3 - to be announced soon
+* Meeting 23 (Apr. 7th 2024): ggplot study session 3 - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-23-ggplot-study-session-3/)
 * Meeting 22 (Mar. 17th 2024): ggplot study session 2 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-22-ggplot-study-session-2-summary-recording/)
 * Meeting 21 (Feb. 25th 2024): ggplot study session 1 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-21-ggplot-study-session-1-summary-recording/)
 * Meetings 20 (Dec. 1st 2023): Various updates - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-20-various-updates-summary-recording-metarepl-timespace-oracle-meyvn-templates-kindly-clay-claykind/)
