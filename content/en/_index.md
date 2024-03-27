@@ -2,7 +2,7 @@
 title : "Scicloj"
 description: "Building a platform for data science in Clojure"
 lead: "Building a platform for data science in Clojure"
-news1title: "📅Join the real-world-data group📅"
+news1title: "🌟Join the real-world-data group🌟"
 news1link: "https://scicloj.github.io/docs/community/groups/real-world-data/"
 news2title: "📅Follow our events (and others) on the Clojure Calendar Feed📅"
 news2link: "https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/9527"
