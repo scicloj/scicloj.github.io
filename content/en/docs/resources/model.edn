@@ -819,8 +819,9 @@
     :description "Dataset curation for fine tuning an LLM for Clojure"}
    {:lib/name "instructor-clj"
     :lib/url "https://github.com/kapilreddy/instructor-clj"
+    :lib/category :large-language-models
     :tags #{:act :llm}
-    :description "A libbraryl inspired by [instructor](https://github.com/jxnl/instructor), making it easy to have structured output from LLMs (using [Malli](https://github.com/metosin/malli) for defining schemas)"})
+    :description "A library inspired by [instructor](https://github.com/jxnl/instructor), making it easy to have structured output from LLMs (using [Malli](https://github.com/metosin/malli) for defining schemas)"})
 
   ;; Interop
   ({:lib/name "clj-polyglot-app",
