@@ -3,7 +3,7 @@ title : "data-recur: recurring updates & discussions around building the emergin
 description: "recurring updates & discussions around building the emerging data stack"
 lead: ""
 date: 2022-07-12
-lastmod: 2022-12-04
+lastmod: 2024-03-27
 draft: false
 images: []
 ---
@@ -15,10 +15,12 @@ images: []
 
 This group is a space for recurring updates & discussions around the emerging Clojure stack for data processing, analysis, and visualization.
 
-* 2022-07-29 - meeting 1: clojure.walk, community updates - [summary & video](https://clojureverse.org/t/data-recur-meeting-1-clojure-walk-community-updates-summary-video/)
-* 2022-08-27 - meeting 2: Clojask, columns for Tablecloth, ds4clj, and more - [summary & video](https://clojureverse.org/t/data-recur-meeting-2-clojask-columns-for-tablecloth-summary-video/)
-* 2022-09-30 - meeting 3: Meander - [sumamry & video](https://clojureverse.org/t/data-recur-meeting-4-tablecloth-summary-video/)
+:star: coming back at April 2024 :star:
+
 * 2022-11-05 - meeting 4: Tablecloth - [summary & video](https://clojureverse.org/t/data-recur-meeting-3-meander-summary-video/)
+* 2022-09-30 - meeting 3: Meander - [sumamry & video](https://clojureverse.org/t/data-recur-meeting-4-tablecloth-summary-video/)
+* 2022-08-27 - meeting 2: Clojask, columns for Tablecloth, ds4clj, and more - [summary & video](https://clojureverse.org/t/data-recur-meeting-2-clojask-columns-for-tablecloth-summary-video/)
+* 2022-07-29 - meeting 1: clojure.walk, community updates - [summary & video](https://clojureverse.org/t/data-recur-meeting-1-clojure-walk-community-updates-summary-video/)
 
 Future topics:
 - Machine learning: Tablecloth, scicloj.ml, Metamorph
