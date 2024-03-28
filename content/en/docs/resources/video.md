@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2024-03-21
+lastmod: 2024-03-28
 draft: false
 weight: 33
 images: []
@@ -50,6 +50,11 @@ The reClojure 2020 conrefnere offered a few data & science talks.
 - September 27th - Anthony Khong interviewed by Vijay Kiran, Teodor Heggelund and Daniel Slutsky about Geni - [video](https://youtu.be/3R2FJQdtLf8)
 
 ## Public sessions of dev & study groups
+
+### real-world-data
+- Mar 22nd 2024 - meeting 1:
+  - [Kyle Passarelli](https://www.youtube.com/watch?v=oeY2_M22nEM)
+  - [Adham Omran](https://www.youtube.com/watch?v=iG2OF9C2FSI)
 
 ### ds4clj
 As of Fall 2022, the planned Data Science for Clojure devs course is delayed. Occaionally, we have ad-hoc exploration or prep meetings. Some recordings are shared publicly.
