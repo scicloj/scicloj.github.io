@@ -3,12 +3,16 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2024-03-28
+lastmod: 2024-03-31
 draft: false
 weight: 33
 images: []
 contributors: ["daslu"]
 ---
+
+## Clojure Data Scrapbook accompanying videos
+- 2024-03-30 - [Noj - getting started - from raw data to a blog post](https://www.youtube.com/watch?v=5GluhUmMlpM)
+
 
 ## Clojure/Conj 2023
 
