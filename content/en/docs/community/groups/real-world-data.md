@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-17
-lastmod: 2024-04-02
+lastmod: 2024-04-03
 draft: false
 images: []
 ---
@@ -16,6 +16,7 @@ The group meets regularly on Fridays, 17:00 [UTC time zone](https://time.is/utc)
   * If you wish to present or discuss anything, please let us know.
 * March 22th, 2024 - meeting 1 - :calendar: [event](https://clojureverse.org/t/real-world-data-meeting-1/10613)
   * publicly shared recordings: :movie_camera: [Kyle Passarelli](https://www.youtube.com/watch?v=oeY2_M22nEM) :movie_camera: [Adham Omran](https://www.youtube.com/watch?v=iG2OF9C2FSI)
+  * followup tutorial: :notebook: [chicago bike trips](https://scicloj.github.io/clojure-data-scrapbook/projects/geography/chicago-bikes/index.html)
   * followup video: :movie_camera: [noj - getting started - from raw data to a blog post](https://www.youtube.com/watch?v=5GluhUmMlpM)
 
 ## Goal
