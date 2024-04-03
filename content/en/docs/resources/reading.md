@@ -3,7 +3,7 @@ title : "Reading"
 description: "Recommended reading"
 lead: "Recommended reading"
 date: 2022-02-14
-lastmod: 2024-02-28
+lastmod: 2024-04-03
 draft: false
 weight: 32
 images: []
@@ -17,7 +17,7 @@ Here are some suggested reading materials.
 Do you wish to add your tutorial to this list? Do you have any suggestions for this list? - [Let us talk](../../community/contact)!
 
 ## Scicloj resources
-- [Clojure Data Scrapbook](https://scicloj.github.io/clojure-data-scrapbook/) - a collection of community-contributed examples for the emerging Clojure data stack
+- The [Clojure Data Scrapbook](https://scicloj.github.io/clojure-data-scrapbook/) - a community-driven collection of tutorials for the emerging Clojure data stack - contributions welcome :pray:
 
 ## Blogs
 
