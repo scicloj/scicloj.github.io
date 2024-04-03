@@ -12,7 +12,7 @@ The real-world-data group is about the use of Clojure for data and science probl
 ## Schedule
 The group meets regularly on Fridays, 17:00 [UTC time zone](https://time.is/utc).
 
-* April 5th, 2024 - meeting 2
+* April 5th, 2024 - meeting 2 - :calendar: [event](https://clojureverse.org/t/real-world-data-meeting-2/)
   * If you wish to present or discuss anything, please let us know.
 * March 22th, 2024 - meeting 1 - :calendar: [event](https://clojureverse.org/t/real-world-data-meeting-1/10613)
   * publicly shared recordings: :movie_camera: [Kyle Passarelli](https://www.youtube.com/watch?v=oeY2_M22nEM) :movie_camera: [Adham Omran](https://www.youtube.com/watch?v=iG2OF9C2FSI)
