@@ -3,7 +3,7 @@ title : "Chat streams"
 description: ""
 lead: ""
 date: 2022-02-14
-lastmod: 2024-01-25
+lastmod: 2024-04-04
 draft: false
 weight: 24
 images: []
@@ -73,7 +73,7 @@ For more information, see also the [list](https://scicloj.github.io/docs/communi
 
 - [#wolfram-clojure-bridge](https://clojurians.zulipchat.com/#narrow/stream/313853-wolfram-clojure-bridge) - a stream for the monthly meetings around [the Clojure bridge to the Wolfram Language](https://github.com/scicloj/clojuratica).
 
-- [#real-world-data](https://clojurians.zulipchat.com/#narrow/stream/315077-real-world-data) - a stream for the [real-world-data events](https://clojureverse.org/t/real-world-data-meetings/), discussing uses of Clojure in real-world data projects
+- [#real-world-data](https://clojurians.zulipchat.com/#narrow/stream/315077-real-world-data) - a stream for the [real-world-data study group](../groups/real-world-data/), discussing uses of Clojure in real-world data projects.
 
 - [#scicloj-org](https://clojurians.zulipchat.com/#narrow/stream/203279-scicloj-org) - a **private** stream of the scicloj organizing team - for anybody interested in building the scicloj community and discssing its goals and priorities - [let us talk](../contact/) if you wish to join.
 
