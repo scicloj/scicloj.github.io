@@ -25,6 +25,8 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 
 - [Clojure Tidy Tuesdays](https://kiramclean.github.io/clojure-tidy-tuesdays/) by Kira McLean - Clojure data explorations of datasets shared in the R community
 
+- [Code with Kira](https://codewithkira.com/index.html) - by Kira McLean - in partucular: [The Current State of ML in Clojure](https://codewithkira.com/index.html) (2024-04-05)
+
 - [Squid's Blogs](https://gigasquidsoftware.com) by Carin Meier - deep learning, MXNet, Python interop and other technical topics
 
 - [Dragan Djuric](https://dragan.rocks) - numerical computing, linear algebra, high performance computing and deep learning
