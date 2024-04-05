@@ -31,8 +31,7 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 
 - [Atabey Kaygun](https://kaygun.github.io/) - math, algorithms, machine learning, and data science topics demonstrated through Clojure and other Lisp dialects
 
-- [Thomas-Sojka](https://thomas-sojka.tech/) - data visualization and other topics
-  - in particular: [hiccup-d3](https://rollacaster.github.io/hiccup-d3/) - a gallery of Hiccup D3-charts in Clojurescript
+- [Thomas-Sojka](https://thomas-sojka.tech/) - data visualization and other topics - in particular: [hiccup-d3](https://rollacaster.github.io/hiccup-d3/) - a gallery of Hiccup D3-charts in Clojurescript
 
 - [Georgy Toporkov's Lebenswelt](https://lebenswelt.space/) - Data processing, publishing, and other topics.
 
