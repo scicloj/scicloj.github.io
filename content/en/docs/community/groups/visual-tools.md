@@ -3,7 +3,7 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2024-04-07
+lastmod: 2024-04-08
 draft: false
 images: []
 ---
@@ -17,7 +17,7 @@ The authors of several actively developed tools are involved (Chlorine, Clover, 
 Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/).
 
 * Upcoming meeting (TBD): reading in Leland Wilkinson's [The Grammar of Graphics](https://link.springer.com/book/10.1007/0-387-28695-0)
-* Upcoming meeting ([poll](https://doodle.com/meeting/participate/id/dR5Yk8Lb/)): badspreadsheet & HTMX
+* Upcoming meeting (Apr. 26th 2024): badspreadsheet & HTMX
 * Meeting 23 (Apr. 7th 2024): ggplot study session 3 - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-23-ggplot-study-session-3/) - recording comings soon
 * Meeting 22 (Mar. 17th 2024): ggplot study session 2 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-22-ggplot-study-session-2-summary-recording/)
 * Meeting 21 (Feb. 25th 2024): ggplot study session 1 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-21-ggplot-study-session-1-summary-recording/)
