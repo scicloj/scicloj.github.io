@@ -3,7 +3,7 @@ title : "Reading"
 description: "Recommended reading"
 lead: "Recommended reading"
 date: 2022-02-14
-lastmod: 2024-04-03
+lastmod: 2024-04-10
 draft: false
 weight: 32
 images: []
@@ -35,7 +35,7 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 
 - [Thomas-Sojka](https://thomas-sojka.tech/) - data visualization and other topics - in particular: [hiccup-d3](https://rollacaster.github.io/hiccup-d3/) - a gallery of Hiccup D3-charts in Clojurescript
 
-- [Georgy Toporkov's Lebenswelt](https://lebenswelt.space/) - Data processing, publishing, and other topics.
+- [Georgy Toporkov's Lebenswelt](https://lebenswelt.space/) - Data processing, publishing, and other topics - in particular: [Dealing with out-of-memory faulty csv’s with Clojure, Duckdb, and Parquet](https://lebenswelt.space/blog-posts/processing-faulty-csv-with-clojure-duckdb-parquet/) (2024-01-22)
 
 - [Arthur Caillau's Blog](https://arthurcaillau.com/blog/) - featuring the "MXNet made simple" series - deep learning from Clojure
 
