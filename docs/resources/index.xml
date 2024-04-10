@@ -3,7 +3,7 @@ Do you know about anything relevant that is missing here? - Let us talk!
 For every library, we mark whether it is actively developed (act), and whether it is still experimental (exp).</description></item><item><title>Reading</title><link>https://scicloj.github.io/docs/resources/reading/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/docs/resources/reading/</guid><description>Here are some suggested reading materials.
 Do you wish to add your tutorial to this list? Do you have any suggestions for this list? - Let us talk!
 Scicloj resources #
-The Clojure Data Scrapbook - a community-driven collection of tutorials for the emerging Clojure data stack - contributions welcome 🙏 Blogs #
+The Clojure Data Scrapbook - a community-driven collection of tutorials for the emerging Clojure data stack - contributions are welcome. 🙏 Blogs #
 TechAscent Blog by the group behind a few of the Clojure high-performance and data-analytics libraries (mostly those at techascent, as well as dtype-next and libpython-clj)</description></item><item><title>Video</title><link>https://scicloj.github.io/docs/resources/video/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/docs/resources/video/</guid><description>Clojure Data Scrapbook accompanying videos #
 2024-03-30 - Noj - getting started - from raw data to a blog post Clojure/Conj 2023 #
 A few of the Clojure/Conj talks were dedicated to infrastructure and applications of the emerging Clojure data science stack.
