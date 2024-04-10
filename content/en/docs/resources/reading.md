@@ -17,7 +17,7 @@ Here are some suggested reading materials.
 Do you wish to add your tutorial to this list? Do you have any suggestions for this list? - [Let us talk](../../community/contact)!
 
 ## Scicloj resources
-- The [Clojure Data Scrapbook](https://scicloj.github.io/clojure-data-scrapbook/) - a community-driven collection of tutorials for the emerging Clojure data stack - contributions welcome :pray:
+- The [Clojure Data Scrapbook](https://scicloj.github.io/clojure-data-scrapbook/) - a community-driven collection of tutorials for the emerging Clojure data stack - contributions are welcome. :pray:
 
 ## Blogs
 
