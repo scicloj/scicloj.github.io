@@ -9,5 +9,5 @@ news2link: "https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/
 ddate: 2020-10-06T08:47:36+00:00
 lastmod: 2024-03-18
 draft: false
-images: []
+images: ["sci-cloj-logo-transparent.png"]
 ---
