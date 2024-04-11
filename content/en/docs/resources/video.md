@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2024-03-31
+lastmod: 2024-04-11
 draft: false
 weight: 33
 images: []
@@ -94,6 +94,7 @@ The visual tools group is about creating collaborations across differnent toolin
 - [Dec. 1st, 2023](https://www.youtube.com/watch?v=DAQnvAgBma8) - various updates: MetaREPL, Timespace Oracle, Meyvn templates, Kindly, Clay, Claykind
 - [Feb. 25th, 2024](https://www.youtube.com/watch?v=6BYObNV2pxk) - ggplot study session 1
 - [Mar. 17th, 2024](https://www.youtube.com/watch?v=MxjzaOtcdcY) - ggplot study session 2
+- [Apr. 7th, 2024](https://www.youtube.com/watch?v=d3iRGmbJmes) - ggplot study session 3
 
 ### llm meetups
 The goal of this series of meetups is to support our learning, as a community, of the new landscape of ideas around large language models.
