@@ -1,10 +1,10 @@
 ---
-title: "Clojurists Togethe project: Scicloj community building - February 2024 update"
+title: "Clojurists Together project - Scicloj community building - February 2024 update"
 description: ""
 date: 2024-02-29
 lastmod: 2024-04-14
 draft: false
-weight: 40
+weight: 19
 images: []
 contributors: ["daslu"]
 ---
