@@ -5,7 +5,7 @@ date: 2024-02-29
 lastmod: 2024-04-14
 draft: false
 weight: 19
-images: []
+images: ["../../sci-cloj-logo-transparent.png"]
 contributors: ["daslu"]
 ---
 
