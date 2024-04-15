@@ -5,7 +5,7 @@ date: 2024-04-04
 lastmod: 2024-04-15
 draft: false
 weight: 17
-images: []
+images: ["../../sci-cloj-logo-transparent.png"]
 contributors: ["Kira McLean"]
 ---
 
