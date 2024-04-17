@@ -3,7 +3,7 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2024-04-11
+lastmod: 2024-04-17
 draft: false
 images: []
 ---
@@ -15,6 +15,8 @@ The goal of this group is to create collaborations in learning and building Cloj
 The authors of several actively developed tools are involved (Chlorine, Clover, Calva and its Notebooks, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Claykind, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, Clerk, Mosaic, MetaREPL, Meyvn, etc.).
 
 Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/).
+
+* Upcoming mini-series (TBD): R and data visualization workshops for Clojurians
 
 * Upcoming meeting (TBD): reading in Leland Wilkinson's [The Grammar of Graphics](https://link.springer.com/book/10.1007/0-387-28695-0)
 * Upcoming meeting (Apr. 26th 2024): badspreadsheet & HTMX - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-24-badspreadsheet-and-htmx/10679)
