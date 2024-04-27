@@ -2,8 +2,8 @@
 title : "Scicloj"
 description: "Building a platform for data science in Clojure"
 lead: "Building a platform for data science in Clojure"
-news1title: "💮See you at visual-tools meeting 24: badspreadsheet & HTMX💮"
-news1link: "https://clojureverse.org/t/visual-tools-meeting-24-badspreadsheet-and-htmx/"
+news1title: "✎ It is not too late to join the Clojure real-world-data group ✎"
+news1link: "https://scicloj.github.io/docs/community/groups/real-world-data/"
 news2title: "📅Follow our events (and others) on the Clojure Calendar Feed📅"
 news2link: "https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/9527"
 ddate: 2020-10-06T08:47:36+00:00
