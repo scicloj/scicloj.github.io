@@ -13,7 +13,7 @@ The real-world-data group is about the use of Clojure for data and science probl
 The group meets regularly on Fridays, 17:00 [UTC time zone](https://time.is/utc).
 Please let us know if you wish to join but the time does not work. We may adjust it.
 
-* May 3rd, 2024 - meeting 4 - :calendar [event](https://clojureverse.org/t/real-world-data-meeting-4/10708)
+* May 3rd, 2024 - meeting 4 - :calendar: [event](https://clojureverse.org/t/real-world-data-meeting-4/10708)
   * If you wish to present or discuss anything, please let us know.
 * April 19th, 2024 - meeting 3
 * April 5th, 2024 - meeting 2
