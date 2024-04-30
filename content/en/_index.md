@@ -7,7 +7,7 @@ news1link: "https://scicloj.github.io/docs/community/chat/"
 news2title: "📅Follow our events (and others) on the Clojure Calendar Feed📅"
 news2link: "https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/9527"
 ddate: 2020-10-06T08:47:36+00:00
-lastmod: 2024-03-18
+lastmod: 2024-04-30
 draft: false
 images: ["sci-cloj-logo-transparent.png"]
 ---
