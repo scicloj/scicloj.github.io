@@ -3,7 +3,7 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2024-04-30
+lastmod: 2024-05-02
 draft: false
 images: []
 ---
@@ -19,7 +19,7 @@ Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.o
 * Upcoming mini-series (TBD): R and data visualization workshops for Clojurians - please reach out if you are interested
 
 * Upcoming meeting (TBD): reading in Leland Wilkinson's [The Grammar of Graphics](https://link.springer.com/book/10.1007/0-387-28695-0)
-* Upcoming meeting (Apr. 26th 2024): badspreadsheet & HTMX - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-24-badspreadsheet-and-htmx/10679) - recording coming soon
+* Meeting 24 (Apr. 26th 2024): badspreadsheet & HTMX - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-24-badspreadsheet-and-htmx-summary-recording/)
 * Meeting 23 (Apr. 7th 2024): ggplot study session 3 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-23-ggplot-study-session-3-summary-recording/)
 * Meeting 22 (Mar. 17th 2024): ggplot study session 2 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-22-ggplot-study-session-2-summary-recording/)
 * Meeting 21 (Feb. 25th 2024): ggplot study session 1 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-21-ggplot-study-session-1-summary-recording/)
