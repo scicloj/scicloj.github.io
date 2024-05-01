@@ -17,9 +17,12 @@ Comments and ideas would help. :pray:
 
 # Clojurists Together update - April 2024 - Daniel Slutsky
 April 2024 was the last of three months on the Clojurists Together project titled "Scicloj Community Building and Infrastructure".
+
 Scicloj is an open-source group developing Clojure tools and libraries for data and science. As a community organizer at Scicloj, my current role is to help make the emerging Scicloj stack easier and more accessible for broad groups of Clojurians. I collaborate with a few Scicloj members on this. 
+
 While this is the last update under the Clojurists Together 2024 Q1 support, the project will, of course, continue. 
 Below are the sub-projects that were addressed during April 2024. They are listed by their proposed priorities for the coming month. 
+
 The new real-world-data group is ranked highest for its impact on community growth. This means the following. Assuming this group will (hopefully) grow well and demand attention, the goals of other projects will receive less attention and will be delayed. However, some of them (e.g., required extensions or bugfixes to libraries) will receive more attention if the real-world-data group requires them.
 
 ## [The real-world-data group](https://scicloj.github.io/docs/community/groups/real-world-data/)
