@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2024-05-02
+lastmod: 2024-05-15
 draft: false
 weight: 33
 images: []
@@ -172,7 +172,8 @@ Most of its meetings have been recorded and shared internally. Some meetings are
 - Oct. 10th, 2023 - Chris Nuernberger - High Performance Functional Data Science - [video](https://www.youtube.com/watch?v=WA5O7jNoNGE)
 - Oct. 25th, 2023 - Chris Badahdah - Portal Internals - [video](https://www.youtube.com/watch?v=NO9D3LSS4WU)
 - Dec. 12th, 2023 - Kira McLean, Timothy Prateley, & Daniel Slutsky - Cooking Up a Workflow for Data - [video](https://www.youtube.com/watch?v=skMMvxWjmNM)
-- April. 30th, 2034 - Kira McLean - From data to insights: Clojure for data deep dive - [video](https://www.youtube.com/watch?v=eUFf3-og_-Y)
+- April. 30th, 2024 - Kira McLean - From data to insights: Clojure for data deep dive - [video](https://www.youtube.com/watch?v=eUFf3-og_-Y)
+- May 14th, 2024 - Dragan Djuric - Programming with Linear Algebra: Hello World - [video](https://www.youtube.com/watch?v=3k7o7tfufRU)
 
 ### Boston Clojure
 
