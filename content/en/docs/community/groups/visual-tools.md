@@ -20,7 +20,7 @@ Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.o
 
 * Upcoming meeting (TBD): reading in Leland Wilkinson's [The Grammar of Graphics](https://link.springer.com/book/10.1007/0-387-28695-0)
 
-* Meeting 25 (June 7th 2024): key-party - :claendar: [event](https://clojureverse.org/t/visual-tools-meeting-25-keg-party/)
+* Meeting 25 (June 7th 2024): keg-party - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-25-keg-party/)
 * Meeting 24 (Apr. 26th 2024): badspreadsheet & HTMX - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-24-badspreadsheet-and-htmx-summary-recording/)
 * Meeting 23 (Apr. 7th 2024): ggplot study session 3 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-23-ggplot-study-session-3-summary-recording/)
 * Meeting 22 (Mar. 17th 2024): ggplot study session 2 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-22-ggplot-study-session-2-summary-recording/)
