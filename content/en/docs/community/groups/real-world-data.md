@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-17
-lastmod: 2024-05-18
+lastmod: 2024-05-19
 draft: false
 images: []
 ---
@@ -18,6 +18,7 @@ Please let us know if you wish to join but the time does not work. We may adjust
 * May 17th, 2024 - meeting 5
 * May 3rd, 2024 - meeting 4
 * April 19th, 2024 - meeting 3
+  * publicly shared recording: :movie_camera: [Bayesian Statistics with Stan by Daniel Slutsky](https://www.youtube.com/watch?v=1Y89-UlG1FA)
 * April 5th, 2024 - meeting 2
 * March 22th, 2024 - meeting 1
   * publicly shared recordings: :movie_camera: [Kyle Passarelli](https://www.youtube.com/watch?v=oeY2_M22nEM) :movie_camera: [Adham Omran](https://www.youtube.com/watch?v=iG2OF9C2FSI)
