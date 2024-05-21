@@ -15,11 +15,11 @@ images: []
 
 This group is a space for recurring updates & discussions around the emerging Clojure stack for data processing, analysis, and visualization.
 
-* 2024-06-29 - meeting 5: Datajure - event coming soon
-* 2022-11-05 - meeting 4: Tablecloth - [summary & video](https://clojureverse.org/t/data-recur-meeting-3-meander-summary-video/)
-* 2022-09-30 - meeting 3: Meander - [sumamry & video](https://clojureverse.org/t/data-recur-meeting-4-tablecloth-summary-video/)
-* 2022-08-27 - meeting 2: Clojask, columns for Tablecloth, ds4clj, and more - [summary & video](https://clojureverse.org/t/data-recur-meeting-2-clojask-columns-for-tablecloth-summary-video/)
-* 2022-07-29 - meeting 1: clojure.walk, community updates - [summary & video](https://clojureverse.org/t/data-recur-meeting-1-clojure-walk-community-updates-summary-video/)
+* 2024-06-29 - meeting 5: Datajure - :calendar: [event](https://clojureverse.org/t/data-recur-meeting-5-datajure-a-dsl-extension-to-existing-data-processing-libraries/)
+* 2022-11-05 - meeting 4: Tablecloth - :movie_camera: [summary & video](https://clojureverse.org/t/data-recur-meeting-3-meander-summary-video/)
+* 2022-09-30 - meeting 3: Meander - :movie_camera: [sumamry & video](https://clojureverse.org/t/data-recur-meeting-4-tablecloth-summary-video/)
+* 2022-08-27 - meeting 2: Clojask, columns for Tablecloth, ds4clj, and more - :movie_camera: [summary & video](https://clojureverse.org/t/data-recur-meeting-2-clojask-columns-for-tablecloth-summary-video/)
+* 2022-07-29 - meeting 1: clojure.walk, community updates - :movie_camera: [summary & video](https://clojureverse.org/t/data-recur-meeting-1-clojure-walk-community-updates-summary-video/)
 
 Future topics:
 - Machine learning: Tablecloth, scicloj.ml, Metamorph
