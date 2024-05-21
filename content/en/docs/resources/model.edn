@@ -781,6 +781,12 @@
     :tags #{:act :llm},
     :star :star,
     :description "A wrapper for [clip.cpp](https://github.com/monatis/clip.cpp) for embeddins of images and text"}
+   {:lib/name "Ragcats",
+    :lib/url "https://github.com/constacts/ragtacts"
+    :lib/category :large-language-models,
+    :tags #{:act :llm},
+    :star :star,
+    :description "A set of functions for building LLM applications including RAGs."}
    {:lib/name "cohere-clojure",
     :lib/url "https://github.com/danielsz/cohere-clojure",
     :lib/category :large-language-models,
