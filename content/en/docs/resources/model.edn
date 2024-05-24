@@ -473,7 +473,7 @@
    {:lib/name "fxl",
     :lib/url "https://github.com/zero-one-group/fxl",
     :lib/category :spreadsheets,
-    :tags #{:exp :act :xl},
+    :tags #{:act :xl},
     :star :star,
     :description
     "manipulating spreadsheets with a versatile API for handling various spreadsheet constructs"}
@@ -483,7 +483,14 @@
     :tags #{:exp :xl},
     :star nil,
     :description
-    "building Excel spreadsheets from Clojure data combined with an Excel sheet serving as a template"})
+    "building Excel spreadsheets from Clojure data combined with an Excel sheet serving as a template"}
+   {:lib/name "xl-parse-clj",
+    :lib/url "https://github.com/heykieran/xl-parse-clj",
+    :lib/category :spreadsheets,
+    :tags #{:exp :xl},
+    :star nil,
+    :description
+    "converting an Excel workbook to Clojure code"})
 
   ;; ## Arrays and linear algebra
   ({:lib/name "dtype-next",

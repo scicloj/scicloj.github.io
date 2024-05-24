@@ -3,7 +3,7 @@ title : "Tools and libraries"
 description: "Clojure tools and libraries for data and science"
 lead: "Clojure tools and libraries for data and science"
 date: 2022-02-14
-lastmod: 2024-05-21
+lastmod: 2024-05-24
 draft: false
 weight: 31
 images: []
@@ -138,8 +138,9 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [Docjure](https://github.com/mjul/docjure) :star: (`act`): `xl` - making it easy to read and write Excel spreadsheets as Clojure data
 - [kixi.large](https://github.com/MastodonC/kixi.large) :star: (`act`): `exp`,`xl` - a tech.ml.dataset-friendly fork of Docjure, providing clear entry point at the workbook and sheet level and a way to insert images
 - [Excel-clj](https://github.com/matthewdowney/excel-clj) :star: (`act`): `xl` - building Excel spreadsheets from Clojure data in various forms such as trees, tables, and more
-- [fxl](https://github.com/zero-one-group/fxl) :star: (`act`): `exp`,`xl` - manipulating spreadsheets with a versatile API for handling various spreadsheet constructs
+- [fxl](https://github.com/zero-one-group/fxl) :star: (`act`): `xl` - manipulating spreadsheets with a versatile API for handling various spreadsheet constructs
 - [Excel-templates](https://github.com/tomfaulhaber/excel-templates): `exp`,`xl` - building Excel spreadsheets from Clojure data combined with an Excel sheet serving as a template
+- [xl-parse-clj](https://github.com/heykieran/xl-parse-clj): `exp`,`xl` - converting an Excel workbook to Clojure code
 
 ## Array programming, linear algebra
 - [dtype-next](https://github.com/cnuernber/dtype-next) :star: (`act`): `array`,`native`,`stat`,`tensor` - abstractions and foundations for working with array-like structures and sequential structures
