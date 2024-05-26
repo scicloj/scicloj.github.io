@@ -3,7 +3,7 @@ title : "Chat streams"
 description: ""
 lead: ""
 date: 2022-02-14
-lastmod: 2024-04-04
+lastmod: 2024-05-26
 draft: false
 weight: 24
 images: []
@@ -57,7 +57,7 @@ Here are the main scicloj-related active streams, dedicated to certain subgroups
 
 - [#r-interop](https://clojurians.zulipchat.com/#narrow/stream/204621-r-interop) - R-interop development and usage: various libraries such as [graalvm-interop](https://github.com/davidpham87/graalvm-rinterop) and [clojisr](https://github.com/scicloj/clojisr)
 
-### Study groups / dev groups
+### Active study groups / dev groups
 
 For more information, see also the [list](https://scicloj.github.io/docs/community/groups/) of dev & study groups at the website.
 
@@ -65,11 +65,7 @@ For more information, see also the [list](https://scicloj.github.io/docs/communi
 
 - [#data-recur](https://clojurians.zulipchat.com/#narrow/stream/330726-data-recur) - recurring updates & discussions around building the emerging data stack
 
-- [#sci-fu](https://clojurians.zulipchat.com/#narrow/stream/265544-sci-fu) - Scicloj foundations study group - learning together to build the Clojure data science ecosystem
-
 - [#visual-tools](https://clojurians.zulipchat.com/#narrow/stream/313390-visual-tools) - the stream of the [visual-tools group](https://clojureverse.org/t/real-world-data-meetings/), discussing collaborations around tooling for data visualization and literate programming
-
-- [#tensorflow-study](https://clojurians.zulipchat.com/#narrow/stream/333373-tensorflow-study) - studying Tensorflow and its use from Clojure
 
 - [#wolfram-clojure-bridge](https://clojurians.zulipchat.com/#narrow/stream/313853-wolfram-clojure-bridge) - a stream for the monthly meetings around [the Clojure bridge to the Wolfram Language](https://github.com/scicloj/clojuratica).
 
@@ -77,11 +73,6 @@ For more information, see also the [list](https://scicloj.github.io/docs/communi
 
 - [#scicloj-org](https://clojurians.zulipchat.com/#narrow/stream/203279-scicloj-org) - a **private** stream of the scicloj organizing team - for anybody interested in building the scicloj community and discssing its goals and priorities - [let us talk](../contact/) if you wish to join.
 
-- [#ml-study](https://clojurians.zulipchat.com/#narrow/stream/264992-ml-study) - machine learning and data analysis study sessions
-
-- [#sicmutils](https://clojurians.zulipchat.com/#narrow/stream/267174-sicmutils) - updates and discussions about [sicmutils](https://github.com/littleredcomputer/sicmutils) and its study group
-
-- [#scicloj-tutorials](https://clojurians.zulipchat.com/#narrow/stream/187445-scicloj-tutorials) - discussing community efforts for creating tutorials (a bit inactive as of 2022 Q1)
 
 ### General streams worth knowing about:
 
@@ -99,13 +90,19 @@ For more information, see also the [list](https://scicloj.github.io/docs/communi
 
 ### Inactive streams of the past, that might be of interest
 
+- [#sci-fu](https://clojurians.zulipchat.com/#narrow/stream/265544-sci-fu) - Scicloj foundations study group - learning together to build the Clojure data science ecosystem
+
+- [#ml-study](https://clojurians.zulipchat.com/#narrow/stream/264992-ml-study) - machine learning and data analysis study sessions
+
+- [#sicmutils](https://clojurians.zulipchat.com/#narrow/stream/267174-sicmutils) - updates and discussions about [sicmutils](https://github.com/littleredcomputer/sicmutils) and its study group
+
+- [#scicloj-tutorials](https://clojurians.zulipchat.com/#narrow/stream/187445-scicloj-tutorials) - discussing community efforts for creating tutorials (a bit inactive as of 2022 Q1)
+
 - [#covid-19](https://clojurians.zulipchat.com/#narrow/stream/227504-covid-19) - studying COVID-19 data (past hackathons and general discussions)
 
 - [#nov21-workshops](https://clojurians.zulipchat.com/#narrow/stream/305782-nov21-workshops) - a stream for the [re:Clojure 2021 workshops](https://www.reclojure.org/#workshops)
 
 - [#dec21-data-science-special](https://clojurians.zulipchat.com/#narrow/stream/308345-dec21-data-science-special) - a stream for the [2021 re:Clojure Data Science Special event](https://clojureverse.org/t/re-clojure-data-science-special-dec-5th-2021/)
-
-
 
 
 ## Recommended practices
