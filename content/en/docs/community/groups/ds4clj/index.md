@@ -1,9 +1,9 @@
 ---
-title : "ds4clj: a data science course for Clojure devs"
+title : "{on hold} ds4clj: a data science course for Clojure devs"
 description: "A data science course for Clojure devs"
 lead: ""
 date: 2022-07-12
-lastmod: 2023-03-17
+lastmod: 2023-05-26
 draft: false
 images: []
 weight: 101
@@ -12,9 +12,11 @@ weight: 101
 ---------------------
 ![black-eyed-pea](black-eyed-pea.jpg)
 
-* Following the recent broad support on [Clojureverse](https://clojureverse.org/t/a-data-science-course-for-clojurians-are-you-interested/) and [Reddit](https://www.reddit.com/r/Clojure/comments/vsr7qn/a_data_science_course_for_clojurians_are_you/) conversations and elsewhere, we are plannig to begin a data-science course for Clojure devs during 2023.
+* Following broad support on [Clojureverse](https://clojureverse.org/t/a-data-science-course-for-clojurians-are-you-interested/) and [Reddit](https://www.reddit.com/r/Clojure/comments/vsr7qn/a_data_science_course_for_clojurians_are_you/) conversations and elsewhere, we have been planning a data-science course for Clojure devs during 2023.
 
-The details below are **tentative** and will probably change.
+For various reasons of community priorities, this project was delayed. As of May 2024, we are reconsidering a revised version. 
+
+The content below is the old 2022-2023 draft.
 
 ## exploration meetings preparing for the course
 
@@ -23,7 +25,6 @@ The details below are **tentative** and will probably change.
 * 2022-09-10, NLP study session 1 - [summary & video](https://clojureverse.org/t/nlp-in-clojure-session-1-summary-recording/)
 * 2022-10-30, NLP study session 2: Predict real vs. fake disaster tweets with DVC, Clojure and Python - [summary & video](https://clojureverse.org/t/nlp-in-clojure-session-2-summary-recording-clojure-python-dvc-metamorph/)
 * 2022-11-05, an intro to table processing with [Tablecloth](https://scicloj.github.io/tablecloth/index.html) - a session of the [data-recur group](../data-recur) - [summary & video](https://clojureverse.org/t/data-recur-meeting-4-tablecloth-summary-video/)
-
 
 ## goals
 
