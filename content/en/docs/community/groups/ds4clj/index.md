@@ -3,7 +3,7 @@ title : "{on hold} ds4clj: a data science course for Clojure devs"
 description: "A data science course for Clojure devs"
 lead: ""
 date: 2022-07-12
-lastmod: 2023-05-26
+lastmod: 2023-06-02
 draft: false
 images: []
 weight: 101
@@ -14,7 +14,7 @@ weight: 101
 
 * Following broad support on [Clojureverse](https://clojureverse.org/t/a-data-science-course-for-clojurians-are-you-interested/) and [Reddit](https://www.reddit.com/r/Clojure/comments/vsr7qn/a_data_science_course_for_clojurians_are_you/) conversations and elsewhere, we have been planning a data-science course for Clojure devs during 2023.
 
-For various reasons of community priorities, this project was delayed. As of May 2024, we are reconsidering a revised version. 
+For various reasons of community priorities, this project was delayed. As of May 2024, we are reconsidering a revised version, which is probably a semi-structured series of talks alongside the more hands-on [real-world-data group](https://scicloj.github.io/docs/community/groups/real-world-data/).
 
 The content below is the old 2022-2023 draft.
 
