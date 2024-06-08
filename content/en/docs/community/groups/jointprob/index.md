@@ -3,7 +3,7 @@ title : "Jointprob: a probabilistic modeling and Bayesian statistics study commu
 description: "Probabilistic modeling and Bayesian Statistics study community"
 lead: ""
 date: 2022-02-28
-lastmod: 2023-11-12
+lastmod: 2024-06-08
 draft: false
 images: []
 ---
@@ -13,6 +13,8 @@ images: []
 Jointprob is a study community for probabilistic modeling and Bayesian statistics, running since August 2022.
 
 Even though the community was initiated by [Scicloj](https://scicloj.github.io/) -- a community for data science in Clojure -- this study community is not focused on any single technology or programming language. Rather, it is open to people of diverse technical backgrounds and will continually seek dialogue and mutual inspiration across languages and technologies.
+
+As of June 2024, we are planning to renew the meetings after a break of a few months. Probably, it will be a new reading journy with a new choice of book.
 
 ## Goal
 
