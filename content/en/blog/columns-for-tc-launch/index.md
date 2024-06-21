@@ -2,7 +2,7 @@
 title: "Launching Columns for Tablecloth"
 description: ""
 date: 2024-04-13
-lastmod: 2024-04-15
+lastmod: 2024-06-21
 draft: false
 weight: 16
 images: ["../../sci-cloj-logo-transparent.png"]
@@ -17,7 +17,7 @@ This is a cross-post of [a recent post](https://humanscode.com/columns-for-table
 
 Today we at [scicloj](https://scicloj.github.io) deployed a new Column
  API (`tablecloth.column.api`) into the data processing library
- [Tablecloth](https://gitub.com/scicloj/tablecloth) (available as of
+ [Tablecloth](https://github.com/scicloj/tablecloth) (available as of
  version `7.029.1`). This new API adds a new primitive to the
  Tablecloth system: the `column`. Here's how we use it:
 
