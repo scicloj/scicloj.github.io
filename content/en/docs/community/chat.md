@@ -3,7 +3,7 @@ title : "Chat streams"
 description: ""
 lead: ""
 date: 2022-02-14
-lastmod: 2024-05-26
+lastmod: 2024-06-22
 draft: false
 weight: 24
 images: []
@@ -44,6 +44,8 @@ Here are the main scicloj-related active streams, dedicated to certain subgroups
 - [#cljplot-dev](https://clojurians.zulipchat.com/#narrow/stream/197967-cljplot-dev) - [cljplot](https://github.com/generateme/cljplot) develompemt
 
 - [#saite-dev](https://clojurians.zulipchat.com/#narrow/stream/210075-saite-dev) - development of [Saite](https://github.com/jsa-aerial/saite) and related projects such as [Hanami](https://github.com/jsa-aerial/hanami) 
+
+- [#hanamicloth-dev](https://clojurians.zulipchat.com/#narrow/stream/443101-hanamicloth-dev) - development of [Hanacloth]()
 
 - [#pink-gorilla-dev](https://clojurians.zulipchat.com/#narrow/stream/212578-pink-gorilla-dev) - development of [Pink Gorilla](https://pink-gorilla.github.io)
 
