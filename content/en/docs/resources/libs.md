@@ -3,7 +3,7 @@ title : "Tools and libraries"
 description: "Clojure tools and libraries for data and science"
 lead: "Clojure tools and libraries for data and science"
 date: 2022-02-14
-lastmod: 2024-06-26
+lastmod: 2022-07-09
 draft: false
 weight: 31
 images: []
@@ -212,6 +212,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [openai-api](https://github.com/pmatiello/openai-api) :star: (`act`): `llm` - A wrapper of the [OpenAI API](https://platform.openai.com/docs/introduction)
 - [multi-gpt](https://github.com/cjbarre/multi-gpt) :star: (`act`): `llm` - A wrapper of the Open AI GPT Chat API with conversational memory and WIP agents support
 - [vald-client-clj](https://github.com/vdaas/vald-client-clj) :star: (`act`): `llm` - A gRPC client library for the [Vald](https://github.com/vdaas/vald) distributed vector database
+- [simix](https://github.com/tsers/simix) :star:: `llm` - Similarity search for Cloure, build on top of hnsw
 - [clojurellm-data](https://github.com/ruped/clojurellm-data) :star: (`act`): `llm` - Dataset curation for fine tuning an LLM for Clojure
 - [instructor-clj](https://github.com/kapilreddy/instructor-clj) (`act`): `llm` - A library inspired by [instructor](https://github.com/jxnl/instructor), making it easy to have structured output from LLMs (using [Malli](https://github.com/metosin/malli) for defining schemas)
 

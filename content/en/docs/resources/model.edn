@@ -831,6 +831,12 @@
     :tags #{:act :llm},
     :star :star,
     :description "A gRPC client library for the [Vald](https://github.com/vdaas/vald) distributed vector database"}
+   {:lib/name "simix",
+    :lib/url "https://github.com/tsers/simix"
+    :lib/category :large-language-models,
+    :tags #{:llm},
+    :star :star,
+    :description "Similarity search for Cloure, build on top of hnsw"}
    {:lib/name "clojurellm-data",
     :lib/url "https://github.com/ruped/clojurellm-data",
     :lib/category :large-language-models,
