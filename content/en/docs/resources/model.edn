@@ -615,11 +615,18 @@
     :tags #{:rand :prob :act},
     :star :star,
     :description "A stack for generative modeling and probabilistic inference."}
+
+   {:lib/name "cmdstan-clj",
+    :lib/url "https://github.com/scicloj/cmdstan-clj",
+    :lib/category :bayesian-computing-probabilistic-programming,
+    :tags #{:exp :act},
+    :star :star,
+    :description "Using the Stan statistical modelling language from Clojure using the CmdStan CLI"}
    {:lib/name "clj-stan",
     :lib/url "https://github.com/thomasathorne/clj-stan",
     :lib/category :bayesian-computing-probabilistic-programming,
     :tags #{},
-    :star :star,
+    :star nil,
     :description "A library for calling the Stan language from Clojure (by shelling out to cmdstan)."}
    {:lib/name "bayadera",
     :lib/url "https://github.com/uncomplicate/bayadera",

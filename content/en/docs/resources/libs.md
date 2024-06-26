@@ -3,7 +3,7 @@ title : "Tools and libraries"
 description: "Clojure tools and libraries for data and science"
 lead: "Clojure tools and libraries for data and science"
 date: 2022-02-14
-lastmod: 2024-05-24
+lastmod: 2024-06-26
 draft: false
 weight: 31
 images: []
@@ -169,7 +169,8 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 ## Bayesian computing & probabilistic programming
 - [inferme](https://github.com/generateme/inferme) :star: (`act`): `prob`,`rand`,`vis` - extensible probabilistic programming in Clojure itself (rather than a language variation), with support for visualizations
 - [Gen.clj](https://github.com/InferenceQL/gen.clj) :star: (`act`): `prob`,`rand` - A stack for generative modeling and probabilistic inference.
-- [clj-stan](https://github.com/thomasathorne/clj-stan) :star::  - A library for calling the Stan language from Clojure (by shelling out to cmdstan).
+- [cmdstan-clj](https://github.com/scicloj/cmdstan-clj) :star: (`act`): `exp` - Using the Stan statistical modelling language from Clojure using the CmdStan CLI
+- [clj-stan](https://github.com/thomasathorne/clj-stan):  - A library for calling the Stan language from Clojure (by shelling out to cmdstan).
 - [bayadera](https://github.com/uncomplicate/bayadera): `gpu`,`prob`,`rand`,`stat` - Bayesian computing using the GPU
 - [sampling](https://github.com/bigmlcom/sampling): `rand` - support srandom sampling of different kinds
 - [distributions](https://github.com/michaellindon/distributions): `prob`,`rand` - random sampling and some basic Bayesian computing for certain families of distributions
