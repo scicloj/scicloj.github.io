@@ -246,6 +246,12 @@
     :star :star,
     :description
     "a template system for creating interactive data visualizations using Vega/Vega-lite, Reagent and Re-Com"}
+   {:lib/name "Hanamicloth",
+    :lib/url "https://github.com/scicloj/hanamicloth",
+    :lib/category :data-visualization-libraries,
+    :tags #{:vis :act :vega :exp},
+    :star :star,
+    :description "a data visualization grammar composing Hanami templates and Tablecloth datasets"}
    {:lib/name "darkstar",
     :lib/url "https://github.com/appliedsciencestudio/darkstar",
     :lib/category :data-visualization-libraries,

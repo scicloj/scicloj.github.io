@@ -3,7 +3,7 @@ title : "Tools and libraries"
 description: "Clojure tools and libraries for data and science"
 lead: "Clojure tools and libraries for data and science"
 date: 2022-02-14
-lastmod: 2022-07-09
+lastmod: 2022-06-26
 draft: false
 weight: 31
 images: []
@@ -96,6 +96,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 ## Data visualization libraries
 - [cljplot](https://github.com/generateme/cljplot) :star: (`act`): `exp`,`vis` - a data visualization platform written in Clojure and inspired by R's ggplot2 and lattice libraries
 - [Hanami](https://github.com/jsa-aerial/hanami) :star: (`act`): `cljs`,`hiccup`,`ui`,`vega`,`vis` - a template system for creating interactive data visualizations using Vega/Vega-lite, Reagent and Re-Com
+- [Hanamicloth](https://github.com/scicloj/hanamicloth) :star: (`act`): `exp`,`vega`,`vis` - a data visualization grammar composing Hanami templates and Tablecloth datasets
 - [darkstar](https://github.com/appliedsciencestudio/darkstar) :star: (`act`): `cljs`,`vega`,`vis` - simple data visualization for Clojure/Clojurescript that using vega and [darkstar](https://github.com/appliedsciencestudio/darkstar) for rendering
 - [](https://github.com/scicloj/viz.clj): `exp`,`vega`,`vis` - a data visualization library for beginners (WIP)
 - [Clojure2D](https://github.com/Clojure2D/clojure2d) :star: (`act`): `vis` - Java2D wrapper + creative coding supporting functions (based on Processing and openFrameworks)
