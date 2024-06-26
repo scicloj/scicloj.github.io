@@ -246,6 +246,12 @@
     :star :star,
     :description
     "a template system for creating interactive data visualizations using Vega/Vega-lite, Reagent and Re-Com"}
+   {:lib/name "Hanamicloth",
+    :lib/url "https://github.com/scicloj/hanamicloth",
+    :lib/category :data-visualization-libraries,
+    :tags #{:vis :act :vega :exp},
+    :star :star,
+    :description "a data visualization grammar composing Hanami templates and Tablecloth datasets"}
    {:lib/name "darkstar",
     :lib/url "https://github.com/appliedsciencestudio/darkstar",
     :lib/category :data-visualization-libraries,
@@ -615,11 +621,18 @@
     :tags #{:rand :prob :act},
     :star :star,
     :description "A stack for generative modeling and probabilistic inference."}
+
+   {:lib/name "cmdstan-clj",
+    :lib/url "https://github.com/scicloj/cmdstan-clj",
+    :lib/category :bayesian-computing-probabilistic-programming,
+    :tags #{:exp :act},
+    :star :star,
+    :description "Using the Stan statistical modelling language from Clojure using the CmdStan CLI"}
    {:lib/name "clj-stan",
     :lib/url "https://github.com/thomasathorne/clj-stan",
     :lib/category :bayesian-computing-probabilistic-programming,
     :tags #{},
-    :star :star,
+    :star nil,
     :description "A library for calling the Stan language from Clojure (by shelling out to cmdstan)."}
    {:lib/name "bayadera",
     :lib/url "https://github.com/uncomplicate/bayadera",
@@ -824,6 +837,12 @@
     :tags #{:act :llm},
     :star :star,
     :description "A gRPC client library for the [Vald](https://github.com/vdaas/vald) distributed vector database"}
+   {:lib/name "simix",
+    :lib/url "https://github.com/tsers/simix"
+    :lib/category :large-language-models,
+    :tags #{:llm},
+    :star :star,
+    :description "Similarity search for Cloure, build on top of hnsw"}
    {:lib/name "clojurellm-data",
     :lib/url "https://github.com/ruped/clojurellm-data",
     :lib/category :large-language-models,
