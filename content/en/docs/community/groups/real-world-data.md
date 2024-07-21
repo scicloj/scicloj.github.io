@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-17
-lastmod: 2024-07-13
+lastmod: 2024-07-21
 draft: false
 images: []
 ---
@@ -13,8 +13,8 @@ The real-world-data group is about the use of Clojure for data and science probl
 The group meets regularly on Fridays, 17:00 [UTC time zone](https://time.is/utc).
 Please let us know if you wish to join but the time does not work. We may adjust it.
 
-* July 26th, 2024 - meeting 19 - agenda: TBD
-* July 12th, 2024 - meeting 9 - agenda: diverse updates (details in Zulip chat) - :calendar: [event](https://clojureverse.org/t/real-world-data-meeting-9/)
+* July 26th, 2024 - meeting 10 - agenda: TBD - :calendar: [event](https://clojureverse.org/t/real-world-data-meeting-10/)
+* July 12th, 2024 - meeting 9 - agenda: diverse updates (details in Zulip chat)
 * June 28th, 2024 - meeting 8 - topic: high-performance numerics (cont.)
 * June 14th, 2024 - meeting 7 - topic: high-performance numerics using [Neanderthal](https://neanderthal.uncomplicate.org/)
 * May 31th, 2024 - meeting 6 - focus topic: Intro to linear algebra with applications using [Neanderthal](https://neanderthal.uncomplicate.org/) - a revised walkthrough will be shared publicly
