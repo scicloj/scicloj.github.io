@@ -3,7 +3,7 @@ title : "Reading"
 description: "Recommended reading"
 lead: "Recommended reading"
 date: 2022-02-14
-lastmod: 2024-04-11
+lastmod: 2024-07-25
 draft: false
 weight: 32
 images: []
@@ -99,6 +99,7 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 - [Clay tutorial](https://scicloj.github.io/clay/)
 
 ### Data Visualization
+- [Vega-Lite example gallery in EDN](https://github.clerk.garden/behrica/vl-galery/commit/cbc1d1f044b2ac81a39453bf32f72cfce71d0b29/) by Carsten Behring
 - [vdquil](https://github.com/daveliepmann/vdquil) - Examples from Ben Fry's "Visualizing Data" in [quil](https://github.com/quil/quil) - by Dave Liepmann
 
 ### Colors
