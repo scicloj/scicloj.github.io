@@ -871,8 +871,7 @@
    {:lib/name "clj-python-trampoline",
     :lib/url "https://github.com/tristanstraub/clj-python-trampoline",
     :lib/category :interop,
-    :tags #{:act :interop},
-    :star :star,
+    :tags #{:interop},
     :description
     "using libpython-clj from an already running python process, without needing any special python builds"}
    {:lib/name "Libjulia-clj",
@@ -881,8 +880,14 @@
     :tags #{:act :interop},
     :star :star,
     :description "Julia bindings for Clojure"}
+   {:lib/name "Wolframite",
+    :lib/url "https://github.com/scicloj/wolframite",
+    :lib/category :interop,
+    :tags #{:act :interop},
+    :star :star,
+    :description "interop with Wolfram language"}
    {:lib/name "ClojisR",
-    :lib/url "https://github.com/scicloj/clojisr",
+    :lib/url "https://scicloj.github.io/clojisr/",
     :lib/category :interop,
     :tags #{:act :interop},
     :star :star,

@@ -3,7 +3,7 @@ title : "Tools and libraries"
 description: "Clojure tools and libraries for data and science"
 lead: "Clojure tools and libraries for data and science"
 date: 2022-02-14
-lastmod: 2022-06-26
+lastmod: 2022-07-25
 draft: false
 weight: 31
 images: []
@@ -220,9 +220,10 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 ## Interop
 - [clj-polyglot-app](https://github.com/behrica/clj-polyglot-app) :star: (`act`): `interop` - A deps-new template to create a polyglot app in Clojure (Clojure, R, & Python)
 - [Libpython-clj](https://github.com/clj-python/libpython-clj) :star: (`act`): `interop` - interop with Python
-- [clj-python-trampoline](https://github.com/tristanstraub/clj-python-trampoline) :star: (`act`): `interop` - using libpython-clj from an already running python process, without needing any special python builds
+- [clj-python-trampoline](https://github.com/tristanstraub/clj-python-trampoline): `interop` - using libpython-clj from an already running python process, without needing any special python builds
 - [Libjulia-clj](https://github.com/cnuernber/libjulia-clj) :star: (`act`): `interop` - Julia bindings for Clojure
-- [ClojisR](https://github.com/scicloj/clojisr) :star: (`act`): `interop` - interop with R and Renjin (R on the JVM)
+- [Wolframite](https://github.com/scicloj/wolframite) :star: (`act`): `interop` - interop with Wolfram language
+- [ClojisR](https://scicloj.github.io/clojisr/) :star: (`act`): `interop` - interop with R and Renjin (R on the JVM)
 - [graalvm-interop](https://github.com/davidpham87/graalvm-rinterop): `interop` - interop with FastR (GraalVM's R)
 - [rdata](https://github.com/appliedsciencestudio/rdata/):  - A Renjin (pure-JVM R) wrapper to allow Clojure programs to easily read R's RData file format
 - [from-scala](https://github.com/t6/from-scala): `interop` - interop with Scala
