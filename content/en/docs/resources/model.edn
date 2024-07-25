@@ -881,7 +881,7 @@
     :star :star,
     :description "Julia bindings for Clojure"}
    {:lib/name "Wolframite",
-    :lib/url "https://github.com/scicloj/wolframite",
+    :lib/url "https://scicloj.github.io/wolframite/",
     :lib/category :interop,
     :tags #{:act :interop},
     :star :star,
