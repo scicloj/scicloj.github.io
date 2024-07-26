@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2024-07-25
+lastmod: 2024-07-26
 draft: false
 weight: 33
 images: []
@@ -71,6 +71,7 @@ In the data-recur group, Clojure devs are sharing updates and collaborating on t
 * [Aug 27th, 2022](https://www.youtube.com/watch?v=nTyPMxDlw0w) - Clojask, columns for Tablecloth
 * [Sep 30th, 2022](https://www.youtube.com/watch?v=t8C5Uv1abc4) - Meander
 * [Nov 5h, 2022](https://www.youtube.com/watch?v=kME868FvT2A) - Intro to Tablecloth
+* [June 29th](https://www.youtube.com/watch?v=Jy9khaNKh4o) - Datajure
 
 ### visual-tools
 The visual tools group is about creating collaborations across differnent tooling projects for data visualization and literate programming.
