@@ -27,6 +27,10 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 
 - [Code with Kira](https://codewithkira.com/index.html) - by Kira McLean - in partucular: [The Current State of ML in Clojure](https://codewithkira.com/index.html) (2024-04-05)
 
+- Blog posts by Timothy Pratley
+  - [Exploring probability distributions](https://timothypratley.github.io/howtocodeablog/2024-07/docs/three_distributions_that_underpin_everything.html) - 2024-07
+  - [ClojureTV video views analysis](https://timothypratley.github.io/happyapi/happy.notebook.youtube_clojuretv.html) - 2024-06
+
 - [Squid's Blogs](https://gigasquidsoftware.com) by Carin Meier - deep learning, MXNet, Python interop and other technical topics
 
 - [Dragan Djuric](https://dragan.rocks) - numerical computing, linear algebra, high performance computing and deep learning
