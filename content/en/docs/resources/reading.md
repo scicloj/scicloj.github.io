@@ -25,11 +25,13 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 
 - [Clojure Tidy Tuesdays](https://kiramclean.github.io/clojure-tidy-tuesdays/) by Kira McLean - Clojure data explorations of datasets shared in the R community
 
-- [Code with Kira](https://codewithkira.com/index.html) - by Kira McLean - in partucular: [The Current State of ML in Clojure](https://codewithkira.com/index.html) (2024-04-05)
+- [Code with Kira](https://codewithkira.com/index.html) - by Kira McLean - in partucular: 
+  - [Data Manipulation in Clojure Compared to R and Python](https://codewithkira.com/2024-07-18-tablecloth-dplyr-pandas-polars.html) (2024-07-18)
+  - [The Current State of ML in Clojure](https://codewithkira.com/index.html) (2024-04-05)
 
 - Blog posts by Timothy Pratley
-  - [Exploring probability distributions](https://timothypratley.github.io/howtocodeablog/2024-07/docs/three_distributions_that_underpin_everything.html) - 2024-07
-  - [ClojureTV video views analysis](https://timothypratley.github.io/happyapi/happy.notebook.youtube_clojuretv.html) - 2024-06
+  - [Exploring probability distributions](https://timothypratley.github.io/howtocodeablog/2024-07/docs/three_distributions_that_underpin_everything.html) (2024-07)
+  - [ClojureTV video views analysis](https://timothypratley.github.io/happyapi/happy.notebook.youtube_clojuretv.html) (2024-06)
 
 - [Squid's Blogs](https://gigasquidsoftware.com) by Carin Meier - deep learning, MXNet, Python interop and other technical topics
 
