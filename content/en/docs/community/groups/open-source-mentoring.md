@@ -5,7 +5,7 @@ lead: ""
 date: 2024-08-10
 lastmod: 2024-08-10
 draft: false
-images: []
+images: ["sci-cloj-logo-transparent.png"]
 ---
 
 Scicloj offers mentoring to Clojurians who wish to become active in open-source projects.
