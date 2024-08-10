@@ -14,7 +14,7 @@ Jointprob is a study community for probabilistic modeling and Bayesian statistic
 
 Even though the community was initiated by [Scicloj](https://scicloj.github.io/) -- a community for data science in Clojure -- this study community is not focused on any single technology or programming language. Rather, it is open to people of diverse technical backgrounds and will continually seek dialogue and mutual inspiration across languages and technologies.
 
-As of June 2024, we are planning to renew the meetings after a break of a few months. Probably, it will be a new reading journy with a new choice of book.
+As of August 2024, we are planning to renew the meetings after a break of a few months.
 
 ## Goal
 
