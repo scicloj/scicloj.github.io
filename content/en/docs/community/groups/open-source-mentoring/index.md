@@ -3,7 +3,7 @@ title : "Scicloj open-source mentoring"
 description: ""
 lead: ""
 date: 2024-08-10
-lastmod: 2024-08-10
+lastmod: 2024-08-11
 draft: false
 images: ["sci-cloj-logo-transparent.png"]
 ---
@@ -40,7 +40,7 @@ A few examples:
 * contribute docstrings and unit tests to [dtype-next](https://github.com/cnuernber/dtype-next)
 * test Clojure libraries on existing benchmarks
 * add support for data formats (e.g. Zarr, Avro) conversion for [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset)
-* add [Kindly](https://scicloj.github.io/kindly-noted/) support for [Clojupyter](https://github.com/clojupyter/clojupyter)
+* build a [Kindly](https://scicloj.github.io/kindly-noted/) adapter for [Clojupyter](https://github.com/clojupyter/clojupyter)
 * improve the Clojure integration in [Quarto](https://quarto.org/)
 * [translate a book chapter](https://github.com/scicloj/translating-books) to Clojure
 * look into early-stage libraries such as [cmdstan-clj](https://github.com/scicloj/cmdstan-clj), try them out, discover problems, and improve
