@@ -9,7 +9,8 @@ images: ["sci-cloj-logo-transparent.png"]
 ---
 
 Scicloj offers mentoring to Clojurians who wish to become active in open-source projects.
-Please [reach out](https://scicloj.github.io/docs/community/contact/) if you are interested.
+
+<a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/community/contact/" role="button">Please reach out</a>
 
 ## What is that?
 
