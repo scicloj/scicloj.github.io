@@ -34,8 +34,12 @@ We need your help.
 This depends on the project. Typically, one year of Clojure programming would be a reasonable background.
 
 ## What kinds of projects will we be working on?
-
 See the [list of projects](https://github.com/scicloj/open-source-mentoring/blob/main/list-of-projects.md) for a few examples we may propose.
+
+## Who ar the mentors I may meet?
+Here is the [list of mentors](https://github.com/scicloj/open-source-mentoring/blob/main/list-of-mentors.md).
+
+The assignment of a mentor will depend on the nature of the project you are working on, among other things.
 
 ##  What would I benefit from participating?
 * Enriching your public profile as a developer with open-source activity.
