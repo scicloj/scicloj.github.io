@@ -34,16 +34,8 @@ We need your help.
 This depends on the project. Typically, one year of Clojure programming would be a reasonable background.
 
 ## What kinds of projects will we be working on?
-A few examples:
-* add a function for printing linear regression models in [Fastmath](https://github.com/generateme/fastmath)
-* port Java/XML exmaples of [Tribuo](https://tribuo.org/) to Clojure/EDN ones for [scicloj.ml.tribuo](https://github.com/scicloj/scicloj.ml.tribuo)
-* contribute docstrings and unit tests to [dtype-next](https://github.com/cnuernber/dtype-next)
-* test Clojure libraries on existing benchmarks
-* add support for data formats (e.g. Zarr, Avro) conversion for [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset)
-* build a [Kindly](https://scicloj.github.io/kindly-noted/) adapter for [Clojupyter](https://github.com/clojupyter/clojupyter)
-* improve the Clojure integration in [Quarto](https://quarto.org/)
-* [translate a book chapter](https://github.com/scicloj/translating-books) to Clojure
-* look into early-stage libraries such as [cmdstan-clj](https://github.com/scicloj/cmdstan-clj), try them out, discover problems, and improve
+
+See the [list of projects](https://github.com/scicloj/open-source-mentoring/blob/main/list-of-projects.md) for a few examples we may propose.
 
 ##  What would I benefit from participating?
 * Enriching your public profile as a developer with open-source activity.
@@ -52,3 +44,9 @@ A few examples:
 * Gaining visible evidence for such communication and dev skills.
 * Weekly interaction with experienced Clojurians.
 * Opportunities to propose talks for conferences and prepare them with the support of the Scicloj group.
+
+## Where can I find more information?
+
+We will gradually collect the relevant resources under
+[scicloj](https://github.com/scicloj) /
+[open-source-mentoring](https://github.com/scicloj/open-source-mentoring).
