@@ -3,7 +3,7 @@ title : "Chat streams"
 description: ""
 lead: ""
 date: 2022-02-14
-lastmod: 2024-06-22
+lastmod: 2024-08-15
 draft: false
 weight: 24
 images: []
@@ -13,7 +13,7 @@ toc: true
 
 ## The Clojurians Zulip
  
-Most of our communication takes place in specific streams at the [Clojurians Zulip chat](http://clojurians.zulipchat.com).
+Most of our communication takes place in specific streams (also called channels) at the [Clojurians Zulip chat](http://clojurians.zulipchat.com).
 
 Small task groups often create ad-hoc streams for their task, but a lot of the communitcation takes place in more popular, long-living streams (examples below).
 
