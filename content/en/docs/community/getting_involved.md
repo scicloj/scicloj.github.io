@@ -3,7 +3,7 @@ title : "Getting Involved"
 description: ""
 lead: ""
 date: 2022-02-15
-lastmod: 2022-02-15
+lastmod: 2024-08-14
 draft: false
 weight: 22
 images: []
@@ -17,7 +17,10 @@ Would you like to join our journey in making Clojure a joyful platform for data 
 
 Below are some suggested ways to get involved. If you are interested in any of these, or maybe have some other idea - then [let us talk](../contact)! We may possibly help in finding a nice way to begin.
 
-<a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/community/contact/" role="button">Please reach out</a>
+<a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/community/contact/" role="button">Let us talk</a>
+
+## Join our Open Source Mentoring program
+Our [Open Source Mentoring program](../groups/open-source-mentoring) offers a clear path to becoming a contributor on Scicloj open source projects.
 
 ## Join our dev and study groups
 Scicloj is organizing a few [dev groups and study groups](../groups) that meet regularly to learn, to brainstorm, and to create. Your perspective could be helpful there.
