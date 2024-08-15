@@ -3,7 +3,7 @@ title : "Scicloj open-source mentoring"
 description: ""
 lead: ""
 date: 2024-08-10
-lastmod: 2024-08-11
+lastmod: 2024-08-15
 draft: false
 images: ["sci-cloj-logo-transparent.png"]
 ---
@@ -36,7 +36,7 @@ This depends on the project. Typically, one year of Clojure programming would be
 ## What kinds of projects will we be working on?
 See the [list of projects](https://github.com/scicloj/open-source-mentoring/blob/main/list-of-projects.md) for a few examples we may propose.
 
-## Who ar the mentors I may meet?
+## Who are the mentors I may meet?
 Here is the [list of mentors](https://github.com/scicloj/open-source-mentoring/blob/main/list-of-mentors.md).
 
 The assignment of a mentor will depend on the nature of the project you are working on, among other things.
