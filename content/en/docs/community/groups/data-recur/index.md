@@ -3,7 +3,7 @@ title : "data-recur: recurring updates & discussions around building the emergin
 description: "recurring updates & discussions around building the emerging data stack"
 lead: ""
 date: 2022-07-12
-lastmod: 2024-08-08
+lastmod: 2024-08-16
 draft: false
 images: []
 ---
@@ -15,7 +15,7 @@ images: []
 
 This group is a space for recurring updates & discussions around the emerging Clojure stack for data processing, analysis, and visualization.
 
-* 2024-08-08 - meeting 6: Clojure Meets Metal: Working with native libraries and the GPU - :movie_camera: recording coming soon (background - [event](https://clojureverse.org/t/data-recur-meeting-6-clojure-meets-metal-working-with-native-libraries-and-the-gpu/))
+* 2024-08-08 - meeting 6: Clojure Meets Metal: Working with native libraries and the GPU - :movie_camera: [summary & recording](https://clojureverse.org/t/data-recur-meeting-6-clojure-meets-metal-working-with-native-libraries-and-the-gpu-summary-recording/)
 * 2024-06-29 - meeting 5: Datajure - :movie_camera: [summary & recording](https://clojureverse.org/t/data-recur-meeting-5-datajure-summary-recording/)
 * 2022-11-05 - meeting 4: Tablecloth - :movie_camera: [summary & recording](https://clojureverse.org/t/data-recur-meeting-3-meander-summary-video/)
 * 2022-09-30 - meeting 3: Meander - :movie_camera: [sumamry & video](https://clojureverse.org/t/data-recur-meeting-4-tablecloth-summary-video/)
