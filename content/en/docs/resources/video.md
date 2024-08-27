@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2024-08-16
+lastmod: 2024-08-27
 draft: false
 weight: 33
 images: []
@@ -56,9 +56,15 @@ The reClojure 2020 conrefnere offered a few data & science talks.
 ## Public sessions of dev & study groups
 
 ### real-world-data
+(most content is only shared internally in the group chat)
+
 - Mar 22nd 2024 - meeting 1:
   - [Kyle Passarelli](https://www.youtube.com/watch?v=oeY2_M22nEM)
   - [Adham Omran](https://www.youtube.com/watch?v=iG2OF9C2FSI)
+- April 19th 2024 - meeting 3: [Bayesian Statistics with Stan by Daniel Slutsky](https://www.youtube.com/watch?v=1Y89-UlG1FA)
+- August 23rd 2024 - meeting 12: []
+  - [Blender & Basilisp, Wordpress & Phel - Jarkko Saltiola](https://www.youtube.com/watch?v=b7DlbC1CwRM)
+  - [Noj, open-source-mentoring - Daniel Slutsky](https://www.youtube.com/watch?v=PLkcwF4y7VM)
 
 ### ds4clj
 As of Fall 2022, the planned Data Science for Clojure devs course is delayed. Occaionally, we have ad-hoc exploration or prep meetings. Some recordings are shared publicly.
