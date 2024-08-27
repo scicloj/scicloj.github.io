@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-17
-lastmod: 2024-08-25
+lastmod: 2024-08-27
 draft: false
 images: []
 ---
@@ -14,7 +14,7 @@ The group meets regularly every second Friday, 17:00 [UTC time zone](https://tim
 Please let us know if you wish to join but the time does not work. We may adjust it.
 
 * Aug 23th, 2024 - meeting 13 - agenda: TBD - :calendar: [event](https://clojureverse.org/t/real-world-data-meeting-13/)
-* Aug 23th, 2024 - meeting 12 - agenda: diverse updates (details in Zulip chat) - :movie: recordings coming soon
+* Aug 23th, 2024 - meeting 12 - agenda: diverse updates (details in Zulip chat) - publicly shared recordings: :movie_camera: [Jarkko Saltiola](https://www.youtube.com/watch?v=b7DlbC1CwRM) :movie_camera: [Daniel Slutsky](https://www.youtube.com/watch?v=PLkcwF4y7VM)
 * Aug 9th, 2024 - meeting 11 - agenda: diverse updates (details in Zulip chat)
 * July 26th, 2024 - meeting 10 - agenda: diverse updates (details in Zulip chat)
 * July 12th, 2024 - meeting 9 - agenda: diverse updates (details in Zulip chat)
