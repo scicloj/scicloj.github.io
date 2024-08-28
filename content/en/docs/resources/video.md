@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2024-08-27
+lastmod: 2024-08-28
 draft: false
 weight: 33
 images: []
@@ -11,7 +11,7 @@ contributors: ["daslu"]
 ---
 
 ## Clojure Data Scrapbook accompanying videos
-- 2024-03-30 - [Noj - getting started - from raw data to a blog post](https://www.youtube.com/watch?v=5GluhUmMlpM)
+- 2024-03-30 - [Noj - getting started - from raw data to a blog post](https://www.youtube.com/watch?v=5GluhUmMlpM) - note this is about Noj v1 - a Noj v2 video should be created soon
 
 
 ## Clojure/Conj 2023
@@ -174,7 +174,7 @@ Most of its meetings have been recorded and shared internally. Some meetings are
 - Aug 24th, 2020, Notespace v3 status - [video](https://www.youtube.com/watch?v=_GcTnkhn9g0)
 
 
-## Recommended talks on other grouns and channels
+## Recommended talks on other groups and channels
 
 ### London Clojurians
 
