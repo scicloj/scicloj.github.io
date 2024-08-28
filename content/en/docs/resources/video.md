@@ -49,9 +49,11 @@ The reClojure 2020 conrefnere offered a few data & science talks.
     - A pre-conference interview of Sami by Jordan Miller: "Sami Kallinen tackles tough questions on building a positive Sci-Cloj community" - [video](https://www.youtube.com/watch?v=3zXnmV5Hzg8)
 
 ## Interviews
-- June 30th, 5pm UTC - Jon Anthony interviewed about Hanami & Saite by Alan Marazzi, Ethan Zane Miller and Vijay Kiran - [video](https://www.youtube.com/watch?v=ld5du3L-emM)
-- April 26th - Chris Nuernberger interviewed by Teodor Heggelund, Tomasz Sulej and Daniel Slutsky - [video](https://www.youtube.com/watch?v=zYNlZXTV14E)
-- September 27th - Anthony Khong interviewed by Vijay Kiran, Teodor Heggelund and Daniel Slutsky about Geni - [video](https://youtu.be/3R2FJQdtLf8)
+- July 2024 - Daniel Slutsky interviewed by Timothy Pratley about Noj and other topics - [video](https://www.youtube.com/watch?v=kkgD2KGLVUI)
+- September 27th 2020 - Anthony Khong interviewed by Vijay Kiran, Teodor Heggelund and Daniel Slutsky about Geni - [video](https://youtu.be/3R2FJQdtLf8)
+- April 26th 2020 - Chris Nuernberger interviewed by Teodor Heggelund, Tomasz Sulej and Daniel Slutsky - [video](https://www.youtube.com/watch?v=zYNlZXTV14E)
+- June 30th 2019 - Jon Anthony interviewed about Hanami & Saite by Alan Marazzi, Ethan Zane Miller and Vijay Kiran - [video](https://www.youtube.com/watch?v=ld5du3L-emM)
+ 
 
 ## Public sessions of dev & study groups
 
