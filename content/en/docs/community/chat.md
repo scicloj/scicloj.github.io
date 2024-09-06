@@ -3,7 +3,7 @@ title : "Chat streams"
 description: ""
 lead: ""
 date: 2022-02-14
-lastmod: 2024-08-15
+lastmod: 2024-09-06
 draft: false
 weight: 24
 images: []
@@ -38,6 +38,8 @@ Here are the main scicloj-related active streams, dedicated to certain subgroups
 - [#scicloj.ml-dev](https://clojurians.zulipchat.com/#narrow/stream/283491-scicloj.2Eml-dev) - discussing [scicloj.ml](https://github.com/scicloj/scicloj.ml)
 
 - [#clay-dev](https://clojurians.zulipchat.com/#narrow/stream/422115-clay-dev) - discussing the development of [Clay](https://scicloj.github.io/clay/)
+
+- [#kindly-dev](https://clojurians.zulipchat.com/#narrow/stream/454856-kindly-dev/topic/releases) - discussing the development of [Kindly](https://scicloj.github.io/kindly-noted/) and related libraries
 
 - [#noj-dev](https://clojurians.zulipchat.com/#narrow/stream/321125-noj-dev) - discussing the development of [Noj](https://scicloj.github.io/noj/)
 
