@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2024-08-28
+lastmod: 2024-09-06
 draft: false
 weight: 33
 images: []
@@ -160,6 +160,10 @@ Most of its meetings have been recorded and shared internally. Some meetings are
 - April 15th, 3pm UTC - Chris Nuernberger - Tech.ml - [video](https://www.youtube.com/watch?v=NyMABoUEj20&t=6m50s) - [transcript](https://github.com/joinr/sciclojminutes/blob/master/meeting.org)
 
 ## Status reports
+
+### Community building
+- Sep 2nd, 2024, Clojurists Together Q3 2024 project: Scicloj - initial work plan
+ - [video](https://www.youtube.com/watch?v=WO6mVURUky4)
 
 ### Visual-tools
 - Mar. 13th, 2022, Visual tools compatibility - [video](https://www.youtube.com/watch?v=e3M4u1XIVTo)
