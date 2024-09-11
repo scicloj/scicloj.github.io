@@ -3,7 +3,7 @@ title : "Reading"
 description: "Recommended reading"
 lead: "Recommended reading"
 date: 2022-02-14
-lastmod: 2024-07-25
+lastmod: 2024-09-11
 draft: false
 weight: 32
 images: []
@@ -110,6 +110,10 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 
 ### Colors
 - [clojure2d.color documentation](https://clojure2d.github.io/clojure2d/docs/notebooks/notebooks/color.html) - path of the [clojure2d library](https://github.com/Clojure2D/clojure2d)
+
+### Algorithms
+- [High-Dimensional Computing With Sparse Vectors Using Clojure](https://faster-than-light-memes.xyz/high-dimensional-computing-with-sparse-vectors.html) by Benjamin Schwerdtner, Sep. 2024
+
 
 ## Books
 
