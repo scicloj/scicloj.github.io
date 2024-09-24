@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2024-09-06
+lastmod: 2024-09-24
 draft: false
 weight: 33
 images: []
@@ -202,3 +202,8 @@ Most of its meetings have been recorded and shared internally. Some meetings are
 ### twiml
 
 - July 20th, 2020 - Panel: The Great Language (Un)Debate - [video](https://twimlai.com/podcast/twimlai/panel-great-language-undebate/) - a panel discussion of various languages and paradigms, with Chris Nuernberger representing Clojure
+
+### Clojure Corner
+
+- Sep 2024 - Jiri Knesl interviewing Kira McLean - [video](https://www.youtube.com/watch?v=VQZJGpUA1wY)
+
