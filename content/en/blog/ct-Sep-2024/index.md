@@ -42,7 +42,9 @@ A few notable contributions were by Avicenna (mavbozo), who added a lot to the F
 
 ### [Noj](https://scicloj.github.io/noj/)
 Noj is an entry point to data and science. It integrates a set of underlying libraries through a set of testable tutorials.
-- Carsten Behring made important changes in adding integration tests and automating the dev workflow.
+- generateme has released Fastmath version 3.0.0 alpha, which is affecting a few of the underlying libraries.
+- Carsten Behring has released new versions of a few of the machine learning libraries.
+- Carsten also made important changes to Noj in adding integration tests and automating the dev workflow.
 - I helped in gradually adapting and testing a few of the underlying libraries.
 - I helped initiate a few documentation chapters that are being written by new community members.
 
