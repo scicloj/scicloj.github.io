@@ -58,24 +58,31 @@ Kindly-render is a general rendering library which serves as a foundation for to
 - I joined in design discussions and testing.
 
 ### [Clay](https://scicloj.github.io/clay/)
+Clay is a REPL-friendly tool for data visualization and literate programming.
 - I worked on two new release versions. Each was a combination of bugfixes and feature requests.
 
 ### [real-world-data group](https://scicloj.github.io/docs/community/groups/real-world-data/)
 The real-world-data group is a space for people to share updates on their data projects at work.
+
 Meeting #13 was dedicated to talk runs and discussions preceding the Heart of Clojure conference.
+
 Meeting #14 was an interactive coding session of a data science tutorial.
 
 ### Scicloj weekly
 Together with Prakash Balodi, we initiated a new weekly meeting for new community members working on open-source projects.
+
 Intentionally, we use a time slot which is more friendly to East and Central Asia time zone, unlike most Clojure meetups.
+
 We have had three meetings so far, with 4, 15, and 6 participants.
 
 ### linear algebra meetings
 We organized a new group that will collaborate on implementing and teaching applied linear algebra algorithms in Clojure.
+
 The first meeting actually took place in October 2nd, so we will update more in the next month.
 
 ### [Heart of Clojure](https://2024.heartofclojure.eu/)
 Sami Kallinen represented Scicloj at Heart of Clojure with an incredbible [talk about data modelling](https://2024.heartofclojure.eu/talks/sailing-with-scicloj-a-bayesian-adventure/).
+
 I collaborated with Sami on preparing the talk and improving the relevant tools and libraries to support the process.
 
 ## October 2024 goals
