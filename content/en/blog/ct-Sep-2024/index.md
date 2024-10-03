@@ -75,7 +75,7 @@ Intentionally, we use a time slot which is more friendly to East and Central Asi
 
 We have had three meetings so far, with 4, 15, and 6 participants.
 
-### linear algebra meetings
+### Linear Algebra meetings
 We organized a new group that will collaborate on implementing and teaching applied linear algebra algorithms in Clojure.
 
 The first meeting actually took place in October 2nd, so we will update more in the next month.
