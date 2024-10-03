@@ -30,11 +30,14 @@ All the projects mentioned below are done in collaboration with others. I will m
 ## September 2024 highlights
 
 ### [Scicloj open-source mentoring](https://scicloj.github.io/docs/community/groups/open-source-mentoring/)
-Scicloj is providing mentoring to Clojurians who wish to get involved in open-source. This initiative began in August and has been growing rapidly in September.
-This program is transforming Scicloj, and I believe it will influence the Clojure community as a whole.
+Scicloj is providing mentoring to Clojurians who wish to get involved in open-source. This initiative began in August and has been growing rapidly in September. This program is transforming Scicloj, and I believe it will influence the Clojure community as a whole.
+
 We are meeting so many incredible people who are typically experienced, wise, and open-minded and have not been involved in the past. Making it all work is a special challenge. We have to embrace the uncertainty of working with people of varying availability and dynamically adapt to changes in the team. Building on our years-long experience in community building and open-source collaboration, we know we can support at least some of our new friends in finding impactful paths to contribute. We are already seeing some fruits of this work and still have a lot to improve.
+
 47 people have applied so far. 34 are still active, and 10 have already made meaningful contributions to diverse projects.
+
 I am coordinating the process, meeting all the participants, and serving as one of the mentors alongside generateme, Kira McLean, Adrian Smith, and Jeaye Wilkerson. The primary near-term goals are writing testable tutorials and docs for the [Fastmath](https://github.com/generateme/fastmath) and [Noj](https://scicloj.github.io/noj/) libraries. Quite a few participants will be working on parts of this core effort. A few other projects where people get involved are [Clay](https://scicloj.github.io/clay/), [Kindly](https://scicloj.github.io/kindly-noted/), [Jank](https://jank-lang.org/), and [ggml.clj](https://github.com/phronmophobic/ggml.clj).
+
 A few notable contributions were by Avicenna (mavbozo), who added a lot to the Fastmath documentation and tutorials; Jacob Windle, who added printing functionality to Fastmath regression models; Muhammad Ridho, who started working on portability of [Emmy Viewers](https://github.com/mentat-collective/emmy-viewers) data visualizations; Lin Zihao, who improved the Reagent support to the Kindly standard; Epidiah Ravachol, who worked on insightful tutorials for [dtype-next](https://github.com/cnuernber/dtype-next) array-programming; Oleh Sedletskyi, who started working on statistics tutorials; Ken Huang, who've made various contributions to Clay; and Prakash Balodi, who worked on [Tablecloth](https://scicloj.github.io/tablecloth/) issues and started organizing the Scicloj weekly group (see below).
 
 ### [Noj](https://scicloj.github.io/noj/)
