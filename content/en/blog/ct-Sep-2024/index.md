@@ -73,7 +73,7 @@ Meeting #14 was an interactive coding session of a data science tutorial.
 ### Scicloj weekly
 Together with Prakash Balodi, we initiated a new weekly meeting for new community members working on open-source projects.
 
-Intentionally, we use a time slot which is more friendly to East and Central Asia time zone, unlike most Clojure meetups.
+Intentionally, we use a time slot which is more friendly to East and Central Asia time zones, unlike most Clojure meetups.
 
 We have had three meetings so far, with 4, 15, and 6 participants.
 
