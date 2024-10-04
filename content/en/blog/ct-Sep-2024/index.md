@@ -41,8 +41,8 @@ I am coordinating the process, meeting all the participants, and serving as one 
 A few notable contributions were by Avicenna (mavbozo), who added a lot to the Fastmath documentation and tutorials; Jacob Windle, who added printing functionality to Fastmath regression models; Muhammad Ridho, who started working on portability of [Emmy Viewers](https://github.com/mentat-collective/emmy-viewers) data visualizations; Lin Zihao, who improved the Reagent support to the Kindly standard; Epidiah Ravachol, who worked on insightful tutorials for [dtype-next](https://github.com/cnuernber/dtype-next) array-programming; Oleh Sedletskyi, who started working on statistics tutorials; Ken Huang, who've made various contributions to Clay; and Prakash Balodi, who worked on [Tablecloth](https://scicloj.github.io/tablecloth/) issues and started organizing the Scicloj weekly group (see below).
 
 ### [Noj](https://scicloj.github.io/noj/)
-Noj is an entry point to data and science. It integrates a set of underlying libraries through a set of testable tutorials.
-- generateme has released Fastmath version 3.0.0 alpha, which is affecting a few of the underlying libraries.
+Noj is an entry point to data and science. It integrates a set of underlying libraries through a set of testable tutorials. Here, there were great additions by generateme and Carsten Behering, and I helped a bit with the integration.
+- generateme has mad a big release of Fastmath version 3.0.0 alpha - a result of work in the last few months - which is affecting a few of the underlying libraries.
 - Carsten Behring has released new versions of a few of the machine learning libraries.
 - Carsten also made important changes to Noj in adding integration tests and automating the dev workflow.
 - I helped in gradually adapting and testing a few of the underlying libraries.
@@ -83,7 +83,7 @@ We organized a new group that will collaborate on implementing and teaching appl
 The first meeting actually took place in October 2nd, so we will update more in the next month.
 
 ### [Heart of Clojure](https://2024.heartofclojure.eu/)
-Sami Kallinen represented Scicloj at Heart of Clojure with an incredbible [talk about data modelling](https://2024.heartofclojure.eu/talks/sailing-with-scicloj-a-bayesian-adventure/).
+Sami Kallinen represented Scicloj at Heart of Clojure with an incredbible [talk about data modelling](https://2024.heartofclojure.eu/talks/sailing-with-scicloj-a-bayesian-adventure/). The talk was extremely helpful in exploring and demonstrating a lot of the new additions to the Scicloj stack.
 
 I collaborated with Sami on preparing the talk and improving the relevant tools and libraries to support the process.
 
