@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2024-09-24
+lastmod: 2024-10-12
 draft: false
 weight: 33
 images: []
@@ -13,6 +13,9 @@ contributors: ["daslu"]
 ## Clojure Data Scrapbook accompanying videos
 - 2024-03-30 - [Noj - getting started - from raw data to a blog post](https://www.youtube.com/watch?v=5GluhUmMlpM) - note this is about Noj v1 - a Noj v2 video should be created soon
 
+## Heart of Clojure 2024
+
+- [Sailing with Scicloj: A Bayesian Adventure" by Sami Kallinen](https://www.youtube.com/watch?v=ckQllKUw3b4)
 
 ## Clojure/Conj 2023
 
