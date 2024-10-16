@@ -15,8 +15,8 @@ Please let us know if you wish to join but the time does not work. We may adjust
 
 * Oct 18th, 2024 - meeting 16 - agenda: TBD (details in Zulip chat) - :calendar: [event](https://clojureverse.org/t/real-world-data-meeting-16/10959)
 * Oct 4th, 2024 - meeting 15 - agenda: diverse updates (details in Zulip chat) - publicly shared redordings:
-  * :movie_camera [Kyle Passarelli: OAuth2 with Clojure and Temporal](https://www.youtube.com/watch?v=mmOh5fYkX7Q)
-  * :movie_camera [Adham Omram: Experience Conducting a Clojure Training](https://www.youtube.com/watch?v=G1vpz_43YpI)
+  * :movie_camera: [Kyle Passarelli: OAuth2 with Clojure and Temporal](https://www.youtube.com/watch?v=mmOh5fYkX7Q)
+  * :movie_camera: [Adham Omram: Experience Conducting a Clojure Training](https://www.youtube.com/watch?v=G1vpz_43YpI)
 * Sep 20th, 2024 - meeting 14 - agenda: diving into libraries (details in Zulip chat)
 * Sep 6th, 2024 - meeting 13 - agenda: Heart-of-Clojure pre-discussions, [clojure-data-tutorials](https://github.com/scicloj/clojure-data-tutorials), library updates
 * Aug 23th, 2024 - meeting 12 - agenda: diverse updates (details in Zulip chat) - publicly shared recordings:
