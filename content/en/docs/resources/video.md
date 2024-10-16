@@ -67,9 +67,12 @@ The reClojure 2020 conrefnere offered a few data & science talks.
   - [Kyle Passarelli](https://www.youtube.com/watch?v=oeY2_M22nEM)
   - [Adham Omran](https://www.youtube.com/watch?v=iG2OF9C2FSI)
 - April 19th 2024 - meeting 3: [Bayesian Statistics with Stan by Daniel Slutsky](https://www.youtube.com/watch?v=1Y89-UlG1FA)
-- August 23rd 2024 - meeting 12: []
+- August 23rd 2024 - meeting 12:
   - [Blender & Basilisp, Wordpress & Phel - Jarkko Saltiola](https://www.youtube.com/watch?v=b7DlbC1CwRM)
   - [Noj, open-source-mentoring - Daniel Slutsky](https://www.youtube.com/watch?v=PLkcwF4y7VM)
+- Oct 4th 2024 - meeting 15:
+  - [Kyle Passarelli: OAuth2 with Clojure and Temporal](https://www.youtube.com/watch?v=mmOh5fYkX7Q)
+  - [Adham Omram: Experience Conducting a Clojure Training](https://www.youtube.com/watch?v=G1vpz_43YpI)
 
 ### ds4clj
 As of Fall 2022, the planned Data Science for Clojure devs course is delayed. Occaionally, we have ad-hoc exploration or prep meetings. Some recordings are shared publicly.
