@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-17
-lastmod: 2024-10-05
+lastmod: 2024-10-16
 draft: false
 images: []
 ---
@@ -14,7 +14,9 @@ The group meets regularly every second Friday, 17:00 [UTC time zone](https://tim
 Please let us know if you wish to join but the time does not work. We may adjust it.
 
 * Oct 18th, 2024 - meeting 16 - agenda: TBD (details in Zulip chat) - :calendar: [event](https://clojureverse.org/t/real-world-data-meeting-16/10959)
-* Oct 4th, 2024 - meeting 15 - agenda: TBD (details in Zulip chat)
+* Oct 4th, 2024 - meeting 15 - agenda: diverse updates (details in Zulip chat) - publicly shared redordings:
+  * :movie_camera [Kyle Passarelli: OAuth2 with Clojure and Temporal](https://www.youtube.com/watch?v=mmOh5fYkX7Q)
+  * :movie_camera [Adham Omram: Experience Conducting a Clojure Training](https://www.youtube.com/watch?v=G1vpz_43YpI)
 * Sep 20th, 2024 - meeting 14 - agenda: diving into libraries (details in Zulip chat)
 * Sep 6th, 2024 - meeting 13 - agenda: Heart-of-Clojure pre-discussions, [clojure-data-tutorials](https://github.com/scicloj/clojure-data-tutorials), library updates
 * Aug 23th, 2024 - meeting 12 - agenda: diverse updates (details in Zulip chat) - publicly shared recordings:
