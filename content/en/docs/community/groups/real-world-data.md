@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-17
-lastmod: 2024-10-16
+lastmod: 2024-10-23
 draft: false
 images: []
 ---
@@ -13,7 +13,8 @@ The real-world-data group is about the use of Clojure for data and science probl
 The group meets regularly every second Friday, 17:00 [UTC time zone](https://time.is/utc).
 Please let us know if you wish to join but the time does not work. We may adjust it.
 
-* Oct 18th, 2024 - meeting 16 - agenda: TBD (details in Zulip chat) - :calendar: [event](https://clojureverse.org/t/real-world-data-meeting-16/10959)
+* Nov 1st, 2024 - meeting 17 - agenda: TBD (details in Zulip chat) - [event](https://clojureverse.org/t/real-world-data-meeting-17/)
+* Oct 18th, 2024 - meeting 16 - agenda: diverse updates (details in Zulip chat)
 * Oct 4th, 2024 - meeting 15 - agenda: diverse updates (details in Zulip chat) - publicly shared redordings:
   * :movie_camera: [Kyle Passarelli: OAuth2 with Clojure and Temporal](https://www.youtube.com/watch?v=mmOh5fYkX7Q)
   * :movie_camera: [Adham Omram: Experience Conducting a Clojure Training](https://www.youtube.com/watch?v=G1vpz_43YpI)
