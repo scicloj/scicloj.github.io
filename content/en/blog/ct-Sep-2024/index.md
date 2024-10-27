@@ -1,8 +1,8 @@
 ---
 title: "Clojurists Together project - Scicloj community building - September 2024 update"
 description: ""
-date: 2024-04-30
-lastmod: 2024-05-01
+date: 2024-09-30
+lastmod: 2024-10-27
 draft: false
 weight: 10
 images: ["../../sci-cloj-logo-transparent.png"]
@@ -99,8 +99,8 @@ This is the tentative plan. Comments and ideas would be welcome.
 We are expecting more participants to join.
 - I will keep working on supporting participants in new beginnings and ongoing projects.
 
-### [Hanamicloth](https://scicloj.github.io/hanamicloth/)
-Hanamicloth is a layered grammar of graphics library.
+### [Tableplot](https://scicloj.github.io/tableplot/)
+Tableplot (previously called Hanamicloth) is a layered grammar of graphics library.
 - The goal for the coming few weeks is to bring it to beta stage and mostly improve the documentation.
 
 ### Tooling
