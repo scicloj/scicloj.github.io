@@ -3,7 +3,7 @@ title : "Chat streams"
 description: ""
 lead: ""
 date: 2022-02-14
-lastmod: 2024-10-20
+lastmod: 2024-10-31
 draft: false
 weight: 24
 images: []
@@ -29,7 +29,7 @@ Here are the main scicloj-related active streams, dedicated to certain subgroups
 
 - [#data-science](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science) - general data science topics
 
-### Dev chat of specific tools and libraries
+### Dev chat of specific topics, tools and libraries
 
 - [#tech.ml.dataset.dev](https://clojurians.zulipchat.com/#narrow/stream/236259-tech.2Eml.2Edataset.2Edev) - discussing [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset)
 
@@ -60,6 +60,8 @@ Here are the main scicloj-related active streams, dedicated to certain subgroups
 - [#clojisr-dev](https://clojurians.zulipchat.com/#narrow/stream/224816-clojisr-dev) - [clojisr](https://github.com/scicloj/clojisr) development
 
 - [#r-interop](https://clojurians.zulipchat.com/#narrow/stream/204621-r-interop) - R-interop development and usage: various libraries such as [graalvm-interop](https://github.com/davidpham87/graalvm-rinterop) and [clojisr](https://github.com/scicloj/clojisr)
+
+- [#dsp](https://clojurians.zulipchat.com/#narrow/channel/465523-dsp) - discussions of Digital Signal Processing with Fastmath, Supercollider, Overtone, etc.
 
 ### Active study groups / dev groups
 
