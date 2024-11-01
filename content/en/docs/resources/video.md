@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2024-10-25
+lastmod: 2024-11-01
 draft: false
 weight: 33
 images: []
@@ -73,6 +73,8 @@ The reClojure 2020 conrefnere offered a few data & science talks.
 - Oct 4th 2024 - meeting 15:
   - [Kyle Passarelli: OAuth2 with Clojure and Temporal](https://www.youtube.com/watch?v=mmOh5fYkX7Q)
   - [Adham Omram: Experience Conducting a Clojure Training](https://www.youtube.com/watch?v=G1vpz_43YpI)
+- Oct 16th 2024 - meeting 16:
+  - [Jarkko Saltiola: tools for pipelines, bb-glitchtip](https://www.youtube.com/watch?v=nC86hEglyLQ)
 
 ### ds4clj
 As of Fall 2022, the planned Data Science for Clojure devs course is delayed. Occaionally, we have ad-hoc exploration or prep meetings. Some recordings are shared publicly.
