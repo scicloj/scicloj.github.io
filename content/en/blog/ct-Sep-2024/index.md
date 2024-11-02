@@ -2,7 +2,7 @@
 title: "Clojurists Together project - Scicloj community building - September 2024 update"
 description: ""
 date: 2024-09-30
-lastmod: 2024-10-27
+lastmod: 2024-11-03
 draft: false
 weight: 10
 images: ["../../sci-cloj-logo-transparent.png"]
