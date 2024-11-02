@@ -3,15 +3,19 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2024-11-01
+lastmod: 2024-11-02
 draft: false
 weight: 33
 images: []
 contributors: ["daslu"]
 ---
 
-## Clojure Data Scrapbook accompanying videos
-- 2024-03-30 - [Noj - getting started - from raw data to a blog post](https://www.youtube.com/watch?v=5GluhUmMlpM) - note this is about Noj v1 - a Noj v2 video should be created soon
+## Tutorial videos
+- 2024-03-30 - [OBSOLETE - Noj - getting started - from raw data to a blog post](https://www.youtube.com/watch?v=5GluhUmMlpM) - note this is about Noj v1 - a Noj v2 video should be created soon
+
+## Clojure Conj 2024
+
+- ["Scientific Clojure, a bird's eye view" by Thomas Clark](https://www.youtube.com/watch?v=_D5d6Ls6pBw)
 
 ## Heart of Clojure 2024
 
