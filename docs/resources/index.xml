@@ -4,8 +4,9 @@ For every library, we mark whether it is actively developed (act), and whether i
 Do you wish to add your tutorial to this list? Do you have any suggestions for this list? - Let us talk!
 Scicloj resources #
 The Clojure Data Scrapbook - a community-driven collection of tutorials for the emerging Clojure data stack - contributions are welcome. 🙏 Blogs #
-TechAscent Blog by the group behind a few of the Clojure high-performance and data-analytics libraries (mostly those at techascent, as well as dtype-next and libpython-clj)</description></item><item><title>Video</title><link>https://scicloj.github.io/docs/resources/video/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/docs/resources/video/</guid><description>Clojure Data Scrapbook accompanying videos #
-2024-03-30 - Noj - getting started - from raw data to a blog post - note this is about Noj v1 - a Noj v2 video should be created soon Heart of Clojure 2024 #
+TechAscent Blog by the group behind a few of the Clojure high-performance and data-analytics libraries (mostly those at techascent, as well as dtype-next and libpython-clj)</description></item><item><title>Video</title><link>https://scicloj.github.io/docs/resources/video/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/docs/resources/video/</guid><description>Tutorial videos #
+2024-03-30 - OBSOLETE - Noj - getting started - from raw data to a blog post - note this is about Noj v1 - a Noj v2 video should be created soon Clojure Conj 2024 #
+&amp;ldquo;Scientific Clojure, a bird&amp;rsquo;s eye view&amp;rdquo; by Thomas Clark Heart of Clojure 2024 #
 Sailing with Scicloj: A Bayesian Adventure&amp;quot; by Sami Kallinen Clojure/Conj 2023 #
 A few of the Clojure/Conj talks were dedicated to infrastructure and applications of the emerging Clojure data science stack.</description></item><item><title>Audio</title><link>https://scicloj.github.io/docs/resources/audio/</link><pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/docs/resources/audio/</guid><description>Recommended podcast conversations
 ClojureStream #
