@@ -86,7 +86,7 @@ I was involved in writing some tutorials and in reviewing a few others.
 A few of the current drafts people have been working on can already be shared:
 - [intro to probability and statistics](https://mavbozo.github.io/clj-probstat-tutorial/clay/) by @mavbozo
 - [intro to linear algebra with Fastmath](https://scicloj.github.io/noj/noj_book.linear_algebra_intro.html) by @radovanne
-- [2d and 3d geometry with Fastmath](https://scicloj.github.io/noj/noj_book.linear_algebra_intro.html) by @radovanne
+- [2d and 3d geometry with Fastmath](https://scicloj.github.io/noj/noj_book.fastmath_vector_geom2d3d.html) by @radovanne
 - [intro to datavis with Apache Echarts](https://scicloj.github.io/noj/noj_book.echarts) by @zuzhi and @whatacold
 - [analysing Chicago bike times](https://scicloj.github.io/noj/noj_book.chicago_bike_times.html) by myself
 - [Bayesian statistics with PyMC](https://scicloj.github.io/clojure-data-tutorials/projects/stats/pymc/intro.html) by myself
