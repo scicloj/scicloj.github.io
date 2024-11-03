@@ -43,7 +43,7 @@ The Noj library is the entry point to data science with Clojure, collecting a st
 
 At [the Zulip chat](https://scicloj.github.io/docs/community/chat/), we had quite a few insightful discussions with important feedback by community members about the scope and the organization of the project.
 
-Most of our efforts in this project has been into writing additional tutorials. A broad group of people are working on these, and a few promosing tutorials are currently in draft stage. See some details below in the Tutorials section.
+Most of our efforts in this project have been into writing additional tutorials. A broad group of people are working on these, and a few promosing tutorials are currently in draft stage. See some details below in the Tutorials section.
 
 @behrica has made additional improvements to the automation and whole workflow of Noj in Github Pages.
 
