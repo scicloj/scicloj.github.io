@@ -118,7 +118,7 @@ On my side, I helped a little bit in the preparations for the talk.
 ## November 2024 goals
 
 ### Noj
-- Annouce Beta stage for Noj.
+- Annouce Beta stage.
 - Continue the current efforts on documenting the libraries.
 
 ### Fastmath
