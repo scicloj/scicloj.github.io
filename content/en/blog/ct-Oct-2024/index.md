@@ -68,7 +68,7 @@ Clay, the REPL-friendly notebook and data visualation tool, recieved a few new f
 
 Additionally, @a13 and I are working on improving the process of reading Clojure code, building on previous work by @timothypratley at the [read-kinds](https://github.com/scicloj/read-kinds) project.
 
-### [Kindly-advice](https://github.com/scicloj/kindly-advice)
+### [Kindly-advice](https://scicloj.github.io/kindly-noted/kindly_advice)
 Kindly-advice is a small library that helps tools know how certain values should be visualized.
 
 Following the developments with Emmy-viewers, it can now recognize these automatically, so that tools can handle them appropriately.
