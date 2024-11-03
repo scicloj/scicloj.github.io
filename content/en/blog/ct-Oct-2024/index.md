@@ -124,6 +124,9 @@ On my side, I helped a little bit in the preparations for the talk.
 ### Fastmath
 - Continue the documetation effort.
 
+### Tablecloth
+- Start working on drafts integrating Fastmath-related functionality.
+
 ### Tableplot
 - Annouce Beta stage after a minor changes.
 - Keep extending and documenting the library.
