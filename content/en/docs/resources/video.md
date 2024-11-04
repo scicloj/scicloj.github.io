@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2024-11-02
+lastmod: 2024-11-04
 draft: false
 weight: 33
 images: []
@@ -217,5 +217,6 @@ Most of its meetings have been recorded and shared internally. Some meetings are
 
 ### Clojure Corner
 
+- Oct 2024 - Jiri Knesl interviewing Daniel Slutsky - [video](https://www.youtube.com/watch?v=r9YeMIqzkQ4)
 - Sep 2024 - Jiri Knesl interviewing Kira McLean - [video](https://www.youtube.com/watch?v=VQZJGpUA1wY)
 
