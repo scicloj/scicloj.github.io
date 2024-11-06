@@ -17,6 +17,7 @@ Here are some suggested reading materials.
 Do you wish to add your tutorial to this list? Do you have any suggestions for this list? - [Let us talk](../../community/contact)!
 
 ## Scicloj resources
+- The [Noj book](https://scicloj.github.io/noj/) - Documenting Noj, the main recommended stack of data & science libraries
 - The [Clojure Data Tutorials](https://scicloj.github.io/clojure-data-scrapbook/) - a community-driven collection of reproducible tutorials, organized using devcontainers
 - The [Clojure Data Scrapbook](https://scicloj.github.io/clojure-data-scrapbook/) - a community-driven collection of tutorials, with a bit less strict workflow
 
