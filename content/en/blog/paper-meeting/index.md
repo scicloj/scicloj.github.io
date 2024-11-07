@@ -1,14 +1,13 @@
 ---
-title: "Scicloj scientific papers - initial planning meeting"
+title: "Scicloj scienfitic papers - initial planning meeting"
 description: ""
-date: 2024-11-08
-lastmod: 2024-11-08
+date: 2024-11-07
+lastmod: 2024-11-07
 draft: false
-weight: 8
+weight: 7
 images: ["../../sci-cloj-logo-transparent.png"]
 contributors: ["daslu"]
 ---
-
 
 Now that the Clojure stack for scientific computing is [maturing rapidly](https://www.youtube.com/watch?v=_D5d6Ls6pBw), the [Scicloj group](https://scicloj.github.io/) is looking at ways of reaching other communities.
 
@@ -23,4 +22,5 @@ To help us schedule the call, it would be helpful to fill out [the poll](https:/
 Of course, [please write to us](https://scicloj.github.io/docs/community/contact/) any questions or ideas you may have.
 
 Looking forward to seeing you,
+
 Thomas Clark and Daniel Slusky
