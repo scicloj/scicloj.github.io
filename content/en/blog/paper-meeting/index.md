@@ -9,6 +9,7 @@ images: ["../../sci-cloj-logo-transparent.png"]
 contributors: ["daslu"]
 ---
 
+
 Now that the Clojure stack for scientific computing is [maturing rapidly](https://www.youtube.com/watch?v=_D5d6Ls6pBw), the [Scicloj group](https://scicloj.github.io/) is looking at ways of reaching other communities.
 
 One avenue would be to consider publishing academic papers about the ecosystem: regarding individual libraries or outlining the ecosystem as a whole. Another avenue, is that the Scicloj group would like to encourage and help out with research projects themselves.
