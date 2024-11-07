@@ -1,5 +1,5 @@
 ---
-title: "Scicloj scienfitic papers - initial planning meeting"
+title: "Scicloj scientific papers - initial planning meeting"
 description: ""
 date: 2024-11-07
 lastmod: 2024-11-07
