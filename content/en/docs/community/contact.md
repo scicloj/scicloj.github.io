@@ -14,5 +14,4 @@ contributors: ["daslu"]
 - [GitHub](https://github.com/scicloj)
 - [Zulip Chat streams](../chat)
   - [Main data science stream](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science)
-- [Twitter](https://twitter.com/scicloj)
 - [Youtube](https://www.youtube.com/c/SciCloj)
