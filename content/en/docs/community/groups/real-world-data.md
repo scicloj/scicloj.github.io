@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-17
-lastmod: 2024-11-06
+lastmod: 2024-11-17
 draft: false
 images: []
 ---
@@ -13,7 +13,8 @@ The real-world-data group is about the use of Clojure for data and science probl
 The group meets regularly every second Friday, 17:00 [UTC time zone](https://time.is/utc).
 Please let us know if you wish to join but the time does not work. We may adjust it.
 
-* Nov 15th, 2024 - meeting 18 - agenda: TBD (details in Zulip chat) - [event](https://clojureverse.org/t/real-world-data-meeting-18/)
+* Nov 29th, 2024 - meeting 19 - agenda: TBD (details in Zulip chat) - [event](https://clojureverse.org/t/real-world-data-meeting-19/)
+* Nov 15th, 2024 - meeting 18 - agenda: Library plans - composing Fastmath with Tablecloth
 * Nov 1st, 2024 - meeting 17 - agenda: Noj tutorials (details in Zulip chat)
 * Oct 18th, 2024 - meeting 16 - agenda: diverse updates (details in Zulip chat) - publicly shared recording:
   * :movie_camera: [Jarkko Saltiola: tools for pipelines, bb-glitchtip](https://www.youtube.com/watch?v=nC86hEglyLQ)
