@@ -1,9 +1,9 @@
 ---
-title : "Chat streams"
+title : "Chat"
 description: ""
 lead: ""
 date: 2022-02-14
-lastmod: 2024-10-31
+lastmod: 2024-11-21
 draft: false
 weight: 24
 images: []
