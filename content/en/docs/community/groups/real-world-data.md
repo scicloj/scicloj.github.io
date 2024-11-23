@@ -9,6 +9,7 @@ images: []
 ---
 The real-world-data group is about the use of Clojure for data and science problems.
 
+
 ## Schedule
 The group meets regularly every second Friday, 17:00 [UTC time zone](https://time.is/utc).
 Please let us know if you wish to join but the time does not work. We may adjust it.
