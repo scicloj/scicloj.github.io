@@ -1,5 +1,5 @@
 ---
-title: "Scicloj scientific papers - initial planning meeting"
+title: "Scicloj scienific papers - in itial planning meeting"
 description: ""
 date: 2024-11-07
 lastmod: 2024-11-23
@@ -23,5 +23,5 @@ Of course, [please write to us](https://scicloj.github.io/docs/community/contact
 
 Looking forward to seeing you,
 
-Thomas Clark and Daniel Slusky
+Thomas Clark and Daniel Slutsky
 
