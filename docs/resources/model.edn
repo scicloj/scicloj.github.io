@@ -232,7 +232,14 @@
     "The vega lite example in EDN format, ready to be copy/pasted into Clojure code"})
 
   ;; ## Data visualization libraries
-  ({:lib/name "cljplot",
+  ({:lib/name "Tableplot",
+    :lib/url "https://scicloj.github.io/tableplot/"
+    :lib/category :data-visualization-libraries,
+    :tags #{:vis :exp :act},
+    :star :star,
+    :description
+    "easy layered graphics with Hanami & Tablecloth"}
+    {:lib/name "cljplot",
     :lib/url "https://github.com/generateme/cljplot",
     :lib/category :data-visualization-libraries,
     :tags #{:vis :exp :act},
