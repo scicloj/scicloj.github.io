@@ -32,8 +32,7 @@
   {:tag/id "nlp", :tag/description "natural language processing"}
   {:tag/id "llm", :tag/description "large language models and related services"}]
 
- :teodorlu/questions [
-                      ;; I'm having a bit of a hard time understanding the motivation between having both the star
+ :teodorlu/questions [;; I'm having a bit of a hard time understanding the motivation between having both the star
                       ;; and :readiness :experimental. Does that mean /some/ of the API is considered stable, but
                       ;; the library is still under active development, and collaboration is invited?
                       ;;
@@ -41,20 +40,20 @@
                       ]
  :libs
  [;; # Diverse toolsets
-  ({:lib/name "fastmath",
+  ({:lib/name "noj",
+    :lib/url "https://github.com/scicloj/noj",
+    :lib/category :div-tools,
+    :tags #{:act},
+    :star :star,
+    :description
+    "an toolkit with the main relevant Scicloj libraries"}
+   {:lib/name "fastmath",
     :lib/url "https://github.com/generateme/fastmath",
     :lib/category :div-tools,
     :tags #{:stat :rand :act :ml :math},
     :star :star,
     :description
     "a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries"}
-   {:lib/name "noj",
-    :lib/url "https://github.com/scicloj/noj",
-    :lib/category :div-tools,
-    :tags #{:act},
-    :star :star,
-    :description
-    "a work-in-progress library collecting a few of the relevant data & science with additional convenience layers composing them together"}
    {:lib/name "spork",
     :lib/url "https://github.com/joinr/spork",
     :lib/category :div-tools,
@@ -189,8 +188,7 @@
     :tags #{:vis :vega},
     :star :star,
     :description
-    "a minimal wrapper over Vega/Vega-lite as a single JVM-only Clojure library, using the GraalJS javascript runtime, which [does not require GraalVM runtime](https://github.com/graalvm/graaljs/blob/master/docs/user/RunOnJDK.md) to run."
-    }
+    "a minimal wrapper over Vega/Vega-lite as a single JVM-only Clojure library, using the GraalJS javascript runtime, which [does not require GraalVM runtime](https://github.com/graalvm/graaljs/blob/master/docs/user/RunOnJDK.md) to run."}
    {:lib/name "xvsy",
     :lib/url "https://github.com/dvdt/xvsy",
     :lib/category :vega-rendering,
@@ -239,7 +237,7 @@
     :star :star,
     :description
     "easy layered graphics with Hanami & Tablecloth"}
-    {:lib/name "cljplot",
+   {:lib/name "cljplot",
     :lib/url "https://github.com/generateme/cljplot",
     :lib/category :data-visualization-libraries,
     :tags #{:vis :exp :act},
@@ -789,8 +787,7 @@
     :description "a Clojure wrapper for Stanford CoreNLP"})
 
   ;; Large language models and related services
-  (
-   {:lib/name "Bosquet",
+  ({:lib/name "Bosquet",
     :lib/url "https://github.com/zmedelis/bosquet",
     :lib/category :large-language-models,
     :tags #{:act :llm},

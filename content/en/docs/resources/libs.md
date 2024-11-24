@@ -3,7 +3,7 @@ title : "Tools and libraries"
 description: "Clojure tools and libraries for data and science"
 lead: "Clojure tools and libraries for data and science"
 date: 2022-02-14
-lastmod: 2024-11-24
+lastmod: 2022-07-09
 draft: false
 weight: 31
 images: []
@@ -57,8 +57,8 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
 - [Clojure graph resources](https://github.com/simongray/clojure-graph-resources) :star: by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with graph-like data
 
 ## Diverse toolsets
+- [noj](https://github.com/scicloj/noj) :star: (`act`):  - an toolkit with the main relevant Scicloj libraries
 - [fastmath](https://github.com/generateme/fastmath) :star: (`act`): `math`,`ml`,`rand`,`stat` - a collection of functions for mathematical and statistical computing, machine learning, etc., wrapping several JVM libraries
-- [noj](https://github.com/scicloj/noj) :star: (`act`):  - a work-in-progress library collecting a few of the relevant data & science with additional convenience layers composing them together
 - [spork](https://github.com/joinr/spork) (`act`): `df`,`graph`,`opt`,`rand`,`ui`,`vis` - a toolbox for data-science and operation research
 - [Incanter](https://github.com/incanter/incanter): `csv`,`df`,`rand`,`stat`,`vis` - an R-like data-science platform built on top of the core.matrix abstractions
 - [huri](https://github.com/sbelak/huri): `df`,`stat`,`vis` - a toolbox for data-science using plain sequences of maps
