@@ -3,7 +3,7 @@ title : "Tools and libraries"
 description: "Clojure tools and libraries for data and science"
 lead: "Clojure tools and libraries for data and science"
 date: 2022-02-14
-lastmod: 2022-07-09
+lastmod: 2022-12-09
 draft: false
 weight: 31
 images: []
@@ -75,7 +75,7 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
 - [Pink-Gorilla/Goldly](https://github.com/pink-gorilla/goldly) :star: (`act`): `cljs`,`exp`,`lit`,`ui`,`vis` - a port of the Gorilla REPL project using a Clojurescript (Reagent) frontend
 - [Org-babel-clojure](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-clojure.html) :star:: `lt` - executing Clojure inside Emacs Org-mode documents
 - [Devcards](https://github.com/bhauman/devcards) :star:: `cljs`,`lit` - visual repl exprience for Clojurescript
-- [Notespace](https://github.com/scicloj/notespace) :star:: `exp`,`lit` - notebook experience with Clojure namespaces edited at any editor
+- [Notespace](https://github.com/scicloj/notespace): `lit` - notebook experience with Clojure namespaces edited at any editor
 - [Reveal](https://vlaaad.github.io/reveal/) :star: (`act`):  - browser-based data navigation GUI
 - [Portal](https://github.com/djblue/portal) :star: (`act`):  - desktop data navigation GUI
 - [Gorilla-REPL](http://gorilla-repl.org/): `lit` - a notebook application written in Clojure and Javascript

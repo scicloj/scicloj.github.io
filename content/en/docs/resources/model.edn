@@ -139,8 +139,7 @@
    {:lib/name "Notespace",
     :lib/url "https://github.com/scicloj/notespace",
     :lib/category :visual-tools,
-    :tags #{:exp :lit},
-    :star :star,
+    :tags #{:lit},
     :description
     "notebook experience with Clojure namespaces edited at any editor"}
    {:lib/name "Reveal",
