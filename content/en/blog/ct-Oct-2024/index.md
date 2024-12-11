@@ -2,7 +2,7 @@
 title: "Clojurists Together project - Scicloj community building - October 2024 update"
 description: ""
 date: 2024-11-03
-lastmod: 2024-11-03
+lastmod: 2024-12-11
 draft: false
 weight: 9
 images: ["../../sci-cloj-logo-transparent.png"]
@@ -21,9 +21,9 @@ All these, and the tools to support them, grow organically, driven by real-world
 
 I serve as a community organizer at Scicloj, and this project was accepted for Clojurists Together funding in 2024 Q1 & Q3. I also receive regular funding through Github Sponsors, mostly from Nubank.
 
-In this post, I am reporting on my involvement during October 2024, as well as the proposed goals for October.
+In this post, I am reporting on my involvement during October 2024, as well as the proposed goals for November.
 
-I had 57 meetings during September. Most of them were one-on-one meetings for open-source mentoring or similar contexts.
+I had 57 meetings during October. Most of them were one-on-one meetings for open-source mentoring or similar contexts.
 
 All the projects mentioned below are done in collaboration with others. I will mention at least a few of the people involved. For consistency, I use people's github handles when mentioning their work on the projects, and their full names when mentioning public talks.
 
