@@ -3,7 +3,7 @@ title : "Tools and libraries"
 description: "Clojure tools and libraries for data and science"
 lead: "Clojure tools and libraries for data and science"
 date: 2022-02-14
-lastmod: 2022-12-09
+lastmod: 2024-12-12
 draft: false
 weight: 31
 images: []
@@ -67,10 +67,10 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
 - [matlib](https://github.com/atisharma/matlib) :star: (`act`): `opt` - optimisation and control theory tools and convenience functions based on Neanderthal.
 
 ## Visual tools: literate programming and data visualization
+- [Clay](https://github.com/scicloj/clay) :star: (`act`): `cljs`,`lit`,`vega`,`vis` - a REPL-friendly tool for notebooks and datavis
 - [Saite](https://github.com/jsa-aerial/saite) :star: (`act`): `cljs`,`hiccup`,`lit`,`ui`,`vega`,`vis` - data exploration, dashboards, and interactive documents
-- [Oz](https://github.com/metasoarous/oz) :star: (`act`): `lit`,`vega`,`vis` - data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming
 - [Clerk](https://github.com/nextjournal/clerk) :star: (`act`): `cljs`,`lit`,`vega`,`vis` - local-first notebooks for Clojure
-- [Clay](https://github.com/scicloj/clay) :star: (`act`): `cljs`,`lit`,`vega`,`vis` - a small tool for data visualization and literate programming
+- [Oz](https://github.com/metasoarous/oz) (`act`): `lit`,`vega`,`vis` - data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming
 - [rmarkdown-clojure](https://github.com/genmeblog/rmarkdown-clojure) :star:: `lit`,`vis` - rendering Clojure code in various format using [Rmarkdown](https://rmarkdown.rstudio.com/)
 - [Pink-Gorilla/Goldly](https://github.com/pink-gorilla/goldly) :star: (`act`): `cljs`,`exp`,`lit`,`ui`,`vis` - a port of the Gorilla REPL project using a Clojurescript (Reagent) frontend
 - [Org-babel-clojure](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-clojure.html) :star:: `lt` - executing Clojure inside Emacs Org-mode documents
@@ -97,13 +97,11 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [Tableplot](https://scicloj.github.io/tableplot/) :star: (`act`): `exp`,`vis` - easy layered graphics with Hanami & Tablecloth
 - [cljplot](https://github.com/generateme/cljplot) :star: (`act`): `exp`,`vis` - a data visualization platform written in Clojure and inspired by R's ggplot2 and lattice libraries
 - [Hanami](https://github.com/jsa-aerial/hanami) :star: (`act`): `cljs`,`hiccup`,`ui`,`vega`,`vis` - a template system for creating interactive data visualizations using Vega/Vega-lite, Reagent and Re-Com
-- [Hanamicloth](https://github.com/scicloj/hanamicloth) :star: (`act`): `exp`,`vega`,`vis` - a data visualization grammar composing Hanami templates and Tablecloth datasets
-- [darkstar](https://github.com/appliedsciencestudio/darkstar) :star: (`act`): `cljs`,`vega`,`vis` - simple data visualization for Clojure/Clojurescript that using vega and [darkstar](https://github.com/appliedsciencestudio/darkstar) for rendering
-- [](https://github.com/scicloj/viz.clj): `exp`,`vega`,`vis` - a data visualization library for beginners (WIP)
+- [viz.clj](https://github.com/scicloj/viz.clj): `exp`,`vega`,`vis` - a data visualization library for beginners (WIP)
 - [Clojure2D](https://github.com/Clojure2D/clojure2d) :star: (`act`): `vis` - Java2D wrapper + creative coding supporting functions (based on Processing and openFrameworks)
 - [Quil](https://github.com/quil/quil) :star:: `vis` - a clojure/clojuresctit wrapper for Processing
 - [thi-ng/geom](https://github.com/thi-ng/geom) :star:: `cljs`,`vis` - 2d/3d geometry toolkit
-- [Gorilla-plot](https://github.com/JonyEpsilon/gorilla-plot) :star:: `vega`,`vis` - plotting functions using Vega for Gorilla-REPL
+- [Gorilla-plot](https://github.com/JonyEpsilon/gorilla-plot): `vega`,`vis` - plotting functions using Vega for Gorilla-REPL
 - [gg4clj](https://github.com/JonyEpsilon/gg4clj): `r`,`vis` - a clojure DSL for creating ggplot2 plots using R
 - [gg4clj port](https://github.com/pink-gorilla/gg4clj):  - by the [Pink Gorilla](https://pink-gorilla.github.io) project
 - [Analemma](https://liebke.github.io/analemma/): `cljs`,`exp`,`vis` - generating charts and SVG with a syntax similar to Incanter's and a visual theme similar to ggplot2.
