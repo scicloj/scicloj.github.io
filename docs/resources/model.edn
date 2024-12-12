@@ -82,33 +82,32 @@
     "optimisation and control theory tools and convenience functions based on Neanderthal."})
 
   ;; Visual tools: literate programming and data visualization
-  ({:lib/name "Saite",
+  ({:lib/name "Clay",
+    :lib/url "https://github.com/scicloj/clay",
+    :lib/category :visual-tools,
+    :tags #{:vis :lit :act :vega :cljs},
+    :star :star,
+    :description
+    "a REPL-friendly tool for notebooks and datavis"}
+   {:lib/name "Saite",
     :lib/url "https://github.com/jsa-aerial/saite",
     :lib/category :visual-tools,
     :tags #{:vis :lit :act :hiccup :ui :vega :cljs},
     :star :star,
     :description
     "data exploration, dashboards, and interactive documents"}
-   {:lib/name "Oz",
-    :lib/url "https://github.com/metasoarous/oz",
-    :lib/category :visual-tools,
-    :tags #{:vis :lit :act :vega},
-    :star :star,
-    :description
-    "data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming"}
    {:lib/name "Clerk",
     :lib/url "https://github.com/nextjournal/clerk",
     :lib/category :visual-tools,
     :tags #{:vis :lit :act :vega :cljs},
     :star :star,
     :description "local-first notebooks for Clojure"}
-   {:lib/name "Clay",
-    :lib/url "https://github.com/scicloj/clay",
+   {:lib/name "Oz",
+    :lib/url "https://github.com/metasoarous/oz",
     :lib/category :visual-tools,
-    :tags #{:vis :lit :act :vega :cljs},
-    :star :star,
+    :tags #{:vis :lit :act :vega},
     :description
-    "a small tool for data visualization and literate programming"}
+    "data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming"}
    {:lib/name "rmarkdown-clojure",
     :lib/url "https://github.com/genmeblog/rmarkdown-clojure",
     :lib/category :visual-tools,
@@ -250,20 +249,7 @@
     :star :star,
     :description
     "a template system for creating interactive data visualizations using Vega/Vega-lite, Reagent and Re-Com"}
-   {:lib/name "Hanamicloth",
-    :lib/url "https://github.com/scicloj/hanamicloth",
-    :lib/category :data-visualization-libraries,
-    :tags #{:vis :act :vega :exp},
-    :star :star,
-    :description "a data visualization grammar composing Hanami templates and Tablecloth datasets"}
-   {:lib/name "darkstar",
-    :lib/url "https://github.com/appliedsciencestudio/darkstar",
-    :lib/category :data-visualization-libraries,
-    :tags #{:vis :act :vega :cljs},
-    :star :star,
-    :description
-    "simple data visualization for Clojure/Clojurescript that using vega and [darkstar](https://github.com/appliedsciencestudio/darkstar) for rendering"}
-   {:lib/name nil,
+   {:lib/name "viz.clj",
     :lib/url "https://github.com/scicloj/viz.clj",
     :lib/category :data-visualization-libraries,
     :tags #{:vis :exp :vega},
@@ -291,7 +277,6 @@
     :lib/url "https://github.com/JonyEpsilon/gorilla-plot",
     :lib/category :data-visualization-libraries,
     :tags #{:vis :vega},
-    :star :star,
     :description "plotting functions using Vega for Gorilla-REPL"}
    {:lib/name "gg4clj",
     :lib/url "https://github.com/JonyEpsilon/gg4clj",
