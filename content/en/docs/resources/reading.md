@@ -3,7 +3,7 @@ title : "Reading"
 description: "Recommended reading"
 lead: "Recommended reading"
 date: 2022-02-14
-lastmod: 2024-11-06
+lastmod: 2024-12-12
 draft: false
 weight: 32
 images: []
@@ -18,7 +18,7 @@ Do you wish to add your tutorial to this list? Do you have any suggestions for t
 
 ## Scicloj resources
 - The [Noj book](https://scicloj.github.io/noj/) - Documenting Noj, the main recommended stack of data & science libraries
-- The [Clojure Data Tutorials](https://scicloj.github.io/clojure-data-scrapbook/) - a community-driven collection of reproducible tutorials, organized using devcontainers
+- The [Clojure Data Tutorials](https://scicloj.github.io/clojure-data-tutorials/) - a community-driven collection of reproducible tutorials, organized using devcontainers
 - The [Clojure Data Scrapbook](https://scicloj.github.io/clojure-data-scrapbook/) - a community-driven collection of tutorials, with a bit less strict workflow
 
 Contributions are welcome. 👋
