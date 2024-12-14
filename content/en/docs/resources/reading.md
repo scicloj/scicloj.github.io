@@ -3,7 +3,7 @@ title : "Reading"
 description: "Recommended reading"
 lead: "Recommended reading"
 date: 2022-02-14
-lastmod: 2024-12-12
+lastmod: 2024-12-14
 draft: false
 weight: 32
 images: []
@@ -72,6 +72,11 @@ Contributions are welcome. 👋
 - [Carin Meier](https://nextjournal.com/gigasquid) - mainly Python interop
 
 - [Chris Nuernberger](https://nextjournal.com/chrisn) - mainly Python interop
+
+
+### Statistics
+
+- [Statistical Computing in Clojure: Functional Approaches to Unsupervised Learning](https://github.com/adabwana/f24-cs7300-final-project/) by Jaryt Salvo, Dec. 2024
 
 ### Math
 
