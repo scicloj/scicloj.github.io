@@ -76,7 +76,7 @@ Contributions are welcome. 👋
 
 ### Statistics
 
-- [Statistical Computing in Clojure: Functional Approaches to Unsupervised Learning](https://github.com/adabwana/f24-cs7300-final-project/) by Jaryt Salvo, Dec. 2024
+- [Statistical Computing in Clojure: Functional Approaches to Unsupervised Learning](https://github.com/adabwana/f24-cs7300-final-project/) (PCA with Neanderthal) by Jaryt Salvo, Dec. 2024
 
 ### Math
 
