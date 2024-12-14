@@ -4,7 +4,10 @@ For every library, we mark whether it is actively developed (act), and whether i
 Do you wish to add your tutorial to this list? Do you have any suggestions for this list? - Let us talk!
 Scicloj resources #
 The Noj book - Documenting Noj, the main recommended stack of data &amp;amp; science libraries The Clojure Data Tutorials - a community-driven collection of reproducible tutorials, organized using devcontainers The Clojure Data Scrapbook - a community-driven collection of tutorials, with a bit less strict workflow Contributions are welcome.</description></item><item><title>Video</title><link>https://scicloj.github.io/docs/resources/video/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/docs/resources/video/</guid><description>Tutorial videos #
-📣 coming soon - Noj v2 - getting started 2024-03-30 - OBSOLETE - Noj - getting started - from raw data to a blog post - note this is about Noj v1 Clojure Conj 2024 #
+📣 coming soon - Noj v2 - getting started
+2024-12-14 - PCA in Clojure with Neanderthal by Jaryt Salvo
+2024-03-30 - OBSOLETE - Noj - getting started - from raw data to a blog post - note this is about Noj v1
+Clojure Conj 2024 #
 &amp;ldquo;Scientific Clojure, a bird&amp;rsquo;s eye view&amp;rdquo; by Thomas Clark &amp;ldquo;Crafting Artisanal Vector Graphics&amp;rdquo; by @Timothy Pratley and Chris Houser &amp;ldquo;Clojure for Criminal Defense&amp;rdquo; by Andrew Foltz-Morrison Heart of Clojure 2024 #
 Sailing with Scicloj: A Bayesian Adventure&amp;quot; by Sami Kallinen Clojure/Conj 2023 #
 A few of the Clojure/Conj talks were dedicated to infrastructure and applications of the emerging Clojure data science stack.</description></item><item><title>Audio</title><link>https://scicloj.github.io/docs/resources/audio/</link><pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/docs/resources/audio/</guid><description>Recommended podcast conversations
