@@ -3,7 +3,7 @@ title : "Chat"
 description: ""
 lead: ""
 date: 2022-02-14
-lastmod: 2024-11-21
+lastmod: 2024-12-15
 draft: false
 weight: 24
 images: []
@@ -43,11 +43,13 @@ Here are the main scicloj-related active streams, dedicated to certain subgroups
 
 - [#noj-dev](https://clojurians.zulipchat.com/#narrow/stream/321125-noj-dev) - discussing the development of [Noj](https://scicloj.github.io/noj/)
 
+- [#tableplot-dev](https://clojurians.zulipchat.com/#narrow/stream/443101-tableplot-dev) - development of [Tableplot](https://scicloj.github.io/tableplot)
+
+- [#tablemath-dev](https://clojurians.zulipchat.com/#narrow/channel/474332-tablemath-dev) - development of [Tablemath](https://scicloj.github.io/tablemath)
+
 - [#cljplot-dev](https://clojurians.zulipchat.com/#narrow/stream/197967-cljplot-dev) - [cljplot](https://github.com/generateme/cljplot) develompemt
 
 - [#saite-dev](https://clojurians.zulipchat.com/#narrow/stream/210075-saite-dev) - development of [Saite](https://github.com/jsa-aerial/saite) and related projects such as [Hanami](https://github.com/jsa-aerial/hanami) 
-
-- [#tableplot-dev](https://clojurians.zulipchat.com/#narrow/stream/443101-tableplot-dev) - development of [Tableplot](https://scicloj.github.io/tableplot)
 
 - [#pink-gorilla-dev](https://clojurians.zulipchat.com/#narrow/stream/212578-pink-gorilla-dev) - development of [Pink Gorilla](https://pink-gorilla.github.io)
 
