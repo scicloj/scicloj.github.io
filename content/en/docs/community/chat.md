@@ -3,7 +3,7 @@ title : "Chat"
 description: ""
 lead: ""
 date: 2022-02-14
-lastmod: 2024-12-15
+lastmod: 2024-12-17
 draft: false
 weight: 24
 images: []
@@ -31,29 +31,27 @@ Here are the main scicloj-related active streams, dedicated to certain subgroups
 
 ### Dev chat of specific topics, tools and libraries
 
+- [#noj-dev](https://clojurians.zulipchat.com/#narrow/stream/321125-noj-dev) - discussing the development of [Noj](https://scicloj.github.io/noj/)
+
 - [#tech.ml.dataset.dev](https://clojurians.zulipchat.com/#narrow/stream/236259-tech.2Eml.2Edataset.2Edev) - discussing [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset)
-
-- [#uncomplicate](https://clojurians.zulipchat.com/#narrow/stream/361336-uncomplicate) - discussions about developing with [Neanderthal](https://neanderthal.uncomplicate.org/), [Deep Diamond](https://github.com/uncomplicate/deep-diamond), and other [Uncomplicate](https://uncomplicate.org/) libs
-
-- [#scicloj.ml-dev](https://clojurians.zulipchat.com/#narrow/stream/283491-scicloj.2Eml-dev) - discussing [scicloj.ml](https://github.com/scicloj/scicloj.ml)
 
 - [#clay-dev](https://clojurians.zulipchat.com/#narrow/stream/422115-clay-dev) - discussing the development of [Clay](https://scicloj.github.io/clay/)
 
 - [#kindly-dev](https://clojurians.zulipchat.com/#narrow/stream/454856-kindly-dev/topic/releases) - discussing the development of [Kindly](https://scicloj.github.io/kindly-noted/) and related libraries
 
-- [#noj-dev](https://clojurians.zulipchat.com/#narrow/stream/321125-noj-dev) - discussing the development of [Noj](https://scicloj.github.io/noj/)
-
 - [#tableplot-dev](https://clojurians.zulipchat.com/#narrow/stream/443101-tableplot-dev) - development of [Tableplot](https://scicloj.github.io/tableplot)
 
 - [#tablemath-dev](https://clojurians.zulipchat.com/#narrow/channel/474332-tablemath-dev) - development of [Tablemath](https://scicloj.github.io/tablemath)
 
+- [#wolfram-clojure-bridge](https://clojurians.zulipchat.com/#narrow/stream/313853-wolfram-clojure-bridge) - a stream for the dvelopment of [Wolframite](https://scicloj.github.io/wolframite/), a Clojure bridge to the Wolfram language
+
+- [#uncomplicate](https://clojurians.zulipchat.com/#narrow/stream/361336-uncomplicate) - discussions about developing with [Neanderthal](https://neanderthal.uncomplicate.org/), [Deep Diamond](https://github.com/uncomplicate/deep-diamond), and other [Uncomplicate](https://uncomplicate.org/) libs
+
+- [#scicloj.ml-dev](https://clojurians.zulipchat.com/#narrow/stream/283491-scicloj.2Eml-dev) - discussing [scicloj.ml](https://github.com/scicloj/scicloj.ml)
+
 - [#cljplot-dev](https://clojurians.zulipchat.com/#narrow/stream/197967-cljplot-dev) - [cljplot](https://github.com/generateme/cljplot) develompemt
 
 - [#saite-dev](https://clojurians.zulipchat.com/#narrow/stream/210075-saite-dev) - development of [Saite](https://github.com/jsa-aerial/saite) and related projects such as [Hanami](https://github.com/jsa-aerial/hanami) 
-
-- [#pink-gorilla-dev](https://clojurians.zulipchat.com/#narrow/stream/212578-pink-gorilla-dev) - development of [Pink Gorilla](https://pink-gorilla.github.io)
-
-- [#notespace-dev](https://clojurians.zulipchat.com/#narrow/stream/224153-notespace-dev) - [notespace](https://github.com/scicloj/notespace) development
 
 - [#libpython-clj-dev](https://clojurians.zulipchat.com/#narrow/stream/215609-libpython-clj-dev) - [libpython-clj](https://github.com/clj-python/libpython-clj) development and usage
 
@@ -71,13 +69,11 @@ For more information, see also the [list](https://scicloj.github.io/docs/communi
 
 - [#scicloj-open-source-mentoring](https://clojurians.zulipchat.com/#narrow/stream/451344-scicloj-open-source-mentoring/topic/channel.20events) - discussing the [Scicloj Open Source Mentoring program](https://scicloj.github.io/docs/community/groups/open-source-mentoring/)
 
+- [#real-world-data](https://clojurians.zulipchat.com/#narrow/stream/315077-real-world-data) - a stream for the [real-world-data study group](../groups/real-world-data/), discussing uses of Clojure in real-world data projects.
+
 - [#data-recur](https://clojurians.zulipchat.com/#narrow/stream/330726-data-recur) - recurring updates & discussions around building the emerging data stack
 
 - [#visual-tools](https://clojurians.zulipchat.com/#narrow/stream/313390-visual-tools) - the stream of the [visual-tools group](https://clojureverse.org/t/real-world-data-meetings/), discussing collaborations around tooling for data visualization and literate programming
-
-- [#wolfram-clojure-bridge](https://clojurians.zulipchat.com/#narrow/stream/313853-wolfram-clojure-bridge) - a stream for the monthly meetings around [the Clojure bridge to the Wolfram Language](https://github.com/scicloj/clojuratica).
-
-- [#real-world-data](https://clojurians.zulipchat.com/#narrow/stream/315077-real-world-data) - a stream for the [real-world-data study group](../groups/real-world-data/), discussing uses of Clojure in real-world data projects.
 
 - [#scicloj-org](https://clojurians.zulipchat.com/#narrow/stream/203279-scicloj-org) - a **private** stream of the scicloj organizing team - for anybody interested in building the scicloj community and discssing its goals and priorities - [let us talk](../contact/) if you wish to join.
 
@@ -113,6 +109,10 @@ For more information, see also the [list](https://scicloj.github.io/docs/communi
 - [#nov21-workshops](https://clojurians.zulipchat.com/#narrow/stream/305782-nov21-workshops) - a stream for the [re:Clojure 2021 workshops](https://www.reclojure.org/#workshops)
 
 - [#dec21-data-science-special](https://clojurians.zulipchat.com/#narrow/stream/308345-dec21-data-science-special) - a stream for the [2021 re:Clojure Data Science Special event](https://clojureverse.org/t/re-clojure-data-science-special-dec-5th-2021/)
+
+- [#notespace-dev](https://clojurians.zulipchat.com/#narrow/stream/224153-notespace-dev) - [notespace](https://github.com/scicloj/notespace) development
+
+- [#pink-gorilla-dev](https://clojurians.zulipchat.com/#narrow/stream/212578-pink-gorilla-dev) - development of [Pink Gorilla](https://pink-gorilla.github.io)
 
 
 ## Recommended practices
