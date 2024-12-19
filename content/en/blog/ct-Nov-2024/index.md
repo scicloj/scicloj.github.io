@@ -90,4 +90,4 @@ Tablemath will probably be the main experimental project on my agenda. The main 
 This project is still in its very early stages. We should explore various directions and carefully pick those which might be promising.
 
 ### Tooling
-I will join Timothy Pratley on the goal of helping different tools support the Kindly standard. Cursive, Calve, Quarto, and Clojupyter are a few of the relevant candidates.
+I will join Timothy Pratley on the goal of helping different tools support the Kindly standard. Cursive, Calva, Quarto, and Clojupyter are a few of the relevant candidates.
