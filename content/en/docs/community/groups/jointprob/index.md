@@ -1,9 +1,9 @@
 ---
-title : "Jointprob: a probabilistic modeling and Bayesian statistics study community"
+title : "{on hold} Jointprob: a probabilistic modeling and Bayesian statistics study community"
 description: "Probabilistic modeling and Bayesian Statistics study community"
 lead: ""
 date: 2022-02-28
-lastmod: 2024-11-04
+lastmod: 2024-12-23
 draft: false
 images: []
 ---
