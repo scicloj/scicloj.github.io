@@ -3,7 +3,7 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2024-12-23
+lastmod: 2024-12-24
 draft: false
 images: []
 ---
@@ -16,7 +16,7 @@ The authors of several actively developed tools have been involved in offering t
 
 Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/).
 
-* Meeting 29 (mid Jan 2025 - TBD): Workflow Demos 3 
+* Meeting 29 (Jan 15th 2025): Workflow Demos 3 - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-29-workflow-demos-3/)
 * Meeting 28 (Jan 7rd 2025): Workflow Demos 2 - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-28-workflow-demos-2/)
 * Meeting 27 (Jan 3rd 2025): Workflow Demos 1 - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-27-workflow-demos-1/)
 * Meeting 26 (June 16th 2024): Gemini, Space-Age, protocols from the REPL - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-26-gemini-space-age-protocols-from-the-repl-summary-recording/)
