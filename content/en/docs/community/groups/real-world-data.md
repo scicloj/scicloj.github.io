@@ -14,7 +14,7 @@ The real-world-data group is about the use of Clojure for data and science probl
 The group meets regularly every second Friday, 17:00 [UTC time zone](https://time.is/utc).
 Please let us know if you wish to join but the time does not work. We may adjust it.
 
-* Jan 10th, 2025 - meeting 22 - (agenda: TBD)
+* Jan 10th, 2025 - meeting 22 - agenda: TBD (details in Zulip chat) - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-meeting-22/)
 * Dec 21th, 2024 - meeting 21 - agenda: numerical linear algebra - 📖[worked on this draft](https://scicloj.github.io/clojure-data-tutorials/projects/math/numerical-linalg/svd.html)
 * Dec 13th, 2024 - meeting 20 - (details in Zulip chat)
 * Nov 29th, 2024 - meeting 19 - agenda: updates and discussion (details in Zulip chat)
