@@ -15,7 +15,7 @@ The group meets regularly every second Friday, 17:00 [UTC time zone](https://tim
 Please let us know if you wish to join but the time does not work. We may adjust it.
 
 * Jan 10th, 2025 - meeting 22 - (agenda: TBD)
-* Dec 21th, 2024 - meeting 21 - agenda: numerical linear algebra - 📔[worked on this draft](https://scicloj.github.io/clojure-data-tutorials/projects/math/numerical-linalg/svd.html)
+* Dec 21th, 2024 - meeting 21 - agenda: numerical linear algebra - 📖[worked on this draft](https://scicloj.github.io/clojure-data-tutorials/projects/math/numerical-linalg/svd.html)
 * Dec 13th, 2024 - meeting 20 - (details in Zulip chat)
 * Nov 29th, 2024 - meeting 19 - agenda: updates and discussion (details in Zulip chat)
 * Nov 15th, 2024 - meeting 18 - agenda: Library plans - composing Fastmath with Tablecloth
