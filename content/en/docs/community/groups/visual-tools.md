@@ -3,7 +3,7 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2024-12-28
+lastmod: 2024-12-30
 draft: false
 images: []
 ---
@@ -18,9 +18,9 @@ Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.o
 
 * Wish to present on a meetup? <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/community/contact/" role="button">Please reach out</a>
 
-* Meeting 29 (Jan 15th 2025): Workflow Demos 3 - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-29-workflow-demos-3/)
-* Meeting 28 (Jan 7rd 2025): Workflow Demos 2 - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-28-workflow-demos-2/)
-* Meeting 27 (Jan 3rd 2025): Workflow Demos 1 - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-27-workflow-demos-1/)
+* Meeting 29 (Jan 15th 2025): Workflow Demos 3 - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-29-workflow-demos-3/) (👈 follow for updates)
+* Meeting 28 (Jan 7rd 2025): Workflow Demos 2 - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-28-workflow-demos-2/) (👈 follow for updates)
+* Meeting 27 (Jan 3rd 2025): Workflow Demos 1 - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-27-workflow-demos-1/) (👈 follow for updates)
 * Meeting 26 (June 16th 2024): Gemini, Space-Age, protocols from the REPL - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-26-gemini-space-age-protocols-from-the-repl-summary-recording/)
 * Meeting 25 (June 7th 2024): keg-party - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-25-keg-party-and-htmx-summary-recording/)
 * Meeting 24 (Apr. 26th 2024): badspreadsheet & HTMX - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-24-badspreadsheet-and-htmx-summary-recording/)
