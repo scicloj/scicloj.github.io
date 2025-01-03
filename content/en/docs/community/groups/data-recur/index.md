@@ -3,7 +3,7 @@ title : "data-recur: recurring updates & discussions around building the emergin
 description: "recurring updates & discussions around building the emerging data stack"
 lead: ""
 date: 2022-07-12
-lastmod: 2024-12-30
+lastmod: 2025-01-03
 draft: false
 images: []
 ---
@@ -15,7 +15,7 @@ images: []
 
 This group is a space for recurring updates & discussions around the emerging Clojure stack for data processing, analysis, and visualization.
 
-📣 Coming soon: miniseries - R for Clojurians
+📣 Coming soon: miniseries - R for Clojurians - tentative plan: R & the Tidyverse / Interop / Clojure equivalents / Tidymodels / mlr3 / ggplot2 in depth / lubridate.
 
 * 2024-08-08 - meeting 6: Clojure Meets Metal: Working with native libraries and the GPU - :movie_camera: [summary & recording](https://clojureverse.org/t/data-recur-meeting-6-clojure-meets-metal-working-with-native-libraries-and-the-gpu-summary-recording/)
 * 2024-06-29 - meeting 5: Datajure - :movie_camera: [summary & recording](https://clojureverse.org/t/data-recur-meeting-5-datajure-summary-recording/)
