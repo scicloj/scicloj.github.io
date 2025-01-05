@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2024-12-14
+lastmod: 2025-01-06
 draft: false
 weight: 33
 images: []
@@ -127,6 +127,7 @@ The visual tools group is about creating collaborations across differnent toolin
 - [Apr. 26th, 2024](https://www.youtube.com/watch?v=oBEpxFtfwjE) - badspreadsheet & HTMX
 - [June 7th, 2024](https://www.youtube.com/watch?v=XKHFDncWFTI) - keg-party & HTMX
 - [June 16th, 2024](https://www.youtube.com/watch?v=aAf2gz5WBqA) - Gemini, Space-Age, protocols from the REPL
+- [Jan 3rd, 2025](https://www.youtube.com/watch?v=u_UchyyRzOE) - Workflow Demos 1: Emacs, Cider, VSCode Calva, Zulip
 
 ### llm meetups
 The goal of this series of meetups is to support our learning, as a community, of the new landscape of ideas around large language models.
