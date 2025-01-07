@@ -18,7 +18,7 @@ Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.o
 
 * Wish to present on a meetup? <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/community/contact/" role="button">Please reach out</a>
 
-* Meeting 30 (late Jan 2025 TBD): Workflow Demos 4 - TBD
+* Meeting 30 (late Jan 2025 TBD): Workflow Demos 4 - TBD ⚙
 * Meeting 29 (Jan 15th 2025): Workflow Demos 3 - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-29-workflow-demos-3/) (👈 follow for updates)
 * Meeting 28 (Jan 7rd 2025): Workflow Demos 2 - :movie_camera: (recording coming soon)
 * Meeting 27 (Jan 3rd 2025): Workflow Demos 1 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-27-workflow-demos-1-emacs-cider-vscode-calva-zulip-summary-recording)
