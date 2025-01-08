@@ -3,7 +3,7 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2025-01-07
+lastmod: 2025-01-08
 draft: false
 images: []
 ---
@@ -20,7 +20,7 @@ Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.o
 
 * Meeting 30 (late Jan 2025 TBD): Workflow Demos 4 - TBD ⚙
 * Meeting 29 (Jan 15th 2025): Workflow Demos 3 - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-29-workflow-demos-3/) (👈 follow for updates)
-* Meeting 28 (Jan 7rd 2025): Workflow Demos 2 - :movie_camera: (recording coming soon)
+* Meeting 28 (Jan 7rd 2025): Workflow Demos 2 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-28-workflow-demos-2-emacs-cider-portal-snitch-clj-reload-cursive-neovim-conjure-parinfer-summary-recording/)
 * Meeting 27 (Jan 3rd 2025): Workflow Demos 1 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-27-workflow-demos-1-emacs-cider-vscode-calva-zulip-summary-recording)
 * Meeting 26 (June 16th 2024): Gemini, Space-Age, protocols from the REPL - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-26-gemini-space-age-protocols-from-the-repl-summary-recording/)
 * Meeting 25 (June 7th 2024): keg-party - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-25-keg-party-and-htmx-summary-recording/)
