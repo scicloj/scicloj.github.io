@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2025-01-06
+lastmod: 2025-01-08
 draft: false
 weight: 33
 images: []
@@ -128,6 +128,7 @@ The visual tools group is about creating collaborations across differnent toolin
 - [June 7th, 2024](https://www.youtube.com/watch?v=XKHFDncWFTI) - keg-party & HTMX
 - [June 16th, 2024](https://www.youtube.com/watch?v=aAf2gz5WBqA) - Gemini, Space-Age, protocols from the REPL
 - [Jan 3rd, 2025](https://www.youtube.com/watch?v=u_UchyyRzOE) - Workflow Demos 1: Emacs, Cider, VSCode Calva, Zulip
+- [Jan 7rd, 2025](https://www.youtube.com/watch?v=2VOXxG_7VGk) - Workflow Demos 2: Emacs CIDER, Portal, Snitch, clj-reload, Cursive, Neovim Conjure, Parinfer
 
 ### llm meetups
 The goal of this series of meetups is to support our learning, as a community, of the new landscape of ideas around large language models.
