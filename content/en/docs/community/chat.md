@@ -3,7 +3,7 @@ title : "Chat"
 description: ""
 lead: ""
 date: 2022-02-14
-lastmod: 2024-12-17
+lastmod: 2025-01-20
 draft: false
 weight: 24
 images: []
@@ -66,6 +66,8 @@ Here are the main scicloj-related active streams, dedicated to certain subgroups
 ### Active study groups / dev groups
 
 For more information, see also the [list](https://scicloj.github.io/docs/community/groups/) of dev & study groups at the website.
+
+- [#scinoj-light-1](https://clojurians.zulipchat.com/#narrow/channel/479601-scinoj-light-1/) - discussing the first [Scinoj Light](https://scicloj.github.io/docs/community/groups/scinoj-light/) conference
 
 - [#scicloj-open-source-mentoring](https://clojurians.zulipchat.com/#narrow/stream/451344-scicloj-open-source-mentoring/topic/channel.20events) - discussing the [Scicloj Open Source Mentoring program](https://scicloj.github.io/docs/community/groups/open-source-mentoring/)
 
