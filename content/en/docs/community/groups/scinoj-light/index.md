@@ -1,6 +1,6 @@
 ---
-title : "SciNoj Light: an online conference for Clojure data-analyis stories"
-description: "an online conference for Clojure data-analyis stories"
+title : "SciNoj Light: an online conference for Clojure data-analysis stories"
+description: "an online conference for Clojure data-analysis stories"
 lead: ""
 date: 2025-01-20
 lastmod: 2025-01-20
