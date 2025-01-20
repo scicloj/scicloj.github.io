@@ -27,7 +27,7 @@ SciNoj Light is an online conference where Clojurians will share their short-ter
 ## Timeline
 * Jan 20 - start discussing your initial ideas with the organizers
 * Feb 15 - Call For Proposals opens
-* Mar 15 - Call For Proposals closes - submit proposals (tutorial drafts)
+* Mar 15 - Call For Proposals closes - submit proposals (data analysis notebook drafts)
 * Apr 1 - talks are selected
 * May 16-17 - conference 
 * TBD - a possible additional weekend with extra talks
@@ -42,8 +42,8 @@ Participating is online and free.
 * You may submit a topic as a team of 1 to 3 people. 
 * At least one of the presenters has to know Clojure (or have the curiosity and capacity to learn). Other team members can contribute other parts of the story (e.g., domain knowledge and motivation).
 * Pre-recorded talks are encouraged. The Q&A will be live.
-* Proposals will include a draft tutorial at [Clojure-data-tutorials](https://scicloj.github.io/clojure-data-tutorials/), the [Noj book](https://scicloj.github.io/noj/), or related spaces.
-* The tutorials will be completed before the conference.
+* Proposals will include a data analysis notebook draft at [Clojure-data-tutorials](https://scicloj.github.io/clojure-data-tutorials/), the [Noj book](https://scicloj.github.io/noj/), or related spaces.
+* The notebooks will be completed before the conference.
 * It is recommended that proposals be worked on as projects on the [Open Source Mentoring program](https://scicloj.github.io/docs/community/groups/open-source-mentoring).
 * It is recommended to discuss your initial ideas with us as early as possible, and verify they make sense.
 * If you are looking for ideas, let us chat. We may connect you with somebody to join on their project. 
