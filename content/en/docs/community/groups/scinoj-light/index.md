@@ -27,7 +27,7 @@ SciNoj Light is an online conference where Clojurians will share their short-ter
 ## Timeline
 * Jan 20 - start discussing your initial ideas with the organizers
 * Feb 15 - Call For Proposals opens
-* Mar 15 - submit talk proposals (tutorial drafts)
+* Mar 15 - Call For Proposals closes - submit proposals (tutorial drafts)
 * Apr 1 - talks are selected
 * May 16-17 - conference 
 * TBD - a possible additional weekend with extra talks
