@@ -46,6 +46,7 @@ Participating is online and free.
 * The tutorials will be completed before the conference.
 * It is recommended that proposals be worked on as projects on the [Open Source Mentoring program](https://scicloj.github.io/docs/community/groups/open-source-mentoring).
 * It is recommended to discuss your initial ideas with us as early as possible, and verify they make sense.
+* If you are looking for ideas, let us chat. We may connect you with somebody to join on their project. 
 * All topics will be specific use cases of data analysis. You may also discuss tools, ideas, and methods but demonstrate them through use cases.
 * The projects are not expected to be highly sophisticated but should be presented clearly. They should be reasonable projects that a Clojurian with an open mind can begin and finish in 3 months, working at least 6 hours a week, as a rule of thumb.
 * The methods do not have to be sophisticated. Data visualization, statistics, math, and machine learning are encouraged but not required.
