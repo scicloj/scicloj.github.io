@@ -24,7 +24,7 @@ SciNoj Light is an online conference where Clojurians will share their short-ter
 * Explore our online conferencing practices in preparation for bigger "SciNoj" conferences where more established projects will be presented.
 * Offer a [cynosure](https://www.merriam-webster.com/dictionary/cynosure) for anybody who wishes to explore data with Clojure.
 
-## Timeline (tentative)
+## Timeline
 * Jan 20 - start discussing your initial ideas with the organizers
 * Feb 15 - Call For Proposals opens
 * Mar 15 - submit talk proposals (tutorial drafts)
