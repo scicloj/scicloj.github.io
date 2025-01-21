@@ -3,7 +3,7 @@ title : "Reading"
 description: "Recommended reading"
 lead: "Recommended reading"
 date: 2022-02-14
-lastmod: 2024-12-14
+lastmod: 2025-01-21
 draft: false
 weight: 32
 images: []
@@ -81,6 +81,8 @@ Contributions are welcome. 👋
 ### Math
 
 - [Fastmath tutorials](https://github.com/generateme/fastmath)
+
+- [Structure and Interpretation of Classical Mechanics with the Emmy Algebra System](https://github.com/kloimhardt/clj-tiles/blob/master/jupyter_notebooks/emmy-sicm-ch01.ipynb) by Markus Agwin, Jan 2025
 
 - [Math for clojurists](https://alanmarazzi.gitlab.io/blog/posts/2020-3-23-math-for-clojurists/) by Alan Marazzi
 
