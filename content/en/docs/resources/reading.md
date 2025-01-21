@@ -80,7 +80,7 @@ Contributions are welcome. 👋
 
 ### Math
 
-- [Fastmath tutorials](https://github.com/generateme/fastmath?tab=readme-ov-file#clerk-notebooks---wip)
+- [Fastmath tutorials](https://github.com/generateme/fastmath)
 
 - [Math for clojurists](https://alanmarazzi.gitlab.io/blog/posts/2020-3-23-math-for-clojurists/) by Alan Marazzi
 
