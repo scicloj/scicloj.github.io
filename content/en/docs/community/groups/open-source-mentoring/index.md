@@ -30,7 +30,7 @@ We need your help.
 * We will meet for 30-60 minutes every 1-2 weeks, depending on your pace and availability.
 * We'll assume you can also spend at least 4 hours a week working on your own.
 
-## What backround knowledge is assumed?
+## What background knowledge is assumed?
 This depends on the project. Typically, one year of Clojure programming would be a reasonable background.
 
 ## What kinds of projects will we be working on?
