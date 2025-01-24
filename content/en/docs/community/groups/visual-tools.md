@@ -3,7 +3,7 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2025-01-23
+lastmod: 2025-01-25
 draft: false
 images: []
 ---
@@ -18,7 +18,7 @@ Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.o
 
 * Wish to present on a meetup? <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/community/contact/" role="button">Please reach out</a>
 
-* Meeting 30 (Jan 23th 2025): Workflow Demos 4 - LLMs in Emacs for Clojure - :movie_camera: (recording coming soon)
+* Meeting 30 (Jan 23th 2025): Workflow Demos 4 - LLMs in Emacs for Clojure - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-30-workflow-demos-4-llms-in-emacs-for-clojure-summary-recording/)
 * Meeting 29 (Jan 15th 2025): Workflow Demos 3 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-29-workflow-demos-3-flowstorm-summary-recording/)
 * Meeting 28 (Jan 7rd 2025): Workflow Demos 2 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-28-workflow-demos-2-emacs-cider-portal-snitch-clj-reload-cursive-neovim-conjure-parinfer-summary-recording/)
 * Meeting 27 (Jan 3rd 2025): Workflow Demos 1 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-27-workflow-demos-1-emacs-cider-vscode-calva-zulip-summary-recording)
