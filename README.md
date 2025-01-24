@@ -35,3 +35,7 @@ If you wish to have push permissions, please reach out to `@daslu`. This would a
 A pull request to [model.edn](./content/en/docs/resources/model.edn) and to the manually edited `.md` files under the [content](./content)` directory would always be great.
 
 For bigger changes, let us talk. You can use the [Issues](https://github.com/scicloj/scicloj-website/issues) or reach out to Daniel Slutsky at the [Clojurians Zulip chat](https://clojurians.zulipchat.com/).
+
+## License
+
+MIT License
