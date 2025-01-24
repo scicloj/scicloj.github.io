@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2025-01-16
+lastmod: 2025-01-24
 draft: false
 weight: 33
 images: []
@@ -11,7 +11,7 @@ contributors: ["daslu"]
 ---
 
 ## Tutorial videos
-- 📣 coming soon - Noj v2 - getting started
+- 2025-01-24 - [Noj v2 - getting started - from raw data to a blog post](https://www.youtube.com/watch?v=vnvcKtHHMVQ)
 
 - 2024-12-14 - [PCA in Clojure with Neanderthal](https://www.youtube.com/watch?v=6OI5C2qv2Ic) by Jaryt Salvo
 
