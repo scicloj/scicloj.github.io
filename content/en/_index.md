@@ -2,8 +2,8 @@
 title : "Scicloj"
 description: "Building a platform for data science in Clojure"
 lead: "Building a platform for data science in Clojure"
-news1title: "New meetup miniseries: R4Clj"
-news1link: "https://clojureverse.org/t/data-recur-meeting-7-r4clj-1-introducing-r-and-the-tidyverse/11148"
+news1title: "📅Follow our events at the Clojure Events Calendar Feed📅"
+news1link: "https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/"
 news2title: "⭐Upcoming conference: SciNoj Light⭐"
 news2link: "https://scicloj.github.io/docs/community/groups/scinoj-light/"
 ddate: 2020-10-06T08:47:36+00:00
