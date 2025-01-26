@@ -3,7 +3,7 @@ title : "data-recur: recurring updates & discussions around building the emergin
 description: "recurring updates & discussions around building the emerging data stack"
 lead: ""
 date: 2022-07-12
-lastmod: 2025-01-17
+lastmod: 2025-01-26
 draft: false
 images: []
 ---
@@ -17,6 +17,7 @@ This group is a space for recurring updates & discussions around the emerging Cl
 ## Future meetings
 
 * 2025-01-31 - meeting 7: Data-recur meeting 7 - R4Clj 1: Introducing R and the Tidyverse :calendar: [event](https://clojureverse.org/t/data-recur-meeting-7-r4clj-1-introducing-r-and-the-tidyverse/)
+* The R4Clj series meeting will continue roughly every two weeks.
 
 ## Past meetings
 
