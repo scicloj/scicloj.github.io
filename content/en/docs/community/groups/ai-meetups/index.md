@@ -1,5 +1,5 @@
 ---
-title : "scicloj-ai-meetups: public meetings exploring the princples and use of AI models"
+title : "scicloj-ai-meetups: public meetings exploring the princples and uses of AI models"
 description: "Scicloj AI meetups"
 lead: ""
 date: 2025-01-28
@@ -12,6 +12,8 @@ images: []
 
 
 [📅Follow our meetings on the Clojure Calendar Feed📅](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/9527)
+
+![an AI model pretending to be joyful about Clojure](joy1.jpg)
 
 The goal of this series of meetups is to support our learning, as a community, of the landscape of ideas around AI models. It continues the journey of the [scicloj-llm-meetups](https://scicloj.github.io/docs/community/groups/llm-meetups/) group and broandens the scope to various AI models, their principles, and applications.
 
