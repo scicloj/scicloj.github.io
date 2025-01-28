@@ -16,7 +16,7 @@ images: []
 
 The goal of this series of meetups is to support our learning, as a community, of the landscape of ideas around AI models. It continues the journey of the [scicloj-llm-meetups](https://scicloj.github.io/docs/community/groups/llm-meetups/) group and broandens the scope to various AI models, their principles, and applications.
 
-Some of the content here is specific to the Clojure ecosystem (e.g., discussing the use of LLMs from Clojure), but many parts of it could be helpful and interesting to broader audiences.
+Some of the content here is specific to the Clojure ecosystem, but many parts of it will be helpful and interesting to broader audiences.
 
 ## Meetings
 
