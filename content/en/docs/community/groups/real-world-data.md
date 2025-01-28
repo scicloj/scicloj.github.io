@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-17
-lastmod: 2025-01-17
+lastmod: 2025-01-28
 draft: false
 images: []
 ---
@@ -14,6 +14,7 @@ The real-world-data group is about the use of Clojure for data and science probl
 The group meets regularly every second Friday, 17:00 [UTC time zone](https://time.is/utc).
 Please let us know if you wish to join but the time does not work. We may adjust it.
 
+* Feb 7th, 2025 - meeting 24 - agenda: Preparation for [SciNoj Light](https://scicloj.github.io/docs/community/groups/scinoj-light/)
 * Jan 24th, 2025 - meeting 23 - agenda: TBD (details in Zulip chat) - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-meeting-23/)
 * Jan 10th, 2025 - meeting 22 - agenda: community building, exploring the datatypes of array-programming libraries
 * Dec 21th, 2024 - meeting 21 - agenda: numerical linear algebra - 📖[worked on this draft](https://scicloj.github.io/clojure-data-tutorials/projects/math/numerical-linalg/svd.html)
