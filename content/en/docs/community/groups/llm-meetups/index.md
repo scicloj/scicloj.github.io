@@ -1,16 +1,14 @@
 ---
-title : "scicloj-llm-meetups: public meetings exploring the princples and use of large language models"
+title : "{renamed} scicloj-llm-meetups: public meetings exploring the princples and use of large language models"
 description: "Scicloj LLM meetups"
 lead: ""
 date: 2022-05-23
-lastmod: 2025-01-22
+lastmod: 2025-01-28
 draft: false
 images: []
 ---
 
-📣 Coming back on Feb. 22 2025.
-
-[📅Follow our meetings on the Clojure Calendar Feed📅](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/9527)
+📣 This 2023 group is being continued as the [scicloj-ai-meetups](../ai-meetups) group, starting Feb. 2025.
 
 ![gpt pretending to be joyful](joy.jpg)
 
