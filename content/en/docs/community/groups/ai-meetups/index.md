@@ -1,9 +1,9 @@
 ---
-title : "scicloj-ai-meetups: public meetings exploring the princples and uses of AI models"
+title : "scicloj-ai-meetups: exploring the princples and uses of AI models"
 description: "Scicloj AI meetups"
 lead: ""
 date: 2025-01-28
-lastmod: 2025-01-28
+lastmod: 2025-01-29
 draft: false
 images: []
 ---
