@@ -77,8 +77,9 @@ For more information, see also the [list](https://scicloj.github.io/docs/communi
 
 - [#visual-tools](https://clojurians.zulipchat.com/#narrow/stream/313390-visual-tools) - the stream of the [visual-tools group](https://clojureverse.org/t/real-world-data-meetings/), discussing collaborations around tooling for data visualization and literate programming
 
-- [#scicloj-org](https://clojurians.zulipchat.com/#narrow/stream/203279-scicloj-org) - a **private** stream of the scicloj organizing team - for anybody interested in building the scicloj community and discssing its goals and priorities - [let us talk](../contact/) if you wish to join.
+- [#scicloj-ai-meetups](https://clojurians.zulipchat.com/#narrow/channel/481583-scicloj-ai-meetups/) - chat for the new [scicloj-ai-meetups](https://clojurians.zulipchat.com/#narrow/channel/481583-scicloj-ai-meetups/) dev group.
 
+- [#scicloj-org](https://clojurians.zulipchat.com/#narrow/stream/203279-scicloj-org) - a **private** stream of the scicloj organizing team - for anybody interested in building the scicloj community and discssing its goals and priorities - [let us talk](../contact/) if you wish to join.
 
 ### General streams worth knowing about:
 
