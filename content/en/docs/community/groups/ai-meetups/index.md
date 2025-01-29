@@ -22,7 +22,7 @@ Some of the content here is specific to the Clojure ecosystem, but many parts of
 * #1 2025-02-22, TBA
 
 ## Chat
-We will use the [scicloj-ai-meetups](https://clojurians.zulipchat.com/#narrow/channel/481583-scicloj-ai-meetups) channel of the [Clojurians Zulip Chat](https://scicloj.github.io/docs/community/chat/) (requires login). Please join the Zulip chat beore attending our meetings.
+We will use the [#scicloj-ai-meetups](https://clojurians.zulipchat.com/#narrow/channel/481583-scicloj-ai-meetups) channel of the [Clojurians Zulip Chat](https://scicloj.github.io/docs/community/chat/) (requires login). Please join the Zulip chat beore attending our meetings.
 
 ## Organizers
 
