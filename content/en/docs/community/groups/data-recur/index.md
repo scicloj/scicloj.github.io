@@ -3,7 +3,7 @@ title : "data-recur: recurring updates & discussions around building the emergin
 description: "recurring updates & discussions around building the emerging data stack"
 lead: ""
 date: 2022-07-12
-lastmod: 2025-01-26
+lastmod: 2025-02-06
 draft: false
 images: []
 ---
@@ -16,11 +16,11 @@ This group is a space for recurring updates & discussions around the emerging Cl
 
 ## Future meetings
 
-* 2025-01-31 - meeting 7: Data-recur meeting 7 - R4Clj 1: Introducing R and the Tidyverse :calendar: [event](https://clojureverse.org/t/data-recur-meeting-7-r4clj-1-introducing-r-and-the-tidyverse/)
 * The R4Clj series meeting will continue roughly every two weeks.
 
 ## Past meetings
 
+* 2025-01-31 - meeting 7 - R4Clj 1: Introducing R and the Tidyverse - :movie_camera: [summary & recording](https://clojureverse.org/t/data-recur-meeting-7-r4clj-1-introducing-r-and-the-tidyverse-summary-recording/)
 * 2024-08-08 - meeting 6: Clojure Meets Metal: Working with native libraries and the GPU - :movie_camera: [summary & recording](https://clojureverse.org/t/data-recur-meeting-6-clojure-meets-metal-working-with-native-libraries-and-the-gpu-summary-recording/)
 * 2024-06-29 - meeting 5: Datajure - :movie_camera: [summary & recording](https://clojureverse.org/t/data-recur-meeting-5-datajure-summary-recording/)
 * 2022-11-05 - meeting 4: Tablecloth - :movie_camera: [summary & recording](https://clojureverse.org/t/data-recur-meeting-3-meander-summary-video/)
