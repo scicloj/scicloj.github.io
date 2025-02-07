@@ -14,7 +14,7 @@ The real-world-data group is about the use of Clojure for data and science probl
 The group meets regularly every second Friday, 17:00 [UTC time zone](https://time.is/utc).
 Please let us know if you wish to join but the time does not work. We may adjust it.
 
-* Feb 21th, 2025 - meeting 25 - agenda: Preparation for [SciNoj Light](https://scicloj.github.io/docs/community/groups/scinoj-light/)
+* Feb 21th, 2025 - meeting 25 - agenda: Preparation for [SciNoj Light](https://scicloj.github.io/docs/community/groups/scinoj-light/) - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-meeting-25-prep-meeting-for-conference-cfp/11201)
 * Feb 7th, 2025 - meeting 24 - agenda: details in Zulip chat - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-meeting-24/)
 * Jan 24th, 2025 - meeting 23 - agenda: learning R and the tidyverse
 * Jan 10th, 2025 - meeting 22 - agenda: community building, exploring the datatypes of array-programming libraries
