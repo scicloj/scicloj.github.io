@@ -3,7 +3,7 @@ title : "data-recur: recurring updates & discussions around building the emergin
 description: "recurring updates & discussions around building the emerging data stack"
 lead: ""
 date: 2022-07-12
-lastmod: 2025-02-06
+lastmod: 2025-02-09
 draft: false
 images: []
 ---
@@ -16,7 +16,7 @@ This group is a space for recurring updates & discussions around the emerging Cl
 
 ## Future meetings
 
-* The R4Clj series meeting will continue roughly every two weeks.
+* The R4Clj series meeting will continue in the near future. If you are interested in joining, please let us know.
 
 ## Past meetings
 
