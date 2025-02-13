@@ -3,7 +3,7 @@ title : "Reading"
 description: "Recommended reading"
 lead: "Recommended reading"
 date: 2022-02-14
-lastmod: 2025-02-12
+lastmod: 2025-02-13
 draft: false
 weight: 32
 images: []
@@ -33,7 +33,8 @@ Contributions are welcome. 👋
   - [Data Manipulation in Clojure Compared to R and Python](https://codewithkira.com/2024-07-18-tablecloth-dplyr-pandas-polars.html) (2024-07-18)
   - [The Current State of ML in Clojure](https://codewithkira.com/index.html) (2024-04-05)
 
-- [eion.site](https://eoin.site/) by Eoin Carney has various data-related blog posts
+- [eion.site](https://eoin.site/) by Eoin Carney has various data-related blog posts - in particular:
+  - a [Clojure Tidy Tuesdays](https://eoin.site/tidy_tuesdays/) collection of notebooks
 
 - Blog posts by Timothy Pratley
   - [Exploring probability distributions](https://timothypratley.github.io/howtocodeablog/2024-07/docs/three_distributions_that_underpin_everything.html) (2024-07)
