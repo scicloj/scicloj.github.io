@@ -789,7 +789,7 @@
     :tags #{:act :llm},
     :star :star,
     :description "A wrapper for [clip.cpp](https://github.com/monatis/clip.cpp) for embeddins of images and text"}
-   {:lib/name "Ragcats",
+   {:lib/name "Ragtacts",
     :lib/url "https://github.com/constacts/ragtacts"
     :lib/category :large-language-models,
     :tags #{:act :llm},
