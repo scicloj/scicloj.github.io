@@ -3,7 +3,7 @@ title : "scicloj-ai-meetups: exploring the princples and uses of AI models"
 description: "Scicloj AI meetups"
 lead: ""
 date: 2025-01-28
-lastmod: 2025-01-29
+lastmod: 2025-02-22
 draft: false
 images: []
 ---
@@ -26,7 +26,7 @@ We will use the [#scicloj-ai-meetups](https://clojurians.zulipchat.com/#narrow/c
 
 ## Organizers
 
-Ovi Stoica, Daniel Slutsk
+Ovi Stoica, Daniel Slutsky
 
 ## Contact
 
