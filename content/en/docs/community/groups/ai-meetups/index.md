@@ -8,8 +8,6 @@ draft: false
 images: []
 ---
 
-📣 Coming on Feb. 22 2025.
-
 [📅Follow our meetings on the Clojure Calendar Feed📅](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/9527)
 
 <img src="joy2.jpg" alt="an AI model pretending to be joyful about Clojure" style="height:200px;"/>
@@ -19,7 +17,7 @@ The goal of this series of meetups is to support our learning, as a community, o
 Some of the content here is specific to the Clojure ecosystem, but many parts of it will be helpful and interesting to broader audiences.
 
 ## Meetings
-* 2025-02-22, Meeting 1: [voice-fn](https://github.com/shipclojure/voice-fn/) - real-time voice-enabled AI pipelines:calendar: [event](https://clojureverse.org/t/scicloj-ai-meetup-1-voice-fn-real-time-voice-enabled-ai-pipelines/)
+* 2025-02-22, Meeting 1: [voice-fn](https://github.com/shipclojure/voice-fn/) - real-time voice-enabled AI pipelines - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-1-voice-fn-real-time-voice-enabled-ai-pipelines-summary-recording/)
 
 ## Chat
 We will use the [#scicloj-ai-meetups](https://clojurians.zulipchat.com/#narrow/channel/481583-scicloj-ai-meetups) channel of the [Clojurians Zulip Chat](https://scicloj.github.io/docs/community/chat/) (requires login). Please join the Zulip chat before attending our meetings.
