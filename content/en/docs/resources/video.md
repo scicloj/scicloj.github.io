@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2025-02-22
+lastmod: 2025-02-23
 draft: false
 weight: 33
 images: []
@@ -20,7 +20,7 @@ contributors: ["daslu"]
 
 ## Clojure Conj 2024
 - ["Scientific Clojure, a bird's eye view" by Thomas Clark](https://www.youtube.com/watch?v=_D5d6Ls6pBw)
-- ["Crafting Artisanal Vector Graphics" by @Timothy Pratley and Chris Houser](https://www.youtube.com/watch?v=3t9FSfM1fIQ)
+- ["Crafting Artisanal Vector Graphics" by Timothy Pratley and Chris Houser](https://www.youtube.com/watch?v=3t9FSfM1fIQ)
 - ["Clojure for Criminal Defense" by Andrew Foltz-Morrison](https://www.youtube.com/watch?v=nc6fTSh_1-c)
 
 
