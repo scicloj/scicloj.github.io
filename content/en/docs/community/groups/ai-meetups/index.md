@@ -3,7 +3,7 @@ title : "scicloj-ai-meetups: exploring the princples and uses of AI models"
 description: "Scicloj AI meetups"
 lead: ""
 date: 2025-01-28
-lastmod: 2025-02-22
+lastmod: 2025-02-24
 draft: false
 images: []
 ---
@@ -15,6 +15,8 @@ images: []
 The goal of this series of meetups is to support our learning, as a community, of the landscape of ideas around AI models. It continues the journey of the [scicloj-llm-meetups](https://scicloj.github.io/docs/community/groups/llm-meetups/) group and broandens the scope to various AI models, their principles, and applications.
 
 Some of the content here is specific to the Clojure ecosystem, but many parts of it will be helpful and interesting to broader audiences.
+
+* Wish to present on a meetup? <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/community/contact/" role="button">Please reach out</a>
 
 ## Meetings
 * 2025-02-22, Meeting 1: [voice-fn](https://github.com/shipclojure/voice-fn/) - real-time voice-enabled AI pipelines - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-1-voice-fn-real-time-voice-enabled-ai-pipelines-summary-recording/)
