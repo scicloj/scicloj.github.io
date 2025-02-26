@@ -3,7 +3,7 @@ title : "scicloj-ai-meetups: exploring the princples and uses of AI models"
 description: "Scicloj AI meetups"
 lead: ""
 date: 2025-01-28
-lastmod: 2025-02-24
+lastmod: 2025-02-26
 draft: false
 images: []
 ---
@@ -19,6 +19,7 @@ Some of the content here is specific to the Clojure ecosystem, but many parts of
 * Wish to present on a meetup? <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/community/contact/" role="button">Please reach out</a>
 
 ## Meetings
+* 2025-03-08, Meeting 2: practice session - building a RAG 
 * 2025-02-22, Meeting 1: [voice-fn](https://github.com/shipclojure/voice-fn/) - real-time voice-enabled AI pipelines - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-1-voice-fn-real-time-voice-enabled-ai-pipelines-summary-recording/)
 
 ## Chat
