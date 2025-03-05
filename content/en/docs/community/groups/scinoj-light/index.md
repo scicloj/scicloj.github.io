@@ -3,7 +3,7 @@ title : "SciNoj Light: an online conference for Clojure data-analysis stories"
 description: "an online conference for Clojure data-analysis stories"
 lead: ""
 date: 2025-01-20
-lastmod: 2025-01-24
+lastmod: 2025-03-05
 draft: false
 images: ["Noj.png"]
 ---
@@ -19,6 +19,13 @@ SciNoj Light is one of the first steps in that direction.
 
 ## What is it
 SciNoj Light is an online conference where Clojurians will share their short-term data analysis stories.
+
+## Any questions?
+<a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/community/contact/" role="button">Please reach out</a>
+
+## Proposing a talk
+(till Mar 15)
+<a class="btn btn-primary btn-lg px-4 mb-2" href="https://forms.gle/qozCqxqeNkk4gKTT6" role="button">Proposal form</a>
 
 ## Goals
 * Encourage Clojurians to create small-but-complete usage stories of [Noj](https://scicloj.github.io/noj) and related libraries. Help them in the process.
