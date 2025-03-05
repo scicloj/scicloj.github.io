@@ -23,7 +23,7 @@ SciNoj Light is an online conference where Clojurians will share their short-ter
 <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/community/contact/" role="button">Any questions? Let us talk</a>
 
 ## Proposing a talk
-<a class="btn btn-primary btn-lg px-4 mb-2" href="https://forms.gle/qozCqxqeNkk4gKTT6" role="button">Proposal form (till Mar 15)</a>
+<a class="btn btn-primary btn-lg px-4 mb-2" href="https://forms.gle/qozCqxqeNkk4gKTT6" role="button">Proposal form (till March 15)</a>
 
 ## Goals
 * Encourage Clojurians to create small-but-complete usage stories of [Noj](https://scicloj.github.io/noj) and related libraries. Help them in the process.
