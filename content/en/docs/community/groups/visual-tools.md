@@ -3,7 +3,7 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2025-03-11
+lastmod: 2025-03-12
 draft: false
 images: []
 ---
@@ -18,12 +18,13 @@ Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.o
 
 * Wish to present on a meetup? <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/community/contact/" role="button">Please reach out</a>
 
-* Meeting 32 (Mar 27th 2025, TBA): Workflow Demos 7 - Sublime Text
-* Meeting 31 (Mar 26th 2025, TBA): Workflow Demos 6 - Emacs and more
-* Meeting 30 (Mar 24th 2025, TBA): Workflow Demos 5 - Clay
-* Meeting 29 (Jan 15th 2025): Workflow Demos 3 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-29-workflow-demos-3-flowstorm-summary-recording/)
-* Meeting 28 (Jan 7rd 2025): Workflow Demos 2 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-28-workflow-demos-2-emacs-cider-portal-snitch-clj-reload-cursive-neovim-conjure-parinfer-summary-recording/)
-* Meeting 27 (Jan 3rd 2025): Workflow Demos 1 - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-27-workflow-demos-1-emacs-cider-vscode-calva-zulip-summary-recording)
+* Meeting 33 (Mar 27th 2025, TBA): Workflow Demos 7 - Sublime Text
+* Meeting 32 (Mar 26th 2025, TBA): Workflow Demos 6 - Emacs and more
+* Meeting 31 (Mar 24th 2025, TBA): Workflow Demos 5 - Clay
+* Meeting 30 (Jan 23rd 2025): Workflow Demos 4: LLMs in Emacs for Clojure - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-30-workflow-demos-4-llms-in-emacs-for-clojure-summary-recording/)
+* Meeting 29 (Jan 15th 2025): Workflow Demos 3 - Flowstorm - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-29-workflow-demos-3-flowstorm-summary-recording/)
+* Meeting 28 (Jan 7rd 2025): Workflow Demos 2 - Emacs CIDER, Portal, Snitch, clj-reload, Cursive, Neovim Conjure, Parinfer - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-28-workflow-demos-2-emacs-cider-portal-snitch-clj-reload-cursive-neovim-conjure-parinfer-summary-recording/)
+* Meeting 27 (Jan 3rd 2025): Workflow Demos 1 - Emacs, CIDER, VSCode Calva, Zulip :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-27-workflow-demos-1-emacs-cider-vscode-calva-zulip-summary-recording)
 * Meeting 26 (June 16th 2024): Gemini, Space-Age, protocols from the REPL - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-26-gemini-space-age-protocols-from-the-repl-summary-recording/)
 * Meeting 25 (June 7th 2024): keg-party - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-25-keg-party-and-htmx-summary-recording/)
 * Meeting 24 (Apr. 26th 2024): badspreadsheet & HTMX - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-24-badspreadsheet-and-htmx-summary-recording/)
