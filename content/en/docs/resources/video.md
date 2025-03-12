@@ -131,7 +131,7 @@ The visual tools group is about creating collaborations across differnent toolin
 - [Apr. 26th, 2024](https://www.youtube.com/watch?v=oBEpxFtfwjE) - badspreadsheet & HTMX
 - [June 7th, 2024](https://www.youtube.com/watch?v=XKHFDncWFTI) - keg-party & HTMX
 - [June 16th, 2024](https://www.youtube.com/watch?v=aAf2gz5WBqA) - Gemini, Space-Age, protocols from the REPL
-- [Jan 3rd, 2025](https://www.youtube.com/watch?v=u_UchyyRzOE) - Workflow Demos 1: Emacs, Cider, VSCode Calva, Zulip
+- [Jan 3rd, 2025](https://www.youtube.com/watch?v=u_UchyyRzOE) - Workflow Demos 1: Emacs, CIDER, VSCode Calva, Zulip
 - [Jan 7th, 2025](https://www.youtube.com/watch?v=2VOXxG_7VGk) - Workflow Demos 2: Emacs CIDER, Portal, Snitch, clj-reload, Cursive, Neovim Conjure, Parinfer
 - [Jan 15th, 2025](https://www.youtube.com/watch?v=9nY25hwzWRc) - Workflow Demos 3: FlowStorm
 - [Jan 23rd, 2025](https://www.youtube.com/watch?v=uj2wGDeOimU) - Workflow Demos 4: LLMs in Emacs for Clojure
