@@ -12,7 +12,7 @@ images: []
 
 The goal of this group is to create collaborations in learning and building Clojure tools data visualization, literate programming, and UI design.
 
-The authors of several actively developed tools have been involved in offering talks and collaborating in this space (Chlorine, Clover, Calva and its Notebooks, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Claykind, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, Clerk, Mosaic, MetaREPL, Meyvn, badspreadsheet, Noj, ggclj, Space-Age, FlowStorm, etc.).
+The authors of several actively developed tools have been involved in offering talks and collaborating in this space (Chlorine, Clover, Calva and its Notebooks, Portal, Viscous, Sidebar, Nette, Fabricate, Omni-trace, Oz, Saite, Notespace, Clay, Claykind, Goldly, Saturn, clt-tiles, Obsidian Wielder, Cardigan Bay, Platypub, Data Rabbit, Clerk, Mosaic, MetaREPL, Meyvn, badspreadsheet, Noj, ggclj, Space-Age, FlowStorm, Clojure Sublimed, etc.).
 
 Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/).
 
@@ -54,10 +54,6 @@ Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.o
 
 **Meeting videos**
 [Playlist](https://www.youtube.com/playlist?list=PLb_VRZPxjMADovzE7xYIzMr68BHXLVzH3) at the [Scicloj channel](https://www.youtube.com/@SciCloj)
-
-**Organizers**: Lukas Domalga, Kira McLean, Daniel Slutsky (please reach out at the [Clojurians Zulip](https://clojurians.zulipchat.com/))
-
-**Frequency of meetings**: All-hands meeting roughly every month + ad-hoc meetings of sub-groups on specific topics
 
 **Chat stream**: [#visual-tools](https://clojurians.zulipchat.com/#narrow/stream/313390-visual-tools) at Clojurians Zulip and at Clojurians Slack
 
