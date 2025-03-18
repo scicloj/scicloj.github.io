@@ -3,7 +3,7 @@ title : "Tools and libraries"
 description: "Clojure tools and libraries for data and science"
 lead: "Clojure tools and libraries for data and science"
 date: 2022-02-14
-lastmod: 2025-02-16
+lastmod: 2025-03-18
 draft: false
 weight: 31
 images: []
@@ -103,7 +103,6 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
 - [thi-ng/geom](https://github.com/thi-ng/geom) :star:: `cljs`,`vis` - 2d/3d geometry toolkit
 - [Gorilla-plot](https://github.com/JonyEpsilon/gorilla-plot): `vega`,`vis` - plotting functions using Vega for Gorilla-REPL
 - [gg4clj](https://github.com/JonyEpsilon/gg4clj): `r`,`vis` - a clojure DSL for creating ggplot2 plots using R
-- [gg4clj port](https://github.com/pink-gorilla/gg4clj):  - by the [Pink Gorilla](https://pink-gorilla.github.io) project
 - [Analemma](https://liebke.github.io/analemma/): `cljs`,`exp`,`vis` - generating charts and SVG with a syntax similar to Incanter's and a visual theme similar to ggplot2.
 - [emacs-Vega-view](https://github.com/appliedsciencestudio/emacs-Vega-view) (`act`): `vega`,`vis` - an emacs mode to facilitate interactive data visualization using Vega from within emacs. Supports elisp, json and clojure notations
 
