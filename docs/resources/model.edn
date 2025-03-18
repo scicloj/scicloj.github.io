@@ -284,13 +284,6 @@
     :tags #{:r :vis},
     :star nil,
     :description "a clojure DSL for creating ggplot2 plots using R"}
-   {:lib/name "gg4clj port",
-    :lib/url "https://github.com/pink-gorilla/gg4clj",
-    :lib/category :data-visualization-libraries,
-    :tags #{},
-    :star nil,
-    :description
-    "by the [Pink Gorilla](https://pink-gorilla.github.io) project"}
    {:lib/name "Analemma",
     :lib/url "https://liebke.github.io/analemma/",
     :lib/category :data-visualization-libraries,
