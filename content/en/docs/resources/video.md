@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2025-02-23
+lastmod: 2025-03-19
 draft: false
 weight: 33
 images: []
@@ -11,6 +11,11 @@ contributors: ["daslu"]
 ---
 
 ## Tutorial videos
+
+- 2025-03-12 - [Noj in a JAR - setup-free Clojure for beginners](https://www.youtube.com/watch?v=gHwFCOkBb_o)
+
+- 2025-03-11 - [Noj Reload Executable](https://www.youtube.com/watch?v=tDz1x2d65C0) by Timothy Pratley
+
 - 2025-01-24 - [Noj v2 - getting started - from raw data to a blog post](https://www.youtube.com/watch?v=vnvcKtHHMVQ)
 
 - 2024-12-14 - [PCA in Clojure with Neanderthal](https://www.youtube.com/watch?v=6OI5C2qv2Ic) by Jaryt Salvo
