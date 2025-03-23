@@ -3,7 +3,7 @@ title : "Chat"
 description: ""
 lead: ""
 date: 2022-02-14
-lastmod: 2025-01-20
+lastmod: 2025-03-23
 draft: false
 weight: 24
 images: []
@@ -26,6 +26,8 @@ This [original announcement](https://clojureverse.org/t/introducing-clojurians-z
 Here are the main scicloj-related active streams, dedicated to certain subgroups, child communities or sister communities of scicloj.
 
 ### General discussion and Q&A
+
+- [#scicloj-webpublic](https://clojurians.zulipchat.com/#narrow/channel/488851-scicloj-webpublic/topic/announcement/with/504098025) - a [web-public channel](https://zulip.com/help/channel-permissions#web-public-channels) for Scicloj updates and discussions
 
 - [#data-science](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science) - general data science topics
 
