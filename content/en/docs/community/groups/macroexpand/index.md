@@ -12,38 +12,38 @@ images: []
 
 # macroexpand gatherings
 
-Building new pathways for Clojure's growth
+Growing Clojure together
 
 ## TL;DR
-We're launching a series of online meetups and mini-conferences to coordinate efforts for expanding Clojure's reach and adoption.
+We're starting regular online meetups to help Clojure reach new users and communities.
 
 ## Background
 
-Over the past couple of years, Scicloj has focused inward - developing infrastructure, tools, and libraries while nurturing our community through numerous small meetings via our [mentoring program](https://scicloj.github.io/docs/community/groups/open-source-mentoring/) and other initiatives.
+For the past few years, Scicloj has focused inward - building tools and libraries while growing our community through our [mentoring program](https://scicloj.github.io/docs/community/groups/open-source-mentoring/) and other small group meetings.
 
-As we enter 2025, we're expanding our focus outward. We aim to introduce Clojure to new domains, use cases, and communities where it hasn't yet gained significant traction. Our community members have invested considerable effort in creating [beginner-friendly tools](https://www.youtube.com/watch?v=tDz1x2d65C0), developing [workshops](https://bobkonf.de/2025/howe.html) for Clojure newcomers, organizing public [meetings](https://scicloj.github.io/docs/community/events/) across [various study groups](https://scicloj.github.io/docs/community/groups/), crafting [tutorials](https://scicloj.github.io/clojure-data-tutorials/), building a quick-start [toolkit](https://scicloj.github.io/noj/), and launching [a conference](https://scicloj.github.io/docs/community/groups/scinoj-light/) focused on new data applications.
+Now in 2025, we are also looking outward, seeking to bring Clojure to new fields and users. We have been busy creating [beginner-friendly tools](https://www.youtube.com/watch?v=tDz1x2d65C0), running [workshops](https://bobkonf.de/2025/howe.html), organizing [meetings](https://scicloj.github.io/docs/community/events/) at the various [study groups](https://scicloj.github.io/docs/community/groups/), writing [tutorials](https://scicloj.github.io/clojure-data-tutorials/), building a [starter toolkit](https://scicloj.github.io/noj/), and launching [a conference](https://scicloj.github.io/docs/community/groups/scinoj-light/) for new data use cases.
 
-While Scicloj primarily focuses on data science, we recognize that Clojure's overall growth aligns with our mission. To support this expansion, we need to maintain both an internal and external perspective.
+While Scicloj focuses on data science, we believe that growing Clojure as a whole helps everyone. Getting there will require looking and reflecting both inward and outward, and forming new collaborations around new ideas.
 
-This is why we're launching *macroexpand* - a series of gatherings where Clojurians can discuss and collaborate on initiatives for Clojure's growth.
+That's why we're starting *macroexpand* - regular gatherings where Clojurians can work together on bringing Clojure to new places.
 
 ## Format
 
-Each macroexpand gathering will focus on a specific theme where we aim to increase Clojure's presence. Themes may include education, research, academia, community building, and artistic applications, with natural overlap between areas.
+Each macroexpand gathering will focus on one area where we'd like to see more Clojure adoption - like education, research, academia, or art. Note these areas naturally overlap.
 
-Gatherings will run from 90 minutes to several hours. They will combine short presentations with open discussions. Select parts will be recorded, and we'll focus on developing actionable outcomes for follow-up.
+Meetings will run between 90 minutes and a few hours, mixing short talks with open discussion. We'll record key parts and create clear next steps for follow-up.
 
-We're keeping the format lightweight and accessible to make it easy for people to join, share their experiences, and find collaborators.
+We're keeping things simple and informal to make it easy to join in, share ideas, and find others to work with.
 
-## Participation
+## Getting Involved
 
-To join upcoming gatherings, please indicate your availability and interests in the poll below. You can respond at any time.
+If you'd like to join upcoming gatherings, please fill out the poll below with your availability and interests. You can respond anytime.
 
-You don't need to be a Clojure expert to participate - we welcome anyone interested in actively contributing to Clojure's growth.
+You don't need to be a Clojure expert - we welcome anyone who wants to help.
 
-[poll link]
+<a class="btn btn-primary btn-lg px-4 mb-2" href="" role="button">Poll</a>
 
-We welcome your proposals, ideas, comments, and constructive feedback. Please get in touch.
+We'd love to hear your ideas and feedback. Get in touch:
 
 <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/community/contact/" role="button">Contact Us</a>
 
