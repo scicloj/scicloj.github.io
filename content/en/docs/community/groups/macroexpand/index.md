@@ -37,11 +37,11 @@ We're keeping things simple and informal to make it easy to join in, share ideas
 
 ## Getting Involved
 
-If you'd like to join upcoming gatherings, please fill out the poll below with your availability and interests. You can respond anytime.
+If you'd like to join upcoming gatherings, please fill out the poll below with your availability and interests. You can respond anytime -- it will help us plan future meetings.
 
 You don't need to be a Clojure expert - we welcome anyone who wants to help.
 
-<a class="btn btn-primary btn-lg px-4 mb-2" href="" role="button">Poll</a>
+<a class="btn btn-primary btn-lg px-4 mb-2" href="" role="button">https://forms.gle/6JYyCdLfwsgvV8fC7</a>
 
 We'd love to hear your ideas and feedback. Get in touch:
 
