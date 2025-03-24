@@ -1,6 +1,6 @@
 ---
-title : "macroexpand gatheings - opening Clojure up to new horizons"
-description: "macroexpand gatheings"
+title: "macroexpand gatherings - expanding Clojure's horizons"
+description: "macroexpand gatherings - community meetups for Clojure growth"
 lead: ""
 date: 2025-03-24
 lastmod: 2025-03-25
@@ -10,44 +10,41 @@ images: []
 
 [📅Follow our meetings on the Clojure Calendar Feed📅](/docs/community/events/)
 
+# macroexpand gatherings
 
-# macroexpand meetups
-
-Opening Clojure up to new horizons
+Building new pathways for Clojure's growth
 
 ## TL;DR
-We are organizing a series of online meetups/mini-conferences to help coordinate new efforts towards Clojure's expansion.
+We're launching a series of online meetups and mini-conferences to coordinate efforts for expanding Clojure's reach and adoption.
 
 ## Background
 
-In the recent couple of years, a lot of Scicloj activity has been directed inwards -- working on infrastructure, tools, and libraries, building the group, and helping each other in hundreds of small meetings, mostly invisible, through out [mentoring program](https://scicloj.github.io/docs/community/groups/open-source-mentoring/) and elsewhere.
+Over the past couple of years, Scicloj has focused inward - developing infrastructure, tools, and libraries while nurturing our community through numerous small meetings via our [mentoring program](https://scicloj.github.io/docs/community/groups/open-source-mentoring/) and other initiatives.
 
-While all this will continue, in 2025, we are looking outwards more than before. We are intentionally looking to bring Clojure to new scenes, use cases, and communities, where it has not been so present in the past. Quite a few of us have been putting a lot of care into crafting new [beginner-friendly tooling](https://www.youtube.com/watch?v=tDz1x2d65C0), [workshops](https://bobkonf.de/2025/howe.html) for people who are new to Clojure, many more public [meetings](https://scicloj.github.io/docs/community/events/) at the [various study groups](https://scicloj.github.io/docs/community/groups/), various [tutorials](https://scicloj.github.io/clojure-data-tutorials/), a quick-start [toolkit](https://scicloj.github.io/noj/), and a beginner-friendly [a conference](https://scicloj.github.io/docs/community/groups/scinoj-light/) dedicated to new data use cases.
+As we enter 2025, we're expanding our focus outward. We aim to introduce Clojure to new domains, use cases, and communities where it hasn't yet gained significant traction. Our community members have invested considerable effort in creating [beginner-friendly tools](https://www.youtube.com/watch?v=tDz1x2d65C0), developing [workshops](https://bobkonf.de/2025/howe.html) for Clojure newcomers, organizing public [meetings](https://scicloj.github.io/docs/community/events/) across [various study groups](https://scicloj.github.io/docs/community/groups/), crafting [tutorials](https://scicloj.github.io/clojure-data-tutorials/), building a quick-start [toolkit](https://scicloj.github.io/noj/), and launching [a conference](https://scicloj.github.io/docs/community/groups/scinoj-light/) focused on new data applications.
 
-While Scicloj is a group focusing on data and science, Clojure's growth in the broader sense is aligned with our interests and efforts. To support that process, we will need to look and reflect inwards and outwards at the same time.
+While Scicloj primarily focuses on data science, we recognize that Clojure's overall growth aligns with our mission. To support this expansion, we need to maintain both an internal and external perspective.
 
-Thus, we are beginning *macroexpand* - a series of meetups where Clojurians will discuss and initiate collaborations around Clojure growth.
+This is why we're launching *macroexpand* - a series of gatherings where Clojurians can discuss and collaborate on initiatives for Clojure's growth.
 
 ## Format
 
-Each macroexpand meetup will have a theme - a certain landscape where we wish to make Clojure more present. Education, research, academia, community building, and art are some examples. Intentionally, they ovelap.
+Each macroexpand gathering will focus on a specific theme where we aim to increase Clojure's presence. Themes may include education, research, academia, community building, and artistic applications, with natural overlap between areas.
 
-The meeting length will vary between 90 minutes to a few hours, depending on availability and participation.
+Gatherings will run from 90 minutes to several hours. They will combine short presentations with open discussions. Select parts will be recorded, and we'll focus on developing actionable outcomes for follow-up.
 
-We will mix short presentations with discussions. Only some parts will be recorded. We will seek actionable conclusions whe can follow-up on.
-
-Everything will be lightweight and easy to organize and participate in. We want people to conveniently join, tell the stories and seek collaboration.
+We're keeping the format lightweight and accessible to make it easy for people to join, share their experiences, and find collaborators.
 
 ## Participation
 
-To join the meetings, you can mark your availability and interests in the following poll. You can do it anytime. Based on the polls, we will continually schedule meetups.
+To join upcoming gatherings, please indicate your availability and interests in the poll below. You can respond at any time.
 
-You do not need to know much Clojure to participate. We do assume that you are interested in active collaboration on Clojure growth.
+You don't need to be a Clojure expert to participate - we welcome anyone interested in actively contributing to Clojure's growth.
 
 [poll link]
 
-Proposals, ideas, comments, and criticism would be welcome. Please reach out.
+We welcome your proposals, ideas, comments, and constructive feedback. Please get in touch.
 
-<a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/community/contact/" role="button">Please reach out</a>
+<a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/community/contact/" role="button">Contact Us</a>
 
 <img src="sci-cloj-logo-transparent.svg" alt="Scicloj logo" style="height:200px;"/>
