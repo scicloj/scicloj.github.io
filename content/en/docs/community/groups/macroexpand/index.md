@@ -3,9 +3,9 @@ title: "macroexpand gatherings - expanding Clojure's horizons"
 description: "macroexpand gatherings - community meetups for Clojure growth"
 lead: ""
 date: 2025-03-24
-lastmod: 2025-03-25
+lastmod: 2025-03-26
 draft: false
-images: []
+images: ["sci-cloj-logo-transparent.png"]
 ---
 
 [📅Follow our meetings on the Clojure Calendar Feed📅](/docs/community/events/)
