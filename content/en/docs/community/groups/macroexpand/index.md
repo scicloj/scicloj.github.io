@@ -15,7 +15,8 @@ images: ["sci-cloj-logo-transparent.png"]
 Growing Clojure together
 
 ## TL;DR
-We're starting regular online meetups to help Clojure reach new users and communities. Please you may add your availability and interests here:
+We're starting regular online meetups to help Clojure reach new users and communities. Please you may add your availability and interests here.
+
 <a class="btn btn-primary btn-lg px-4 mb-2" href="https://forms.gle/6JYyCdLfwsgvV8fC7" role="button">Poll</a>
 
 ## Background
