@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2025-03-26
+lastmod: 2025-03-27
 draft: false
 weight: 33
 images: []
@@ -141,6 +141,7 @@ The visual tools group is about creating collaborations across differnent toolin
 - [Jan 15th, 2025](https://www.youtube.com/watch?v=9nY25hwzWRc) - Workflow Demos 3: FlowStorm
 - [Jan 23rd, 2025](https://www.youtube.com/watch?v=uj2wGDeOimU) - Workflow Demos 4: LLMs in Emacs for Clojure
 - [Mar 24rd, 2025](https://www.youtube.com/watch?v=WiOUiHsq_dc) - Workflow Demos 5: Clay
+- [Mar 26th, 2025](https://www.youtube.com/watch?v=oV9F9bmPr58) -Workflow Demos 6 - old-school tools, REPL, Emacs, Org-mode, AI, MCP, & more
 
 ### llm meetups
 The goal of this series of meetups is to support our learning, as a community, of the new landscape of ideas around large language models.
