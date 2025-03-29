@@ -1,5 +1,5 @@
 ---
-title: "Data analyis with Clojure - workshop, May 10th 2025 - initial poll"
+title: "Data analyis with Clojure - workshop, May 10th - feedback needed"
 description: ""
 date: 2025-03-29
 lastmod: 2025-03-30
@@ -15,7 +15,7 @@ The [SciNoj Light](https://scicloj.github.io/docs/community/groups/scinoj-light/
 
 If you are interested, please share your preferences with us here:
 
-<a class="btn btn-primary btn-lg px-4 mb-2" href="https://forms.gle/GR7HHz3id7aT2vYe7" role="button">Initial poll</a>
+<a class="btn btn-primary btn-lg px-4 mb-2" href="https://forms.gle/GR7HHz3id7aT2vYe7" role="button">Initial survey</a>
 
 Based on the responses, we will decide whether to run the workshop, and how to design it.
 
