@@ -1,5 +1,5 @@
 ---
-title: "Data analyis with Clojure - workshop, May 10th - feedback needed"
+title: "Data analyis with Clojure - workshop, May 10th - initial survey"
 description: ""
 date: 2025-03-29
 lastmod: 2025-03-30
