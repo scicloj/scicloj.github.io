@@ -3,9 +3,9 @@ title : "scicloj-ai-meetups: exploring the princples and uses of AI models"
 description: "Scicloj AI meetups"
 lead: ""
 date: 2025-01-28
-lastmod: 2025-03-25
+lastmod: 2025-03-30
 draft: false
-images: []
+images: ["joy2.jpg"]
 ---
 
 [📅Follow our meetings on the Clojure Calendar Feed📅](/docs/community/events/)
