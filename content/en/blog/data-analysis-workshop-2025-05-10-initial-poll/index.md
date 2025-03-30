@@ -9,7 +9,9 @@ images: ["../../sci-cloj-logo-transparent.png"]
 contributors: ["daslu"]
 ---
 
-Following Kira Howe's successful [workshop](https://bobkonf.de/2025/howe.html) at BobKonf 2025, we are planning a longer workshop for people who are curious to learn the Clojure language for data analysis.
+Following the maturing of the [Noj](https://scicloj.github.io/noj/) toolkit for Clojure data science, we are planning a workshop for people who are curious to learn the Clojure language for data analysis.
+
+Recently, Kira Howe gave a great [workshop](https://bobkonf.de/2025/howe.html) at the [BobKonf 2025](https://bobkonf.de/2025/en/) conference. Following that experience, we will now organize a longer workshop that will teach Clojure for data analysis from scratch.
 
 The [SciNoj Light](https://scicloj.github.io/docs/community/groups/scinoj-light/) conference schedule is emerging these days, with a fantastic set of talks. We want a broader audience to feel comfortable joining, and thus we wish to run a prep workshop one week earlier.
 
