@@ -1,5 +1,5 @@
 ---
-title: "Data analyis with Clojure - workshop, May 10th - initial survey"
+title: "Data analyis with Clojure - free workshop, May 10th - initial survey"
 description: ""
 date: 2025-03-29
 lastmod: 2025-03-30
@@ -9,7 +9,7 @@ images: ["../../sci-cloj-logo-transparent.png"]
 contributors: ["daslu"]
 ---
 
-Following the maturing of the [Noj](https://scicloj.github.io/noj/) toolkit for Clojure data science, we are planning a workshop for people who are curious to learn the Clojure language for data analysis. Please share this page broadly with your friends and groups who may be curious to learn Clojure at this occasion.
+Following the maturing of the [Noj](https://scicloj.github.io/noj/) toolkit for Clojure data science, we are planning a free online workshop for people who are curious to learn the Clojure language for data analysis. Please share this page *broadly* with your friends and groups who may be curious to learn Clojure at this occasion.
 
 The [SciNoj Light](https://scicloj.github.io/docs/community/groups/scinoj-light/) conference schedule is emerging these days, with a fantastic set of talks. We want a broader audience to feel comfortable joining, and thus we wish to run a prep workshop one week earlier.
 
