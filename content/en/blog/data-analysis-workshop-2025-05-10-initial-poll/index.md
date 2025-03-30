@@ -21,6 +21,8 @@ If you are interested, please share your preferences with us here:
 
 Based on the responses, we will decide whether to run the workshop, and how to design it.
 
+Please share this page broadly with your friends and groups who may be curious to learn Clojure at this occasion.
+
 ## Tentative details
 - Date: Saturday, May 10th
 - A few hours long
