@@ -14,7 +14,7 @@ In recent months, the Clojure toolkit for data and science has been maturing. Th
 
 SciNoj Light is one of the first steps in that direction.
 
-:calendar: [Event](https://clojureverse.org/t/scinoj-light-1st-conference/) (also available at the [Clojure Calendar Feed](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/))
+:calendar: [Event](https://clojureverse.org/t/scinoj-light-1st-conference/) (also available at the [Clojure Calendar Feed](../../events))
 
 ## What is it
 SciNoj Light is an online conference where Clojurians will share their short-term data analysis stories.
