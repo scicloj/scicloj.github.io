@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2025-03-29
+lastmod: 2025-04-02
 draft: false
 weight: 33
 images: []
@@ -78,6 +78,7 @@ The reClojure 2020 conrefnere offered a few data & science talks.
 
 ### scicloj-ai-meetups
 - [Feb 22nd 2025](https://www.youtube.com/watch?v=HwoGMhIx5w0) - meeting 1: voice-fn - real-time voice-enabled AI pipelines
+- [Mar 22nd 2025](https://www.youtube.com/watch?v=fvcnCxFHyos) - meeting 2: practice session - build a RAG
 
 ### real-world-data
 (most content is only shared internally in the group chat)
