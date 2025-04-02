@@ -3,7 +3,7 @@ title : "Chat"
 description: ""
 lead: ""
 date: 2022-02-14
-lastmod: 2025-03-23
+lastmod: 2025-04-02
 draft: false
 weight: 24
 images: []
@@ -44,6 +44,8 @@ Here are the main scicloj-related active streams, dedicated to certain subgroups
 - [#tableplot-dev](https://clojurians.zulipchat.com/#narrow/stream/443101-tableplot-dev) - development of [Tableplot](https://scicloj.github.io/tableplot)
 
 - [#tablemath-dev](https://clojurians.zulipchat.com/#narrow/channel/474332-tablemath-dev) - development of [Tablemath](https://scicloj.github.io/tablemath)
+
+- [#stdlang-dev](https://clojurians.zulipchat.com/#narrow/channel/495443-std.2Elang-dev) - development of [Std.lang](https://clojureverse.org/t/std-lang-a-universal-template-transpiler/)
 
 - [#wolfram-clojure-bridge](https://clojurians.zulipchat.com/#narrow/stream/313853-wolfram-clojure-bridge) - a stream for the dvelopment of [Wolframite](https://scicloj.github.io/wolframite/), a Clojure bridge to the Wolfram language
 
