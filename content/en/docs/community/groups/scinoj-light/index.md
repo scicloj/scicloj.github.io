@@ -3,7 +3,7 @@ title : "SciNoj Light: an online conference for Clojure data-analysis stories"
 description: "an online conference for Clojure data-analysis stories"
 lead: ""
 date: 2025-01-20
-lastmod: 2025-03-31
+lastmod: 2025-04-03
 draft: false
 images: ["Noj.png"]
 ---
@@ -42,6 +42,4 @@ All communication in preparation and during the conference will take place at th
 ## Participating
 Participating is online and free.
 
-## The SciNoj conference series
-More SciNoj conferences are expected in the near future. Some of the future topics we are considering are (1) the uses of Clojure in teaching, (2) Clojure communities, and (3) Clojure in science.
 
