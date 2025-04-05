@@ -3,7 +3,7 @@ title : "scicloj-ai-meetups: exploring the princples and uses of AI models"
 description: "Scicloj AI meetups"
 lead: ""
 date: 2025-01-28
-lastmod: 2025-04-04
+lastmod: 2025-04-05
 draft: false
 images: ["joy2.jpg"]
 ---
@@ -18,7 +18,7 @@ The goal of this series of meetups is to support our learning, as a community, o
 * TBA: parsing LLM responses
 * TBA: LLMs for automated data analysis
 * 2025-04-19, Meeting 4: Scicloj AI Meetup 4 # Weaving LLM tools into the feedback loop # Why MCP Sucks & How To Use It Anyway (Modex) - :calendar: [event](https://clojureverse.org/t/scicloj-ai-meetup-4-weaving-llm-tools-into-the-feedback-loop-why-mcp-sucks-how-to-use-it-anyway-modex/)
-* 2025-04-05, Meeting 3: LLMs + Clojure = Who needs frameworks? - :calendar: [event](https://clojureverse.org/t/scicloj-ai-meetup-3-llms-clojure-who-needs-frameworks/)
+* 2025-04-05, Meeting 3: LLMs + Clojure = Who needs frameworks?
 * 2025-03-22, Meeting 2: practice session - build a RAG - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-2-practice-session-build-a-rag-summary-recording/)
 * 2025-02-22, Meeting 1: [voice-fn](https://github.com/shipclojure/voice-fn/) - real-time voice-enabled AI pipelines - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-1-voice-fn-real-time-voice-enabled-ai-pipelines-summary-recording/)
 
