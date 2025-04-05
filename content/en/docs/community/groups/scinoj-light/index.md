@@ -3,14 +3,14 @@ title : "SciNoj Light: an online conference for Clojure data-analysis stories"
 description: "an online conference for Clojure data-analysis stories"
 lead: ""
 date: 2025-01-20
-lastmod: 2025-04-03
+lastmod: 2025-04-05
 draft: false
 images: ["Noj.png"]
 ---
 
 ![Noj logo](Noj.png)
 
-In recent months, the Clojure toolkit for data and science has been maturing. Thus, in 2025, Scicloj can finally shift more resources into making it accessible and well-known.
+As the Clojure toolkit for data science has been maturing, in 2025, Scicloj finally shifts more resources into making it accessible and well-known.
 
 SciNoj Light is one of the first steps in that direction.
 
@@ -25,6 +25,7 @@ SciNoj Light is an online conference where Clojurians will share their short-ter
 * Encourage Clojurians to create small-but-complete usage stories of [Noj](https://scicloj.github.io/noj) and related libraries. Help them in the process.
 * Focus on small stories and make it easy to contribute a topic.
 * Explore our online conferencing practices in preparation for bigger "SciNoj" conferences where more established projects will be presented.
+* Make the content accessible to people who are new to Clojure.
 * Offer a [cynosure](https://www.merriam-webster.com/dictionary/cynosure) for anybody who wishes to explore data with Clojure.
 
 ## Timeline
