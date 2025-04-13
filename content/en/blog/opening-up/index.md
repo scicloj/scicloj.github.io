@@ -5,13 +5,17 @@ date: 2025-04-12
 lastmod: 2025-04-13
 draft: false
 weight: 4
-images: ["../../sci-cloj-logo-transparent.png"]
+images: ["./field.jpg"]
 contributors: ["daslu"]
 ---
 
-Around the end of November 2024, we had a couple of small [meetings](https://scicloj.github.io/blog/scicloj-scientific-papers-initial-planning-meeting/) around the presence of Clojure in academia, one of the areas where we are looking to make Clojure gradually more present.
+<img src="field.jpg" alt="grass in sunset, and a far away tree" style="width:100%;"/>
 
-The meetings back then did affect our actions and followup conversations at the [Clojurians Zulip Chat](/docs/community/chat/). A broader and more general process has been initiated: shifting our attention to growth -- the growth of Clojure into new fields and use cases.
+-------------
+
+Near the end of November 2024, we had a couple of small [meetings](https://scicloj.github.io/blog/scicloj-scientific-papers-initial-planning-meeting/) around the presence of Clojure in academia, one of the areas where we are looking to make Clojure gradually more present.
+
+The meetings back then did affect our actions and followup conversations at the [Clojurians Zulip Chat](/docs/community/chat/). A broader and more general process initiated: shifting our attention to the growth of Clojure into new fields and use cases.
 
 In this post, we seek to clarify our current activity to help reinitiate more systematic collaboration in that direction.
 
@@ -23,9 +27,9 @@ As usual, it is a personal perspective. Hopefully, more people will use this blo
 
 * We propose proceeding in small steps through ad-hoc meetings, lightweight conferences, and short-term research projects.
 
-* One space to support that is the new [macroexpand gatherings](https://scicloj.github.io/docs/community/groups/macroexpand/) series. We encourage you to mark you availability and preferences: <a class="btn btn-primary px-4 mb-2" href="https://forms.gle/6JYyCdLfwsgvV8fC7" role="button">Poll</a>.
+* One space to support that is the new [macroexpand gatherings](https://scicloj.github.io/docs/community/groups/macroexpand/) series. We encourage you to mark you availability and preferences: <a class="btn btn-primary btn-sm" href="https://forms.gle/6JYyCdLfwsgvV8fC7" role="button">Poll</a>.
 
-* If you have any thoughts or ideas, <a class="btn btn-primary px-4 mb-2" href="/docs/community/contact/" role="button">Please reach out</a>.
+* If you have any thoughts or ideas: <a class="btn btn-primary btn-sm" href="/docs/community/contact/" role="button">Please reach out</a>.
 
 Now, let us dive more into the details.
 
