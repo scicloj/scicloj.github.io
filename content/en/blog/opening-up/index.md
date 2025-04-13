@@ -86,7 +86,7 @@ Here we share a few notes from the discussions we had in November, where a few C
 See also the [#data-science>scicloj paper - initial meeting](https://clojurians.zulipchat.com/#narrow/channel/151924-data-science/topic/scicloj.20paper.20-.20initial.20meeting) topic thread at the [Clojurians Zulip Chat](/docs/community/chat/) and following topic threads on related topics.
 
 Here are some observations and insights by a few of the people involved.
-* We should learn from what other language community did when they were smaller. See the paper about Matplotlib, for example. The Tidyverse (and the publishing around it) can be a source of inspiration.
+* We should learn from what other tech communities did when they were smaller. See the paper about Matplotlib, for example. The Tidyverse (and the publishing around it) can be a source of inspiration.
 * Making Clojure **easy** is essential. For better reach to academic groups, tooling is important. Also, a cohesive stack of libraries.
 * Possible technical aspects of the Clojure ecosystem stack could be documented in the form of academic papers: extending the grammar of graphics, nontrivial interop solutions, and perspectives on the history of Lisp in AI are some examples.
 * At some point, we may initiate new implementation projects on certain topics that look promising nowadays. Two possible examples are Applied Category Theory and Topological Data Analysis.
