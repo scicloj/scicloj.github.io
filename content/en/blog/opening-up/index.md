@@ -87,7 +87,7 @@ See also the [#data-science>scicloj paper - initial meeting](https://clojurians.
 
 Here are some observations and insights by a few of the people involved.
 * We should learn from what other language community did when they were smaller. See the paper about Matplotlib, for example. The Tidyverse (and the publishing around it) can be a source of inspiration.
-* Making Clojure **easy** is essential. For better reach to academic groups, tooling is important (Jupyter? Jupyter alternatives? etc.). Also, a cohesive stack of libraries.
+* Making Clojure **easy** is essential. For better reach to academic groups, tooling is important. Also, a cohesive stack of libraries.
 * Possible technical aspects of the Clojure ecosystem stack could be documented in the form of academic papers: extending the grammar of graphics, nontrivial interop solutions, and perspectives on the history of Lisp in AI are some examples.
 * At some point, we may initiate new implementation projects on certain topics that look promising nowadays. Two possible examples are Applied Category Theory and Topological Data Analysis.
 * Alongside (1) technical aspects and (2) applications, a third type of academic writing can be: (3) uses in education.
