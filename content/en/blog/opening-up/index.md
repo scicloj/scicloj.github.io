@@ -61,7 +61,7 @@ We will keep looking inward and outward at the same time: creating small collabo
 
 In our coming expansion to new fields, let us recognize a few of our usual open-source challenges. Arguably, knowing them is going to be even more important now.
 
-Scicloj is a group of people who collaborate and support each other. Throughout the years, a few hundred people have been lightly involved in various ways. However, at any given point in time, typically a few dozens are actually involved, and only a few people are active in library maintenance and essential activities.
+Scicloj is a group of people who collaborate and support each other. Throughout the years, a few hundred people have been lightly involved in various ways. However, at any given point in time, typically a few dozens are actually involved, and only a handful of people are active in library maintenance and essential activities.
 
 The people involved change frequently. All of us need to stop sometimes, then return after a few weeks or months. Such pauses are often unplanned. Free time is inherently variable, and that is always felt in volunteer-based communities.
 
@@ -75,7 +75,7 @@ Of all the above, let us repeat the importance of communication. Let us keep cha
 
 ## Clojure in academia
 
-One space we will address more in 2025 is academia.
+One space we are gradually addressing more is academia.
 
 Clojure is not very common in academic teaching, but throughout the years there have been some beautiful projects that used Clojure in university courses. Some well-known courses were taught by [Lee Spector](https://github.com/lspector/clojinc), [Elena Machkasova](https://personal.morris.umn.edu/~elenam/#clojure), [The University of Helsinki](https://moocfi.github.io/courses/2014/clojure/), and [Attila Egri-Nagy](https://egri-nagy.github.io/popbook/). Some of these projects are still active.
 
