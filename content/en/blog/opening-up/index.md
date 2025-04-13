@@ -41,7 +41,7 @@ Some of us believe that Clojure can offer a relief through simplicity, conceptua
 
 ## Growth
 
-The current global uncertainty can create some risk-averse tendencies. In many business situations, this might not be the best time for non-mainstream engineering choices. For this and other reasons, it is not the easiest time to work on Clojure growth.
+In many business situations, this might not be the best time for non-mainstream engineering choices, which are percieved too risky. For this and other reasons, it is not the easiest time to work on Clojure growth.
 
 However, that is what we are actively working on now.
 
