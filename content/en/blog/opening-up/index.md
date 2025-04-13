@@ -45,7 +45,7 @@ Some of us believe that Clojure can offer a relief through simplicity, conceptua
 
 ## Growth
 
-In many business situations, this might not be the best time for non-mainstream engineering choices, which are percieved too risky. For this and other reasons, it is not the easiest time to work on Clojure growth.
+In many business situations, this might not be the best time for non-mainstream engineering choices, which are perceived as too risky. For this and other reasons, it is not the easiest time to work on Clojure growth.
 
 However, that is what we are actively working on now.
 
@@ -53,7 +53,7 @@ The first reason is that it is necessary. Without new and diverse fields and use
 
 The second reason is that we are ready. As discussed below, a few parts of the solution have matured enough to proceed and finally meet more diverse crowds.
 
-The third reason is the Scicloj perspective within the broader Clojure community. With our focus on data analysis, we offer a pathway as to how to create “quickstart” applications for various usecases (as demanded in the recent [Clojurists-together survey](https://www.clojuriststogether.org/news/call-for-proposals.-feb.-2025-member-survey/)).
+The third reason is the Scicloj perspective within the broader Clojure community. With our focus on data analysis, we offer a pathway as to how to create “quickstart” applications for various use cases (as demanded in the recent [Clojurists-together survey](https://www.clojuriststogether.org/news/call-for-proposals.-feb.-2025-member-survey/)).
 
 We will keep looking inward and outward at the same time: creating small collaborations, helping each other, and reflecting, while reaching out to new crowds and acting more in the public sphere.
 
@@ -124,7 +124,7 @@ With our currently limited resources, we will have to focus on lightweight small
 
 SciNoj Light can serve as a model for the following steps. We will have additional target dates later this year. Toward those dates, people can work on small research, on writing tutorials, and preparing talks. As usual, we will work together and create spaces to conveniently brainstorm and share progress.
 
-At the new [macroexpand gatherings](https://scicloj.github.io/docs/community/groups/macroexpand/) series, we will maintain broader discussions on Cloure's expansion to new fields. Academia, research, education, data analysis, and art, are a few of the directions we will explore. Community members will share past experiences, discuss pain points, and come up with actionable ways to collaborate.
+At the new [macroexpand gatherings](https://scicloj.github.io/docs/community/groups/macroexpand/) series, we will maintain broader discussions on Clojure's expansion to new fields. Academia, research, education, data analysis, and art, are a few of the directions we will explore. Community members will share past experiences, discuss pain points, and come up with actionable ways to collaborate.
 
 -------
 
