@@ -108,13 +108,13 @@ Recently, we have had some progress in a few relevant directions.
 
 4. **Meetups.** We have moved more of the Scicloj activity at the various [dev & study groups](/docs/community/groups) to the public sphere. Most recent meetups have been focusing on workflow demos and AI systems. You can follow them at the :movie_camera: [video channel](https://www.youtube.com/@SciCloj), [Clojureverse announcements](https://clojureverse.org/c/community-center/meetups-and-events/), and [Caldendar feed](https://scicloj.github.io/docs/community/events/).
 
-5. **Conferences.** The [SciNoj Light](/docs/community/groups/scinoj-light) online conference in May 16-17 is a first attempt to explore our current conference-organizing approach. We use the conference mostly to drive new collaborations around research, writing, speaking, and we support the speakers throughout the process of proposing and preparing the talks **and* the accompanying notes. It is already safe to say that the method works, and soon we will announce the amazing list of speakers. More events will follow later this year.
+5. **Conferences.** The [SciNoj Light](/docs/community/groups/scinoj-light) online conference in May 16-17 is a first attempt to explore our current conference-organizing approach. The conference is mostly a way to drive new collaborations in preceeding moths around research, writing, and speaking. We support the speakers throughout the process of proposing and preparing the talks **and* the accompanying notes. It is already safe to say that the method works, and soon we will announce the amazing list of speakers. It is not a small effort, but we have now verified that it is doable. More events will follow later this year.
 
 ## How we continue
 
 With our currently limited resources, we will have to focus on lightweight small steps in the short term.
 
-SciNoj Light can serve as a model for following projects. Ideally, we will have a few additional target dates later this year. Toward those days, people can work on small research, on writing tutorials, and preparing talks. As usual, we will work together and create spaces to conveniently brainstorm and share progress.
+SciNoj Light can serve as a model for following projects. We will have a few additional target dates later this year. Toward those days, people can work on small research, on writing tutorials, and preparing talks. As usual, we will work together and create spaces to conveniently brainstorm and share progress.
 
 At the new [macroexpand gatherings](https://scicloj.github.io/docs/community/groups/macroexpand/) series, we will maintain broader discussions on Cloure's expansion to new fields. Academia, research, education, data analysis, and art, are a few of the directions we will explore. Community members will share past experiences, discuss pain points, and come up with actionable ways to collaborate.
 
