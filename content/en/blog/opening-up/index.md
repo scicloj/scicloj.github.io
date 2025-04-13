@@ -51,7 +51,7 @@ The second reason is that we are ready. As discussed below, a few parts of the s
 
 We will keep looking inward and outward at the same time: creating small collaborations, helping each other, and reflecting, while reaching out to new crowds and acting more in the public sphere.
 
-## Community, continuity, and communication
+## Community, collaboration, continuity, and communication
 
 In our coming expansion to new fields, let us recognize a few of our usual open-source challenges. Arguably, knowing them is going to be even more important now.
 
@@ -63,7 +63,7 @@ Our goals, however, are long-term. We need to maintain continuity, and see beyon
 
 During the last year or so, this has been especially challenging. For a mix of reasons -- global, local, and personal -- it has not been the easiest time for a few of us. Alongside the beautiful progress in libraries, tooling, and community building, many of us had to slow down and focus on life challenges. 
 
-Our processes need to be loose enough and stable enough. It is a delicate balance. We need to decouple dependencies across projects, recognize bottlenecks and readapt. We need to communicate frequently, and use our [everyday communication](/docs/community/contact/) as a form of lightweight knowledge management. We need to support each other and help each other find comfort.
+Our processes need to be loose enough and stable enough. It is a delicate balance. While we often collaborate tightly, we should avoid depending on each other's tasks. We need to decouple dependencies across project timelines, recognize bottlenecks and readapt. We need to communicate frequently, and use our [everyday communication](/docs/community/contact/) as a form of light touch knowledge management. We need to support each other and help each other find comfort.
 
 Of all the above, let us repeat the importance of communication. Let us keep chatting frequently so we can be together in those fluctuations.
 
@@ -109,6 +109,8 @@ Recently, we have had some progress in a few relevant directions.
 4. **Meetups.** We have moved more of the Scicloj activity at the various [dev & study groups](/docs/community/groups) to the public sphere. Most recent meetups have been focusing on workflow demos and AI systems. You can follow them at the :movie_camera: [video channel](https://www.youtube.com/@SciCloj), [Clojureverse announcements](https://clojureverse.org/c/community-center/meetups-and-events/), and [Caldendar feed](https://scicloj.github.io/docs/community/events/).
 
 5. **Conferences.** The [SciNoj Light](/docs/community/groups/scinoj-light) online conference in May 16-17 is a first attempt to explore our current conference-organizing approach. The conference is mostly a way to drive new collaborations in preceeding moths around research, writing, and speaking. We support the speakers throughout the process of proposing and preparing the talks **and* the accompanying notes. It is already safe to say that the method works, and soon we will announce the amazing list of speakers. It is not a small effort, but we have now verified that it is doable. More events will follow later this year.
+
+6. **Communication.** The [Clojurians Zulip Chat](/docs/community/chat/) Zulip is an essential building block in both our communication and our knowledge management. We are thankful to Gert Goet who has been nurturing it throughout the years, and to the broader team of admins that has grown recently. During the last few months, we put even more care into helping people join the platform and settle in. We organized [Zulip study sessions](https://clojureverse.org/t/intro-to-the-clojurians-zulip-chat/) and discussed it [in additional meetups](https://clojureverse.org/t/visual-tools-meeting-27-workflow-demos-1-emacs-cider-vscode-calva-zulip-summary-recording/). We are gradually shifting some of our announcements and discussions to a [web-public](https://zulip.com/help/channel-permissions#web-public-channels) channel: :tada: [#scicloj-webpublic](https://clojurians.zulipchat.com/#narrow/channel/488851-scicloj-webpublic), to make things more accessible to people who we not logged in.
 
 ## How we continue
 
