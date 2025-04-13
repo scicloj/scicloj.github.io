@@ -87,7 +87,7 @@ Hopefully, we can improve the situation by making communication easier, providin
 
 ## The November meetings
 
-Here we share a few notes from the discussions we had in November, where a few Clojure-friendly academics met and thought together for a while.
+Here we share a few notes from the discussions we had last November, where a few Clojure-friendly academics met and thought together for a while.
 
 See also the [#data-science>scicloj paper - initial meeting](https://clojurians.zulipchat.com/#narrow/channel/151924-data-science/topic/scicloj.20paper.20-.20initial.20meeting) topic thread at the [Clojurians Zulip Chat](/docs/community/chat/) and following topic threads on related topics.
 
@@ -99,7 +99,7 @@ Here are some observations and insights by a few of the people involved.
 * Alongside (1) technical aspects and (2) applications, a third type of academic writing can be: (3) uses in education.
 * Finding reviewers for a Clojure paper might be a challenge. At some point, we may try to assemble a list of potential reviewers.
 * Conference talks are a quicker and easier path than papers. We can organize our own online conferences. Our own conference proceedings would take more effort (and will mainly need a decent group of reviewers).
-* Applications of Clojure in education (point (3) above) -- this path seems to be in consensus as a preferred and accessible way to make Clojure visible in academia. A few of the people involved have been putting lots of thought into teaching Clojure for years.
+* Applications of Clojure in education (point (3) above) -- this path seems to be in consensus as a preferred and accessible way to make Clojure visible in academia in the short term. A few of the people involved have been putting lots of thought into teaching Clojure for years.
 * We need to create more visible spaces to share and discuss these observations and insights.
 
 ## Relevant progress
@@ -108,7 +108,7 @@ Recently, we have had some progress in a few relevant directions.
 
 1. **A cohesive stack of libraries.** The [Noj](https://scicloj.github.io/noj/) toolkit for data science has been maturing. Its documentation and integration tests have received quite a few contributions by Carsten Behring and a few other contributors. 
 
-2. **Beginner resources and workshops.** The Noj getting started [repo](https://github.com/scicloj/noj-v2-getting-started) and :movie_camera: [video](https://www.youtube.com/watch?v=vnvcKtHHMVQ) provides a welcoming way for people who know some Clojure but are new to Noj. Kira Howe's [workshop](https://bobkonf.de/2025/howe.html) at the [BobKonf 2025 conference](https://bobkonf.de/2025/) introduced Clojure for data analysis to people who are new to Clojure. We are working on additional workshops of this kind for [May 10th](https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/). Additional [tutorials](https://scicloj.github.io/clojure-data-tutorials/) are evolving too, again thanks to Carsten and others.
+2. **Beginner resources and workshops.** The Noj getting started [repo](https://github.com/scicloj/noj-v2-getting-started) and :movie_camera: [video](https://www.youtube.com/watch?v=vnvcKtHHMVQ) provides a welcoming way for people who know some Clojure but are new to Noj. Kira Howe's [workshop](https://bobkonf.de/2025/howe.html) at the [BobKonf 2025 conference](https://bobkonf.de/2025/) introduced Clojure for data analysis to people who are new to Clojure. We are working on additional workshops of this kind for [May 10th](https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/). Additional [tutorials](https://scicloj.github.io/docs/resources/reading/) are evolving too.
 
 3. **Beginner-friendly tooling.** Our growing set of tutorials uses the [Kindly](https://scicloj.github.io/kindly/) standard for data-visualization and notebooking. In addition to the existing support in [Clay](https://scicloj.github.io/clay/), Timothy Pratley and Carsten Behring have been working on the [kindly-render](https://github.com/scicloj/kindly-render) engine, that is now almost complete and allows various Clojure tools to support the standard. They have been working with a few Clojure tool makers, and the result is that a few tools now offer decent support for Kindly visualizations (and thus Noj). A few notable examples are [Clojupyter](https://github.com/clojupyter/clojupyter), [VSCode Calva Webview](https://calva.io/flares/), and [Intellij Cursive inline HTML](https://cursive-ide.com/blog/cursive-2025.1-eap3.html). We have been also working on beginner-friendly minimal-setup modes for Clay using a live-reload feature by Ken Huang. See a few recent video demos: [#1](https://www.youtube.com/watch?v=tDz1x2d65C0), [#2](https://www.youtube.com/watch?v=gHwFCOkBb_o), [#3](https://www.youtube.com/watch?v=WiOUiHsq_dc).
 
