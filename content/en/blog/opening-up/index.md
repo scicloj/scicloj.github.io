@@ -81,7 +81,7 @@ Hopefully, we can improve the situation by making communication easier, providin
 
 ## The November meetings
 
-Here we share a few notes from the discussions we had in November, where a few Clojure-friendly academics met and thout together for a while.
+Here we share a few notes from the discussions we had in November, where a few Clojure-friendly academics met and thought together for a while.
 
 See also the [#data-science>scicloj paper - initial meeting](https://clojurians.zulipchat.com/#narrow/channel/151924-data-science/topic/scicloj.20paper.20-.20initial.20meeting) topic thread at the [Clojurians Zulip Chat](/docs/community/chat/) and following topic threads on related topics.
 
@@ -108,7 +108,7 @@ Recently, we have had some progress in a few relevant directions.
 
 4. **Meetups.** We have moved more of the Scicloj activity at the various [dev & study groups](/docs/community/groups) to the public sphere. Most recent meetups have been focusing on workflow demos and AI systems. You can follow them at the :movie_camera: [video channel](https://www.youtube.com/@SciCloj), [Clojureverse announcements](https://clojureverse.org/c/community-center/meetups-and-events/), and [Caldendar feed](https://scicloj.github.io/docs/community/events/).
 
-5. **Conferences.** The [SciNoj Light](/docs/community/groups/scinoj-light) online conference in May 16-17 is a first attempt to explore our current conference-organizing approach. We use the conference mostly to drive new collaborations around research, writing, speaking, and we support the speakers throughout the process of proposing and preparing the talks. It is already safe to say that the method works, and soon we will announce the amazing list of speakers. More events will follow later this year.
+5. **Conferences.** The [SciNoj Light](/docs/community/groups/scinoj-light) online conference in May 16-17 is a first attempt to explore our current conference-organizing approach. We use the conference mostly to drive new collaborations around research, writing, speaking, and we support the speakers throughout the process of proposing and preparing the talks **and* the accompanying notes. It is already safe to say that the method works, and soon we will announce the amazing list of speakers. More events will follow later this year.
 
 ## How we continue
 
@@ -120,4 +120,4 @@ At the new [macroexpand gatherings](https://scicloj.github.io/docs/community/gro
 
 -------
 
-As usual, we are hoping to hear your thoughts. If you have any comments or with to propose anything, let us talk. 
+As usual, we are hoping to hear your thoughts. If you have any comments or wish to propose anything, let us talk. 
