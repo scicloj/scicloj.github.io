@@ -13,7 +13,9 @@ Around the end of November 2024, we had a couple of small [meetings](https://sci
 
 The meetings back then did affect our actions and followup conversations at the [Clojurians Zulip Chat](/docs/community/chat/). A broader and more general process has been initiated: shifting our attention to growth -- the growth of Clojure into new fields and use cases.
 
-The goal of this post is to clarify our current activity in this area and help reinitiate more systematic collaboration.
+In this post, we seek to clarify our current activity to help reinitiate more systematic collaboration in that direction.
+
+As usual, it is a personal perspective. Hopefully, more people will use this blog to share their thoughts on the topic.
 
 ## TL;DR
 
@@ -31,15 +33,15 @@ Now, let us dive more into the details.
 
 There are many "Why Clojure" blog posts out there, and we will not try to reproduce their arguments here.
 
-Let us just recognize that the serious efforts we are discussing here are not without a reason.
+Let us just recognize that the efforts we are discussing here are not without a reason.
 
-Many of us face various technical challenges in our work, and not only engineering work. In research, in teaching, and in data exploration, in academia and elsewhere, sometimes, programming is necessary. Often, programming can bother us with complexity, conceptual obstacles, and various kinds of friction. 
+Many of us face technical challenges at work, and not only in engineering work. In research, teaching, and data exploration; in academia, and elsewhere; sometimes, programming is necessary. Often, programming can bother us with complexity, conceptual obstacles, and various kinds of friction. 
 
 Some of us believe that Clojure can offer a relief through simplicity, conceptual elegance, and lightweight exploration. Arguably, this can be relevant to anybody who has some data and is open-minded and curious to enjoy new ways of thinking. 
 
 ## Growth
 
-The current global uncertainty can create some risk-averse tendencies, and many business situations, this might not be the best time for non-mainstream engineering choices. For this and other rasons, it is not the easiest time to work Clojure growth.
+The current global uncertainty can create some risk-averse tendencies. In many business situations, this might not be the best time for non-mainstream engineering choices. For this and other reasons, it is not the easiest time to work on Clojure growth.
 
 However, that is what we are actively working on now.
 
@@ -53,33 +55,33 @@ We will keep looking inward and outward at the same time: creating small collabo
 
 In our coming expansion to new fields, let us recognize a few of our usual open-source challenges. Arguably, knowing them is going to be even more important now.
 
-Scicloj is a group of people who collaborate and support each other. Throughout the years, a few hundred people have been involved in various ways, but at any given point in time, typically a few dozens are actually involved, and only a few are active in library maintenance and essential activities.
+Scicloj is a group of people who collaborate and support each other. Throughout the years, a few hundred people have been lightly involved in various ways. However, at any given point in time, typically a few dozens are actually involved, and only a few people are active in library maintenance and essential activities.
 
-The group of people involved changes frequently. All of us need to stop sometimes, then return after a few weeks or months. Such pauses are often unplanned. Free time is inherently variable, and that is always felt in volunteer-based communities.
+The people involved change frequently. All of us need to stop sometimes, then return after a few weeks or months. Such pauses are often unplanned. Free time is inherently variable, and that is always felt in volunteer-based communities.
 
-Our goals, however, are long-term. We need to maintain continuity and see beyond those waves. 
+Our goals, however, are long-term. We need to maintain continuity, and see beyond those waves by embracing uncertainty.
 
-During the last year or so, this has been especially challenging. For a mix of reasons -- global, local, and personal -- this has not been the easiest time for a few of us. Alongside the beautiful progress in libraries, tooling, and community building, many of us had to slow down and focus on life challenges. 
-
-Whatever we have manage to do in the past, present, and future, is based on embracing this uncertainty. 
+During the last year or so, this has been especially challenging. For a mix of reasons -- global, local, and personal -- it has not been the easiest time for a few of us. Alongside the beautiful progress in libraries, tooling, and community building, many of us had to slow down and focus on life challenges. 
 
 Our processes need to be loose enough and stable enough. It is a delicate balance. We need to decouple dependencies across projects, recognize bottlenecks and readapt. We need to communicate frequently, and use our [everyday communication](/docs/community/contact/) as a form of lightweight knowledge management. We need to support each other and help each other find comfort.
 
-Of all the above, let us repeat the importance of communication. This is a recommendation and a request of anybody involved: let us keep chatting frequently so we can be together in those fluctuations.
+Of all the above, let us repeat the importance of communication. Let us keep chatting frequently so we can be together in those fluctuations.
 
 ## Clojure in academia
 
+One space we will address more in 2025 is academia.
+
 Clojure is not very common in academic teaching, but throughout the years there have been some beautiful projects that used Clojure in university courses. Some well-known courses were taught by [Lee Spector](https://github.com/lspector/clojinc), [Elena Machkasova](https://personal.morris.umn.edu/~elenam/#clojure), [The University of Helsinki](https://moocfi.github.io/courses/2014/clojure/), and [Attila Egri-Nagy](https://egri-nagy.github.io/popbook/). Some of these projects are still active.
 
-While Clojure is not commonly cited in academic papers, during the last few years we have met many researchers who are curious about Clojure's relevance to their work. Quite a few of them actively use it. Others avoid using it as it is considered too far from the mainstream and thus difficult to communicate with colleagues.
+While Clojure is not commonly cited in academic papers, during the last few years we have met many researchers who are curious about Clojure. Quite a few of them actively use it. Others avoid using it as it is considered too far from the mainstream and thus difficult to communicate with colleagues.
 
-This is a bootstrap problem. In certain fields, Clojure is still perceived as a niche. Some of the relevant people act alone and are not so visible to each other. 
+In certain fields, Clojure is still perceived as a niche. Some of the relevant people act alone and are not so visible to each other. 
 
-Arguably, we can improve the situation a lot by making communication easier, providing spaces to sync up and think, and making the various projects, groups, and individuals more visible.
+Hopefully, we can improve the situation by making communication easier, providing spaces to sync up and think, and helping the various projects, groups, and individuals become more visible.
 
 ## The November meetings
 
-Here we share a few notes from the discussions we had in November, where a few Clojure-friendly academics could meet and think together for a while.
+Here we share a few notes from the discussions we had in November, where a few Clojure-friendly academics met and thout together for a while.
 
 See also the [#data-science>scicloj paper - initial meeting](https://clojurians.zulipchat.com/#narrow/channel/151924-data-science/topic/scicloj.20paper.20-.20initial.20meeting) topic thread at the [Clojurians Zulip Chat](/docs/community/chat/) and following topic threads on related topics.
 
@@ -110,6 +112,12 @@ Recently, we have had some progress in a few relevant directions.
 
 ## How we continue
 
-5. gatherings
-- meetups
+With our currently limited resources, we will have to focus on lightweight small steps in the short term.
 
+SciNoj Light can serve as a model for following projects. Ideally, we will have a few additional target dates later this year. Toward those days, people can work on small research, on writing tutorials, and preparing talks. As usual, we will work together and create spaces to conveniently brainstorm and share progress.
+
+At the new [macroexpand gatherings](https://scicloj.github.io/docs/community/groups/macroexpand/) series, we will maintain broader discussions on Cloure's expansion to new fields. Academia, research, education, data analysis, and art, are a few of the directions we will explore. Community members will share past experiences, discuss pain points, and come up with actionable ways to collaborate.
+
+-------
+
+As usual, we are hoping to hear your thoughts. If you have any comments or with to propose anything, let us talk. 
