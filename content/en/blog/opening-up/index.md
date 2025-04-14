@@ -91,6 +91,8 @@ Here we share a few notes from the discussions we had last November, where a few
 
 See also the [#data-science>scicloj paper - initial meeting](https://clojurians.zulipchat.com/#narrow/channel/151924-data-science/topic/scicloj.20paper.20-.20initial.20meeting) topic thread at the [Clojurians Zulip Chat](/docs/community/chat/) and following topic threads on related topics.
 
+Many thanks especially to Blaine Mooers, who highly affected those conversations. As a biochemistry professor, Blaine offered a few thoughtful insights and observations regarding the ways various technologies have grown in academia and what we may learn from that.
+
 Here are some observations and insights by a few of the people involved.
 * We should learn from what other tech communities did when they were smaller. See the paper about Matplotlib, for example. The Tidyverse (and the publishing around it) can be a source of inspiration.
 * Making Clojure **easy** is essential. For better reach to academic groups, tooling is important. Also, a cohesive stack of libraries.
