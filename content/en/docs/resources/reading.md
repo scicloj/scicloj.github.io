@@ -3,7 +3,7 @@ title : "Reading"
 description: "Recommended reading"
 lead: "Recommended reading"
 date: 2022-02-14
-lastmod: 2025-02-13
+lastmod: 2025-04-21
 draft: false
 weight: 32
 images: []
@@ -80,6 +80,10 @@ Contributions are welcome. 👋
 ### Statistics
 
 - [Statistical Computing in Clojure: Functional Approaches to Unsupervised Learning](https://github.com/adabwana/f24-cs7300-final-project/) (PCA with Neanderthal) by Jaryt Salvo, Dec. 2024
+
+### Time series
+
+- [Time Series Forecasting using Clojure](https://colab.research.google.com/drive/1UJD54y8g0UWrJ9IalsvaOF__W6IvvE03?usp=sharing&playground=true) by Anton Lobach, Apr. 2025
 
 ### Math
 
