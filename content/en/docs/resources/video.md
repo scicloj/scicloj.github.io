@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2025-04-23
+lastmod: 2025-04-28
 draft: false
 weight: 33
 images: []
@@ -200,7 +200,8 @@ Most of its meetings have been recorded and shared internally. Some meetings are
 
 ### Community building
 - Sep 2nd, 2024, Clojurists Together Q3 2024 project: Scicloj - initial work plan - [video](https://www.youtube.com/watch?v=WO6mVURUky4)
-- Oct 25th, 2024, Scicloj status report: nurturing the Clojure open-source community, 2024-10-25 - [video](https://www.youtube.com/watch?v=STnFMpIZlkk)
+- Oct 25th, 2024, Scicloj status report: nurturing the Clojure open-source community - [video](https://www.youtube.com/watch?v=STnFMpIZlkk)
+- April 28th, 2025 - Clojure in new fields - opening up - [video](https://www.youtube.com/watch?v=PWHidCezwFM)
 
 ### Visual-tools
 - Mar. 13th, 2022, Visual tools compatibility - [video](https://www.youtube.com/watch?v=e3M4u1XIVTo)
