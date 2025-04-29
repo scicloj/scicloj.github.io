@@ -2,7 +2,7 @@
 title: "Clojure in new fields - opening up"
 description: ""
 date: 2025-04-12
-lastmod: 2025-04-28
+lastmod: 2025-04-29
 draft: false
 weight: 4
 images: ["./field.jpg"]
@@ -12,6 +12,8 @@ contributors: ["daslu"]
 <img src="field.jpg" alt="grass in sunset, and a far away tree" style="width:100%;"/>
 
 -------------
+
+(:movie_camera: [video discussion](https://www.youtube.com/watch?v=PWHidCezwFM))
 
 Near the end of November 2024, we had a couple of small [meetings](https://scicloj.github.io/blog/scicloj-scientific-papers-initial-planning-meeting/) around the presence of Clojure in academia, one of the areas where we are looking to make Clojure gradually more present.
 
