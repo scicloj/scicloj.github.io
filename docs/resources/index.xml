@@ -4,11 +4,10 @@ For every library, we mark whether it is actively developed (act), and whether i
 Do you wish to add your tutorial to this list? Do you have any suggestions for this list? - Let us talk!
 Scicloj resources #
 The Noj book - Documenting Noj, the main recommended stack of data &amp;amp; science libraries The Clojure Data Tutorials - a community-driven collection of reproducible tutorials, organized using devcontainers The Clojure Data Scrapbook - a community-driven collection of tutorials, with a bit less strict workflow Contributions are welcome.</description></item><item><title>Video</title><link>https://scicloj.github.io/docs/resources/video/</link><pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/docs/resources/video/</guid><description>Tutorial videos #
-2025-03-12 - Noj in a JAR - setup-free Clojure for beginners
+2025-05-02 - Clojure for data analysis - getting started with Noj v2, VSCode, Calva, and Clay by Timothy Pratley and Daniel Slutsky
+2025-03-12 - Noj in a JAR - setup-free Clojure for beginners by Daniel Slutsky
 2025-03-11 - Noj Reload Executable by Timothy Pratley
-2025-01-24 - Noj v2 - getting started - from raw data to a blog post
-2024-12-14 - PCA in Clojure with Neanderthal by Jaryt Salvo
-2024-03-30 - OBSOLETE - Noj - getting started - from raw data to a blog post - note this is about Noj v1</description></item><item><title>Audio</title><link>https://scicloj.github.io/docs/resources/audio/</link><pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/docs/resources/audio/</guid><description>Recommended podcast conversations
+2025-01-24 - Noj v2 - getting started - from raw data to a blog post by Daniel Slutsky</description></item><item><title>Audio</title><link>https://scicloj.github.io/docs/resources/audio/</link><pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/docs/resources/audio/</guid><description>Recommended podcast conversations
 ClojureStream #
 E72 Data Processing with Chris Nuernberger (part 1)
 E73 Data Processing with Chris Nuernberger (part 2)
