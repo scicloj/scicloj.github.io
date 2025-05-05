@@ -14,6 +14,9 @@ images: ["joy2.jpg"]
 
 The goal of this series of meetups is to support our learning, as a community, of the landscape of ideas around AI models. It continues the journey of the [scicloj-llm-meetups](https://scicloj.github.io/docs/community/groups/llm-meetups/) group and broandens the scope to various AI models, their principles, and applications. Some of the content here is specific to the Clojure ecosystem, but many parts of it will be helpful and interesting to broader audiences.
 
+## Chat
+We use the [#scicloj-ai-meetups](https://clojurians.zulipchat.com/#narrow/channel/481583-scicloj-ai-meetups) channel of the [Clojurians Zulip Chat](https://scicloj.github.io/docs/community/chat/) (requires login). Please join the Zulip chat before attending our meetings.
+
 ## Meetings
 * 2025-05-11 (**note the unusual day**), Scicloj AI Meetup 6: LLMs + Clojure = Who needs frameworks? - Part 2 - :calendar: [event](https://clojureverse.org/t/scicloj-ai-meetup-6-llms-clojure-who-needs-frameworks-part-2/)
 * 2025-05-03, Scicloj AI Meetup 5 # Agentic-Driven Data-science # Reliable Extraction of Structured Data from LLM Responses # Writing MCP servers in Clojure, for fun and profit - :movie_camera: (The recording shared internally in the Zulip chat. Some parts will be shared publicly later.)
@@ -65,10 +68,6 @@ The following were held under a few of our other study groups.
     * Dimid Duchovny gave an intro to Linguistics.
     * Daniel Slutsky demosntrated using [spaCy](https://spacy.io/) from Clojure for text classification.
     * Carsten Behring added some comments about the broader picture of interop and machine learning in Clojure.
-
-
-## Chat
-We will use the [#scicloj-ai-meetups](https://clojurians.zulipchat.com/#narrow/channel/481583-scicloj-ai-meetups) channel of the [Clojurians Zulip Chat](https://scicloj.github.io/docs/community/chat/) (requires login). Please join the Zulip chat before attending our meetings.
 
 ## Organizers
 
