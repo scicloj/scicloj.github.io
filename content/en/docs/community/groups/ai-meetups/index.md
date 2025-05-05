@@ -3,7 +3,7 @@ title : "scicloj-ai-meetups: exploring the princples and uses of AI models"
 description: "Scicloj AI meetups"
 lead: ""
 date: 2025-01-28
-lastmod: 2025-05-03
+lastmod: 2025-05-05
 draft: false
 images: ["joy2.jpg"]
 ---
@@ -16,7 +16,7 @@ The goal of this series of meetups is to support our learning, as a community, o
 
 ## Meetings
 * 2025-05-11 (**note the unusual day**), Scicloj AI Meetup 6: LLMs + Clojure = Who needs frameworks? - Part 2 - :calendar: [event](https://clojureverse.org/t/scicloj-ai-meetup-6-llms-clojure-who-needs-frameworks-part-2/)
-* 2025-05-03, Scicloj AI Meetup 5 # Agentic-Driven Data-science # Reliable Extraction of Structured Data from LLM Responses # Writing MCP servers in Clojure, for fun and profit - :movie_camera: (recording coming soon)
+* 2025-05-03, Scicloj AI Meetup 5 # Agentic-Driven Data-science # Reliable Extraction of Structured Data from LLM Responses # Writing MCP servers in Clojure, for fun and profit - :movie_camera: (The recording shared internally in the Zulip chat. Some parts will be shared publicly later.)
 * 2025-04-19, Meeting 4: Scicloj AI Meetup 4 # Weaving LLM tools into the feedback loop # Why MCP Sucks & How To Use It Anyway (Modex) - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-4-weaving-llm-tools-into-the-feedback-loop-why-mcp-sucks-how-to-use-it-anyway-modex-summary-recording/)
 * 2025-04-05, Meeting 3: LLMs + Clojure = Who needs frameworks? (recording shared internally in the Zulip chat)
 * 2025-03-22, Meeting 2: practice session - build a RAG - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-2-practice-session-build-a-rag-summary-recording/)
