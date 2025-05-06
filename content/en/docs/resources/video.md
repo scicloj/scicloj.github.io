@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2025-05-03
+lastmod: 2025-05-06
 draft: false
 weight: 33
 images: []
@@ -82,6 +82,7 @@ The reClojure 2020 conrefnere offered a few data & science talks.
 - [Feb 22nd 2025](https://www.youtube.com/watch?v=HwoGMhIx5w0) - meeting 1: voice-fn - real-time voice-enabled AI pipelines
 - [Mar 22nd 2025](https://www.youtube.com/watch?v=fvcnCxFHyos) - meeting 2: practice session - build a RAG
 - [Apr 19th 2025](https://www.youtube.com/watch?v=DN0l78bFsDY) - meeting 4: # Weaving LLM tools into the feedback loop # Why MCP Sucks & How To Use It Anyway (Modex)
+- [May 3rd 2025](https://www.youtube.com/watch?v=IkxKVcv_63o) - meeting 5: # Agentic-Driven Data-science # Reliable Extraction of Structured Data from LLM Responses # Writing MCP servers in Clojure, for fun and profit
 
 ### real-world-data
 (most content is only shared internally in the group chat)
