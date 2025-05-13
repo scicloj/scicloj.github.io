@@ -3,7 +3,7 @@ title : "visual-tools: regular updates & discussions around building visual tool
 description: "The visual-tools group"
 lead: ""
 date: 2022-02-17
-lastmod: 2025-05-07
+lastmod: 2025-05-13
 draft: false
 images: []
 ---
@@ -20,7 +20,7 @@ Our meetings are announced on the [Clojure Calendar Feed](https://clojureverse.o
 
 * Upcoming talk (TBD): a browser-UI for Clay
 
-* Meeting 34 (May 18th 2025): Clojure in WASM, docker-nrepl.el - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-34-clojure-in-wasm-docker-nrepl-el/)
+* Meeting 34 (May 18th 2025): Clojure in WASM, docker-nrepl.el, nrepl-ws-server, nrepl-ws-client, Clay UI - :calendar: [event](https://clojureverse.org/t/visual-tools-meeting-34-clojure-in-wasm-docker-nrepl-el/)
 * Meeting 33 (Mar 27th 2025): Workflow Demos 7 - Clojure Sublimed, Sublime Executor, clj-reload, clojure-plus, Clay - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-33-workflow-demos-7-clojure-sublimed-sublime-executor-clj-reload-clojure-plus-clay-summary-recording/)
 * Meeting 32 (Mar 26th 2025): Workflow Demos 6 - old-school tools, REPL, Emacs, Org-mode, AI, MCP, & more - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-32-workflow-demos-6-old-school-tools-repl-emacs-org-mode-ai-mcp-more/)
 * Meeting 31 (Mar 24th 2025): Workflow Demos 5 - Clay - :movie_camera: [summary & recording](https://clojureverse.org/t/visual-tools-meeting-31-workflow-demos-5-clay-summary-recording/)
