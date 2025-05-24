@@ -3,7 +3,7 @@ title : "scicloj-ai-meetups: exploring the princples and uses of AI models"
 description: "Scicloj AI meetups"
 lead: ""
 date: 2025-01-28
-lastmod: 2025-05-06
+lastmod: 2025-05-25
 draft: false
 images: ["joy2.jpg"]
 ---
@@ -18,8 +18,8 @@ The goal of this series of meetups is to support our learning, as a community, o
 We use the [#scicloj-ai-meetups](https://clojurians.zulipchat.com/#narrow/channel/481583-scicloj-ai-meetups) channel of the [Clojurians Zulip Chat](https://scicloj.github.io/docs/community/chat/) (requires login). Please join the Zulip chat before attending our meetings.
 
 ## Meetings
-* 2025-05-24 Scicloj AI Meetup 7: Can we turn CoPilot into an Interactive Programmer? - :calendar: [event](https://clojureverse.org/t/scicloj-ai-meetup-7-can-we-turn-copilot-into-an-interactive-programmer/)
-* 2025-05-11 (**note the unusual day**), Scicloj AI Meetup 6: LLMs + Clojure = Who needs frameworks? - Part 2 - :calendar: [event](https://clojureverse.org/t/scicloj-ai-meetup-6-llms-clojure-who-needs-frameworks-part-2/)
+* 2025-05-24 Scicloj AI Meetup 7: Can we turn CoPilot into an Interactive Programmer? - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-7-can-we-turn-copilot-into-an-interactive-programmer-noj-prompt-catalogue-summary-recording/)
+* 2025-05-11 Scicloj AI Meetup 6: LLMs + Clojure = Who needs frameworks? - Part 2
 * 2025-05-03, Scicloj AI Meetup 5 # Agentic-Driven Data-science # Reliable Extraction of Structured Data from LLM Responses # Writing MCP servers in Clojure, for fun and profit - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-5-agentic-data-science-structured-data-from-llms-mcp-sdk-summary-recording/)
 * 2025-04-19, Meeting 4: Scicloj AI Meetup 4 # Weaving LLM tools into the feedback loop # Why MCP Sucks & How To Use It Anyway (Modex) - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-4-weaving-llm-tools-into-the-feedback-loop-why-mcp-sucks-how-to-use-it-anyway-modex-summary-recording/)
 * 2025-04-05, Meeting 3: LLMs + Clojure = Who needs frameworks? (recording shared internally in the Zulip chat)
