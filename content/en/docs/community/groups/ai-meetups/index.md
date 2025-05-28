@@ -19,6 +19,8 @@ We use the [#scicloj-ai-meetups](https://clojurians.zulipchat.com/#narrow/channe
 
 ## Meetings
 
+Please rsvp 🍇 to the meetings through the event pages at Clojureverse.
+
 * 2025-06-07 Scicloj AI Meetup 8: [Clojure-MCP](https://github.com/bhauman/clojure-mcp) - :calendar: [event](https://clojureverse.org/t/scicloj-ai-meetup-8-clojure-mcp/)
 * 2025-05-24 Scicloj AI Meetup 7 # Can we turn CoPilot into an Interactive Programmer? # Noj prompt catalogue POC - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-7-can-we-turn-copilot-into-an-interactive-programmer-noj-prompt-catalogue-summary-recording/)
 * 2025-05-11 Scicloj AI Meetup 6: LLMs + Clojure = Who needs frameworks? - Part 2
