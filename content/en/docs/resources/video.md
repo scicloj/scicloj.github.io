@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2025-05-25
+lastmod: 2025-05-28
 draft: false
 weight: 33
 images: []
@@ -24,6 +24,11 @@ contributors: ["daslu"]
 
 - 2024-03-30 - [OBSOLETE - Noj - getting started - from raw data to a blog post](https://www.youtube.com/watch?v=5GluhUmMlpM) - note this is about Noj v1
 
+## SciNoj Light #1
+
+- [Conference website](https://scicloj.github.io/scinoj-light-1/)
+- [Schedule & recordings](https://scicloj.github.io/scinoj-light-1/schedule.html)
+- [Playlist](https://www.youtube.com/playlist?list=PLb_VRZPxjMAAaoAPnk8ClWET3baRV1Whv)
 
 ## Clojure Conj 2024
 - ["Scientific Clojure, a bird's eye view" by Thomas Clark](https://www.youtube.com/watch?v=_D5d6Ls6pBw)
