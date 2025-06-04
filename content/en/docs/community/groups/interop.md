@@ -1,9 +1,9 @@
 ---
-title : "{coming soon} a dev group about interop and transpilers"
+title : "{on hold} a dev group about interop and transpilers"
 description: "a dev group about interop and transpilers"
 lead: ""
 date: 2023-12-09
-lastmod: 2024-05-25
+lastmod: 2025-06-04
 draft: false
 images: []
 ---
