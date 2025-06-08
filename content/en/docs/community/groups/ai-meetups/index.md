@@ -3,7 +3,7 @@ title : "scicloj-ai-meetups: exploring the princples and uses of AI models"
 description: "Scicloj AI meetups"
 lead: ""
 date: 2025-01-28
-lastmod: 2025-06-07
+lastmod: 2025-06-08
 draft: false
 images: ["joy2.jpg"]
 ---
@@ -21,7 +21,7 @@ We use the [#scicloj-ai-meetups](https://clojurians.zulipchat.com/#narrow/channe
 
 Please rsvp 🍇 to the meetings through the event pages at Clojureverse.
 
-* 2025-06-07 Scicloj AI Meetup 8: [Clojure-MCP](https://github.com/bhauman/clojure-mcp)
+* 2025-06-07 Scicloj AI Meetup 8: [Clojure-MCP](https://github.com/bhauman/clojure-mcp) - recording coming soon
 * 2025-05-24 Scicloj AI Meetup 7 # Can we turn CoPilot into an Interactive Programmer? # Noj prompt catalogue POC - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-7-can-we-turn-copilot-into-an-interactive-programmer-noj-prompt-catalogue-summary-recording/)
 * 2025-05-11 Scicloj AI Meetup 6: LLMs + Clojure = Who needs frameworks? - Part 2
 * 2025-05-03, Scicloj AI Meetup 5 # Agentic-Driven Data-science # Reliable Extraction of Structured Data from LLM Responses # Writing MCP servers in Clojure, for fun and profit - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-5-agentic-data-science-structured-data-from-llms-mcp-sdk-summary-recording/)
