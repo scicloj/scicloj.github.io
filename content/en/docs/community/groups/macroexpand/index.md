@@ -21,6 +21,8 @@ We're starting regular online meetups to help Clojure reach new users and commun
 
 ## Meetings
 
+* Coming soon: macroexpand-communities - a gathering where representatives of Clojure communities (local and online) will share their experiences and future hopes, and initiate some work on common resources
+
 * May 17th 2025 - [macroexpand-1](https://scicloj.github.io/scinoj-light-1/sessions.html#macroexpand-1) (:movie_camera: [video]( https://www.youtube.com/watch?v=2TY6cJ8YiwU)) - part of the [SciNoj Light #1](https://scicloj.github.io/scinoj-light-1/) conference
 
 ## Background
