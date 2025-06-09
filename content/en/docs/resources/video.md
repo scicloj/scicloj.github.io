@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2025-05-28
+lastmod: 2025-06-07
 draft: false
 weight: 33
 images: []
@@ -154,6 +154,7 @@ The visual tools group is about creating collaborations across differnent toolin
 - [Mar 24rd, 2025](https://www.youtube.com/watch?v=WiOUiHsq_dc) - Workflow Demos 5: Clay
 - [Mar 26th, 2025](https://www.youtube.com/watch?v=oV9F9bmPr58) -Workflow Demos 6 - old-school tools, REPL, Emacs, Org-mode, AI, MCP, & more
 - [Mar 27th, 2025](https://www.youtube.com/watch?v=c0Rl9DKOTOY) - Clojure Sublimed, Sublime Executor, clj-reload, clojure-plus, Clay
+- [May 18th, 2025](https://www.youtube.com/watch?v=i3x0z9mzWm0) - partial recording: nrepl-ws-server, nrepl-ws-client, Clay (the complete raw recording was shared in the group chat)
 
 ### llm meetups
 The goal of this series of meetups is to support our learning, as a community, of the new landscape of ideas around large language models.
