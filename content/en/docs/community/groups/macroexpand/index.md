@@ -39,7 +39,7 @@ That's why we're running *macroexpand* - regular gatherings where Clojurians can
 
 Each macroexpand gathering will focus on one area where we'd like to see more Clojure adoption - like education, research, academia, or art. Note these areas naturally overlap.
 
-Meetings will run between 90 minutes and a few hours, mixing short talks with open discussion. We'll record key parts and create clear next steps for follow-up.
+Meetings will run between 90 minutes to a few hours, mixing short talks with open discussion. We'll record key parts and create clear next steps for follow-up.
 
 We're keeping things simple and informal to make it easy to join in, share ideas, and find others to work with.
 
