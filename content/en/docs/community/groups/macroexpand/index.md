@@ -3,7 +3,7 @@ title: "macroexpand gatherings - expanding Clojure's horizons"
 description: "macroexpand gatherings - community meetups for Clojure growth"
 lead: ""
 date: 2025-03-24
-lastmod: 2025-07-13
+lastmod: 2025-07-14
 draft: false
 images: ["sci-cloj-logo-transparent.png"]
 ---
@@ -21,7 +21,7 @@ We're running regular online meetups to help Clojure reach new domains and use c
 
 * Coming soon: macroexpand-3 - a gathering where representatives of Clojure communities (local and online) will share their experiences and future hopes, and initiate some work on common resources
 
-* Aug 9th 2025: macroexpand-2 - connecting Clojure data practitioners, startups, consultancies, and academics - TBA
+* Aug 9th 2025: macroexpand-2 - connecting Clojure data practitioners, startups, consultancies, and academics - :calendar: [event](https://clojureverse.org/t/macroexpand-2-connecting-clojure-data-practitioners/)
 
 * May 17th 2025 - [macroexpand-1](https://scicloj.github.io/scinoj-light-1/sessions.html#macroexpand-1) (:movie_camera: [video]( https://www.youtube.com/watch?v=2TY6cJ8YiwU)) - part of the [SciNoj Light #1](https://scicloj.github.io/scinoj-light-1/) conference
 
