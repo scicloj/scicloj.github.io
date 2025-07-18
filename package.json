@@ -42,7 +42,7 @@
     "@hyas/doks": "^0.4",
     "auto-changelog": "^2.5.0",
     "autoprefixer": "^10.4",
-    "bootstrap": "^5.1",
+    "bootstrap": "^5.3",
     "clipboard": "^2.0",
     "eslint": "^9.15",
     "exec-bin": "^1.0.0",
