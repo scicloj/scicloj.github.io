@@ -14,7 +14,7 @@ contributors: ["Alan Marazzi", "daslu"]
 
 **Scicloj** is an open source group and community building project. It focuses on helping Clojure grow into new fields, use cases, and professions.
 
-While it began with a narrow focus on data science and scientific computing, throughout the years, it expanded its scope to the broader problem of Clojure growth.
+While it began with the focus on data science and scientific computing, throughout the years, it expanded its scope to the broader problem of Clojure growth.
 
 There are various places where activities move forward (for more info check the [Where](#where) section), and they are all open to discussion and contribution.
 
@@ -28,7 +28,7 @@ Everyone is welcome to contribute, to consume and to use **Scicloj** however the
 
 As data practitioners, we wish our work to be simple and easy. We wish to have elegant and dynamic ways to expess ourselves, explore, and build robust systems. Functional programming and Lisp offer promising ideas to support that, and these ideas meet in quite a pragmatic way -- and in harmony -- in Clojure.
 
-While Clojure already offers the common needs for typical data problems, it surely needs to keep growing with the depth and breadth of diverse domains, use cases, and communities. 
+While Clojure already covers the common needs for typical data problems, it surely needs to keep growing with the depth and breadth of diverse domains, use cases, and communities. 
 
 Making that happen is a technical challenge as well as a social one. It requires persistent work of open-souce collaboration and community buiilding.
 
