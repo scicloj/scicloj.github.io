@@ -1,7 +1,7 @@
 ---
 title : "Scicloj"
-description: "Building a platform for data science in Clojure"
-lead: "Building a platform for data science in Clojure"
+description: "Helping Clojure grow in new fields"
+lead: "Helping Clojure grow in new fields"
 news1title: "📅Follow our events at the Clojure Events Calendar Feed📅"
 news1link: "/docs/community/events/"
 news2title: "🧪Join our dev and study groups🖉"
