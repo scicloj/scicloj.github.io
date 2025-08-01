@@ -17,7 +17,7 @@ The group usually meets every second Friday, 14:00 [UTC time zone](https://time.
 except for some special meetings.
 
 * July 27th, 2025 - meeting 33
-* publicly shared snippet: [Looking Ahead to Macroexpand -- a snippet of Clojure real-world-data meeting 33](https://www.youtube.com/watch?v=0Onznyaufc0)
+  * publicly shared snippet: [Looking Ahead to Macroexpand -- a snippet of Clojure real-world-data meeting 33](https://www.youtube.com/watch?v=0Onznyaufc0) - discussed the upcoming [macroexpand-2 gathering](https://clojureverse.org/t/macroexpand-2-connecting-clojure-data-practitioners/), [the macroexpand-2025 conferences](https://scicloj.github.io/macroexpand-2025/), and the [Clojure Civitas](https://clojurecivitas.github.io/) community space
 * June 13th, 2025 - meeting 32 (cancelled)
 * May 30th, 2025 - meeting 31 - agenda: [Noj](https://scicloj.github.io/noj) demo, training questions, publishing with [Clay](https://scicloj.github.io/clay)+[Quarto](https://quarto.org/), beginner-friendly containers (details in Zulip chat)
 * May 3nd, 2025 - meeting 30 - special conference prep meeting - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-30-special-day-time-conference-prep-meeting/)
