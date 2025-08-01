@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-17
-lastmod: 2025-06-18
+lastmod: 2025-08-02
 draft: false
 images: []
 ---
@@ -16,6 +16,8 @@ The real-world-data group is about the use of Clojure for data and science probl
 The group usually meets every second Friday, 14:00 [UTC time zone](https://time.is/utc),
 except for some special meetings.
 
+* July 27th, 2025 - meeting 33
+* publicly shared snippet: [Looking Ahead to Macroexpand -- a snippet of Clojure real-world-data meeting 33](https://www.youtube.com/watch?v=0Onznyaufc0)
 * June 13th, 2025 - meeting 32 (cancelled)
 * May 30th, 2025 - meeting 31 - agenda: [Noj](https://scicloj.github.io/noj) demo, training questions, publishing with [Clay](https://scicloj.github.io/clay)+[Quarto](https://quarto.org/), beginner-friendly containers (details in Zulip chat)
 * May 3nd, 2025 - meeting 30 - special conference prep meeting - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-30-special-day-time-conference-prep-meeting/)
