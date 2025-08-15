@@ -91,6 +91,7 @@ The reClojure 2020 conrefnere offered a few data & science talks.
 - [May 3rd 2025](https://www.youtube.com/watch?v=IkxKVcv_63o) - meeting 5: # Agentic-Driven Data-science # Reliable Extraction of Structured Data from LLM Responses # Writing MCP servers in Clojure, for fun and profit
 - [May 24th 2025](https://www.youtube.com/watch?v=kmW804dNqgA) - meeting 7: # Can we turn CoPilot into an Interactive Programmer? # Noj prompt catalogue POC
 - [June 7th 2025](https://www.youtube.com/watch?v=36hOSp83ozM) - meeting 8: Clojure-MCP
+- [Aug 13th 2025](https://www.youtube.com/watch?v=uAgWcoDDOGs) - meeting 9: Editor Code Assistant (ECA)
 
 ### real-world-data
 (most content is only shared internally in the group chat)
