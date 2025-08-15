@@ -3,7 +3,7 @@ title : "scicloj-ai-meetups: exploring the princples and uses of AI models"
 description: "Scicloj AI meetups"
 lead: ""
 date: 2025-01-28
-lastmod: 2025-08-15
+lastmod: 2025-08-16
 draft: false
 images: ["joy2.jpg"]
 ---
@@ -25,7 +25,7 @@ See also the meetings occasionally initiated at the [#ai-assisted-coding](https:
 
 * 2025-08-23 Scicloj AI Meetup 11: Agentic workflows with [Grain](https://github.com/ObneyAI/grain) - :calendar: [event](https://clojureverse.org/t/scicloj-ai-meetup-11-agentic-workflows-with-grain/)
 * 2025-08-16 Scicloj AI Meetup 10: [datascript-mcp-server](https://github.com/xlisp/datascript-mcp-server) - :calendar: [event](https://clojureverse.org/t/scicloj-ai-meetup-10-datascript-mcp-server/)
-* 2025-08-13 Scicloj AI Meetup 9: [eca](https://github.com/editor-code-assistant/eca) - :movie_camera: recording coming soon
+* 2025-08-13 Scicloj AI Meetup 9: [eca](https://github.com/editor-code-assistant/eca) - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-9-editor-code-assistant-eca-summary-recording/)
 * 2025-06-07 Scicloj AI Meetup 8: [Clojure-MCP](https://github.com/bhauman/clojure-mcp) - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-8-clojure-mcp-summary-recording/)
 * 2025-05-24 Scicloj AI Meetup 7 # Can we turn CoPilot into an Interactive Programmer? # Noj prompt catalogue POC - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-7-can-we-turn-copilot-into-an-interactive-programmer-noj-prompt-catalogue-summary-recording/)
 * 2025-05-11 Scicloj AI Meetup 6: LLMs + Clojure = Who needs frameworks? - Part 2
