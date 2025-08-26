@@ -3,7 +3,7 @@ title : "scicloj-ai-meetups: exploring the princples and uses of AI models"
 description: "Scicloj AI meetups"
 lead: ""
 date: 2025-01-28
-lastmod: 2025-08-17
+lastmod: 2025-08-26
 draft: false
 images: ["joy2.jpg"]
 ---
@@ -23,7 +23,7 @@ Please rsvp 🍇 to the meetings through the event pages at Clojureverse.
 
 See also the meetings occasionally initiated at the [#ai-assisted-coding](https://clojurians.slack.com/archives/C068E9L5M2Q) channel at the Clojurian Slack, such as the [June 21st meeting](https://clojureverse.org/t/ai-assisted-coding-clojure-meetup/) initiated by John Newman and Bruce Hauman.
 
-* 2025-08-23 Scicloj AI Meetup 11: Agentic workflows with [Grain](https://github.com/ObneyAI/grain) - :calendar: [event](https://clojureverse.org/t/scicloj-ai-meetup-11-agentic-workflows-with-grain/)
+* 2025-08-23 Scicloj AI Meetup 11: Agentic workflows with [Grain](https://github.com/ObneyAI/grain) - :movie_camera: recording coming soon
 * 2025-08-16 Scicloj AI Meetup 10: [datascript-mcp-server](https://github.com/xlisp/datascript-mcp-server) - :movie_camera: recording coming soon
 * 2025-08-13 Scicloj AI Meetup 9: [eca](https://github.com/editor-code-assistant/eca) - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-9-editor-code-assistant-eca-summary-recording/)
 * 2025-06-07 Scicloj AI Meetup 8: [Clojure-MCP](https://github.com/bhauman/clojure-mcp) - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-8-clojure-mcp-summary-recording/)
