@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-17
-lastmod: 2025-08-16
+lastmod: 2025-09-17
 draft: false
 images: []
 ---
@@ -16,6 +16,7 @@ The real-world-data group is about the use of Clojure for data and science probl
 The group usually meets every second Friday, 14:00 [UTC time zone](https://time.is/utc),
 except for some special meetings.
 
+* Sep 17th, 2025 - meeting 35 - agenda: preparing a Clojure data science workshop with [Noj](https://scicloj.github.io/noj/), and more (details in Zulip chat)
 * Aug 8th, 2025 - meeting 34 - agenda: diverse topics (in Zulip chat)
  * publicly shared snippet: :movie_camera: [Clojure for biomedical research - Mike Travers](https://www.youtube.com/watch?v=FzCHclYf6Ns)
 * July 27th, 2025 - meeting 33
