@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2025-08-16
+lastmod: 2025-09-22
 draft: false
 weight: 33
 images: []
@@ -92,6 +92,8 @@ The reClojure 2020 conrefnere offered a few data & science talks.
 - [May 24th 2025](https://www.youtube.com/watch?v=kmW804dNqgA) - meeting 7: # Can we turn CoPilot into an Interactive Programmer? # Noj prompt catalogue POC
 - [June 7th 2025](https://www.youtube.com/watch?v=36hOSp83ozM) - meeting 8: Clojure-MCP
 - [Aug 13th 2025](https://www.youtube.com/watch?v=uAgWcoDDOGs) - meeting 9: Editor Code Assistant (ECA)
+- [Aug 16th 2025](https://www.youtube.com/watch?v=kpM1EEmIOp4) - meeting 10: datascript-mcp-server | assisted datavis with clay & gptel
+- [Aug 23th 2025](https://www.youtube.com/watch?v=hvchFTa5z0I) - meeting 11: Agentic workflows with Grain
 
 ### real-world-data
 (most content is only shared internally in the group chat)
