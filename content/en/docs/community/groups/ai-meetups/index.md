@@ -3,7 +3,7 @@ title : "scicloj-ai-meetups: exploring the princples and uses of AI models"
 description: "Scicloj AI meetups"
 lead: ""
 date: 2025-01-28
-lastmod: 2025-10-14
+lastmod: 2025-11-04
 draft: false
 images: ["joy2.jpg"]
 ---
@@ -14,7 +14,7 @@ images: ["joy2.jpg"]
 
 The goal of this group is to support our learning and research, as a community, of the landscape of ideas around AI models. It continues the journey of the [scicloj-llm-meetups](https://scicloj.github.io/docs/community/groups/llm-meetups/) group and broandens the scope to various AI models, their principles, and applications. Some of the content here is specific to the Clojure ecosystem, but many parts of it will be helpful and interesting to broader audiences.
 
-See you at the upcoming [Macroexpand-Deep](https://scicloj.github.io/macroexpand-2025/macroexpand_deep) conference!
+We recently spent a couple of days with Clojure AI talks and discussions at the [Macroexpand-Deep](https://scicloj.github.io/macroexpand-2025/macroexpand_deep) conference.
 
 ## Chat
 We use the [#scicloj-ai-meetups](https://clojurians.zulipchat.com/#narrow/channel/481583-scicloj-ai-meetups) channel of the [Clojurians Zulip Chat](https://scicloj.github.io/docs/community/chat/) (requires login). Please join the Zulip chat before attending our meetings.
