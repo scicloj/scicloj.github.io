@@ -11,6 +11,12 @@ draft: false
 
 The goal of this study group is to learn signal processing together by implementing concepts from the book [**Think DSP**](https://greenteapress.com/wp/think-dsp/) by Allen B. Downey in Clojure. This hands-on approach allows us to learn digital signal processing fundamentals while exploring how Clojure's features can be applied to numerical and scientific computing.
 
+## Meetings
+
+Meetings typically last 120 minutes and are announced on [ClojureVerse](https://clojureverse.org/).
+
+* 2025-11-02 Clojure DSP Meeting - :calendar: [event](https://clojureverse.org/t/clojure-dsp-meeting-2025-11-02/)
+
 ## About Think DSP
 
 [Think DSP](https://greenteapress.com/wp/think-dsp/) is an introduction to Digital Signal Processing in Python. We'll be translating the concepts and exercises into Clojure, which provides an excellent opportunity to:
@@ -27,14 +33,6 @@ The book author, Allen B. Downey, has generously provided [Jupyter notebooks](ht
 We use the [#dsp](https://clojurians.zulipchat.com/#narrow/channel/dsp) channel of the [Clojurians Zulip Chat](https://scicloj.github.io/docs/community/chat/) (requires login). Please join the Zulip chat to participate in discussions and stay updated on meetings.
 
 To be added to the calendar invitations, please write to us.
-
-## Meetings
-
-Meetings typically last 120 minutes and are announced on [ClojureVerse](https://clojureverse.org/).
-
-### Upcoming/Recent Meetings
-
-* 2025-11-02 Clojure DSP Meeting - :calendar: [event](https://clojureverse.org/t/clojure-dsp-meeting-2025-11-02/)
 
 ## Notes and Resources
 
