@@ -15,8 +15,8 @@ The goal of this study group is to learn signal processing together by implement
 
 Meetings typically last 120 minutes and are announced on [ClojureVerse](https://clojureverse.org/).
 
-* 2025-11-08 meeting - :calendar: [event](https://clojureverse.org/t/clojure-dsp-meeting-2025-11-08/) :speech_baloon: [chat](https://clojurians.zulipchat.com/#narrow/channel/465523-dsp/topic/meeting.202025-11-08/)
-* 2025-11-02 meeting - :calendar: [event](https://clojureverse.org/t/clojure-dsp-meeting-2025-11-02/) :speech_baloon: [chat](https://clojurians.zulipchat.com/#narrow/channel/465523-dsp/topic/meeting.202025-11-02)
+* 2025-11-08 meeting - :calendar: [event](https://clojureverse.org/t/clojure-dsp-meeting-2025-11-08/) 🗩 [chat](https://clojurians.zulipchat.com/#narrow/channel/465523-dsp/topic/meeting.202025-11-08/)
+* 2025-11-02 meeting - :calendar: [event](https://clojureverse.org/t/clojure-dsp-meeting-2025-11-02/) 🗩 [chat](https://clojurians.zulipchat.com/#narrow/channel/465523-dsp/topic/meeting.202025-11-02)
 
 
 ## About Think DSP
