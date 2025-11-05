@@ -9,7 +9,7 @@ draft: false
 
 [📅Follow our meetings on the Clojure Calendar Feed📅](/docs/community/events/)
 
-The goal of this study group is to learn signal processing together by implementing concepts from the book [**Think DSP**](https://greenteapress.com/wp/think-dsp/) by Allen B. Downey in Clojure. This hands-on approach allows us to deeply understand digital signal processing fundamentals while exploring how Clojure's features can be applied to numerical and scientific computing.
+The goal of this study group is to learn signal processing together by implementing concepts from the book [**Think DSP**](https://greenteapress.com/wp/think-dsp/) by Allen B. Downey in Clojure. This hands-on approach allows us to learn digital signal processing fundamentals while exploring how Clojure's features can be applied to numerical and scientific computing.
 
 ## About Think DSP
 
