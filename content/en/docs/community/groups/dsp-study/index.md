@@ -3,7 +3,7 @@ title : "Clojure DSP Study Group: Learning Signal Processing with Clojure"
 description: "Clojure DSP Study Group"
 lead: ""
 date: 2025-11-05
-lastmod: 2025-11-09
+lastmod: 2025-11-10
 draft: false
 ---
 
@@ -17,7 +17,7 @@ Meetings typically last 120 minutes and are announced on [ClojureVerse](https://
 
 * 2025-11-09 meeting - :calendar: [event](https://clojureverse.org/t/clojure-dsp-meeting-2025-11-09/) 🗩 [chat](https://clojurians.zulipchat.com/#narrow/channel/465523-dsp/topic/meeting.202025-11-09/) 
 * 2025-11-08 meeting - :calendar: [event](https://clojureverse.org/t/clojure-dsp-meeting-2025-11-08/) 🗩 [chat](https://clojurians.zulipchat.com/#narrow/channel/465523-dsp/topic/meeting.202025-11-08/) 
-* 2025-11-02 meeting - :calendar: [event](https://clojureverse.org/t/clojure-dsp-meeting-2025-11-02/) 🗩 [chat](https://clojurians.zulipchat.com/#narrow/channel/465523-dsp/topic/meeting.202025-11-02) :notebook: [notes](https://clojurecivitas.github.io/signal_processing/intro)
+* 2025-11-02 meeting - :calendar: [event](https://clojureverse.org/t/clojure-dsp-meeting-2025-11-02/) 🗩 [chat](https://clojurians.zulipchat.com/#narrow/channel/465523-dsp/topic/meeting.202025-11-02) :notebook: [notes](https://clojurecivitas.github.io/dsp/intro)
 
 
 ## About Think DSP
