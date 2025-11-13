@@ -3,7 +3,7 @@ title : "Clojure DSP Study Group: Learning Signal Processing with Clojure"
 description: "Clojure DSP Study Group"
 lead: ""
 date: 2025-11-05
-lastmod: 2025-11-10
+lastmod: 2025-11-13
 draft: false
 ---
 
@@ -15,7 +15,7 @@ The goal of this study group is to learn signal processing together by implement
 
 Meetings typically last 120 minutes and are announced on [ClojureVerse](https://clojureverse.org/).
 
-* 2025-11-09 meeting - :calendar: [event](https://clojureverse.org/t/clojure-dsp-meeting-2025-11-09/) 🗩 [chat](https://clojurians.zulipchat.com/#narrow/channel/465523-dsp/topic/meeting.202025-11-09/) 
+* 2025-11-09 meeting - :calendar: [event](https://clojureverse.org/t/clojure-dsp-meeting-2025-11-09/) 🗩 [chat](https://clojurians.zulipchat.com/#narrow/channel/465523-dsp/topic/meeting.202025-11-09/) :notebook: [notes](https://clojurecivitas.github.io/dsp/wav_files)
 * 2025-11-08 meeting - :calendar: [event](https://clojureverse.org/t/clojure-dsp-meeting-2025-11-08/) 🗩 [chat](https://clojurians.zulipchat.com/#narrow/channel/465523-dsp/topic/meeting.202025-11-08/) 
 * 2025-11-02 meeting - :calendar: [event](https://clojureverse.org/t/clojure-dsp-meeting-2025-11-02/) 🗩 [chat](https://clojurians.zulipchat.com/#narrow/channel/465523-dsp/topic/meeting.202025-11-02) :notebook: [notes](https://clojurecivitas.github.io/dsp/intro)
 
