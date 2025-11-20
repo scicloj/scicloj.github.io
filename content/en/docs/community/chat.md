@@ -3,7 +3,7 @@ title : "Chat"
 description: ""
 lead: ""
 date: 2022-02-14
-lastmod: 2025-04-02
+lastmod: 2025-11-20
 draft: false
 weight: 24
 images: []
@@ -65,13 +65,20 @@ Here are the main scicloj-related active streams, dedicated to certain subgroups
 
 - [#r-interop](https://clojurians.zulipchat.com/#narrow/stream/204621-r-interop) - R-interop development and usage: various libraries such as [graalvm-interop](https://github.com/davidpham87/graalvm-rinterop) and [clojisr](https://github.com/scicloj/clojisr)
 
-- [#dsp](https://clojurians.zulipchat.com/#narrow/channel/465523-dsp) - discussions of Digital Signal Processing with Fastmath, Supercollider, Overtone, etc.
+
+### Conferences
+
+- [#scinoj-light-1](https://clojurians.zulipchat.com/#narrow/channel/479601-scinoj-light-1/) - discussing the first [Scinoj Light](https://scicloj.github.io/docs/community/groups/scinoj-light/) conference for data analysis
+
+- [#macroexpand-2025](https://clojurians.zulipchat.com/#narrow/channel/536233-macroexpand-2025/) - discussing the [Macroexpand-2025](https://scicloj.github.io/macroexpand-2025/) conferences for data and AI
 
 ### Active study groups / dev groups
 
 For more information, see also the [list](https://scicloj.github.io/docs/community/groups/) of dev & study groups at the website.
 
-- [#scinoj-light-1](https://clojurians.zulipchat.com/#narrow/channel/479601-scinoj-light-1/) - discussing the first [Scinoj Light](https://scicloj.github.io/docs/community/groups/scinoj-light/) conference
+- [#dsp](https://clojurians.zulipchat.com/#narrow/channel/465523-dsp) - discussions of the [Clojure Digital Signal Processing study group](https://scicloj.github.io/docs/community/groups/dsp-study/) 
+
+- [#gis](https://clojurians.zulipchat.com/#narrow/channel/545389-gis/) - discussions of the Clojure GIS group
 
 - [#scicloj-open-source-mentoring](https://clojurians.zulipchat.com/#narrow/stream/451344-scicloj-open-source-mentoring/topic/channel.20events) - discussing the [Scicloj Open Source Mentoring program](https://scicloj.github.io/docs/community/groups/open-source-mentoring/)
 
