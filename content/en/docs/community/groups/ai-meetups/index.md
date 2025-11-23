@@ -3,7 +3,7 @@ title : "scicloj-ai-meetups: exploring the princples and uses of AI models"
 description: "Scicloj AI meetups"
 lead: ""
 date: 2025-01-28
-lastmod: 2025-11-04
+lastmod: 2025-11-23
 draft: false
 images: ["joy2.jpg"]
 ---
@@ -19,11 +19,15 @@ We recently spent a couple of days with Clojure AI talks and discussions at the 
 ## Chat
 We use the [#scicloj-ai-meetups](https://clojurians.zulipchat.com/#narrow/channel/481583-scicloj-ai-meetups) channel of the [Clojurians Zulip Chat](https://scicloj.github.io/docs/community/chat/) (requires login). Please join the Zulip chat before attending our meetings.
 
-## Meetings
+## Upcoming meetings
 
 Please rsvp 🍇 to the meetings through the event pages at Clojureverse.
 
+* 2026-01-17 Agent-o-rama - :calendar: [event](https://clojureverse.org/t/scicloj-ai-meetup-agent-o-rama/)
+
 See also the meetings occasionally initiated at the [#ai-assisted-coding](https://clojurians.slack.com/archives/C068E9L5M2Q) channel at the Clojurian Slack, such as the [June 21st meeting](https://clojureverse.org/t/ai-assisted-coding-clojure-meetup/) initiated by John Newman and Bruce Hauman.
+
+## Past meetings
 
 * 2025-09-30 Scicloj AI Meetup 12: Practicing agentic workflows with Grain - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-12-practicing-grain-summary-recording/)
 * 2025-08-23 Scicloj AI Meetup 11: Agentic workflows with [Grain](https://github.com/ObneyAI/grain) - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-11-agentic-workflows-with-grain-summary-recording/)
