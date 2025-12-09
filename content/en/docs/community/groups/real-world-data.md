@@ -85,7 +85,7 @@ To join, please reach out to us by contacting [Daniel Slutsky](https://clojurian
 We will think together about whether this group fits your path.
 
 ## Sessions
-As a group, we will have biweekly sessions to discuss our ongoing projects. Participants will bring their own data & science problems to the sessions and actively work on them between sessions.
+As a group, we have regular sessions to discuss our ongoing projects. Participants will bring their own data & science problems to the sessions and actively work on them between sessions.
 
 Some of the time will be dedicated to learning relevant practices, ideas, and technical topics.
 
