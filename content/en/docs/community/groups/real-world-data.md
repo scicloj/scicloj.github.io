@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-20
-lastmod: 2025-12-30
+lastmod: 2026-01-07
 draft: false
 images: []
 ---
@@ -16,7 +16,8 @@ The real-world-data group is about the use of Clojure for data and science probl
 The group usually meets every Friday, 18:00 [UTC time zone](https://time.is/utc),
 except for some special meetings.
 
-* Dec 26th, 2025 - meeting 39 - agenda: community projects, Clay, Clojure Civitas, a new plotting library - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-39/)
+* Jan 9th, 2026 - meeting 40 - agenda: community projects, Clay, Clojure Civitas, a new plotting library - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-40/)
+* Jan 2nd, 2026 - meeting 39 - agenda: community projects, Clay, Clojure Civitas, a new plotting library
 * Dec 26th, 2025 - meeting 38 - agenda: community projects, Clay, Clojure Civitas, a new plotting library
 * Dec 19th, 2025 - meeting 37 - agenda: community projects, Clay, Clojure Civitas, a new plotting library
 * Dec 12th, 2025 - meeting 36 - agenda: community projects, Clay, Clojure Civitas, a new plotting library
