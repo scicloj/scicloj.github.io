@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2025-10-14
+lastmod: 2026-02-17
 draft: false
 weight: 33
 images: []
@@ -95,6 +95,7 @@ The reClojure 2020 conrefnere offered a few data & science talks.
 - [Aug 16th 2025](https://www.youtube.com/watch?v=kpM1EEmIOp4) - meeting 10: datascript-mcp-server | assisted datavis with clay & gptel
 - [Aug 23th 2025](https://www.youtube.com/watch?v=hvchFTa5z0I) - meeting 11: Agentic workflows with Grain
 - [Sep 3th 2025](https://www.youtube.com/watch?v=IUzXfvOH2t0) - meeting 12: Practicing Grain
+- [Jan 17th 2026](https://www.youtube.com/watch?v=SCt8MBtFDXQ) - meeting 13: Agent-o-rama
 
 ### real-world-data
 (most content is only shared internally in the group chat)
