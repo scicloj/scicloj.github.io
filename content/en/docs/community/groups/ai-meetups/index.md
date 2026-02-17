@@ -3,7 +3,7 @@ title : "scicloj-ai-meetups: exploring the princples and uses of AI models"
 description: "Scicloj AI meetups"
 lead: ""
 date: 2025-01-28
-lastmod: 2025-11-23
+lastmod: 2026-02-17
 draft: false
 images: ["joy2.jpg"]
 ---
@@ -29,6 +29,7 @@ See also the meetings occasionally initiated at the [#ai-assisted-coding](https:
 
 ## Past meetings
 
+* 2025-09-30 Scicloj AI Meetup 13: Agent-o-rama - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-13-agent-o-rama-summary-recording/)
 * 2025-09-30 Scicloj AI Meetup 12: Practicing agentic workflows with Grain - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-12-practicing-grain-summary-recording/)
 * 2025-08-23 Scicloj AI Meetup 11: Agentic workflows with [Grain](https://github.com/ObneyAI/grain) - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-11-agentic-workflows-with-grain-summary-recording/)
 * 2025-08-16 Scicloj AI Meetup 10: [datascript-mcp-server](https://github.com/xlisp/datascript-mcp-server); Clay & GPTEL - :movie_camera: [summary & recording](https://clojureverse.org/t/scicloj-ai-meetup-10-datascript-mcp-server-assisted-datavis-with-clay-gptel-summary-recording/)
