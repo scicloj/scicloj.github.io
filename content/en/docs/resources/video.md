@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2026-02-17
+lastmod: 2026-02-20
 draft: false
 weight: 33
 images: []
@@ -23,6 +23,12 @@ contributors: ["daslu"]
 - 2024-12-14 - [PCA in Clojure with Neanderthal](https://www.youtube.com/watch?v=6OI5C2qv2Ic) by Jaryt Salvo
 
 - 2024-03-30 - [OBSOLETE - Noj - getting started - from raw data to a blog post](https://www.youtube.com/watch?v=5GluhUmMlpM) - note this is about Noj v1
+
+
+## Macroexpand-2025
+
+- [Conference website](https://scicloj.github.io/macroexpand-2025/)
+- [Playlist](https://www.youtube.com/playlist?list=PLb_VRZPxjMAB46ckEVhWD_ongLO-yK2Ot)
 
 ## SciNoj Light #1
 
