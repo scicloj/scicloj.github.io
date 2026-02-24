@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-20
-lastmod: 2026-02-20
+lastmod: 2026-02-24
 draft: false
 images: []
 ---
@@ -16,6 +16,7 @@ The real-world-data group is about the use of Clojure for data and science probl
 The group usually meets every Friday, 18:00 [UTC time zone](https://time.is/utc),
 except for some special meetings.
 
+* Feb 27th - meeting 48 - agenda: to be discussed at the Zulip chat - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-47/)
 * Feb 20th, 2026 - meeting 47 - agenda: to be discussed at the Zulip chat
 * Feb 13th, 2026 - meeting 46 - agenda: to be discussed at the Zulip chat
 * Feb 6th, 2026 - meeting 45  - agenda: to be discussed at the Zulip chat
