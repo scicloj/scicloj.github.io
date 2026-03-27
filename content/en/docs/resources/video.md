@@ -3,7 +3,7 @@ title : "Video"
 description: "video resources"
 lead: "video resources"
 date: 2022-02-14
-lastmod: 2026-02-20
+lastmod: 2026-03-27
 draft: false
 weight: 33
 images: []
@@ -120,8 +120,10 @@ The reClojure 2020 conrefnere offered a few data & science talks.
   - [Jarkko Saltiola: tools for pipelines, bb-glitchtip](https://www.youtube.com/watch?v=nC86hEglyLQ)
 - July 27th 2025 - meeting 33:
   - [Looking Ahead to Macroexpand](https://www.youtube.com/watch?v=0Onznyaufc0) - discussed the upcoming [macroexpand-2 gathering](https://clojureverse.org/t/macroexpand-2-connecting-clojure-data-practitioners/), [the macroexpand-2025 conferences](https://scicloj.github.io/macroexpand-2025/), and the [Clojure Civitas](https://clojurecivitas.github.io/) community space
-- Aug 8th 202t - meeting 34:
+- Aug 8th 2025 - meeting 34:
   - [Mike Travers: Clojure for biomedical research](https://www.youtube.com/watch?v=FzCHclYf6Ns)
+
+- Mar 25th 2026 - [Meeting 52 - special: EVE with John Newman](https://www.youtube.com/watch?v=0PUfhiz_-0A)
 
 ### ds4clj
 As of Fall 2022, the planned Data Science for Clojure devs course is delayed. Occaionally, we have ad-hoc exploration or prep meetings. Some recordings are shared publicly.
