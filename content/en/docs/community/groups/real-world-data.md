@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-20
-lastmod: 2026-04-21
+lastmod: 2026-05-02
 draft: false
 images: []
 ---
@@ -16,21 +16,21 @@ The real-world-data group is about the use of Clojure for data and science probl
 The group usually meets every Friday, 18:00 [UTC time zone](https://time.is/utc),
 except for some special meetings.
 
-
-* Apr 17rd, 2026 - meeting 57 - agenda: to be discussed at the Zulip chat - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-57/)
-* Apr 17rd, 2026 - meeting 56 - agenda: to be discussed at the Zulip chat
-* Apr 10rd, 2026 - meeting 55 - agenda: to be discussed at the Zulip chat
-* Apr 3rd, 2026 - meeting 54 - agenda: to be discussed at the Zulip chat
-* Mar 27th, 2026 - meeting 53 - agenda: to be discussed at the Zulip chat
+* May 1st, 2025 - meeting 58 - agenda: discussed at the Zulip chat - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-58/)
+* Apr 24rd, 2026 - meeting 57 - agenda: discussed at the Zulip chat
+* Apr 17rd, 2026 - meeting 56 - agenda: discussed at the Zulip chat
+* Apr 10rd, 2026 - meeting 55 - agenda: discussed at the Zulip chat
+* Apr 3rd, 2026 - meeting 54 - agenda: discussed at the Zulip chat
+* Mar 27th, 2026 - meeting 53 - agenda: discussed at the Zulip chat
 * Mar 25th, 2026 - meeting 52 - special: Eve with John Newman :movie_camera: [summary & recording](https://clojureverse.org/t/clojure-real-world-data-52-special-eve-with-john-newman-summary-recording/)
-* Mar 20th, 2026 - meeting 51 - agenda: to be discussed at the Zulip chat
-* Mar 13th, 2026 - meeting 50 - agenda: to be discussed at the Zulip chat
-* Mar 6th, 2026 - meeting 49 - agenda: to be discussed at the Zulip chat
-* Feb 27th, 2026 - meeting 48 - agenda: to be discussed at the Zulip chat
-* Feb 20th, 2026 - meeting 47 - agenda: to be discussed at the Zulip chat
-* Feb 13th, 2026 - meeting 46 - agenda: to be discussed at the Zulip chat
-* Feb 6th, 2026 - meeting 45  - agenda: to be discussed at the Zulip chat
-* Jan 30th, 2026 - meeting 44 - agenda: to be discussed at the Zulip chat
+* Mar 20th, 2026 - meeting 51 - agenda: discussed at the Zulip chat
+* Mar 13th, 2026 - meeting 50 - agenda: discussed at the Zulip chat
+* Mar 6th, 2026 - meeting 49 - agenda: discussed at the Zulip chat
+* Feb 27th, 2026 - meeting 48 - agenda: discussed at the Zulip chat
+* Feb 20th, 2026 - meeting 47 - agenda: discussed at the Zulip chat
+* Feb 13th, 2026 - meeting 46 - agenda: discussed at the Zulip chat
+* Feb 6th, 2026 - meeting 45  - agenda: discussed at the Zulip chat
+* Jan 30th, 2026 - meeting 44 - agenda: discussed at the Zulip chat
 * Jan 23rd, 2026 - meeting 43 - agenda: community projects, Clay, Clojure Civitas, plotting libraries
 * Jan 16th, 2026 - meeting 42 - discissed current community-building hopes and the upcoming [Clojure Jam 2026](https://scicloj.github.io/clojure-jam-2026/)
 * Jan 13th, 2026 - meeting 41 - special meeting: Design in Practice
