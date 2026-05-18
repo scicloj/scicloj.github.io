@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-20
-lastmod: 2026-05-16
+lastmod: 2026-05-18
 draft: false
 images: []
 ---
@@ -16,15 +16,16 @@ The real-world-data group is about the use of Clojure for data and science probl
 The group usually meets every Friday, 18:00 [UTC time zone](https://time.is/utc),
 except for some special meetings.
 
+* May 22th, 2026 - meeting 59 - agenda: discussed at the Zulip chat - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-59/) 
 * *skipped* May 15th
 * *skipped* May 8th 
-* May 1st, 2025 - meeting 58 - agenda: discussed at the Zulip chat - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-58/)
+* May 1st, 2026 - meeting 58 - agenda: discussed at the Zulip chat 
 * Apr 24rd, 2026 - meeting 57 - agenda: discussed at the Zulip chat
 * Apr 17rd, 2026 - meeting 56 - agenda: discussed at the Zulip chat
 * Apr 10rd, 2026 - meeting 55 - agenda: discussed at the Zulip chat
 * Apr 3rd, 2026 - meeting 54 - agenda: discussed at the Zulip chat
 * Mar 27th, 2026 - meeting 53 - agenda: discussed at the Zulip chat
-* Mar 25th, 2026 - meeting 52 - special: Eve with John Newman :movie_camera: [summary & recording](https://clojureverse.org/t/clojure-real-world-data-52-special-eve-with-john-newman-summary-recording/)
+  * Mar 25th, 2026 - meeting 52 - special: Eve with John Newman :movie_camera: [summary & recording](https://clojureverse.org/t/clojure-real-world-data-52-special-eve-with-john-newman-summary-recording/)
 * Mar 20th, 2026 - meeting 51 - agenda: discussed at the Zulip chat
 * Mar 13th, 2026 - meeting 50 - agenda: discussed at the Zulip chat
 * Mar 6th, 2026 - meeting 49 - agenda: discussed at the Zulip chat
