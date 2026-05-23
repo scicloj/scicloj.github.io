@@ -16,6 +16,7 @@ The real-world-data group is about the use of Clojure for data and science probl
 The group usually meets every Friday, 18:00 [UTC time zone](https://time.is/utc),
 except for some special meetings.
 
+* May 29th, 2026 - meeting 60 - agenda: discussed at the Zulip chat - :calendar [event](https://clojureverse.org/t/clojure-real-world-data-60/)
 * May 22th, 2026 - meeting 59 - agenda: discussed at the Zulip chat
 * *skipped* May 15th
 * *skipped* May 8th 
