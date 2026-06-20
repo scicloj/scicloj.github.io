@@ -3,7 +3,7 @@ title: "real-world-data: a space to discuss your data and science projects in Cl
 description: "The real-world-data group"
 lead: ""
 date: 2022-02-20
-lastmod: 2026-06-17
+lastmod: 2026-06-20
 draft: false
 images: []
 ---
@@ -16,10 +16,10 @@ The real-world-data group is about the use of Clojure for data and science probl
 The group usually meets every Friday, 18:00 [UTC time zone](https://time.is/utc),
 except for some special meetings.
 
-* June 19th, 2026 - meeting 62 - special hour - agenda: discussed at the Zulip chat - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-62-special-hour/14931)
+* June 19th, 2026 - meeting 62 - agenda: mostly data visualization and related tooling
 * *skipped* June 12th
-* June 5th, 2026 - meeting 61 - agenda: discussed at the Zulip chat
-* May 29th, 2026 - meeting 60 - agenda: discussed at the Zulip chat
+* June 5th, 2026 - meeting 61 - agenda: Noj getting started experience
+* May 29th, 2026 - meeting 60 - agenda: Easel
 * May 22th, 2026 - meeting 59 - agenda: discussed at the Zulip chat
 * *skipped* May 15th
 * *skipped* May 8th 
