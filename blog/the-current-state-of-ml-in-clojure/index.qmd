@@ -1,5 +1,6 @@
 ---
 title: "The Current State of ML in Clojure"
+description: "This is a cross-post of a recent post by Kira McLean at her blog, that has encouraged a few discussions over the web."
 date: 2024-04-04
 date-modified: 2024-04-15
 author: ["Kira McLean"]

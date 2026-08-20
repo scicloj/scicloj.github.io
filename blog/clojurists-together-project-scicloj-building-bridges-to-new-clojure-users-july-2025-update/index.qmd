@@ -1,5 +1,6 @@
 ---
 title: "Clojurists Together project - Scicloj - Building Bridges to New Clojure Users - July 2025 update"
+description: "Clojurists Together announced a sponsorship for a project by Siyoung Byun -- Scicloj - Building Bridges to New Clojure Users for Q2 2025."
 date: 2025-07-10
 date-modified: 2025-07-10
 author: ["syungb"]

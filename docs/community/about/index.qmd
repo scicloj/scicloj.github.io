@@ -1,5 +1,6 @@
 ---
 title: "About Scicloj"
+description: "Scicloj is an open source group and community building project. It focuses on helping Clojure grow into new fields, use cases, and professions."
 date: 2022-02-14
 author: ["Alan Marazzi", "daslu"]
 ---

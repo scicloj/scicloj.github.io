@@ -1,5 +1,6 @@
 ---
 title: "Scicloj scientific papers - initial planning meeting"
+description: "Now that the Clojure stack for scientific computing is maturing rapidly, the Scicloj group is looking at ways of reaching other communities."
 date: 2024-11-07
 date-modified: 2024-11-23
 author: ["daslu"]

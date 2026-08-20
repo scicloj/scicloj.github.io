@@ -1,5 +1,6 @@
 ---
 title: "Following our first five LLM meetups"
+description: "In May 2023, Scicloj started organizing a series of meetups around Large Language Models."
 date: 2023-09-29
 date-modified: 2023-09-29
 author: ["daslu"]

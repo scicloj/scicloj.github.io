@@ -1,5 +1,6 @@
 ---
 title: "Clojure in new fields - opening up"
+description: "Clarifying our current activity around growing Clojure into new fields and use cases, and reinitiating systematic collaboration in that direction."
 date: 2025-04-12
 date-modified: 2025-04-29
 author: ["daslu"]

@@ -11,9 +11,6 @@ $link-color:    $primary-blue;
 $font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
   "Helvetica Neue", Arial, sans-serif;
 
-$navbar-bg: #ffffff;
-$navbar-fg: #2d3748;
-
 /*-- scss:mixins --*/
 
 @mixin gradient-h {
@@ -209,12 +206,25 @@ body::before {
 
 .quarto-dark {
   .home-cards .home-card {
-    border-color: #2f3439;
-    background-color: #1f2428;
+    border-color: #333a41;
+    background-color: #22282e;
+
+    &:hover {
+      border-color: $primary-blue;
+    }
   }
 
   .home-hero__subtitle,
   .home-cards .home-card p {
-    color: #adb5bd;
+    color: #aab3bc;
+  }
+
+  // Lift link contrast against the dark background.
+  .quarto-container a:not([class]) {
+    color: #7ab8f5;
+  }
+
+  .quarto-post:hover {
+    background-color: rgba($primary-blue, 0.10);
   }
 }

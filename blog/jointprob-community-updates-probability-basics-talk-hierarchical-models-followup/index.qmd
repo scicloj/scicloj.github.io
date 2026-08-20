@@ -1,5 +1,6 @@
 ---
 title: "Jointprob community updates - Probability Basics talk, Hierarchical Models followup"
+description: "TL;DR: See you at the September standalone talk of the Jointprob -- an intro to Probability basics."
 date: 2023-09-28
 date-modified: 2023-09-28
 author: ["daslu"]

@@ -1,5 +1,6 @@
 ---
 title: "Data analyis with Clojure - free workshop, May 10th - initial survey"
+description: "Following the maturing of the Noj toolkit, we are planning a free online workshop for people curious to learn Clojure for data analysis."
 date: 2025-03-29
 date-modified: 2025-05-03
 author: ["daslu"]

@@ -135,8 +135,14 @@ filters:
 format:
   html:
     theme:
-      - cosmo
-      - custom.scss
+      light:
+        - cosmo
+        - custom.scss
+        - theme-light.scss
+      dark:
+        - darkly
+        - custom.scss
+        - theme-dark.scss
     toc: true
     toc-depth: 3
     anchor-sections: true

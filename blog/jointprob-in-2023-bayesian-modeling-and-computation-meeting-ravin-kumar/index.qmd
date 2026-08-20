@@ -1,5 +1,6 @@
 ---
 title: "Jointprob in 2023, Bayesian Modeling and Computation, meeting Ravin Kumar"
+description: "The Jointprob community was created by Scicloj during the summer of 2022, aspiring to be a space where friends of diverse backgrounds can learn & explore…"
 date: 2022-12-31
 date-modified: 2022-12-31
 author: ["daslu"]

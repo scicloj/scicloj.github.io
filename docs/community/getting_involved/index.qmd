@@ -1,5 +1,6 @@
 ---
 title: "Getting Involved"
+description: "Want to help make Clojure a vibrant platform for data science? Here are several ways you can get involved."
 date: 2022-02-15
 author: ["daslu"]
 ---

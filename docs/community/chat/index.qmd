@@ -1,5 +1,6 @@
 ---
 title: "Chat"
+description: "Most of our communication takes place in specific streams (also called channels) at the Clojurians Zulip chat."
 date: 2022-02-14
 author: ["daslu"]
 toc: true

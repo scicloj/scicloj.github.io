@@ -1,5 +1,6 @@
 ---
 title: "Events"
+description: "Our public events are shared at the Clojure calendar feed and across the various Clojure social platforms."
 date: 2024-05-26
 author: ["daslu"]
 ---

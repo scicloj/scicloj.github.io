@@ -1,5 +1,6 @@
 ---
 title: "Launching Columns for Tablecloth"
+description: "This is a cross-post of a recent post by Ethan Miller at his blog, announcing the release of a substantial addition to the Tablecloth library."
 date: 2024-04-13
 date-modified: 2024-06-21
 author: ["Ethan Miller"]

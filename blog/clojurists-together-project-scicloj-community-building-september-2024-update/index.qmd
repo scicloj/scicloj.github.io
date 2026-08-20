@@ -1,5 +1,6 @@
 ---
 title: "Clojurists Together project - Scicloj community building - September 2024 update"
+description: "The Clojurists Together organisation has decided to sponsor Scicloj community building for Q3 2024, as a project by Daniel Slutsky."
 date: 2024-09-30
 date-modified: 2024-11-03
 author: ["daslu"]

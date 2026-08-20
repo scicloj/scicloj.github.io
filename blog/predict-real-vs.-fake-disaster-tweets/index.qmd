@@ -1,5 +1,6 @@
 ---
 title: "Predict real vs. fake disaster tweets"
+description: "Any a little bit more serious machine learning, like participating in a Kaggle competition, requires in my view a form of ML experiment tracking."
 subtitle: "Predict real vs. fake disaster tweets with dvc, Clojure and python "
 date: 2022-09-10
 date-modified: 2022-09-10

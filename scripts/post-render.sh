@@ -53,4 +53,20 @@ if [[ -f "$OUT/search.json" ]]; then
   sed -i -e 's@/index\.html@/@g' -e 's@"index\.html@"./@g' "$OUT/search.json"
 fi
 
-echo "post-render: .nojekyll, clean URLs, sitemap normalised"
+# Hugo emitted <link rel="canonical"> and og:url on every page; Quarto emits
+# neither. Derive both from the file's location. Redirect stubs already declare
+# their own canonical and are skipped, as is the 404 page.
+SITE_URL="https://scicloj.github.io"
+while IFS= read -r -d '' f; do
+  [[ "$f" == "$OUT/404.html" ]] && continue
+  grep -q 'rel="canonical"' "$f" && continue
+  rel="${f#"$OUT"/}"
+  case "$rel" in
+    index.html)   url="/" ;;
+    */index.html) url="/${rel%index.html}" ;;
+    *)            url="/$rel" ;;
+  esac
+  sed -i "s@</head>@<link rel=\"canonical\" href=\"${SITE_URL}${url}\">\n<meta property=\"og:url\" content=\"${SITE_URL}${url}\">\n</head>@" "$f"
+done < <(find "$OUT" -name '*.html' -type f -print0)
+
+echo "post-render: .nojekyll, clean URLs, sitemap normalised, canonical/og:url added"

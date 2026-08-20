@@ -61,6 +61,14 @@ Two pages are generated and should not be edited by hand:
   bb scripts/gen-contributors.clj
   ```
 
+### Theme
+
+`cosmo` (light) and `darkly` (dark) with a navbar toggle, matching the dark-mode
+switch the Hugo site had. Shared rules live in `custom.scss`; the per-mode
+navbar and background variables are in `theme-light.scss` / `theme-dark.scss`.
+The blue-to-green gradient follows the
+[macroexpand-2025](https://github.com/scicloj/macroexpand-2025) site.
+
 ### Emoji
 
 The Hugo site had `enableEmoji`, so GitHub-style shortcodes such as `:star:`

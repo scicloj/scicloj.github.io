@@ -1,5 +1,6 @@
 ---
 title: "Scicloj open-source mentoring"
+description: "Scicloj offers mentoring to Clojurians who wish to become active in open-source projects."
 date: 2024-08-10
 image: "sci-cloj-logo-transparent.png"
 ---

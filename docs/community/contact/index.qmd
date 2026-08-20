@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+description: "How to reach the Scicloj community: email, GitHub, the Zulip chat streams, and YouTube."
 date: 2022-02-14
 author: ["daslu"]
 ---
