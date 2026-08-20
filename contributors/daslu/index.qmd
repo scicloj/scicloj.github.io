@@ -1,0 +1,40 @@
+---
+title: "daslu"
+description: "Scicloj pages contributed by daslu"
+listing:
+  - id: posts
+    contents:
+      - "../../blog/clojure-in-new-fields-opening-up/index.qmd"
+      - "../../blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/index.qmd"
+      - "../../blog/clojurists-together-project-scicloj-community-building-november-2024-update/index.qmd"
+      - "../../blog/scicloj-scientific-papers-initial-planning-meeting/index.qmd"
+      - "../../blog/clojurists-together-project-scicloj-community-building-october-2024-update/index.qmd"
+      - "../../blog/clojurists-together-project-scicloj-community-building-september-2024-update/index.qmd"
+      - "../../docs/community/events/index.qmd"
+      - "../../blog/clojurists-together-project-scicloj-community-building-april-2024-update/index.qmd"
+      - "../../blog/clojurists-together-project-scicloj-community-building-march-2024-update/index.qmd"
+      - "../../blog/clojurists-together-project-scicloj-community-building-february-2024-update/index.qmd"
+      - "../../docs/resources/audio/index.qmd"
+      - "../../blog/following-our-first-five-llm-meetups/index.qmd"
+      - "../../blog/jointprob-community-updates-probability-basics-talk-hierarchical-models-followup/index.qmd"
+      - "../../blog/the-jointprob-community-changes-on-the-agenda-and-an-upcoming-talk-about-bayesian-hierarchical-models/index.qmd"
+      - "../../blog/jointprob-in-2023-bayesian-modeling-and-computation-meeting-ravin-kumar/index.qmd"
+      - "../../blog/hello/index.qmd"
+      - "../../docs/community/getting_involved/index.qmd"
+      - "../../docs/community/about/index.qmd"
+      - "../../docs/community/chat/index.qmd"
+      - "../../docs/community/contact/index.qmd"
+      - "../../docs/resources/libs/index.qmd"
+      - "../../docs/resources/reading/index.qmd"
+      - "../../docs/resources/video/index.qmd"
+    type: default
+    sort: "date desc"
+    fields: [date, title, description]
+    page-size: 100
+toc: false
+---
+
+Pages contributed by daslu.
+
+::: {#posts}
+:::

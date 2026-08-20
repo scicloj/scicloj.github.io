@@ -1,0 +1,11 @@
+---
+title: "Contact"
+date: 2022-02-14
+author: ["daslu"]
+---
+
+- <a href="mailto:scicloj@gmail.com">scicloj@gmail.com</a>
+- [GitHub](https://github.com/scicloj)
+- [Zulip Chat streams](../chat)
+  - [Main data science stream](https://clojurians.zulipchat.com/#narrow/stream/151924-data-science)
+- [Youtube](https://www.youtube.com/c/SciCloj)

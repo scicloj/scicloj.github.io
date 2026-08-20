@@ -1,0 +1,18 @@
+---
+title: "Ethan Miller"
+description: "Scicloj pages contributed by Ethan Miller"
+listing:
+  - id: posts
+    contents:
+      - "../../blog/launching-columns-for-tablecloth/index.qmd"
+    type: default
+    sort: "date desc"
+    fields: [date, title, description]
+    page-size: 100
+toc: false
+---
+
+Pages contributed by Ethan Miller.
+
+::: {#posts}
+:::

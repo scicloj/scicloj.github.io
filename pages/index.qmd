@@ -1,0 +1,16 @@
+---
+title: "Pages"
+description: "Legacy pages that have moved"
+listing:
+  - id: legacy
+    contents: "*/index.qmd"
+    type: table
+    fields: [title]
+    sort: "title"
+toc: false
+---
+
+These are older page locations, kept so existing links keep working. Each one points at its current home.
+
+::: {#legacy}
+:::

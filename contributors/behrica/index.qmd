@@ -1,0 +1,18 @@
+---
+title: "behrica"
+description: "Scicloj pages contributed by behrica"
+listing:
+  - id: posts
+    contents:
+      - "../../blog/predict-real-vs.-fake-disaster-tweets/index.qmd"
+    type: default
+    sort: "date desc"
+    fields: [date, title, description]
+    page-size: 100
+toc: false
+---
+
+Pages contributed by behrica.
+
+::: {#posts}
+:::

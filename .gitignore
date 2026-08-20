@@ -1,4 +1,11 @@
+# Quarto
+/_site/
+/.quarto/
+
+# Legacy Hugo build output (removed at cutover)
 node_modules
 public
 .netlify
 .hugo_build.lock
+
+**/*.quarto_ipynb

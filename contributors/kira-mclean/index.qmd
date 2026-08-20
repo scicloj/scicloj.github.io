@@ -1,0 +1,18 @@
+---
+title: "Kira McLean"
+description: "Scicloj pages contributed by Kira McLean"
+listing:
+  - id: posts
+    contents:
+      - "../../blog/the-current-state-of-ml-in-clojure/index.qmd"
+    type: default
+    sort: "date desc"
+    fields: [date, title, description]
+    page-size: 100
+toc: false
+---
+
+Pages contributed by Kira McLean.
+
+::: {#posts}
+:::

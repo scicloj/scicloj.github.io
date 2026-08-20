@@ -1,0 +1,20 @@
+---
+title: "Community"
+description: "Getting to know the Scicloj community"
+listing:
+  - id: community-pages
+    contents:
+      - "about/index.qmd"
+      - "getting_involved/index.qmd"
+      - "groups/index.qmd"
+      - "chat/index.qmd"
+      - "events/index.qmd"
+      - "contact/index.qmd"
+    type: table
+    fields: [title, description]
+    sort: false
+toc: false
+---
+
+::: {#community-pages}
+:::

@@ -1,0 +1,39 @@
+# Build the Quarto site and publish it to GitHub Pages.
+#
+# Not enabled yet: the existing Hugo workflow (deploy-github.yml) still owns
+# the gh-pages branch. At cutover, delete deploy-github.yml and remove the
+# `if: false` guard below.
+
+name: Deploy Quarto site
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build-deploy:
+    if: false # flip to enable at cutover
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.9.37
+
+      - name: Render site
+        run: quarto render
+
+      - name: Verify legacy URLs are preserved
+        run: ./scripts/verify-urls.sh _site
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site

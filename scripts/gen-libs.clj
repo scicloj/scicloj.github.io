@@ -13,12 +13,22 @@
 
 (require '[babashka.deps :as deps])
 (deps/add-deps '{:deps {org.babashka/cli {:mvn/version "0.3.31"}}})
-(require '[babashka.cli :as cli]
+(require '[babashka.fs :as fs]
+         '[babashka.cli :as cli]
          '[clojure.java.shell]
          '[clojure.string :as str]
          '[clojure.edn :as edn]
          '[clojure.pprint :refer [pprint]])
 
+
+(def script-dir
+  (-> *file* fs/absolutize fs/parent str))
+
+(def repo-root
+  (-> script-dir fs/parent str))
+
+(def out-file
+  (str repo-root "/docs/resources/libs/index.qmd"))
 
 (defn str-lines
   "Like (str a b c), but adds newlines and trims.
@@ -64,7 +74,7 @@
 (defn libs-str
   "Generate libs.md content as string"
   [{}]
-  (let [model (edn/read-string (slurp "model.edn"))
+  (let [model (edn/read-string (slurp (str script-dir "/model.edn")))
         category-libs (fn [category]
                         (->> (:libs model)
                              (apply concat)
@@ -74,15 +84,10 @@
     (str-lines
      "
 ---
-title : \"Tools and libraries\"
+title: \"Tools and libraries\"
 description: \"Clojure tools and libraries for data and science\"
-lead: \"Clojure tools and libraries for data and science\"
 date: 2022-02-14
-lastmod: 2022-07-09
-draft: false
-weight: 31
-images: []
-contributors: [\"daslu\"]
+author: [\"daslu\"]
 ---
 
 ---------------------------------------------------------------------------------------
@@ -102,7 +107,7 @@ We tag libraries with the field they are relevant to.
      (tags-list model)
      ;; we simply print the other links
      "
-## Other lists :link:
+## Other lists :link: {#other-lists-}
 These other lists of libraries are very relevant to the emerging Clojure data science stack:
 - [Clojurelog](https://clojurelog.github.io/) :star: by the XTDB team - a comparison of various Clojure-Datalog databases
 - [Clojure DSL resources](https://github.com/simongray/clojure-dsl-resources) :star: by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with domain-specific languages, in particular parsing and data transformation with/of DSLs.
@@ -176,7 +181,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (map lib-line)
           (str/join "\n"))
 
-     "\n## Bayesian computing & probabilistic programming"
+     "\n## Bayesian computing & probabilistic programming {#bayesian-computing--probabilistic-programming}"
      (->> (category-libs :bayesian-computing-probabilistic-programming)
           (map lib-line)
           (str/join "\n"))
@@ -252,9 +257,10 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
           (str/join "\n")))))
 
 (defn libs-md
-  "Generate libs.md"
+  "Generate the Tools-and-libraries page"
   [opts]
-  (spit "libs.md" (libs-str opts)))
+  (spit out-file (str (libs-str opts) "\n"))
+  (println "wrote" out-file))
 
 (defn libs-show
   "Show generated libs.md"
@@ -336,7 +342,7 @@ In addition to a few of the tools mentioned above, here is a list of dedicated t
   "Identify all the tags"
   [{}]
   (pprint
-   (sort (find-tags (slurp "libs.md")))))
+   (sort (find-tags (slurp out-file)))))
 
 (defn print-help [{}]
   (println (str/trim "
@@ -344,9 +350,9 @@ Usage: ./gen.clj <subcommand>
 
 Useful subcommands:
 
-libs-show   - Generate libs.md as string
+libs-show   - Print the generated page to stdout
 
-libs.md     - Generate libs.md
+libs.md     - Write docs/resources/libs/index.qmd
 
 
 Subcommands for data cleaning:

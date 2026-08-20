@@ -1,40 +1,90 @@
-A draft for a Scicloj website redesign, based on the [Doks](https://getdoks.org/) Hugo theme.
+The website of the [Scicloj](https://scicloj.org) group, published at
+<https://scicloj.github.io>.
+
+The site is being rewritten from Hugo ([Doks](https://getdoks.org/)) to
+[Quarto](https://quarto.org/). The Quarto sources live at the repository root;
+the legacy Hugo tree (`content/`, `config/`, `layouts/`, `package.json`, …) is
+still present and still owns the deployment until we cut over.
 
 ### Local development
 
-Install dependencies:
+Requires [Quarto](https://quarto.org/docs/get-started/) and, for the generator
+scripts, [babashka](https://github.com/babashka/babashka).
+
+Render the whole site:
 
 ```bash
-npm install
+quarto render
 ```
 
-Start development server:
+Live preview with auto-reload:
 
 ```bash
-npm run start
+quarto preview
 ```
 
-Browse the locally developed website at localhost:1313.
-Edit the `.md` files under [content](./content) and see the website updating.
+The rendered site is written to `_site/` (git-ignored).
 
-#### Tools and libraries list
-The "tools and libraries" [libs.md](./content/en/docs/resources/libs.md) file is an exception -- it is generated from [model.edn](./content/en/docs/resources/model.edn), rather than edited manually.
+### URL preservation
 
-You can regenerate it using:
+The rewrite keeps every URL the Hugo site published. Each page therefore lives
+at `<url-path>/index.qmd` — for example `/docs/community/about/` is
+`docs/community/about/index.qmd`. Blog post directories use the *slugified post
+title*, because that is what Hugo's `/blog/:title/` permalink produced.
+
+`scripts/legacy-urls.txt` records the 66 URLs the Hugo site published, captured
+from the deployed `gh-pages` branch. After rendering, check them with:
 
 ```bash
-cd content/en/docs/resources/
-./gen.clj libs.md
+./scripts/verify-urls.sh
 ```
-(assuming you have [babashka](https://github.com/babashka/babashka) installed)
+
+`scripts/post-render.sh` mirrors the blog feed to `/index.xml` and writes
+redirect stubs for Hugo's old pagination URLs (`/blog/page/2/` etc.).
+
+### Generated pages
+
+Two pages are generated and should not be edited by hand:
+
+- **Tools and libraries** (`docs/resources/libs/index.qmd`) is generated from
+  `scripts/model.edn`:
+
+  ```bash
+  bb scripts/gen-libs.clj libs.md
+  ```
+
+- **Contributors** (`contributors/**`) reproduces Hugo's `contributors`
+  taxonomy from the `author:` field of every page. Re-run after adding or
+  re-attributing a page:
+
+  ```bash
+  bb scripts/gen-contributors.clj
+  ```
+
+### Emoji
+
+The Hugo site had `enableEmoji`, so GitHub-style shortcodes such as `:star:`
+rendered as emoji. `filters/emoji.lua` reproduces that in Quarto. Unknown
+shortcodes are left as-is, which is also what Hugo did.
+
+### Cutover checklist
+
+When the Quarto site is ready to take over:
+
+1. Delete `.github/workflows/deploy-github.yml` and remove the `if: false`
+   guard in `.github/workflows/deploy-quarto.yml`.
+2. Delete the Hugo tree: `content/`, `config/`, `layouts/`, `i18n/`, `data/`,
+   `functions/`, `images/`, `theme.toml`, `netlify.toml`, `babel.config.js`,
+   `package.json`, `package-lock.json`, and the lint configs.
 
 ### Contributing
 
-If you wish to have push permissions, please reach out to `@daslu`. This would automatically be reflected in the website (after a delay of a minute or so).
+If you wish to have push permissions, please reach out to `@daslu`.
 
-A pull request to [model.edn](./content/en/docs/resources/model.edn) and to the manually edited `.md` files under the [content](./content)` directory would always be great.
-
-For bigger changes, let us talk. You can use the [Issues](https://github.com/scicloj/scicloj-website/issues) or reach out to Daniel Slutsky at the [Clojurians Zulip chat](https://clojurians.zulipchat.com/).
+A pull request to `scripts/model.edn` or to the `.qmd` files would always be
+great. For bigger changes, let us talk — use the
+[Issues](https://github.com/scicloj/scicloj.github.io/issues) or reach out to
+Daniel Slutsky at the [Clojurians Zulip chat](https://clojurians.zulipchat.com/).
 
 ## License
 

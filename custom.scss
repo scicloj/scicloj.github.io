@@ -1,0 +1,220 @@
+/*-- scss:defaults --*/
+
+// Scicloj palette, shared with the macroexpand-2025 site.
+$primary-blue:  #4299e1;
+$primary-green: #48bb78;
+$tertiary:      #6d6f73;
+
+$primary:       $primary-blue;
+$link-color:    $primary-blue;
+
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif;
+
+$navbar-bg: #ffffff;
+$navbar-fg: #2d3748;
+
+/*-- scss:mixins --*/
+
+@mixin gradient-h {
+  background: linear-gradient(90deg, $primary-blue, $primary-green);
+}
+
+/*-- scss:rules --*/
+
+$on-primary: #fff;
+$primary-blue-green-gradient-horizontal: linear-gradient(90deg, $primary-blue, $primary-green);
+$primary-blue-green-gradient-vertical: linear-gradient(180deg, $primary-blue, $primary-green);
+$default-box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px;
+$default-border-radius: 5px;
+
+// A thin gradient rule across the very top of every page.
+body::before {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  @include gradient-h;
+}
+
+.navbar-brand img {
+  max-height: 46px;
+}
+
+// Body links get the sliding gradient underline used on the macroexpand site.
+.quarto-container a:not([class]) {
+  color: $primary-blue;
+  position: relative;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    @include gradient-h;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .3s ease;
+  }
+
+  &:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+}
+
+// Section headings carry a short gradient underline.
+#quarto-document-content h2,
+#quarto-document-content .h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 0.75rem;
+  border-bottom: none;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    @include gradient-h;
+    width: 60px;
+    height: 4px;
+    border-radius: 2px;
+  }
+}
+
+.btn-primary {
+  border: none;
+  font-weight: bold;
+  box-shadow: $default-box-shadow;
+  transition: all .3s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 15px;
+  }
+}
+
+.btn-gradient {
+  @include gradient-h;
+  color: $on-primary;
+  border: none;
+  font-weight: bold;
+  box-shadow: $default-box-shadow;
+  transition: all .3s ease;
+
+  &:hover {
+    color: $on-primary;
+    transform: translateY(-2px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 15px;
+  }
+}
+
+// ---------------------------------------------------------------- home page
+
+.home-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 0 2.5rem;
+
+  &__logo {
+    width: 120px;
+    max-width: 40%;
+    margin-bottom: 1rem;
+  }
+
+  &__title {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 700;
+    @include gradient-h;
+    margin: 0;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  &__subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: $tertiary;
+    margin-top: 0.5rem;
+  }
+
+  &__news {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.9;
+  }
+}
+
+.home-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 2.5rem 0;
+
+  .home-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 20px;
+      border-color: $primary-blue;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 0;
+      color: $tertiary;
+      font-size: 0.95rem;
+    }
+  }
+}
+
+// ----------------------------------------------------------------- listings
+
+.quarto-listing {
+  margin-top: 1.5rem;
+}
+
+.quarto-post {
+  transition: all 0.2s ease;
+  border-radius: 8px;
+  padding: 0.75rem;
+
+  &:hover {
+    background-color: rgba($primary-blue, 0.04);
+  }
+}
+
+// ------------------------------------------------------------------ dark mode
+
+.quarto-dark {
+  .home-cards .home-card {
+    border-color: #2f3439;
+    background-color: #1f2428;
+  }
+
+  .home-hero__subtitle,
+  .home-cards .home-card p {
+    color: #adb5bd;
+  }
+}
