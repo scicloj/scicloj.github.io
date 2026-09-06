@@ -4,7 +4,7 @@ description: "Probabilistic modeling and Bayesian Statistics study community"
 date: 2022-02-28
 ---
 -------------------------------------------------------------------------------------------------------------------- 
-![random tree](random-tree.jpg)
+![](random-tree.jpg){fig-alt="random tree"}
 
 Jointprob is a study community for probabilistic modeling and Bayesian statistics, running since August 2022.
 

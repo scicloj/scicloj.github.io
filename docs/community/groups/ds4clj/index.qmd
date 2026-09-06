@@ -5,7 +5,7 @@ date: 2022-07-12
 ---
 
 ---------------------
-![black-eyed-pea](black-eyed-pea.jpg)
+![](black-eyed-pea.jpg){fig-alt="black-eyed-pea"}
 
 * Following broad support on [Clojureverse](https://clojureverse.org/t/a-data-science-course-for-clojurians-are-you-interested/) and [Reddit](https://www.reddit.com/r/Clojure/comments/vsr7qn/a_data_science_course_for_clojurians_are_you/) conversations and elsewhere, we have been planning a data-science course for Clojure devs during 2023.
 

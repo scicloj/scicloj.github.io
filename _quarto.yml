@@ -135,6 +135,11 @@ filters:
 
 format:
   html:
+    # Hugo/goldmark follows CommonMark, where a bullet list may interrupt a
+    # paragraph without a blank line before it. Pandoc's markdown requires the
+    # blank line, so ~166 list items across 11 pages rendered as literal
+    # "- item" text inside a paragraph. This restores the Hugo behaviour.
+    from: markdown+lists_without_preceding_blankline
     theme:
       light:
         - cosmo

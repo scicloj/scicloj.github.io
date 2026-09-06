@@ -5,7 +5,7 @@ date: 2025-01-20
 image: "Noj.png"
 ---
 
-![Noj logo](Noj.png)
+![](Noj.png){fig-alt="Noj logo"}
 
 The SciNoj Light conference series is a space for collaboration on making Clojure more present, well-known, and accessible in diverse domains and uses cases.
 

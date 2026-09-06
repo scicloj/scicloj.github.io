@@ -6,7 +6,7 @@ date: 2022-07-12
 
 -----------------------------------------------
 
-![hammock](hammock.jpg)
+![](hammock.jpg){fig-alt="hammock"}
 
 This group is a space for recurring updates & discussions around the emerging Clojure stack for data processing, analysis, and visualization.
 

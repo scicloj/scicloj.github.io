@@ -6,7 +6,7 @@ date: 2022-05-23
 
 📣 This 2023 group is being continued as the [scicloj-ai-meetups](../ai-meetups) group, starting Feb. 2025.
 
-![gpt pretending to be joyful](joy.jpg)
+![](joy.jpg){fig-alt="gpt pretending to be joyful"}
 
 The goal of this series of meetups is to support our learning, as a community, of the new landscape of ideas around large language models.
 
