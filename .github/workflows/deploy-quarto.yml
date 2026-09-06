@@ -1,29 +1,37 @@
-# Build the Quarto site and publish it to GitHub Pages.
+# Build the Quarto site everywhere; publish it only from master.
 #
-# Not enabled yet: the existing Hugo workflow (deploy-github.yml) still owns
-# the gh-pages branch. At cutover, delete deploy-github.yml and remove the
-# `if: false` guard below.
+# The `build` job is safe on any branch: it renders, checks that every URL the
+# Hugo site published still exists, and uploads the result as an artifact you
+# can download and inspect. It never touches the live site.
+#
+# The `deploy` job is guarded until cutover, because `deploy-github.yml` (Hugo)
+# still owns the gh-pages branch. To enable it, delete the `false &&` from its
+# `if:` below and delete deploy-github.yml in the same commit.
 
-name: Deploy Quarto site
+name: Quarto site
 
 on:
   push:
-    branches:
-      - master
+  pull_request:
   workflow_dispatch:
 
+# A newer push to the same ref makes an in-flight run obsolete.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  build-deploy:
-    if: false # flip to enable at cutover
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@v4
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
+          # Pinned to the version the site is developed against; bump
+          # deliberately rather than drifting with the runner.
           version: 1.9.37
 
       - name: Render site
@@ -31,6 +39,33 @@ jobs:
 
       - name: Verify legacy URLs are preserved
         run: ./scripts/verify-urls.sh _site
+
+      - name: Upload rendered site
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: _site
+          # Without this, `.nojekyll` (written by post-render.sh) is dropped
+          # from the artifact, so deploy would publish different bytes than
+          # build verified.
+          include-hidden-files: true
+          retention-days: 14
+
+  deploy:
+    needs: build
+    # Guarded until cutover: remove `false &&` to enable.
+    if: false && github.event_name == 'push' && github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # Publish exactly the bytes that the build job verified, rather than
+      # rendering a second time.
+      - name: Download rendered site
+        uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: _site
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

@@ -75,12 +75,26 @@ The Hugo site had `enableEmoji`, so GitHub-style shortcodes such as `:star:`
 rendered as emoji. `filters/emoji.lua` reproduces that in Quarto. Unknown
 shortcodes are left as-is, which is also what Hugo did.
 
+### Continuous integration
+
+`.github/workflows/deploy-quarto.yml` has two jobs:
+
+- **`build`** runs on every branch, pull request and manual dispatch. It
+  renders, runs `scripts/verify-urls.sh`, and uploads `_site` as an artifact.
+  It never touches the live site, so it is safe to run before cutover.
+- **`deploy`** publishes the artifact the build job already verified, to
+  `gh-pages` via `peaceiris/actions-gh-pages`. It is guarded until cutover.
+
+Deploying the built artifact rather than re-rendering means the published bytes
+are exactly the ones the URL check passed.
+
 ### Cutover checklist
 
 When the Quarto site is ready to take over:
 
-1. Delete `.github/workflows/deploy-github.yml` and remove the `if: false`
-   guard in `.github/workflows/deploy-quarto.yml`.
+1. In `.github/workflows/deploy-quarto.yml`, delete the `false &&` from the
+   `deploy` job's `if:`, and delete `.github/workflows/deploy-github.yml` in
+   the same commit so the two workflows never both own `gh-pages`.
 2. Delete the Hugo tree: `content/`, `config/`, `layouts/`, `i18n/`, `data/`,
    `functions/`, `images/`, `theme.toml`, `netlify.toml`, `babel.config.js`,
    `package.json`, `package-lock.json`, and the lint configs.
