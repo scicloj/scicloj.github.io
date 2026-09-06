@@ -186,6 +186,21 @@ body::before {
   }
 }
 
+// ------------------------------------------------------------------- content
+
+// Raw <img> tags carried over from the Hugo content do not get Bootstrap's
+// .img-fluid class, so they would otherwise overflow narrow screens.
+#quarto-document-content img,
+#quarto-document-content svg {
+  max-width: 100%;
+  height: auto;
+}
+
+// A long unbroken token (a bare URL in prose) must not widen the page.
+#quarto-document-content {
+  overflow-wrap: break-word;
+}
+
 // ----------------------------------------------------------------- listings
 
 .quarto-listing {

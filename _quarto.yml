@@ -131,6 +131,7 @@ website:
 
 filters:
   - filters/emoji.lua
+  - filters/responsive-tables.lua
 
 format:
   html:
