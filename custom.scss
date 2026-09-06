@@ -201,6 +201,35 @@ body::before {
   overflow-wrap: break-word;
 }
 
+// --------------------------------------------------------------- title block
+
+// Doks rendered the `lead:` field (empty on every page) and used `description:`
+// only for <meta name=description>. Quarto prints `description:` as a visible
+// subtitle, which on 25 pages just repeats the title, e.g.
+//   "{on hold} a dev group about interop and transpilers"
+//   "a dev group about interop and transpilers"
+// Hide it and keep the meta tag, matching the Hugo site.
+#title-block-header .description {
+  display: none;
+}
+
+// The Hugo site printed no date or author above the content. Show only the
+// "Modified" row, which is the useful signal for a living page; drop Author and
+// Published. Only the 18 blog posts carry `date-modified`, so every other page
+// gets a clean header with no meta block at all.
+.quarto-title-meta > div {
+  display: none;
+}
+
+.quarto-title-meta > div:has(.date-modified) {
+  display: block;
+}
+
+// Collapse the empty grid on pages with no `date-modified`.
+.quarto-title-meta:not(:has(.date-modified)) {
+  display: none;
+}
+
 // ----------------------------------------------------------------- listings
 
 .quarto-listing {
