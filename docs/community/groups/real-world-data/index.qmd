@@ -13,7 +13,7 @@ The group usually meets every Friday, 18:00 [UTC time zone](https://time.is/utc)
 except for some special meetings.
 
 * September 4th, 2026 - meeting 72 - agenda: discussed at the Zulip chat - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-72/)
-* August 28th, 2026 - meeting 71 - Special: Plotje & Membrane
+* August 28th, 2026 - meeting 71 - Special: Plotje, Clay & Membrane - :movie_camera: [recording](https://www.youtube.com/watch?v=l-vUVbjWJts)
 * August 21th, 2026 - meeting 70 - agenda: discussed at the Zulip chat
 * August 14th, 2026 - meeting 69 - agenda: discussed at the Zulip chat
 * August 7th, 2026 - meeting 68 - agenda: discussed at the Zulip chat
