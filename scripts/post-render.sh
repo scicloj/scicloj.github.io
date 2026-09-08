@@ -3,6 +3,7 @@
 set -euo pipefail
 
 OUT="${QUARTO_PROJECT_OUTPUT_DIR:-_site}"
+SITE_URL="https://scicloj.github.io"
 cd "$(dirname "$0")/.."
 
 # Hugo published a site-wide feed at /index.xml alongside /blog/index.xml.
@@ -48,6 +49,56 @@ find "$OUT" -name '*.html' -type f -print0 \
   | xargs -0 sed -E -i 's@(href|src)="([^"]*/)index\.html(["#?])@\1="\2\3@g'
 sed -E -i 's@<loc>([^<]*/)index\.html</loc>@<loc>\1</loc>@g' "$OUT/sitemap.xml"
 
+# Hugo put each page's content date in <lastmod>; Quarto puts the build time, so
+# every deploy would tell crawlers that every page had just changed. Restore the
+# content date from the page's own front matter -- `date-modified` if it has one,
+# otherwise `date`. Pages declaring neither (the listing and contributor pages)
+# keep the build time, which is honest: they really do change whenever content
+# is added around them.
+front_matter_date () {
+  local src="$1" d
+  [[ -f "$src" ]] || return 0
+  local fm
+  fm=$(awk 'NR==1 && /^---$/ {f=1; next} f && /^---$/ {exit} f' "$src")
+  for key in date-modified date; do
+    d=$(printf '%s\n' "$fm" \
+        | sed -n "s/^${key}:[[:space:]]*[\"']\{0,1\}\([0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}\).*/\\1/p" \
+        | head -1)
+    if [[ -n "$d" ]]; then printf '%s' "$d"; return 0; fi
+  done
+  # No date declared: say so quietly. Returning non-zero here would trip the
+  # script's `set -e` via the calling command substitution.
+  return 0
+}
+
+rewrite_sitemap_lastmod () {
+  local sm="$OUT/sitemap.xml" tmp loc path src date
+  [[ -f "$sm" ]] || return 0
+  tmp=$(mktemp)
+  while IFS= read -r line; do
+    case "$line" in
+      *"<loc>"*)
+        loc=${line#*<loc>}; loc=${loc%%</loc>*}
+        printf '%s\n' "$line" >> "$tmp"
+        ;;
+      *"<lastmod>"*)
+        path=${loc#"$SITE_URL"}; path=${path#/}; path=${path%/}
+        if [[ -n "$path" ]]; then src="$path/index.qmd"; else src="index.qmd"; fi
+        date=$(front_matter_date "$src")
+        if [[ -n "$date" ]]; then
+          printf '    <lastmod>%sT00:00:00+00:00</lastmod>\n' "$date" >> "$tmp"
+        else
+          printf '%s\n' "$line" >> "$tmp"
+        fi
+        ;;
+      *) printf '%s\n' "$line" >> "$tmp" ;;
+    esac
+  done < "$sm"
+  mv "$tmp" "$sm"
+}
+
+rewrite_sitemap_lastmod
+
 # The search index is written before this hook runs, so normalise it too.
 if [[ -f "$OUT/search.json" ]]; then
   sed -i -e 's@/index\.html@/@g' -e 's@"index\.html@"./@g' "$OUT/search.json"
@@ -56,7 +107,6 @@ fi
 # Hugo emitted <link rel="canonical"> and og:url on every page; Quarto emits
 # neither. Derive both from the file's location. Redirect stubs already declare
 # their own canonical and are skipped, as is the 404 page.
-SITE_URL="https://scicloj.github.io"
 while IFS= read -r -d '' f; do
   [[ "$f" == "$OUT/404.html" ]] && continue
   grep -q 'rel="canonical"' "$f" && continue
