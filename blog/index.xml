@@ -1,29 +1,1169 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on</title><link>https://scicloj.github.io/blog/</link><description>Recent content in Blog on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 06 Oct 2020 08:49:55 +0000</lastBuildDate><atom:link href="https://scicloj.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Clojurists Together project - Scicloj - Building Bridges to New Clojure Users - July 2025 update</title><link>https://scicloj.github.io/blog/clojurists-together-project-scicloj-building-bridges-to-new-clojure-users-july-2025-update/</link><pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/blog/clojurists-together-project-scicloj-building-bridges-to-new-clojure-users-july-2025-update/</guid><description>Clojurists Together announced a sponsorship for a project by Siyoung Byun &amp;ndash; Scicloj - Building Bridges to New Clojure Users for Q2 2025.
-Here is a summary of the first update for the project - any comments would be greatly appreciated 🙏
-Clojurists Together update - July 2025 - Siyoung Byun #
-Work Completed, In Progress and Further Plans #
-CFD Python into Clojure Project #
-I initiated the CFD Python into Clojure project, which translates computational fluid dynamics (CFD) learning steps from Python into Clojure.</description></item><item><title>Clojure in new fields - opening up</title><link>https://scicloj.github.io/blog/clojure-in-new-fields-opening-up/</link><pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/blog/clojure-in-new-fields-opening-up/</guid><description>(🎥 video discussion)
-Near the end of November 2024, we had a couple of small meetings around the presence of Clojure in academia, one of the areas where we are looking to make Clojure gradually more present.
-The meetings back then did affect our actions and followup conversations at the Clojurians Zulip Chat. A broader and more general process initiated: shifting our attention to the growth of Clojure into new fields and use cases.</description></item><item><title>Data analyis with Clojure - free workshop, May 10th - initial survey</title><link>https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/</link><pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/</guid><description>(Update, 2025-05-03: The workshop is now ⭐ announced ⭐ .)
-Following the maturing of the Noj toolkit for Clojure data science, we are planning a free online workshop for people who are curious to learn the Clojure language for data analysis. Please share this page broadly with your friends and groups who may be curious to learn Clojure at this occasion.
-The [SciNoj Light](https://scicloj.github.io/docs/community/groups/scinoj-light/** conference schedule is emerging these days, with a fantastic set of talks.</description></item><item><title>Clojurists Together project - Scicloj community building - November 2024 update</title><link>https://scicloj.github.io/blog/clojurists-together-project-scicloj-community-building-november-2024-update/</link><pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/blog/clojurists-together-project-scicloj-community-building-november-2024-update/</guid><description>The Clojurists Together organization has decided to sponsor Scicloj community building for Q3 2024, as a project by Daniel Slutsky. This is the second time the project has been selected this year. Here is Daniel&amp;rsquo;s last update for this period.
-This overview of November&amp;rsquo;s work is extended by a few recent updates from the first half of December.
-Comments and ideas would help. 🙏
-Clojurists Together update - November 2024 - Daniel Slutsky #
-Scicloj is a Clojure group developing a stack of tools and libraries for data science.</description></item><item><title>Scicloj scientific papers - initial planning meeting</title><link>https://scicloj.github.io/blog/scicloj-scientific-papers-initial-planning-meeting/</link><pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/blog/scicloj-scientific-papers-initial-planning-meeting/</guid><description>Now that the Clojure stack for scientific computing is maturing rapidly, the Scicloj group is looking at ways of reaching other communities.
-One avenue would be to consider publishing academic papers about the ecosystem: regarding individual libraries or outlining the ecosystem as a whole. Another avenue, is that the Scicloj group would like to encourage and help out with research projects themselves.
-In the second half of November, we will have an initial planning meeting to discuss possible challenges and opportunities.</description></item><item><title>Clojurists Together project - Scicloj community building - October 2024 update</title><link>https://scicloj.github.io/blog/clojurists-together-project-scicloj-community-building-october-2024-update/</link><pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/blog/clojurists-together-project-scicloj-community-building-october-2024-update/</guid><description>The Clojurists Together organisation has decided to sponsor Scicloj community building for Q3 2024, as a project by Daniel Slutsky. This is the second time the project is selected this year. Here is Daniel&amp;rsquo;s update for October.
-Comments and ideas would help. 🙏
-Clojurists Together update - October 2024 - Daniel Slutsky #
-Scicloj is a Clojure group developing a stack of tools and libraries for data science. Alongside the technical challenges, community building has been an essential part of its efforts since the beginning of 2019.</description></item><item><title>Clojurists Together project - Scicloj community building - September 2024 update</title><link>https://scicloj.github.io/blog/clojurists-together-project-scicloj-community-building-september-2024-update/</link><pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/blog/clojurists-together-project-scicloj-community-building-september-2024-update/</guid><description>The Clojurists Together organisation has decided to sponsor Scicloj community building for Q3 2024, as a project by Daniel Slutsky. This is the second time the project is selected this year. Here is Daniel&amp;rsquo;s update for September.
-Comments and ideas would help. 🙏
-Clojurists Together update - September 2024 - Daniel Slutsky #
-Scicloj is a Clojure group developing a stack of tools and libraries for data science. Alongside the technical challenges, community building has been an essential part of its efforts since the beginning of 2019.</description></item><item><title>Clojurists Together project - Scicloj community building - April 2024 update</title><link>https://scicloj.github.io/blog/clojurists-together-project-scicloj-community-building-april-2024-update/</link><pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/blog/clojurists-together-project-scicloj-community-building-april-2024-update/</guid><description>The Clojurists Together organisation has decided to sponsor Scicloj community building for Q1 2024, as a project by Daniel Slutsky. The project is taking place in February, March, and April 2024. Here is Daniel&amp;rsquo;s update for April.
-Here are the previous ones: Feb 2024, Mar 2024
-Comments and ideas would help. 🙏
-Clojurists Together update - April 2024 - Daniel Slutsky #
-April 2024 was the last of three months on the Clojurists Together project titled &amp;ldquo;Scicloj Community Building and Infrastructure&amp;rdquo;.</description></item><item><title>Launching Columns for Tablecloth</title><link>https://scicloj.github.io/blog/launching-columns-for-tablecloth/</link><pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/blog/launching-columns-for-tablecloth/</guid><description>This is a cross-post of a recent post by Ethan Miller at his blog, announcing the release of a substantial addition to the Tablecloth library.
-The New Column API #
-Today we at scicloj deployed a new Column API (tablecloth.column.api) into the data processing library Tablecloth (available as of version 7.029.1). This new API adds a new primitive to the Tablecloth system: the column. Here&amp;rsquo;s how we use it:</description></item><item><title>The Current State of ML in Clojure</title><link>https://scicloj.github.io/blog/the-current-state-of-ml-in-clojure/</link><pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate><guid>https://scicloj.github.io/blog/the-current-state-of-ml-in-clojure/</guid><description>This is a cross-post of a recent post by Kira McLean at her blog, that has encouraged a few discussions over the web.
-Recently, a few of us at Scicloj have had enlightening discussions of of current state of the machine learning landscape in Clojure. This post is my attempt to distill it into a summary for the community&amp;rsquo;s benefit, so more people can understand where things are at and what the active developers in this space are working on.</description></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Scicloj Blog</title>
+<link>https://scicloj.github.io/blog/</link>
+<atom:link href="https://scicloj.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>The Scicloj Blog.</description>
+<image>
+<url>https://scicloj.github.io/sci-cloj-logo-transparent.png</url>
+<title>Scicloj Blog</title>
+<link>https://scicloj.github.io/blog/</link>
+</image>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Thu, 10 Jul 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Clojurists Together project - Scicloj - Building Bridges to New Clojure Users - July 2025 update</title>
+  <dc:creator>syungb </dc:creator>
+  <link>https://scicloj.github.io/blog/clojurists-together-project-scicloj-building-bridges-to-new-clojure-users-july-2025-update/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://www.clojuriststogether.org/">Clojurists Together</a> announced a sponsorship for a project by Siyoung Byun – <strong>Scicloj - Building Bridges to New Clojure Users</strong> for <a href="https://www.clojuriststogether.org/news/q2-2025-funding-announcement/">Q2 2025</a>.</p>
+<p>Here is a summary of the first update for the project - any comments would be greatly appreciated 🙏</p>
+<section id="clojurists-together-update---july-2025---siyoung-byun" class="level1">
+<h1>Clojurists Together update - July 2025 - Siyoung Byun</h1>
+<section id="work-completed-in-progress-and-further-plans" class="level2">
+<h2 class="anchored" data-anchor-id="work-completed-in-progress-and-further-plans">Work Completed, In Progress and Further Plans</h2>
+<section id="cfd-python-into-clojure-project" class="level3">
+<h3 class="anchored" data-anchor-id="cfd-python-into-clojure-project">CFD Python into Clojure Project</h3>
+<p>I initiated the <a href="https://github.com/scicloj/cfd-python-in-clojure">CFD Python into Clojure</a> project, which translates computational fluid dynamics (CFD) learning steps from Python into Clojure. The project also includes a currently evolving <a href="https://scicloj.github.io/cfd-python-in-clojure">notebook page</a> that shows the learning steps progressed so far for the project. This project showcases interactive, real-world scientific computing examples with an initiative to diversify the set of data science use cases available in Clojure.</p>
+<p>I am working toward completing and polishing the project as a featured example of Clojure’s capability in handling scientific computing and numerical simulation use cases. I am planning to discuss the results and experiences at a future SciCloj Light Conference.</p>
+</section>
+<section id="conference-presentation-at-scicloj-light-1" class="level3">
+<h3 class="anchored" data-anchor-id="conference-presentation-at-scicloj-light-1">Conference Presentation at SciCloj Light #1</h3>
+<p>I presented <a href="https://scicloj.github.io/scinoj-light-1/sessions.html#d-viscous-fluid-flow-data-analysis-using-burgers-equation">a talk</a> at <a href="https://scicloj.github.io/scinoj-light-1/">SciCloj Light #1</a>, highlighting the progress (implementing one-dimensional CFD using Burgers’ equation), simulations, and future directions from the CFD Python into Clojure initiative. The talk demonstrated how Clojure can serve as a powerful tool in data science and data analysis.</p>
+</section>
+<section id="conference-reflections-and-scicloj-community-video" class="level3">
+<h3 class="anchored" data-anchor-id="conference-reflections-and-scicloj-community-video">Conference Reflections and Scicloj Community Video</h3>
+<p>I co-authored and released <a href="https://youtu.be/n6ICeRyXHsI?si=tzq_ZKzuRqux6nKQ">a video</a> summarizing the SciCloj Light #1 conference experience, along with publishing a written conference survey to gather feedback and reflect on future SciCloj Light conferences with <a href="https://github.com/daslu">Daniel Slutsky</a>. The video discusses the preparation process, key takeaways, and future directions for Scicloj as a community-driven initiative and as an individual contributor.</p>
+</section>
+<section id="community-outreach-initiative-for-broader-participation" class="level3">
+<h3 class="anchored" data-anchor-id="community-outreach-initiative-for-broader-participation">Community Outreach Initiative for Broader Participation</h3>
+<p>I initiated and participated in a community discussion on <a href="https://scicloj.github.io/docs/community/chat/">Clojurian Zulip</a> to encourage Scicloj contributors and users to present at external data science conferences and share their experiences using Clojure and Scicloj libraries for their data science work. This outreach aims to amplify Clojure’s visibility in broader scientific and data communities to obtain more attention and bring newcomers to the community.</p>
+</section>
+<section id="documentation-improvements-for-noj" class="level3">
+<h3 class="anchored" data-anchor-id="documentation-improvements-for-noj">Documentation Improvements for Noj</h3>
+<p>I joined as one of the maintainers of <a href="https://github.com/scicloj/noj">Noj</a>, an out-of-the-box Clojure library designed to simplify data science workflows. Currently, I’ve been focusing on improving the library’s introductory documentation, setup guides, and <a href="https://scicloj.github.io/noj/">use cases in notebooks</a> to make it more welcoming and useful to newcomers. There are already good use cases, ideas, and documentation in the library, so my main goal is to make those resources more coherent, consistent, and organized to be easily searchable. Once we have well-tailored documentation in place for Noj, we hope to roll out the same documentation template for the rest of the Scicloj libraries.</p>
+<section id="library-documentation-review-and-feedback-collection" class="level4">
+<h4 class="anchored" data-anchor-id="library-documentation-review-and-feedback-collection">Library Documentation Review and Feedback Collection</h4>
+<p>I am actively gathering feedback on gaps and pain points in the documentation of various Scicloj libraries through the <a href="https://scicloj.github.io/docs/community/chat/">Clojurian Zulip</a> channel.</p>
+</section>
+<section id="improving-getting-started-experiences" class="level4">
+<h4 class="anchored" data-anchor-id="improving-getting-started-experiences">Improving “Getting Started” Experiences</h4>
+<p>I am continuing to improve the beginner documentation and setup processes across Scicloj libraries, with a goal of creating a smoother onboarding experience for users with diverse backgrounds.</p>
+</section>
+</section>
+<section id="organizing-macroexpand-gatherings" class="level3">
+<h3 class="anchored" data-anchor-id="organizing-macroexpand-gatherings">Organizing ‘macroexpand’ Gatherings</h3>
+<p>I will co-organize a series of regular online community meetups called <a href="https://scicloj.github.io/docs/community/groups/macroexpand/">macroexpand gatherings</a>. These are aimed at welcoming both new and existing Clojure users and will foster communication across communities working on professional data projects (data engineering, analysis, visualization, etc.) and identify shared challenges and opportunities for collaboration. By hosting a space to discuss the current status of the community/individuals and challenges together, we hope to prioritize our todos and initiatives better and create actionable items to move forward.</p>
+
+
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://scicloj.github.io/blog/clojurists-together-project-scicloj-building-bridges-to-new-clojure-users-july-2025-update/</guid>
+  <pubDate>Thu, 10 Jul 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Clojure in new fields - opening up</title>
+  <dc:creator>daslu </dc:creator>
+  <link>https://scicloj.github.io/blog/clojure-in-new-fields-opening-up/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><img src="https://scicloj.github.io/blog/clojure-in-new-fields-opening-up/field.jpg" alt="grass in sunset, and a far away tree" style="width:100%;"></p>
+<hr>
+<p>(🎥 <a href="https://www.youtube.com/watch?v=PWHidCezwFM">video discussion</a>)</p>
+<p>Near the end of November 2024, we had a couple of small <a href="https://scicloj.github.io/blog/scicloj-scientific-papers-initial-planning-meeting/">meetings</a> around the presence of Clojure in academia, one of the areas where we are looking to make Clojure gradually more present.</p>
+<p>The meetings back then did affect our actions and followup conversations at the <a href="../../docs/community/chat/">Clojurians Zulip Chat</a>. A broader and more general process initiated: shifting our attention to the growth of Clojure into new fields and use cases.</p>
+<p>In this post, we seek to clarify our current activity to help reinitiate more systematic collaboration in that direction.</p>
+<p>As usual, it is a personal perspective. Hopefully, more people will use this blog to share their thoughts on the topic.</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<ul>
+<li><p>We are now more ready than earlier to explore the relevance of Clojure in new fields like education, research, academic papers, or art, thanks to recent progress around tooling, libraries, beginner resources, and community building.</p></li>
+<li><p>We propose proceeding in small steps through ad-hoc meetings, lightweight conferences, and short-term research projects.</p></li>
+<li><p>One space to support that is the new <a href="https://scicloj.github.io/docs/community/groups/macroexpand/">macroexpand gatherings</a> series. We encourage you to mark you availability and preferences: <a class="btn btn-primary btn-sm" href="https://forms.gle/6JYyCdLfwsgvV8fC7">Poll</a>.</p></li>
+<li><p>If you have any thoughts or ideas: <a class="btn btn-primary btn-sm" href="../../docs/community/contact/">Please reach out</a>.</p></li>
+</ul>
+<p>Now, let us dive more into the details.</p>
+</section>
+<section id="why" class="level2">
+<h2 class="anchored" data-anchor-id="why">Why</h2>
+<p>There are many “Why Clojure” blog posts out there, and we will not try to reproduce their arguments here.</p>
+<p>Let us just recognize that the efforts we are discussing here are not without a reason.</p>
+<p>Many of us face technical challenges at work, and not only in engineering work. In research, teaching, and data exploration; in academia, and elsewhere; sometimes, programming is necessary. Often, programming can bother us with complexity, conceptual obstacles, and various kinds of friction.</p>
+<p>Some of us believe that Clojure can offer a relief through simplicity, conceptual elegance, and lightweight exploration. Arguably, this can be relevant to anybody who has some data and is open-minded and curious to enjoy new ways of thinking.</p>
+</section>
+<section id="growth" class="level2">
+<h2 class="anchored" data-anchor-id="growth">Growth</h2>
+<p>In many business situations, this might not be the best time for non-mainstream engineering choices, which are perceived as too risky. For this and other reasons, it is not the easiest time to work on Clojure growth.</p>
+<p>However, that is what we are actively working on now.</p>
+<p>The first reason is that it is necessary. Without new and diverse fields and use cases, our open-source efforts cannot be made sustainable.</p>
+<p>The second reason is that we are ready. As discussed below, a few parts of the solution have matured enough to proceed and finally meet more diverse crowds.</p>
+<p>The third reason is the Scicloj perspective within the broader Clojure community. With our focus on data analysis, we offer a pathway as to how to create “quickstart” applications for various use cases (as demanded in the recent <a href="https://www.clojuriststogether.org/news/call-for-proposals.-feb.-2025-member-survey/">Clojurists-together survey</a>).</p>
+<p>We will keep looking inward and outward at the same time: creating small collaborations, helping each other, and reflecting, while reaching out to new crowds and acting more in the public sphere.</p>
+</section>
+<section id="community-collaboration-continuity-and-communication" class="level2">
+<h2 class="anchored" data-anchor-id="community-collaboration-continuity-and-communication">Community, collaboration, continuity, and communication</h2>
+<p>In our coming expansion to new fields, let us recognize a few of our usual open-source challenges. Arguably, knowing them is going to be even more important now.</p>
+<p>Scicloj is a group of people who collaborate and support each other. Throughout the years, a few hundred people have been lightly involved in various ways. However, at any given point in time, typically a few dozens are actually involved, and only a handful of people are active in library maintenance and essential activities.</p>
+<p>The people involved change frequently. All of us need to stop sometimes, then return after a few weeks or months. Such pauses are often unplanned. Free time is inherently variable, and that is always felt in volunteer-based communities.</p>
+<p>Our goals, however, are long-term. We need to maintain continuity, and see beyond those waves by embracing uncertainty.</p>
+<p>During the last year or so, this has been especially challenging. For a mix of reasons – global, local, and personal – it has not been the easiest time for a few of us. Alongside the beautiful progress in libraries, tooling, and community building, many of us had to slow down and focus on life challenges.</p>
+<p>Our processes need to be loose enough and stable enough. It is a delicate balance. While we often collaborate tightly, we should avoid depending on each other’s tasks. We need to decouple dependencies across project timelines, recognize bottlenecks and readapt. We need to communicate frequently, and use our <a href="../../docs/community/contact/">everyday communication</a> as a form of light touch knowledge management. We need to support each other and help each other find comfort.</p>
+<p>Of all the above, let us repeat the importance of communication. Let us keep chatting frequently so we can be together in those fluctuations.</p>
+</section>
+<section id="clojure-in-academia" class="level2">
+<h2 class="anchored" data-anchor-id="clojure-in-academia">Clojure in academia</h2>
+<p>One space we are gradually addressing more is academia.</p>
+<p>Clojure is not very common in academic teaching, but throughout the years there have been some beautiful projects that used Clojure in university courses. Some well-known courses were taught by <a href="https://github.com/lspector/clojinc">Lee Spector</a>, <a href="https://personal.morris.umn.edu/~elenam/#clojure">Elena Machkasova</a>, <a href="https://moocfi.github.io/courses/2014/clojure/">The University of Helsinki</a>, and <a href="https://egri-nagy.github.io/popbook/">Attila Egri-Nagy</a>. Some of these projects are still active.</p>
+<p>While Clojure is not commonly cited in academic papers, during the last few years we have met many researchers who are curious about Clojure. Quite a few of them actively use it. Others avoid using it as it is considered too far from the mainstream and thus difficult to communicate with colleagues.</p>
+<p>In certain fields, Clojure is still perceived as a niche. Some of the relevant people act alone and are not so visible to each other.</p>
+<p>Hopefully, we can improve the situation by making communication easier, providing spaces to sync up and think, and helping the various projects, groups, and individuals become more visible.</p>
+</section>
+<section id="the-november-meetings" class="level2">
+<h2 class="anchored" data-anchor-id="the-november-meetings">The November meetings</h2>
+<p>Here we share a few notes from the discussions we had last November, where a few Clojure-friendly academics met and thought together for a while.</p>
+<p>See also the <a href="https://clojurians.zulipchat.com/#narrow/channel/151924-data-science/topic/scicloj.20paper.20-.20initial.20meeting">#data-science&gt;scicloj paper - initial meeting</a> topic thread at the <a href="../../docs/community/chat/">Clojurians Zulip Chat</a> and following topic threads on related topics.</p>
+<p>Many thanks especially to Blaine Mooers, who highly affected those conversations. As a biochemistry professor, Blaine offered a few thoughtful insights and observations regarding the ways various technologies have grown in academia and what we may learn from that.</p>
+<p>Here are some observations and insights by a few of the people involved.</p>
+<ul>
+<li>We should learn from what other tech communities did when they were smaller. See the paper about Matplotlib, for example. The Tidyverse (and the publishing around it) can be a source of inspiration.</li>
+<li>Making Clojure <strong>easy</strong> is essential. For better reach to academic groups, tooling is important. Also, a cohesive stack of libraries.</li>
+<li>Possible technical aspects of the Clojure ecosystem stack could be documented in the form of academic papers: extending the grammar of graphics, nontrivial interop solutions, and perspectives on the history of Lisp in AI are some examples.</li>
+<li>At some point, we may initiate new implementation projects on certain topics that look promising nowadays. Two possible examples are Applied Category Theory and Topological Data Analysis.</li>
+<li>Alongside (1) technical aspects and (2) applications, a third type of academic writing can be: (3) uses in education.</li>
+<li>Finding reviewers for a Clojure paper might be a challenge. At some point, we may try to assemble a list of potential reviewers.</li>
+<li>Conference talks are a quicker and easier path than papers. We can organize our own online conferences. Our own conference proceedings would take more effort (and will mainly need a decent group of reviewers).</li>
+<li>Applications of Clojure in education (point (3) above) – this path seems to be in consensus as a preferred and accessible way to make Clojure visible in academia in the short term. A few of the people involved have been putting lots of thought into teaching Clojure for years.</li>
+<li>We need to create more visible spaces to share and discuss these observations and insights.</li>
+</ul>
+</section>
+<section id="relevant-progress" class="level2">
+<h2 class="anchored" data-anchor-id="relevant-progress">Relevant progress</h2>
+<p>Recently, we have had some progress in a few relevant directions.</p>
+<ol type="1">
+<li><p><strong>A cohesive stack of libraries.</strong> The <a href="https://scicloj.github.io/noj/">Noj</a> toolkit for data science has been maturing. Its documentation and integration tests have received quite a few contributions by Carsten Behring and a few other contributors.</p></li>
+<li><p><strong>Beginner resources and workshops.</strong> The Noj getting started <a href="https://github.com/scicloj/noj-v2-getting-started">repo</a> and 🎥 <a href="https://www.youtube.com/watch?v=vnvcKtHHMVQ">video</a> provides a welcoming way for people who know some Clojure but are new to Noj. Kira Howe’s <a href="https://bobkonf.de/2025/howe.html">workshop</a> (<a href="https://kira.quarto.pub/berlin-bike-traffic/">notes here</a>) at the <a href="https://bobkonf.de/2025/">BobKonf 2025 conference</a> introduced Clojure for data analysis to people who are new to Clojure. We are working on additional workshops of this kind for <a href="https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/">May 10th</a>. Additional <a href="https://scicloj.github.io/docs/resources/reading/">tutorials</a> are evolving too.</p></li>
+<li><p><strong>Beginner-friendly tooling.</strong> Our growing set of tutorials uses the <a href="https://scicloj.github.io/kindly/">Kindly</a> standard for data-visualization and notebooking. In addition to the existing support in <a href="https://scicloj.github.io/clay/">Clay</a>, Timothy Pratley and Carsten Behring have been working on the <a href="https://github.com/scicloj/kindly-render">kindly-render</a> engine, that is now almost complete and allows various Clojure tools to support the standard. They have been working with a few Clojure tool makers, and the result is that a few tools now offer decent support for Kindly visualizations (and thus Noj). A few notable examples are <a href="https://github.com/clojupyter/clojupyter">Clojupyter</a>, <a href="https://calva.io/flares/">VSCode Calva Webview</a>, and <a href="https://cursive-ide.com/blog/cursive-2025.1-eap3.html">Intellij Cursive inline HTML</a>. We have been also working on beginner-friendly minimal-setup modes for Clay using a live-reload feature by Ken Huang. See a few recent video demos: 🎥 <a href="https://www.youtube.com/watch?v=tDz1x2d65C0">#1</a>, <a href="https://www.youtube.com/watch?v=gHwFCOkBb_o">#2</a>, <a href="https://www.youtube.com/watch?v=WiOUiHsq_dc">#3</a>.</p></li>
+<li><p><strong>Meetups.</strong> We have moved more of the Scicloj activity at the various <a href="../../docs/community/groups">dev &amp; study groups</a> to the public sphere. Most recent meetups have been focusing on workflow demos and AI systems. You can follow them at the 🎥 <a href="https://www.youtube.com/@SciCloj">video channel</a>, 📣 <a href="https://clojureverse.org/c/community-center/meetups-and-events/">Clojureverse announcements</a>, and 📆 <a href="https://scicloj.github.io/docs/community/events/">Caldendar feed</a>.</p></li>
+<li><p><strong>Conferences.</strong> The <a href="https://scicloj.github.io/scinoj-light-1/">SciNoj Light</a> online conference in May 16-17 is a first attempt to explore our current conference-organizing approach. The conference is mostly a way to drive new collaborations around research, writing, and speaking. We support the speakers throughout the process of proposing and preparing the talks <em>and</em> the accompanying notes. It is already safe to say that the method works, and soon we will announce the amazing list of speakers. It is not a small effort, but we have now verified that it is doable. The talk topics include 🚌 public transportation networks, 🚓 road safety, 🌊 Computational Fluid Dynamics, ⛈ weather forecasting, 🎮 Cognitive Psychology of geometric games, 🧠 brain science, 🐛 program analysis, 📰 text analysis in political context, and more. More events will follow later this year.</p></li>
+<li><p><strong>Communication.</strong> The <a href="../../docs/community/chat/">Clojurians Zulip Chat</a> Zulip is an essential building block in both our communication and our knowledge management. We are thankful to Gert Goet who has been nurturing it throughout the years, and to the broader team of admins that has grown recently. During the last few months, we put even more care into helping people join the platform and settle in. We organized <a href="https://clojureverse.org/t/intro-to-the-clojurians-zulip-chat/">Zulip study sessions</a> and discussed it <a href="https://clojureverse.org/t/visual-tools-meeting-27-workflow-demos-1-emacs-cider-vscode-calva-zulip-summary-recording/">in additional meetups</a>. We are gradually shifting some of our announcements and discussions to a <a href="https://zulip.com/help/channel-permissions#web-public-channels">web-public</a> channel: 🎉 <a href="https://clojurians.zulipchat.com/#narrow/channel/488851-scicloj-webpublic">#scicloj-webpublic</a>, to make things more accessible to people who we not logged in.</p></li>
+</ol>
+</section>
+<section id="how-we-continue" class="level2">
+<h2 class="anchored" data-anchor-id="how-we-continue">How we continue</h2>
+<p>With our currently limited resources, we will have to focus on lightweight small steps in the short term.</p>
+<p>SciNoj Light can serve as a model for the following steps. We will have additional target dates later this year. Toward those dates, people can work on small research, on writing tutorials, and preparing talks. As usual, we will work together and create spaces to conveniently brainstorm and share progress.</p>
+<p>At the new <a href="https://scicloj.github.io/docs/community/groups/macroexpand/">macroexpand gatherings</a> series, we will maintain broader discussions on Clojure’s expansion to new fields. Academia, research, education, data analysis, and art, are a few of the directions we will explore. Community members will share past experiences, discuss pain points, and come up with actionable ways to collaborate.</p>
+<hr>
+<p>As usual, we are hoping to hear your thoughts. If you have any comments or wish to propose anything, let us talk.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://scicloj.github.io/blog/clojure-in-new-fields-opening-up/</guid>
+  <pubDate>Sat, 12 Apr 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://scicloj.github.io/blog/clojure-in-new-fields-opening-up/field.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Data analyis with Clojure - free workshop, May 10th - initial survey</title>
+  <dc:creator>daslu </dc:creator>
+  <link>https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>(Update, 2025-05-03: The workshop is now ⭐ <a href="https://scicloj.github.io/scinoj-light-1/workshop.html">announced</a> ⭐ .)</p>
+<p>Following the maturing of the <a href="https://scicloj.github.io/noj/">Noj</a> toolkit for Clojure data science, we are planning a free online workshop for people who are curious to learn the Clojure language for data analysis. Please share this page <em>broadly</em> with your friends and groups who may be curious to learn Clojure at this occasion.</p>
+<p>The [SciNoj Light](https://scicloj.github.io/docs/community/groups/scinoj-light/** conference schedule is emerging these days, with a fantastic set of talks. We want a broader audience to feel comfortable joining, and thus we wish to run a prep workshop one week earlier.</p>
+<p>If you are interested in a workshop, please share your preferences with us here:</p>
+<p><strong>(The Initial Survey is closed now.)</strong></p>
+<p>Based on the responses, we will decide whether to run the workshop, and how to design it.</p>
+<section id="tentative-details" class="level2">
+<h2 class="anchored" data-anchor-id="tentative-details">Tentative details</h2>
+<ul>
+<li>Date: Saturday, May 10th</li>
+<li>A few hours long</li>
+<li>We will start from scratch, including a beginner-friendly setup to run Clojure.</li>
+<li>We will assume some background in programming (say, at least 2 years with some programming language).</li>
+<li>We will <strong>not</strong> assume any background in Clojure or data analysis.</li>
+<li>The content will be inspired by Kira Howe’s great <a href="https://bobkonf.de/2025/howe.html">workshop</a> at the <a href="https://bobkonf.de/2025/en/">BobKonf 2025</a> conference.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://scicloj.github.io/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/</guid>
+  <pubDate>Sat, 29 Mar 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://scicloj.github.io/sci-cloj-logo-transparent.png" medium="image" type="image/png" height="155" width="144"/>
+</item>
+<item>
+  <title>Clojurists Together project - Scicloj community building - November 2024 update</title>
+  <dc:creator>daslu </dc:creator>
+  <link>https://scicloj.github.io/blog/clojurists-together-project-scicloj-community-building-november-2024-update/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The <a href="https://www.clojuriststogether.org/">Clojurists Together</a> organization has decided <a href="https://www.clojuriststogether.org/news/q3-2024-funding-announcement/">to sponsor</a> Scicloj community building for Q3 2024, as a project by Daniel Slutsky. This is the second time the project has been selected this year. Here is Daniel’s last update for this period.</p>
+<p>This overview of November’s work is extended by a few recent updates from the first half of December.</p>
+<p>Comments and ideas would help. 🙏</p>
+<section id="clojurists-together-update---november-2024---daniel-slutsky" class="level1">
+<h1>Clojurists Together update - November 2024 - Daniel Slutsky</h1>
+<p><a href="https://scicloj.github.io/">Scicloj</a> is a Clojure group developing a stack of tools and libraries for data science. Alongside the technical challenges, community building has been an essential part of its efforts since the beginning of 2019. Our current main community-oriented goal is making the existing data science stack easy to use through the maturing of the Noj library, mentioned below. In particular, we are working on example-based documentation, easy setup, and recommended workflows for common tasks.</p>
+<p>All these, and the tools to support them, grow organically, driven by real-world use cases.</p>
+<p>I serve as a community organizer at Scicloj, and this project was accepted for Clojurists Together funding in 2024 Q1 &amp; Q3. I also receive regular funding through Github Sponsors, mostly from Nubank.</p>
+<p>As some parts of November’s work have only matured during the beginning of December, I am writing this report a couple of weeks late. It overviews my involvement during November, the first half of December, and then comments about the proposed directions for the near future.</p>
+<p>I had 31 meetings during November and 25 meetings during the first half of December. Most of them were one-on-one meetings for open-source mentoring or similar contexts.</p>
+<p>All the projects mentioned below are done in collaboration with others. I will mention at least a few of the people involved.</p>
+<section id="november-2024-and-early-december-highlights" class="level2">
+<h2 class="anchored" data-anchor-id="november-2024-and-early-december-highlights">November 2024 and early December highlights</h2>
+<section id="design-discussions" class="level3">
+<h3 class="anchored" data-anchor-id="design-discussions">Design discussions</h3>
+<p>This has been a thoughtful period in <a href="https://scicloj.github.io/docs/community/chat/">the Clojurians Zulip chat</a>. We faced a few questions regarding how we organize functionality across libraries and went through a careful thinking process to reach a common ground of understanding. A lot of the details shared below are the fruit of those discussions.</p>
+</section>
+<section id="noj" class="level3">
+<h3 class="anchored" data-anchor-id="noj"><a href="https://scicloj.github.io/noj/">Noj</a></h3>
+<p>The Noj library is the entry point to data science with Clojure, collecting a stack of relevant libraries. During this period, it was officially announced as Beta stage. We kept extending it and mostly worked on documentation. Carsten Behring kept improving the documentation workflow, partially automating it, and creating extensive documentation for a few major Noj components. I also took part in documentation and in helping other community members contribute a few drafts.</p>
+</section>
+<section id="tableplot" class="level3">
+<h3 class="anchored" data-anchor-id="tableplot"><a href="https://scicloj.github.io/tableplot/">Tableplot</a></h3>
+<p>Tableplot, the plotting library based on the <a href="https://vita.had.co.nz/papers/layered-grammar.html">layered grammar of graphics</a> idea, was one of my main foci of development. I implemented quite a few additional types of plots and control parameters and put a lot of work into the documentation reference.</p>
+</section>
+<section id="tablemath" class="level3">
+<h3 class="anchored" data-anchor-id="tablemath"><a href="https://scicloj.github.io/tablemath/">Tablemath</a></h3>
+<p>Tablemath is one result of our recent design discussions. It is a new library for math and statistics that composes well with <a href="https://github.com/techascent/tech.ml.dataset">tech.ml.dataset</a> and <a href="https://scicloj.github.io/tablecloth">Tablecloth</a> datasets and uses the functionality of <a href="https://github.com/generateme/fastmath">Fastmath</a>. Tablemath is highly inspired by <a href="https://www.r-project.org/">R</a> and its packages and is intended to compose well with <a href="https://scicloj.github.io/tableplot/">Tableplot</a> layered plotting. During this period, I released an initial version after exploring a few directions.</p>
+</section>
+<section id="clay" class="level3">
+<h3 class="anchored" data-anchor-id="clay"><a href="https://scicloj.github.io/clay/">Clay</a></h3>
+<p>Clay, the REPL-friendly notebook and data visualization tool, received a few updates from other community members. On my side, I explored the different ways it consumes JS and CSS dependencies. We want to make this part more modular for various use cases. At the moment, I am struggling with a few technical difficulties.</p>
+</section>
+<section id="kindly-render" class="level3">
+<h3 class="anchored" data-anchor-id="kindly-render"><a href="https://github.com/scicloj/kindly-render">Kindly-render</a></h3>
+<p>Kindly-render is a tool-agnosic implementation of the <a href="https://scicloj.github.io/kindly/">Kindly</a> data visualization standard. Timothy Pratley kept developing it, and it looks very promising. My involvement was not intensive, except for a few joint coding sessions and reviews of the code.</p>
+</section>
+<section id="scicloj-open-source-mentoring" class="level3">
+<h3 class="anchored" data-anchor-id="scicloj-open-source-mentoring"><a href="https://scicloj.github.io/docs/community/groups/open-source-mentoring/">Scicloj open-source mentoring</a></h3>
+<p>In this period, we continued the collaboration of quite a few mentees and the current four mentors, including myself. To focus on progress with currently ongoing projects, we did slow down the growth of the project and could only accept a few new mentees.</p>
+</section>
+<section id="meeting-new-community-members" class="level3">
+<h3 class="anchored" data-anchor-id="meeting-new-community-members">Meeting new community members</h3>
+<p>In the last few weeks, I did meet a few new community members: Clojurians who wish to get involved in data science and people of scientific or data background who wish to get involved in Clojure. There is a good momentum in adopting the Scicloj toolkit for various needs. With a few of the new friends, I started meeting more or less regularly and exploring their concrete use cases.</p>
+</section>
+<section id="clojure-in-academia" class="level3">
+<h3 class="anchored" data-anchor-id="clojure-in-academia">Clojure in Academia</h3>
+<p>Following an initiative of Thomas Clark, we started an&nbsp;active exploration of pathways to make Clojure more present in academia. I reached out to about a dozen people who are active in academia and known to be involved in Clojure and scheduled a couple of meetings to discuss possible directions. There has been a warm response from most of the relevant people, who expressed their willingness to help explore this direction.</p>
+<p>Three main directions were proposed: (1) Working on academic papers to discuss technical aspects of Clojure’s scientific stack. (2) Collaborating with researchers on specific use cases of Clojure. (3) Demonstrating the potential of Clojure in academic teaching.</p>
+<p>The teaching perspective, which was proposed by Blaine Mooers, will receive the highest priority in the short term.</p>
+<p>As a first step, we are considering organizing an online conference to make one or more of the above directions more visible and encourage further interest.</p>
+</section>
+<section id="tutorial-meetings" class="level3">
+<h3 class="anchored" data-anchor-id="tutorial-meetings">Tutorial meetings</h3>
+<p>During our work on documenting Noj, we experimented with various workflows of writing tutorials together. Recently, we converged on a format that is working. We meet quite often and write tutorial drafts together. The same draft will typically be handled by different people in different meetings. Each time, we review everything so that the session is self-contained. This way, more people learn about topics they care about, and the content we write gets to be reviewed by more people and more perspectives.</p>
+</section>
+<section id="linear-algebra-meetings" class="level3">
+<h3 class="anchored" data-anchor-id="linear-algebra-meetings">Linear Algebra meetings</h3>
+<p>The weekly linear algebra meetings keep happening every week. They typically go by the tutorial format mentioned above.</p>
+</section>
+<section id="website" class="level3">
+<h3 class="anchored" data-anchor-id="website">Website</h3>
+<p>This period has been a usual period in terms of website maintenance.</p>
+</section>
+<section id="real-world-data-group" class="level3">
+<h3 class="anchored" data-anchor-id="real-world-data-group">real-world-data group</h3>
+<p>The <a href="https://scicloj.github.io/docs/community/groups/real-world-data/">real-world-data group</a> is a space for Clojure data practitioners to share their experiences. It keeps going, meeting every two weeks. In the three meetings we had in November and the one we had in December so far, we mainly discussed the topics mentioned above in this report, as well as a few work experiences of group members.</p>
+</section>
+</section>
+<section id="near-term-goals" class="level2">
+<h2 class="anchored" data-anchor-id="near-term-goals">Near term goals</h2>
+<section id="noj-1" class="level3">
+<h3 class="anchored" data-anchor-id="noj-1">Noj</h3>
+<p>In the near future, we should bring the Noj documentation to a state that is good enough to be clear and welcoming to new users.</p>
+</section>
+<section id="tablemath-1" class="level3">
+<h3 class="anchored" data-anchor-id="tablemath-1">Tablemath</h3>
+<p>Tablemath will probably be the main experimental project on my agenda. The main goals are to combine the underlying libraries (Fastmath, dtype-next, tech.ml.dataset, Tablecloth) to benefit from the advantages of each of them in terms of ergonomics as well as performance and to provide a user-friendly API inspired by R. (2)</p>
+</section>
+<section id="clojure-in-academia-1" class="level3">
+<h3 class="anchored" data-anchor-id="clojure-in-academia-1">Clojure in academia</h3>
+<p>This project is still in its very early stages. We should explore various directions and carefully pick those which might be promising.</p>
+</section>
+<section id="tooling" class="level3">
+<h3 class="anchored" data-anchor-id="tooling">Tooling</h3>
+<p>I will join Timothy Pratley on the goal of helping different tools support the Kindly standard. Cursive, Calva, Quarto, and Clojupyter are a few of the relevant candidates.</p>
+
+
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://scicloj.github.io/blog/clojurists-together-project-scicloj-community-building-november-2024-update/</guid>
+  <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://scicloj.github.io/sci-cloj-logo-transparent.png" medium="image" type="image/png" height="155" width="144"/>
+</item>
+<item>
+  <title>Scicloj scientific papers - initial planning meeting</title>
+  <dc:creator>daslu </dc:creator>
+  <link>https://scicloj.github.io/blog/scicloj-scientific-papers-initial-planning-meeting/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Now that the Clojure stack for scientific computing is <a href="https://www.youtube.com/watch?v=_D5d6Ls6pBw">maturing rapidly</a>, the <a href="https://scicloj.github.io/">Scicloj group</a> is looking at ways of reaching other communities.</p>
+<p>One avenue would be to consider publishing academic papers about the ecosystem: regarding individual libraries or outlining the ecosystem as a whole. Another avenue, is that the Scicloj group would like to encourage and help out with research projects themselves.</p>
+<p>In the second half of November, we will have an initial planning meeting to discuss possible challenges and opportunities.</p>
+<p>If you are either a researcher (academic or independent) or an open-source practitioner of a relevant project, we could use your insights in that conversation. Even if you are currently planning to use other technologies for your own research, and simply wish to help Clojure with your advice, that would be much appreciated.</p>
+<p>Update: Following <a href="https://tallycal.com/p/4170400">the poll</a>, we will meet at 5:30 pm UTC Nov.&nbsp;25th 2024. The official part of the meeting will be 60 minutes long. A few of us may stay and chat afterwards.</p>
+<p>Of course, <a href="https://scicloj.github.io/docs/community/contact/">please write to us</a> any questions or ideas you may have.</p>
+<p>Looking forward to seeing you,</p>
+<p>Thomas Clark and Daniel Slusky</p>
+
+
+
+ ]]></description>
+  <guid>https://scicloj.github.io/blog/scicloj-scientific-papers-initial-planning-meeting/</guid>
+  <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://scicloj.github.io/sci-cloj-logo-transparent.png" medium="image" type="image/png" height="155" width="144"/>
+</item>
+<item>
+  <title>Clojurists Together project - Scicloj community building - October 2024 update</title>
+  <dc:creator>daslu </dc:creator>
+  <link>https://scicloj.github.io/blog/clojurists-together-project-scicloj-community-building-october-2024-update/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The <a href="https://www.clojuriststogether.org/">Clojurists Together</a> organisation has decided <a href="https://www.clojuriststogether.org/news/q3-2024-funding-announcement/">to sponsor</a> Scicloj community building for Q3 2024, as a project by Daniel Slutsky. This is the second time the project is selected this year. Here is Daniel’s update for October.</p>
+<p>Comments and ideas would help. 🙏</p>
+<section id="clojurists-together-update---october-2024---daniel-slutsky" class="level1">
+<h1>Clojurists Together update - October 2024 - Daniel Slutsky</h1>
+<p><a href="https://scicloj.github.io/">Scicloj</a> is a Clojure group developing a stack of tools and libraries for data science. Alongside the technical challenges, community building has been an essential part of its efforts since the beginning of 2019. Our current main community-oriented goal is making the existing data-science stack easy to use through the maturing of the Noj library, mentioned below. In particular, we are working on example-based documentation, easy setup, and recommended workflows for common tasks.</p>
+<p>All these, and the tools to support them, grow organically, driven by real-world use cases.</p>
+<p>I serve as a community organizer at Scicloj, and this project was accepted for Clojurists Together funding in 2024 Q1 &amp; Q3. I also receive regular funding through Github Sponsors, mostly from Nubank.</p>
+<p>In this post, I am reporting on my involvement during October 2024, as well as the proposed goals for November.</p>
+<p>I had 57 meetings during October. Most of them were one-on-one meetings for open-source mentoring or similar contexts.</p>
+<p>All the projects mentioned below are done in collaboration with others. I will mention at least a few of the people involved. For consistency, I use people’s github handles when mentioning their work on the projects, and their full names when mentioning public talks.</p>
+<section id="october-2024-highlights" class="level2">
+<h2 class="anchored" data-anchor-id="october-2024-highlights">October 2024 highlights</h2>
+<section id="scicloj-open-source-mentoring" class="level3">
+<h3 class="anchored" data-anchor-id="scicloj-open-source-mentoring"><a href="https://scicloj.github.io/docs/community/groups/open-source-mentoring/">Scicloj open-source mentoring</a></h3>
+<p>This month, we contined working with mentees under the open-source mentoring program.</p>
+<p><span class="citation" data-cites="generatme">@generatme</span>, <span class="citation" data-cites="phronmophobic">@phronmophobic</span>, <span class="citation" data-cites="jeaye">@jeaye</span>, and myself have been active as mentors this month. Since the program’s beginning at the middle of August, 62 people have applied – 15 of them during the last month. 39 are still actively exploring various topics, and out of them, 15 have already made important contributions.</p>
+<p>One notable change happened during the last few months: we started working with a few mentees who are completely new to Clojure, some even to programming. This is part of Scicloj’s gradual process of opening up to broader audiences.</p>
+<p>Some of the recent experiences and insights on this project were discussed in our recent <a href="https://www.youtube.com/watch?v=STnFMpIZlkk">video report</a> (2024-10-25).</p>
+</section>
+<section id="noj" class="level3">
+<h3 class="anchored" data-anchor-id="noj"><a href="https://scicloj.github.io/noj/">Noj</a></h3>
+<p>The Noj library is the entry point to data science with Clojure, collecting a stack of relevant libraries. This month, we worked towards its release into Beta stage, which is almost complete.</p>
+<p>At <a href="https://scicloj.github.io/docs/community/chat/">the Zulip chat</a>, we had quite a few insightful discussions with important feedback by community members about the scope and the organization of the project.</p>
+<p>Most of our efforts in this project have been into writing additional tutorials. A broad group of people are working on these, and a few promosing tutorials are currently in draft stage. See some details below in the Tutorials section.</p>
+<p><span class="citation" data-cites="behrica">@behrica</span> has made additional improvements to the automation and whole workflow of Noj in Github Pages.</p>
+<p>I worked on clarifying many details and improving the main documentation pages.</p>
+</section>
+<section id="tableplot-previously-called-hanamicloth" class="level3">
+<h3 class="anchored" data-anchor-id="tableplot-previously-called-hanamicloth"><a href="https://scicloj.github.io/tableplot/">Tableplot</a> (previously called Hanamicloth)</h3>
+<p>Towards reaching Beta stage, our acively-developed plotting library recieved a new name: Tableplot.</p>
+<p>I continued working on extending its features, adding flexibility to the way data can be specified throughout the pipelines, and integrating <a href="https://github.com/scicloj/metamorph.ml">metamorph.ml</a> to allow for a more flexible smoothing functionality, where the user can specify the model details and the design matrix.</p>
+</section>
+<section id="composing-fastmath-with-tablecloth" class="level3">
+<h3 class="anchored" data-anchor-id="composing-fastmath-with-tablecloth">Composing <a href="https://github.com/generateme/fastmath">Fastmath</a> with <a href="https://scicloj.github.io/tablecloth">Tablecloth</a></h3>
+<p>During this month, a few substantial design discussions took place in the Zulip chat, with quite a few community members helping with their insights. One of the important realizations was that we should integrate Fastmath (the math library) into Tablecloth (the user-friendly table-processing library). This will allow for better composability, ergonomics, and performance in various cases where data processing meets math and statistics.</p>
+</section>
+<section id="scittle-emmy-viewers-plugin" class="level3">
+<h3 class="anchored" data-anchor-id="scittle-emmy-viewers-plugin"><a href="https://github.com/babashka/scittle">Scittle</a> <a href="https://github.com/mentat-collective/emmy-viewers">Emmy-viewers</a> plugin</h3>
+<p>Recently, <span class="citation" data-cites="reedho">@reedho</span> has made some progress in the Scittle plugin that supports Emmy-viewers data visualizations. I was helping in testing and figuring out some of the details. This progress is expected to extend the reach of Emmy-viewers to a broader set of use cases and integrate it better into Scicloj workflows.</p>
+</section>
+<section id="clay" class="level3">
+<h3 class="anchored" data-anchor-id="clay"><a href="https://scicloj.github.io/clay/">Clay</a></h3>
+<p>Clay, the REPL-friendly notebook and data visualation tool, recieved a few new features:</p>
+<ul>
+<li>initial Emmy-viewers support</li>
+<li>support for nesting of special visualization kinds</li>
+<li>support for live-reload on file save by <span class="citation" data-cites="whatacold">@whatacold</span></li>
+</ul>
+<p>Additionally, <span class="citation" data-cites="a13">@a13</span> and I are working on improving the process of reading Clojure code, building on previous work by <span class="citation" data-cites="timothypratley">@timothypratley</span> at the <a href="https://github.com/scicloj/read-kinds">read-kinds</a> project.</p>
+</section>
+<section id="kindly-advice" class="level3">
+<h3 class="anchored" data-anchor-id="kindly-advice"><a href="https://scicloj.github.io/kindly-noted/kindly_advice">Kindly-advice</a></h3>
+<p>Kindly-advice is a small library that helps tools know how certain values should be visualized.</p>
+<p>Following the developments with Emmy-viewers, it can now recognize these automatically, so that tools can handle them appropriately.</p>
+</section>
+<section id="kindly-render" class="level3">
+<h3 class="anchored" data-anchor-id="kindly-render"><a href="https://github.com/scicloj/kindly-render">Kindly-render</a></h3>
+<p>Kindly-render is a tool-agnosic implementation of the <a href="https://scicloj.github.io/kindly/">Kindly</a> standard.</p>
+<p>During October, <span class="citation" data-cites="timothypratley">@timothypratley</span> and <span class="citation" data-cites="kpassapk">@kpassapk</span> kept working on this project. I started exploring its intergation into Clay.</p>
+</section>
+<section id="tutorials" class="level3">
+<h3 class="anchored" data-anchor-id="tutorials">Tutorials</h3>
+<p>Documenting and demonstrating the use of the Scicloj stack is one of the main goals at the moment, and quite a few of us are working on various tutorials. This is often a slow process that involved introspection and discussion of the recommended ways to explain certain notions and perform certain tasks.</p>
+<p>I was involved in writing some tutorials and in reviewing a few others.</p>
+<p>A few of the current drafts people have been working on can already be shared:</p>
+<ul>
+<li><a href="https://mavbozo.github.io/clj-probstat-tutorial/clay/">intro to probability and statistics</a> by <span class="citation" data-cites="mavbozo">@mavbozo</span></li>
+<li><a href="https://scicloj.github.io/noj/noj_book.linear_algebra_intro.html">intro to linear algebra with Fastmath</a> by <span class="citation" data-cites="radovanne">@radovanne</span></li>
+<li><a href="https://scicloj.github.io/noj/noj_book.fastmath_vector_geom2d3d.html">2d and 3d geometry with Fastmath</a> by <span class="citation" data-cites="radovanne">@radovanne</span> and <span class="citation" data-cites="Epidiah">@Epidiah</span></li>
+<li><a href="https://scicloj.github.io/noj/noj_book.echarts">intro to datavis with Apache Echarts</a> by <span class="citation" data-cites="zuzhi">@zuzhi</span> and <span class="citation" data-cites="whatacold">@whatacold</span></li>
+<li><a href="https://scicloj.github.io/noj/noj_book.chicago_bike_times.html">analysing Chicago bike times</a> by myself</li>
+<li><a href="https://scicloj.github.io/clojure-data-tutorials/projects/stats/pymc/intro.html">Bayesian statistics with PyMC</a> by myself</li>
+</ul>
+</section>
+<section id="website" class="level3">
+<h3 class="anchored" data-anchor-id="website">Website</h3>
+<p>This month has been a usual month in terms of website maintenance.</p>
+</section>
+<section id="real-world-data-group" class="level3">
+<h3 class="anchored" data-anchor-id="real-world-data-group">real-world-data group</h3>
+<p>The <a href="https://scicloj.github.io/docs/community/groups/real-world-data/">real-world-data group</a> is a space for Clojure data practitioners to share their experiences. During October, the group had two meetings. We decided to share some parts of the recordings publicly:</p>
+<ul>
+<li>Oct 4th 2024 - meeting 15:
+<ul>
+<li><a href="https://www.youtube.com/watch?v=mmOh5fYkX7Q">Kyle Passarelli: OAuth2 with Clojure and Temporal</a></li>
+<li><a href="https://www.youtube.com/watch?v=G1vpz_43YpI">Adham Omram: Experience Conducting a Clojure Training</a></li>
+</ul></li>
+<li>Oct 16th 2024 - meeting 16:
+<ul>
+<li><a href="https://www.youtube.com/watch?v=nC86hEglyLQ">Jarkko Saltiola: tools for pipelines, bb-glitchtip</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="scicloj-weekly-catchup" class="level3">
+<h3 class="anchored" data-anchor-id="scicloj-weekly-catchup">Scicloj weekly catchup</h3>
+<p>During October, we tried the approach of weekly group meetings for the open-source-mentoring program, in addition to the small and 1-1 meetings.</p>
+<p>We had four group meetings of this kind. A few people have shared their work, and we explored some topics as a group. Eventually, we realized that the timing and format were not optimal for most people, so this series is currently on hold.</p>
+</section>
+<section id="linear-algebra-meetings" class="level3">
+<h3 class="anchored" data-anchor-id="linear-algebra-meetings">Linear Algebra meetings</h3>
+<p>A few of use are working on tutorials related to linear algebra and vector processing, and have started meeting weekly on these topics. We had four meetings of this kind.</p>
+</section>
+<section id="clojure-conj" class="level3">
+<h3 class="anchored" data-anchor-id="clojure-conj">Clojure Conj</h3>
+<p>Eventually, we organized only one talk run before the Clojure Conj conference. This was an early run of the talk by Thomas Clark. The actual talk has already been published <a href="https://www.youtube.com/watch?v=_D5d6Ls6pBw">online</a>. It is a fantastic overview of the Clojure stack for scientific computing.</p>
+<p>On my side, I helped a little bit in the preparations for the talk.</p>
+</section>
+</section>
+<section id="november-2024-goals" class="level2">
+<h2 class="anchored" data-anchor-id="november-2024-goals">November 2024 goals</h2>
+<section id="noj-1" class="level3">
+<h3 class="anchored" data-anchor-id="noj-1">Noj</h3>
+<ul>
+<li>Annouce Beta stage.</li>
+<li>Continue the current efforts on documenting the libraries.</li>
+</ul>
+</section>
+<section id="fastmath" class="level3">
+<h3 class="anchored" data-anchor-id="fastmath">Fastmath</h3>
+<ul>
+<li>Continue the documetation effort.</li>
+</ul>
+</section>
+<section id="tablecloth" class="level3">
+<h3 class="anchored" data-anchor-id="tablecloth">Tablecloth</h3>
+<ul>
+<li>Start working on drafts integrating Fastmath-related functionality.</li>
+</ul>
+</section>
+<section id="tableplot" class="level3">
+<h3 class="anchored" data-anchor-id="tableplot">Tableplot</h3>
+<ul>
+<li>Annouce Beta stage after a minor changes.</li>
+<li>Keep extending and documenting the library.</li>
+</ul>
+</section>
+<section id="tooling" class="level3">
+<h3 class="anchored" data-anchor-id="tooling">Tooling</h3>
+<ul>
+<li>Return to the work on kindly-render.</li>
+<li>Explore improving the support of various tools for scientific Clojure. Most importantly: VSCode, Quarto, and Jupyter.</li>
+<li>Continue Clay maintenance.</li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://scicloj.github.io/blog/clojurists-together-project-scicloj-community-building-october-2024-update/</guid>
+  <pubDate>Sun, 03 Nov 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://scicloj.github.io/sci-cloj-logo-transparent.png" medium="image" type="image/png" height="155" width="144"/>
+</item>
+<item>
+  <title>Clojurists Together project - Scicloj community building - September 2024 update</title>
+  <dc:creator>daslu </dc:creator>
+  <link>https://scicloj.github.io/blog/clojurists-together-project-scicloj-community-building-september-2024-update/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The <a href="https://www.clojuriststogether.org/">Clojurists Together</a> organisation has decided <a href="https://www.clojuriststogether.org/news/q3-2024-funding-announcement/">to sponsor</a> Scicloj community building for Q3 2024, as a project by Daniel Slutsky. This is the second time the project is selected this year. Here is Daniel’s update for September.</p>
+<p>Comments and ideas would help. 🙏</p>
+<section id="clojurists-together-update---september-2024---daniel-slutsky" class="level1">
+<h1>Clojurists Together update - September 2024 - Daniel Slutsky</h1>
+<p><a href="https://scicloj.github.io/">Scicloj</a> is a Clojure group developing a stack of tools and libraries for data science. Alongside the technical challenges, community building has been an essential part of its efforts since the beginning of 2019. Our current main community-oriented goal is making the existing data-science stack easy to use through the maturing of the Noj library, mentioned below. In particular, we are working on example-based documentation, easy setup, and recommended workflows for common tasks.</p>
+<p>All these, and the tools to support them, grow organically, driven by real-world use cases.</p>
+<p>I serve as a community organizer at Scicloj, and this project was accepted for Clojurists Together funding in 2024 Q1 &amp; Q3. I also receive regular funding from Nubank.</p>
+<p>In this post, I am reporting on my involvement during September 2024, as well as the proposed goals for October.</p>
+<p>I had 77 meetings during September. Most of them were one-on-one meetings for open-source mentoring or similar contexts.</p>
+<p>All the projects mentioned below are done in collaboration with others. I will mention at least a few of the main people involved.</p>
+<section id="september-2024-highlights" class="level2">
+<h2 class="anchored" data-anchor-id="september-2024-highlights">September 2024 highlights</h2>
+<section id="scicloj-open-source-mentoring" class="level3">
+<h3 class="anchored" data-anchor-id="scicloj-open-source-mentoring"><a href="https://scicloj.github.io/docs/community/groups/open-source-mentoring/">Scicloj open-source mentoring</a></h3>
+<p>Scicloj is providing mentoring to Clojurians who wish to get involved in open-source. This initiative began in August and has been growing rapidly in September. This program is transforming Scicloj, and I believe it will influence the Clojure community as a whole.</p>
+<p>We are meeting so many incredible people who are typically experienced, wise, and open-minded and have not been involved in the past. Making it all work is a special challenge. We have to embrace the uncertainty of working with people of varying availability and dynamically adapt to changes in the team. Building on our years-long experience in community building and open-source collaboration, we know we can support at least some of our new friends in finding impactful paths to contribute. We are already seeing some fruits of this work and still have a lot to improve.</p>
+<p>47 people have applied so far. 34 are still active, and 10 have already made meaningful contributions to diverse projects.</p>
+<p>I am coordinating the process, meeting all the participants, and serving as one of the mentors alongside generateme, Kira McLean, Adrian Smith, and Jeaye Wilkerson. The primary near-term goals are writing testable tutorials and docs for the <a href="https://github.com/generateme/fastmath">Fastmath</a> and <a href="https://scicloj.github.io/noj/">Noj</a> libraries. Quite a few participants will be working on parts of this core effort. A few other projects where people get involved are <a href="https://scicloj.github.io/clay/">Clay</a>, <a href="https://scicloj.github.io/kindly-noted/">Kindly</a>, <a href="https://jank-lang.org/">Jank</a>, and <a href="https://github.com/phronmophobic/ggml.clj">ggml.clj</a>.</p>
+<p>A few notable contributions were by Avicenna (mavbozo), who added a lot to the Fastmath documentation and tutorials; Jacob Windle, who added printing functionality to Fastmath regression models; Muhammad Ridho, who started working on portability of <a href="https://github.com/mentat-collective/emmy-viewers">Emmy Viewers</a> data visualizations; Lin Zihao, who improved the Reagent support to the Kindly standard; Epidiah Ravachol, who worked on insightful tutorials for <a href="https://github.com/cnuernber/dtype-next">dtype-next</a> array-programming; Oleh Sedletskyi, who started working on statistics tutorials; Ken Huang, who’ve made various contributions to Clay; and Prakash Balodi, who worked on <a href="https://scicloj.github.io/tablecloth/">Tablecloth</a> issues and started organizing the Scicloj weekly group (see below).</p>
+</section>
+<section id="noj" class="level3">
+<h3 class="anchored" data-anchor-id="noj"><a href="https://scicloj.github.io/noj/">Noj</a></h3>
+<p>Noj is an entry point to data and science. It integrates a set of underlying libraries through a set of testable tutorials. Here, there were great additions by generateme and Carsten Behering, and I helped a bit with the integration.</p>
+<ul>
+<li>generateme has made a big release of Fastmath version 3.0.0 alpha - a result of work in the last few months - which is affecting a few of the underlying libraries.</li>
+<li>Carsten Behring has released new versions of a few of the machine learning libraries.</li>
+<li>Carsten also made important changes to Noj in adding integration tests and automating the dev workflow.</li>
+<li>I helped in gradually adapting and testing a few of the underlying libraries.</li>
+<li>I helped initiate a few documentation chapters that are being written by new community members.</li>
+</ul>
+</section>
+<section id="kindly" class="level3">
+<h3 class="anchored" data-anchor-id="kindly"><a href="https://scicloj.github.io/kindly-noted/">Kindly</a></h3>
+<p>Kindly is the standard of data visualizations used by Scicloj tutorials and docs.</p>
+<ul>
+<li>Timothy Pratley has improved the way the user controls various options.</li>
+<li>I helped test and integrate the new features.</li>
+<li>We collaborated in creating a kindly-dev team, and a few of the new friends have started contributing to the stack of libraries around Kindly.</li>
+</ul>
+</section>
+<section id="kinldy-render" class="level3">
+<h3 class="anchored" data-anchor-id="kinldy-render"><a href="https://github.com/scicloj/kindly-render">Kinldy-render</a></h3>
+<p>Kindly-render is a general rendering library which serves as a foundation for tools to support Kindly.</p>
+<ul>
+<li>Timothy Pratley has reinitiating this project.</li>
+<li>I joined in design discussions and testing.</li>
+</ul>
+</section>
+<section id="clay" class="level3">
+<h3 class="anchored" data-anchor-id="clay"><a href="https://scicloj.github.io/clay/">Clay</a></h3>
+<p>Clay is a REPL-friendly tool for data visualization and literate programming.</p>
+<ul>
+<li>I worked on two new release versions. Each was a combination of bugfixes and feature requests.</li>
+</ul>
+</section>
+<section id="real-world-data-group" class="level3">
+<h3 class="anchored" data-anchor-id="real-world-data-group"><a href="https://scicloj.github.io/docs/community/groups/real-world-data/">real-world-data group</a></h3>
+<p>The real-world-data group is a space for people to share updates on their data projects at work.</p>
+<p>Meeting #13 was dedicated to talk runs and discussions preceding the Heart of Clojure conference.</p>
+<p>Meeting #14 was an interactive coding session of a data science tutorial.</p>
+</section>
+<section id="scicloj-weekly" class="level3">
+<h3 class="anchored" data-anchor-id="scicloj-weekly">Scicloj weekly</h3>
+<p>Together with Prakash Balodi, we initiated a new weekly meeting for new community members working on open-source projects.</p>
+<p>Intentionally, we use a time slot which is more friendly to East and Central Asia time zones, unlike most Clojure meetups.</p>
+<p>We have had three meetings so far, with 4, 15, and 6 participants.</p>
+</section>
+<section id="linear-algebra-meetings" class="level3">
+<h3 class="anchored" data-anchor-id="linear-algebra-meetings">Linear Algebra meetings</h3>
+<p>We organized a new group that will collaborate on implementing and teaching applied linear algebra algorithms in Clojure.</p>
+<p>The first meeting actually took place in October 2nd, so we will update more in the next month.</p>
+</section>
+<section id="heart-of-clojure" class="level3">
+<h3 class="anchored" data-anchor-id="heart-of-clojure"><a href="https://2024.heartofclojure.eu/">Heart of Clojure</a></h3>
+<p>Sami Kallinen represented Scicloj at Heart of Clojure with an incredbible <a href="https://2024.heartofclojure.eu/talks/sailing-with-scicloj-a-bayesian-adventure/">talk about data modelling</a>. The talk was extremely helpful in exploring and demonstrating a lot of the new additions to the Scicloj stack.</p>
+<p>I collaborated with Sami on preparing the talk and improving the relevant tools and libraries to support the process.</p>
+</section>
+</section>
+<section id="october-2024-goals" class="level2">
+<h2 class="anchored" data-anchor-id="october-2024-goals">October 2024 goals</h2>
+<p>This is the tentative plan. Comments and ideas would be welcome.</p>
+<section id="noj-and-fastmath" class="level3">
+<h3 class="anchored" data-anchor-id="noj-and-fastmath">Noj and Fastmath</h3>
+<ul>
+<li>Both these libraries will recieve lots of attention in the form of (testable) tutorials and docs. I will be working with a few people on vairous chapters of that effort.</li>
+<li>We will keep working on stabilizing the set of libraries behind Noj and improving the integration tests.</li>
+</ul>
+</section>
+<section id="open-source-mentoring" class="level3">
+<h3 class="anchored" data-anchor-id="open-source-mentoring">Open-source mentoring</h3>
+<p>We are expecting more participants to join.</p>
+<ul>
+<li>I will keep working on supporting participants in new beginnings and ongoing projects.</li>
+</ul>
+</section>
+<section id="tableplot" class="level3">
+<h3 class="anchored" data-anchor-id="tableplot"><a href="https://scicloj.github.io/tableplot/">Tableplot</a></h3>
+<p>Tableplot (previously called Hanamicloth) is a layered grammar of graphics library.</p>
+<ul>
+<li>The goal for the coming few weeks is to bring it to beta stage and mostly improve the documentation.</li>
+</ul>
+</section>
+<section id="tooling" class="level3">
+<h3 class="anchored" data-anchor-id="tooling">Tooling</h3>
+<ul>
+<li>We will keep working on maturing kindly-render and refactoring Clay to use it internally.</li>
+<li>Clay will be in active development for code quality, bugixes, and user requests.</li>
+</ul>
+</section>
+<section id="clojure-conj" class="level3">
+<h3 class="anchored" data-anchor-id="clojure-conj">Clojure Conj</h3>
+<p>The coming <a href="https://2024.clojure-conj.org/">Clojure Conj</a> conference will feature a few Scicloj-related talks. At Scicloj, we have a habit of helping each other in talk preparations. We will do that as much as the speakers will find it helpful. We will also organize a couple more pre-conference meetings with speakers, as we did in August.</p>
+
+
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://scicloj.github.io/blog/clojurists-together-project-scicloj-community-building-september-2024-update/</guid>
+  <pubDate>Mon, 30 Sep 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://scicloj.github.io/sci-cloj-logo-transparent.png" medium="image" type="image/png" height="155" width="144"/>
+</item>
+<item>
+  <title>Clojurists Together project - Scicloj community building - April 2024 update</title>
+  <dc:creator>daslu </dc:creator>
+  <link>https://scicloj.github.io/blog/clojurists-together-project-scicloj-community-building-april-2024-update/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The <a href="https://www.clojuriststogether.org/">Clojurists Together</a> organisation has decided <a href="https://www.clojuriststogether.org/news/q1-2024-funding-announcement/">to sponsor</a> Scicloj community building for Q1 2024, as a project by Daniel Slutsky. The project is taking place in February, March, and April 2024. Here is Daniel’s update for April.</p>
+<p>Here are the previous ones: <a href="../clojurists-together-project-scicloj-community-building-february-2024-update/">Feb 2024</a>, <a href="../clojurists-together-project-scicloj-community-building-march-2024-update/">Mar 2024</a></p>
+<p>Comments and ideas would help. 🙏</p>
+<section id="clojurists-together-update---april-2024---daniel-slutsky" class="level1">
+<h1>Clojurists Together update - April 2024 - Daniel Slutsky</h1>
+<p>April 2024 was the last of three months on the Clojurists Together project titled “Scicloj Community Building and Infrastructure”.</p>
+<p>Scicloj is an open-source group developing Clojure tools and libraries for data and science. As a community organizer at Scicloj, my current role is to help make the emerging Scicloj stack easier and more accessible for broad groups of Clojurians. I collaborate with a few Scicloj members on this.&nbsp;</p>
+<p>While this is the last update under the Clojurists Together 2024 Q1 support, the project will, of course, continue.&nbsp; Below are the sub-projects that were addressed during April 2024. They are listed by their proposed priorities for the coming month.&nbsp;</p>
+<p>The new real-world-data group is ranked highest for its impact on community growth. This means the following. Assuming this group will (hopefully) grow well and demand attention, the goals of other projects will receive less attention and will be delayed. However, some of them (e.g., required extensions or bugfixes to libraries) will receive more attention if the real-world-data group requires them.</p>
+<section id="the-real-world-data-group" class="level2">
+<h2 class="anchored" data-anchor-id="the-real-world-data-group"><a href="https://scicloj.github.io/docs/community/groups/real-world-data/">The real-world-data group</a></h2>
+<p>The real-world-data group is a space for Clojure data and science practitioners to bring their data projects, share experiences, and evolve common practices.</p>
+<section id="april-summary" class="level3">
+<h3 class="anchored" data-anchor-id="april-summary">April summary</h3>
+<ul>
+<li>had a few one-on-one meetings with group members, discussing their goals, and helping out with the technical path</li>
+<li>had the second and third group meetings, which included new presentations, follow-ups on personal projects, hands-on parts, and discussions</li>
+<li>kept working on introductory materials to support the group</li>
+</ul>
+</section>
+<section id="may-goals" class="level3">
+<h3 class="anchored" data-anchor-id="may-goals">May goals</h3>
+<ul>
+<li>have more one-on-one meetings, three more group meetings, and ad-hoc small topical meetings</li>
+<li>help the participants take on active paths that connect their interests with community goals</li>
+</ul>
+</section>
+</section>
+<section id="noj" class="level2">
+<h2 class="anchored" data-anchor-id="noj"><a href="https://scicloj.github.io/noj/">Noj</a></h2>
+<p>The Noj project bundles a few recommended libraries for data and science and adds convenience layers and documentation for using them together.</p>
+<section id="april-summary-1" class="level3">
+<h3 class="anchored" data-anchor-id="april-summary-1">April summary</h3>
+<ul>
+<li>collaborated with Kira McLean on a draft for a new data-visualization API, combining Tablecloth, Hanami, and statistical functions</li>
+<li>updated documentation: added a tutorial for visualizing correlation matrices (WIP); started working on an additional machine-learning tutorial</li>
+<li>updated the implementation to reuse existing functions of other libraries</li>
+</ul>
+</section>
+<section id="may-goals-1" class="level3">
+<h3 class="anchored" data-anchor-id="may-goals-1">May goals</h3>
+<ul>
+<li>implement the new data-visualization API (still in experimental stage)</li>
+<li>improve documentation</li>
+</ul>
+</section>
+</section>
+<section id="translating-books" class="level2">
+<h2 class="anchored" data-anchor-id="translating-books"><a href="https://clojureverse.org/t/learn-data-and-science-in-clojure-by-translating-a-book-together/">translating books</a></h2>
+<p>In this project, we are renewing previous efforts to systematically review data science books in other programming languages and convert them to Clojure. The goal is twofold: figuring out what common data science needs are still missing in the Clojure stack and creating well-polished documentation of this stack. It is also an opportunity for Clojurians to get involved in the data science community and learn from books they are curious about.</p>
+<section id="april-summary-2" class="level3">
+<h3 class="anchored" data-anchor-id="april-summary-2">April summary</h3>
+<ul>
+<li>created a list of books (to be announced soon in a tidy repo) in a discussion with community members, exploring content and licenses</li>
+<li>explored a Clay+Quarto workflow for a couple of the books, and created draft repos for them</li>
+<li>started exploring certain books with community members who may take them on as their long-term projects</li>
+</ul>
+</section>
+<section id="may-goals-2" class="level3">
+<h3 class="anchored" data-anchor-id="may-goals-2">May goals</h3>
+<ul>
+<li>focus on <a href="https://github.com/mthulin/mswr-book">Modern Statistics with R</a> by Måns Thulin</li>
+<li>keep exploring other books with community members</li>
+</ul>
+</section>
+</section>
+<section id="visual-tools-group" class="level2">
+<h2 class="anchored" data-anchor-id="visual-tools-group"><a href="https://scicloj.github.io/docs/community/groups/visual-tools/">visual-tools group</a></h2>
+<p>This group’s goal is to create collaborations in learning and building Clojure tools for data visualization, literate programming, and UI design.</p>
+<section id="april-summary-3" class="level3">
+<h3 class="anchored" data-anchor-id="april-summary-3">April summary&nbsp;</h3>
+<ul>
+<li>had the third ggplot study session</li>
+<li>had a meetup about badspreadsheet and HTMX with Adam James</li>
+<li>coordinated collaborations with a few group members who are working on HTMX-based dashboards (TBA)</li>
+<li>kept exploring options for grammar-of-graphics implementations (documented in the Scrapbook)</li>
+</ul>
+</section>
+<section id="may-goals-3" class="level3">
+<h3 class="anchored" data-anchor-id="may-goals-3">May goals</h3>
+<ul>
+<li>keep the collaborations around HTMX-based layers</li>
+<li>continue the grammar-of-graphics study sessions</li>
+<li>clarify a proposal and a proof-of-concept for the long-term grammar-of-graphics project</li>
+</ul>
+</section>
+</section>
+<section id="clojure-data-scrapbook" class="level2">
+<h2 class="anchored" data-anchor-id="clojure-data-scrapbook"><a href="https://scicloj.github.io/clojure-data-scrapbook/">Clojure Data Scrapbook</a></h2>
+<p>The Clojure Data Scrapbook is intended to be a community-driven collection of tutorials around data and science in Clojure.&nbsp;</p>
+<section id="april-summary-4" class="level3">
+<h3 class="anchored" data-anchor-id="april-summary-4">April summary</h3>
+<ul>
+<li>continued the “exploring ggplot” tutorials</li>
+<li>started tutorials (WIP): processing JSON files, analyzing transportation networks</li>
+<li>adapted old tutorials to ecosystem updates</li>
+</ul>
+</section>
+<section id="may-goals-4" class="level3">
+<h3 class="anchored" data-anchor-id="may-goals-4">May goals</h3>
+<ul>
+<li>encourage and help community contributions to the scrapbook</li>
+<li>keep adding content to support other projects</li>
+</ul>
+</section>
+</section>
+<section id="clay" class="level2">
+<h2 class="anchored" data-anchor-id="clay"><a href="https://scicloj.github.io/clay/">Clay</a></h2>
+<p>Clay is a minimalistic namespace-as-a-notebook tool for literate programming and data visualization.&nbsp;</p>
+<section id="april-summary-5" class="level3">
+<h3 class="anchored" data-anchor-id="april-summary-5">April summary</h3>
+<ul>
+<li>added an experimental version of test generation for the purpose of testable docs / literate testing</li>
+<li>minor bugixes and extensions</li>
+<li>5 minor releases of Clay, 2 minor releases of the clay.el Emacs package</li>
+</ul>
+</section>
+<section id="may-goals-5" class="level3">
+<h3 class="anchored" data-anchor-id="may-goals-5">May goals</h3>
+<ul>
+<li>start working on additional visualizations, mostly Emmy.viewers integration</li>
+<li>explore the extraction of the HTML and Markdown generation layer as a separate library</li>
+<li>keep evolving by user needs</li>
+</ul>
+</section>
+</section>
+<section id="kindly" class="level2">
+<h2 class="anchored" data-anchor-id="kindly"><a href="https://scicloj.github.io/kindly-noted/">Kindly</a></h2>
+<p>Kindly is a proposed standard for requesting data visualizations in Clojure.</p>
+<section id="april-summary-6" class="level3">
+<h3 class="anchored" data-anchor-id="april-summary-6">April summary</h3>
+<ul>
+<li>added the meta-kind <code>kind/fn</code> for user-defined display</li>
+<li>added the meta-kind <code>kind/test-last</code> (with <code>kindly/check</code> syntactic sugar) for test generation</li>
+<li>updated documentation (the Kindly-noted project)</li>
+<li>updated kind-clerk (Clerk adapter): plotly support</li>
+</ul>
+</section>
+<section id="may-goals-6" class="level3">
+<h3 class="anchored" data-anchor-id="may-goals-6">May goals</h3>
+<ul>
+<li>start working on Kindly support with the creators of new HTMX-based visual-tools</li>
+<li>explore the option of a standalone Kindly implementation that is reusable in different tools (an alternative to the current approach of tool-specific implementations)</li>
+</ul>
+</section>
+</section>
+<section id="cmdstan-clj" class="level2">
+<h2 class="anchored" data-anchor-id="cmdstan-clj"><a href="https://github.com/scicloj/cmdstan-clj">cmdstan-clj</a></h2>
+<p>Cmdstan-clj is a draft library for interop with <a href="https://mc-stan.org/">Stan</a> (probabilistic modeling through Bayesian statistics).</p>
+<section id="april-summary-7" class="level3">
+<h3 class="anchored" data-anchor-id="april-summary-7">April summary</h3>
+<ul>
+<li>gave a presentation of the library and the topic of Bayesian Statistics at the real-world-data group</li>
+<li>maintenance: adapted the library to related ecosystem changes</li>
+</ul>
+</section>
+<section id="may-goals-7" class="level3">
+<h3 class="anchored" data-anchor-id="may-goals-7">May goals</h3>
+<ul>
+<li>practice usage with community members and keep developing by need</li>
+</ul>
+</section>
+</section>
+<section id="clojisr" class="level2">
+<h2 class="anchored" data-anchor-id="clojisr"><a href="https://github.com/scicloj/clojisr">ClojisR</a></h2>
+<p>ClojisR is a bridge between Clojure and the R language for statistical computing. During this Month, <span class="citation" data-cites="generateme">@generateme</span> released the first non-beta version of the library and announced it as stable after 4.5 years of usage.</p>
+<section id="april-summary-8" class="level3">
+<h3 class="anchored" data-anchor-id="april-summary-8">April summary</h3>
+<ul>
+<li>My role in the release was mostly migrating the old documentation to use our current literate programming workflow with Clay, test-generation, and Quarto.</li>
+</ul>
+</section>
+<section id="may-goals-8" class="level3">
+<h3 class="anchored" data-anchor-id="may-goals-8">May goals</h3>
+<ul>
+<li>Migrate the <a href="https://github.com/scicloj/clojisr-examples">clojisr-examples</a> project to the current workflow.</li>
+</ul>
+</section>
+</section>
+<section id="the-scicloj-website" class="level2">
+<h2 class="anchored" data-anchor-id="the-scicloj-website"><a href="https://scicloj.github.io/">The Scicloj website</a></h2>
+</section>
+<section id="april-summary-9" class="level2">
+<h2 class="anchored" data-anchor-id="april-summary-9">April summary</h2>
+<ul>
+<li>Maintenance and updates</li>
+</ul>
+<section id="may-goals-9" class="level3">
+<h3 class="anchored" data-anchor-id="may-goals-9">May goals</h3>
+<ul>
+<li>minor updates reflecting current projects and events</li>
+</ul>
+</section>
+</section>
+<section id="your-feedback-would-help" class="level2">
+<h2 class="anchored" data-anchor-id="your-feedback-would-help">Your feedback would help</h2>
+<p>Scicloj is in transition. On the one hand, quite a few of the core members have been very active recently, developing the emerging stack of libraries. At the same time, new friends are joining, and soon, more people will enjoy the Clojure for common data and science needs. If you have any thoughts about the current directions, or if you wish to discuss how the evolving platform may fit your needs, please <a href="https://scicloj.github.io/docs/community/contact/">reach out</a>.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://scicloj.github.io/blog/clojurists-together-project-scicloj-community-building-april-2024-update/</guid>
+  <pubDate>Tue, 30 Apr 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://scicloj.github.io/sci-cloj-logo-transparent.png" medium="image" type="image/png" height="155" width="144"/>
+</item>
+<item>
+  <title>Launching Columns for Tablecloth</title>
+  <dc:creator>Ethan Miller</dc:creator>
+  <link>https://scicloj.github.io/blog/launching-columns-for-tablecloth/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is a cross-post of <a href="https://humanscode.com/columns-for-tablecloth-launch">a recent post</a> by Ethan Miller at <a href="https://humanscode.com/">his blog</a>, announcing the release of a substantial addition to the <a href="https://scicloj.github.io/tablecloth/">Tablecloth</a> library.</p>
+<hr>
+<section id="the-new-column-api" class="level2">
+<h2 class="anchored" data-anchor-id="the-new-column-api">The New <code>Column</code> API</h2>
+<p>Today we at <a href="https://scicloj.github.io">scicloj</a> deployed a new Column API (<code>tablecloth.column.api</code>) into the data processing library <a href="https://github.com/scicloj/tablecloth">Tablecloth</a> (available as of version <code>7.029.1</code>). This new API adds a new primitive to the Tablecloth system: the <code>column</code>. Here’s how we use it:</p>
+<pre><code>(require '[tablecloth.column.api :as tcc])
+
+(tcc/column [1 2 3 4 5])
+;; =&gt; #tech.v3.dataset.column&lt;int64&gt;[5]
+null
+[1, 2, 3, 4, 5]</code></pre>
+<p>The new <code>column</code> is the same as the columns that comprise a <code>dataset</code>. It is a one-dimensional typed sequence of values. Underneath the hood, the column is just the <code>column</code> defined in <a href="https://techascent.github.io/tech.ml.dataset/tech.v3.dataset.column.html">tech.ml.dataset</a>, the library that backs Tablecloth.</p>
+<p>The difference is that now when you are using Tablecloth you have the option of interacting directly with a <code>column</code> using an API that provides a set of operations that always take and return a column.</p>
+</section>
+<section id="basic-usage" class="level2">
+<h2 class="anchored" data-anchor-id="basic-usage">Basic Usage</h2>
+<p>Let’s go through a simple example. Let’s say we have some test scores that we need to analyze:</p>
+<pre><code>(def test-scores (tcc/column [85 92 78 88 95 83 80 90]))
+
+test-scores
+;; =&gt; #tech.v3.dataset.column&lt;int64&gt;[8]
+null
+[85, 92, 78, 88, 95, 83, 80, 90]</code></pre>
+<p>Now that we have these values in a column, we can easily perform operations on them:</p>
+<pre><code>(tcc/mean test-scores)
+;; =&gt; 86.375
+
+(tcc/standard-deviation test-scores)
+;; =&gt; 5.926634795564849</code></pre>
+<p>There are a many operations that one can perform. At the moment, the available operations are those that you would have previously accessed by importing the <a href="https://cnuernber.github.io/dtype-next/tech.v3.datatype.functional.html"><code>tech.v3.datatype.functional</code></a> namespace from dtype-next.</p>
+<p>To get a fuller picture of the Column API and how it works, please consult the <a href="https://scicloj.github.io/tablecloth/#column-api">Column API section in the Tablecloth documentation</a>.</p>
+</section>
+<section id="easier-column-operations-on-the-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="easier-column-operations-on-the-dataset">Easier Column Operations on the Dataset</h2>
+<p>The changes we’ve deployed also improve the expressive power of Tablecloth’s standard Dataset API. Previously, if you needed to do something simple like a group by and aggregation on a column in a dataset, the code could become unnecessarily verbose:</p>
+<pre><code>(defonce stocks
+  (tc/dataset "https://raw.githubusercontent.com/techascent/tech.ml.dataset/master/test/data/stocks.csv" {:key-fn keyword}))
+
+
+(tc/column-names stocks)
+
+(-&gt; stocks
+    (tc/group-by [:symbol])
+    (tc/aggregate (fn [ds]
+                    (-&gt; ds
+                        :price
+                        tech.v3.datatype.functional/mean))))
+;; =&gt; _unnamed [5 2]:
+
+| :symbol |      summary |
+|---------|-------------:|
+|    MSFT |  24.73674797 |
+|    AMZN |  47.98707317 |
+|     IBM |  91.26121951 |
+|    GOOG | 415.87044118 |
+|    AAPL |  64.73048780 |</code></pre>
+<p>With the new column operations within for datasets, you can now simply write:</p>
+<pre><code>(-&gt; stocks
+    (tc/group-by [:symbol])
+    (tc/mean [:price]))</code></pre>
+<p>The same set operations available to be run on the <code>column</code> can be called on columns in the datasest. However, when operating a dataset, functions that would return a scalar value act as aggregator functions, as seen above.</p>
+<p>Functions that would return a new column allow the user to specify a target column to be added to the dataset, as in this example where we first use the method above to add a column with the mean back to stocks:</p>
+<pre><code>(def stocks-with-mean
+  (-&gt; stocks
+      (tc/group-by [:symbol])
+      (tc/mean [:price])
+      (tc/rename-columns {"summary" :mean-price})
+      (tc/inner-join stocks :symbol)))
+
+
+stocks-with-mean
+;; =&gt; inner-join [560 4]:
+;;    | :symbol | :mean-price |      :date | :price |
+;;    |---------|------------:|------------|-------:|
+;;    |    MSFT | 24.73674797 | 2000-01-01 |  39.81 |
+;;    |    MSFT | 24.73674797 | 2000-02-01 |  36.35 |
+;;    |    MSFT | 24.73674797 | 2000-03-01 |  43.22 |
+;;    |    MSFT | 24.73674797 | 2000-04-01 |  28.37 |</code></pre>
+<p>Then we use a dataset column operation that returns a column – column division, in this case – to add a new column holding the relative daily price of the stock:</p>
+<pre><code>(-&gt; stocks-with-mean
+    (tc// :relative-daily-price [:price :mean-price]))
+;; =&gt; inner-join [560 5]:
+;;    | :symbol | :mean-price |      :date | :price | :relative-daily-price |
+;;    |---------|------------:|------------|-------:|----------------------:|
+;;    |    MSFT | 24.73674797 | 2000-01-01 |  39.81 |            1.60934655 |
+;;    |    MSFT | 24.73674797 | 2000-02-01 |  36.35 |            1.46947368 |
+;;    |    MSFT | 24.73674797 | 2000-03-01 |  43.22 |            1.74719814 |
+;;    |    MSFT | 24.73674797 | 2000-04-01 |  28.37 |            1.14687670 |</code></pre>
+<p>For more information, on these operations, please consult the documentation <a href="https://scicloj.github.io/tablecloth/pr-preview/pr-100/#column-operations">here</a>.</p>
+</section>
+<section id="thanks-to-clojurist-together" class="level2">
+<h2 class="anchored" data-anchor-id="thanks-to-clojurist-together">Thanks to Clojurist Together</h2>
+<p>This contribution to Tablecloth was supported by <a href="https://www.clojuriststogether.org">Clojurists Together</a> through their <a href="https://www.clojuriststogether.org/open-source/">Quarterly Fellowships</a> for open source development.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://scicloj.github.io/blog/launching-columns-for-tablecloth/</guid>
+  <pubDate>Sat, 13 Apr 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://scicloj.github.io/sci-cloj-logo-transparent.png" medium="image" type="image/png" height="155" width="144"/>
+</item>
+<item>
+  <title>The Current State of ML in Clojure</title>
+  <dc:creator>Kira McLean</dc:creator>
+  <link>https://scicloj.github.io/blog/the-current-state-of-ml-in-clojure/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is a cross-post of <a href="https://codewithkira.com/2024-04-04-state-of-clojure-ml.html">a recent post</a> by Kira McLean at <a href="https://codewithkira.com/">her blog</a>, that has encouraged a few discussions over the web.</p>
+<hr>
+<p>Recently, a few of us at Scicloj have had enlightening discussions of of current state of the machine learning landscape in Clojure. This post is my attempt to distill it into a summary for the community’s benefit, so more people can understand where things are at and what the active developers in this space are working on.</p>
+<p>It’s no secret I love Clojure and especially working with data in Clojure, but it’s fair to say that the Clojure for data science ecosystem is not anywhere near as easy to use or understand as reasonable potential users might expect. This is the main problem I’m focusing on this year, and there is significant effort being put into refining our tools to make them more accessible to a wider audience.</p>
+<p>There are already people doing “real” machine learning work in Clojure, though, and below is an overview of what the current state of our libraries and tools are in that area, as of April 2024.</p>
+<p><em>Update: It’s worth mentioning that deep learning and LLM libraries have been intentionally left out of this post in order to keep it a “reasonable” length. There is enough separate work happening in that space that it warrants its own, separate overview.</em></p>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>There are a lot of links in this post. This table is an attempt to aggregate and summarize them. There are more details worth reading below, but in case you don’t have time, this is the gist of it. To make a very long story short, current efforts are heavily focused on consolidating all of these amazing libraries into one (or at least a small number of clearly delineated ones) that is/are easy-to-use, providing a comphrehensive toolkit for doing machine learning in Clojure.</p>
+<div class="table-responsive">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Library</th>
+<th>Description</th>
+<th>License</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Java ML Libraries</strong></td>
+<td><a href="https://tribuo.org/">Tribuo</a></td>
+<td>A comprehensive Java ML framework, preferred library for ML workflows</td>
+<td>Apache 2.0</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://github.com/haifengl/smile">Smile 2.x</a></td>
+<td>Currently being phased out of main Clojure ML libraries</td>
+<td>LGPL</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://github.com/haifengl/smile">Smile 3.x</a></td>
+<td>Avoided due to licensing</td>
+<td>GPL</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://xgboost.readthedocs.io/en/stable/jvm/index.html">XGBoost for JVM</a></td>
+<td>Implements gradient boosting algorithms, can be used through Tribuo</td>
+<td>Apache 2.0</td>
+</tr>
+<tr class="odd">
+<td><strong>Clojure Wrappers</strong></td>
+<td><a href="https://github.com/generateme/fastmath">fastmath 2.4.0+</a></td>
+<td>Clojure ML/stats library, dependency on Smile 2.x</td>
+<td>MIT</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://github.com/generateme/fastmath">fastmath 3.x</a></td>
+<td>Fastmath with no Smile dependency</td>
+<td>MIT</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://github.com/generateme/fastmath-clustering">fastmath-clustering</a></td>
+<td>Fastmath wrapper around Smile clustering, dependency on Smile 2.x</td>
+<td>EPL-2.0</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://github.com/scicloj/scicloj.ml.tribuo">scicloj.ml.tribuo</a></td>
+<td>Clojure wrapper for Tribuo, likely to become the main source for ML algorithms</td>
+<td>EPL-1.0</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://github.com/scicloj/scicloj.ml.smile">scicloj.ml.smile</a></td>
+<td>Clojure wrapper for more of Smile (than fastmath), likely to be deprecated due to licensing</td>
+<td>EPL-2.0</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://github.com/scicloj/scicloj.ml.xgboost">scicloj.ml.xgboost</a></td>
+<td>Clojure wrapper for XGBoost directly</td>
+<td>EPL-1.0</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://github.com/techascent/tech.ml.dataset">tech.ml.dataset</a></td>
+<td>Core dataframe/dataset library in Clojure, incorporates some Tribuo functionality</td>
+<td>EPL-1.0</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://github.com/techascent/tech.ml">tech.ml</a></td>
+<td>Early Clojure ML library, superceded by various scicloj.ml libraries</td>
+<td>EPL-1.0</td>
+</tr>
+<tr class="odd">
+<td><strong>Clojure ML Pipelines</strong></td>
+<td><a href="https://github.com/scicloj/metamorph">metamorph</a></td>
+<td>Clojure function composition library</td>
+<td>EPL-2.0</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://github.com/scicloj/metamorph.ml">metamorph.ml</a></td>
+<td>Clojure library for composing ML pipelines based on metamorph</td>
+<td>EPL-2.0</td>
+</tr>
+<tr class="odd">
+<td><strong>Collections/Frameworks</strong></td>
+<td><a href="https://github.com/scicloj/scicloj.ml">scicloj.ml</a></td>
+<td>Collection of Clojure ML libraries and documentation, being deprecated in favour of noj</td>
+<td>EPL-2.0</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://github.com/scicloj/noj">noj</a></td>
+<td><strong>Consolidated Clojure data science toolkit, likely to become the main, unified entry-point for Clojure’s data science stack</strong></td>
+<td>EPL-1.0</td>
+</tr>
+<tr class="odd">
+<td><strong>Interop</strong></td>
+<td><a href="https://github.com/cnuernber/libpython-clj">libpython-clj</a></td>
+<td>Python bindings for Clojure, enabling use of Python code and libraries directly from Clojure</td>
+<td>EPL-2.0</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="https://github.com/scicloj/sklearn-clj">sklearn-clj</a></td>
+<td>Utilizes libpython-clj for access to scikit-learn estimators and models from Clojure</td>
+<td>EPL-1.0</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="https://github.com/scicloj/clojisr">clojisr</a></td>
+<td>Bridge from Clojure to R, less relevance for ML compared to Python interop</td>
+<td>EPL-2.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>In addition to all of these libraries, the post mentions the <a href="https://scicloj.github.io/docs/community/chat/">Clojurians Zulip</a>, the main Clojure-for-data-science community discussion forum, where main contributors to the ecosystem are active daily.</p>
+</section>
+<section id="java-ml-libraries" class="level2">
+<h2 class="anchored" data-anchor-id="java-ml-libraries">Java ML Libraries</h2>
+<p>There are two (sort of four) popular Java libraries that implement many of the main algorithms and tools used in machine learning today (e.g.&nbsp;classification, regression, clustering, model development, etc.): <a href="https://tribuo.org/">Tribuo</a> (including XGBoost, more on that in a second) and <a href="https://haifengl.github.io/">Smile</a>. We count Smile as two libraries because Smile 2.x is LGPL-licensed, and Smile 3.x is GPL-licensed, which poses some potential conflicts for some end users. The community consensus is converging around moving away from Smile due to the GPL-relicensing issue, focusing instead on Tribuo and hand-rolled solutions.</p>
+<p>There is also <a href="https://xgboost.readthedocs.io/en/stable/jvm/index.html">XGBoost</a> for the JVM, mentioned above, which is an implementation of gradient boosting. XGBoost is a collection of algorithms whereas Tribuo is a more comprehensive framework (including things like data management, model evaluation, and experiment tracking). XGBoost can be used from Tribuo, so I don’t exactly count it as a standalone library, although it can also be used in that way.</p>
+</section>
+<section id="clojure-wrappers" class="level2">
+<h2 class="anchored" data-anchor-id="clojure-wrappers">Clojure wrappers</h2>
+<p>There are two main “families” of libraries that wrap these Java ML libraries in Clojure.</p>
+<p><a href="https://github.com/generateme/fastmath">Fastmath</a> includes statistical as well as machine learning tools for Clojure. Fastmath 2.4.0+ depends on Smile 2, and the forthcoming fastmath 3.x will have no Smile dependency at all. The clustering functionality in fastmath 2.x that depended on smile has been moved to the <a href="https://github.com/generateme/fastmath-clustering">fastmath-clustering</a> library, which will have a Smile 2.x dependency going forward. There is a strong preference in the community to avoid introducing GPL-licensed libraries into the ecosystem.</p>
+<p>Clustering functionality will mostly be provided by <a href="https://github.com/scicloj/scicloj.ml.tribuo">scicloj.ml.tribuo</a> going forward which, as you might expect, wraps the Tribuo Java library, and is likely to become the main source of ML algorithms for the ecosystem. This is one of a few libraries in the second family of libraries that wrap the Java libraries mentioned above. Other (self-explanatory) ones include <a href="https://github.com/scicloj/scicloj.ml.smile">scicloj.ml.smile</a>, which wraps more of Smile than fastmath did (does), and <a href="https://github.com/scicloj/scicloj.ml.xgboost">scicloj.ml.xgboost</a>.</p>
+<p>It’s also worth mentioning <a href="https://github.com/techascent/tech.ml.dataset">tech.ml.dataset</a> (the core dataframe/dataset library underlying tablecloth), which <a href="https://github.com/techascent/tech.ml.dataset/blob/master/src/tech/v3/libs/tribuo.clj">incorporates some of the functionality of tribuo</a>, with the API centred around individual datasets. There also used to be a library called <a href="https://github.com/techascent/tech.ml">tech.ml</a>, which implements some machine learning tools, but has been deprecated in favour of the various libraries discussed above.</p>
+<p>The concept of orienting an API around individual datasets vs something else leads me to the next group of libraries.</p>
+</section>
+<section id="clojure-ml-pipelines" class="level2">
+<h2 class="anchored" data-anchor-id="clojure-ml-pipelines">Clojure ML Pipelines</h2>
+<p><a href="https://github.com/scicloj/metamorph">Metamorph</a> is a library that implements a function composition mechanism for composing ML pipelines. It arises from the common ML practice of repeatedly running the same set of functions with varied parameters. You might, for example, try many different test/train splits to see how that affects your results, or fit the same data using many different algorithms, or try training your model using different sets of features. This leads to an explosion of pipeline combinations, so it’s useful to have machinery to encapsulate the variable components of your ML pipeline into a single function. This is where metamorph.ml comes in.</p>
+<p><a href="https://github.com/scicloj/metamorph.ml">Metamorph.ml</a> is based on this concept of meta-functions and pipelines. It is currently the central library for orchestrating ML pipelines in Clojure. The API is stable, but there are currently <a href="https://clojurians.zulipchat.com/#narrow/stream/321125-noj-dev/topic/ols.20interaction.20tutorial/near/422408507">many ways (10+)</a> to achieve the same outcomes. This is great for power users who have complex needs and a clear understanding of the metamorph mental model, but it can be a bit daunting for newcomers, making it more challenging to pick a clear place to start. The community is actively discussing the best approach for consolidating and/or documenting these different approaches in the interest of making Clojure’s ML stack more accessible.</p>
+</section>
+<section id="collectionsframeworks" class="level2">
+<h2 class="anchored" data-anchor-id="collectionsframeworks">Collections/Frameworks</h2>
+<p>The community is well aware that it is difficult to know where to get started and several efforts have been made in an attempt to make the path more clear for people who want tools that Just Work. <a href="https://github.com/scicloj/scicloj.ml">scicloj.ml</a> is one such project. It’s a collection of libraries (mostly the ones mentioned above) with some lightweight wrappers and efforts in creating documentation.</p>
+<p>The community is heading toward deprecating this library, though, in favour of <a href="https://github.com/scicloj/noj">noj</a>, which we are hoping to stabilize in the near future. The goal is to have a single entry-point into the Clojure data science stack, gathering all the tools one would need to work with data consolidated in one place, with seamless interoperability akin to R’s tidyverse of libraries.</p>
+</section>
+<section id="interop" class="level2">
+<h2 class="anchored" data-anchor-id="interop">Interop</h2>
+<p>It wouldn’t be a complete roundup of the state of ML in Clojure without a mention of <a href="https://github.com/clj-python/libpython-clj">libpython-clj</a>. This is a library that provides Python bindings for Clojure, so you can call Python code directly from Clojure if necessary. <a href="https://github.com/scicloj/sklearn-clj">sklearn-clj</a> makes use of this bridge to provide direct access to all of the estimators and models from Python <a href="https://scikit-learn.org/">scikit-learn</a> in Clojure, so for cases where something is truly only available in Python, we can still access it.</p>
+<p>It’s worth also briefly mentioning <a href="https://github.com/scicloj/clojisr">clojisr</a> here, which is a similar kind of bridge from Clojure to R (and there exist libraries for Julia and Wolframite, too), but these are all less relevant for the specific area of ML, where Python is the overwhelmingly most popular current tool of choice.</p>
+</section>
+<section id="more-updates" class="level2">
+<h2 class="anchored" data-anchor-id="more-updates">More updates</h2>
+<p>These discussions all happen in the open, on the <a href="https://scicloj.github.io/docs/community/chat/">Clojurian’s Zulip instance</a>, which has become the main gathering place of the Clojure-for-data-science community. The <code>#data-science</code> and <code>#noj-dev</code> streams are the most active on these topics at the time of this writing. You can follow along with developments in the trenches over there, or follow the key libraries on github for updates (<a href="https://github.com/scicloj/scicloj.ml.tribuo">scicloj.ml.tribuo</a>, <a href="https://github.com/scicloj/metamorph.ml">metamorph.ml</a>, <a href="https://github.com/scicloj/noj">noj</a>). I will also post periodic updates here and all the other corners of the internet where I lurk. Thank you for reading!</p>
+<p><strong>Discuss this post on <a href="https://news.ycombinator.com/item?id=39947045">Hacker News</a> or <a href="https://www.reddit.com/r/Clojure/comments/1bxamkm/clojure_for_ml_update/">Reddit</a></strong></p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://scicloj.github.io/blog/the-current-state-of-ml-in-clojure/</guid>
+  <pubDate>Thu, 04 Apr 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://scicloj.github.io/sci-cloj-logo-transparent.png" medium="image" type="image/png" height="155" width="144"/>
+</item>
+</channel>
+</rss>

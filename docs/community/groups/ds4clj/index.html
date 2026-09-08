@@ -1,14 +1,1329 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel=preload as=font href=https://scicloj.github.io/fonts/vendor/jost/jost-v4-latin-regular.woff2 type=font/woff2 crossorigin><link rel=preload as=font href=https://scicloj.github.io/fonts/vendor/jost/jost-v4-latin-500.woff2 type=font/woff2 crossorigin><link rel=preload as=font href=https://scicloj.github.io/fonts/vendor/jost/jost-v4-latin-700.woff2 type=font/woff2 crossorigin><script>(()=>{var b=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,a=localStorage.getItem("theme");b&&a===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),b&&a==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),a==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script><link rel=stylesheet href=https://scicloj.github.io/main.0d30a00587a98e7fe1fdb9f806f8ef9ebbb52558640fb1c2c468e35697ee4a5004981e5c4ae68164ce4b4c3766431d7a0ed8994de96fee08da0378629037eb28.css integrity="sha512-DTCgBYepjn/h/bn4Bvjvnru1JVhkD7HCxGjjVpfuSlAEmB5cSuaBZM5LTDdmQx16DtiZTelv7gjaA3hikDfrKA==" crossorigin=anonymous><noscript><style>img.lazyload{display:none}</style></noscript><meta name=robots content="index, follow"><meta name=googlebot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta name=bingbot content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><title>{on hold} ds4clj: a data science course for Clojure devs - Scicloj</title><meta name=description content="A data science course for Clojure devs"><link rel=canonical href=https://scicloj.github.io/docs/community/groups/ds4clj/><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="{on hold} ds4clj: a data science course for Clojure devs"><meta property="og:description" content="A data science course for Clojure devs"><meta property="og:url" content="https://scicloj.github.io/docs/community/groups/ds4clj/"><meta property="og:site_name" content="Scicloj"><meta property="article:published_time" content="2022-07-12T00:00:00+00:00"><meta property="article:modified_time" content="2023-06-02T00:00:00+00:00"><meta property="og:image" content="https://scicloj.github.io/"><meta property="og:image:alt" content="Scicloj"><meta name=twitter:card content="summary_large_image"><meta name=twitter:site content="@scicloj"><meta name=twitter:creator content="@daslu_"><meta name=twitter:title content="{on hold} ds4clj: a data science course for Clojure devs"><meta name=twitter:description content="A data science course for Clojure devs"><meta name=twitter:image content="https://scicloj.github.io/"><meta name=twitter:image:alt content="{on hold} ds4clj: a data science course for Clojure devs"><script type=application/ld+json>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://scicloj.github.io/#/schema/organization/1","name":"Doks","url":"https://scicloj.github.io/","sameAs":["https://twitter.com/getdoks","https://github.com/h-enk/doks"],"logo":{"@type":"ImageObject","@id":"https://scicloj.github.io/#/schema/image/1","url":"https://scicloj.github.io/logo-doks.png","width":512,"height":512,"caption":"Doks"},"image":{"@id":"https://scicloj.github.io/#/schema/image/1"}},{"@type":"WebSite","@id":"https://scicloj.github.io/#/schema/website/1","url":"https://scicloj.github.io/","name":"Scicloj","description":"Scicloj is building a stack of Clojure libraries for data science, and scientific computing.","publisher":{"@id":"https://scicloj.github.io/#/schema/organization/1"}},{"@type":"WebPage","@id":"https://scicloj.github.io/docs/community/groups/ds4clj/","url":"https://scicloj.github.io/docs/community/groups/ds4clj/","name":"{on hold} ds4clj: a data science course for Clojure devs","description":"A data science course for Clojure devs","isPartOf":{"@id":"https://scicloj.github.io/#/schema/website/1"},"about":{"@id":"https://scicloj.github.io/#/schema/organization/1"},"datePublished":"2022-07-12T00:00:00CET","dateModified":"2023-06-02T00:00:00CET","breadcrumb":{"@id":"https://scicloj.github.io/docs/community/groups/ds4clj/#/schema/breadcrumb/1"},"primaryImageOfPage":{"@id":"https://scicloj.github.io/docs/community/groups/ds4clj/#/schema/image/2"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://scicloj.github.io/docs/community/groups/ds4clj/"]}]},{"@type":"BreadcrumbList","@id":"https://scicloj.github.io/docs/community/groups/ds4clj/#/schema/breadcrumb/1","name":"Breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://scicloj.github.io/","url":"https://scicloj.github.io/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://scicloj.github.io/docs/","url":"https://scicloj.github.io/docs/","name":"Docs"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://scicloj.github.io/docs/community/","url":"https://scicloj.github.io/docs/community/","name":"Community"}},{"@type":"ListItem","position":4,"item":{"@type":"WebPage","@id":"https://scicloj.github.io/docs/community/groups/","url":"https://scicloj.github.io/docs/community/groups/","name":"Groups"}},{"@type":"ListItem","position":5,"item":{"@id":"https://scicloj.github.io/docs/community/groups/ds4clj/"}}]},{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://scicloj.github.io/#/schema/article/1","headline":"{on hold} ds4clj: a data science course for Clojure devs","description":"A data science course for Clojure devs","isPartOf":{"@id":"https://scicloj.github.io/docs/community/groups/ds4clj/"},"mainEntityOfPage":{"@id":"https://scicloj.github.io/docs/community/groups/ds4clj/"},"datePublished":"2022-07-12T00:00:00CET","dateModified":"2023-06-02T00:00:00CET","author":{"@id":"https://scicloj.github.io/#/schema/person/2"},"publisher":{"@id":"https://scicloj.github.io/#/schema/organization/1"},"image":{"@id":"https://scicloj.github.io/docs/community/groups/ds4clj/#/schema/image/2"}}]},{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://scicloj.github.io/#/schema/person/2","name":"Henk Verlinde","sameAs":["https://twitter.com/henkverlinde","https://www.linkedin.com/in/henkverlinde/","https://github.com/h-enk"]}]},{"@context":"https://schema.org","@graph":[{"@type":"ImageObject","@id":"https://scicloj.github.io/docs/community/groups/ds4clj/#/schema/image/2","url":"https://scicloj.github.io/","contentUrl":"https://scicloj.github.io/","caption":"{on hold} ds4clj: a data science course for Clojure devs"}]}]}</script><meta name=theme-color content="#fff"><link rel=apple-touch-icon sizes=180x180 href=https://scicloj.github.io/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://scicloj.github.io/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=https://scicloj.github.io/favicon-16x16.png><link rel=manifest crossorigin=use-credentials href=https://scicloj.github.io/site.webmanifest></head><body class="docs single"><div class=header-bar></div><header class="navbar navbar-expand-md navbar-light doks-navbar"><nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation"><a class="navbar-brand p-0 me-auto" href=https://scicloj.github.io/ aria-label=Scicloj><img height=60 src=https://scicloj.github.io/sci-cloj-logo-transparent.png class="navbar-brand p-0 me-auto" href=https://scicloj.github.io/ aria-label=Scicloj></img></a>
-<button class="btn btn-menu d-block d-md-none order-5" type=button data-bs-toggle=offcanvas data-bs-target=#offcanvasDoks aria-controls=offcanvasDoks aria-label="Open main menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button><div class="offcanvas offcanvas-start border-0 py-md-1" tabindex=-1 id=offcanvasDoks data-bs-backdrop=true aria-labelledby=offcanvasDoksLabel><div class="header-bar d-md-none"></div><div class="offcanvas-header d-md-none"><h2 class="h5 offcanvas-title ps-2" id=offcanvasDoksLabel><a class=text-dark href=https://scicloj.github.io/>Scicloj</a></h2><button type=button class="btn-close text-reset me-2" data-bs-dismiss=offcanvas aria-label="Close main menu"></button></div><div class="offcanvas-body px-4"><h3 class="h6 text-uppercase mb-3 d-md-none">Main</h3><ul class="nav flex-column flex-md-row ms-md-n3"><li class=nav-item><a class="nav-link ps-0 py-1" href=https://scicloj.github.io/blog/>Blog</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle ps-0 py-1" href=# id=navbarDropdownMenuLink role=button data-bs-toggle=dropdown aria-expanded=false>Community
-<span class=dropdown-caret><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"/></svg></span></a><ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby=navbarDropdownMenuLink><li><a class=dropdown-item href=https://scicloj.github.io/docs/community/about/>About Scicloj</a></li><li><a class=dropdown-item href=https://scicloj.github.io/docs/community/getting_involved/>Getting involved</a></li><li><a class=dropdown-item href=https://scicloj.github.io/docs/community/groups/>Dev & Study groups</a></li><li><a class=dropdown-item href=https://scicloj.github.io/docs/community/chat/>Chat Streams</a></li><li><a class=dropdown-item href=https://scicloj.github.io/docs/community/events/>Events</a></li><li><a class=dropdown-item href=https://scicloj.github.io/docs/community/contact/>Contact</a></li></ul></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle ps-0 py-1" href=# id=navbarDropdownMenuLink role=button data-bs-toggle=dropdown aria-expanded=false>Resources
-<span class=dropdown-caret><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"/></svg></span></a><ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby=navbarDropdownMenuLink><li><a class=dropdown-item href=https://scicloj.github.io/docs/resources/libs>Tools & libraries</a></li><li><a class=dropdown-item href=https://scicloj.github.io/docs/resources/reading>Reading</a></li><li><a class=dropdown-item href=https://scicloj.github.io/docs/resources/video>Video</a></li><li><a class=dropdown-item href=https://scicloj.github.io/docs/resources/audio>Audio</a></li></ul></li></ul><hr class="text-black-50 my-4 d-md-none"><h3 class="h6 text-uppercase mb-3 d-md-none">Socials</h3><ul class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2"><li class=nav-item><a class="nav-link ps-0 py-1" href=https://github.com/scicloj><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg><small class="ms-2 d-md-none">GitHub</small></a></li><li class=nav-item><a class="nav-link ps-0 py-1" href=https://twitter.com/scicloj><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9.0 01-3.14 1.53 4.48 4.48.0 00-7.86 3v1A10.66 10.66.0 013 4s-4 9 5 13a11.64 11.64.0 01-7 2c9 5 20 0 20-11.5a4.5 4.5.0 00-.08-.83A7.72 7.72.0 0023 3z"/></svg><small class="ms-2 d-md-none">Twitter</small></a></li></ul></div></div><button id=mode class="btn btn-link order-md-1" type=button aria-label="Toggle user interface mode">
-<span class=toggle-dark><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></span><span class=toggle-light><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></span></button></nav></header><nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation"><div class="container-xxl d-flex align-items-md-center"><form class="doks-search position-relative flex-grow-1 me-auto"><input id=search class="form-control is-search" type=search placeholder=Search... aria-label=Search... autocomplete=off><div id=suggestions class="shadow bg-white rounded d-none"></div></form><button class="btn doks-sidebar-toggle d-lg-none ms-3 order-3 collapsed" type=button data-bs-toggle=collapse data-bs-target=#doks-docs-nav aria-controls=doks-docs-nav aria-expanded=false aria-label="Toggle documentation navigation"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"/><polyline points="7 6 12 11 17 6"/></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg></button></div></nav><div class=container-xxl><aside class=doks-sidebar><nav id=doks-docs-nav class="collapse d-lg-none" aria-label="Tertiary navigation"><ul class="list-unstyled collapsible-sidebar"><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-ddcf50c29294d4414f3f7c1bbc892cb5 aria-expanded=false>
-Resources</button><div class=collapse id=section-ddcf50c29294d4414f3f7c1bbc892cb5><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/resources/libs/>Tools and libraries</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/resources/reading/>Reading</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/resources/video/>Video</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/resources/audio/>Audio</a></li></ul></div></li><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-7d61983c34edc2a8cabbea71c4732f62 aria-expanded=true>
-Community</button><div class="collapse show" id=section-7d61983c34edc2a8cabbea71c4732f62><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/about/>About Scicloj</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/getting_involved/>Getting Involved</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/chat/>Chat</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/events/>Events</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/contact/>Contact</a></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-5bb7b0ea3e3ce6fbc05f07ffa99c3984 aria-expanded=true>
-Dev & study groups</button><div class="collapse show" id=section-5bb7b0ea3e3ce6fbc05f07ffa99c3984><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded active" href=https://scicloj.github.io/docs/community/groups/ds4clj/>{on hold} ds4clj: a data science course for Clojure devs</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/dsp-study/>Clojure DSP Study Group: Learning Signal Processing with Clojure</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/macroexpand/>macroexpand gatherings - expanding Clojure's horizons</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/ai-meetups/>scicloj-ai-meetups: exploring the princples and uses of AI models</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/scinoj-light/>SciNoj Light: an online conference for Clojure data-analysis stories</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/open-source-mentoring/>Scicloj open-source mentoring</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/interop/>{on hold} a dev group about interop and transpilers</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/data-recur/>data-recur: recurring updates & discussions around building the emerging data stack</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/llm-meetups/>{renamed} scicloj-llm-meetups: public meetings exploring the princples and use of large language models</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/jointprob/>{on hold} Jointprob: a probabilistic modeling and Bayesian statistics study community</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/probabilistic-modelling-study-group/>{renamed} probabilistic modelling study group</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/real-world-data/>real-world-data: a space to discuss your data and science projects in Clojure</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/visual-tools/>visual-tools: regular updates & discussions around building visual tooling</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/ml-study/>{on hold} ml-study: practicing the use of the emerging stack</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/sci-fu/>{on hold} sci-fu: regular discussions of various dev projects</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/sicmutils/>{on hold} sicmutils: studying the sicmutils library, physics, and geometry</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/wolfram-clojure-bridge/>{on hold} wolfram-clojure-bridge: discussing the usage and development of the bridge to Wolfram Language</a></li></ul></div></li></ul></div></li></ul></nav></aside></div><div class="wrap container-xxl" role=document><div class=content><div class="row flex-xl-nowrap"><div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block"><nav class=docs-links aria-label="Main navigation"><ul class="list-unstyled collapsible-sidebar"><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-ddcf50c29294d4414f3f7c1bbc892cb5 aria-expanded=false>
-Resources</button><div class=collapse id=section-ddcf50c29294d4414f3f7c1bbc892cb5><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/resources/libs/>Tools and libraries</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/resources/reading/>Reading</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/resources/video/>Video</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/resources/audio/>Audio</a></li></ul></div></li><li class=mb-1><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-7d61983c34edc2a8cabbea71c4732f62 aria-expanded=true>
-Community</button><div class="collapse show" id=section-7d61983c34edc2a8cabbea71c4732f62><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/about/>About Scicloj</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/getting_involved/>Getting Involved</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/chat/>Chat</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/events/>Events</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/contact/>Contact</a></li><li class="my-1 ms-3"><button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle=collapse data-bs-target=#section-5bb7b0ea3e3ce6fbc05f07ffa99c3984 aria-expanded=true>
-Dev & study groups</button><div class="collapse show" id=section-5bb7b0ea3e3ce6fbc05f07ffa99c3984><ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"><li><a class="docs-link rounded active" href=https://scicloj.github.io/docs/community/groups/ds4clj/>{on hold} ds4clj: a data science course for Clojure devs</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/dsp-study/>Clojure DSP Study Group: Learning Signal Processing with Clojure</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/macroexpand/>macroexpand gatherings - expanding Clojure's horizons</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/ai-meetups/>scicloj-ai-meetups: exploring the princples and uses of AI models</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/scinoj-light/>SciNoj Light: an online conference for Clojure data-analysis stories</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/open-source-mentoring/>Scicloj open-source mentoring</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/interop/>{on hold} a dev group about interop and transpilers</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/data-recur/>data-recur: recurring updates & discussions around building the emerging data stack</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/llm-meetups/>{renamed} scicloj-llm-meetups: public meetings exploring the princples and use of large language models</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/jointprob/>{on hold} Jointprob: a probabilistic modeling and Bayesian statistics study community</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/probabilistic-modelling-study-group/>{renamed} probabilistic modelling study group</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/real-world-data/>real-world-data: a space to discuss your data and science projects in Clojure</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/visual-tools/>visual-tools: regular updates & discussions around building visual tooling</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/ml-study/>{on hold} ml-study: practicing the use of the emerging stack</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/sci-fu/>{on hold} sci-fu: regular discussions of various dev projects</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/sicmutils/>{on hold} sicmutils: studying the sicmutils library, physics, and geometry</a></li><li><a class="docs-link rounded" href=https://scicloj.github.io/docs/community/groups/wolfram-clojure-bridge/>{on hold} wolfram-clojure-bridge: discussing the usage and development of the bridge to Wolfram Language</a></li></ul></div></li></ul></div></li></ul></nav></div><nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation"><div class=page-links><h3>On this page</h3><nav id=TableOfContents><ul><li><a href=#exploration-meetings-preparing-for-the-course>exploration meetings preparing for the course</a></li><li><a href=#goals>goals</a></li><li><a href=#requirements>requirements</a></li><li><a href=#chat>chat</a></li><li><a href=#time>time</a></li><li><a href=#recording>recording</a></li><li><a href=#homework>homework</a></li><li><a href=#recommended-resources>recommended resources</a></li><li><a href=#list-of-topics-tentative>list of topics (tentative)</a><ul><li><a href=#language>language</a></li><li><a href=#theory--methods>theory & methods</a></li><li><a href=#libraries--tools>libraries & tools</a></li></ul></li><li><a href=#course-plan-very-tentative>course plan (very tentative)</a></li></ul></nav></div></nav><main class="docs-content col-lg-11 col-xl-9 mx-xl-auto"><h1>{on hold} ds4clj: a data science course for Clojure devs</h1><p class=lead></p><nav class=d-xl-none aria-label="Quaternary navigation"><div class=page-links><h3>On this page</h3><nav id=TableOfContents><ul><li><a href=#exploration-meetings-preparing-for-the-course>exploration meetings preparing for the course</a></li><li><a href=#goals>goals</a></li><li><a href=#requirements>requirements</a></li><li><a href=#chat>chat</a></li><li><a href=#time>time</a></li><li><a href=#recording>recording</a></li><li><a href=#homework>homework</a></li><li><a href=#recommended-resources>recommended resources</a></li><li><a href=#list-of-topics-tentative>list of topics (tentative)</a><ul><li><a href=#language>language</a></li><li><a href=#theory--methods>theory & methods</a></li><li><a href=#libraries--tools>libraries & tools</a></li></ul></li><li><a href=#course-plan-very-tentative>course plan (very tentative)</a></li></ul></nav></div></nav><hr><p><figure class=figure><img class="figure-img img-fluid lazyload blur-up" data-sizes=auto src=https://scicloj.github.io/docs/community/groups/ds4clj/black-eyed-pea_hu9f3e13bb7032d0f5ee359040c8045bed_215823_20x0_resize_q75_box.jpg data-srcset="https://scicloj.github.io/docs/community/groups/ds4clj/black-eyed-pea_hu9f3e13bb7032d0f5ee359040c8045bed_215823_900x0_resize_q75_box.jpg 900w,https://scicloj.github.io/docs/community/groups/ds4clj/black-eyed-pea_hu9f3e13bb7032d0f5ee359040c8045bed_215823_800x0_resize_q75_box.jpg 800w,https://scicloj.github.io/docs/community/groups/ds4clj/black-eyed-pea_hu9f3e13bb7032d0f5ee359040c8045bed_215823_700x0_resize_q75_box.jpg 700w,https://scicloj.github.io/docs/community/groups/ds4clj/black-eyed-pea_hu9f3e13bb7032d0f5ee359040c8045bed_215823_600x0_resize_q75_box.jpg 600w,https://scicloj.github.io/docs/community/groups/ds4clj/black-eyed-pea_hu9f3e13bb7032d0f5ee359040c8045bed_215823_500x0_resize_q75_box.jpg 500w" width=1280 height=960 alt=black-eyed-pea><noscript><img class="figure-img img-fluid" sizes=100vw srcset="https://scicloj.github.io/docs/community/groups/ds4clj/black-eyed-pea_hu9f3e13bb7032d0f5ee359040c8045bed_215823_900x0_resize_q75_box.jpg 900w,https://scicloj.github.io/docs/community/groups/ds4clj/black-eyed-pea_hu9f3e13bb7032d0f5ee359040c8045bed_215823_800x0_resize_q75_box.jpg 800w,https://scicloj.github.io/docs/community/groups/ds4clj/black-eyed-pea_hu9f3e13bb7032d0f5ee359040c8045bed_215823_700x0_resize_q75_box.jpg 700w,https://scicloj.github.io/docs/community/groups/ds4clj/black-eyed-pea_hu9f3e13bb7032d0f5ee359040c8045bed_215823_600x0_resize_q75_box.jpg 600w,https://scicloj.github.io/docs/community/groups/ds4clj/black-eyed-pea_hu9f3e13bb7032d0f5ee359040c8045bed_215823_500x0_resize_q75_box.jpg 500w" src=https://scicloj.github.io/docs/community/groups/ds4clj/black-eyed-pea.jpg width=1280 height=960 alt=black-eyed-pea></noscript></figure></p><ul><li>Following broad support on <a href=https://clojureverse.org/t/a-data-science-course-for-clojurians-are-you-interested/>Clojureverse</a> and <a href=https://www.reddit.com/r/Clojure/comments/vsr7qn/a_data_science_course_for_clojurians_are_you/>Reddit</a> conversations and elsewhere, we have been planning a data-science course for Clojure devs during 2023.</li></ul><p>For various reasons of community priorities, this project was delayed. As of May 2024, we are reconsidering a revised version, which is probably a semi-structured series of talks alongside the more hands-on <a href=https://scicloj.github.io/docs/community/groups/real-world-data/>real-world-data group</a>.</p><p>The content below is the old 2022-2023 draft.</p><h2 id=exploration-meetings-preparing-for-the-course>exploration meetings preparing for the course <a href=#exploration-meetings-preparing-for-the-course class=anchor aria-hidden=true>#</a></h2><ul><li>2022-07-24, initial brainstorming - <a href=https://clojureverse.org/t/ds4clj-course-initial-brainstorming/>event</a></li><li>2022-08-06, prep meeting about R & Tidyverse - <a href=https://clojureverse.org/t/ds4clj-prep-meeting-studying-a-bit-of-r-tidyverse/>event</a></li><li>2022-09-10, NLP study session 1 - <a href=https://clojureverse.org/t/nlp-in-clojure-session-1-summary-recording/>summary & video</a></li><li>2022-10-30, NLP study session 2: Predict real vs. fake disaster tweets with DVC, Clojure and Python - <a href=https://clojureverse.org/t/nlp-in-clojure-session-2-summary-recording-clojure-python-dvc-metamorph/>summary & video</a></li><li>2022-11-05, an intro to table processing with <a href=https://scicloj.github.io/tablecloth/index.html>Tablecloth</a> - a session of the <a href=../data-recur>data-recur group</a> - <a href=https://clojureverse.org/t/data-recur-meeting-4-tablecloth-summary-video/>summary & video</a></li></ul><h2 id=goals>goals <a href=#goals class=anchor aria-hidden=true>#</a></h2><ul><li>provide Clojure devs with basic theory, practices, and tools for common data science tasks;<ul><li>also welcome open-minded people who are new to Clojure;</li></ul></li><li>create learning resources for future use;</li><li>encourage Clojurians to become active contributors to the emerging stack.</li></ul><h2 id=requirements>requirements <a href=#requirements class=anchor aria-hidden=true>#</a></h2><ul><li><p>at least one of the following:</p><ul><li>basic knowlede of Clojure</li><li>a very open mind towards new programming languages</li></ul></li><li><p>being ready to put a few hours a week into learning and practice, for a few months</p></li></ul><h2 id=chat>chat <a href=#chat class=anchor aria-hidden=true>#</a></h2><ul><li>We&rsquo;ll use a dedicated stream at the <a href=https://clojurians.zulipchat.com/>Clojurians Zulip</a> chat.</li><li>Stream: <a href=https://clojurians.zulipchat.com/#narrow/stream/330924-ds4clj>ds4clj</a></li><li>It is recommended to follow a few of the other <a href=../../chat>chat streams</a>.</li></ul><h2 id=time>time <a href=#time class=anchor aria-hidden=true>#</a></h2><ul><li>We&rsquo;ll have a class once a month.</li><li>We may have practice meetings in between.</li><li>Each class is 3 hours, containing a lecture, a short break, and then discussion and Q&A.</li></ul><h2 id=recording>recording <a href=#recording class=anchor aria-hidden=true>#</a></h2><ul><li>The meetings will be recorded and shared at the <a href=http://clojurians.zulipchat.com>Clojurians Zulip chat</a>.</li><li>Some parts of the recordings (e.g. the lecture) will be shared publicly.</li></ul><h2 id=homework>homework <a href=#homework class=anchor aria-hidden=true>#</a></h2><p>Homework will be composed of:</p><ul><li>exercises on class topics</li><li>personal projects (as individuals or in small groups) &ndash; for example:<ul><li>exploring datasets</li><li>reproducing previously publushed research</li><li>contributing to the stack of relevant libraries</li><li>contributing to documentation</li></ul></li></ul><h2 id=recommended-resources>recommended resources <a href=#recommended-resources class=anchor aria-hidden=true>#</a></h2><p>📖 [Clj4BT] <a href=https://www.braveclojure.com/clojure-for-the-brave-and-true/>Clojure for the Brave and True</a> by Daniel Higginbotham</p><p>This is a great intro to Clojure.</p><p>It is useful for those who need a refresh with the language, or are new to it.</p><p><strong>Note</strong>: Chapter 2 suggests a specific development environment using Emacs (and is also a bit outdated). Emacs is wonderful, but it is <strong>not required</strong> for learning Clojure. Please reach out for help you wish to learn the book with another environment.</p><p>📖 [R4DS] <a href=https://r4ds.had.co.nz/>R for Data Science</a> by Wickham and Grolemund</p><p>This is a good intro to the R language and its use in basic data-science tasks. It uses the Tidyverse collection of R packages and the so-called &ldquo;tidy&rdquo; approach, which is common in today&rsquo;s R community.</p><p>We will use parts of it a basic intro to R. Knowing some R would make participants more independent in approaching study resources on their own. Python could have been another option, but we prefer R, since its ecosystem is arguably more in harmony with the functional approach and with expressing statistical ideas.</p><p>📖 [Clj4DS] [Clojure for Data Science](https://www.packtpub.com/product/clojure-for-data-science/9781784397180** by Henry Garner</p><p>This is an excellent intro to data science topics, but it uses Clojure libraries which are not actively developed anymore.</p><p>It will be used for a few of the case studies, that we will adapt to this course.</p><h2 id=list-of-topics-tentative>list of topics (tentative) <a href=#list-of-topics-tentative class=anchor aria-hidden=true>#</a></h2><h3 id=language>language <a href=#language class=anchor aria-hidden=true>#</a></h3><p>(mostly self learning)</p><ul><li>Clojure</li><li>R</li></ul><p>from today&rsquo;s brainstorming:</p><h3 id=theory--methods>theory & methods <a href=#theory--methods class=anchor aria-hidden=true>#</a></h3><p>(very basic intros)</p><ul><li>hello world: a typical workflow</li><li>reshaping data (the &ldquo;tidy&rdquo; notion)</li><li>correctness: testing, reproducibility</li><li>descriptive statistics</li><li>frequentist statistical inference</li><li>supervised learning: principles & workflow, regression, classification</li><li>working with tree-structured data</li><li>probabilistic modelling through Bayesian statistics</li><li>unsuprevised learning: clustering, dimension reduction</li><li>linear algebra</li><li>deep networks</li><li>nlp</li><li>async data streams</li><li>graph data</li></ul><h3 id=libraries--tools>libraries & tools <a href=#libraries--tools class=anchor aria-hidden=true>#</a></h3><p>(some introduced briefly, some more thoroughly)</p><ul><li>tables: tablecloth, tech.ml.dataset</li><li>arrays: dtype-next</li><li>transducers: xforms, injest</li><li>correctness (schemas): malli</li><li>data vis & notebook tooling: portal, oz, clerk, clay</li><li>data vis grammars: hanami, cljplot?</li><li>math stats: fastmath, kixi.stats</li><li>machine learning algorithms & pipelines: scicloj.ml</li><li>interoperation w/ other languages: libpython-clj, clojisr</li><li>Bayesian statistics: inferme, clj-stan</li><li>tree data: clojure.walk, core.match, specter, meander, tupelo</li><li>data ingestion: jdbc-next?, some web scraping, arrow?</li><li>linear algebra, deep learning: neanderthal, deep-diamond</li><li>parallel computing: geni, clojask</li><li>nlp: datalinguist?, spacy through interop</li><li>graph data: loom, asami, neo4j?</li></ul><h2 id=course-plan-very-tentative>course plan (very tentative) <a href=#course-plan-very-tentative class=anchor aria-hidden=true>#</a></h2><table><thead><tr><th>month</th><th>topic</th><th>libraries</th><th>homework</th></tr></thead><tbody><tr><td></td><td><strong>core topics</strong></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>1</td><td>common workflow</td><td>tablecloth, fastmath, hanami,</td><td>learn some R and Clojure</td></tr><tr><td></td><td></td><td>scicloj.ml</td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td>descriptive stats,</td><td>fastmath, kixi.stats</td><td>apply to a real-world dataset</td></tr><tr><td></td><td>frequentist stats</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>data visualization</td><td>hanami, cljplot?</td><td>apply to a real-world dataset</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>arrays & tables</td><td>dtype-next, tech.ml.dataset,</td><td>apply to a real-world dataset,</td></tr><tr><td></td><td></td><td>tablecloth</td><td>run some speed comparisons</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>basic supervised learning workflow,</td><td>scicloj.ml, malli</td><td>reproduce some kaggle notebooks</td></tr><tr><td></td><td>reproducibility, tests</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>6</td><td>probability, Bayesian stats</td><td>inferme, clj-stan</td><td>reading in Statistical Rethinking,</td></tr><tr><td></td><td></td><td></td><td>reproducing some examples</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>7</td><td>advanced supervised learning workflows</td><td>scicloj.ml</td><td>reproduce some kaggle notebooks,</td></tr><tr><td></td><td></td><td></td><td>explore variations & improvements</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>8</td><td>unsupervised learning</td><td>fastmath, scicloj.ml</td><td>reproduce some kaggle notebooks,</td></tr><tr><td></td><td></td><td></td><td>explore variations & improvements</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>9</td><td>python and R interop</td><td>libpython-clj, clojisr</td><td>go through some tutorials by</td></tr><tr><td></td><td></td><td></td><td>interop</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td><strong>specialized topics</strong></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>10</td><td>working with tree-sructured data,</td><td>clojure.walk, specter, meander,</td><td>scrape & analyse some</td></tr><tr><td></td><td>web scraping</td><td>hickory</td><td>unstructured data</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>11</td><td>linear algebra, basic image processing</td><td>neanderthal</td><td>process some images</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>12</td><td>deep learning</td><td>deep diamond</td><td>reproduce some tutorials</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>13</td><td>async data streams</td><td>xforms, kixi.stats</td><td>analyse some user events</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>14</td><td>natural language processing</td><td>datalinguist,</td><td>analyse some texts,</td></tr><tr><td></td><td></td><td>spaCy through interop</td><td>write rules to capture intents</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>15</td><td>graph data</td><td>loom, asami, neo4j?</td><td>analyse some graph data</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>16</td><td>big datasets</td><td>geni, clojask, tech.ml.dataset</td><td>query and analyse a big dataset,</td></tr><tr><td></td><td></td><td></td><td>run some speed comparisons</td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table><div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between"></div><div class="docs-navigation d-flex justify-content-between"><a href=https://scicloj.github.io/docs/resources/audio/><div class="card my-1"><div class="card-body py-2">&larr; Audio</div></div></a><a class=ms-auto href=https://scicloj.github.io/docs/community/groups/dsp-study/><div class="card my-1"><div class="card-body py-2">Clojure DSP Study Group: Learning Signal Processing with Clojure &rarr;</div></div></a></div></main></div></div></div><footer class="footer text-muted"><div class=container-xxl><div class=row><div class="col-lg-8 order-last order-lg-first"><ul class=list-inline><li class=list-inline-item>Powered by <a class=text-muted href=https://www.netlify.com/>Netlify</a>, <a class=text-muted href=https://gohugo.io/>Hugo</a>, and <a class=text-muted href=https://getdoks.org/>Doks</a></li></ul></div><div class="col-lg-8 order-first order-lg-last text-lg-end"><ul class=list-inline></ul></div></div></div></footer><script src=https://scicloj.github.io/js/bootstrap.min.81070dbe240b4c97237c03f4ff1e8a3874a03945a490766a02d1c60e498fdf387e525428f29bcb86aad38c2e763055c21ddd99c8cd83be887329e75bb00d3938.js integrity="sha512-gQcNviQLTJcjfAP0/x6KOHSgOUWkkHZqAtHGDkmP3zh+UlQo8pvLhqrTjC52MFXCHd2ZyM2DvohzKedbsA05OA==" crossorigin=anonymous defer></script>
-<script src=https://scicloj.github.io/js/highlight.min.45bec23f175f3f9f966ff0c843d7fbf5096502389a5238b6504f28c5a6beac32b8121428e84d0a2fff7c463f7117eeb59fc46f2b548838b88504e58300312bc1.js integrity="sha512-Rb7CPxdfP5+Wb/DIQ9f79QllAjiaUji2UE8oxaa+rDK4EhQo6E0KL/98Rj9xF+61n8RvK1SIOLiFBOWDADErwQ==" crossorigin=anonymous defer></script>
-<script src=https://scicloj.github.io/main.min.a84f6aaa9898062bf7292365ff451efd5d285ee9b0497e4e84a489a99b92513462b8975e3c4560424003af4c099d83a59c2db4e8a8d653a093fbe3a44f0c75ff.js integrity="sha512-qE9qqpiYBiv3KSNl/0Ue/V0oXumwSX5OhKSJqZuSUTRiuJdePEVgQkADr0wJnYOlnC206KjWU6CT++OkTwx1/w==" crossorigin=anonymous defer></script>
-<script src=https://scicloj.github.io/index.min.be1460691f2e40c3f54e6da0a9413e6987b12d618671945a5ddf1ade46a9a3a5b2eda36620e0db469a314ad6a9a930a0ba2727a7062eb31a7e2e94d429764c13.js integrity="sha512-vhRgaR8uQMP1Tm2gqUE+aYexLWGGcZRaXd8a3kapo6Wy7aNmIODbRpoxStapqTCguicnpwYusxp+LpTUKXZMEw==" crossorigin=anonymous defer></script></body></html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2022-07-12">
+<meta name="description" content="A data science course for Clojure devs">
+
+<title>{on hold} ds4clj: a data science course for Clojure devs – Scicloj</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<link href="../../../../favicon.ico" rel="icon">
+<script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-c3c7777002d8c1f4cc7fab9d37e1a72c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../site_libs/bootstrap/bootstrap-dark-38e339cfeb1f04089b8ac0f4e5f57417.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../../site_libs/bootstrap/bootstrap-c3c7777002d8c1f4cc7fab9d37e1a72c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<meta property="og:title" content="{on hold} ds4clj: a data science course for Clojure devs – Scicloj">
+<meta property="og:description" content="A data science course for Clojure devs">
+<meta property="og:image" content="https://scicloj.github.io/docs/community/groups/ds4clj/black-eyed-pea.jpg">
+<meta property="og:site_name" content="Scicloj">
+<meta property="og:image:alt" content="black-eyed-pea">
+<meta name="twitter:title" content="{on hold} ds4clj: a data science course for Clojure devs – Scicloj">
+<meta name="twitter:description" content="A data science course for Clojure devs">
+<meta name="twitter:image" content="https://scicloj.github.io/docs/community/groups/ds4clj/black-eyed-pea.jpg">
+<meta name="twitter:creator" content="@daslu_">
+<meta name="twitter:site" content="@scicloj">
+<meta name="twitter:image:alt" content="black-eyed-pea">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://scicloj.github.io/docs/community/groups/ds4clj/">
+<meta property="og:url" content="https://scicloj.github.io/docs/community/groups/ds4clj/">
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../../../" class="navbar-brand navbar-brand-logo">
+    <img src="../../../../sci-cloj-logo-transparent.png" alt="Scicloj" class="navbar-logo light-content">
+    <img src="../../../../sci-cloj-logo-transparent.png" alt="Scicloj" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../../../../">
+    <span class="navbar-title">Scicloj</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../blog/"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-community" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Community</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-community">    
+        <li>
+    <a class="dropdown-item" href="../../../../docs/community/about/">
+ <span class="dropdown-text">About Scicloj</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../docs/community/getting_involved/">
+ <span class="dropdown-text">Getting involved</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../docs/community/groups/">
+ <span class="dropdown-text">Dev &amp; Study groups</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../docs/community/chat/">
+ <span class="dropdown-text">Chat Streams</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../docs/community/events/">
+ <span class="dropdown-text">Events</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../docs/community/contact/">
+ <span class="dropdown-text">Contact</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="../../../../docs/resources/libs/">
+ <span class="dropdown-text">Tools &amp; libraries</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../docs/resources/reading/">
+ <span class="dropdown-text">Reading</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../docs/resources/video/">
+ <span class="dropdown-text">Video</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../docs/resources/audio/">
+ <span class="dropdown-text">Audio</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/scicloj"> <i class="bi bi-github" role="img" aria-label="Scicloj on GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/scicloj"> <i class="bi bi-twitter" role="img" aria-label="Scicloj on Twitter">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#exploration-meetings-preparing-for-the-course" id="toc-exploration-meetings-preparing-for-the-course" class="nav-link active" data-scroll-target="#exploration-meetings-preparing-for-the-course">exploration meetings preparing for the course</a></li>
+  <li><a href="#goals" id="toc-goals" class="nav-link" data-scroll-target="#goals">goals</a></li>
+  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">requirements</a></li>
+  <li><a href="#chat" id="toc-chat" class="nav-link" data-scroll-target="#chat">chat</a></li>
+  <li><a href="#time" id="toc-time" class="nav-link" data-scroll-target="#time">time</a></li>
+  <li><a href="#recording" id="toc-recording" class="nav-link" data-scroll-target="#recording">recording</a></li>
+  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">homework</a></li>
+  <li><a href="#recommended-resources" id="toc-recommended-resources" class="nav-link" data-scroll-target="#recommended-resources">recommended resources</a></li>
+  <li><a href="#list-of-topics-tentative" id="toc-list-of-topics-tentative" class="nav-link" data-scroll-target="#list-of-topics-tentative">list of topics (tentative)</a>
+  <ul class="collapse">
+  <li><a href="#language" id="toc-language" class="nav-link" data-scroll-target="#language">language</a></li>
+  <li><a href="#theory--methods" id="toc-theory--methods" class="nav-link" data-scroll-target="#theory--methods">theory &amp; methods</a></li>
+  <li><a href="#libraries--tools" id="toc-libraries--tools" class="nav-link" data-scroll-target="#libraries--tools">libraries &amp; tools</a></li>
+  </ul></li>
+  <li><a href="#course-plan-very-tentative" id="toc-course-plan-very-tentative" class="nav-link" data-scroll-target="#course-plan-very-tentative">course plan (very tentative)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">{on hold} ds4clj: a data science course for Clojure devs</h1>
+</div>
+
+<div>
+  <div class="description">
+    A data science course for Clojure devs
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 12, 2022</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<hr>
+<p><img src="black-eyed-pea.jpg" class="img-fluid" alt="black-eyed-pea"></p>
+<ul>
+<li>Following broad support on <a href="https://clojureverse.org/t/a-data-science-course-for-clojurians-are-you-interested/">Clojureverse</a> and <a href="https://www.reddit.com/r/Clojure/comments/vsr7qn/a_data_science_course_for_clojurians_are_you/">Reddit</a> conversations and elsewhere, we have been planning a data-science course for Clojure devs during 2023.</li>
+</ul>
+<p>For various reasons of community priorities, this project was delayed. As of May 2024, we are reconsidering a revised version, which is probably a semi-structured series of talks alongside the more hands-on <a href="https://scicloj.github.io/docs/community/groups/real-world-data/">real-world-data group</a>.</p>
+<p>The content below is the old 2022-2023 draft.</p>
+<section id="exploration-meetings-preparing-for-the-course" class="level2">
+<h2 class="anchored" data-anchor-id="exploration-meetings-preparing-for-the-course">exploration meetings preparing for the course</h2>
+<ul>
+<li>2022-07-24, initial brainstorming - <a href="https://clojureverse.org/t/ds4clj-course-initial-brainstorming/">event</a></li>
+<li>2022-08-06, prep meeting about R &amp; Tidyverse - <a href="https://clojureverse.org/t/ds4clj-prep-meeting-studying-a-bit-of-r-tidyverse/">event</a></li>
+<li>2022-09-10, NLP study session 1 - <a href="https://clojureverse.org/t/nlp-in-clojure-session-1-summary-recording/">summary &amp; video</a></li>
+<li>2022-10-30, NLP study session 2: Predict real vs.&nbsp;fake disaster tweets with DVC, Clojure and Python - <a href="https://clojureverse.org/t/nlp-in-clojure-session-2-summary-recording-clojure-python-dvc-metamorph/">summary &amp; video</a></li>
+<li>2022-11-05, an intro to table processing with <a href="https://scicloj.github.io/tablecloth/">Tablecloth</a> - a session of the <a href="../data-recur">data-recur group</a> - <a href="https://clojureverse.org/t/data-recur-meeting-4-tablecloth-summary-video/">summary &amp; video</a></li>
+</ul>
+</section>
+<section id="goals" class="level2">
+<h2 class="anchored" data-anchor-id="goals">goals</h2>
+<ul>
+<li>provide Clojure devs with basic theory, practices, and tools for common data science tasks;
+<ul>
+<li>also welcome open-minded people who are new to Clojure;</li>
+</ul></li>
+<li>create learning resources for future use;</li>
+<li>encourage Clojurians to become active contributors to the emerging stack.</li>
+</ul>
+</section>
+<section id="requirements" class="level2">
+<h2 class="anchored" data-anchor-id="requirements">requirements</h2>
+<ul>
+<li>at least one of the following:
+<ul>
+<li>basic knowlede of Clojure</li>
+<li>a very open mind towards new programming languages</li>
+</ul></li>
+<li>being ready to put a few hours a week into learning and practice, for a few months</li>
+</ul>
+</section>
+<section id="chat" class="level2">
+<h2 class="anchored" data-anchor-id="chat">chat</h2>
+<ul>
+<li>We’ll use a dedicated stream at the <a href="https://clojurians.zulipchat.com/">Clojurians Zulip</a> chat.</li>
+<li>Stream: <a href="https://clojurians.zulipchat.com/#narrow/stream/330924-ds4clj">ds4clj</a></li>
+<li>It is recommended to follow a few of the other <a href="../../chat">chat streams</a>.</li>
+</ul>
+</section>
+<section id="time" class="level2">
+<h2 class="anchored" data-anchor-id="time">time</h2>
+<ul>
+<li>We’ll have a class once a month.</li>
+<li>We may have practice meetings in between.</li>
+<li>Each class is 3 hours, containing a lecture, a short break, and then discussion and Q&amp;A.</li>
+</ul>
+</section>
+<section id="recording" class="level2">
+<h2 class="anchored" data-anchor-id="recording">recording</h2>
+<ul>
+<li>The meetings will be recorded and shared at the <a href="http://clojurians.zulipchat.com">Clojurians Zulip chat</a>.</li>
+<li>Some parts of the recordings (e.g.&nbsp;the lecture) will be shared publicly.</li>
+</ul>
+</section>
+<section id="homework" class="level2">
+<h2 class="anchored" data-anchor-id="homework">homework</h2>
+<p>Homework will be composed of:</p>
+<ul>
+<li>exercises on class topics</li>
+<li>personal projects (as individuals or in small groups) – for example:
+<ul>
+<li>exploring datasets</li>
+<li>reproducing previously publushed research</li>
+<li>contributing to the stack of relevant libraries</li>
+<li>contributing to documentation</li>
+</ul></li>
+</ul>
+</section>
+<section id="recommended-resources" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-resources">recommended resources</h2>
+<p>📖 [Clj4BT] <a href="https://www.braveclojure.com/clojure-for-the-brave-and-true/">Clojure for the Brave and True</a> by Daniel Higginbotham</p>
+<p>This is a great intro to Clojure.</p>
+<p>It is useful for those who need a refresh with the language, or are new to it.</p>
+<p><strong>Note</strong>: Chapter 2 suggests a specific development environment using Emacs (and is also a bit outdated). Emacs is wonderful, but it is <strong>not required</strong> for learning Clojure. Please reach out for help you wish to learn the book with another environment.</p>
+<p>📖 [R4DS] <a href="https://r4ds.had.co.nz/">R for Data Science</a> by Wickham and Grolemund</p>
+<p>This is a good intro to the R language and its use in basic data-science tasks. It uses the Tidyverse collection of R packages and the so-called “tidy” approach, which is common in today’s R community.</p>
+<p>We will use parts of it a basic intro to R. Knowing some R would make participants more independent in approaching study resources on their own. Python could have been another option, but we prefer R, since its ecosystem is arguably more in harmony with the functional approach and with expressing statistical ideas.</p>
+<p>📖 [Clj4DS] [Clojure for Data Science](https://www.packtpub.com/product/clojure-for-data-science/9781784397180** by Henry Garner</p>
+<p>This is an excellent intro to data science topics, but it uses Clojure libraries which are not actively developed anymore.</p>
+<p>It will be used for a few of the case studies, that we will adapt to this course.</p>
+</section>
+<section id="list-of-topics-tentative" class="level2">
+<h2 class="anchored" data-anchor-id="list-of-topics-tentative">list of topics (tentative)</h2>
+<section id="language" class="level3">
+<h3 class="anchored" data-anchor-id="language">language</h3>
+<p>(mostly self learning)</p>
+<ul>
+<li>Clojure</li>
+<li>R</li>
+</ul>
+<p>from today’s brainstorming:</p>
+</section>
+<section id="theory--methods" class="level3">
+<h3 class="anchored" data-anchor-id="theory--methods">theory &amp; methods</h3>
+<p>(very basic intros)</p>
+<ul>
+<li>hello world: a typical workflow</li>
+<li>reshaping data (the “tidy” notion)</li>
+<li>correctness: testing, reproducibility</li>
+<li>descriptive statistics</li>
+<li>frequentist statistical inference</li>
+<li>supervised learning: principles &amp; workflow, regression, classification</li>
+<li>working with tree-structured data</li>
+<li>probabilistic modelling through Bayesian statistics</li>
+<li>unsuprevised learning: clustering, dimension reduction</li>
+<li>linear algebra</li>
+<li>deep networks</li>
+<li>nlp</li>
+<li>async data streams</li>
+<li>graph data</li>
+</ul>
+</section>
+<section id="libraries--tools" class="level3">
+<h3 class="anchored" data-anchor-id="libraries--tools">libraries &amp; tools</h3>
+<p>(some introduced briefly, some more thoroughly)</p>
+<ul>
+<li>tables: tablecloth, tech.ml.dataset</li>
+<li>arrays: dtype-next</li>
+<li>transducers: xforms, injest</li>
+<li>correctness (schemas): malli</li>
+<li>data vis &amp; notebook tooling: portal, oz, clerk, clay</li>
+<li>data vis grammars: hanami, cljplot?</li>
+<li>math stats: fastmath, kixi.stats</li>
+<li>machine learning algorithms &amp; pipelines: scicloj.ml</li>
+<li>interoperation w/ other languages: libpython-clj, clojisr</li>
+<li>Bayesian statistics: inferme, clj-stan</li>
+<li>tree data: clojure.walk, core.match, specter, meander, tupelo</li>
+<li>data ingestion: jdbc-next?, some web scraping, arrow?</li>
+<li>linear algebra, deep learning: neanderthal, deep-diamond</li>
+<li>parallel computing: geni, clojask</li>
+<li>nlp: datalinguist?, spacy through interop</li>
+<li>graph data: loom, asami, neo4j?</li>
+</ul>
+</section>
+</section>
+<section id="course-plan-very-tentative" class="level2">
+<h2 class="anchored" data-anchor-id="course-plan-very-tentative">course plan (very tentative)</h2>
+<div class="table-responsive">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 34%">
+<col style="width: 28%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>month</th>
+<th>topic</th>
+<th>libraries</th>
+<th>homework</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><strong>core topics</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>1</td>
+<td>common workflow</td>
+<td>tablecloth, fastmath, hanami,</td>
+<td>learn some R and Clojure</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>scicloj.ml</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>descriptive stats,</td>
+<td>fastmath, kixi.stats</td>
+<td>apply to a real-world dataset</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>frequentist stats</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>data visualization</td>
+<td>hanami, cljplot?</td>
+<td>apply to a real-world dataset</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>arrays &amp; tables</td>
+<td>dtype-next, tech.ml.dataset,</td>
+<td>apply to a real-world dataset,</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>tablecloth</td>
+<td>run some speed comparisons</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>basic supervised learning workflow,</td>
+<td>scicloj.ml, malli</td>
+<td>reproduce some kaggle notebooks</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>reproducibility, tests</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>probability, Bayesian stats</td>
+<td>inferme, clj-stan</td>
+<td>reading in Statistical Rethinking,</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td>reproducing some examples</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>advanced supervised learning workflows</td>
+<td>scicloj.ml</td>
+<td>reproduce some kaggle notebooks,</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td>explore variations &amp; improvements</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td>unsupervised learning</td>
+<td>fastmath, scicloj.ml</td>
+<td>reproduce some kaggle notebooks,</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td>explore variations &amp; improvements</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td>python and R interop</td>
+<td>libpython-clj, clojisr</td>
+<td>go through some tutorials by</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td>interop</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><strong>specialized topics</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>working with tree-sructured data,</td>
+<td>clojure.walk, specter, meander,</td>
+<td>scrape &amp; analyse some</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>web scraping</td>
+<td>hickory</td>
+<td>unstructured data</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>linear algebra, basic image processing</td>
+<td>neanderthal</td>
+<td>process some images</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>deep learning</td>
+<td>deep diamond</td>
+<td>reproduce some tutorials</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>13</td>
+<td>async data streams</td>
+<td>xforms, kixi.stats</td>
+<td>analyse some user events</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>natural language processing</td>
+<td>datalinguist,</td>
+<td>analyse some texts,</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>spaCy through interop</td>
+<td>write rules to capture intents</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>graph data</td>
+<td>loom, asami, neo4j?</td>
+<td>analyse some graph data</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>16</td>
+<td>big datasets</td>
+<td>geni, clojask, tech.ml.dataset</td>
+<td>query and analyse a big dataset,</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td>run some speed comparisons</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/scicloj\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Scicloj — a Clojure community for data science.</p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://github.com/scicloj/scicloj.github.io/blob/master/CODE_OF_CONDUCT.md">
+Code of Conduct
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../../../docs/community/contact/">
+Contact
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/scicloj">
+      <i class="bi bi-github" role="img" aria-label="Scicloj on GitHub">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../../../blog/index.xml">
+      <i class="bi bi-rss" role="img" aria-label="Blog RSS feed">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

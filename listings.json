@@ -1,0 +1,141 @@
+[
+  {
+    "listing": "/pages/index.html",
+    "items": [
+      "/pages/chat_streams/index.html",
+      "/pages/getting_involved/index.html",
+      "/pages/libraries/index.html",
+      "/pages/reading/index.html"
+    ]
+  },
+  {
+    "listing": "/docs/community/index.html",
+    "items": [
+      "/docs/community/about/index.html",
+      "/docs/community/getting_involved/index.html",
+      "/docs/community/groups/index.html",
+      "/docs/community/chat/index.html",
+      "/docs/community/events/index.html",
+      "/docs/community/contact/index.html"
+    ]
+  },
+  {
+    "listing": "/docs/community/groups/index.html",
+    "items": [
+      "/docs/community/groups/dsp-study/index.html",
+      "/docs/community/groups/scinoj-light/index.html",
+      "/docs/community/groups/open-source-mentoring/index.html",
+      "/docs/community/groups/data-recur/index.html",
+      "/docs/community/groups/macroexpand/index.html",
+      "/docs/community/groups/real-world-data/index.html",
+      "/docs/community/groups/ai-meetups/index.html",
+      "/docs/community/groups/visual-tools/index.html",
+      "/docs/community/groups/jointprob/index.html",
+      "/docs/community/groups/interop/index.html",
+      "/docs/community/groups/ds4clj/index.html",
+      "/docs/community/groups/ml-study/index.html",
+      "/docs/community/groups/sci-fu/index.html",
+      "/docs/community/groups/sicmutils/index.html",
+      "/docs/community/groups/wolfram-clojure-bridge/index.html",
+      "/docs/community/groups/probabilistic-modelling-study-group/index.html",
+      "/docs/community/groups/llm-meetups/index.html"
+    ]
+  },
+  {
+    "listing": "/contributors/syungb/index.html",
+    "items": [
+      "/blog/clojurists-together-project-scicloj-building-bridges-to-new-clojure-users-july-2025-update/index.html"
+    ]
+  },
+  {
+    "listing": "/contributors/daslu/index.html",
+    "items": [
+      "/blog/clojure-in-new-fields-opening-up/index.html",
+      "/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/index.html",
+      "/blog/clojurists-together-project-scicloj-community-building-november-2024-update/index.html",
+      "/blog/scicloj-scientific-papers-initial-planning-meeting/index.html",
+      "/blog/clojurists-together-project-scicloj-community-building-october-2024-update/index.html",
+      "/blog/clojurists-together-project-scicloj-community-building-september-2024-update/index.html",
+      "/docs/community/events/index.html",
+      "/blog/clojurists-together-project-scicloj-community-building-april-2024-update/index.html",
+      "/blog/clojurists-together-project-scicloj-community-building-march-2024-update/index.html",
+      "/blog/clojurists-together-project-scicloj-community-building-february-2024-update/index.html",
+      "/docs/resources/audio/index.html",
+      "/blog/following-our-first-five-llm-meetups/index.html",
+      "/blog/jointprob-community-updates-probability-basics-talk-hierarchical-models-followup/index.html",
+      "/blog/the-jointprob-community-changes-on-the-agenda-and-an-upcoming-talk-about-bayesian-hierarchical-models/index.html",
+      "/blog/jointprob-in-2023-bayesian-modeling-and-computation-meeting-ravin-kumar/index.html",
+      "/blog/hello/index.html",
+      "/docs/community/getting_involved/index.html",
+      "/docs/community/about/index.html",
+      "/docs/community/chat/index.html",
+      "/docs/community/contact/index.html",
+      "/docs/resources/libs/index.html",
+      "/docs/resources/reading/index.html",
+      "/docs/resources/video/index.html"
+    ]
+  },
+  {
+    "listing": "/contributors/alan-marazzi/index.html",
+    "items": [
+      "/docs/community/about/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/clojurists-together-project-scicloj-building-bridges-to-new-clojure-users-july-2025-update/index.html",
+      "/blog/clojure-in-new-fields-opening-up/index.html",
+      "/blog/data-analyis-with-clojure-free-workshop-may-10th-initial-survey/index.html",
+      "/blog/clojurists-together-project-scicloj-community-building-november-2024-update/index.html",
+      "/blog/scicloj-scientific-papers-initial-planning-meeting/index.html",
+      "/blog/clojurists-together-project-scicloj-community-building-october-2024-update/index.html",
+      "/blog/clojurists-together-project-scicloj-community-building-september-2024-update/index.html",
+      "/blog/clojurists-together-project-scicloj-community-building-april-2024-update/index.html",
+      "/blog/launching-columns-for-tablecloth/index.html",
+      "/blog/the-current-state-of-ml-in-clojure/index.html",
+      "/blog/clojurists-together-project-scicloj-community-building-march-2024-update/index.html",
+      "/blog/clojurists-together-project-scicloj-community-building-february-2024-update/index.html",
+      "/blog/following-our-first-five-llm-meetups/index.html",
+      "/blog/jointprob-community-updates-probability-basics-talk-hierarchical-models-followup/index.html",
+      "/blog/the-jointprob-community-changes-on-the-agenda-and-an-upcoming-talk-about-bayesian-hierarchical-models/index.html",
+      "/blog/jointprob-in-2023-bayesian-modeling-and-computation-meeting-ravin-kumar/index.html",
+      "/blog/predict-real-vs.-fake-disaster-tweets/index.html",
+      "/blog/hello/index.html"
+    ]
+  },
+  {
+    "listing": "/contributors/behrica/index.html",
+    "items": [
+      "/blog/predict-real-vs.-fake-disaster-tweets/index.html"
+    ]
+  },
+  {
+    "listing": "/contributors/ethan-miller/index.html",
+    "items": [
+      "/blog/launching-columns-for-tablecloth/index.html"
+    ]
+  },
+  {
+    "listing": "/contributors/kira-mclean/index.html",
+    "items": [
+      "/blog/the-current-state-of-ml-in-clojure/index.html"
+    ]
+  },
+  {
+    "listing": "/docs/index.html",
+    "items": [
+      "/docs/community/index.html",
+      "/docs/resources/index.html"
+    ]
+  },
+  {
+    "listing": "/docs/resources/index.html",
+    "items": [
+      "/docs/resources/libs/index.html",
+      "/docs/resources/reading/index.html",
+      "/docs/resources/video/index.html",
+      "/docs/resources/audio/index.html"
+    ]
+  }
+]
