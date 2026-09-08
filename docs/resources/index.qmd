@@ -1,0 +1,18 @@
+---
+title: "Resources"
+description: "Resources for data science in Clojure"
+listing:
+  - id: resource-pages
+    contents:
+      - "libs/index.qmd"
+      - "reading/index.qmd"
+      - "video/index.qmd"
+      - "audio/index.qmd"
+    type: table
+    fields: [title, description]
+    sort: false
+toc: false
+---
+
+::: {#resource-pages}
+:::

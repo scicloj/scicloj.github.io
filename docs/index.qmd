@@ -1,0 +1,16 @@
+---
+title: "Docs"
+description: "Documentation and resources for the Scicloj community"
+listing:
+  - id: docs-sections
+    contents:
+      - "community/index.qmd"
+      - "resources/index.qmd"
+    type: grid
+    fields: [title, description]
+    sort: false
+toc: false
+---
+
+::: {#docs-sections}
+:::

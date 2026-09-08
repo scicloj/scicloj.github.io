@@ -1,0 +1,159 @@
+project:
+  type: website
+  output-dir: _site
+  # Only the Quarto sources are rendered. The legacy Hugo tree under content/
+  # is left untouched until cutover.
+  render:
+    - "**/*.qmd"
+    - "!content/**"
+    - "!node_modules/**"
+  post-render:
+    - scripts/post-render.sh
+  # Listed explicitly: glob patterns here are matched at any depth, which would
+  # otherwise sweep in images from the legacy content/ and images/ trees.
+  resources:
+    - "android-chrome-192x192.png"
+    - "android-chrome-512x512.png"
+    - "apple-touch-icon.png"
+    - "background.jpg"
+    - "favicon-16x16.png"
+    - "favicon-32x32.png"
+    - "favicon.ico"
+    - "sci-cloj-logo-name-transparent.png"
+    - "sci-cloj-logo-name-transparent.svg"
+    - "sci-cloj-logo-transparent.png"
+    - "sci-cloj-logo-transparent.svg"
+    - "site.webmanifest"
+    - "robots.txt"
+    # Keep the legacy Hugo tree out of the published site.
+    - "!content/**"
+    - "!images/**"
+
+website:
+  title: "Scicloj"
+  description: "Scicloj is building a stack of Clojure libraries for data science, and scientific computing."
+  site-url: "https://scicloj.github.io"
+  favicon: "favicon.ico"
+  image: "https://scicloj.github.io/sci-cloj-logo-transparent.png"
+  open-graph: true
+  twitter-card:
+    site: "@scicloj"
+    creator: "@daslu_"
+  page-navigation: true
+  navbar:
+    logo: "sci-cloj-logo-transparent.png"
+    logo-alt: "Scicloj"
+    logo-href: "/"
+    search: true
+    left:
+      - text: "Blog"
+        href: "/blog/"
+      - text: "Community"
+        menu:
+          - text: "About Scicloj"
+            href: "/docs/community/about/"
+          - text: "Getting involved"
+            href: "/docs/community/getting_involved/"
+          - text: "Dev & Study groups"
+            href: "/docs/community/groups/"
+          - text: "Chat Streams"
+            href: "/docs/community/chat/"
+          - text: "Events"
+            href: "/docs/community/events/"
+          - text: "Contact"
+            href: "/docs/community/contact/"
+      - text: "Resources"
+        menu:
+          - text: "Tools & libraries"
+            href: "/docs/resources/libs/"
+          - text: "Reading"
+            href: "/docs/resources/reading/"
+          - text: "Video"
+            href: "/docs/resources/video/"
+          - text: "Audio"
+            href: "/docs/resources/audio/"
+    right:
+      - icon: github
+        href: "https://github.com/scicloj"
+        aria-label: "Scicloj on GitHub"
+      - icon: twitter
+        href: "https://twitter.com/scicloj"
+        aria-label: "Scicloj on Twitter"
+
+  sidebar:
+    - id: docs
+      title: "Docs"
+      style: "floating"
+      collapse-level: 2
+      contents:
+        - section: "Community"
+          href: "/docs/community/"
+          contents:
+            - text: "About Scicloj"
+              href: "/docs/community/about/"
+            - text: "Getting involved"
+              href: "/docs/community/getting_involved/"
+            - text: "Dev & Study groups"
+              href: "/docs/community/groups/"
+            - text: "Chat Streams"
+              href: "/docs/community/chat/"
+            - text: "Events"
+              href: "/docs/community/events/"
+            - text: "Contact"
+              href: "/docs/community/contact/"
+        - section: "Resources"
+          href: "/docs/resources/"
+          contents:
+            - text: "Tools & libraries"
+              href: "/docs/resources/libs/"
+            - text: "Reading"
+              href: "/docs/resources/reading/"
+            - text: "Video"
+              href: "/docs/resources/video/"
+            - text: "Audio"
+              href: "/docs/resources/audio/"
+
+  page-footer:
+    left: |
+      Scicloj — a Clojure community for data science.
+    center:
+      - text: "Code of Conduct"
+        href: "https://github.com/scicloj/scicloj.github.io/blob/master/CODE_OF_CONDUCT.md"
+      - text: "Contact"
+        href: "/docs/community/contact/"
+    right:
+      - icon: github
+        href: "https://github.com/scicloj"
+        aria-label: "Scicloj on GitHub"
+      - icon: rss
+        href: "/blog/index.xml"
+        aria-label: "Blog RSS feed"
+
+filters:
+  - filters/emoji.lua
+  - filters/responsive-tables.lua
+
+format:
+  html:
+    # Hugo/goldmark follows CommonMark, where a bullet list may interrupt a
+    # paragraph without a blank line before it. Pandoc's markdown requires the
+    # blank line, so ~166 list items across 11 pages rendered as literal
+    # "- item" text inside a paragraph. This restores the Hugo behaviour.
+    from: markdown+lists_without_preceding_blankline
+    theme:
+      light:
+        - cosmo
+        - custom.scss
+        - theme-light.scss
+      dark:
+        - darkly
+        - custom.scss
+        - theme-dark.scss
+    toc: true
+    toc-depth: 3
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: false
+    grid:
+      sidebar-width: 270px
+      body-width: 900px

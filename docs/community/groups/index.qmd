@@ -1,0 +1,20 @@
+---
+title: "Dev & study groups"
+description: "The various dev groups and study groups organized by Scicloj"
+date: 2022-02-17
+listing:
+  - id: groups
+    contents: "*/index.qmd"
+    type: table
+    fields: [title, description]
+    sort: "title"
+    page-size: 100
+toc: false
+---
+
+Some parts of the Scicloj activity are driven by regular meetings in various groups.
+
+Some of these meetings are public and shared at the [Clojure calendar feed](https://clojureverse.org/t/the-clojure-events-calendar-feed-turns-2/). Some study groups such as [Jointprob](./jointprob) have their own spaces for sharing events.
+
+::: {#groups}
+:::

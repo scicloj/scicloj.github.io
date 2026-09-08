@@ -1,0 +1,5 @@
+---
+title: "Chat Streams"
+description: "This page has moved here."
+---
+This page has moved [here](https://scicloj.github.io/docs/community/chat).

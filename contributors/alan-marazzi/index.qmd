@@ -1,0 +1,18 @@
+---
+title: "Alan Marazzi"
+description: "Scicloj pages contributed by Alan Marazzi"
+listing:
+  - id: posts
+    contents:
+      - "../../docs/community/about/index.qmd"
+    type: default
+    sort: "date desc"
+    fields: [date, title, description]
+    page-size: 100
+toc: false
+---
+
+Pages contributed by Alan Marazzi.
+
+::: {#posts}
+:::

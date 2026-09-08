@@ -1,0 +1,17 @@
+---
+title: "Blog"
+description: "The Scicloj Blog."
+listing:
+  contents: "*/index.qmd"
+  type: default
+  sort: "date desc"
+  fields: [date, title, author, description, image]
+  feed:
+    title: "Scicloj Blog"
+    items: 10
+  categories: false
+  page-size: 100
+toc: false
+---
+
+The Scicloj blog is encouraging personal blog posts around Scicloj-related topics. If you wish to contribute a post, [please reach out](/docs/community/contact/).

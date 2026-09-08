@@ -1,0 +1,18 @@
+---
+title: "syungb"
+description: "Scicloj pages contributed by syungb"
+listing:
+  - id: posts
+    contents:
+      - "../../blog/clojurists-together-project-scicloj-building-bridges-to-new-clojure-users-july-2025-update/index.qmd"
+    type: default
+    sort: "date desc"
+    fields: [date, title, description]
+    page-size: 100
+toc: false
+---
+
+Pages contributed by syungb.
+
+::: {#posts}
+:::

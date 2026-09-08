@@ -1,0 +1,7 @@
+---
+title: "{renamed} probabilistic modelling study group"
+description: "{renamed} probabilistic modelling study group"
+date: 2022-02-28
+---
+-------------------------------------------------------------------------------------------------------------------- 
+This group has been renamed as [jointprob](../jointprob).

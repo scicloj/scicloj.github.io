@@ -1,0 +1,14 @@
+---
+title: "Contributors"
+description: "People who have written for the Scicloj blog"
+toc: false
+---
+
+Scicloj pages are written by members of the community.
+
+- [Alan Marazzi](/contributors/alan-marazzi/)
+- [behrica](/contributors/behrica/)
+- [daslu](/contributors/daslu/)
+- [Ethan Miller](/contributors/ethan-miller/)
+- [Kira McLean](/contributors/kira-mclean/)
+- [syungb](/contributors/syungb/)
