@@ -20,7 +20,6 @@ anchor-sections: false
   <p class="home-hero__subtitle">Helping Clojure grow in new fields</p>
   <p><a class="btn btn-gradient btn-lg" href="/docs/community/getting_involved/" role="button">Get involved</a></p>
   <div class="home-hero__news">
-    <p><a href="https://clojureverse.org/t/clojure-community-check-in/">🌻 See you at the Clojure Community Check-In</a></p>
     <p><a href="/docs/community/events/">📅 Follow our events at the Clojure Events Calendar feed</a></p>
   </div>
 </div>
