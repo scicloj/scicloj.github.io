@@ -4,9 +4,8 @@
 # Hugo site published still exists, and uploads the result as an artifact you
 # can download and inspect. It never touches the live site.
 #
-# The `deploy` job is guarded until cutover, because `deploy-github.yml` (Hugo)
-# still owns the gh-pages branch. To enable it, delete the `false &&` from its
-# `if:` below and delete deploy-github.yml in the same commit.
+# The `deploy` job publishes to gh-pages, from master only. It deploys the very
+# artifact the build job verified, rather than rendering the site a second time.
 
 name: Quarto site
 
@@ -53,8 +52,7 @@ jobs:
 
   deploy:
     needs: build
-    # Guarded until cutover: remove `false &&` to enable.
-    if: false && github.event_name == 'push' && github.ref == 'refs/heads/master'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     permissions:
       contents: write

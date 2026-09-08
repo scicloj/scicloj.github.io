@@ -1,10 +1,10 @@
 The website of the [Scicloj](https://scicloj.org) group, published at
 <https://scicloj.github.io>.
 
-The site is being rewritten from Hugo ([Doks](https://getdoks.org/)) to
-[Quarto](https://quarto.org/). The Quarto sources live at the repository root;
-the legacy Hugo tree (`content/`, `config/`, `layouts/`, `package.json`, …) is
-still present and still owns the deployment until we cut over.
+The site is built with [Quarto](https://quarto.org/), whose sources live at the
+repository root. It was migrated from Hugo ([Doks](https://getdoks.org/)); the
+legacy Hugo tree was removed at cutover, and the last Hugo-built deployment is
+preserved in the `gh-pages` history.
 
 ### Local development
 
@@ -81,23 +81,20 @@ shortcodes are left as-is, which is also what Hugo did.
 
 - **`build`** runs on every branch, pull request and manual dispatch. It
   renders, runs `scripts/verify-urls.sh`, and uploads `_site` as an artifact.
-  It never touches the live site, so it is safe to run before cutover.
-- **`deploy`** publishes the artifact the build job already verified, to
-  `gh-pages` via `peaceiris/actions-gh-pages`. It is guarded until cutover.
+- **`deploy`** runs on pushes to `master` only. It downloads the artifact the
+  build job already verified and publishes it to `gh-pages` via
+  `peaceiris/actions-gh-pages`.
 
 Deploying the built artifact rather than re-rendering means the published bytes
-are exactly the ones the URL check passed.
+are exactly the ones the URL check passed. `verify-urls.sh` is therefore a real
+release gate: if a legacy URL disappears, `build` fails and `deploy` never runs.
 
-### Cutover checklist
+### Rollback
 
-When the Quarto site is ready to take over:
-
-1. In `.github/workflows/deploy-quarto.yml`, delete the `false &&` from the
-   `deploy` job's `if:`, and delete `.github/workflows/deploy-github.yml` in
-   the same commit so the two workflows never both own `gh-pages`.
-2. Delete the Hugo tree: `content/`, `config/`, `layouts/`, `i18n/`, `data/`,
-   `functions/`, `images/`, `theme.toml`, `netlify.toml`, `babel.config.js`,
-   `package.json`, `package-lock.json`, and the lint configs.
+`gh-pages` carries the full deploy history, including every Hugo build. To roll
+back, revert the offending commit on `master` and let the workflow republish, or
+force `gh-pages` back to a known-good commit. The last Hugo-built commit is
+`26868614`.
 
 ### Contributing
 
