@@ -1,11 +1,8 @@
 project:
   type: website
   output-dir: _site
-  # Only the Quarto sources are rendered. The legacy Hugo tree under content/
-  # is left untouched until cutover.
   render:
     - "**/*.qmd"
-    - "!content/**"
     - "!node_modules/**"
   # Regenerate the data-driven pages before every render, so they can never be
   # stale. Order matters: gen-libs writes a page that itself carries an
@@ -17,8 +14,9 @@ project:
     - scripts/gen-contributors.clj
   post-render:
     - scripts/post-render.sh
-  # Listed explicitly: glob patterns here are matched at any depth, which would
-  # otherwise sweep in images from the legacy content/ and images/ trees.
+  # Listed explicitly rather than globbed: patterns here match at any depth, so
+  # a bare "*.png" would sweep in every image anywhere in the tree, page-bundle
+  # images included. Keep new root-level assets on this list.
   resources:
     - "android-chrome-192x192.png"
     - "android-chrome-512x512.png"
@@ -33,9 +31,6 @@ project:
     - "sci-cloj-logo-transparent.svg"
     - "site.webmanifest"
     - "robots.txt"
-    # Keep the legacy Hugo tree out of the published site.
-    - "!content/**"
-    - "!images/**"
 
 website:
   title: "Scicloj"

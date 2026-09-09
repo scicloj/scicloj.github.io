@@ -112,6 +112,23 @@
     (for [n names] (str "- [" n "](/contributors/" (slug n) "/)"))
     [""])))
 
+(defn prune-stale!
+  "Remove contributor directories that no page attributes any more, so dropping
+   or renaming an `author:` does not leave an orphan page behind. Only
+   directories directly under contributors/ are considered, so the generated
+   contributors/index.qmd is never touched.
+
+   Refuses to run on an empty author list: that means something went wrong
+   upstream, not that every contributor was legitimately removed."
+  [names]
+  (when (seq names)
+    (let [wanted (set (map slug names))]
+      (doseq [d (fs/list-dir out-dir)
+              :when (and (fs/directory? d)
+                         (not (contains? wanted (fs/file-name d))))]
+        (fs/delete-tree d)
+        (println "removed stale contributor page:" (fs/file-name d))))))
+
 (defn -main []
   (let [ps (posts)
         by-author (reduce (fn [m p]
@@ -125,6 +142,7 @@
          (str d "/index.qmd")
          (contributor-page n (sort-by :date #(compare %2 %1) (by-author n))))))
     (write-if-changed! (str out-dir "/index.qmd") (index-page names))
+    (prune-stale! names)
     (println (format "contributors: %d pages from %d authored pages"
                      (count names) (count ps)))))
 

@@ -20,6 +20,7 @@
   {:tag/id "vega", :tag/description "visualization using [Vega](https://vega.github.io/vega/)/[Vega-lite](https://vega.github.io/vega-lite/) specifications"}
   {:tag/id "lit", :tag/description "literate programming"}
   {:tag/id "ui", :tag/description "building UIs for data exploration"}
+  {:tag/id "hiccup", :tag/description "using [Hiccup](https://github.com/weavejester/hiccup)-style markup"}
   {:tag/id "geo", :tag/description "geographical and geometrical data processing"}
   {:tag/id "df", :tag/description "dataframe-like data structures and abstractions"}
   {:tag/id "data", :tag/description "general data processing"}
@@ -36,7 +37,12 @@
   {:tag/id "dnn", :tag/description "deep learning"}
   {:tag/id "opt", :tag/description "optimization"}
   {:tag/id "graph", :tag/description "graph algorithms and network analysis"}
+  {:tag/id "pmap", :tag/description "parallel version of Clojure's `pmap`"}
+  {:tag/id "for", :tag/description "parallel version of Clojure's `for`"}
+  {:tag/id "future", :tag/description "parallel version of Clojure's `future`"}
   {:tag/id "interop", :tag/description "general libraries for interop"}
+  {:tag/id "py", :tag/description "interop with Python"}
+  {:tag/id "r", :tag/description "interop with R"}
   {:tag/id "cljs", :tag/description "supports not only Clojure but also Clojurescript"}
   {:tag/id "nlp", :tag/description "natural language processing"}
   {:tag/id "llm", :tag/description "large language models and related services"}]
@@ -47,12 +53,17 @@
                       ;;
                       ;; Perhaps we can be even clearer on what the call to action / "job to be done" for tags :)
                       ]
+
  ;; The page's prose, above the tag legend. One string per line of Markdown.
  :preamble
  ["---"
   "title: \"Tools and libraries\""
   "description: \"Clojure tools and libraries for data and science\""
   "date: 2022-02-14"
+  ;; Bump this when the library data below changes: the sitemap's <lastmod>
+  ;; for this page follows date-modified, and falls back to `date` (2022)
+  ;; without it. Currently the date of the last change to the library list.
+  "date-modified: 2025-03-18"
   "author: [\"daslu\"]"
   "---"
   ""
@@ -250,7 +261,7 @@
     :lib/url
     "https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-clojure.html",
     :lib/category :visual-tools,
-    :tags #{:lt},
+    :tags #{:lit},
     :star :star,
     :description "executing Clojure inside Emacs Org-mode documents"}
    {:lib/name "Devcards",

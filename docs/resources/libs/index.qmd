@@ -2,6 +2,7 @@
 title: "Tools and libraries"
 description: "Clojure tools and libraries for data and science"
 date: 2022-02-14
+date-modified: 2025-03-18
 author: ["daslu"]
 ---
 
@@ -24,6 +25,7 @@ We tag libraries with the field they are relevant to.
 * `vega` - visualization using [Vega](https://vega.github.io/vega/)/[Vega-lite](https://vega.github.io/vega-lite/) specifications
 * `lit` - literate programming
 * `ui` - building UIs for data exploration
+* `hiccup` - using [Hiccup](https://github.com/weavejester/hiccup)-style markup
 * `geo` - geographical and geometrical data processing
 * `df` - dataframe-like data structures and abstractions
 * `data` - general data processing
@@ -40,7 +42,12 @@ We tag libraries with the field they are relevant to.
 * `dnn` - deep learning
 * `opt` - optimization
 * `graph` - graph algorithms and network analysis
+* `pmap` - parallel version of Clojure's `pmap`
+* `for` - parallel version of Clojure's `for`
+* `future` - parallel version of Clojure's `future`
 * `interop` - general libraries for interop
+* `py` - interop with Python
+* `r` - interop with R
 * `cljs` - supports not only Clojure but also Clojurescript
 * `nlp` - natural language processing
 * `llm` - large language models and related services
@@ -68,7 +75,7 @@ These other lists of libraries are very relevant to the emerging Clojure data sc
 - [Oz](https://github.com/metasoarous/oz) (`act`): `lit`,`vega`,`vis` - data visuzliation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming
 - [rmarkdown-clojure](https://github.com/genmeblog/rmarkdown-clojure) :star:: `lit`,`vis` - rendering Clojure code in various format using [Rmarkdown](https://rmarkdown.rstudio.com/)
 - [Pink-Gorilla/Goldly](https://github.com/pink-gorilla/goldly) :star: (`act`): `cljs`,`exp`,`lit`,`ui`,`vis` - a port of the Gorilla REPL project using a Clojurescript (Reagent) frontend
-- [Org-babel-clojure](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-clojure.html) :star:: `lt` - executing Clojure inside Emacs Org-mode documents
+- [Org-babel-clojure](https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-clojure.html) :star:: `lit` - executing Clojure inside Emacs Org-mode documents
 - [Devcards](https://github.com/bhauman/devcards) :star:: `cljs`,`lit` - visual repl exprience for Clojurescript
 - [Notespace](https://github.com/scicloj/notespace): `lit` - notebook experience with Clojure namespaces edited at any editor
 - [Reveal](https://vlaaad.github.io/reveal/) :star: (`act`):  - browser-based data navigation GUI
