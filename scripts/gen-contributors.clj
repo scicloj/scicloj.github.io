@@ -4,9 +4,13 @@
 ;; Hugo had a `contributors` taxonomy that produced these pages automatically.
 ;; Quarto has no taxonomies, and its listing `include:` filter did not filter
 ;; on `author` here, so each contributor page instead gets an explicit
-;; `contents:` list. Re-run this after adding or re-attributing a blog post:
+;; `contents:` list.
 ;;
 ;;   bb scripts/gen-contributors.clj
+;;
+;; Run automatically before every render, via `pre-render:` in _quarto.yml, so
+;; adding or re-attributing a page is enough — these pages follow on their own.
+;; It runs after gen-libs.clj, whose generated page also carries an `author`.
 
 (require '[clojure.string :as str]
          '[babashka.fs :as fs])
@@ -15,6 +19,15 @@
 (def repo-root (-> script-dir fs/parent str))
 (def content-dirs ["blog" "docs"])
 (def out-dir (str repo-root "/contributors"))
+
+(defn write-if-changed!
+  "Write only when the content actually differs. This runs before every render,
+   and rewriting these files each time would make `quarto preview` see its own
+   output and re-render in a loop."
+  [f content]
+  (when-not (and (fs/exists? f) (= content (slurp f)))
+    (spit f content)
+    true))
 
 (defn front-matter
   "Return the YAML front-matter lines of a qmd file."
@@ -108,11 +121,11 @@
     (doseq [n names]
       (let [d (str out-dir "/" (slug n))]
         (fs/create-dirs d)
-        (spit (str d "/index.qmd")
-              (contributor-page n (sort-by :date #(compare %2 %1) (by-author n))))
-        (println (format "%-16s -> /contributors/%s/  (%d posts)"
-                         n (slug n) (count (by-author n))))))
-    (spit (str out-dir "/index.qmd") (index-page names))
-    (println "wrote" (str out-dir "/index.qmd"))))
+        (write-if-changed!
+         (str d "/index.qmd")
+         (contributor-page n (sort-by :date #(compare %2 %1) (by-author n))))))
+    (write-if-changed! (str out-dir "/index.qmd") (index-page names))
+    (println (format "contributors: %d pages from %d authored pages"
+                     (count names) (count ps)))))
 
 (-main)

@@ -44,22 +44,29 @@ redirect stubs for Hugo's old pagination URLs (`/blog/page/2/` etc.).
 
 ### Generated pages
 
-Two pages are generated and should not be edited by hand:
+Two pages are generated and should not be edited by hand — anything you write
+into them is overwritten on the next render:
 
-- **Tools and libraries** (`docs/resources/libs/index.qmd`) is generated from
-  `scripts/model.edn`:
-
-  ```bash
-  bb scripts/gen-libs.clj libs.md
-  ```
+- **Tools and libraries** (`docs/resources/libs/index.qmd`) comes from
+  `scripts/model.edn`, which holds the whole page as data: the tag legend
+  (`:tags`), the prose above it (`:preamble`), the headings in order
+  (`:sections`) and the libraries themselves (`:libs`). Adding a library,
+  retagging one, rewording the intro and adding a new section are all edits to
+  that file; `scripts/gen-libs.clj` never needs to change.
 
 - **Contributors** (`contributors/**`) reproduces Hugo's `contributors`
-  taxonomy from the `author:` field of every page. Re-run after adding or
-  re-attributing a page:
+  taxonomy from the `author:` field of every page.
 
-  ```bash
-  bb scripts/gen-contributors.clj
-  ```
+Both run automatically as `pre-render:` hooks (see `_quarto.yml`), so editing
+the data is enough — locally and in CI. They need [babashka](https://babashka.org);
+the CI workflow installs it. To run one by hand, or to preview its output
+without writing anything:
+
+```bash
+bb scripts/gen-libs.clj              # write the page, if it changed
+bb scripts/gen-libs.clj --show       # print it to stdout instead
+bb scripts/gen-contributors.clj
+```
 
 ### Theme
 
