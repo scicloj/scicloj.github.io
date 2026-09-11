@@ -1,8 +1,7 @@
 {;; The whole content of the "Tools and libraries" page, as data.
  ;;
- ;; scripts/gen-libs.clj renders this into docs/resources/libs/index.qmd, which
- ;; is a build product — edit this file, never the page. The generator needs no
- ;; change to add a library, retag one, reword the prose or add a new section.
+ ;; Rendered into docs/resources/libs/index.qmd by
+ ;; notebooks/docs/resources/libs/index.clj - edit this file, never the page.
  ;;
  ;;   :tags      the tag legend
  ;;   :preamble  the prose above it
@@ -55,27 +54,17 @@
                       ]
 
  ;; The page's prose, above the tag legend. One string per line of Markdown.
+ ;; Front matter is in the notebook's ns metadata, `date-modified` included.
  :preamble
- ["---"
-  "title: \"Tools and libraries\""
-  "description: \"Clojure tools and libraries for data and science\""
-  "date: 2022-02-14"
-  ;; Bump this when the library data below changes: the sitemap's <lastmod>
-  ;; for this page follows date-modified, and falls back to `date` (2022)
-  ;; without it. Currently the date of the last change to the library list.
-  "date-modified: 2025-03-18"
-  "author: [\"daslu\"]"
-  "---"
-  ""
-  "---------------------------------------------------------------------------------------"
-  "To supplement our opinionated discussions of the ecosystem, here is a less-opinionated, plain list of relevant libraries written by Clojurians. Not all libraries mentioned here are affiliated with Scicloj, but we seek to be in dialogue with library authors as much as possible."
-  ""
-  "Do you know about anything relevant that is missing here? - [Let us talk](../../community/contact)!"
-  ""
-  "For every library, we mark whether it is actively developed (`act`), and whether it is still experimental (`exp`)."
-  "A star (:star:) means that we know the library to be actively used and useful."
-  ""
-  "We tag libraries with the field they are relevant to."]
+ "---------------------------------------------------------------------------------------
+To supplement our opinionated discussions of the ecosystem, here is a less-opinionated, plain list of relevant libraries written by Clojurians. Not all libraries mentioned here are affiliated with Scicloj, but we seek to be in dialogue with library authors as much as possible.
+
+Do you know about anything relevant that is missing here? - [Let us talk](../../community/contact)!
+
+For every library, we mark whether it is actively developed (`act`), and whether it is still experimental (`exp`).
+A star (:star:) means that we know the library to be actively used and useful.
+
+We tag libraries with the field they are relevant to."
 
  ;; The page's headings, in order. :category names a group in :libs below;
  ;; a section without one is prose only. :intro and :after are emitted
@@ -83,9 +72,9 @@
  :sections
  [{:heading "## Other lists :link: {#other-lists-}"
    :intro "These other lists of libraries are very relevant to the emerging Clojure data science stack:"
-   :after ["- [Clojurelog](https://clojurelog.github.io/) :star: by the XTDB team - a comparison of various Clojure-Datalog databases"
-           "- [Clojure DSL resources](https://github.com/simongray/clojure-dsl-resources) :star: by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with domain-specific languages, in particular parsing and data transformation with/of DSLs."
-           "- [Clojure graph resources](https://github.com/simongray/clojure-graph-resources) :star: by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with graph-like data"]}
+   :after "- [Clojurelog](https://clojurelog.github.io/) :star: by the XTDB team - a comparison of various Clojure-Datalog databases
+- [Clojure DSL resources](https://github.com/simongray/clojure-dsl-resources) :star: by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with domain-specific languages, in particular parsing and data transformation with/of DSLs.
+- [Clojure graph resources](https://github.com/simongray/clojure-graph-resources) :star: by Simon Gray - a curated list of mostly mature and/or actively developed Clojure resources relevant for dealing with graph-like data"}
 
   {:heading "## Diverse toolsets"
    :category :div-tools}
@@ -111,7 +100,7 @@
 
   {:heading "## Dataframe-like structures"
    :category :dataframe-like-structures
-   :after ["- see also geni :star: under the Spark sub category below"]}
+   :after "- see also geni :star: under the Spark sub category below"}
 
   {:heading "## Spreadsheets"
    :category :spreadsheets}
@@ -151,7 +140,7 @@
 
   {:heading "## Interop"
    :category :interop
-   :after ["- [other R interop libraries](https://github.com/scicloj/clojisr/blob/master/doc/existing_libraries.md)"]}
+   :after "- [other R interop libraries](https://github.com/scicloj/clojisr/blob/master/doc/existing_libraries.md)"}
 
   {:heading "## Parallel computing"
    :category :parallel-computing}

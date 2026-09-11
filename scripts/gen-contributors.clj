@@ -36,6 +36,19 @@
     (when (= "---" (str/trim (first lines)))
       (take-while #(not= "---" (str/trim %)) (rest lines)))))
 
+(defn unquote-scalar
+  "Strip one layer of surrounding YAML quotes, single or double.
+
+   Both styles occur here: hand-written pages use double quotes, and the
+   front matter Clay writes for the notebook-sourced pages is emitted by
+   clj-yaml, which single-quotes dates (date: '2022-02-14'). Without this,
+   a date sorts under the quote character and the page lands at the wrong
+   place in its contributors listing."
+  [s]
+  (some-> s
+          (str/replace #"^\"(.*)\"$" "$1")
+          (str/replace #"^'(.*)'$" "$1")))
+
 (defn field [fm k]
   (some (fn [line]
           (when-let [[_ v] (re-matches (re-pattern (str "\\s*" k "\\s*:\\s*(.*?)\\s*")) line)]
@@ -45,7 +58,7 @@
 (defn parse-list [s]
   (if-let [[_ inner] (some->> s (re-matches #"\[(.*)\]"))]
     (->> (str/split inner #",")
-         (map #(-> % str/trim (str/replace #"^\"(.*)\"$" "$1")))
+         (map #(-> % str/trim unquote-scalar))
          (remove str/blank?)
          vec)
     (if (str/blank? s) [] [s])))
@@ -69,8 +82,8 @@
                      authors (parse-list (field fm "author"))]
                  (when (seq authors)
                    {:path (str (fs/relativize repo-root f))
-                    :title (-> (field fm "title") (str/replace #"^\"(.*)\"$" "$1"))
-                    :date (field fm "date")
+                    :title (unquote-scalar (field fm "title"))
+                    :date (unquote-scalar (field fm "date"))
                     :authors authors}))))))
 
 (defn contributor-page [name posts]

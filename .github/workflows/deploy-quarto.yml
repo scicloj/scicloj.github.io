@@ -33,16 +33,31 @@ jobs:
           # deliberately rather than drifting with the runner.
           version: 1.9.37
 
-      # `quarto render` runs scripts/gen-libs.clj and scripts/gen-contributors.clj
-      # as pre-render hooks, so the generated pages are rebuilt from their data
-      # here rather than trusted from the commit. Without babashka the render
-      # fails outright; it does not silently skip them.
-      - name: Set up Babashka
+      # The pre-render hooks rebuild the generated pages from their data rather
+      # than trusting the commit. Without these tools the render fails outright.
+      - name: Set up Java
+        uses: actions/setup-java@v6
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Set up Babashka and the Clojure CLI
         uses: DeLaGuardo/setup-clojure@13.6.1
         with:
-          # Pinned to the version the site is developed against, like Quarto
+          # Pinned to the versions the site is developed against, like Quarto
           # above; bump deliberately rather than drifting with the runner.
           bb: 1.12.208
+          cli: 1.12.2.1565
+
+      - name: Cache Clojure dependencies
+        uses: actions/cache@v6
+        with:
+          path: |
+            ~/.m2/repository
+            ~/.gitlibs
+            ~/.deps.clj
+          key: cljdeps-${{ hashFiles('deps.edn') }}
+          restore-keys: cljdeps-
 
       - name: Render site
         run: quarto render

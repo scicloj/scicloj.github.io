@@ -1,0 +1,15 @@
+{:base-source-path   "notebooks"
+ :base-target-path   "."
+ :quarto-target-path ".clay-staging"   ; scripts/clay-make.clj copies from here
+ :quarto             ^:replace {}      ; else it overrides _quarto.yml's format
+ :subdirs-to-sync    []
+ :keep-sync-root     false
+ :flatten-targets    false
+ :hide-info-line     true
+ :remote-repo        {:git-url "https://github.com/scicloj/scicloj.github.io"
+                      :branch  "master"}
+
+ :markdown
+ {:render     true
+  :format     [:quarto :html]
+  :run-quarto false}}

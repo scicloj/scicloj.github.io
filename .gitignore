@@ -2,6 +2,13 @@
 /_site/
 /.quarto/
 
+# Clay
+/.clay-staging/
+/temp/
+/.cpcache/
+.nrepl-port
+.clat.html
+
 # Legacy Hugo build output (removed at cutover)
 node_modules
 public

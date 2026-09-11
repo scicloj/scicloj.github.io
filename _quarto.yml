@@ -4,13 +4,12 @@ project:
   render:
     - "**/*.qmd"
     - "!node_modules/**"
-  # Regenerate the data-driven pages before every render, so they can never be
-  # stale. Order matters: gen-libs writes a page that itself carries an
-  # `author:`, which gen-contributors then indexes. Both write only when the
-  # content actually changed, so `quarto preview` does not see its own output
-  # and re-render in a loop. Requires babashka (see .github/workflows).
+    - "!notebooks/**"
+  # Order matters: clay-make renders a page carrying an `author:`, which
+  # gen-contributors then indexes. Both write only on a change, or `quarto
+  # preview` would loop on its own output.
   pre-render:
-    - scripts/gen-libs.clj
+    - scripts/clay-make.clj
     - scripts/gen-contributors.clj
   post-render:
     - scripts/post-render.sh

@@ -8,8 +8,10 @@ preserved in the `gh-pages` history.
 
 ### Local development
 
-Requires [Quarto](https://quarto.org/docs/get-started/) and, for the generator
-scripts, [babashka](https://github.com/babashka/babashka).
+Requires [Quarto](https://quarto.org/docs/get-started/), plus
+[babashka](https://github.com/babashka/babashka) and the
+[Clojure CLI](https://clojure.org/guides/install_clojure) (with a JVM) for the
+generators that run before every render.
 
 Render the whole site:
 
@@ -48,24 +50,49 @@ Two pages are generated and should not be edited by hand — anything you write
 into them is overwritten on the next render:
 
 - **Tools and libraries** (`docs/resources/libs/index.qmd`) comes from
-  `scripts/model.edn`, which holds the whole page as data: the tag legend
+  `scripts/model.edn`, which holds the page's content as data: the tag legend
   (`:tags`), the prose above it (`:preamble`), the headings in order
   (`:sections`) and the libraries themselves (`:libs`). Adding a library,
   retagging one, rewording the intro and adding a new section are all edits to
-  that file; `scripts/gen-libs.clj` never needs to change.
+  that file. The notebook that renders it,
+  `notebooks/docs/resources/libs/index.clj`, holds only the front matter
+  (`date-modified:` included - bump it when the data changes) and the
+  formatting.
 
 - **Contributors** (`contributors/**`) reproduces Hugo's `contributors`
   taxonomy from the `author:` field of every page.
 
 Both run automatically as `pre-render:` hooks (see `_quarto.yml`), so editing
-the data is enough — locally and in CI. They need [babashka](https://babashka.org);
-the CI workflow installs it. To run one by hand, or to preview its output
-without writing anything:
+the data is enough. To run one by hand:
 
 ```bash
-bb scripts/gen-libs.clj              # write the page, if it changed
-bb scripts/gen-libs.clj --show       # print it to stdout instead
+bb scripts/clay-make.clj              # render the notebooks, write what changed
+bb scripts/clay-make.clj --show       # report what would change instead
 bb scripts/gen-contributors.clj
+```
+
+### Notebooks (Clay)
+
+Pages under `notebooks/` are rendered to `.qmd` by
+[Clay](https://scicloj.github.io/clay/). A notebook's output path comes from its
+namespace, which is what keeps the `<url-path>/index.qmd` convention above:
+
+```
+notebooks/docs/resources/libs/index.clj   (ns docs.resources.libs.index)
+    -> docs/resources/libs/index.qmd      -> /docs/resources/libs/
+```
+
+A `-` in a namespace segment becomes `_` in the path, so a page at a hyphenated
+URL cannot be sourced this way as things stand.
+
+To work on a notebook, start a REPL with `clojure -M:nrepl` and re-render as you
+edit. Pass `:base-target-path` - without it, `clay.edn` targets the repository
+root and Clay writes a stray `index.html` next to the page's `.qmd`:
+
+```clojure
+(require '[scicloj.clay.v2.api :as clay])
+(clay/make! {:source-path      "notebooks/docs/resources/libs/index.clj"
+             :base-target-path "temp"})
 ```
 
 ### Theme
