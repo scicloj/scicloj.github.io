@@ -86,13 +86,11 @@ A `-` in a namespace segment becomes `_` in the path, so a page at a hyphenated
 URL cannot be sourced this way as things stand.
 
 To work on a notebook, start a REPL with `clojure -M:nrepl` and re-render as you
-edit. Pass `:base-target-path` - without it, `clay.edn` targets the repository
-root and Clay writes a stray `index.html` next to the page's `.qmd`:
+edit. Clay's own output goes to the git-ignored `temp/`:
 
 ```clojure
 (require '[scicloj.clay.v2.api :as clay])
-(clay/make! {:source-path      "notebooks/docs/resources/libs/index.clj"
-             :base-target-path "temp"})
+(clay/make! {:source-path "notebooks/docs/resources/libs/index.clj"})
 ```
 
 ### Theme

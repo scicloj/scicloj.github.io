@@ -7,7 +7,7 @@
 /temp/
 /.cpcache/
 .nrepl-port
-.clat.html
+.clay.html
 
 # Legacy Hugo build output (removed at cutover)
 node_modules

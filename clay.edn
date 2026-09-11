@@ -1,5 +1,5 @@
 {:base-source-path   "notebooks"
- :base-target-path   "."
+ :base-target-path   "temp"
  :quarto-target-path ".clay-staging"   ; scripts/clay-make.clj copies from here
  :quarto             ^:replace {}      ; else it overrides _quarto.yml's format
  :subdirs-to-sync    []
