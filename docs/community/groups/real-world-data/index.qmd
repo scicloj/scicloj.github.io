@@ -12,7 +12,9 @@ The real-world-data group is about the use of Clojure for data and science probl
 The group usually meets every Friday, 18:00 [UTC time zone](https://time.is/utc),
 except for some special meetings.
 
-* September 18th, 2026 - meeting 74 - agenda: discussed at the Zulip chat - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-74/)
+* September 25th, 2026 - meeting 76 - agenda: discussed at the Zulip chat - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-76/15003)
+* September 23th, 2026 - meeting 75 - special day - agenda: Plotje - :calendar: [event](https://clojureverse.org/t/clojure-real-world-data-75-special-day-plotje/)
+* September 18th, 2026 - meeting 74 - agenda: discussed at the Zulip chat
 * September 11th, 2026 - meeting 73 - agenda: discussed at the Zulip chat
 * September 4th, 2026 - meeting 72 - agenda: discussed at the Zulip chat
 * August 28th, 2026 - meeting 71 - Special: Plotje, Clay & Membrane - :movie_camera: [recording](https://www.youtube.com/watch?v=l-vUVbjWJts)
