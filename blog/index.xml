@@ -10,9 +10,11 @@
 <atom:link href="https://scicloj.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>The Scicloj Blog.</description>
 <image>
-<url>https://scicloj.github.io/sci-cloj-logo-transparent.png</url>
+<url>https://scicloj.github.io/Scicloj.png</url>
 <title>Scicloj Blog</title>
 <link>https://scicloj.github.io/blog/</link>
+<height>144</height>
+<width>144</width>
 </image>
 <generator>quarto-1.9.37</generator>
 <lastBuildDate>Thu, 10 Jul 2025 00:00:00 GMT</lastBuildDate>
