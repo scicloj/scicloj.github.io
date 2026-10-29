@@ -15,7 +15,7 @@ anchor-sections: false
 </style>
 
 <div class="home-hero">
-  <img class="home-hero__logo" src="sci-cloj-logo-transparent.png" alt="Scicloj logo">
+  <img class="home-hero__logo" src="Scicloj.png" alt="Scicloj logo">
   <div class="home-hero__title">Scicloj</div>
   <p class="home-hero__subtitle">Helping Clojure grow in new fields</p>
   <p><a class="btn btn-gradient btn-lg" href="/docs/community/getting_involved/" role="button">Get involved</a></p>
